@@ -1,0 +1,244 @@
+{
+  "signals": {
+    "domain": "princeton.edu",
+    "fetchedAt": "2026-11-10T11:51:58.563Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n\n# Pager links. All the stuff we want paginated is already exposed\n# in the XML sitemap. No need to crawlers to waste time going thru\n# the news and events pagers.\nDisallow: /*?page=\nDisallow: /*&page=\n\n# Search with keys\nDisallow: /search?search=\n",
+      "url": "https://www.princeton.edu/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL \"https://www.princeton.edu/llms.txt\" was not found on this server.</p></body></html>",
+      "url": "https://www.princeton.edu/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL \"https://www.princeton.edu/llms-full.txt\" was not found on this server.</p></body></html>",
+      "url": "https://www.princeton.edu/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-cBd43LFMhWV19y56Q3Pt80&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"cBd43LFMhWV19y56Q3Pt80\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'VJ_lA0ogzaW17C1WSebs3jK2H0ra2X.XPUhHcBchyOw-1794311516-1.2.1.1-M3wgPnj07dfBKbbCJlLXdNsNzKwVKJA6cXzw2NLOqdU5iIrL3mEvcEIl9obrrRMq',cITimeS: '1794311516',cN: 'cBd43LFMhWV19y56Q3Pt80',cRay: 'a584d9215e83646a',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=BMl29.6TBjnar_aELddSoW_ttLDerQOLwpsI4tQmeDU-1794311516-1.0.1.1-I2bLi30uOCrzgf6SbE.vbR2fxe8eeApTzjBuydpm198\",cvId: '3',cZone: 'www.princeton.edu',fa:\"/?__cf_chl_f_tk=BMl29.6TBjnar_aELddSoW_ttLDerQOLwpsI4tQmeDU-1794311516-1.0.1.1-I2bLi30uOCrzgf6SbE.vbR2fxe8eeApTzjBuydpm198\",md: 'mn0kcd6swpCJRNhFj2GxiJ6B4HKlBXdMihUb7qXJs6M-1794311516-1.2.1.1-FOQNfILcgrjfbwSp9931RQGDCSdF5BqBHlZP6AFThy0z1MkMLDY2wvX12LR9hWPsqZGpD6grUw9DPdakrZEr_hn3RybTohtJM1AKMrPtsH9ekWVeG8aJ9dZjnf7mTvsI3oF9j840RLers0hLZA_cYFu4sT8l090HlOpzf9X6oFKmZL0ZpwygUZWZ7b63rwoIXuQ5SvXM9Rc03.0QOnTj7_bzYFcazXf4IrAOR0r7FmIKiCoMR_95I_rKYQBmXL63IL85h.F_n6fJRlAvQqgqQJ93CeKgNcTNJ9s8r9ymIL1woRd4qCXpZv7H2v0j15mZvIaEmCtTENKMHCTFAGC0K0r1yJNVuLtJTg_iZlHmAmx7xWoPbWVVf1gvY5ja4Ww9ElwvdwF12IBJSKVkwwp8jsoZghKhLahEl4H_a_pOg2cWJPvsaXNcQkbqyN7DycwwmzS7a80tMZMG.XeOxc1gifpTZGBBdmYjKI2V42jTJJBLuHy6cfMa84We8exA.9Pr_Ht0dbASdr752qgoflpcYcKM6vbPFWq4lh_rNI1Kt8N.PwGsw.w5EOrmvoZFJ367G3b7PBApfvSdKcubsKT9v28JCo.0rvHsxDIjx00mSrE_PbIp528_T77SFdn5yJFRFlj3AVuYx9Cra4TsdO05sm4KeS4ZO.VS6yQIs0sZ2p1RZ88ee6QOKCk.enR54vVaBafdVnUMl6PwfGf4vHH3tu1erpWKbU2pzTHsfOBFjZ7xyyD_sC8D8QWOp7P65OZwwOZFt1KkzbNRnbqVOsigivLyRCYm.aI7jHYBtKMe8uwRsf9Ir18DU62ZAV9RPEsWcSV0Pu5lHYxL_reCtO8kWuNpHWzGaijF.uX_Xx7Zka.3s7JLf2aIvy4poI89.MwTirz6DHILWBiITRb23WGlHuY6hw52RqJIFaeBkf4eZBsl5NLgciOtsSg4QxSFJtgLgNCkBnxMiMGMMX5C4eOmutPex9.3YmbEZIKSXXVKbJfOKgyKGbtnNBIRybnbrzo1HN1RavgE0tlTC5aMJxgDP9KyNnVMzAPAT2uHQUM3wBvEmEoVOUcW0_vQWrPoUSDI7hHay5T01czkOwphPzrsSPs7HskZkNrbZc6SWcN49CIlzF21nE_tQLiaRPw8roJx',mdrd: 'N2kS8f_DJiiQ1HWekzieIRM0pbZHcwyEQNF603wUAqc-1794311516-1.2.1.1-os2RaxSJy21JFPfKUU_6tj7UVlJS5TqcH8pjZe6SZFltIRDcqiHMizCtsr3ovLxBsMsoc.wMvG__Q9yUazsJ4FpmCIuYnbyS0bzGdLqthNv5KIEOkwi_k7fgMeovr8ECQkgqC8cspRkKhRN7S.8NJFyXG0mmNARKJCntRxCvALhYqTkLAd43dnrPO1P9mpx7reHozLhTP7lg4wukByQobzMH9oaFyZcqCfceOQOZTAJDnfDBx5lX4xzxcg1qXxkzOcmp3wV8l_SUaWB8tzQQczY5MdmwhCNFecuCgGbCMWWBniGzc3oEZy6_GeIOKZ_KPqrPD1icbP_NzuJ6Y6NGjuTYkJ2USjQP4HALt6uaG6OUWyb2kVVbhfGMR_MK7VZ3mmyuPu9W.2t0i0_0JpACbaNkYuBZAEs5H3cTPVPTj0A',};var a = document.createElement('script');a.nonce = 'cBd43LFMhWV19y56Q3Pt80';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a584d9215e83646a';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=BMl29.6TBjnar_aELddSoW_ttLDerQOLwpsI4tQmeDU-1794311516-1.0.1.1-I2bLi30uOCrzgf6SbE.vbR2fxe8eeApTzjBuydpm198\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.princeton.edu/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-ZFDfTzPLVEwLEEfRIX1wqa&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"ZFDfTzPLVEwLEEfRIX1wqa\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '12Qk2eVUxgLKVsWbw5_kfmw1e.VCHoHf96ywSU1We.8-1794311516-1.2.1.1-EcZ5IooURtqzcyMT4I82y3b3rk8A._xMyXqiOZNpUlYXpFG3cSxVjku9XVv4e_fo',cITimeS: '1794311516',cN: 'ZFDfTzPLVEwLEEfRIX1wqa',cRay: 'a584d9243ba74d9f',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=1tqGYZB7nd8H49eoreecb6Mq_6OjJ9cZNj1Fg_AFWK8-1794311516-1.0.1.1-6SWq.50kP3Yg23q4z_jDwEcBt2DVgSXYFemm9jQk6tY\",cvId: '3',cZone: 'www.princeton.edu',fa:\"/sitemap.xml?__cf_chl_f_tk=1tqGYZB7nd8H49eoreecb6Mq_6OjJ9cZNj1Fg_AFWK8-1794311516-1.0.1.1-6SWq.50kP3Yg23q4z_jDwEcBt2DVgSXYFemm9jQk6tY\",md: 'u3C0Xnt6ctc1oEDCrAw2V8fNGom.n5mmZlZNZaa1Svs-1794311516-1.2.1.1-Sg0gs3E0jPayZX7qktGWIKfhlbGxZc_JN.Fz5PRhCXMK7zAlEOHseCPU6E2UJwqgZqjVQCRMBry1GHu8AR2CeVA116aUI6L_Fcbd48_H4g5fvljDGx7K3WYLOaeFuQuqThrwLNNxN1VP0iO1Ayc92sFvVIhYD.gYszJW60IW93aFgJXNpwL5i.jojapsBF1DXLk.YRgYhodAwmWE4_KuSwWHFy4CaDTvul7lzil39rYXCrI6e8mZwa6W35SVU4fh1gsYlP0SwuhpINOGwba.z.HdXuKe.cTJUTqI3M2rUqtTzlqZaZD.KsH49DVUsX4pLV_2.UzNIvNDuyElVdB3pvGu.YDr9XJbDmi8WFs9KK5WQOnaxjYf88roCOSGm2Z4ig8sch6eDvn7Regkw6djzAmkRcCR4scRbE3qKG_a5uoPPJIFQRfLb8SE9UHUPv_HItKNzw.VMn15hE7Mw_d1jfgqOKKCc3_ei74MGCZwoAQ7bDE.CP9fNdGhyTJZBkd5_pVbcVN.brY5Nlg87ofbHqbiHxTKL1shmoKDg72MQohbVcqLDRLiGEzy7PyeXvfxst7OLXOg_WBMYw2s7qSYQwo7WzuO_eOG_qGzt8HkeJpFQZnJWeAfnCOIXkM8n1MepWW1jydt.eoVBTUmx2ladUlvpaWL4bh5qYFZV5CaJuAo0rnBcsSmzJczS4_sYO210kHhFzBFCaQ31zqk2m7JUoY5M_Vf.qgfjkZTonis18Oti8Ul7.SRuO6UR7qWJkXWedh9lioXsC1z2lpy75GZOLuXi..AFmjpX_Ocd08N01ui82yhdvxn.dJkhmJASKccyTgUoiLoJ3la3roItZfJUx9fY4Sev2giJRKKnC7GaV2fEFTupyN00.1qRyZiJ96sC8OMqaANLM.Z8tCryXLZoC9RchBxE8puSdLQ5Qib0VIX_FMuVqGgFH_56KXFnVJVxNWcqzl_20td0lqUfaYPwhEjE6CVZfPM4IuPp32al9W1LdSTPk73E9Zq5cfs5gG9r0G.cBaFBy_xu_pjOXT58NV.gYvsi5XbXbZqvcM72VPCq9M4T5xbnRsxU7MIwlAB5ZYVneBnnY6OCbpl0nzZl3qXNRBgEImdBFL_7R1mp7l.d61glT2CHT_Vdyg3KnI_',mdrd: 'eh7QaWpTnQc9vVGFfMgdVUM_g5DnhpMTYNiN0V7VP4Q-1794311516-1.2.1.1-TYn9CCM3mm3.o8XE0pl8fAOAC0H8_7NCmgphzNbvbzmwBd8IhNzslQCof4rMjDmiCEjvcLQlYQCskFsrFRprwNubejgfsXJRPpFYRqHsWo6P.fxStWd3tHJeRyMlFFoXmc3URUVBJAJFLllIOJ7zGdpeS5ZZy1JXuLHFlHy4B.VtkJJNcnekKupba10gSDbX8opBTAm.5oxr9Xjzbse0qY5iMiGNe5T9oSKiegJLDT95SSLce6bcKqj_dPGH_TL5TVCa1uV1ehXCvAmfkuUYxM7iSORrjH26Lu65gSzjTqTlrfe5jiPamie5QZ52bLAEegzhT8Jp8Ul2_fzni_iXtj464UZXMoC0vebIbS6PVn6hfGvDyx1JVfyNvz2kcoDsElNUfaxkqc3XploJDxO36wh13a_9QMydMNYC4YynM0s',};var a = document.createElement('script');a.nonce = 'ZFDfTzPLVEwLEEfRIX1wqa';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a584d9243ba74d9f';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=1tqGYZB7nd8H49eoreecb6Mq_6OjJ9cZNj1Fg_AFWK8-1794311516-1.0.1.1-6SWq.50kP3Yg23q4z_jDwEcBt2DVgSXYFemm9jQk6tY\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.princeton.edu/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-0WkLOPA5NKxUpkCgGYQryp&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"0WkLOPA5NKxUpkCgGYQryp\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'nsVLaKJaTY73mZrT89jOGBb6Om4heP_GRZydLKMc8kA-1794311517-1.2.1.1-f1svC4a64phZKAF86DH25mFRXTSNL5JmWyq5NLvN.3_NY_fGCN_jhoNzT9y0RRqB',cITimeS: '1794311517',cN: '0WkLOPA5NKxUpkCgGYQryp',cRay: 'a584d9271d18163f',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=vMX593sYoWm2YymvFzDyz96g2hkLq5VWQSZ0mOSd5A4-1794311517-1.0.1.1-VwPls62Ks55J57IXDlpx5xeBCbOGSIFGM_n0mwFytk4\",cvId: '3',cZone: 'www.princeton.edu',fa:\"/agents.md?__cf_chl_f_tk=vMX593sYoWm2YymvFzDyz96g2hkLq5VWQSZ0mOSd5A4-1794311517-1.0.1.1-VwPls62Ks55J57IXDlpx5xeBCbOGSIFGM_n0mwFytk4\",md: 'H5ntuvOeuWCDlupjdcqFT1Q42.V63pj2AqvYsth79l4-1794311517-1.2.1.1-PyHXA2Rk2FT4rDuF7m.oWFn_X3WWTuRF3.nEw8BnK4DKbaJGSHMFMwN1YRL0TWD1L5sF_ryWtkD3IDG4hgsbXmJeDIcPOk_B4fZFPAyhj4bBaPMj8tCHju5doJKDms0BEKAK9uhyBHMQ1GzYpRVi0_6QX8M2U5V0evAPZG5ioube78vlWT3boxJ5qcm.lNxxu1WDWoCq_o2n8RostA.8vW0gn1H1gTvwFBx7YstBakAkJHL9X7lR8x5ypgivMFfs6gMdzyQ_FRqD6fCFNQpB7jnudHn07qQMSK8A3b46MzIjgvYoHu3nYGl3I8w9_s53lmNOcZNUVfxWz8_80mSeydWRlNjiW.FIm0QaKYVLylXFuMTqu1FMQYTtDMy5Y1mNi9pjOKW53Mo6Q1.S6SzyOn4T9HP0KCVfDfbn9_DKuj9Pe_jbvmvn3IU600wZl8PRBqsqBmV_vv0UH8KGFeFXHD4c.qp4Dn2TdNREMpostyj5U07pNmXOFwaNEU8LnwyrHObNZRBLogQmNXsm0TnxNBxXoQbAd5Nvia6lSWqid8utrHO1J07lhqcrD2wcm6xbIUVhHFKe_KoZ.6D1G0ORXMusJYz.02hzCrOC92AixFAN0csVZCZFv1LH5PhR3PymB0CSpZkZydaujqfB.MFo.aHNKO4HrOaunwHXwwmkNsyeCcceJhI3qUMEtFffPR7hHAU0I7tGZ99u6I4CeBWP0NtTgTyPn6KRyZ4IlkFskibAalKRyUaLKpqAgEjazTDI3GlT8XW5vaF4ch8DUcSKCLo5FuJCJSVer.V_JIyrOVflhyg8euJPpBSdCTvQ9ojKltRePI8g6CYoi_4PZphGnqAQqprlSBdm2hnmFLTyi6gSdJF9EtH3lRT0HqQpoiGxDM8jva174HXpwuDor8xQLdU0ZOZ5Glb9XLylMk3S9pp3o159j1RQH64NY.m4buo_tZa29eubxX0yVnL0KJ8TwPZ8S8L0c9AjwG2t_YjRb_ERNx445_mmf.Qav5eXgH8ksxhj_LQWlaiTc2sRh_tMviQJCnq63_KxnC0M0V1K6CzwXksZqsLzsUcvrVlGpxuFj9q9ulq47lghvml_xoMD6h4hXZZlX0m39foGlPTTR9kSiQsuZshn0FUf9aeHhzmi',mdrd: '9DigfvPKeNYFB6H8C_tNYUKJ3Ht9ryEdOoPGwiKl8xU-1794311517-1.2.1.1-XXXtnruAB8N.ArvtUI.0G7oyGh8xmgXtZcCiklPxJFBjmraNTaZM._Ih__kArFbSguDRQOrkCLK703XxmLJg21_m_u_x5_hx3CSL2yHzqjXEmA3MVRhrtcT.qiroP2H1LyHzlMdKL8yCvqmx.F6hCdYmZuOrWOLxJel7sJ7wexdSIsHh_aKayVEIOOrHLVXi6Clz7erPaQateVfWVl5A3rTFuxJ2Uy6cx_Q7SuUAQlxOG5yZqmEGGbzD2Yn6..xwMY5PBHUafRGNzPI3JQalbAI00dUy31_16vx_SAJhD_cyScRasVWRx0bZMpr_GUr48fwJnAzC4SD6AbfcmpFTtLCaJbgecpwKYL3Dgdc5Zw7vPUmJ41Bw6yVas_MaG9fFIKaMq3LMiEKcwTzmVPWIrmGPXqPPn2g9JWnRGAtInIE',};var a = document.createElement('script');a.nonce = '0WkLOPA5NKxUpkCgGYQryp';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a584d9271d18163f';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=vMX593sYoWm2YymvFzDyz96g2hkLq5VWQSZ0mOSd5A4-1794311517-1.0.1.1-VwPls62Ks55J57IXDlpx5xeBCbOGSIFGM_n0mwFytk4\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.princeton.edu/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    }
+  },
+  "afr": {
+    "domain": "princeton.edu",
+    "engineVersion": "afr-1.0.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-10T11:51:58.563Z",
+    "score": 13,
+    "grade": "F",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Comprehensibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Interactivity",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 403; ai.txt not probed; homepage unavailable"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

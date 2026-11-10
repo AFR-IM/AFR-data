@@ -1,0 +1,251 @@
+{
+  "signals": {
+    "domain": "espn.com",
+    "fetchedAt": "2026-11-10T11:20:22.054Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# robots.txt for www.espn.com\n\nUser-agent: claritybot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Omgilibot\nDisallow: /\n\nUser-agent: Omgili\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: *\nDisallow: */admin/\nDisallow: */boxscore?\nDisallow: */calendar/\nDisallow: */cat/\nDisallow: */conversation?\nDisallow: */conversation/\nDisallow: */conversations?\nDisallow: */conversations/\nDisallow: */databaseresults/\nDisallow: */date/\nDisallow: */deportes/\nDisallow: */flash/\nDisallow: */login?\nDisallow: */login/\nDisallow: */order/\nDisallow: */photoId/\nDisallow: */playbyplay?\nDisallow: /watch/*?*lang=\nDisallow: /watch/*?*rb=\nDisallow: /watch/*?*country=\nDisallow: /watch/*?*search=\nDisallow: /watch/*?*device=\nDisallow: /watch/*?*partner=\nDisallow: /watch/*?*redirected=\nDisallow: /watch/_/redirected/*\nDisallow: /watch/*?*om-navmethod=\nDisallow: */print?id\nDisallow: */printschedule/\nDisallow: */season/200\nDisallow: */split/\nDisallow: */start/\nDisallow: */swf/\nDisallow: */util/\nDisallow: */webslices/\nDisallow: */year/200\nDisallow: /*?ex_cid=\nDisallow: /*?innings=\nDisallow: /*?user=\nDisallow: /*&action=login\nDisallow: /*&full=\nDisallow: /*&order=\nDisallow: /*&photoId=\nDisallow: /*&sort=*\nDisallow: /ad/\nDisallow: /broadband/\nDisallow: /cgi\nDisallow: /community/\nDisallow: /composer/\nDisallow: /contests/\nDisallow: /espn/now\nDisallow: /espnradio/podcast/feeds/easports/\nDisallow: /index?sport=*&topId=*\nDisallow: /index?sport=*&type=replay\nDisallow: /members/\nDisallow: /personalization/\nDisallow: /sports*/index?topId=*\nDisallow: /travel/passport/\nDisallow: /video/clipDeportes\nDisallow: /video/search\nDisallow: /nba/tradeMachine/?tradeId=*\nDisallow: */wire?\nDisallow: /load_video_player/*\nDisallow: /football/conversation?gameId=*\nDisallow: */channels/*\nDisallow: */crossdomain/*\nDisallow: */makecorsrequest/*\nDisallow: */utils/*\nDisallow: */strategies/*\nDisallow: */child/*\nDisallow: */message/*\nDisallow: */units/*\nDisallow: */om-navmethod/*\nDisallow: */null\nDisallow: */null/*\nDisallow: */undefined\nDisallow: */undefined/*\nDisallow: *ESPNPlusAdobeTracking/\nDisallow: */modifier/*\nDisallow: /*&xhr=1\nDisallow: /*&wsVar=*\nDisallow: /*&_slug_=*\nDisallow: /*.com\nDisallow: /*.net\nDisallow: /*.org\nDisallow: /*.co.uk\nDisallow: */platform/*\nDisallow: /*&platform=\nDisallow: /*?platform=\nDisallow: /football/matchstats\nDisallow: /football/lineups\nDisallow: /football/commentary\nDisallow: /soccer/matchstats\nDisallow: /football/video\nDisallow: /soccer/lineups\nDisallow: /soccer/commentary\nDisallow: /soccer/video\nDisallow: //*\nDisallow: /*?*::*\nDisallow: /rugby?*\nDisallow: /jayski/tracks/archive/story/_/id/*/*/*\nDisallow: */baltimore-ravens-head-coach-john-harbaugh-clocks-long-hours-prep-game-day-espn-magazine\nDisallow: */kansas-city-royals-manager-ned-yost-lightning-rod-criticism\nDisallow: */wwe-aj-styles-retains-top-spot-narrowest-margins-kevin-owens-john-cena\nAllow: */platform/amp*\nAllow: /*&platform=amp\nAllow: /*?platform=amp\nAllow: /.well-known/amphtml/apikey.pub\nSitemap: https://www.espn.com/sitemap.xml\n",
+      "url": "https://www.espn.com/robots.txt"
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFmK8Z391I7cafdmTujd3EEAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsWApU6y99OfiWclVAgEQgDuAomvleiVEgbDVbEZxD9yCihsDSfyMjTOdnc0RIfzUdnU5D50LAG4n9cRhuL9cT592eTF0QvA5Nx5qzA==\",\n          \"iv\":\"D571QwD4VwAAAAZ9\",\n          \"context\":\"k1gD952iaR+hnFtKdZeFit98+w7mHdOcCfu6z80FGA+uhfbWAQAD2UwqAj4wRO+hD7lpOmKUapDaQ8JefjO7YzPqtXBxWl7Cbl6z+o1xz9qVAaTp5UKx0VGu1IawAH5ptKl1eWuO9wrCBChm/DQVWEGaV1ojrGlmCA1fq+GWdFnWFp1RVRKoP1FdFaMPlRqtTWfJM5CXxZm9b7lP5Z5GBEBD1la0Fk5Ft4QHod6OuI5FqlkwDBnMiw9aDAOUdArfzGYwHG6J6T0NkLNEjB1EGOtsXyzNsil6bOhypX0cD/vmnAB2O3FhZduDgh8VJCoOadTqj7TLKpCiitntPycwjdmxB5tSeMOFVeWJFsMydjxqKgvWNCjFkl1Wd9JpFMIz/pQP3f4a5stjOQ==\"\n};\n    </script>\n    <script src=\"https://c07df3ce4b34.623400f4.us-west-1.token.awswaf.com/c07df3ce4b34/83df5f1d9674/770cb55d904d/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://espn.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFmK8Z391I7cafdmTujd3EEAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsWApU6y99OfiWclVAgEQgDuAomvleiVEgbDVbEZxD9yCihsDSfyMjTOdnc0RIfzUdnU5D50LAG4n9cRhuL9cT592eTF0QvA5Nx5qzA==\",\n          \"iv\":\"D571TgDxcgAAABFt\",\n          \"context\":\"9+dWCh46varc/h+LxxzFv9SULr00R90Rsk2vobu6GyFu7OXVvyhIJCy36Xy9QFrjx8KYNC8oznJfuBhQWQvxWd4RlmllqEKXMh/UK32mNFL4qWAJqdU3RIhGKzX9zrBspTaO8C4HF5DUuuQheuTJK53zu7T7Ww4fK892g9Dfgdv+p6QzIQlswq9ybPKxav/4G3CBJbQnWbAo+HUZd/kFO9xyxlPNffWyjj0vr7FQFO0uXEEfXPwBf6u+d/cUWM3/fOAFrVtkEwxE3IviURYJPVH6YrRMeEeneRjEGvC4PjTdoxxHKp6iVj6XqnNlf2Y+GfWg0Bw5AWD8uwkNuGkv82JK6g/VH3Hct1tEN1q5+FXHSm3RqlHxVtmCilIFXdpU1XQ4X3xNeQ0YAA==\"\n};\n    </script>\n    <script src=\"https://c07df3ce4b34.623400f4.us-west-1.token.awswaf.com/c07df3ce4b34/83df5f1d9674/770cb55d904d/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://espn.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFmK8Z391I7cafdmTujd3EEAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsWApU6y99OfiWclVAgEQgDuAomvleiVEgbDVbEZxD9yCihsDSfyMjTOdnc0RIfzUdnU5D50LAG4n9cRhuL9cT592eTF0QvA5Nx5qzA==\",\n          \"iv\":\"D571TQD4fwAAAAXR\",\n          \"context\":\"5kbMzrWpRgFzCpV8SJ57/bmNReY/o/MRzkYi/jfZSko7tWB4O+Pq8/zUNShG95pZWcFZe0MHAlQtdBea07O/NX+eoqWXiqCoJZdQdDljm2hIhxtMCfZLbMmU6Ic9MEfJbrTL+n3StFgR5ltYTZfi7IjmqkBp+JOoW/wQOBnzV6PNGNMQ1PQiI6fmyOjtQVT/K+WgOsLQXk+jZDk9LG7oddmirrnmYk8Us0V34VyQ5MC/5sR+zzcETnkBqebfYn1ZZ6z5KVEDUqJFr49/liiwybOtBSj7h9irB5O7DF7JOmVqOlXDZLGEHoH6DQYq/NluEB0806f1fy+BCJE2JCTvLybq9mbAXTXjqnQ4didAe58YJ8PcgeCfsu9fDKmMnYGMhRFIljwRCO8X7Q==\"\n};\n    </script>\n    <script src=\"https://c07df3ce4b34.623400f4.us-west-1.token.awswaf.com/c07df3ce4b34/83df5f1d9674/770cb55d904d/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://espn.com/"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFmK8Z391I7cafdmTujd3EEAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsWApU6y99OfiWclVAgEQgDuAomvleiVEgbDVbEZxD9yCihsDSfyMjTOdnc0RIfzUdnU5D50LAG4n9cRhuL9cT592eTF0QvA5Nx5qzA==\",\n          \"iv\":\"D571QgDxYQAAABKr\",\n          \"context\":\"M5wBWBOx7BRzfVcO5niq7mLJf88XU3KKa0oiqglMYZr3o/VY2NH9GSznp1VUcHjGEqgnApIT5WnGxMRZoyxujl8GYPj+rSya4HvO+DXGQQQ+Sdldg3JhOhm11HnBZea8ProFEtqyLt2hJoP84o6VeD+0i1tftgJHvHFeDIB3LLNJV1cICD4vaCbeYKVD4zubiLQsM0lke9AMoIGT9+WUSc9xo06xgBPfdp16tViif9uWvGSA1pYgcddtW1xjMQ8MC0+z8Kws27oSLOJmnsJ2QTVOC6U71XnbW0zR3lF5cAo0VKnTDBm+BgpPscDiwT+tWeJxUJ7OA3iY+2IKFLDyP6edx1gyG82IOHC4DzQ7e6HzBBRz8Y6PnRhCRNqtvWi4j3rFBvO9J0DmgQ==\"\n};\n    </script>\n    <script src=\"https://c07df3ce4b34.623400f4.us-west-1.token.awswaf.com/c07df3ce4b34/ab77e8f35082/374cb277fce0/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.espn.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFmK8Z391I7cafdmTujd3EEAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsWApU6y99OfiWclVAgEQgDuAomvleiVEgbDVbEZxD9yCihsDSfyMjTOdnc0RIfzUdnU5D50LAG4n9cRhuL9cT592eTF0QvA5Nx5qzA==\",\n          \"iv\":\"D571TQD4fwAAAAXS\",\n          \"context\":\"t8VA39agrcBpbGdAtHN/zl0Ly+2PXa/lcXDSllKTXVHFRg0s4LoD0Adaoicq+uhpi1f5FtgY6HDuyxcxGpp4I+KSX227kQ+Y9ZqzOzHxazk4Cq1+0K3ZCMufdG5klccZwYKLe438JQNfslAr9csy5eqDBxbykT7LX+/SWteotTIg6pCBTgCbdNPn13VUK+gte4UqqHaTjBP36FsaeR8vQfjFWPPhRxILiD2t4yURZYo4b7IBfJ5U4HCkRLIoAg3yFgYNrBbJmPN1UGLR+gGxL6Uo2u81zGcCFIvK3X8cp4KTEpGMJ2POKoB+hjTVQuGVeIJqS0tXpifEhoyGMfxPh0VGd+a1jvmQyJrfDrGlBcD61Ztb/hiTZMRLDd45kZB+IiCezUvk762zSg==\"\n};\n    </script>\n    <script src=\"https://c07df3ce4b34.623400f4.us-west-1.token.awswaf.com/c07df3ce4b34/83df5f1d9674/770cb55d904d/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://espn.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://espn.com/.well-known/mcp"
+      ]
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "espn.com",
+    "engineVersion": "afr-1.0.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-10T11:20:22.054Z",
+    "score": 45,
+    "grade": "D",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 18.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 8.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 1.50/6 · training 2.50/10; strategy tag Middle-Path. Blocked examples: ChatGPT-User, Google-Extended, GPTBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 202"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Comprehensibility",
+        "awarded": 18,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt references a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Interactivity",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://espn.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 8.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 3,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}
