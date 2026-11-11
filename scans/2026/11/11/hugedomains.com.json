@@ -1,0 +1,247 @@
+{
+  "signals": {
+    "domain": "hugedomains.com",
+    "fetchedAt": "2026-11-11T03:22:05.338Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# HugeDomains Discovery & Agent Policy\r\n# Content signals: search=yes, ai-input=yes, ai-train=no\r\n# Machine-readable summaries and API discovery:\r\n# - llms.txt: https://www.hugedomains.com/llms.txt\r\n# - Public API: https://api.hugedomains.com/public/v1\r\n# - MCP Endpoint: https://api.hugedomains.com/public/v1/mcp\r\n\r\nSitemap: https://www.hugedomains.com/sitemap.xml\r\n\r\n# ==============================================================================\r\n# 1. Default Rules (General Search Engines & Standard Crawlers)\r\n# ==============================================================================\r\nUser-agent: *\r\nDisallow: /domain_search.cfm\r\nDisallow: /shopping_cart.cfm\r\nDisallow: /coupon.cfm\r\nDisallow: /checkout.cfm\r\nDisallow: /checkout-escrow.cfm\r\nDisallow: /checkout-success.cfm\r\nDisallow: /checkout-escrow-success.cfm\r\nDisallow: /checkout-escrow-pay.cfm\r\nDisallow: /mytestimonial.cfm\r\nDisallow: /payment-plan-login.cfm\r\nDisallow: /chat/chat.cfm\r\nDisallow: /chat/\r\nDisallow: /shopping_cart.ssl\r\nDisallow: /checkout.ssl\r\nDisallow: /checkout-escrow.ssl\r\nDisallow: /checkout-success.ssl\r\nDisallow: /checkout-escrow-success.ssl\r\nDisallow: /checkout-escrow-pay.ssl\r\nDisallow: /rjs/e-i.cfm\r\nDisallow: /rjs/\r\nAllow: /llms.txt\r\nAllow: /llms-full.txt\r\n\r\n# ==============================================================================\r\n# 2. AI Answer Engines & User-Triggered Search Crawlers\r\n# Same public discovery access as general search engines; blocked on internal search/cart\r\n# ==============================================================================\r\nUser-agent: OAI-SearchBot\r\nUser-agent: ChatGPT-User\r\nUser-agent: Claude-SearchBot\r\nUser-agent: Claude-User\r\nUser-agent: PerplexityBot\r\nUser-agent: Perplexity-User\r\nUser-agent: DuckAssistBot\r\nUser-agent: MistralAI-User\r\nUser-agent: meta-externalfetcher\r\nUser-agent: Applebot\r\nDisallow: /domain_search.cfm\r\nDisallow: /shopping_cart.cfm\r\nDisallow: /coupon.cfm\r\nDisallow: /checkout.cfm\r\nDisallow: /checkout-escrow.cfm\r\nDisallow: /checkout-success.cfm\r\nDisallow: /checkout-escrow-success.cfm\r\nDisallow: /checkout-escrow-pay.cfm\r\nDisallow: /mytestimonial.cfm\r\nDisallow: /payment-plan-login.cfm\r\nDisallow: /chat/\r\nDisallow: /shopping_cart.ssl\r\nDisallow: /checkout.ssl\r\nDisallow: /checkout-escrow.ssl\r\nDisallow: /checkout-success.ssl\r\nDisallow: /checkout-escrow-success.ssl\r\nDisallow: /checkout-escrow-pay.ssl\r\nDisallow: /rjs/\r\nAllow: /llms.txt\r\nAllow: /llms-full.txt\r\n\r\n# ==============================================================================\r\n# 3. AI Training Crawlers\r\n# Content is not licensed for model training. Allow brand pages only; block catalog.\r\n# ==============================================================================\r\nUser-agent: GPTBot\r\nUser-agent: ClaudeBot\r\nUser-agent: anthropic-ai\r\nUser-agent: CCBot\r\nUser-agent: Google-Extended\r\nUser-agent: Applebot-Extended\r\nUser-agent: meta-externalagent\r\nUser-agent: Amazonbot\r\nUser-agent: Bytespider\r\nUser-agent: cohere-ai\r\nUser-agent: Diffbot\r\nUser-agent: omgili\r\nUser-agent: AI2Bot\r\nUser-agent: PanguBot\r\nUser-agent: Timpibot\r\nUser-agent: ImagesiftBot\r\nAllow: /$\r\nAllow: /about.cfm\r\nAllow: /buying_guide.cfm\r\nAllow: /faq.cfm\r\nAllow: /payment-plans.cfm\r\nAllow: /satisfaction_guaranteed.cfm\r\nAllow: /escrow.cfm\r\nAllow: /contact.cfm\r\nAllow: /terms.cfm\r\nAllow: /privacy_policy.cfm\r\nAllow: /llms.txt\r\nAllow: /llms-full.txt\r\nDisallow: /\r\n\r\n# ==============================================================================\r\n# 4. Known Scrapers & Bad Bots\r\n# ==============================================================================\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: dotbot\r\nDisallow: /",
+      "url": "https://www.hugedomains.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "# HugeDomains\r\n\r\n> HugeDomains is an aftermarket domain name marketplace offering registered premium domain names with instant purchases, 0% interest payment plans, secure escrow transfers, and native agent APIs.\r\n\r\n## Developer & Agent APIs\r\n\r\n- [MCP Server Endpoint](https://api.hugedomains.com/public/v1/mcp): Model Context Protocol server endpoint for native AI agent tooling, domain lookups, and inventory availability checks.\r\n- [OpenAPI Specification](https://api.hugedomains.com/documentation/public/doc.json): Raw OpenAPI JSON schema defining public REST endpoints, request/response models, and parameters.\r\n- [Public REST API Base](https://api.hugedomains.com/public/v1): Root endpoint for programmatic portfolio querying, live pricing, and checkout session initiation.\r\n\r\n## Search & URL Query Patterns\r\n\r\n- [Domain Profile Lookup](https://www.hugedomains.com/domain_profile.cfm): Direct resolution endpoint using `?d={domain_name}` to fetch live pricing, installment options, and cart initiation.\r\n- [Keyword Search Query](https://www.hugedomains.com/search.cfm): Web query endpoint accepting `domain_name` (keyword), `min_price`, `max_price`, and `len_max` (character limit).\r\n\r\n## Core Services & Policies\r\n\r\n- [Domain Search](https://www.hugedomains.com/search.cfm): Search interface for browsing millions of registered premium domain names available for direct purchase.\r\n- [Payment Plans](https://www.hugedomains.com/payment-plan-faq.cfm): 0% interest domain financing terms, monthly installment schedules, and DNS usage rules. Installment payments are non-refundable.\r\n- [Domain Transfer Process](https://www.hugedomains.com/transfer-faq.cfm): Step-by-step procedures and EPP/Auth code handling for transferring domains to third-party registrars.\r\n- [Buyer Guarantee](https://www.hugedomains.com/guarantee.cfm): 30-day money-back policy for lump-sum purchases, escrow verification, and transaction protection terms.\r\n- [Frequently Asked Questions](https://www.hugedomains.com/faq.cfm): Operational guidance regarding renewal rates, DNS record management, and account setup.\r\n- [Terms and Conditions](https://www.hugedomains.com/terms.cfm): Legal agreements governing domain licensing, lease-to-own contracts, and title transfers.\r\n- [Contact Support](https://www.hugedomains.com/contact.cfm): Escalation contacts, support hours, and transfer concierge support.\r\n\r\n## Catalog: Character Length & Patterns\r\n\r\n- [Numeric Domains](https://www.hugedomains.com/cat/special-categories/numbers): Pure digit and numeric sequence domain assets.\r\n- [Chinese Numeric Domains](https://www.hugedomains.com/cat/special-categories/chinese_numbers): Lucky and culturally significant numeric patterns (e.g., 6, 8, 9 combinations).\r\n- [4-Letter .COM Domains](https://www.hugedomains.com/cat/special-categories/LLLL_com): Rare 4-letter .com (LLLL) acronyms and pronounceable brandables.\r\n- [4-Letter .NET Domains](https://www.hugedomains.com/cat/special-categories/LLLL_net): 4-letter .net (LLLL) domains for tech, infrastructure, and alternative branding.\r\n- [3-Letter .NET Domains](https://www.hugedomains.com/cat/special-categories/3-letter-net): High-tier 3-letter .net (LLL) domain assets.\r\n- [5-Number Domains](https://www.hugedomains.com/cat/special-categories/nnnnn): 5-digit numeric sequence domains (NNNNN).\r\n- [6-Number Domains](https://www.hugedomains.com/cat/special-categories/nnnnnn): 6-digit numeric sequence domains (NNNNNN).\r\n- [7-Number Domains](https://www.hugedomains.com/cat/special-categories/nnnnnnn): 7-digit phone-number and pattern sequence domains.\r\n- [8-Number Domains](https://www.hugedomains.com/cat/special-categories/nnnnnnnn): 8-digit numeric sequence domains.\r\n- [9-Number Domains](https://www.hugedomains.com/cat/special-categories/nnnnnnnnn): 9-digit numeric sequence domains.\r\n\r\n## Catalog: Brand Archetypes & Keywords\r\n\r\n- [Short Domains](https://www.hugedomains.com/cat/special-categories/short): Concise, low-character domains across multiple extensions.\r\n- [Brandable Domains](https://www.hugedomains.com/cat/special-categories/brandable): Coined, pronounceable, and modern naming assets suited for startups.\r\n- [Acronym Domains](https://www.hugedomains.com/cat/special-categories/acronyms): Letter combinations and abbreviations for organizations and enterprise brands.\r\n- [Area Code Domains](https://www.hugedomains.com/cat/special-categories/area-codes): Domains matched to regional US and international telephone area codes.\r\n- [Dictionary Word Domains](https://www.hugedomains.com/cat/special-categories/dictionary): Single-word English vocabulary domains for category authority.\r\n- [Geo Domains](https://www.hugedomains.com/cat/special-categories/geodomains): Location-specific, city, and regional domain names.\r\n\r\n## Optional\r\n\r\n- [Swagger UI Documentation](https://api.hugedomains.com/documentation/): Interactive API explorer and reference documentation for human developers.\r\n- [Domain Valuation Guide](https://www.hugedomains.com/blog/domain-valuation/): Methodologies and market factors governing aftermarket domain pricing.\r\n- [Full Inventory & Policy Index](https://www.hugedomains.com/llms-full.txt): Comprehensive operational text, full programmatic query schemas, and policy details.",
+      "url": "https://www.hugedomains.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "# HugeDomains � Comprehensive Agent Knowledge Base\r\n\r\n> HugeDomains is an aftermarket domain marketplace specializing in premium, registered domain names available for immediate acquisition via lump-sum purchase or 0% interest monthly payment plans. This document contains full operational guidelines, API/search query parameters, escrow rules, and technical transfer steps for autonomous agents and LLMs assisting domain buyers.\r\n\r\n---\r\n\r\n## 1. Overview & Business Model\r\n\r\n- **Core Model:** HugeDomains owns its private portfolio of premium, aged, and brandable domain names (primarily `.com`). It is not an open peer-to-peer auction; all transactions are direct acquisitions from HugeDomains' managed inventory.\r\n- **Acquisition Methods:**\r\n  1. *Buy Now (Full Payment):* Immediate transfer initiation upon payment clearance.\r\n  2. *Payment Plan (Financing):* Lease-to-own with 0% interest, customizable monthly installments, and domain operational rights during repayment.\r\n- **Escrow & Security:** Direct fulfillment with an in-house transfer concierge; third-party escrow is available upon request for high-value sales.\r\n- **Guarantee:** 30-day money-back guarantee on standard domain purchases.\r\n\r\n---\r\n\r\n## 2. Programmatic Search & Discovery Mechanics\r\n\r\nAgents querying HugeDomains for domain availability or inventory matching can use the following URL structures:\r\n\r\n### Domain Landers\r\n- **Standard Lander:** `https://www.hugedomains.com/domain_profile.cfm?d={domain_name}`\r\n  - Example: `https://www.hugedomains.com/domain_profile.cfm?d=example.com`\r\n  - Returns: Buy-now price, monthly payment options, availability status, and shopping cart initiation.\r\n\r\n### Search Query URL Structure\r\n- **Keyword Search:** `https://www.hugedomains.com/search.cfm?q={keywords}`\r\n  - Parameters:\r\n    - `q`: String search term (alphanumeric).\r\n    - `min_price`: Minimum budget filter in USD.\r\n    - `max_price`: Maximum budget filter in USD.\r\n    - `len_max`: Maximum character length of the domain.\r\n\r\n---\r\n\r\n## 3. Payment Plans & Financing Terms\r\n\r\nHugeDomains provides direct installment financing on most portfolio domains:\r\n\r\n- **Interest Rate:** 0% APR (no financing fees, credit checks, or hidden surcharges).\r\n- **Term Lengths:** Flexible payment terms typically spanning 12, 24, 36, or 48 months depending on domain value.\r\n- **Domain Usage During Term:**\r\n  - Buyers receive access to configure DNS settings (A records, CNAME, MX records, nameservers) immediately upon first payment.\r\n  - The domain can be pointed to an active web application or email system during the active payment schedule.\r\n- **Ownership & Title Transfer:**\r\n  - HugeDomains retains legal ownership/registrar control as collateral until the final installment is completed.\r\n  - Upon completion of the payment schedule, the authorization (EPP) code is generated, and full legal registrar transfer is unlocked.\r\n- **Early Payoff:** Buyers may pay off the remaining balance in full at any point during the term with no prepayment penalties.\r\n- **Default & Cancellation:** Failing to service monthly payments results in a grace period (typically 7�14 days). Continued non-payment terminates the installment agreement, rescinds DNS routing, and returns the domain to public inventory. Previous monthly payments are non-refundable.\r\n\r\n---\r\n\r\n## 4. Technical Transfer & Fulfillment Procedures\r\n\r\nOnce a domain is purchased in full or the payment plan is finalized the domain will be delivered to an account at NameBright.com for the customer.\r\n\r\n---\r\n\r\n## 5. Refund Policy & Buyer Guarantee\r\n\r\n- **30-Day Money-Back Guarantee:**\r\n  - Applies to single lump-sum purchases.\r\n  - If a buyer changes their mind within 30 days, they may request a refund, provided the domain has not been transferred away to another registrar or placed into an irreversible locking state.\r\n- **Exclusions:**\r\n  - Payment Plan payments are not eligible for the 30-Day Money-Back Guarantee refund policy.\r\n  - Payment plan installments: Monthly lease payments already paid toward a financing contract are non-refundable upon cancellation.\r\n  - Any domain that has been transferred off HugeDomains' native registrar NameBright.com are no longer eligable for the 30-Day Money-Back Guarantee.\r\n\r\n---\r\n\r\n## 6. Machine-Readable API & Integration Endpoints\r\n\r\n- **Domain purchase page:** `https://www.hugedomains.com/domain_profile.cfm?d={domain_name}\r\n- **Support** `https://www.hugedomains.com/contact.cfm`\r\n- **Phone Support:** 1-303-893-0552 (US / International)\r\n- **Email:** sales@hugedomains.com\r\n\r\n\r\n\r\n## Agent Search & Query Specs\r\n\r\nAgents querying real-time inventory should construct HTTP GET requests using these URL patterns:\r\n\r\n- **Direct Profile Resolution:**\r\n  `https://www.hugedomains.com/domain_profile.cfm?d={domain_name}`\r\n  *Example:* `https://www.hugedomains.com/domain_profile.cfm?d=acme.com`\r\n  *(Returns current Buy-It-Now price, 24 month installment breakdown, and cart initiation).*\r\n\r\n- **Keyword & Attribute Search:**\r\n  `https://www.hugedomains.com/search.cfm?domain_name={keyword}&max_price={budget}&len_max={max_chars}`\r\n  *Parameters:*\r\n  - `domain_name`: Target keyword or semantic concept.\r\n  - `min_price` / `max_price`: Range in USD.\r\n  - `len_max`: Maximum character length (excluding TLD).\r\n\r\n\r\n## Optional\r\n\r\n- [XML Sitemap Index](https://www.hugedomains.com/sitemap.xml): Master XML index linking out to paginated domain profile and category sitemaps.\r\n- [Swagger UI Documentation](https://api.hugedomains.com/documentation/): Interactive API explorer for human developers.\r\n- [Domain Valuation Guide](https://www.hugedomains.com/blog/domain-valuation/): Methodologies and market factors governing aftermarket domain pricing.\r\n  \r\n  ",
+      "url": "https://www.hugedomains.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/cf.errors.css\" />\n<!--[if lt IE 9]><link rel=\"stylesheet\" id='cf_styles-ie-css' href=\"/cdn-cgi/styles/cf.errors.ie.css\" /><![endif]-->\n<style>body{margin:0;padding:0}</style>\n\n\n<!--[if gte IE 10]><!-->\n<script>\n  if (!navigator.cookieEnabled) {\n    window.addEventListener('DOMContentLoaded', function () {\n      var cookieEl = document.getElementById('cookie-alert');\n      cookieEl.style.display = 'block';\n    })\n  }\n</script>\n<!--<![endif]-->\n\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"cf-error-details-wrapper\">\n      <div class=\"cf-wrapper cf-header cf-error-overview\">\n        <h1 data-translate=\"block_headline\">Sorry, you have been blocked</h1>\n        <h2 class=\"cf-subheadline\"><span data-translate=\"unable_to_access\">You are unable to access</span> hugedomains.com</h2>\n      </div><!-- /.header -->\n\n      <div class=\"cf-section cf-highlight\">\n        <div class=\"cf-wrapper\">\n          <div class=\"cf-screenshot-container cf-screenshot-full\">\n            \n              <span class=\"cf-no-screenshot error\"></span>\n            \n          </div>\n        </div>\n      </div><!-- /.captcha-container -->\n\n      <div class=\"cf-section cf-wrapper\">\n        <div class=\"cf-columns two\">\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_why_headline\">Why have I been blocked?</h2>\n\n            <p data-translate=\"blocked_why_detail\">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\n          </div>\n\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_resolve_headline\">What can I do to resolve this?</h2>\n\n            <p data-translate=\"blocked_resolve_detail\">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\n          </div>\n        </div>\n      </div><!-- /.section -->\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">a58a2ba139834616</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n        Your IP:\n        <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">130.131.204.82</span>\n        <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n    window._cf_translation = {};\n    \n    \n  </script>\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a58a2ba139834616',t:'MTc5NDM2NzMyNA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a58a2ba139834616',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>",
+      "url": "https://hugedomains.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/cf.errors.css\" />\n<!--[if lt IE 9]><link rel=\"stylesheet\" id='cf_styles-ie-css' href=\"/cdn-cgi/styles/cf.errors.ie.css\" /><![endif]-->\n<style>body{margin:0;padding:0}</style>\n\n\n<!--[if gte IE 10]><!-->\n<script>\n  if (!navigator.cookieEnabled) {\n    window.addEventListener('DOMContentLoaded', function () {\n      var cookieEl = document.getElementById('cookie-alert');\n      cookieEl.style.display = 'block';\n    })\n  }\n</script>\n<!--<![endif]-->\n\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"cf-error-details-wrapper\">\n      <div class=\"cf-wrapper cf-header cf-error-overview\">\n        <h1 data-translate=\"block_headline\">Sorry, you have been blocked</h1>\n        <h2 class=\"cf-subheadline\"><span data-translate=\"unable_to_access\">You are unable to access</span> hugedomains.com</h2>\n      </div><!-- /.header -->\n\n      <div class=\"cf-section cf-highlight\">\n        <div class=\"cf-wrapper\">\n          <div class=\"cf-screenshot-container cf-screenshot-full\">\n            \n              <span class=\"cf-no-screenshot error\"></span>\n            \n          </div>\n        </div>\n      </div><!-- /.captcha-container -->\n\n      <div class=\"cf-section cf-wrapper\">\n        <div class=\"cf-columns two\">\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_why_headline\">Why have I been blocked?</h2>\n\n            <p data-translate=\"blocked_why_detail\">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\n          </div>\n\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_resolve_headline\">What can I do to resolve this?</h2>\n\n            <p data-translate=\"blocked_resolve_detail\">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\n          </div>\n        </div>\n      </div><!-- /.section -->\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">a58a2ba268641443</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n        Your IP:\n        <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">130.131.204.82</span>\n        <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n    window._cf_translation = {};\n    \n    \n  </script>\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a58a2ba268641443',t:'MTc5NDM2NzMyNA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a58a2ba268641443',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>",
+      "url": "https://www.hugedomains.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/cf.errors.css\" />\n<!--[if lt IE 9]><link rel=\"stylesheet\" id='cf_styles-ie-css' href=\"/cdn-cgi/styles/cf.errors.ie.css\" /><![endif]-->\n<style>body{margin:0;padding:0}</style>\n\n\n<!--[if gte IE 10]><!-->\n<script>\n  if (!navigator.cookieEnabled) {\n    window.addEventListener('DOMContentLoaded', function () {\n      var cookieEl = document.getElementById('cookie-alert');\n      cookieEl.style.display = 'block';\n    })\n  }\n</script>\n<!--<![endif]-->\n\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"cf-error-details-wrapper\">\n      <div class=\"cf-wrapper cf-header cf-error-overview\">\n        <h1 data-translate=\"block_headline\">Sorry, you have been blocked</h1>\n        <h2 class=\"cf-subheadline\"><span data-translate=\"unable_to_access\">You are unable to access</span> hugedomains.com</h2>\n      </div><!-- /.header -->\n\n      <div class=\"cf-section cf-highlight\">\n        <div class=\"cf-wrapper\">\n          <div class=\"cf-screenshot-container cf-screenshot-full\">\n            \n              <span class=\"cf-no-screenshot error\"></span>\n            \n          </div>\n        </div>\n      </div><!-- /.captcha-container -->\n\n      <div class=\"cf-section cf-wrapper\">\n        <div class=\"cf-columns two\">\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_why_headline\">Why have I been blocked?</h2>\n\n            <p data-translate=\"blocked_why_detail\">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\n          </div>\n\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_resolve_headline\">What can I do to resolve this?</h2>\n\n            <p data-translate=\"blocked_resolve_detail\">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\n          </div>\n        </div>\n      </div><!-- /.section -->\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">a58a2ba3b9f34616</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n        Your IP:\n        <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">130.131.204.82</span>\n        <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n    window._cf_translation = {};\n    \n    \n  </script>\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a58a2ba3b9f34616',t:'MTc5NDM2NzMyNA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a58a2ba3b9f34616',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>",
+      "url": "https://hugedomains.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://hugedomains.com/.well-known/mcp"
+      ]
+    }
+  },
+  "afr": {
+    "domain": "hugedomains.com",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-11T03:22:05.338Z",
+    "score": 31,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.38,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.375,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 7.88/9 · hybrid 4.50/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: Googlebot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 13,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 6,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 403; ai.txt not probed; homepage unavailable"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://hugedomains.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.375,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

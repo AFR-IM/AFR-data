@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "myfritz.net",
+    "fetchedAt": "2026-11-11T02:46:39.192Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: Yandex \nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: meta-externalads\nDisallow: /\n\nUser-agent: meta-webindexer\nDisallow: /\n\nUser-agent: *\nDisallow: /\nAllow: /$\nAllow: /devices$\nAllow: /devices/$\nAllow: /devices/index.html$\nAllow: /sitemap.xml\nAllow: /legal-notice\nAllow: /terms\nAllow: /about\nHost: www.myfritz.net\n\nSitemap: https://www.myfritz.net/sitemap.xml\n",
+      "url": "https://myfritz.net/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>MyFRITZ!Net</title>\n    <meta name=\"description\" content=\"Logging into MyFRITZ!Net\">\n    <meta name=\"google\" content=\"nositelinkssearchbox\">\n    <base href=\"/devices/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <script src=\"https://sso.myfritz.net/static/js/reporting-bundle.js\" type=\"text/javascript\" data-url=\"https://gateway.myfritz.net/api/myfritz-frontend-reporting/v1/report\" data-serviceid=\"box-discovery\" data-serviceversion=\"4.6.149\"></script>\n\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"https://sso.myfritz.net/static/favicon.ico\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-16x16.png\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-32x32.png\" sizes=\"32x32\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-96x96.png\" sizes=\"96x96\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-192x192.png\" sizes=\"192x192\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"https://sso.myfritz.net/static/images/icons/favicon.svg\">\n    <link rel=\"mask-icon\" href=\"https://sso.myfritz.net/static/images/icons/safari-pinned-tab.svg\" color=\"#1577cf\">\n\n    <link rel=\"manifest\" href=\"/static/manifest.json\">\n\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"apple-mobile-web-app-title\" content=\"MyFRITZ!Net\">\n    <meta name=\"application-name\" content=\"MyFRITZ!Net\">\n    <meta name=\"msapplication-TileColor\" content=\"#1577cf\">\n    <meta name=\"msapplication-TileImage\" content=\"https://sso.myfritz.net/static/images/icons/mstile-144x144.png\">\n    <meta name=\"theme-color\" content=\"#1577cf\">\n\n    <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-57x57.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-60x60.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-72x72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-76x76.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-114x114.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-120x120.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-144x144.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-152x152.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-180x180.png\">\n\n    <link rel=\"stylesheet\" href=\"https://sso.myfritz.net/static/css/myfritz-discovery-bootstrap-v2.css?v=4.6.93\">\n\n    <!-- Style white screen error message -->\n    <style>\n      .whitescreen-container {\n        display: none; /* do not display on start */\n        z-index: -1000; /* move behind app-root */\n        font-family: sans-serif;\n        font-size: 16px;\n        flex-direction: column;\n        align-items: stretch;\n        min-height: 100%;\n        padding:0;\n        margin:0;\n        overflow-x: hidden\n      }\n\n      .whitescreen-logo {\n        height: 60px;\n        width: auto;\n        position: relative;\n      }\n\n      .whitescreen-header {\n        background: #1577cf;\n        color: #ffffff;\n        height: 60px;\n        min-height: 60px;\n        padding: 0;\n      }\n      .whitescreen-header img{\n        vertical-align: baseline;\n      }\n\n      .whitescreen-header h1{\n        font-weight: 900;\n        letter-spacing: 0.9px;\n        font-size: 30px;\n        font-family: \"Source Sans Pro\", sans-serif;\n      }\n\n      .whitescreen-bottom-padding {\n        padding-bottom: 0.5rem;\n      }\n      @media (min-width: 576px) or (max-width: 576px) {\n        .noscript-wrapper {\n          width: 100%;\n        }\n      }\n      @media (min-width: 962px) {\n        .noscript-wrapper {\n          width: 75%;\n        }\n      }\n      @media (min-width: 1200px) {\n        .noscript-wrapper {\n          width: 50%;\n        }\n      }\n    </style>\n  <link rel=\"stylesheet\" href=\"styles-TCK5RVZL.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-TCK5RVZL.css\"></noscript></head>\n  <body>\n    <avm-mf-root></avm-mf-root>\n\n    <!--  Use a SVG image to prevent google indexing  -->\n    <noscript>\n      <div class=\"mt-5 d-flex align-items-center flex-column\">\n        <div class=\"noscript-wrapper\">\n          <svg viewBox=\"0 0 247 40\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g>\n              <text style=\"font-style:normal;font-weight:normal;font-size:11px;line-height:1.25;\n              font-family:&quot;Source Sans Pro&quot;;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;\n              stroke:none;stroke-width:0.264583\" x=\"124.11568\" y=\"-11.469797\">\n                <tspan style=\"text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"-11.469797\"/>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"1.7593274\"/>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"14.988452\">Sie müssen JavaScript in Internet-Browser aktivieren, um sich anmelden zu können.\n                </tspan>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"28.217577\">You must enable JavaScript in your browser to continue.\n                </tspan>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"41.446701\"/>\n              </text>\n            </g>\n          </svg>\n        </div>\n      </div>\n    </noscript>\n\n    <script src=\"https://sso.myfritz.net/static/js/jquery.slim.min.js?v=4.6.149\"></script>\n    <script src=\"https://sso.myfritz.net/static/js/popper.min.js?v=4.6.149\"></script>\n    <script src=\"https://sso.myfritz.net/static/js/bootstrap.min.js?v=4.6.149\"></script>\n    <script src=\"/devices/assets/extra-app-config.js?v=4.6.149\"></script>\n\n    <!--  whitescreen error page for related js see extra-app-config -->\n    <div id=\"whitescreen-container\" class=\"whitescreen-container\" data-static-url=\"https://sso.myfritz.net\"></div>\n  <script src=\"polyfills-DVBPDC2B.js\" type=\"module\"></script><script src=\"main-XUB4GH3B.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://www.myfritz.net/devices/"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>MyFRITZ!Net</title>\n    <meta name=\"description\" content=\"Logging into MyFRITZ!Net\">\n    <meta name=\"google\" content=\"nositelinkssearchbox\">\n    <base href=\"/devices/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <script src=\"https://sso.myfritz.net/static/js/reporting-bundle.js\" type=\"text/javascript\" data-url=\"https://gateway.myfritz.net/api/myfritz-frontend-reporting/v1/report\" data-serviceid=\"box-discovery\" data-serviceversion=\"4.6.149\"></script>\n\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"https://sso.myfritz.net/static/favicon.ico\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-16x16.png\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-32x32.png\" sizes=\"32x32\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-96x96.png\" sizes=\"96x96\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-192x192.png\" sizes=\"192x192\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"https://sso.myfritz.net/static/images/icons/favicon.svg\">\n    <link rel=\"mask-icon\" href=\"https://sso.myfritz.net/static/images/icons/safari-pinned-tab.svg\" color=\"#1577cf\">\n\n    <link rel=\"manifest\" href=\"/static/manifest.json\">\n\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"apple-mobile-web-app-title\" content=\"MyFRITZ!Net\">\n    <meta name=\"application-name\" content=\"MyFRITZ!Net\">\n    <meta name=\"msapplication-TileColor\" content=\"#1577cf\">\n    <meta name=\"msapplication-TileImage\" content=\"https://sso.myfritz.net/static/images/icons/mstile-144x144.png\">\n    <meta name=\"theme-color\" content=\"#1577cf\">\n\n    <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-57x57.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-60x60.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-72x72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-76x76.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-114x114.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-120x120.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-144x144.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-152x152.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-180x180.png\">\n\n    <link rel=\"stylesheet\" href=\"https://sso.myfritz.net/static/css/myfritz-discovery-bootstrap-v2.css?v=4.6.93\">\n\n    <!-- Style white screen error message -->\n    <style>\n      .whitescreen-container {\n        display: none; /* do not display on start */\n        z-index: -1000; /* move behind app-root */\n        font-family: sans-serif;\n        font-size: 16px;\n        flex-direction: column;\n        align-items: stretch;\n        min-height: 100%;\n        padding:0;\n        margin:0;\n        overflow-x: hidden\n      }\n\n      .whitescreen-logo {\n        height: 60px;\n        width: auto;\n        position: relative;\n      }\n\n      .whitescreen-header {\n        background: #1577cf;\n        color: #ffffff;\n        height: 60px;\n        min-height: 60px;\n        padding: 0;\n      }\n      .whitescreen-header img{\n        vertical-align: baseline;\n      }\n\n      .whitescreen-header h1{\n        font-weight: 900;\n        letter-spacing: 0.9px;\n        font-size: 30px;\n        font-family: \"Source Sans Pro\", sans-serif;\n      }\n\n      .whitescreen-bottom-padding {\n        padding-bottom: 0.5rem;\n      }\n      @media (min-width: 576px) or (max-width: 576px) {\n        .noscript-wrapper {\n          width: 100%;\n        }\n      }\n      @media (min-width: 962px) {\n        .noscript-wrapper {\n          width: 75%;\n        }\n      }\n      @media (min-width: 1200px) {\n        .noscript-wrapper {\n          width: 50%;\n        }\n      }\n    </style>\n  <link rel=\"stylesheet\" href=\"styles-TCK5RVZL.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-TCK5RVZL.css\"></noscript></head>\n  <body>\n    <avm-mf-root></avm-mf-root>\n\n    <!--  Use a SVG image to prevent google indexing  -->\n    <noscript>\n      <div class=\"mt-5 d-flex align-items-center flex-column\">\n        <div class=\"noscript-wrapper\">\n          <svg viewBox=\"0 0 247 40\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g>\n              <text style=\"font-style:normal;font-weight:normal;font-size:11px;line-height:1.25;\n              font-family:&quot;Source Sans Pro&quot;;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;\n              stroke:none;stroke-width:0.264583\" x=\"124.11568\" y=\"-11.469797\">\n                <tspan style=\"text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"-11.469797\"/>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"1.7593274\"/>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"14.988452\">Sie müssen JavaScript in Internet-Browser aktivieren, um sich anmelden zu können.\n                </tspan>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"28.217577\">You must enable JavaScript in your browser to continue.\n                </tspan>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"41.446701\"/>\n              </text>\n            </g>\n          </svg>\n        </div>\n      </div>\n    </noscript>\n\n    <script src=\"https://sso.myfritz.net/static/js/jquery.slim.min.js?v=4.6.149\"></script>\n    <script src=\"https://sso.myfritz.net/static/js/popper.min.js?v=4.6.149\"></script>\n    <script src=\"https://sso.myfritz.net/static/js/bootstrap.min.js?v=4.6.149\"></script>\n    <script src=\"/devices/assets/extra-app-config.js?v=4.6.149\"></script>\n\n    <!--  whitescreen error page for related js see extra-app-config -->\n    <div id=\"whitescreen-container\" class=\"whitescreen-container\" data-static-url=\"https://sso.myfritz.net\"></div>\n  <script src=\"polyfills-DVBPDC2B.js\" type=\"module\"></script><script src=\"main-XUB4GH3B.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://www.myfritz.net/devices/"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>MyFRITZ!Net</title>\n    <meta name=\"description\" content=\"Logging into MyFRITZ!Net\">\n    <meta name=\"google\" content=\"nositelinkssearchbox\">\n    <base href=\"/devices/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <script src=\"https://sso.myfritz.net/static/js/reporting-bundle.js\" type=\"text/javascript\" data-url=\"https://gateway.myfritz.net/api/myfritz-frontend-reporting/v1/report\" data-serviceid=\"box-discovery\" data-serviceversion=\"4.6.149\"></script>\n\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"https://sso.myfritz.net/static/favicon.ico\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-16x16.png\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-32x32.png\" sizes=\"32x32\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-96x96.png\" sizes=\"96x96\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-192x192.png\" sizes=\"192x192\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"https://sso.myfritz.net/static/images/icons/favicon.svg\">\n    <link rel=\"mask-icon\" href=\"https://sso.myfritz.net/static/images/icons/safari-pinned-tab.svg\" color=\"#1577cf\">\n\n    <link rel=\"manifest\" href=\"/static/manifest.json\">\n\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"apple-mobile-web-app-title\" content=\"MyFRITZ!Net\">\n    <meta name=\"application-name\" content=\"MyFRITZ!Net\">\n    <meta name=\"msapplication-TileColor\" content=\"#1577cf\">\n    <meta name=\"msapplication-TileImage\" content=\"https://sso.myfritz.net/static/images/icons/mstile-144x144.png\">\n    <meta name=\"theme-color\" content=\"#1577cf\">\n\n    <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-57x57.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-60x60.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-72x72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-76x76.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-114x114.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-120x120.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-144x144.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-152x152.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-180x180.png\">\n\n    <link rel=\"stylesheet\" href=\"https://sso.myfritz.net/static/css/myfritz-discovery-bootstrap-v2.css?v=4.6.93\">\n\n    <!-- Style white screen error message -->\n    <style>\n      .whitescreen-container {\n        display: none; /* do not display on start */\n        z-index: -1000; /* move behind app-root */\n        font-family: sans-serif;\n        font-size: 16px;\n        flex-direction: column;\n        align-items: stretch;\n        min-height: 100%;\n        padding:0;\n        margin:0;\n        overflow-x: hidden\n      }\n\n      .whitescreen-logo {\n        height: 60px;\n        width: auto;\n        position: relative;\n      }\n\n      .whitescreen-header {\n        background: #1577cf;\n        color: #ffffff;\n        height: 60px;\n        min-height: 60px;\n        padding: 0;\n      }\n      .whitescreen-header img{\n        vertical-align: baseline;\n      }\n\n      .whitescreen-header h1{\n        font-weight: 900;\n        letter-spacing: 0.9px;\n        font-size: 30px;\n        font-family: \"Source Sans Pro\", sans-serif;\n      }\n\n      .whitescreen-bottom-padding {\n        padding-bottom: 0.5rem;\n      }\n      @media (min-width: 576px) or (max-width: 576px) {\n        .noscript-wrapper {\n          width: 100%;\n        }\n      }\n      @media (min-width: 962px) {\n        .noscript-wrapper {\n          width: 75%;\n        }\n      }\n      @media (min-width: 1200px) {\n        .noscript-wrapper {\n          width: 50%;\n        }\n      }\n    </style>\n  <link rel=\"stylesheet\" href=\"styles-TCK5RVZL.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-TCK5RVZL.css\"></noscript></head>\n  <body>\n    <avm-mf-root></avm-mf-root>\n\n    <!--  Use a SVG image to prevent google indexing  -->\n    <noscript>\n      <div class=\"mt-5 d-flex align-items-center flex-column\">\n        <div class=\"noscript-wrapper\">\n          <svg viewBox=\"0 0 247 40\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g>\n              <text style=\"font-style:normal;font-weight:normal;font-size:11px;line-height:1.25;\n              font-family:&quot;Source Sans Pro&quot;;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;\n              stroke:none;stroke-width:0.264583\" x=\"124.11568\" y=\"-11.469797\">\n                <tspan style=\"text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"-11.469797\"/>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"1.7593274\"/>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"14.988452\">Sie müssen JavaScript in Internet-Browser aktivieren, um sich anmelden zu können.\n                </tspan>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"28.217577\">You must enable JavaScript in your browser to continue.\n                </tspan>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"41.446701\"/>\n              </text>\n            </g>\n          </svg>\n        </div>\n      </div>\n    </noscript>\n\n    <script src=\"https://sso.myfritz.net/static/js/jquery.slim.min.js?v=4.6.149\"></script>\n    <script src=\"https://sso.myfritz.net/static/js/popper.min.js?v=4.6.149\"></script>\n    <script src=\"https://sso.myfritz.net/static/js/bootstrap.min.js?v=4.6.149\"></script>\n    <script src=\"/devices/assets/extra-app-config.js?v=4.6.149\"></script>\n\n    <!--  whitescreen error page for related js see extra-app-config -->\n    <div id=\"whitescreen-container\" class=\"whitescreen-container\" data-static-url=\"https://sso.myfritz.net\"></div>\n  <script src=\"polyfills-DVBPDC2B.js\" type=\"module\"></script><script src=\"main-XUB4GH3B.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://www.myfritz.net/devices/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"\n        xmlns:xhtml=\"http://www.w3.org/1999/xhtml\"\n        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n        xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    <url>\n        <loc>https://www.myfritz.net/about</loc>\n        <changefreq>weekly</changefreq>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"en\"\n                href=\"https://www.myfritz.net/about?language=en\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"de\"\n                href=\"https://www.myfritz.net/about?language=de\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"es\"\n                href=\"https://www.myfritz.net/about?language=es\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"fr\"\n                href=\"https://www.myfritz.net/about?language=fr\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"nl\"\n                href=\"https://www.myfritz.net/about?language=nl\"/>\n    </url>\n    <url>\n        <loc>https://www.myfritz.net/legal-notice</loc>\n        <changefreq>weekly</changefreq>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"en\"\n                href=\"https://www.myfritz.net/legal-notice?language=en\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"de\"\n                href=\"https://www.myfritz.net/legal-notice?language=de\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"es\"\n                href=\"https://www.myfritz.net/legal-notice?language=es\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"fr\"\n                href=\"https://www.myfritz.net/legal-notice?language=fr\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"nl\"\n                href=\"https://www.myfritz.net/legal-notice?language=nl\"/>\n    </url>\n    <url>\n        <loc>https://www.myfritz.net/terms</loc>\n        <changefreq>weekly</changefreq>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"en\"\n                href=\"https://www.myfritz.net/terms?language=en\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"de\"\n                href=\"https://www.myfritz.net/terms?language=de\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"es\"\n                href=\"https://www.myfritz.net/terms?language=es\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"fr\"\n                href=\"https://www.myfritz.net/terms?language=fr\"/>\n        <xhtml:link\n                rel=\"alternate\"\n                hreflang=\"nl\"\n                href=\"https://www.myfritz.net/terms?language=nl\"/>\n    </url>\n</urlset>\n",
+      "url": "https://www.myfritz.net/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>MyFRITZ!Net</title>\n    <meta name=\"description\" content=\"Logging into MyFRITZ!Net\">\n    <meta name=\"google\" content=\"nositelinkssearchbox\">\n    <base href=\"/devices/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <script src=\"https://sso.myfritz.net/static/js/reporting-bundle.js\" type=\"text/javascript\" data-url=\"https://gateway.myfritz.net/api/myfritz-frontend-reporting/v1/report\" data-serviceid=\"box-discovery\" data-serviceversion=\"4.6.149\"></script>\n\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"https://sso.myfritz.net/static/favicon.ico\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-16x16.png\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-32x32.png\" sizes=\"32x32\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-96x96.png\" sizes=\"96x96\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://sso.myfritz.net/static/images/icons/favicon-192x192.png\" sizes=\"192x192\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"https://sso.myfritz.net/static/images/icons/favicon.svg\">\n    <link rel=\"mask-icon\" href=\"https://sso.myfritz.net/static/images/icons/safari-pinned-tab.svg\" color=\"#1577cf\">\n\n    <link rel=\"manifest\" href=\"/static/manifest.json\">\n\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"apple-mobile-web-app-title\" content=\"MyFRITZ!Net\">\n    <meta name=\"application-name\" content=\"MyFRITZ!Net\">\n    <meta name=\"msapplication-TileColor\" content=\"#1577cf\">\n    <meta name=\"msapplication-TileImage\" content=\"https://sso.myfritz.net/static/images/icons/mstile-144x144.png\">\n    <meta name=\"theme-color\" content=\"#1577cf\">\n\n    <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-57x57.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-60x60.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-72x72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-76x76.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-114x114.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-120x120.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-144x144.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-152x152.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://sso.myfritz.net/static/images/icons/apple-touch-icon-180x180.png\">\n\n    <link rel=\"stylesheet\" href=\"https://sso.myfritz.net/static/css/myfritz-discovery-bootstrap-v2.css?v=4.6.93\">\n\n    <!-- Style white screen error message -->\n    <style>\n      .whitescreen-container {\n        display: none; /* do not display on start */\n        z-index: -1000; /* move behind app-root */\n        font-family: sans-serif;\n        font-size: 16px;\n        flex-direction: column;\n        align-items: stretch;\n        min-height: 100%;\n        padding:0;\n        margin:0;\n        overflow-x: hidden\n      }\n\n      .whitescreen-logo {\n        height: 60px;\n        width: auto;\n        position: relative;\n      }\n\n      .whitescreen-header {\n        background: #1577cf;\n        color: #ffffff;\n        height: 60px;\n        min-height: 60px;\n        padding: 0;\n      }\n      .whitescreen-header img{\n        vertical-align: baseline;\n      }\n\n      .whitescreen-header h1{\n        font-weight: 900;\n        letter-spacing: 0.9px;\n        font-size: 30px;\n        font-family: \"Source Sans Pro\", sans-serif;\n      }\n\n      .whitescreen-bottom-padding {\n        padding-bottom: 0.5rem;\n      }\n      @media (min-width: 576px) or (max-width: 576px) {\n        .noscript-wrapper {\n          width: 100%;\n        }\n      }\n      @media (min-width: 962px) {\n        .noscript-wrapper {\n          width: 75%;\n        }\n      }\n      @media (min-width: 1200px) {\n        .noscript-wrapper {\n          width: 50%;\n        }\n      }\n    </style>\n  <link rel=\"stylesheet\" href=\"styles-TCK5RVZL.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-TCK5RVZL.css\"></noscript></head>\n  <body>\n    <avm-mf-root></avm-mf-root>\n\n    <!--  Use a SVG image to prevent google indexing  -->\n    <noscript>\n      <div class=\"mt-5 d-flex align-items-center flex-column\">\n        <div class=\"noscript-wrapper\">\n          <svg viewBox=\"0 0 247 40\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g>\n              <text style=\"font-style:normal;font-weight:normal;font-size:11px;line-height:1.25;\n              font-family:&quot;Source Sans Pro&quot;;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;\n              stroke:none;stroke-width:0.264583\" x=\"124.11568\" y=\"-11.469797\">\n                <tspan style=\"text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"-11.469797\"/>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"1.7593274\"/>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"14.988452\">Sie müssen JavaScript in Internet-Browser aktivieren, um sich anmelden zu können.\n                </tspan>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"28.217577\">You must enable JavaScript in your browser to continue.\n                </tspan>\n                <tspan style=\"font-size:6px;text-align:center;text-anchor:middle;stroke-width:0.264583\" x=\"124.11568\" y=\"41.446701\"/>\n              </text>\n            </g>\n          </svg>\n        </div>\n      </div>\n    </noscript>\n\n    <script src=\"https://sso.myfritz.net/static/js/jquery.slim.min.js?v=4.6.149\"></script>\n    <script src=\"https://sso.myfritz.net/static/js/popper.min.js?v=4.6.149\"></script>\n    <script src=\"https://sso.myfritz.net/static/js/bootstrap.min.js?v=4.6.149\"></script>\n    <script src=\"/devices/assets/extra-app-config.js?v=4.6.149\"></script>\n\n    <!--  whitescreen error page for related js see extra-app-config -->\n    <div id=\"whitescreen-container\" class=\"whitescreen-container\" data-static-url=\"https://sso.myfritz.net\"></div>\n  <script src=\"polyfills-DVBPDC2B.js\" type=\"module\"></script><script src=\"main-XUB4GH3B.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://www.myfritz.net/devices/"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://myfritz.net/.well-known/mcp"
+      ]
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "myfritz.net",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-11T02:46:39.192Z",
+    "score": 37,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "AI-Closed",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 10,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "fail",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 0.00/9 · hybrid 0.00/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 19,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 21 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"MyFRITZ!Net\"; meta description 24 chars (short); no date signal; body text 21 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://myfritz.net/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 4,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

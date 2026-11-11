@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "disqus.com",
+    "fetchedAt": "2026-11-11T03:31:17.149Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /reset\nDisallow: /forgot\n",
+      "url": "https://disqus.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>\n        Page not found (404) - Disqus\n    </title>\n    <script type=\"text/javascript\">\n    var totalCount = 8;\n    function ChangeIt()\n    {\n        var num = Math.ceil( Math.random() * totalCount );\n        document.body.background = '//media.disquscdn.com/errors/img/'+num+'.gif';\n    document.body.style.backgroundRepeat = \"repeat\";// Background repeat\n    }\n    window.onload = ChangeIt;\n    </script>\n    <style>\n        html {\n            width: 100%;\n            height: 100%;\n        }\n\n        body {\n            position: relative;\n            width: 100%;\n            height: 100%;\n            margin: 0;\n            padding: 0;\n            font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\n            font-weight: 400;\n            -webkit-font-smoothing: antialiased;\n            -webkit-background-size: cover;\n            -moz-background-size: cover;\n            -o-background-size: cover;\n            background-size: cover;\n            background-repeat: no-repeat;\n        }\n\n        body:before {\n            position: absolute;\n            top: 0;\n            left: 0;\n            right: 0;\n            z-index: -1;\n            width: 100%;\n            height: 700px;\n            content: \"\";\n            background: transparent;\n            background-size: cover;\n        }\n\n        .global-header {\n            width: 650px;\n            margin: 0 auto;\n            padding: 250px 0 50px 0;\n            background: transparent;\n            font-size: 16px;\n        }\n\n        .global-nav {\n            text-align: center;\n        }\n\n        .logo {\n            margin-top: 250px;\n            margin-bottom: 50px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            width: auto;\n        }\n\n        ul {\n            display: none;\n        }\n\n        .wrapper {\n            display: flex;\n        }\n\n        .error-content {\n            -moz-box-sizing: border-box;\n            -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n            line-height:24px;\n            color: #042552;\n            display: block;\n            margin: 0 auto;\n            background: rgba(255,255,255, 0.8);\n            padding: 30px 40px;\n            max-width: 100vw;\n        }\n\n        .error-link-container {\n            display: flex;\n            justify-content: space-evenly;\n            gap: 37px;\n            padding-top: 35px;\n            padding-bottom: 30px;\n            max-width: 1000px;\n        }\n\n        .error-link {\n            color: rgba(216, 17, 89, 1);\n            font-size: 20px;\n        }\n\n        h1 {\n            font-weight: 700;\n            font-size: 40px;\n            line-height: 44px;\n        }\n\n        p {\n            font-weight: 400;\n            font-size: 24px;\n            line-height: 32px;\n        }\n\n        a {\n            color: #208be6;\n            text-decoration: none;\n        }\n\n        a:hover {\n            text-decoration: underline;\n        }\n\n        footer, .global-footer{\n            display: none;\n\n        }\n\n    /* -------------------------------------\n        PHONE-SIZED DEVICES\n    ------------------------------------- */\n        @media only screen and (max-device-width: 480px) {\n            .error-content {\n                text-align: center;\n            }\n            h1 {\n                font-size: 38px;\n            }\n            p {\n                font-size: 28px;\n            }\n            .error-link-container {\n                justify-content: center;\n                flex-wrap: wrap;\n                align-content: flex-start;\n                padding: 25px;\n                gap: 25px;\n            }\n            .error-link-container div {\n                width: 100vw;\n                display: flex;\n                flex-direction: column;\n                align-items: flex-start;\n                text-align: left;\n            }\n            .error-link {\n                font-size: 28px;\n            }\n        }\n\n    </style>\n</head>\n\n<body>\n<a href=\"https://disqus.com/\" class=\"logo\" data-analytics=\"site logo\"><img src=\"//media.disquscdn.com/errors/img/disqus-logo-alt-hidpi.png\" width=\"150\" alt=\"DISQUS\" title=\"Disqus - Discover your community\"/></a>\n\n\n<div class=\"wrapper\">\n    <div class=\"error-content\">\n        \n<h1>Oops! This page could not be found!</h1>\n<p>Sorry, the page you are looking for doesn't exist or has been moved.</p>\n<div class=\"error-link-container\">\n    <div>\n        <a href=\"https://help.disqus.com/en/\" class=\"error-link\">Knowledge Base &raquo;</a>\n        <p>Check our knowledge base for answers to FAQs.</p>\n    </div>\n    <div>\n        <a href=\"https://blog.disqus.com/\" class=\"error-link\">Blog &raquo;</a>\n        <p>Check our blog for helpful insights and tips about Disqus.</p>\n    </div>\n    <div>\n        <a href=\"https://disqus.com/support/\" class=\"error-link\">Support &raquo;</a>\n        <p>Check our support page for assistance and solutions.</p>\n    </div>\n</div>\n\n    </div>\n</div>\n\n\n</body>\n</html>\n\n\n",
+      "url": "https://disqus.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>\n        Page not found (404) - Disqus\n    </title>\n    <script type=\"text/javascript\">\n    var totalCount = 8;\n    function ChangeIt()\n    {\n        var num = Math.ceil( Math.random() * totalCount );\n        document.body.background = '//media.disquscdn.com/errors/img/'+num+'.gif';\n    document.body.style.backgroundRepeat = \"repeat\";// Background repeat\n    }\n    window.onload = ChangeIt;\n    </script>\n    <style>\n        html {\n            width: 100%;\n            height: 100%;\n        }\n\n        body {\n            position: relative;\n            width: 100%;\n            height: 100%;\n            margin: 0;\n            padding: 0;\n            font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\n            font-weight: 400;\n            -webkit-font-smoothing: antialiased;\n            -webkit-background-size: cover;\n            -moz-background-size: cover;\n            -o-background-size: cover;\n            background-size: cover;\n            background-repeat: no-repeat;\n        }\n\n        body:before {\n            position: absolute;\n            top: 0;\n            left: 0;\n            right: 0;\n            z-index: -1;\n            width: 100%;\n            height: 700px;\n            content: \"\";\n            background: transparent;\n            background-size: cover;\n        }\n\n        .global-header {\n            width: 650px;\n            margin: 0 auto;\n            padding: 250px 0 50px 0;\n            background: transparent;\n            font-size: 16px;\n        }\n\n        .global-nav {\n            text-align: center;\n        }\n\n        .logo {\n            margin-top: 250px;\n            margin-bottom: 50px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            width: auto;\n        }\n\n        ul {\n            display: none;\n        }\n\n        .wrapper {\n            display: flex;\n        }\n\n        .error-content {\n            -moz-box-sizing: border-box;\n            -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n            line-height:24px;\n            color: #042552;\n            display: block;\n            margin: 0 auto;\n            background: rgba(255,255,255, 0.8);\n            padding: 30px 40px;\n            max-width: 100vw;\n        }\n\n        .error-link-container {\n            display: flex;\n            justify-content: space-evenly;\n            gap: 37px;\n            padding-top: 35px;\n            padding-bottom: 30px;\n            max-width: 1000px;\n        }\n\n        .error-link {\n            color: rgba(216, 17, 89, 1);\n            font-size: 20px;\n        }\n\n        h1 {\n            font-weight: 700;\n            font-size: 40px;\n            line-height: 44px;\n        }\n\n        p {\n            font-weight: 400;\n            font-size: 24px;\n            line-height: 32px;\n        }\n\n        a {\n            color: #208be6;\n            text-decoration: none;\n        }\n\n        a:hover {\n            text-decoration: underline;\n        }\n\n        footer, .global-footer{\n            display: none;\n\n        }\n\n    /* -------------------------------------\n        PHONE-SIZED DEVICES\n    ------------------------------------- */\n        @media only screen and (max-device-width: 480px) {\n            .error-content {\n                text-align: center;\n            }\n            h1 {\n                font-size: 38px;\n            }\n            p {\n                font-size: 28px;\n            }\n            .error-link-container {\n                justify-content: center;\n                flex-wrap: wrap;\n                align-content: flex-start;\n                padding: 25px;\n                gap: 25px;\n            }\n            .error-link-container div {\n                width: 100vw;\n                display: flex;\n                flex-direction: column;\n                align-items: flex-start;\n                text-align: left;\n            }\n            .error-link {\n                font-size: 28px;\n            }\n        }\n\n    </style>\n</head>\n\n<body>\n<a href=\"https://disqus.com/\" class=\"logo\" data-analytics=\"site logo\"><img src=\"//media.disquscdn.com/errors/img/disqus-logo-alt-hidpi.png\" width=\"150\" alt=\"DISQUS\" title=\"Disqus - Discover your community\"/></a>\n\n\n<div class=\"wrapper\">\n    <div class=\"error-content\">\n        \n<h1>Oops! This page could not be found!</h1>\n<p>Sorry, the page you are looking for doesn't exist or has been moved.</p>\n<div class=\"error-link-container\">\n    <div>\n        <a href=\"https://help.disqus.com/en/\" class=\"error-link\">Knowledge Base &raquo;</a>\n        <p>Check our knowledge base for answers to FAQs.</p>\n    </div>\n    <div>\n        <a href=\"https://blog.disqus.com/\" class=\"error-link\">Blog &raquo;</a>\n        <p>Check our blog for helpful insights and tips about Disqus.</p>\n    </div>\n    <div>\n        <a href=\"https://disqus.com/support/\" class=\"error-link\">Support &raquo;</a>\n        <p>Check our support page for assistance and solutions.</p>\n    </div>\n</div>\n\n    </div>\n</div>\n\n\n</body>\n</html>\n\n\n",
+      "url": "https://disqus.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" class=\" touchevents flexbox\"><head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>#1 in audience engagement and community growth | Disqus</title>\n\n    <meta name=\"description\" content=\"More publishers trust us to engage, grow, and understand their audiences than any other. Build your on-site community with Disqus.\">\n\n    \n    <meta name=\"twitter:card\" content=\"summary\">\n    <meta name=\"twitter:description\" content=\"More publishers trust us to engage, grow, and understand their audiences than any other. Build your on-site community with Disqus.\">\n    <meta name=\"twitter:image\" content=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/favicon-192x192.png\">\n    <meta name=\"twitter:site\" content=\"@disqus\">\n    <meta name=\"twitter:title\" content=\"#1 in audience engagement and community growth | Disqus\">\n    <meta name=\"twitter:url\" content=\"https://disqus.com/\">\n\n    \n    <meta property=\"og:description\" content=\"More publishers trust us to engage, grow, and understand their audiences than any other. Build your on-site community with Disqus.\">\n    <meta property=\"og:image\" content=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/favicon-192x192.png\">\n    <meta property=\"og:title\" content=\"#1 in audience engagement and community growth | Disqus\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:url\" content=\"https://disqus.com/\">\n    <meta property=\"og:site_name\" content=\"Disqus\">\n    <meta property=\"fb:app_id\" content=\"52254943976\">\n\n    \n    <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-57x57.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-114x114.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-72x72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-144x144.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-60x60.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-120x120.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-76x76.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-152x152.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/apple-touch-icon-180x180.png\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/favicon-192x192.png\" sizes=\"192x192\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/favicon-160x160.png\" sizes=\"160x160\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/favicon-96x96.png\" sizes=\"96x96\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/favicon-16x16.png\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/favicon-32x32.png\" sizes=\"32x32\">\n    <meta name=\"msapplication-TileColor\" content=\"#2e9fff\">\n    <meta name=\"msapplication-TileImage\" content=\"https://c.disquscdn.com/next/current/marketing/assets/img/brand/mstile-144x144.png\">\n\n    <!-- NOTE: This MUST be the first script loaded to function properly -->\n    <iframe id=\"rfi_tc_ifr_\" border=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" style=\"display:none;padding:0;margin:0\" width=\"0\" height=\"0\" src=\"https://p.rfihub.com/ca.html?ver=9&amp;rb=46934&amp;ca=&amp;_o=46934&amp;_t=&amp;pe=https%3A%2F%2Fdisqus.com%2F&amp;pf=&amp;ra=44509577634744346\"></iframe>\n</head>\n<body>\n    <noscript id=\"unsupportedBrowser\">\n        Sorry, your browser is unsupported.\n    </noscript>\n\n    \n        <!-- Code for Pixel: Disqus Universal Pixel -->\n<!-- Begin DSP Conversion Action Tracking Code Version 9 -->\n\n\n<noscript>\n    &lt;iframe src='//p.rfihub.com/ca.html?rb=46934&amp;ca=&amp;_o=46934&amp;_t=&amp;ra=' style='display:none;padding:0;margin:0' width='0' height='0'&gt;\n    &lt;/iframe&gt;\n</noscript>\n\n<!-- End DSP Conversion Action Tracking Code Version 9 -->\n    \n\n    <div id=\"app-root\">\n        \n    </div>\n\n    \n    \n\n\n\n</body></html>",
+      "url": "https://disqus.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" \nxmlns:video=\"http://www.google.com/schemas/sitemap-video/1.1\" \nxmlns:image=\"http://www.google.com/schemas/sitemap-image/1.1\">\n   <url>\n      <loc>https://disqus.com/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/platform/overview/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/platform/engagement/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/platform/moderation/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/platform/audience/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/platform/monetization/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/pricing/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/landing/disqus-pro/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/landing/disqus-business/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/api/docs/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n   <url>\n      <loc>https://disqus.com/about-us/</loc>\n      <lastmod>2023-07-11</lastmod>\n   </url>\n</urlset>\n",
+      "url": "https://disqus.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>\n        Page not found (404) - Disqus\n    </title>\n    <script type=\"text/javascript\">\n    var totalCount = 8;\n    function ChangeIt()\n    {\n        var num = Math.ceil( Math.random() * totalCount );\n        document.body.background = '//media.disquscdn.com/errors/img/'+num+'.gif';\n    document.body.style.backgroundRepeat = \"repeat\";// Background repeat\n    }\n    window.onload = ChangeIt;\n    </script>\n    <style>\n        html {\n            width: 100%;\n            height: 100%;\n        }\n\n        body {\n            position: relative;\n            width: 100%;\n            height: 100%;\n            margin: 0;\n            padding: 0;\n            font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\n            font-weight: 400;\n            -webkit-font-smoothing: antialiased;\n            -webkit-background-size: cover;\n            -moz-background-size: cover;\n            -o-background-size: cover;\n            background-size: cover;\n            background-repeat: no-repeat;\n        }\n\n        body:before {\n            position: absolute;\n            top: 0;\n            left: 0;\n            right: 0;\n            z-index: -1;\n            width: 100%;\n            height: 700px;\n            content: \"\";\n            background: transparent;\n            background-size: cover;\n        }\n\n        .global-header {\n            width: 650px;\n            margin: 0 auto;\n            padding: 250px 0 50px 0;\n            background: transparent;\n            font-size: 16px;\n        }\n\n        .global-nav {\n            text-align: center;\n        }\n\n        .logo {\n            margin-top: 250px;\n            margin-bottom: 50px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            width: auto;\n        }\n\n        ul {\n            display: none;\n        }\n\n        .wrapper {\n            display: flex;\n        }\n\n        .error-content {\n            -moz-box-sizing: border-box;\n            -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n            line-height:24px;\n            color: #042552;\n            display: block;\n            margin: 0 auto;\n            background: rgba(255,255,255, 0.8);\n            padding: 30px 40px;\n            max-width: 100vw;\n        }\n\n        .error-link-container {\n            display: flex;\n            justify-content: space-evenly;\n            gap: 37px;\n            padding-top: 35px;\n            padding-bottom: 30px;\n            max-width: 1000px;\n        }\n\n        .error-link {\n            color: rgba(216, 17, 89, 1);\n            font-size: 20px;\n        }\n\n        h1 {\n            font-weight: 700;\n            font-size: 40px;\n            line-height: 44px;\n        }\n\n        p {\n            font-weight: 400;\n            font-size: 24px;\n            line-height: 32px;\n        }\n\n        a {\n            color: #208be6;\n            text-decoration: none;\n        }\n\n        a:hover {\n            text-decoration: underline;\n        }\n\n        footer, .global-footer{\n            display: none;\n\n        }\n\n    /* -------------------------------------\n        PHONE-SIZED DEVICES\n    ------------------------------------- */\n        @media only screen and (max-device-width: 480px) {\n            .error-content {\n                text-align: center;\n            }\n            h1 {\n                font-size: 38px;\n            }\n            p {\n                font-size: 28px;\n            }\n            .error-link-container {\n                justify-content: center;\n                flex-wrap: wrap;\n                align-content: flex-start;\n                padding: 25px;\n                gap: 25px;\n            }\n            .error-link-container div {\n                width: 100vw;\n                display: flex;\n                flex-direction: column;\n                align-items: flex-start;\n                text-align: left;\n            }\n            .error-link {\n                font-size: 28px;\n            }\n        }\n\n    </style>\n</head>\n\n<body>\n<a href=\"https://disqus.com/\" class=\"logo\" data-analytics=\"site logo\"><img src=\"//media.disquscdn.com/errors/img/disqus-logo-alt-hidpi.png\" width=\"150\" alt=\"DISQUS\" title=\"Disqus - Discover your community\"/></a>\n\n\n<div class=\"wrapper\">\n    <div class=\"error-content\">\n        \n<h1>Oops! This page could not be found!</h1>\n<p>Sorry, the page you are looking for doesn't exist or has been moved.</p>\n<div class=\"error-link-container\">\n    <div>\n        <a href=\"https://help.disqus.com/en/\" class=\"error-link\">Knowledge Base &raquo;</a>\n        <p>Check our knowledge base for answers to FAQs.</p>\n    </div>\n    <div>\n        <a href=\"https://blog.disqus.com/\" class=\"error-link\">Blog &raquo;</a>\n        <p>Check our blog for helpful insights and tips about Disqus.</p>\n    </div>\n    <div>\n        <a href=\"https://disqus.com/support/\" class=\"error-link\">Support &raquo;</a>\n        <p>Check our support page for assistance and solutions.</p>\n    </div>\n</div>\n\n    </div>\n</div>\n\n\n</body>\n</html>\n\n\n",
+      "url": "https://disqus.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "disqus.com",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-11T03:31:17.149Z",
+    "score": 30,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 7,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 24 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"#1 in audience engagement and community \"; meta description 130 chars; no date signal; body text 24 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 404; ai.txt not probed; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 3,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "signals": {
+    "domain": "allegro.pl",
+    "fetchedAt": "2026-11-11T03:29:21.950Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 429,
+      "body": "<html lang=\"pl\">\n<head><title>allegro.pl</title>\n    <style>\n        #no-js-code{\n            animation: A 1.5s;\n        }\n        #embedded{\n            overflow:hidden;\n            height:100%;\n            width:100%;\n            position:absolute;\n            top:0;\n            left:0;\n            right:0;\n            bottom:0;\n        }\n    </style>\n</head>\n<body style=\"margin:0\">\n    <p id=\"no-js-code\">Please enable JS and disable any ad blocker</p>\n    <iframe src=\"https://allegrocaptcha.com/captcha-frontend/allegro.pl/347eb356-c166-4037-9e00-164327542eb1\" id=\"embedded\"></iframe>\n    <script data-cfasync=\"false\">\n        document.getElementById(\"no-js-code\").style.display = \"none\";\n        const getCookieValue = function getCookieValue(a) {\n            let b = document.cookie.match(\"(^|;)\\\\s*\" + a + \"\\\\s*=\\\\s*([^;]+)\");\n            return b ? b.pop() : \"\";\n        };\n        const reload = function () {\n            \n            if (document.referrer !== \"\") {\n                let searchParams = new URLSearchParams(window.location.search);\n                searchParams.set(\"dd_referrer\", document.referrer);\n                window.location.search = searchParams.toString();\n            } else {\n                location.reload();\n            }\n        }\n        const deviceCtx = getCookieValue(\"wdctx\") || \"\";\n        const iframe = document.getElementById(\"embedded\");\n        const captchaURL = new URL(\"https:\\/\\/allegrocaptcha.com\\/captcha-frontend\");\n        iframe.onload = () => {\n            iframe.contentWindow.postMessage({ type: \"context\", deviceCtx: deviceCtx }, captchaURL.origin);\n        };\n        window.addEventListener(\"message\", (event) => {\n            if (event.origin !== captchaURL.origin) {\n                console.error(\"[parent] got message from unexpected origin:\", event.origin);\n                return;\n            }\n            if (event.data.type === \"unlock\") {\n                if (event.data.value !== \"\") {\n                    document.cookie = \"wdctx=\" + event.data.value + \"; Max-Age=2592000; Domain=.allegro.pl; Path=/; Secure\";\n                }\n                reload();\n            } else if (event.data.type === \"reload\") {\n                reload();\n            }\n        });\n    </script>\n</body>\n</html>",
+      "url": "https://allegro.pl/robots.txt"
+    },
+    "llms": {
+      "status": 429,
+      "body": "<html lang=\"pl\">\n<head><title>allegro.pl</title>\n    <style>\n        #no-js-code{\n            animation: A 1.5s;\n        }\n        #embedded{\n            overflow:hidden;\n            height:100%;\n            width:100%;\n            position:absolute;\n            top:0;\n            left:0;\n            right:0;\n            bottom:0;\n        }\n    </style>\n</head>\n<body style=\"margin:0\">\n    <p id=\"no-js-code\">Please enable JS and disable any ad blocker</p>\n    <iframe src=\"https://allegrocaptcha.com/captcha-frontend/allegro.pl/0103f3f4-89db-469d-8035-581c93fbc4c5\" id=\"embedded\"></iframe>\n    <script data-cfasync=\"false\">\n        document.getElementById(\"no-js-code\").style.display = \"none\";\n        const getCookieValue = function getCookieValue(a) {\n            let b = document.cookie.match(\"(^|;)\\\\s*\" + a + \"\\\\s*=\\\\s*([^;]+)\");\n            return b ? b.pop() : \"\";\n        };\n        const reload = function () {\n            \n            if (document.referrer !== \"\") {\n                let searchParams = new URLSearchParams(window.location.search);\n                searchParams.set(\"dd_referrer\", document.referrer);\n                window.location.search = searchParams.toString();\n            } else {\n                location.reload();\n            }\n        }\n        const deviceCtx = getCookieValue(\"wdctx\") || \"\";\n        const iframe = document.getElementById(\"embedded\");\n        const captchaURL = new URL(\"https:\\/\\/allegrocaptcha.com\\/captcha-frontend\");\n        iframe.onload = () => {\n            iframe.contentWindow.postMessage({ type: \"context\", deviceCtx: deviceCtx }, captchaURL.origin);\n        };\n        window.addEventListener(\"message\", (event) => {\n            if (event.origin !== captchaURL.origin) {\n                console.error(\"[parent] got message from unexpected origin:\", event.origin);\n                return;\n            }\n            if (event.data.type === \"unlock\") {\n                if (event.data.value !== \"\") {\n                    document.cookie = \"wdctx=\" + event.data.value + \"; Max-Age=2592000; Domain=.allegro.pl; Path=/; Secure\";\n                }\n                reload();\n            } else if (event.data.type === \"reload\") {\n                reload();\n            }\n        });\n    </script>\n</body>\n</html>",
+      "url": "https://allegro.pl/llms.txt"
+    },
+    "llmsFull": {
+      "status": 429,
+      "body": "<html lang=\"pl\">\n<head><title>allegro.pl</title>\n    <style>\n        #no-js-code{\n            animation: A 1.5s;\n        }\n        #embedded{\n            overflow:hidden;\n            height:100%;\n            width:100%;\n            position:absolute;\n            top:0;\n            left:0;\n            right:0;\n            bottom:0;\n        }\n    </style>\n</head>\n<body style=\"margin:0\">\n    <p id=\"no-js-code\">Please enable JS and disable any ad blocker</p>\n    <iframe src=\"https://allegrocaptcha.com/captcha-frontend/allegro.pl/c3c8f300-954a-4d0e-abd2-947312b44fe6\" id=\"embedded\"></iframe>\n    <script data-cfasync=\"false\">\n        document.getElementById(\"no-js-code\").style.display = \"none\";\n        const getCookieValue = function getCookieValue(a) {\n            let b = document.cookie.match(\"(^|;)\\\\s*\" + a + \"\\\\s*=\\\\s*([^;]+)\");\n            return b ? b.pop() : \"\";\n        };\n        const reload = function () {\n            \n            if (document.referrer !== \"\") {\n                let searchParams = new URLSearchParams(window.location.search);\n                searchParams.set(\"dd_referrer\", document.referrer);\n                window.location.search = searchParams.toString();\n            } else {\n                location.reload();\n            }\n        }\n        const deviceCtx = getCookieValue(\"wdctx\") || \"\";\n        const iframe = document.getElementById(\"embedded\");\n        const captchaURL = new URL(\"https:\\/\\/allegrocaptcha.com\\/captcha-frontend\");\n        iframe.onload = () => {\n            iframe.contentWindow.postMessage({ type: \"context\", deviceCtx: deviceCtx }, captchaURL.origin);\n        };\n        window.addEventListener(\"message\", (event) => {\n            if (event.origin !== captchaURL.origin) {\n                console.error(\"[parent] got message from unexpected origin:\", event.origin);\n                return;\n            }\n            if (event.data.type === \"unlock\") {\n                if (event.data.value !== \"\") {\n                    document.cookie = \"wdctx=\" + event.data.value + \"; Max-Age=2592000; Domain=.allegro.pl; Path=/; Secure\";\n                }\n                reload();\n            } else if (event.data.type === \"reload\") {\n                reload();\n            }\n        });\n    </script>\n</body>\n</html>",
+      "url": "https://allegro.pl/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<html lang=\"en\"><head><title>allegro.pl</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMATdj4bb0PIBgAgoPMUg==','hsh':'77DC0FFBAA0B77570F6B414F8E5BDB','t':'bv','rr':'','qp':'','s':29701,'e':'b6d9f38c094b159d78cb5c137ee9ae7cd833e2dd6b89ece4d57bb1c2e3b3e7bdecd9eeb316b1c9243b75ac3dd7d10ef5','host':'geo.captcha-delivery.com','cookie':'iJJBXhswhl5ewwoqK_y3Gq0OwASFPXDm94CjYQoNrFxY6uArOVoqtCLo8zUPxam60NzOSaQu~dpsJf2Zpzk3hLtWfJJO4xmzRiTZX4F40IvSWoA8v6wO17ch9Xjx6R4v'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+      "url": "https://allegro.pl/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<html lang=\"en\"><head><title>allegro.pl</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAsKV0c8jvUwUAgoPMUg==','hsh':'77DC0FFBAA0B77570F6B414F8E5BDB','t':'bv','rr':'','qp':'','s':29560,'e':'e744b3c6683917740233e0a9ebdbc35cbbd5981a4a4de9001bc01575b44564c4ac536b5a0cb76b1a691ec6de578113de','host':'geo.captcha-delivery.com','cookie':'6hSsRd~rN1zDr_aAdxHG18acU8LyHn728wT1BekRuI_w66tkf4ZXsBle7MFOBcbr~Zw_S0qdI~rQnPFjyl7CAlczzgVX7HkJ12UdgHClxXW9PP24TNSKzCuDh9ooWmwY'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+      "url": "https://allegro.pl/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<html lang=\"en\"><head><title>allegro.pl</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAQiOmMhmkVQMAgoPMUg==','hsh':'77DC0FFBAA0B77570F6B414F8E5BDB','t':'bv','rr':'','qp':'','s':29560,'e':'6fda82d1e9c8e1e406643fa896caaf5b6d85b29e3b9118fd7d58cc9a16dcd93d794f10e43a26b093ae15b950f24e1528','host':'geo.captcha-delivery.com','cookie':'omE0W8hXOmk4Mzye9XFXBrqly0XdWY9UIT8p5pngvVwnaoEtMUuWcPO2zhT7lL5MiP9LJq8Y_cn7Qg6DUSIJ5YYo4ZWD1btKlnRGfQJHmHlcW3mZACtJSUBEWveAbZg9'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+      "url": "https://allegro.pl/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    }
+  },
+  "afr": {
+    "domain": "allegro.pl",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-11T03:29:21.950Z",
+    "score": 25,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 25,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 25,
+            "max": 25,
+            "status": "pass",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 429; GET /llms-full.txt → HTTP 429; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 403; ai.txt not probed; homepage unavailable"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 25,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
