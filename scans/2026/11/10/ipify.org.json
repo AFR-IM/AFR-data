@@ -1,251 +1,252 @@
 {
-  "signals": {
-    "domain": "ipify.org",
-    "fetchedAt": "2026-11-10T11:09:18.346Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "User-agent: *\nDisallow:\n",
-      "url": "https://www.ipify.org/robots.txt"
-    },
-    "llms": {
-      "status": 404,
-      "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<h1>404 Not Found</h1>\n<ul>\n<li>Code: NoSuchKey</li>\n<li>Message: The specified key does not exist.</li>\n<li>Key: llms.txt</li>\n<li>RequestId: GJWAM4CH9P67EYNY</li>\n<li>HostId: mBbpvfOMxUG6e/Zt5zvxTHBoh49J3TywXQSJ8eE2JKP74yKFaLKhMK8Kk2svAgG5ihFkM/LTIYgh7zRue1uL4niEl6EfIc4e</li>\n</ul>\n<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>\n<ul>\n<li>Code: AccessDenied</li>\n<li>Message: Access Denied</li>\n</ul>\n<hr/>\n</body>\n</html>\n",
-      "url": "https://www.ipify.org/llms.txt"
-    },
-    "llmsFull": {
-      "status": 404,
-      "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<h1>404 Not Found</h1>\n<ul>\n<li>Code: NoSuchKey</li>\n<li>Message: The specified key does not exist.</li>\n<li>Key: llms-full.txt</li>\n<li>RequestId: GJW595HV8XVBEHH1</li>\n<li>HostId: b0ezjZSrZBoCWChYC3ItTgSKmROqDD3O1CZR6gC44F1RZHHpybvu3UYFbjRevMk7XCCdk/CnFO8=</li>\n</ul>\n<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>\n<ul>\n<li>Code: AccessDenied</li>\n<li>Message: Access Denied</li>\n</ul>\n<hr/>\n</body>\n</html>\n",
-      "url": "https://www.ipify.org/llms-full.txt"
-    },
-    "homepage": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"google-site-verification\" content=\"FMzEAh3aM4gTNWrj3HahCKPRgUxBNU5jz_gNNY38ZR0\"/>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>ipify - A Simple Public IP Address API</title>\n    <meta name=\"description\"\n          content=\"ipify API is a simple public IP address API, easy enough to integrate into any application in seconds.\">\n\n    <link href=\"https://fonts.googleapis.com/css?family=Raleway\" rel=\"stylesheet\">\n    <link href=\"https://fonts.googleapis.com/css?family=Ubuntu+Mono\" rel=\"stylesheet\">\n\n    <!-- Global site tag (gtag.js) - Google Analytics -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-132352022-1\"></script>\n    <script>\n        window.dataLayer = window.dataLayer || [];\n\n        function gtag() {\n            dataLayer.push(arguments);\n        }\n\n        gtag('js', new Date());\n\n        gtag('config', 'UA-132352022-1');\n        gtag('config', 'G-DV8QRYTLH3');\n    </script>\n\n    <!-- CrazyEgg Tracking Code for ipify.org -->\n    <script type=\"text/javascript\" src=\"//script.crazyegg.com/pages/scripts/0096/3644.js\" async=\"async\"></script>\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css\">\n    <link href=\"/static/dist/css/prism.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"/static/dist/css/styles_v2.css?v=10\" rel=\"stylesheet\" type=\"text/css\">\n\n    <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"/static/images/apple-icon-57x57.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"/static/images/apple-icon-60x60.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/static/images/apple-icon-72x72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/static/images/apple-icon-76x76.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/static/images/apple-icon-114x114.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/static/images/apple-icon-120x120.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/static/images/apple-icon-144x144.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/static/images/apple-icon-152x152.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/static/images/apple-icon-180x180.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/static/images/android-icon-192x192.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/static/images/favicon-32x32.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/static/images/favicon-96x96.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/static/images/favicon-16x16.png\">\n    <meta name=\"msapplication-TileColor\" content=\"#ffffff\">\n    <meta name=\"msapplication-TileImage\" content=\"/static/images/ms-icon-144x144.png\">\n    <meta name=\"theme-color\" content=\"#ffffff\">\n</head>\n<body>\n\n<header>\n    <div class=\"first-level\">\n        <div class=\"content-in-blocks\">\n            <div class=\"logo-block\">\n                <a href=\"/\" class=\"logo\">\n                    <img src=\"/static/images/logo.png\" alt=\"ipify logo\">\n                </a>\n            </div>\n            <h1>ipify API</h1>\n            <a href=\"https://geo.ipify.org\" class=\"btn common-btn with-icon\" title=\"IP Geolocation API\">IP Geolocation API <img src=\"static/svg/chevron-right.svg\"></a>\n        </div>\n    </div>\n    <div class=\"second-level\">\n        <div class=\"content-in-blocks\">\n            <div class=\"menu\">\n                <div class=\"selector\"></div>\n                <a href=\"javascript:void(0);\" data-anchor=\"about\">About</a>\n                <a href=\"javascript:void(0);\" data-anchor=\"api-usage\">API usage</a>\n                <a href=\"javascript:void(0);\" data-anchor=\"code-samples\">Code samples</a>\n                <a href=\"javascript:void(0);\" data-anchor=\"libraries\">Libraries</a>\n            </div>\n        </div>\n    </div>\n</header>\n\n<section class=\"about-slide\">\n    <div class=\"svg-bg-map\">\n        <img src=\"/static/images/ipify-map.png\" alt=\"ipify map\">\n    </div>\n    <div class=\"content-in-blocks\">\n        <h2>A Simple Public IP Address API</h2>\n        <h3>Want to get started right away?<br/>Don't wait, run one of the code samples below in your terminal and check\n            it out!</h3>\n\n        <div class=\"pre-group-wrapper\">\n            <div class=\"pre-wrapper self-ipv4-block\">\n                <span>IPv4</span>\n                <pre><code class=\"language-bash\">$ curl 'https://api.ipify.org?format=json'\n{\"ip\":\"185.103.110.182\"}</code></pre>\n            </div>\n            <div class=\"pre-wrapper self-ipv6-block\">\n                <span>IPv4(v6)</span>\n                <pre><code class=\"language-bash\">$ curl 'https://api64.ipify.org?format=json'\n{\"ip\":\"2a00:1450:400f:80d::200e\"}</code></pre>\n            </div>\n        </div>\n\n        <h3>If you need to get the geolocation data by IP, please refer to our <br/><a\n                href=\"https://geo.ipify.org/docs\">IP Geolocation API</a></h3>\n    </div>\n</section>\n\n<section class=\"common-info-slide gray-bg waypoint-block\" data-waypoint=\"about\">\n    <div class=\"waypoint-particle\" data-waypoint=\"about\"></div>\n    <div class=\"content-in-blocks\">\n        <h2>Why ipify?</h2>\n        <p>Ever needed to get your public IP address programmatically? <br/>Maybe you're provisioning new cloud servers and\n            need to know your IP -- maybe you're behind a corporate firewall <span class=\"span-no-wrap\">and need</span> to tunnel information -- whatever\n            the reason: sometimes having a public IP address API is useful!</p>\n\n        <h3 class=\"text-center\">You should use ipify because:</h3>\n        <div class=\"numbered-list-wrapper\">\n            <div class=\"list-column\">\n                <div class=\"item-wrapper\">\n                    <span>1</span>\n                    <p>You can use it without limit (even if you're doing millions of requests per minute.</p>\n                </div>\n                <div class=\"item-wrapper\">\n                    <span>2</span>\n                    <p>It works flawlessly with both IPv4 and IPv6 addresses, so no matter what sort of technology\n                        you're using, there won't be issues.</p>\n                </div>\n                <div class=\"item-wrapper\">\n                    <span class=\"special-padding\">3</span>\n                    <p>It's always online and available, and its infrastructure is powered by Heroku, which means that\n                        regardless of whether the server running the API dies, or if there's an enormous tornado which\n                        destroys half of the east coast, ipify will still be running!</p>\n                </div>\n            </div>\n            <div class=\"list-column\">\n                <div class=\"item-wrapper\">\n                    <span class=\"special-padding\">4</span>\n                    <p>ipify is completely open source (check out <span class=\"span-no-wrap\">the <a href=\"https://github.com/rdegges/ipify-api\" title=\"ipify on GitHub\" target=\"_blank\" rel=\"noreferrer nofollow\">GitHub repository</a></span>).</p>\n                </div>\n                <div class=\"item-wrapper\">\n                    <span class=\"special-padding\">5</span>\n                    <p>No visitor information is ever logged. Period.</p>\n                </div>\n                <div class=\"item-wrapper\">\n                    <span>6</span>\n                    <p>Lastly, ipify is open source so there's no need to worry about the domain name disappearing in\n                        three years or anything like that: ipify is here to stay!</p>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"waypoint-particle\" data-waypoint=\"about\"></div>\n</section>\n\n<section class=\"common-info-slide waypoint-block\" data-waypoint=\"api-usage\">\n    <div class=\"waypoint-particle\" data-waypoint=\"api-usage\"></div>\n    <div class=\"content-in-blocks\">\n        <h2>API Usage</h2>\n        <p>Using ipify is ridiculously simple. You have three options. You can get your public IP directly (in plain\n            text), you can get your public IP in JSON format, or you can get your public IP information in JSONP format\n            (useful for Javascript developers).</p>\n\n        <h3>IPv4</h3>\n        <div class=\"table-wrapper\">\n            <table class=\"table api-usage-table overflow-auto-table\">\n                <thead>\n                <tr>\n                    <td>API URL</td>\n                    <td>Response Type</td>\n                    <td>Sample Output (IPv4)</td>\n                </tr>\n                </thead>\n                <tbody>\n                <tr class=\"empty-tr-line\">\n                    <td></td>\n                    <td></td>\n                    <td></td>\n                </tr>\n                <tr>\n                    <td><code>https://api.ipify.org</code></td>\n                    <td><code>text</code></td>\n                    <td><code>98.207.254.136</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api.ipify.org?format=json</code></td>\n                    <td><code>json</code></td>\n                    <td><code>{\"ip\":\"98.207.254.136\"}</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api.ipify.org?format=jsonp</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>callback({\"ip\":\"98.207.254.136\"});</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api.ipify.org?format=jsonp&callback=getip</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>getip({\"ip\":\"98.207.254.136\"});</code></td>\n                </tr>\n                </tbody>\n            </table>\n        </div>\n\n        <h3>IPv6</h3>\n        <p>The api6.ipify.org is used for IPv6 request only. If you don't have an IPv6 address, the request will fail.</p>\n        <div class=\"table-wrapper\">\n            <table class=\"table api-usage-table overflow-auto-table\">\n                <thead>\n                <tr>\n                    <td>API URL</td>\n                    <td>Response Type</td>\n                    <td>Sample Output (IPv6)</td>\n                </tr>\n                </thead>\n                <tbody>\n                <tr class=\"empty-tr-line\">\n                    <td></td>\n                    <td></td>\n                    <td></td>\n                </tr>\n                <tr>\n                    <td><code>https://api6.ipify.org</code></td>\n                    <td><code>text</code></td>\n                    <td><code>2a00:1450:400f:80d::200e</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api6.ipify.org?format=json</code></td>\n                    <td><code>json</code></td>\n                    <td><code>{\"ip\":\"2a00:1450:400f:80d::200e\"}</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api6.ipify.org?format=jsonp</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>callback({\"ip\":\"2a00:1450:400f:80d::200e\"});</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api6.ipify.org?format=jsonp&callback=getip</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>getip({\"ip\":\"2a00:1450:400f:80d::200e\"});</code></td>\n                </tr>\n                </tbody>\n            </table>\n        </div>\n\n        <h3>Universal: IPv4/IPv6</h3>\n        <div class=\"table-wrapper\">\n            <table class=\"table api-usage-table overflow-auto-table\">\n                <thead>\n                <tr>\n                    <td>API URL</td>\n                    <td>Response Type</td>\n                    <td>Sample Output (IPv4/IPv6)</td>\n                </tr>\n                </thead>\n                <tbody>\n                <tr class=\"empty-tr-line\">\n                    <td></td>\n                    <td></td>\n                    <td></td>\n                </tr>\n                <tr>\n                    <td><code>https://api64.ipify.org</code></td>\n                    <td><code>text</code></td>\n                    <td><code>98.207.254.136 or 2a00:1450:400f:80d::200e</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api64.ipify.org?format=json</code></td>\n                    <td><code>json</code></td>\n                    <td><code>{\"ip\":\"98.207.254.136\"} or {\"ip\":\"2a00:1450:400f:80d::200e\"}</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api64.ipify.org?format=jsonp</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>callback({\"ip\":\"98.207.254.136\"}); or callback({\"ip\":\"2a00:1450:400f:80d::200e\"});</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api64.ipify.org?format=jsonp&callback=getip</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>getip({\"ip\":\"98.207.254.136\"}); or getip({\"ip\":\"2a00:1450:400f:80d::200e\"});</code></td>\n                </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <div class=\"waypoint-particle\" data-waypoint=\"api-usage\"></div>\n</section>\n\n<section class=\"common-info-slide border-top waypoint-block code-samples-block\" data-waypoint=\"code-samples\">\n    <div class=\"waypoint-particle\" data-waypoint=\"code-samples\"></div>\n    <div class=\"content-in-blocks\">\n        <h2>Code samples</h2>\n        <p>This section contains some common usage patterns from a variety of programming languages. Want something\n            included that isn't listed here? <a href=\"mailto:service.desk@ipify.org\">Email us</a>!</p>\n\n        <h3>Bash</h3>\n        <pre><code class=\"language-bash\">#!/bin/bash\n\nip=$(curl -s https://api.ipify.org)\necho \"My public IP address is: $ip\"</code></pre>\n\n        <h3>NGS (Next Generation Shell)</h3>\n        <pre><code class=\"language-bash\">ip=`curl -s https://api.ipify.org`\necho(\"My public IP address is: $ip\")</code></pre>\n\n        <h3>Python</h3>\n        <pre><code class=\"language-python\"># This example requires the requests library be installed.  You can learn more\n# about the Requests library here: http://docs.python-requests.org/en/latest/\nfrom requests import get\n\nip = get('https://api.ipify.org').text\nprint('My public IP address is: {}'.format(ip))</code></pre>\n\n        <h3>Ruby</h3>\n        <pre><code class=\"language-ruby\">require \"net/http\"\n\nip = Net::HTTP.get(URI(\"https://api.ipify.org\"))\nputs \"My public IP Address is: \" + ip</code></pre>\n\n        <h3>PHP</h3>\n        <pre><code class=\"language-php\">&lt;?php\n    $ip = file_get_contents('https://api.ipify.org');\n    echo \"My public IP address is: \" . $ip;\n?&gt;</code></pre>\n\n        <h3>Java</h3>\n        <pre><code class=\"language-java\">try (java.util.Scanner s = new java.util.Scanner(new java.net.URL(\"https://api.ipify.org\").openStream(), \"UTF-8\").useDelimiter(\"\\\\A\")) {\n    System.out.println(\"My current IP address is \" + s.next());\n} catch (java.io.IOException e) {\n    e.printStackTrace();\n}\n</code></pre>\n\n        <h3>Perl</h3>\n        <pre><code class=\"language-perl\">use strict;\nuse warnings;\nuse LWP::UserAgent;\n\nmy $ua = new LWP::UserAgent();\nmy $ip = $ua-&gt;get('https://api.ipify.org')-&gt;content;\nprint 'My public IP address is: '. $ip;</code></pre>\n\n        <h3>C#</h3>\n        <pre><code class=\"language-csharp\">var httpClient = new HttpClient();\nvar ip = await httpClient.GetStringAsync(\"https://api.ipify.org\");\nConsole.WriteLine($\"My public IP address is: {ip}\");</code></pre>\n\n        <h3>VB.NET</h3>\n        <pre><code class=\"language-csharp\">Dim httpClient As New System.Net.Http.HttpClient\nDim ip As String = Await httpClient.GetStringAsync(\"https://api.ipify.org\")\nConsole.WriteLine($\"My public IP address is: {ip}\")</code></pre>\n\n        <h3>NodeJS</h3>\n        <pre><code class=\"language-javascript\">var http = require('http');\n\nhttp.get({'host': 'api.ipify.org', 'port': 80, 'path': '/'}, function(resp) {\n  resp.on('data', function(ip) {\n    console.log(\"My public IP address is: \" + ip);\n  });\n});</code></pre>\n\n        <h3>Go</h3>\n        <pre><code class=\"language-go\">package main\n\nimport (\n        \"io/ioutil\"\n        \"net/http\"\n        \"os\"\n)\n\nfunc main() {\n        res, _ := http.Get(\"https://api.ipify.org\")\n        ip, _ := ioutil.ReadAll(res.Body)\n        os.Stdout.Write(ip)\n}</code></pre>\n\n        <h3>Racket</h3>\n        <pre><code class=\"language-scheme\">(require net/url)\n\n(define ip (port->string (get-pure-port (string->url \"https://api.ipify.org\"))))\n(printf \"My public IP address is: ~a\" ip)</code></pre>\n\n        <h3>Lisp</h3>\n        <pre><code class=\"language-scheme\">;This example requires the drakma http package installed.\n;It can be found here: http://www.weitz.de/drakma\n\n(let ((stream\n    (drakma:http-request \"https://api.ipify.org\" :want-stream t)))\n  (let ((public-ip (read-line stream)))\n    (format t \"My public IP address is: ~A\" public-ip)))</code></pre>\n\n        <h3>Xojo</h3>\n        <pre><code class=\"language-xojo\">Dim s As New HTTPSecureSocket\nDim t As String = s.Get(\"https://api.ipify.org\",10)\nMsgBox \"My public IP Address is: \" + t</code></pre>\n\n        <h3>Scala</h3>\n        <pre><code class=\"language-scala\">val addr = scala.io.Source.fromURL(\"https://api.ipify.org\").mkString\nprintln(s\"My public IP address is: $addr\")</code></pre>\n\n        <h3>Javascript</h3>\n        <pre><code class=\"language-javascript\">&lt;script type=\"application/javascript\"&gt;\n  function getIP(json) {\n    document.write(\"My public IP address is: \", json.ip);\n  }\n&lt;/script&gt;\n\n&lt;script type=\"application/javascript\" src=\"https://api.ipify.org?format=jsonp&callback=getIP\"&gt;&lt;/script&gt;</code></pre>\n\n        <h3>jQuery</h3>\n        <pre><code class=\"language-javascript\">&lt;script type=\"application/javascript\"&gt;\n  $(function() {\n    $.getJSON(\"https://api.ipify.org?format=jsonp&callback=?\",\n      function(json) {\n        document.write(\"My public IP address is: \", json.ip);\n      }\n    );\n  });\n&lt;/script&gt;</code></pre>\n\n        <h3>C#</h3>\n        <pre><code class=\"language-java\">using System;\nusing System.Net;\n\nnamespace Ipify.Examples {\n    class Program {\n        public static void Main (string[] args) {\n            WebClient webClient = new WebClient();\n            string publicIp = webClient.DownloadString(\"https://api.ipify.org\");\n            Console.WriteLine(\"My public IP Address is: {0}\", publicIp);\n        }\n    }\n}</code></pre>\n\n        <h3>Elixir</h3>\n        <pre><code class=\"language-elixir\">:inets.start\n{:ok, {_, _, inet_addr}} = :httpc.request('http://api.ipify.org')\n:inets.stop</code></pre>\n\n        <h3>nim</h3>\n        <pre><code class=\"language-nim\">import HttpClient\nvar ip = newHttpClient().getContent(\"https://api.ipify.org\")\necho(\"My public IP address is: \", ip)</code></pre>\n\n        <h3>PowerShell</h3>\n        <pre><code class=\"language-powershell\">$ip = Invoke-RestMethod -Uri 'https://api.ipify.org?format=json'\n\"My public IP address is: $($ip.ip)\"</code></pre>\n\n        <h3>Lua</h3>\n        <pre><code class=\"language-lua\">socket_http = require \"http.compat.socket\"\nbody = assert(socket_http.request(\"https://api.ipify.org\"))\nprint(body)</code></pre>\n\n        <h3>PureBasic</h3>\n        <pre><code class=\"language-basic\">InitNetwork()\n*Buffer = ReceiveHTTPMemory(\"https://api.ipify.org?format=json\")\nIf *Buffer\n  ParseJSON(0, PeekS(*Buffer, MemorySize(*Buffer), #PB_UTF8))\n  FreeMemory(*Buffer)\n  Debug GetJSONString(GetJSONMember(JSONValue(0), \"ip\"))\nEndIf</code></pre>\n\n        <h3>LiveCode</h3>\n        <pre><code\n                class=\"language-ruby\">put \"My public IP address is\" &amp;&amp; url \"https://api.ipify.org\"</code></pre>\n\n        <h3>Objective-C</h3>\n        <pre><code class=\"objectivec\">NSURL *url = [NSURL URLWithString:@\"https://api.ipify.org/\"];\nNSString *ipAddress = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];\nNSLog(@\"My public IP address is: %@\", ipAddress);</code></pre>\n\n        <h3 id=\"swift-sample\">Swift</h3>\n        <pre><code class=\"language-clike\">import Foundation\n\nlet url = URL(string: \"https://api.ipify.org\")\n\ndo {\n    if let url = url {\n        let ipAddress = try String(contentsOf: url)\n        print(\"My public IP address is: \" + ipAddress)\n    }\n} catch let error {\n    print(error)\n}</code></pre>\n\n        <h3>Arduino</h3>\n        <pre><code class=\"language-clike\">if (client.connect(\"api.ipify.org\", 80)) {\n    Serial.println(\"connected\");\n    client.println(\"GET / HTTP/1.0\");\n    client.println(\"Host: api.ipify.org\");\n    client.println();\n} else {\n    Serial.println(\"connection failed\");\n}</code></pre>\n\n        <h3>AutoIT</h3>\n        <pre><code class=\"language-clike\">$b = TimerInit()\n$Read = InetRead(\"https://api.ipify.org\",1)\n$sData = BinaryToString($Read)\nMsgBox(64,\"Information\",\"Your IP Address: \" & $sData & @CRLF & \"Elapsed Time: \" & StringLeft(TimerDiff($b) / 1000,4) & \" seconds.\")</code></pre>\n\n        <h3>SAS language</h3>\n        <pre><code class=\"language-clike\">filename ipresp \"%sysfunc(pathname(work))\\ipify-response.html\";\nproc http\nurl=\"https://api.ipify.org\"\nmethod=GET\nout=ipresp\n;\nrun;\ndata null;\nlength ip $ 20;\ninfile ipresp recfm=f lrecl=32000 encoding='utf-8' truncover;\ninput ip :$20.;\n**Create a macro variable \"IP\" with the ip address: ;\ncall symput('IP',cats(ip));\n**Print the ip address to the log: ;\nput 'NOT' 'E: >>>>>>>>>>>> Official IP: ' ip ' <<<<<<<<<<<<<<<<<<';\nrun;\nfilename ipresp;</code></pre>\n    </div>\n    <div class=\"waypoint-particle\" data-waypoint=\"code-samples\"></div>\n</section>\n\n<section class=\"common-info-slide libraries-slide border-top waypoint-block\" data-waypoint=\"libraries\">\n    <div class=\"waypoint-particle\" data-waypoint=\"libraries\"></div>\n    <div class=\"content-in-blocks\">\n        <h2>Libraries</h2>\n        <p>If you want to use ipify in your favorite programming language, but want to keep your code nice and tidy,\n            feel\n            free to use one of our libraries below! They'll make your life a little bit easier and more enjoyable =)</p>\n\n        <p>NOTE: Don't see a library for your favorite programming language? If you create one, I'll be happy to link to\n            it below! <span class=\"span-no-wrap\">Just <a href=\"mailto:service.desk@ipify.org\">shoot us</a></span> an email with the details and I'll gladly link to it!</p>\n\n        <div class=\"table-wrapper\">\n            <table class=\"table overflow-auto-table\">\n                <thead>\n                <tr>\n                    <td>Library URL</td>\n                    <td>Language</td>\n                    <td>Author</td>\n                    <td>Official?</td>\n                </tr>\n                </thead>\n                <tbody>\n                <tr class=\"empty-tr-line\">\n                    <td></td>\n                    <td></td>\n                    <td></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/rdegges/go-ipify\">https://github.com/rdegges/go-ipify</a></code>\n                    </td>\n                    <td><code>Go</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://www.rdegges.com/\">Randall Degges</a></code></td>\n                    <td><code>yes</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/rdegges/python-ipify\">https://github.com/rdegges/python-ipify</a></code>\n                    </td>\n                    <td><code>Python</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://www.rdegges.com/\">Randall Degges</a></code></td>\n                    <td><code>yes</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/xtonousou/ipify.sh\">https://github.com/xtonousou/ipify.sh</a></code>\n                    </td>\n                    <td><code>Bash</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://xtonousou.github.io\">Sotirios M. Roussis</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/troglobit/lipify\">https://github.com/troglobit/lipify</a></code>\n                    </td>\n                    <td><code>C</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://troglobit.com/\">Joachim Nilsson</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/sideshowcoder/ipify-c\">https://github.com/sideshowcoder/ipify-c</a></code>\n                    </td>\n                    <td><code>C</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://sideshowcoder.com/\">Philipp Fehre</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/sindresorhus/ipify\">https://github.com/sindresorhus/ipify</a></code>\n                    </td>\n                    <td><code>Node.js</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://sindresorhus.com/\">Sindre Sorhus</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/davidepedrazzi/ipify2\">https://github.com/davidepedrazzi/ipify2</a></code>\n                    </td>\n                    <td><code>Node.js</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/davidepedrazzi\">Davide Pedrazzi</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://bitbucket.org/stevenjeffries/java-ipify\">https://bitbucket.org/stevenjeffries/java-ipify</a></code>\n                    </td>\n                    <td><code>Java</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://bitbucket.org/stevenjeffries\">Steven Jeffries</a></code>\n                    </td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/vincent-peng/swift-ipify\">https://github.com/vincent-peng/swift-ipify</a></code>\n                    </td>\n                    <td><code>Swift</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/vincent-peng\">Vincent Peng</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/gabulyaz/elixir-ipify\">https://github.com/gabulyaz/elixir-ipify</a></code>\n                    </td>\n                    <td><code>Elixir</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/gabulyaz\">Zoltán Gabulya</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/benjamin-smith/php-ipify\">https://github.com/benjamin-smith/php-ipify</a></code>\n                    </td>\n                    <td><code>PHP</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://benjaminsmith.com/\">Benjamin Smith</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\"\n                                 href=\"https://github.com/gregce/ipify\">https://github.com/gregce/ipify</a></code></td>\n                    <td><code>R</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/gregce\">Greg Ceccarelli</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/aprendexojo/ipify\">https://github.com/aprendexojo/ipify</a></code>\n                    </td>\n                    <td><code>Xojo</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://www.aprendexojo.com/\">Javier Rodriguez </a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/Chuongv/CHVIpify\">https://github.com/Chuongv/CHVIpify</a></code>\n                    </td>\n                    <td><code>Objective-C</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://chuongv.github.io/\">Chuong Vu</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/davidmus/Ipify.NET\">https://github.com/davidmus/Ipify.NET</a></code>\n                    </td>\n                    <td><code>.NET</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/davidmus\">David Musgrove</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/mauricioabreu/crystal-ipify\">https://github.com/mauricioabreu/crystal-ipify</a></code>\n                    </td>\n                    <td><code>Crystal</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/mauricioabreu\">Mauricio de Abreu\n                        Antunes</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/keltia/ipify-rs\">https://github.com/keltia/ipify-rs</a></code>\n                    </td>\n                    <td><code>Rust</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/keltia\">Ollivier Robert</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/surrenderoz/ipify-public-ip\">https://github.com/surrenderoz/ipify-public-ip</a></code>\n                    </td>\n                    <td><code>Rust</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/surrenderoz\">Surendra Verma</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/coldnew/ipify.clj\">https://github.com/coldnew/ipify.clj</a></code>\n                    </td>\n                    <td><code>Clojurescript</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/coldnew\">Yen-Chin Lee</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/Bujupah/dart_ipify\">https://github.com/Bujupah/dart_ipify</a></code>\n                    </td>\n                    <td><code>Dart</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/Bujupah\">Khalil Mejdi</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/chintan369/Ipify-Android\">https://github.com/chintan369/Ipify-Android</a></code></td>\n                    <td><code>Kotlin</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/chintan369\">Chintak Patel</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <div class=\"waypoint-particle\" data-waypoint=\"libraries\"></div>\n</section>\n\n<footer>\n    <div class=\"content-in-blocks\">\n        <div class=\"flex-content-wrapper\">\n            <div class=\"footer-powered-by uppercase font-regular\">ipify.org © 2014 - 2019</div>\n            <a href=\"/\" class=\"logo\"><img src=\"/static/images/logo.png\" alt=\"ipify logo\"></a>\n        </div>\n    </div>\n</footer>\n\n</body>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js\"></script>\n<script src=\"/static/dist/js/prism.js\" data-manual></script>\n<script src=\"/static/dist/js/main.js?v=10\"></script>\n<script>\n    var ref = document.referrer;\n\n    if(ref) {\n        var img = document.createElement('img');\n\n        img.src = 'https://geo.ipify.org/set-external-ref-url?url=' + encodeURIComponent(ref);\n        img.width = 1; img.height = 1;\n        document.body.appendChild(img);\n    }\n</script>\n\n<div style=\"display:none;\"><img src=\"https://www.linkedin.com/profile/view?authToken=zRgB&authType=name&id=320347190\"/></div>\n</html>\n",
-      "url": "https://www.ipify.org/"
-    },
-    "sitemap": {
-      "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n   <url>\n      <loc>https://www.ipify.org/</loc>\n      <lastmod>2019-04-13</lastmod>\n      <changefreq>monthly</changefreq>\n      <priority>1</priority>\n   </url>\n</urlset>\n",
-      "url": "https://www.ipify.org/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 404,
-      "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<h1>404 Not Found</h1>\n<ul>\n<li>Code: NoSuchKey</li>\n<li>Message: The specified key does not exist.</li>\n<li>Key: AGENTS.md</li>\n<li>RequestId: F162SEFFARMRXSHZ</li>\n<li>HostId: buQHBB66rjDRiuZ0Rlq3ZKE8Ii0bYtQIvts3f3E/ybkX7PnyYJEbRdHWijfTFISrlR1sW/wfemY87nntj/CQFdd8rXyDz4pj</li>\n</ul>\n<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>\n<ul>\n<li>Code: AccessDenied</li>\n<li>Message: Access Denied</li>\n</ul>\n<hr/>\n</body>\n</html>\n",
-      "url": "https://www.ipify.org/AGENTS.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": true,
-      "urls": [
-        "https://geo.ipify.org/docs"
-      ]
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "aiFeatures": {
-      "chatWidget": false,
-      "aiSearch": false,
-      "developerConsole": false
-    }
+ "signals": {
+  "domain": "ipify.org",
+  "fetchedAt": "2026-11-10T11:09:18.346Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "User-agent: *\nDisallow:\n",
+   "url": "https://www.ipify.org/robots.txt"
   },
-  "afr": {
-    "domain": "ipify.org",
-    "engineVersion": "afr-1.0.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-10T11:09:18.346Z",
-    "score": 41,
-    "grade": "D",
-    "strategyTag": "Unconfigured",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 22.5,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 12.5,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 200"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 200, full HTML document returned"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Comprehensibility",
-        "awarded": 14.5,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "no JSON-LD blocks"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 6.5,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "semantic landmarks 2/4; single h1; html[lang] present; body text 1224 words"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 3,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 5,
-            "max": 6,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "title \"ipify - A Simple Public IP Address API\"; meta description 102 chars; no date signal; body text 1224 words"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Interactivity",
-        "awarded": 4,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 4,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs present; homepage links to docs/developer pages"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 404; ai.txt not probed; homepage has no AI info page link"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 12.5,
-      "l1.no-tech-wall": 5,
-      "l1.basic-availability": 5,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 6.5,
-      "l2.sitemap": 3,
-      "l2.content-signals": 5,
-      "l3.public-api": 4,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 404,
+   "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<h1>404 Not Found</h1>\n<ul>\n<li>Code: NoSuchKey</li>\n<li>Message: The specified key does not exist.</li>\n<li>Key: llms.txt</li>\n<li>RequestId: GJWAM4CH9P67EYNY</li>\n<li>HostId: mBbpvfOMxUG6e/Zt5zvxTHBoh49J3TywXQSJ8eE2JKP74yKFaLKhMK8Kk2svAgG5ihFkM/LTIYgh7zRue1uL4niEl6EfIc4e</li>\n</ul>\n<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>\n<ul>\n<li>Code: AccessDenied</li>\n<li>Message: Access Denied</li>\n</ul>\n<hr/>\n</body>\n</html>\n",
+   "url": "https://www.ipify.org/llms.txt"
+  },
+  "llmsFull": {
+   "status": 404,
+   "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<h1>404 Not Found</h1>\n<ul>\n<li>Code: NoSuchKey</li>\n<li>Message: The specified key does not exist.</li>\n<li>Key: llms-full.txt</li>\n<li>RequestId: GJW595HV8XVBEHH1</li>\n<li>HostId: b0ezjZSrZBoCWChYC3ItTgSKmROqDD3O1CZR6gC44F1RZHHpybvu3UYFbjRevMk7XCCdk/CnFO8=</li>\n</ul>\n<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>\n<ul>\n<li>Code: AccessDenied</li>\n<li>Message: Access Denied</li>\n</ul>\n<hr/>\n</body>\n</html>\n",
+   "url": "https://www.ipify.org/llms-full.txt"
+  },
+  "homepage": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"google-site-verification\" content=\"FMzEAh3aM4gTNWrj3HahCKPRgUxBNU5jz_gNNY38ZR0\"/>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>ipify - A Simple Public IP Address API</title>\n    <meta name=\"description\"\n          content=\"ipify API is a simple public IP address API, easy enough to integrate into any application in seconds.\">\n\n    <link href=\"https://fonts.googleapis.com/css?family=Raleway\" rel=\"stylesheet\">\n    <link href=\"https://fonts.googleapis.com/css?family=Ubuntu+Mono\" rel=\"stylesheet\">\n\n    <!-- Global site tag (gtag.js) - Google Analytics -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-132352022-1\"></script>\n    <script>\n        window.dataLayer = window.dataLayer || [];\n\n        function gtag() {\n            dataLayer.push(arguments);\n        }\n\n        gtag('js', new Date());\n\n        gtag('config', 'UA-132352022-1');\n        gtag('config', 'G-DV8QRYTLH3');\n    </script>\n\n    <!-- CrazyEgg Tracking Code for ipify.org -->\n    <script type=\"text/javascript\" src=\"//script.crazyegg.com/pages/scripts/0096/3644.js\" async=\"async\"></script>\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css\">\n    <link href=\"/static/dist/css/prism.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"/static/dist/css/styles_v2.css?v=10\" rel=\"stylesheet\" type=\"text/css\">\n\n    <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"/static/images/apple-icon-57x57.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"/static/images/apple-icon-60x60.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/static/images/apple-icon-72x72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/static/images/apple-icon-76x76.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/static/images/apple-icon-114x114.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/static/images/apple-icon-120x120.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/static/images/apple-icon-144x144.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/static/images/apple-icon-152x152.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/static/images/apple-icon-180x180.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/static/images/android-icon-192x192.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/static/images/favicon-32x32.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/static/images/favicon-96x96.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/static/images/favicon-16x16.png\">\n    <meta name=\"msapplication-TileColor\" content=\"#ffffff\">\n    <meta name=\"msapplication-TileImage\" content=\"/static/images/ms-icon-144x144.png\">\n    <meta name=\"theme-color\" content=\"#ffffff\">\n</head>\n<body>\n\n<header>\n    <div class=\"first-level\">\n        <div class=\"content-in-blocks\">\n            <div class=\"logo-block\">\n                <a href=\"/\" class=\"logo\">\n                    <img src=\"/static/images/logo.png\" alt=\"ipify logo\">\n                </a>\n            </div>\n            <h1>ipify API</h1>\n            <a href=\"https://geo.ipify.org\" class=\"btn common-btn with-icon\" title=\"IP Geolocation API\">IP Geolocation API <img src=\"static/svg/chevron-right.svg\"></a>\n        </div>\n    </div>\n    <div class=\"second-level\">\n        <div class=\"content-in-blocks\">\n            <div class=\"menu\">\n                <div class=\"selector\"></div>\n                <a href=\"javascript:void(0);\" data-anchor=\"about\">About</a>\n                <a href=\"javascript:void(0);\" data-anchor=\"api-usage\">API usage</a>\n                <a href=\"javascript:void(0);\" data-anchor=\"code-samples\">Code samples</a>\n                <a href=\"javascript:void(0);\" data-anchor=\"libraries\">Libraries</a>\n            </div>\n        </div>\n    </div>\n</header>\n\n<section class=\"about-slide\">\n    <div class=\"svg-bg-map\">\n        <img src=\"/static/images/ipify-map.png\" alt=\"ipify map\">\n    </div>\n    <div class=\"content-in-blocks\">\n        <h2>A Simple Public IP Address API</h2>\n        <h3>Want to get started right away?<br/>Don't wait, run one of the code samples below in your terminal and check\n            it out!</h3>\n\n        <div class=\"pre-group-wrapper\">\n            <div class=\"pre-wrapper self-ipv4-block\">\n                <span>IPv4</span>\n                <pre><code class=\"language-bash\">$ curl 'https://api.ipify.org?format=json'\n{\"ip\":\"185.103.110.182\"}</code></pre>\n            </div>\n            <div class=\"pre-wrapper self-ipv6-block\">\n                <span>IPv4(v6)</span>\n                <pre><code class=\"language-bash\">$ curl 'https://api64.ipify.org?format=json'\n{\"ip\":\"2a00:1450:400f:80d::200e\"}</code></pre>\n            </div>\n        </div>\n\n        <h3>If you need to get the geolocation data by IP, please refer to our <br/><a\n                href=\"https://geo.ipify.org/docs\">IP Geolocation API</a></h3>\n    </div>\n</section>\n\n<section class=\"common-info-slide gray-bg waypoint-block\" data-waypoint=\"about\">\n    <div class=\"waypoint-particle\" data-waypoint=\"about\"></div>\n    <div class=\"content-in-blocks\">\n        <h2>Why ipify?</h2>\n        <p>Ever needed to get your public IP address programmatically? <br/>Maybe you're provisioning new cloud servers and\n            need to know your IP -- maybe you're behind a corporate firewall <span class=\"span-no-wrap\">and need</span> to tunnel information -- whatever\n            the reason: sometimes having a public IP address API is useful!</p>\n\n        <h3 class=\"text-center\">You should use ipify because:</h3>\n        <div class=\"numbered-list-wrapper\">\n            <div class=\"list-column\">\n                <div class=\"item-wrapper\">\n                    <span>1</span>\n                    <p>You can use it without limit (even if you're doing millions of requests per minute.</p>\n                </div>\n                <div class=\"item-wrapper\">\n                    <span>2</span>\n                    <p>It works flawlessly with both IPv4 and IPv6 addresses, so no matter what sort of technology\n                        you're using, there won't be issues.</p>\n                </div>\n                <div class=\"item-wrapper\">\n                    <span class=\"special-padding\">3</span>\n                    <p>It's always online and available, and its infrastructure is powered by Heroku, which means that\n                        regardless of whether the server running the API dies, or if there's an enormous tornado which\n                        destroys half of the east coast, ipify will still be running!</p>\n                </div>\n            </div>\n            <div class=\"list-column\">\n                <div class=\"item-wrapper\">\n                    <span class=\"special-padding\">4</span>\n                    <p>ipify is completely open source (check out <span class=\"span-no-wrap\">the <a href=\"https://github.com/rdegges/ipify-api\" title=\"ipify on GitHub\" target=\"_blank\" rel=\"noreferrer nofollow\">GitHub repository</a></span>).</p>\n                </div>\n                <div class=\"item-wrapper\">\n                    <span class=\"special-padding\">5</span>\n                    <p>No visitor information is ever logged. Period.</p>\n                </div>\n                <div class=\"item-wrapper\">\n                    <span>6</span>\n                    <p>Lastly, ipify is open source so there's no need to worry about the domain name disappearing in\n                        three years or anything like that: ipify is here to stay!</p>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"waypoint-particle\" data-waypoint=\"about\"></div>\n</section>\n\n<section class=\"common-info-slide waypoint-block\" data-waypoint=\"api-usage\">\n    <div class=\"waypoint-particle\" data-waypoint=\"api-usage\"></div>\n    <div class=\"content-in-blocks\">\n        <h2>API Usage</h2>\n        <p>Using ipify is ridiculously simple. You have three options. You can get your public IP directly (in plain\n            text), you can get your public IP in JSON format, or you can get your public IP information in JSONP format\n            (useful for Javascript developers).</p>\n\n        <h3>IPv4</h3>\n        <div class=\"table-wrapper\">\n            <table class=\"table api-usage-table overflow-auto-table\">\n                <thead>\n                <tr>\n                    <td>API URL</td>\n                    <td>Response Type</td>\n                    <td>Sample Output (IPv4)</td>\n                </tr>\n                </thead>\n                <tbody>\n                <tr class=\"empty-tr-line\">\n                    <td></td>\n                    <td></td>\n                    <td></td>\n                </tr>\n                <tr>\n                    <td><code>https://api.ipify.org</code></td>\n                    <td><code>text</code></td>\n                    <td><code>98.207.254.136</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api.ipify.org?format=json</code></td>\n                    <td><code>json</code></td>\n                    <td><code>{\"ip\":\"98.207.254.136\"}</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api.ipify.org?format=jsonp</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>callback({\"ip\":\"98.207.254.136\"});</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api.ipify.org?format=jsonp&callback=getip</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>getip({\"ip\":\"98.207.254.136\"});</code></td>\n                </tr>\n                </tbody>\n            </table>\n        </div>\n\n        <h3>IPv6</h3>\n        <p>The api6.ipify.org is used for IPv6 request only. If you don't have an IPv6 address, the request will fail.</p>\n        <div class=\"table-wrapper\">\n            <table class=\"table api-usage-table overflow-auto-table\">\n                <thead>\n                <tr>\n                    <td>API URL</td>\n                    <td>Response Type</td>\n                    <td>Sample Output (IPv6)</td>\n                </tr>\n                </thead>\n                <tbody>\n                <tr class=\"empty-tr-line\">\n                    <td></td>\n                    <td></td>\n                    <td></td>\n                </tr>\n                <tr>\n                    <td><code>https://api6.ipify.org</code></td>\n                    <td><code>text</code></td>\n                    <td><code>2a00:1450:400f:80d::200e</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api6.ipify.org?format=json</code></td>\n                    <td><code>json</code></td>\n                    <td><code>{\"ip\":\"2a00:1450:400f:80d::200e\"}</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api6.ipify.org?format=jsonp</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>callback({\"ip\":\"2a00:1450:400f:80d::200e\"});</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api6.ipify.org?format=jsonp&callback=getip</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>getip({\"ip\":\"2a00:1450:400f:80d::200e\"});</code></td>\n                </tr>\n                </tbody>\n            </table>\n        </div>\n\n        <h3>Universal: IPv4/IPv6</h3>\n        <div class=\"table-wrapper\">\n            <table class=\"table api-usage-table overflow-auto-table\">\n                <thead>\n                <tr>\n                    <td>API URL</td>\n                    <td>Response Type</td>\n                    <td>Sample Output (IPv4/IPv6)</td>\n                </tr>\n                </thead>\n                <tbody>\n                <tr class=\"empty-tr-line\">\n                    <td></td>\n                    <td></td>\n                    <td></td>\n                </tr>\n                <tr>\n                    <td><code>https://api64.ipify.org</code></td>\n                    <td><code>text</code></td>\n                    <td><code>98.207.254.136 or 2a00:1450:400f:80d::200e</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api64.ipify.org?format=json</code></td>\n                    <td><code>json</code></td>\n                    <td><code>{\"ip\":\"98.207.254.136\"} or {\"ip\":\"2a00:1450:400f:80d::200e\"}</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api64.ipify.org?format=jsonp</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>callback({\"ip\":\"98.207.254.136\"}); or callback({\"ip\":\"2a00:1450:400f:80d::200e\"});</code></td>\n                </tr>\n                <tr>\n                    <td><code>https://api64.ipify.org?format=jsonp&callback=getip</code></td>\n                    <td><code>jsonp</code></td>\n                    <td><code>getip({\"ip\":\"98.207.254.136\"}); or getip({\"ip\":\"2a00:1450:400f:80d::200e\"});</code></td>\n                </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <div class=\"waypoint-particle\" data-waypoint=\"api-usage\"></div>\n</section>\n\n<section class=\"common-info-slide border-top waypoint-block code-samples-block\" data-waypoint=\"code-samples\">\n    <div class=\"waypoint-particle\" data-waypoint=\"code-samples\"></div>\n    <div class=\"content-in-blocks\">\n        <h2>Code samples</h2>\n        <p>This section contains some common usage patterns from a variety of programming languages. Want something\n            included that isn't listed here? <a href=\"mailto:service.desk@ipify.org\">Email us</a>!</p>\n\n        <h3>Bash</h3>\n        <pre><code class=\"language-bash\">#!/bin/bash\n\nip=$(curl -s https://api.ipify.org)\necho \"My public IP address is: $ip\"</code></pre>\n\n        <h3>NGS (Next Generation Shell)</h3>\n        <pre><code class=\"language-bash\">ip=`curl -s https://api.ipify.org`\necho(\"My public IP address is: $ip\")</code></pre>\n\n        <h3>Python</h3>\n        <pre><code class=\"language-python\"># This example requires the requests library be installed.  You can learn more\n# about the Requests library here: http://docs.python-requests.org/en/latest/\nfrom requests import get\n\nip = get('https://api.ipify.org').text\nprint('My public IP address is: {}'.format(ip))</code></pre>\n\n        <h3>Ruby</h3>\n        <pre><code class=\"language-ruby\">require \"net/http\"\n\nip = Net::HTTP.get(URI(\"https://api.ipify.org\"))\nputs \"My public IP Address is: \" + ip</code></pre>\n\n        <h3>PHP</h3>\n        <pre><code class=\"language-php\">&lt;?php\n    $ip = file_get_contents('https://api.ipify.org');\n    echo \"My public IP address is: \" . $ip;\n?&gt;</code></pre>\n\n        <h3>Java</h3>\n        <pre><code class=\"language-java\">try (java.util.Scanner s = new java.util.Scanner(new java.net.URL(\"https://api.ipify.org\").openStream(), \"UTF-8\").useDelimiter(\"\\\\A\")) {\n    System.out.println(\"My current IP address is \" + s.next());\n} catch (java.io.IOException e) {\n    e.printStackTrace();\n}\n</code></pre>\n\n        <h3>Perl</h3>\n        <pre><code class=\"language-perl\">use strict;\nuse warnings;\nuse LWP::UserAgent;\n\nmy $ua = new LWP::UserAgent();\nmy $ip = $ua-&gt;get('https://api.ipify.org')-&gt;content;\nprint 'My public IP address is: '. $ip;</code></pre>\n\n        <h3>C#</h3>\n        <pre><code class=\"language-csharp\">var httpClient = new HttpClient();\nvar ip = await httpClient.GetStringAsync(\"https://api.ipify.org\");\nConsole.WriteLine($\"My public IP address is: {ip}\");</code></pre>\n\n        <h3>VB.NET</h3>\n        <pre><code class=\"language-csharp\">Dim httpClient As New System.Net.Http.HttpClient\nDim ip As String = Await httpClient.GetStringAsync(\"https://api.ipify.org\")\nConsole.WriteLine($\"My public IP address is: {ip}\")</code></pre>\n\n        <h3>NodeJS</h3>\n        <pre><code class=\"language-javascript\">var http = require('http');\n\nhttp.get({'host': 'api.ipify.org', 'port': 80, 'path': '/'}, function(resp) {\n  resp.on('data', function(ip) {\n    console.log(\"My public IP address is: \" + ip);\n  });\n});</code></pre>\n\n        <h3>Go</h3>\n        <pre><code class=\"language-go\">package main\n\nimport (\n        \"io/ioutil\"\n        \"net/http\"\n        \"os\"\n)\n\nfunc main() {\n        res, _ := http.Get(\"https://api.ipify.org\")\n        ip, _ := ioutil.ReadAll(res.Body)\n        os.Stdout.Write(ip)\n}</code></pre>\n\n        <h3>Racket</h3>\n        <pre><code class=\"language-scheme\">(require net/url)\n\n(define ip (port->string (get-pure-port (string->url \"https://api.ipify.org\"))))\n(printf \"My public IP address is: ~a\" ip)</code></pre>\n\n        <h3>Lisp</h3>\n        <pre><code class=\"language-scheme\">;This example requires the drakma http package installed.\n;It can be found here: http://www.weitz.de/drakma\n\n(let ((stream\n    (drakma:http-request \"https://api.ipify.org\" :want-stream t)))\n  (let ((public-ip (read-line stream)))\n    (format t \"My public IP address is: ~A\" public-ip)))</code></pre>\n\n        <h3>Xojo</h3>\n        <pre><code class=\"language-xojo\">Dim s As New HTTPSecureSocket\nDim t As String = s.Get(\"https://api.ipify.org\",10)\nMsgBox \"My public IP Address is: \" + t</code></pre>\n\n        <h3>Scala</h3>\n        <pre><code class=\"language-scala\">val addr = scala.io.Source.fromURL(\"https://api.ipify.org\").mkString\nprintln(s\"My public IP address is: $addr\")</code></pre>\n\n        <h3>Javascript</h3>\n        <pre><code class=\"language-javascript\">&lt;script type=\"application/javascript\"&gt;\n  function getIP(json) {\n    document.write(\"My public IP address is: \", json.ip);\n  }\n&lt;/script&gt;\n\n&lt;script type=\"application/javascript\" src=\"https://api.ipify.org?format=jsonp&callback=getIP\"&gt;&lt;/script&gt;</code></pre>\n\n        <h3>jQuery</h3>\n        <pre><code class=\"language-javascript\">&lt;script type=\"application/javascript\"&gt;\n  $(function() {\n    $.getJSON(\"https://api.ipify.org?format=jsonp&callback=?\",\n      function(json) {\n        document.write(\"My public IP address is: \", json.ip);\n      }\n    );\n  });\n&lt;/script&gt;</code></pre>\n\n        <h3>C#</h3>\n        <pre><code class=\"language-java\">using System;\nusing System.Net;\n\nnamespace Ipify.Examples {\n    class Program {\n        public static void Main (string[] args) {\n            WebClient webClient = new WebClient();\n            string publicIp = webClient.DownloadString(\"https://api.ipify.org\");\n            Console.WriteLine(\"My public IP Address is: {0}\", publicIp);\n        }\n    }\n}</code></pre>\n\n        <h3>Elixir</h3>\n        <pre><code class=\"language-elixir\">:inets.start\n{:ok, {_, _, inet_addr}} = :httpc.request('http://api.ipify.org')\n:inets.stop</code></pre>\n\n        <h3>nim</h3>\n        <pre><code class=\"language-nim\">import HttpClient\nvar ip = newHttpClient().getContent(\"https://api.ipify.org\")\necho(\"My public IP address is: \", ip)</code></pre>\n\n        <h3>PowerShell</h3>\n        <pre><code class=\"language-powershell\">$ip = Invoke-RestMethod -Uri 'https://api.ipify.org?format=json'\n\"My public IP address is: $($ip.ip)\"</code></pre>\n\n        <h3>Lua</h3>\n        <pre><code class=\"language-lua\">socket_http = require \"http.compat.socket\"\nbody = assert(socket_http.request(\"https://api.ipify.org\"))\nprint(body)</code></pre>\n\n        <h3>PureBasic</h3>\n        <pre><code class=\"language-basic\">InitNetwork()\n*Buffer = ReceiveHTTPMemory(\"https://api.ipify.org?format=json\")\nIf *Buffer\n  ParseJSON(0, PeekS(*Buffer, MemorySize(*Buffer), #PB_UTF8))\n  FreeMemory(*Buffer)\n  Debug GetJSONString(GetJSONMember(JSONValue(0), \"ip\"))\nEndIf</code></pre>\n\n        <h3>LiveCode</h3>\n        <pre><code\n                class=\"language-ruby\">put \"My public IP address is\" &amp;&amp; url \"https://api.ipify.org\"</code></pre>\n\n        <h3>Objective-C</h3>\n        <pre><code class=\"objectivec\">NSURL *url = [NSURL URLWithString:@\"https://api.ipify.org/\"];\nNSString *ipAddress = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];\nNSLog(@\"My public IP address is: %@\", ipAddress);</code></pre>\n\n        <h3 id=\"swift-sample\">Swift</h3>\n        <pre><code class=\"language-clike\">import Foundation\n\nlet url = URL(string: \"https://api.ipify.org\")\n\ndo {\n    if let url = url {\n        let ipAddress = try String(contentsOf: url)\n        print(\"My public IP address is: \" + ipAddress)\n    }\n} catch let error {\n    print(error)\n}</code></pre>\n\n        <h3>Arduino</h3>\n        <pre><code class=\"language-clike\">if (client.connect(\"api.ipify.org\", 80)) {\n    Serial.println(\"connected\");\n    client.println(\"GET / HTTP/1.0\");\n    client.println(\"Host: api.ipify.org\");\n    client.println();\n} else {\n    Serial.println(\"connection failed\");\n}</code></pre>\n\n        <h3>AutoIT</h3>\n        <pre><code class=\"language-clike\">$b = TimerInit()\n$Read = InetRead(\"https://api.ipify.org\",1)\n$sData = BinaryToString($Read)\nMsgBox(64,\"Information\",\"Your IP Address: \" & $sData & @CRLF & \"Elapsed Time: \" & StringLeft(TimerDiff($b) / 1000,4) & \" seconds.\")</code></pre>\n\n        <h3>SAS language</h3>\n        <pre><code class=\"language-clike\">filename ipresp \"%sysfunc(pathname(work))\\ipify-response.html\";\nproc http\nurl=\"https://api.ipify.org\"\nmethod=GET\nout=ipresp\n;\nrun;\ndata null;\nlength ip $ 20;\ninfile ipresp recfm=f lrecl=32000 encoding='utf-8' truncover;\ninput ip :$20.;\n**Create a macro variable \"IP\" with the ip address: ;\ncall symput('IP',cats(ip));\n**Print the ip address to the log: ;\nput 'NOT' 'E: >>>>>>>>>>>> Official IP: ' ip ' <<<<<<<<<<<<<<<<<<';\nrun;\nfilename ipresp;</code></pre>\n    </div>\n    <div class=\"waypoint-particle\" data-waypoint=\"code-samples\"></div>\n</section>\n\n<section class=\"common-info-slide libraries-slide border-top waypoint-block\" data-waypoint=\"libraries\">\n    <div class=\"waypoint-particle\" data-waypoint=\"libraries\"></div>\n    <div class=\"content-in-blocks\">\n        <h2>Libraries</h2>\n        <p>If you want to use ipify in your favorite programming language, but want to keep your code nice and tidy,\n            feel\n            free to use one of our libraries below! They'll make your life a little bit easier and more enjoyable =)</p>\n\n        <p>NOTE: Don't see a library for your favorite programming language? If you create one, I'll be happy to link to\n            it below! <span class=\"span-no-wrap\">Just <a href=\"mailto:service.desk@ipify.org\">shoot us</a></span> an email with the details and I'll gladly link to it!</p>\n\n        <div class=\"table-wrapper\">\n            <table class=\"table overflow-auto-table\">\n                <thead>\n                <tr>\n                    <td>Library URL</td>\n                    <td>Language</td>\n                    <td>Author</td>\n                    <td>Official?</td>\n                </tr>\n                </thead>\n                <tbody>\n                <tr class=\"empty-tr-line\">\n                    <td></td>\n                    <td></td>\n                    <td></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/rdegges/go-ipify\">https://github.com/rdegges/go-ipify</a></code>\n                    </td>\n                    <td><code>Go</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://www.rdegges.com/\">Randall Degges</a></code></td>\n                    <td><code>yes</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/rdegges/python-ipify\">https://github.com/rdegges/python-ipify</a></code>\n                    </td>\n                    <td><code>Python</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://www.rdegges.com/\">Randall Degges</a></code></td>\n                    <td><code>yes</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/xtonousou/ipify.sh\">https://github.com/xtonousou/ipify.sh</a></code>\n                    </td>\n                    <td><code>Bash</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://xtonousou.github.io\">Sotirios M. Roussis</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/troglobit/lipify\">https://github.com/troglobit/lipify</a></code>\n                    </td>\n                    <td><code>C</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://troglobit.com/\">Joachim Nilsson</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/sideshowcoder/ipify-c\">https://github.com/sideshowcoder/ipify-c</a></code>\n                    </td>\n                    <td><code>C</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://sideshowcoder.com/\">Philipp Fehre</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/sindresorhus/ipify\">https://github.com/sindresorhus/ipify</a></code>\n                    </td>\n                    <td><code>Node.js</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://sindresorhus.com/\">Sindre Sorhus</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/davidepedrazzi/ipify2\">https://github.com/davidepedrazzi/ipify2</a></code>\n                    </td>\n                    <td><code>Node.js</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/davidepedrazzi\">Davide Pedrazzi</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://bitbucket.org/stevenjeffries/java-ipify\">https://bitbucket.org/stevenjeffries/java-ipify</a></code>\n                    </td>\n                    <td><code>Java</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://bitbucket.org/stevenjeffries\">Steven Jeffries</a></code>\n                    </td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/vincent-peng/swift-ipify\">https://github.com/vincent-peng/swift-ipify</a></code>\n                    </td>\n                    <td><code>Swift</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/vincent-peng\">Vincent Peng</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/gabulyaz/elixir-ipify\">https://github.com/gabulyaz/elixir-ipify</a></code>\n                    </td>\n                    <td><code>Elixir</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/gabulyaz\">Zoltán Gabulya</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/benjamin-smith/php-ipify\">https://github.com/benjamin-smith/php-ipify</a></code>\n                    </td>\n                    <td><code>PHP</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"http://benjaminsmith.com/\">Benjamin Smith</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\"\n                                 href=\"https://github.com/gregce/ipify\">https://github.com/gregce/ipify</a></code></td>\n                    <td><code>R</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/gregce\">Greg Ceccarelli</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/aprendexojo/ipify\">https://github.com/aprendexojo/ipify</a></code>\n                    </td>\n                    <td><code>Xojo</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://www.aprendexojo.com/\">Javier Rodriguez </a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/Chuongv/CHVIpify\">https://github.com/Chuongv/CHVIpify</a></code>\n                    </td>\n                    <td><code>Objective-C</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://chuongv.github.io/\">Chuong Vu</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/davidmus/Ipify.NET\">https://github.com/davidmus/Ipify.NET</a></code>\n                    </td>\n                    <td><code>.NET</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/davidmus\">David Musgrove</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/mauricioabreu/crystal-ipify\">https://github.com/mauricioabreu/crystal-ipify</a></code>\n                    </td>\n                    <td><code>Crystal</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/mauricioabreu\">Mauricio de Abreu\n                        Antunes</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/keltia/ipify-rs\">https://github.com/keltia/ipify-rs</a></code>\n                    </td>\n                    <td><code>Rust</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/keltia\">Ollivier Robert</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/surrenderoz/ipify-public-ip\">https://github.com/surrenderoz/ipify-public-ip</a></code>\n                    </td>\n                    <td><code>Rust</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/surrenderoz\">Surendra Verma</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/coldnew/ipify.clj\">https://github.com/coldnew/ipify.clj</a></code>\n                    </td>\n                    <td><code>Clojurescript</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/coldnew\">Yen-Chin Lee</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/Bujupah/dart_ipify\">https://github.com/Bujupah/dart_ipify</a></code>\n                    </td>\n                    <td><code>Dart</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/Bujupah\">Khalil Mejdi</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                <tr>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/chintan369/Ipify-Android\">https://github.com/chintan369/Ipify-Android</a></code></td>\n                    <td><code>Kotlin</code></td>\n                    <td><code><a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://github.com/chintan369\">Chintak Patel</a></code></td>\n                    <td><code>no</code></td>\n                </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <div class=\"waypoint-particle\" data-waypoint=\"libraries\"></div>\n</section>\n\n<footer>\n    <div class=\"content-in-blocks\">\n        <div class=\"flex-content-wrapper\">\n            <div class=\"footer-powered-by uppercase font-regular\">ipify.org © 2014 - 2019</div>\n            <a href=\"/\" class=\"logo\"><img src=\"/static/images/logo.png\" alt=\"ipify logo\"></a>\n        </div>\n    </div>\n</footer>\n\n</body>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js\"></script>\n<script src=\"/static/dist/js/prism.js\" data-manual></script>\n<script src=\"/static/dist/js/main.js?v=10\"></script>\n<script>\n    var ref = document.referrer;\n\n    if(ref) {\n        var img = document.createElement('img');\n\n        img.src = 'https://geo.ipify.org/set-external-ref-url?url=' + encodeURIComponent(ref);\n        img.width = 1; img.height = 1;\n        document.body.appendChild(img);\n    }\n</script>\n\n<div style=\"display:none;\"><img src=\"https://www.linkedin.com/profile/view?authToken=zRgB&authType=name&id=320347190\"/></div>\n</html>\n",
+   "url": "https://www.ipify.org/"
+  },
+  "sitemap": {
+   "status": 200,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n   <url>\n      <loc>https://www.ipify.org/</loc>\n      <lastmod>2019-04-13</lastmod>\n      <changefreq>monthly</changefreq>\n      <priority>1</priority>\n   </url>\n</urlset>\n",
+   "url": "https://www.ipify.org/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 404,
+   "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<h1>404 Not Found</h1>\n<ul>\n<li>Code: NoSuchKey</li>\n<li>Message: The specified key does not exist.</li>\n<li>Key: AGENTS.md</li>\n<li>RequestId: F162SEFFARMRXSHZ</li>\n<li>HostId: buQHBB66rjDRiuZ0Rlq3ZKE8Ii0bYtQIvts3f3E/ybkX7PnyYJEbRdHWijfTFISrlR1sW/wfemY87nntj/CQFdd8rXyDz4pj</li>\n</ul>\n<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>\n<ul>\n<li>Code: AccessDenied</li>\n<li>Message: Access Denied</li>\n</ul>\n<hr/>\n</body>\n</html>\n",
+   "url": "https://www.ipify.org/AGENTS.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": true,
+   "urls": [
+    "https://geo.ipify.org/docs"
+   ]
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": false
   }
+ },
+ "afr": {
+  "domain": "ipify.org",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-10T11:09:18.346Z",
+  "score": 41,
+  "grade": "D",
+  "state": "scored",
+  "strategyTag": "Unconfigured",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 22.5,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 12.5,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 200"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 200, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Comprehensibility",
+    "awarded": 14.5,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "no JSON-LD blocks"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 6.5,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 2/4; single h1; html[lang] present; body text 1224 words"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 3,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 5,
+      "max": 6,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "title \"ipify - A Simple Public IP Address API\"; meta description 102 chars; no date signal; body text 1224 words"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Interactivity",
+    "awarded": 4,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 4,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs present; homepage links to docs/developer pages"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md HTTP 404; ai.txt not probed; homepage has no AI info page link"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; no developer console"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 12.5,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 6.5,
+   "l2.sitemap": 3,
+   "l2.content-signals": 5,
+   "l3.public-api": 4,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

@@ -1,251 +1,252 @@
 {
-  "signals": {
-    "domain": "slideshare.net",
-    "fetchedAt": "2026-11-10T11:35:02.604Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
-      "url": "https://slideshare.net/robots.txt"
-    },
-    "llms": {
-      "status": 200,
-      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
-      "url": "https://slideshare.net/llms.txt"
-    },
-    "llmsFull": {
-      "status": 200,
-      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
-      "url": "https://slideshare.net/llms-full.txt"
-    },
-    "homepage": {
-      "status": 200,
-      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
-      "url": "https://slideshare.net/"
-    },
-    "sitemap": {
-      "status": 200,
-      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
-      "url": "https://slideshare.net/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 200,
-      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
-      "url": "https://slideshare.net/agents.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": true,
-      "urls": [
-        "https://slideshare.net/.well-known/mcp"
-      ]
-    },
-    "aiFeatures": {
-      "chatWidget": false,
-      "aiSearch": false,
-      "developerConsole": false
-    }
+ "signals": {
+  "domain": "slideshare.net",
+  "fetchedAt": "2026-11-10T11:35:02.604Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
+   "url": "https://slideshare.net/robots.txt"
   },
-  "afr": {
-    "domain": "slideshare.net",
-    "engineVersion": "afr-1.0.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-10T11:35:02.604Z",
-    "score": 47,
-    "grade": "D",
-    "strategyTag": "Unconfigured",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 22.5,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 12.5,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 200"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 200, full HTML document returned"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Comprehensibility",
-        "awarded": 16,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 12,
-            "max": 14,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "no JSON-LD blocks"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 1,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 48 words (too low)"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 2,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 1,
-            "max": 6,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "title \"Client Challenge\"; missing/too-short meta description; no date signal; body text 48 words (low)"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Interactivity",
-        "awarded": 8,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 2,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 6,
-            "max": 6,
-            "status": "pass",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP endpoint found: https://slideshare.net/.well-known/mcp"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 12.5,
-      "l1.no-tech-wall": 5,
-      "l1.basic-availability": 5,
-      "l2.llms-family": 12,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 1,
-      "l2.sitemap": 2,
-      "l2.content-signals": 1,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 2,
-      "l3.mcp": 6,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 200,
+   "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
+   "url": "https://slideshare.net/llms.txt"
+  },
+  "llmsFull": {
+   "status": 200,
+   "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
+   "url": "https://slideshare.net/llms-full.txt"
+  },
+  "homepage": {
+   "status": 200,
+   "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
+   "url": "https://slideshare.net/"
+  },
+  "sitemap": {
+   "status": 200,
+   "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
+   "url": "https://slideshare.net/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 200,
+   "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta\n      http-equiv=\"Content-Security-Policy\"\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-a9bHdQGvRzDwDVzx8m+Rzw+0FHZad8L0zjtBwkxOIz4=';\"\n    />\n    <link\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\n      rel=\"preload\"\n      as=\"font\"\n      type=\"font/woff2\"\n      crossorigin\n    />\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Client Challenge</title>\n    <style>\n      #loading-error {\n        font-size: 16px;\n        font-family: 'Inter', sans-serif;\n        margin-top: 10px;\n        margin-left: 10px;\n        display: none;\n      }\n    </style>\n  </head>\n  <body>\n    <noscript>\n      <div class=\"noscript-container\">\n        <div class=\"noscript-content\">\n          <img\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\n            alt=\"\"\n            role=\"presentation\"\n            class=\"error-icon\"\n          />\n          <span class=\"noscript-span\"\n            >JavaScript is disabled in your browser.</span\n          >\n          <p>Please enable JavaScript to proceed.</p>\n        </div>\n      </div>\n    </noscript>\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\n      A required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser.\n    </div>\n    <script>\n      function loadScript(src) {\n        return new Promise((resolve, reject) => {\n          const script = document.createElement('script');\n          script.onload = resolve;\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            document.getElementById('loading-error').style.display = 'block';\n            reject(\n              new Error(\n                `Failed to load script: ${src}, Please contact the service administrator.`\n              )\n            );\n          };\n          script.src = src;\n          document.body.appendChild(script);\n        });\n      }\n\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\n        .then(() => {\n          const script = document.createElement('script');\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\n          script.onerror = (event) => {\n            console.error('Script load error event:', event);\n            const errorMsg = new Error(\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\n            );\n            console.error(errorMsg);\n            handleScriptError();\n          };\n          document.body.appendChild(script);\n        })\n        .catch((error) => {\n          console.error(error);\n        });\n    </script>\n  </body>\n</html>\n",
+   "url": "https://slideshare.net/agents.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": true,
+   "urls": [
+    "https://slideshare.net/.well-known/mcp"
+   ]
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": false
   }
+ },
+ "afr": {
+  "domain": "slideshare.net",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-10T11:35:02.604Z",
+  "score": 47,
+  "grade": "D",
+  "state": "scored",
+  "strategyTag": "Unconfigured",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 22.5,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 12.5,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 200"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 200, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Comprehensibility",
+    "awarded": 16,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 12,
+      "max": 14,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "no JSON-LD blocks"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 1,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 48 words (too low)"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 2,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 1,
+      "max": 6,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "title \"Client Challenge\"; missing/too-short meta description; no date signal; body text 48 words (low)"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Interactivity",
+    "awarded": 8,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 2,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 6,
+      "max": 6,
+      "status": "pass",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP endpoint found: https://slideshare.net/.well-known/mcp"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; no developer console"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 12.5,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 12,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 1,
+   "l2.sitemap": 2,
+   "l2.content-signals": 1,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 2,
+   "l3.mcp": 6,
+   "l3.site-ai-features": 0
+  }
+ }
 }

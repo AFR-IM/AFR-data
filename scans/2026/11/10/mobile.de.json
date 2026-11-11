@@ -1,244 +1,245 @@
 {
-  "signals": {
-    "domain": "mobile.de",
-    "fetchedAt": "2026-11-10T11:38:45.260Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "User-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: Opebot-v (https://www.1plusx.com)\nAllow: /\n\nUser-agent: AmazonAdBot\nAllow: /\n\nUser-agent:*\nDisallow: /api/\nDisallow: /svc/similar/\nDisallow: /consumer/next/api/search/count\n\nDisallow: /auto/*/*?lang=\nDisallow: /bewertungen/*?lang=\nDisallow: /checkout/*\nDisallow: /finanzierung/route/\nDisallow: /finanzierung/antrag/\nDisallow: /magazin/*/*?lang=\nDisallow: /*/rating/\nDisallow: /*?lang=de\nDisallow: /leasing/*?lang=\nDisallow: /leasing/angebote/\nDisallow: /verkaufen/a/\nAllow: /service/*?lang=de\n\nDisallow: /*/pg:vip*\nDisallow: /*/*,pgn:*\nDisallow: /*/printView.html\n\nDisallow: /cz/*/*id=*\nDisallow: /es/*/*id=*\nDisallow: /fr/*/*id=*\nDisallow: /nl/*/*id=*\nDisallow: /pl/*/*id=*\nDisallow: /ro/*/*id=*\nDisallow: /ru/*/*id=*\nDisallow: /tr/*/*id=*\n\nDisallow: /cz/s/*?\nDisallow: /es/s/*?\nDisallow: /fr/s/*?\nDisallow: /nl/s/*?\nDisallow: /pl/s/*?\nDisallow: /ro/s/*?\nDisallow: /ru/s/*?\nDisallow: /tr/s/*?\n\nDisallow: /es/*/*.html?\nDisallow: /fr/*/*.html?\nDisallow: /nl/*/*.html?\nDisallow: /pl/*/*.html?\nDisallow: /ro/*/*.html?\nDisallow: /ru/*/*.html?\nDisallow: /cz/*/*.html?\nDisallow: /tr/*/*.html?\n",
-      "url": "https://www.mobile.de/robots.txt"
-    },
-    "llms": {
-      "status": 403,
-      "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310722.126133b7</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310722.126133b7\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
-      "url": "https://www.mobile.de/llms.txt"
-    },
-    "llmsFull": {
-      "status": 403,
-      "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310723.12613710</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310723.12613710\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
-      "url": "https://www.mobile.de/llms-full.txt"
-    },
-    "homepage": {
-      "status": 403,
-      "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310723.1261391b</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310723.1261391b\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
-      "url": "https://www.mobile.de/"
-    },
-    "sitemap": {
-      "status": 403,
-      "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310723.1261398d</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310723.1261398d\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
-      "url": "https://www.mobile.de/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 403,
-      "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310724.12613b29</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310724.12613b29\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
-      "url": "https://www.mobile.de/agents.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    }
+ "signals": {
+  "domain": "mobile.de",
+  "fetchedAt": "2026-11-10T11:38:45.260Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "User-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: Opebot-v (https://www.1plusx.com)\nAllow: /\n\nUser-agent: AmazonAdBot\nAllow: /\n\nUser-agent:*\nDisallow: /api/\nDisallow: /svc/similar/\nDisallow: /consumer/next/api/search/count\n\nDisallow: /auto/*/*?lang=\nDisallow: /bewertungen/*?lang=\nDisallow: /checkout/*\nDisallow: /finanzierung/route/\nDisallow: /finanzierung/antrag/\nDisallow: /magazin/*/*?lang=\nDisallow: /*/rating/\nDisallow: /*?lang=de\nDisallow: /leasing/*?lang=\nDisallow: /leasing/angebote/\nDisallow: /verkaufen/a/\nAllow: /service/*?lang=de\n\nDisallow: /*/pg:vip*\nDisallow: /*/*,pgn:*\nDisallow: /*/printView.html\n\nDisallow: /cz/*/*id=*\nDisallow: /es/*/*id=*\nDisallow: /fr/*/*id=*\nDisallow: /nl/*/*id=*\nDisallow: /pl/*/*id=*\nDisallow: /ro/*/*id=*\nDisallow: /ru/*/*id=*\nDisallow: /tr/*/*id=*\n\nDisallow: /cz/s/*?\nDisallow: /es/s/*?\nDisallow: /fr/s/*?\nDisallow: /nl/s/*?\nDisallow: /pl/s/*?\nDisallow: /ro/s/*?\nDisallow: /ru/s/*?\nDisallow: /tr/s/*?\n\nDisallow: /es/*/*.html?\nDisallow: /fr/*/*.html?\nDisallow: /nl/*/*.html?\nDisallow: /pl/*/*.html?\nDisallow: /ro/*/*.html?\nDisallow: /ru/*/*.html?\nDisallow: /cz/*/*.html?\nDisallow: /tr/*/*.html?\n",
+   "url": "https://www.mobile.de/robots.txt"
   },
-  "afr": {
-    "domain": "mobile.de",
-    "engineVersion": "afr-1.0.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-10T11:38:45.260Z",
-    "score": 13,
-    "grade": "F",
-    "strategyTag": "Unconfigured",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 12.5,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 12.5,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 403, homepage unavailable"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Comprehensibility",
-        "awarded": 0,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check JSON-LD"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check semantic HTML"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 0,
-            "max": 6,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check content signals"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Interactivity",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 403; ai.txt not probed; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "AI features not probed"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 12.5,
-      "l1.no-tech-wall": 0,
-      "l1.basic-availability": 0,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 0,
-      "l2.sitemap": 0,
-      "l2.content-signals": 0,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 403,
+   "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310722.126133b7</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310722.126133b7\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
+   "url": "https://www.mobile.de/llms.txt"
+  },
+  "llmsFull": {
+   "status": 403,
+   "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310723.12613710</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310723.12613710\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
+   "url": "https://www.mobile.de/llms-full.txt"
+  },
+  "homepage": {
+   "status": 403,
+   "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310723.1261391b</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310723.1261391b\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
+   "url": "https://www.mobile.de/"
+  },
+  "sitemap": {
+   "status": 403,
+   "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310723.1261398d</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310723.1261398d\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
+   "url": "https://www.mobile.de/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 403,
+   "body": "<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <title>Zugriff verweigert / Access denied</title>\n    <style>\n        html:not([lang=\"en\"]) [lang=\"en\"] {\n            display: none;\n        }\n\n        html:not([lang=\"de\"]) [lang=\"de\"] {\n            display: none;\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 700;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-bold-v1.woff) format(\"woff\")\n        }\n\n        @font-face {\n            font-display: swap;\n            font-family: YouthBase;\n            font-weight: 400;\n            src: url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff2) format(\"woff2\"),url(https://static.classistatic.de/fonts/mob-youth-base-regular-v1.woff) format(\"woff\")\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n        }\n\n        a {\n            color: rgb(219, 48, 0);\n        }\n\n        h1 {\n            margin: 27px 0 0 0;\n        }\n\n        h1+section {\n            margin-bottom: 9px;\n        }\n\n        body {\n            display: flex;\n            flex-direction: column;\n            font-feature-settings: \"liga\" 1, \"dlig\" 0, \"hlig\" 0, \"calt\" 1, \"rlig\" 1;\n            font-family: YouthBase, Gibson, Tahoma, Arial, sans-serif;\n            font-size: 16px;\n            font-weight: 400;\n            line-height: 24px;\n        }\n\n        header {\n            padding: 16px;\n            display: flex;\n            user-select: none;\n            box-shadow: 0 1px 1.5px #00000080, inset 0 -2px 0 rgb(245, 247, 250);\n        }\n\n        .header--logo {\n            width: 300px;\n        }\n\n        .container {\n            align-self: center;\n            max-width: 480px;\n            padding: 0 18px;\n        }\n\n        main ul {\n            margin-left: 18px;\n        }\n\n        main p {\n            margin: 9px 0;\n        }\n\n        .header--link {\n            text-decoration: none;\n        }\n\n        section {\n            margin: 27px 0;\n        }\n\n        footer section {\n            margin: 0;\n        }\n\n        footer ul {\n            list-style-type: none;\n            margin-block-start: 0;\n            margin: 9px 0 0 0;\n            padding: 0;\n        }\n    </style>\n</head>\n\n<body>\n    <header>\n        <a class=\"header--link\" title=\"mobile.de\" href=\"https://mobile.de/\">\n            <img class=\"header--logo\" lang=\"de\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-de-2x-v1.webp\">\n            <img class=\"header--logo\" lang=\"en\" src=\"https://static.classistatic.de/static/graphics/logo/logo-light-en-2x-v1.webp\">\n        </a>\n    </header>\n    <div class=\"container\">\n        <main tabindex=\"-1\">\n            <h1 lang=\"de\">Zugriff verweigert</h1>\n            <h1 lang=\"en\">Access denied</h1>\n\n            <section>\n                <p>Error Reference: 0.6bcfdb17.1794310724.12613b29</p>\n            </section>\n\n            <section lang=\"de\">\n                <p>Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.</p></br>\n                <h2 style=\"margin-top:18px; font-size:18px;\">Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:</h2></br>\n                <ul>\n                    <li>Betriebssystem: Ihre Betriebssystemversion ist nicht älter als <strong>6 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser: Ihre Browserversion ist nicht älter als <strong>12 Monate</strong> im Vergleich zur aktuellsten verfügbaren Version.</li>\n                    <li>Browser-Erweiterungen <strong>(Add-ons)</strong>: Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).</li>\n                    <li>Proxy/VPN: Es besteht keine Verbindung über einen <strong>Proxy</strong> oder ein <strong>VPN</strong>. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.</li>\n                </ul></br>\n                <p>Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:</p>\n            </section>\n\n            <section lang=\"en\">\n                <p>For security reasons, we unfortunately had to deny access to our data.<br/></p>\n                <h2 style=\"margin-top:18px; font-size:18px;\">To ensure you can continue to access it, please make sure the following requirements are met:</h2></br>\n                <ul>\n                    <li>Operating system: Your OS version is no more than <strong>6 months</strong> older than the latest available version.</li>\n                    <li>Browser: Your browser version is no more than <strong>12 months</strong> older than the latest available version.</li>\n                    <li>Browser extensions <strong>(Add-ons)</strong>: Please check whether any extensions you are using are blocking required requests (e.g., ad/tracking blockers, script blockers).</li>\n                    <li>Proxy/VPN: You are not connected via a <strong>Proxy</strong> or <strong>VPN</strong>. If you are, please disconnect and then try again without a proxy/VPN.\n</li>\n                </ul></br>\n                <p>If the issue persists, despite checking all of the above, please contact us— quoting the displayed Ref ID (valid for a maximum of 48 hours) —at:</p>\n            </section>\n\n            <section lang=\"de\">\n                <p><strong>Telefon</strong></p>\n                <p>Montag bis Freitag von 8:00 - 18:00</p>\n                <ul>\n                    <li>Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601</li>\n                    <li>Händler: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section lang=\"en\">\n                <p><strong>Phone</strong></p>\n                <p>Mo. - Fr. 8:00 - 18:00</p>\n                <ul>\n                    <li>Private users and commercial sellers: +49 (0) 30 81097-601</li>\n                    <li>Dealers: +49 (0) 30 81097-500</li>\n                </ul>\n            </section>\n\n            <section>\n                <p><strong>E-Mail</strong></p>\n                <p><a\n                        href=\"mailto:service@team.mobile.de?subject=Reference%20Error:%200.6bcfdb17.1794310724.12613b29\">service@team.mobile.de</a>\n                </p>\n\n            </section>\n\n        </main>\n\n        <footer>\n            <section>\n                <ul>\n                    <li>mobile.de GmbH</li>\n                    <li lang=\"de\">Dernburgstraße 50 | 14057 Berlin | Deutschland</li>\n                    <li lang=\"en\">Dernburgstraße 50 | 14057 Berlin | Germany</li>\n                    <li lang=\"de\">Geschäftsführung: Ajay Bhatia und Dirk Schmelzer</li>\n                    <li lang=\"en\">Managing Directors: Ajay Bhatia and Dirk Schmelzer</li>\n                    <li>HRB Nr: 271620 B, Amtsgericht Charlottenburg</li>\n                    <li lang=\"de\">Sitz der Gesellschaft: Berlin</li>\n                    <li lang=\"en\">Registered office of the company: Berlin</li>\n                </ul>\n            </section>\n        </footer>\n    </div>\n\n    <script>\n        const userLang = navigator.language || navigator.userLanguage;\n        if (userLang && userLang.startsWith('en')) {\n            document.querySelector('html').setAttribute('lang', 'en');\n        }\n    </script>\n</body>\n\n</html>\n",
+   "url": "https://www.mobile.de/agents.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
   }
+ },
+ "afr": {
+  "domain": "mobile.de",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-10T11:38:45.260Z",
+  "score": 13,
+  "grade": "F",
+  "state": "scored",
+  "strategyTag": "Unconfigured",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 12.5,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 12.5,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 403, homepage unavailable"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Comprehensibility",
+    "awarded": 0,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check JSON-LD"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check semantic HTML"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 0,
+      "max": 6,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check content signals"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Interactivity",
+    "awarded": 0,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md HTTP 403; ai.txt not probed; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "AI features not probed"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 12.5,
+   "l1.no-tech-wall": 0,
+   "l1.basic-availability": 0,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 0,
+   "l2.sitemap": 0,
+   "l2.content-signals": 0,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

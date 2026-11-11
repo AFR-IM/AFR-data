@@ -1,244 +1,245 @@
 {
-  "signals": {
-    "domain": "reuters.com",
-    "fetchedAt": "2026-11-10T11:17:05.959Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "# NOTICE: Collection of content, data and/or information from reuters.com through\n# automated means is prohibited unless you have prior written consent from Reuters \n# and may only be conducted for the purposes explicitly described in such permission. \n#\n# The terms and conditions for reuters.com may be found at \n# https://www.reuters.com/info-pages/terms-of-use/ \n#\n# If you would like to seek permission to license the content and/or other materials \n# of Reuters, please contact https://reutersagency.com/contact-us/enquire/\n\nUser-agent: AASA-Bot\nUser-agent: ADmantX\nUser-agent: AdmiralBot\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AmazonAdBot\nUser-agent: Amzn-User\nUser-agent: Applebot\nUser-agent: AppleNewsBot\nUser-agent: Bingbot\nUser-agent: BingPreview\nUser-agent: BrightEdge\nUser-agent: BrightEdgeOnCrawl\nUser-agent: CensysInspect\nUser-agent: ChatGPT-User\nUser-agent: Cision\nUser-agent: Clickagy\nUser-agent: Concert\nUser-agent: ContextualBot\nUser-agent: CriteoBot\nUser-agent: DatadogSynthetics\nUser-agent: datadome-pageprotect-scanner\nUser-agent: Discordbot\nUser-agent: doubleverify\nUser-agent: ElevenlabsBot\nUser-agent: Embedly \nUser-agent: facebookexternalhit\nUser-agent: Googlebot\nUser-agent: Googlebot Smartphone\nUser-agent: Googlebot-News\nUser-agent: Google-Display-Ads-Bot\nUser-agent: Google-InspectionTool\nUser-agent: GoogleOther\nUser-agent: Google-Read-Aloud\nUser-agent: Google-Safety\nUser-agent: Google-Site-Verification\nUser-agent: GTmetrix\nUser-agent: GumGumBot\nUser-agent: ias_crawler\nUser-agent: Iframely\nUser-agent: leiki\nUser-agent: LinkedInBot\nUser-agent: LinkTiger\nUser-agent: Mediapartners-Google\nUser-agent: meta-externalads\nUser-agent: meta-webindexer\nUser-agent: MicrosoftPreview\nUser-agent: MJ12bot \nUser-agent: Moreover\nUser-agent: msnbot \nUser-agent: NFBNewslineRobot\nUser-agent: OAI-SearchBot\nUser-agent: Oncrawl\nUser-agent: Opebot-v\nUser-agent: Opoint\nUser-agent: Optimizer\nUser-agent: outbrain \nUser-agent: Pinterestbot\nUser-agent: Prerender\nUser-agent: Proofpoint \nUser-agent: proximic\nUser-agent: PubMatic Crawler Bot\nUser-agent: Quantcastbot\nUser-agent: Qwantbot\nUser-agent: Reuters SEO Screaming Frog Spider 007\nUser-agent: Reuters-NAUWI\nUser-agent: Scom-Crawler-For-Reuters\nUser-agent: SinceraSyntheticUser\nUser-agent: Slurp\nUser-agent: SmartologyBot\nUser-agent: snews\nUser-agent: SocialFlow\nUser-agent: StatusCake\nUser-agent: Storebot-Google\nUser-agent: Stripebot\nUser-agent: TTD-Content\nUser-agent: Twitterbot\nUser-agent: URLDefense\nUser-agent: Verity\nUser-agent: vuln_scan_by_trustedsite_com_halo_security\nUser-agent: WISEbot\nUser-agent: Xenu Link Sleuth\nUser-agent: Yahoo Link Preview\nUser-agent: Yahoo! JAPAN\nUser-agent: YahooMailProxy\nDisallow: /finance/stocks/option\nDisallow: /finance/stocks/financialHighlights\nDisallow: /search\nDisallow: /site-search/\nDisallow: /beta\nDisallow: /designtech\nDisallow: /featured-optimize\nDisallow: /energy-test\nDisallow: /article/beta\nDisallow: /sponsored/previewcampaign\nDisallow: /sponsored/previewarticle\nDisallow: /test/\nDisallow: /news/archive/commentary\nDisallow: /brandfeatures/venture-capital\nDisallow: /assets/siteindex\nDisallow: /article/api/\nDisallow: /practical-law-the-journal/search/\nDisallow: /pf/api/\nDisallow: /fr/\nDisallow: /it/\nDisallow: /es/\nDisallow: /pt/\nDisallow: /de/\nDisallow: /latam/\nDisallow: /account/subscribe/payment\nDisallow: /*/site-search/\n\nUser-agent: Applebot-Extended\nDisallow: /\n\n# Block all other bots\nUser-agent: *\nAllow: /plus/\nDisallow: /\n\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-index/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-jp-index/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml\nSITEMAP: https://www.reuters.com/plus/sitemap-index.xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-plj-index/?outputType=xml\nSITEMAP: https://www.reuters.com/graphics/sitemap.xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-index/pictures/?outputType=xml\nSITEMAP: https://www.reuters.com/static/video-sitemap/jp/sitemap_video_index.xml\nSITEMAP: https://www.reuters.com/static/video-sitemap/us/sitemap_video_index.xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/topic-sitemap/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/author-sitemap/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/pressrelease-sitemap/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-ar-index/?outputType=xml\nSITEMAP: https://www.reuters.com/service/archive-sitemap/sitemap.xml",
-      "url": "https://www.reuters.com/robots.txt"
-    },
-    "llms": {
-      "status": 401,
-      "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAKo9tZXypDrgAFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':43909,'e':'b213a5fbcaeb3c479d494fb05db61a903ae9f3718fbd730cefddb5197f0693615d0a50e1d16d9784541bd3e7693898a7','host':'geo.captcha-delivery.com','cookie':'1jQWF3OwcjrtoN_DjfyUYXA24RYAJb9~fb8d6NRoGjmDiW4OuCydogYDvQ5rUrvj~hMW10uJGwYnNw8plaOv8OPPMOpo49hx5JCWJ9otWpAXq1rIXG~B4w_hDSx2f0H_'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
-      "url": "https://www.reuters.com/llms.txt"
-    },
-    "llmsFull": {
-      "status": 401,
-      "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMArbLSO9swXXQAFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':43909,'e':'c28af617a4e035b88650825e0f63d2f0352e784284a578831952ecc88c6c4bf147f915285b67d1b9793b390acb1b5182','host':'geo.captcha-delivery.com','cookie':'XZ4OYjd4qx~yvDvluDL53tYBYNahGlrkqt0Ortw85LXbkvXov2tye6I12BVLmeBS8of5iXFQF1sL4Ny13~u~oJJARFx7owtCdIDSgcWw7hfOY8lhwfrnxTnhdkxzN3Ft'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
-      "url": "https://www.reuters.com/llms-full.txt"
-    },
-    "homepage": {
-      "status": 401,
-      "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAhfZRRYcxDpkAFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':43909,'e':'6b449a64c7634fca60c0c25b8926949e2273e8e5295fa7e174190f8c312f8dd52360d5dde7f77240a2327c6f1a4e76a0','host':'geo.captcha-delivery.com','cookie':'ATXxMjwSEwNtBfuNmT3MbR9g8LC13twZDpgx67uszcZV0BUQEGmI1QIF1Jaf6BwTw0X4bXQZMT~lFM3u2apkDYgvRykk0ZXjmpAHN5C243jm6RMDGYZJ~9EBVKHBsBNY'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
-      "url": "https://www.reuters.com/"
-    },
-    "sitemap": {
-      "status": 401,
-      "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAY2gVirnEPyQAFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':63835,'e':'6aec01ae816d776046cda578529289bf6e479dfb4f2cdaaf0e6e0b29fa33312101a06206c3ecdd81363a08826a148493','host':'geo.captcha-delivery.com','cookie':'QLe_LDFdi_OVCYemZZ4qn25KBt~C11dWYJBIBt5yh7ygn~S1VrZyMfrtZXWROKdcB0NNYoVO135roJaS7XOJzF_iVcuqkDpJUbNWZ2402bBy~DUaq4Kxo87feSNguCBj'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
-      "url": "https://www.reuters.com/arc/outboundfeeds/sitemap-index/?outputType=xml"
-    },
-    "agentsMd": {
-      "status": 401,
-      "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAB6iVTznx898AFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':43909,'e':'575370e42f9055e5ecdc3c020ecaad920122f6c99439584f941c893761ec9bb4690abeaa1242fbe8209c828ab4e94798','host':'geo.captcha-delivery.com','cookie':'0RLs5hFb84DS7aNs2xaMIuDFZ3WefXkctf5eBA219dTUr3~HtV~lDvmfyrsnVG9q~nJLg7CXVDDMbdHLWe9RsPVdUTtgNPZO52nJEV93XvnrTKvW5V~ss6Gwk~PjOE5A'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
-      "url": "https://www.reuters.com/agents.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    }
+ "signals": {
+  "domain": "reuters.com",
+  "fetchedAt": "2026-11-10T11:17:05.959Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "# NOTICE: Collection of content, data and/or information from reuters.com through\n# automated means is prohibited unless you have prior written consent from Reuters \n# and may only be conducted for the purposes explicitly described in such permission. \n#\n# The terms and conditions for reuters.com may be found at \n# https://www.reuters.com/info-pages/terms-of-use/ \n#\n# If you would like to seek permission to license the content and/or other materials \n# of Reuters, please contact https://reutersagency.com/contact-us/enquire/\n\nUser-agent: AASA-Bot\nUser-agent: ADmantX\nUser-agent: AdmiralBot\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AmazonAdBot\nUser-agent: Amzn-User\nUser-agent: Applebot\nUser-agent: AppleNewsBot\nUser-agent: Bingbot\nUser-agent: BingPreview\nUser-agent: BrightEdge\nUser-agent: BrightEdgeOnCrawl\nUser-agent: CensysInspect\nUser-agent: ChatGPT-User\nUser-agent: Cision\nUser-agent: Clickagy\nUser-agent: Concert\nUser-agent: ContextualBot\nUser-agent: CriteoBot\nUser-agent: DatadogSynthetics\nUser-agent: datadome-pageprotect-scanner\nUser-agent: Discordbot\nUser-agent: doubleverify\nUser-agent: ElevenlabsBot\nUser-agent: Embedly \nUser-agent: facebookexternalhit\nUser-agent: Googlebot\nUser-agent: Googlebot Smartphone\nUser-agent: Googlebot-News\nUser-agent: Google-Display-Ads-Bot\nUser-agent: Google-InspectionTool\nUser-agent: GoogleOther\nUser-agent: Google-Read-Aloud\nUser-agent: Google-Safety\nUser-agent: Google-Site-Verification\nUser-agent: GTmetrix\nUser-agent: GumGumBot\nUser-agent: ias_crawler\nUser-agent: Iframely\nUser-agent: leiki\nUser-agent: LinkedInBot\nUser-agent: LinkTiger\nUser-agent: Mediapartners-Google\nUser-agent: meta-externalads\nUser-agent: meta-webindexer\nUser-agent: MicrosoftPreview\nUser-agent: MJ12bot \nUser-agent: Moreover\nUser-agent: msnbot \nUser-agent: NFBNewslineRobot\nUser-agent: OAI-SearchBot\nUser-agent: Oncrawl\nUser-agent: Opebot-v\nUser-agent: Opoint\nUser-agent: Optimizer\nUser-agent: outbrain \nUser-agent: Pinterestbot\nUser-agent: Prerender\nUser-agent: Proofpoint \nUser-agent: proximic\nUser-agent: PubMatic Crawler Bot\nUser-agent: Quantcastbot\nUser-agent: Qwantbot\nUser-agent: Reuters SEO Screaming Frog Spider 007\nUser-agent: Reuters-NAUWI\nUser-agent: Scom-Crawler-For-Reuters\nUser-agent: SinceraSyntheticUser\nUser-agent: Slurp\nUser-agent: SmartologyBot\nUser-agent: snews\nUser-agent: SocialFlow\nUser-agent: StatusCake\nUser-agent: Storebot-Google\nUser-agent: Stripebot\nUser-agent: TTD-Content\nUser-agent: Twitterbot\nUser-agent: URLDefense\nUser-agent: Verity\nUser-agent: vuln_scan_by_trustedsite_com_halo_security\nUser-agent: WISEbot\nUser-agent: Xenu Link Sleuth\nUser-agent: Yahoo Link Preview\nUser-agent: Yahoo! JAPAN\nUser-agent: YahooMailProxy\nDisallow: /finance/stocks/option\nDisallow: /finance/stocks/financialHighlights\nDisallow: /search\nDisallow: /site-search/\nDisallow: /beta\nDisallow: /designtech\nDisallow: /featured-optimize\nDisallow: /energy-test\nDisallow: /article/beta\nDisallow: /sponsored/previewcampaign\nDisallow: /sponsored/previewarticle\nDisallow: /test/\nDisallow: /news/archive/commentary\nDisallow: /brandfeatures/venture-capital\nDisallow: /assets/siteindex\nDisallow: /article/api/\nDisallow: /practical-law-the-journal/search/\nDisallow: /pf/api/\nDisallow: /fr/\nDisallow: /it/\nDisallow: /es/\nDisallow: /pt/\nDisallow: /de/\nDisallow: /latam/\nDisallow: /account/subscribe/payment\nDisallow: /*/site-search/\n\nUser-agent: Applebot-Extended\nDisallow: /\n\n# Block all other bots\nUser-agent: *\nAllow: /plus/\nDisallow: /\n\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-index/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-jp-index/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml\nSITEMAP: https://www.reuters.com/plus/sitemap-index.xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-plj-index/?outputType=xml\nSITEMAP: https://www.reuters.com/graphics/sitemap.xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-index/pictures/?outputType=xml\nSITEMAP: https://www.reuters.com/static/video-sitemap/jp/sitemap_video_index.xml\nSITEMAP: https://www.reuters.com/static/video-sitemap/us/sitemap_video_index.xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/topic-sitemap/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/author-sitemap/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/pressrelease-sitemap/?outputType=xml\nSITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-ar-index/?outputType=xml\nSITEMAP: https://www.reuters.com/service/archive-sitemap/sitemap.xml",
+   "url": "https://www.reuters.com/robots.txt"
   },
-  "afr": {
-    "domain": "reuters.com",
-    "engineVersion": "afr-1.0.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-10T11:17:05.959Z",
-    "score": 7,
-    "grade": "F",
-    "strategyTag": "AI-Closed",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 6,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 6,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 4.50/9 · hybrid 1.50/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: Claude-SearchBot, PerplexityBot, Claude-User."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 401 (blocked/challenge page = technical wall)"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 401, homepage unavailable"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Comprehensibility",
-        "awarded": 1,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 401; GET /llms-full.txt → HTTP 401; homepage unavailable; cannot check llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check JSON-LD"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check semantic HTML"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 1,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 401; robots.txt references a Sitemap"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 0,
-            "max": 6,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check content signals"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Interactivity",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 401; ai.txt not probed; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "AI features not probed"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 6,
-      "l1.no-tech-wall": 0,
-      "l1.basic-availability": 0,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 0,
-      "l2.sitemap": 1,
-      "l2.content-signals": 0,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 401,
+   "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAKo9tZXypDrgAFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':43909,'e':'b213a5fbcaeb3c479d494fb05db61a903ae9f3718fbd730cefddb5197f0693615d0a50e1d16d9784541bd3e7693898a7','host':'geo.captcha-delivery.com','cookie':'1jQWF3OwcjrtoN_DjfyUYXA24RYAJb9~fb8d6NRoGjmDiW4OuCydogYDvQ5rUrvj~hMW10uJGwYnNw8plaOv8OPPMOpo49hx5JCWJ9otWpAXq1rIXG~B4w_hDSx2f0H_'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+   "url": "https://www.reuters.com/llms.txt"
+  },
+  "llmsFull": {
+   "status": 401,
+   "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMArbLSO9swXXQAFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':43909,'e':'c28af617a4e035b88650825e0f63d2f0352e784284a578831952ecc88c6c4bf147f915285b67d1b9793b390acb1b5182','host':'geo.captcha-delivery.com','cookie':'XZ4OYjd4qx~yvDvluDL53tYBYNahGlrkqt0Ortw85LXbkvXov2tye6I12BVLmeBS8of5iXFQF1sL4Ny13~u~oJJARFx7owtCdIDSgcWw7hfOY8lhwfrnxTnhdkxzN3Ft'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+   "url": "https://www.reuters.com/llms-full.txt"
+  },
+  "homepage": {
+   "status": 401,
+   "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAhfZRRYcxDpkAFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':43909,'e':'6b449a64c7634fca60c0c25b8926949e2273e8e5295fa7e174190f8c312f8dd52360d5dde7f77240a2327c6f1a4e76a0','host':'geo.captcha-delivery.com','cookie':'ATXxMjwSEwNtBfuNmT3MbR9g8LC13twZDpgx67uszcZV0BUQEGmI1QIF1Jaf6BwTw0X4bXQZMT~lFM3u2apkDYgvRykk0ZXjmpAHN5C243jm6RMDGYZJ~9EBVKHBsBNY'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+   "url": "https://www.reuters.com/"
+  },
+  "sitemap": {
+   "status": 401,
+   "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAY2gVirnEPyQAFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':63835,'e':'6aec01ae816d776046cda578529289bf6e479dfb4f2cdaaf0e6e0b29fa33312101a06206c3ecdd81363a08826a148493','host':'geo.captcha-delivery.com','cookie':'QLe_LDFdi_OVCYemZZ4qn25KBt~C11dWYJBIBt5yh7ygn~S1VrZyMfrtZXWROKdcB0NNYoVO135roJaS7XOJzF_iVcuqkDpJUbNWZ2402bBy~DUaq4Kxo87feSNguCBj'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+   "url": "https://www.reuters.com/arc/outboundfeeds/sitemap-index/?outputType=xml"
+  },
+  "agentsMd": {
+   "status": 401,
+   "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAB6iVTznx898AFKslpg==','hsh':'2013457ADA70C67D6A4123E0A76873','t':'bv','qp':'','s':43909,'e':'575370e42f9055e5ecdc3c020ecaad920122f6c99439584f941c893761ec9bb4690abeaa1242fbe8209c828ab4e94798','host':'geo.captcha-delivery.com','cookie':'0RLs5hFb84DS7aNs2xaMIuDFZ3WefXkctf5eBA219dTUr3~HtV~lDvmfyrsnVG9q~nJLg7CXVDDMbdHLWe9RsPVdUTtgNPZO52nJEV93XvnrTKvW5V~ss6Gwk~PjOE5A'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+   "url": "https://www.reuters.com/agents.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
   }
+ },
+ "afr": {
+  "domain": "reuters.com",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-10T11:17:05.959Z",
+  "score": 7,
+  "grade": "F",
+  "state": "scored",
+  "strategyTag": "AI-Closed",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 6,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 6,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 4.50/9 · hybrid 1.50/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: Claude-SearchBot, PerplexityBot, Claude-User."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 401 (blocked/challenge page = technical wall)"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 401, homepage unavailable"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Comprehensibility",
+    "awarded": 1,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 401; GET /llms-full.txt → HTTP 401; homepage unavailable; cannot check llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check JSON-LD"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check semantic HTML"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 1,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 401; robots.txt references a Sitemap"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 0,
+      "max": 6,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check content signals"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Interactivity",
+    "awarded": 0,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md HTTP 401; ai.txt not probed; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "AI features not probed"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 6,
+   "l1.no-tech-wall": 0,
+   "l1.basic-availability": 0,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 0,
+   "l2.sitemap": 1,
+   "l2.content-signals": 0,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

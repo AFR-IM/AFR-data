@@ -1,244 +1,245 @@
 {
-  "signals": {
-    "domain": "ngenix.net",
-    "fetchedAt": "2026-11-10T11:50:13.722Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 503,
-      "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">21e34a4a7f0be864e745720f02b2fd98</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=21e34a4a7f0be864e745720f02b2fd98&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.9aade27516de84587c9b827d923fd32696c1d158f49e09f50431bab1c9c7b869.1794311529.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
-      "url": "https://ngenix.net/robots.txt"
-    },
-    "llms": {
-      "status": 503,
-      "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">49eabf2c5135538b68465da8940abf3c</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=49eabf2c5135538b68465da8940abf3c&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.fc593e9cb4c2720ff9f98765887a9597ba47061e3caf27e72c83f0c92d137dc2.1794311530.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
-      "url": "https://ngenix.net/llms.txt"
-    },
-    "llmsFull": {
-      "status": 503,
-      "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">66823ff4da47c1d53549b8b0331fe943</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=66823ff4da47c1d53549b8b0331fe943&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.fc593e9cb4c2720ff9f98765887a9597ba47061e3caf27e72c83f0c92d137dc2.1794311530.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
-      "url": "https://ngenix.net/llms-full.txt"
-    },
-    "homepage": {
-      "status": 503,
-      "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">a1cce71086ee9f6f0fb9fde4da02a193</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=a1cce71086ee9f6f0fb9fde4da02a193&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.9e8ed19f19f4de2782ee1cabd3339a6e7e8dad607a82ede77093d58ea41f84ce.1794311531.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
-      "url": "https://ngenix.net/"
-    },
-    "sitemap": {
-      "status": 503,
-      "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">62d8275dbfac53899e884547779c557e</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=62d8275dbfac53899e884547779c557e&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.9e8ed19f19f4de2782ee1cabd3339a6e7e8dad607a82ede77093d58ea41f84ce.1794311531.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
-      "url": "https://ngenix.net/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 503,
-      "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">23af93d9779762f61e91f972fd8559d6</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=23af93d9779762f61e91f972fd8559d6&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.c1cde0527161f994ad699e207db64700567eb817f79730236e2b2fd79ee4fe2d.1794311532.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
-      "url": "https://ngenix.net/agents.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    }
+ "signals": {
+  "domain": "ngenix.net",
+  "fetchedAt": "2026-11-10T11:50:13.722Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 503,
+   "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">21e34a4a7f0be864e745720f02b2fd98</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=21e34a4a7f0be864e745720f02b2fd98&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.9aade27516de84587c9b827d923fd32696c1d158f49e09f50431bab1c9c7b869.1794311529.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
+   "url": "https://ngenix.net/robots.txt"
   },
-  "afr": {
-    "domain": "ngenix.net",
-    "engineVersion": "afr-1.0.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-10T11:50:13.722Z",
-    "score": 13,
-    "grade": "F",
-    "strategyTag": "Unconfigured",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 12.5,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 12.5,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 503 (blocked/challenge page = technical wall)"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 503, homepage unavailable"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Comprehensibility",
-        "awarded": 0,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 503; GET /llms-full.txt → HTTP 503; homepage unavailable; cannot check llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check JSON-LD"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check semantic HTML"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 503; robots.txt does not reference a Sitemap"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 0,
-            "max": 6,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check content signals"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Interactivity",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 503; ai.txt not probed; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "AI features not probed"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 12.5,
-      "l1.no-tech-wall": 0,
-      "l1.basic-availability": 0,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 0,
-      "l2.sitemap": 0,
-      "l2.content-signals": 0,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 503,
+   "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">49eabf2c5135538b68465da8940abf3c</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=49eabf2c5135538b68465da8940abf3c&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.fc593e9cb4c2720ff9f98765887a9597ba47061e3caf27e72c83f0c92d137dc2.1794311530.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
+   "url": "https://ngenix.net/llms.txt"
+  },
+  "llmsFull": {
+   "status": 503,
+   "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">66823ff4da47c1d53549b8b0331fe943</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=66823ff4da47c1d53549b8b0331fe943&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.fc593e9cb4c2720ff9f98765887a9597ba47061e3caf27e72c83f0c92d137dc2.1794311530.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
+   "url": "https://ngenix.net/llms-full.txt"
+  },
+  "homepage": {
+   "status": 503,
+   "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">a1cce71086ee9f6f0fb9fde4da02a193</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=a1cce71086ee9f6f0fb9fde4da02a193&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.9e8ed19f19f4de2782ee1cabd3339a6e7e8dad607a82ede77093d58ea41f84ce.1794311531.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
+   "url": "https://ngenix.net/"
+  },
+  "sitemap": {
+   "status": 503,
+   "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">62d8275dbfac53899e884547779c557e</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=62d8275dbfac53899e884547779c557e&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.9e8ed19f19f4de2782ee1cabd3339a6e7e8dad607a82ede77093d58ea41f84ce.1794311531.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
+   "url": "https://ngenix.net/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 503,
+   "body": "<!doctype html><html lang=\"ru\"><head><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title><style>:root{--color-primary:#113a60;--color-success:#27ae60;--bg-primary:#fff;--font-family-header:Arial,Helvetica,sans-serif;--font-family-text:Arial,Helvetica,sans-serif;--font-size-sm:14px;--font-size-md:16px;--font-size-2xl:34px;--font-weight-regular:400;--font-weight-bold:700;--line-height-heading:1.4;--line-height-text:1.6;--spacing-xl:32px;--button-padding:10px 20px;--button-border:1px solid #113a6080;--button-background:#fff}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;padding:50px 0;width:230px}.main{align-items:center;color:var(--color-primary);display:flex;flex-direction:column;padding-top:50px;text-align:center}.section,.text{margin-top:var(--spacing-xl)}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-bold);line-height:var(--line-height-heading)}.text{font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:90px;padding:20px 0;row-gap:10px}.info_item{column-gap:6px;display:flex;flex-direction:row}.info_data{font-weight:var(--font-weight-bold)}.icon-button,.report{background:0 0;border:none;color:inherit;cursor:pointer}.icon-button,.report{text-decoration:underline}.invisible{display:none}</style></head><body><div class=\"main\"><svg id=\"logo\" class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"50\" fill=\"none\" viewBox=\"0 0 130 29\"><g clip-path=\"url(#a)\"><mask id=\"b\" width=\"130\" height=\"29\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\" style=\"mask-type:luminance\"><path fill=\"#fff\" d=\"M130 0H0v28.882h130z\"/></mask><g mask=\"url(#b)\"><path fill=\"#113a60\" d=\"M49.022 28.482h18.164V26.17H51.49v-6.981h14.8v-2.312h-14.8V9.94h15.697V7.629H49.022zM34.849 9.805c4.037 0 7.221 2.13 8.298 5.304l2.332-.953c-1.48-3.989-5.517-6.663-10.63-6.663-6.503 0-11.123 4.488-11.123 10.562 0 5.984 4.575 10.427 11.886 10.427h9.867v-10.11H35.208v2.267h7.849v5.53H35.61c-5.875 0-9.463-3.445-9.463-8.114 0-4.714 3.588-8.25 8.701-8.25M88.76 24.674L72.704 7.629h-2.108v20.853h2.466v-17.09l16.057 17.09h2.109V7.629H88.76zm-70.595 0L2.108 7.629H0v20.853h2.467v-17.09l16.056 17.09h2.109V7.629h-2.467z\"/><path fill=\"#ed1b35\" d=\"M117.958 2.552h9.554v9.338h2.466V.06h-12.02z\"/><path fill=\"#113a60\" d=\"M120.739 7.267l-9.105 9.02-9.195-9.02-1.838 1.813 9.239 8.976-9.194 8.975 1.793 1.814 9.151-9.021 9.104 9.02 1.84-1.813-9.195-8.975 9.195-8.976zm-25.52 21.215h2.466V7.629H95.22z\"/></g></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h130v29H0z\"/></clipPath></defs></svg><section id=\"default-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Сейчас будет выполнена проверка вашего браузера</h1><p class=\"text\">Пожалуйста, дождитесь загрузки страницы...</p><div id=\"default-challenge-container\"></div></section><section id=\"interactive-challenge-section\" class=\"section\" style=\"display:none\"><h1 class=\"heading\">Запросы с вашего IP-адреса похожи на автоматические</h1><div class=\"text\" id=\"interactive-challenge-container\"></div></section><section id=\"error-section\" class=\"section\" style=\"display:none\"><div id=\"error-default\" style=\"display:none\"><h1 class=\"heading\">Ваш запрос к веб-ресурсу<br/>не прошел проверку безопасности</h1><p class=\"text\">Если вы считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса.</p></div><div id=\"error-lockdown\" style=\"display:none\"><h1 class=\"heading\">Выключите lockdown mode</h1><p class=\"text\">Скорее всего, это произошло по причине того, что на вашем устройстве Apple включен \"Режим блокировки\".<br/>Вы можете добавить веб-ресурс в список исключений или полностью отключить этот режим.<br/>Подробнее о режиме и его настройке можно узнать на сайте поддержки Apple: <a rel=\"noopener noreferrer\" href=\"https://support.apple.com/ru-ru/105120\">https://support.apple.com/ru-ru/105120</a><br/></p></div><div class=\"info\"><div class=\"info_item\">Ваш IP: <span id=\"ip\" class=\"info_data\">20.171.37.166</span> <button class=\"icon-button\" onclick='copy(\"ip\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><div class=\"info_item\">Ваш ID запроса к ресурсу: <span id=\"request_id\" class=\"info_data\">23af93d9779762f61e91f972fd8559d6</span> <button class=\"icon-button\" onclick='copy(\"request_id\")'><svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\"><path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/></svg></button></div><button id=\"report\" class=\"report\">Скачать отчёт об ошибке</button></div></section><noscript><section class=\"section\"><h1 class=\"heading\">Отключена поддержка JavaScript</h1><p class=\"text\">Чтобы получить доступ к веб-ресурсу, активируйте в настройках вашего браузера поддержку JavaScript или свяжитесь с поддержкой веб-ресурса.</p></section></noscript></div><script>window.ctx='request_id=23af93d9779762f61e91f972fd8559d6&request_ip=20.171.37.166&state_header=x-ngenix-bcd&settings=1.c1cde0527161f994ad699e207db64700567eb817f79730236e2b2fd79ee4fe2d.1794311532.bmdlbml4Lm5ldA%3D%3D.cmVzdWx0X3R0bD0zNjAwJnNldHRpbmdzPSU3QiUyMnRlc3RzJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMmxkbV92MSUyMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJmaW5nZXJwcmludCUyMiUyQyUyMmFyZ3MlMjIlM0ElN0IlMjJmMSUyMiUzQWZhbHNlJTdEJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMmNzcyUyMiU3RCU1RCU3RA%3D%3D&report_mode=2&settings_header=x-ngenix-bcc&min_display=1500&challenge_modules_location=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fmodules%2F&challenge_url=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Fchallenge&error_report_endpoint=%2Fngenix-aGVsbG8sIGh1bWFu%2Fbot-challenge%2Freport';</script><script src='/ngenix-aGVsbG8sIGh1bWFu/bot-challenge/loader.js?c=2a973de40ff56572b421123e7a4eadb5eaf946ed7dd2bf16ac2d22fbfcedf1d7'></script></body></html>",
+   "url": "https://ngenix.net/agents.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
   }
+ },
+ "afr": {
+  "domain": "ngenix.net",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-10T11:50:13.722Z",
+  "score": 25,
+  "grade": "Pending",
+  "state": "pending",
+  "strategyTag": "Unconfigured",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 25,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 25,
+      "max": 25,
+      "status": "pass",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 503 (blocked/challenge page = technical wall)"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 503, homepage unavailable"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Comprehensibility",
+    "awarded": 0,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 503; GET /llms-full.txt → HTTP 503; homepage unavailable; cannot check llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check JSON-LD"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check semantic HTML"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 503; robots.txt does not reference a Sitemap"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 0,
+      "max": 6,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check content signals"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Interactivity",
+    "awarded": 0,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md HTTP 503; ai.txt not probed; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "AI features not probed"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 25,
+   "l1.no-tech-wall": 0,
+   "l1.basic-availability": 0,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 0,
+   "l2.sitemap": 0,
+   "l2.content-signals": 0,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

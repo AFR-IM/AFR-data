@@ -1,251 +1,252 @@
 {
-  "signals": {
-    "domain": "imdb.com",
-    "fetchedAt": "2026-11-10T11:16:35.510Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "# The content on this site is owned by IMDb.com, Inc., an Amazon.com company\n# and is made available for your personal, non-commercial use subject\n# to our Conditions of Use here: https://www.imdb.com/conditions/\n# Use of any device, tool, or process designed to data mine or scrape the content\n# using automated means is prohibited without prior written permission from IMDb.\n# For authorized data access and licensing inquiries, see: https://www.imdb.com/licensing/\n\nUser-agent: Googlebot\nUser-agent: Googlebot-Image\nUser-agent: Googlebot-Video\nUser-agent: Google-PageRenderer\nUser-agent: Google-InspectionTool\nUser-agent: Google-Safety\nUser-agent: Google-Site-Verification\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: Chrome-Lighthouse\nUser-agent: Storebot-Google\nUser-agent: Mediapartners-Google\nUser-agent: GoogleStructuredData\nUser-agent: Google-Read-Aloud\nUser-agent: bingbot\nUser-agent: Applebot\nUser-agent: DuckDuckBot\nUser-agent: DuckAssistBot\nUser-agent: Baiduspider\nUser-agent: Sogou\nUser-agent: MojeekBot\nUser-agent: facebookexternalhit\nUser-agent: Twitterbot\nUser-agent: Pinterestbot\nUser-agent: LinkedInBot\nUser-agent: WhatsApp\nUser-agent: TelegramBot\nUser-agent: Discordbot\nUser-agent: Snapchat\nUser-agent: Slackbot-LinkExpanding\nUser-agent: Amazonbot\nUser-agent: Amzn-SearchBot\nUser-agent: Amzn-User\nUser-agent: ClarityBot\nUser-agent: Citoid\nAllow: /\nDisallow: /register\nDisallow: /*/register\nDisallow: /registration/\nDisallow: /*/registration/\nDisallow: /search/title/*\nDisallow: /*/search/title/*\nDisallow: /search/name/*\nDisallow: /*/search/name/*\nDisallow: /find\nDisallow: /*/find\nDisallow: /find/\nDisallow: /*/find/\nDisallow: /contribute/*\nDisallow: /*/contribute/*\nDisallow: /title/*/review/*\nDisallow: /*/title/*/review/*\nDisallow: /title/*/reviews\nDisallow: /*/title/*/reviews\nDisallow: /user/ur*/reviews\nDisallow: /*/user/ur*/reviews\n\nUser-agent: AmazonAdBot\nAllow: /\n\nUser-Agent: __usage_ai-training\nDisallow: /\n\nUser-agent: *\nDisallow: /\n",
-      "url": "https://www.imdb.com/robots.txt"
-    },
-    "llms": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAF/zPifwAABpIv\",\n          \"context\":\"HYL1zy41cYMsfuSg6bCCR6XVjYOwlMJZjP4UF8xshuHsu6E+6VEWPaVPsKURT+sPYZ9sRTRjnecdZZUyX2pCAdLuChjiRFzKjPy9oKJnMB9iHHSqMo+rAFrxfBaDMDMM1i0j6+TS+ynP59RRvQhtjPL5iQa/i4ihrXGfyG8wGVj7I5JxDylVN8Cy9KF6H4k413KwiCqrHC9x1Quqag7qBJbrmY3X3HlIbOE6fG29Y38pxyKkhXngELS89Ts3CAqL+bMZQjCF9i2tfF8lWPSArR005z+6nAKfhESHi06kYrdISqCijgOdJaJk1YoNLcNwTWi7brg8y0rBcw1V0tx7wESvkFKW6+UHLfKVJeGzDPkgibnAfw==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.imdb.com/llms.txt"
-    },
-    "llmsFull": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAHzzPixAAAClfH\",\n          \"context\":\"uGZd6gkqy4qtI1p+XhLcnJeycBGEo1uAwvdC8FEIMdemyXG3W7A/WfAWtQhRaUnM17aOCpHCEL0bM+VJ3ZLTZQLeLcnH0KxnJksjNI0SleIwm+dMPJ8/aGk1uK2pM7fGmnAR2dMU9p/hx8v/3cNZ+o8gYNo8PJq5wZBqTCWSQ4+UnWCnXJiPPFXaz3oNWYltI0CWHf9o/9sShHh3rvwfZy6GaOIGe2Yvs6KinKfNjWgmIpemy/vFaeZ9FTPF5KdKz3RTvSQm3o3gONxf/DZzjMSgtzRCjJMSQye35Zv2g7CtANKtNCshBatroFZbopC/1aCLWS9KqxyFGfMUTRlB7ffnGelNU+QGm6sn/nFGJgTeQPOHGw==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.imdb.com/llms-full.txt"
-    },
-    "homepage": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAFADPb3wAAChT8\",\n          \"context\":\"HE/Sv1ze5NljVhBxyJ5LKGrUcAWE2W0xtjH6G1jkDt3tkEnFSd0AZDQI91HClu9ft2EjS9oGeHH4vMez2zmSL1w3bPEek76hR0mtoWBO1OHMRGJQz/M9iiJk2MeFnikzEPNc+T+4nSgmFVpBOoKbHCIthUGyDZfnkRuFgYRdJ6ukEZAll2a0LYSYJ7Ec1j08xQLiiqCJeR1RoZ3JiC7rmvvzCLufOqiOF919+vskGx/T96kWLy8Qg5I04rrpSEmCjnqQq0+wSXrDsdulRXMzy7NR43GevK/7Mcq9FooE87hAj9ZLrKiGBV/OMYI2dMqGXxSqforYSkohj98WecoNDRQIHjCGoBaF8CSmEn4o5nFvGzSlPw==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.imdb.com/"
-    },
-    "sitemap": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAEDDPUvAAAC2qA\",\n          \"context\":\"7n/KBaid1acmebwUpUbrTGq3b3mxmvH7C5IxMFYK/9i6GOTMoz5o9W/zuHSrBWmSWxoz34CeBz9nFN+vyT/er+CbbX9hAVlrCTKfQLC8zWdRiLsF4IM5SaWw/NicJ3ksSHRob8+oZaB7mGSM1/RJFxS09ibpWZb+05++KtomKHtQk047Yi9xvNfinm5Vp3LuiJu7Vn3aXWP4uGG3unp8IUxEW1iwUwl50J91Lzqoqi+PTsM5HMNiVE71VGiTxXOsB7OYWD9wUiUV+SDFhkceTulfrJr7Onk/u2AkzLLgZfya+5le4ZwQWT24jK8S3YFtAKHHQjyfibLvocYxHotXkiZ8GpnidnIZ1Q5CuNhOlxSaXq4DAQ==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.imdb.com/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAGeDPitAAACd3b\",\n          \"context\":\"l4H9arfwUqkB/SjDkZyYAZTPVOqIYY0/dSBvD1DxEfISLc7JGWw/U4yjCTxWoUbabVnjZzxdLY8l8IgrlaC3KbM3pO0F7Ud7YyRP3Vd2NymSrCkDdGGyd46yjff3MAIAsRm6UD4u88/1H5D3EuVcXbTfGAYMrPI5Xu0ncoch9JaZupEW5eXmXmOcXZGLZNAIuRpBLVB9GEEQSUoJNKY/YRQ8CWdJJ5FLMDBbStScKHJ/VxwD7k0w4izzPpjPYqhimY5voB529bsfdtZ3QJT4kty2mUwLj4dp03nkzTMoCkx5nCp/HNW75xPkalBv4AWwgT1DyEr6SSLKfGn3fpC/2l7FalwXCjzzzUMYo/gxbc//ZMqblg==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.imdb.com/agents.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": true,
-      "urls": [
-        "https://imdb.com/.well-known/mcp"
-      ]
-    },
-    "aiFeatures": {
-      "chatWidget": false,
-      "aiSearch": false,
-      "developerConsole": false
-    }
+ "signals": {
+  "domain": "imdb.com",
+  "fetchedAt": "2026-11-10T11:16:35.510Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "# The content on this site is owned by IMDb.com, Inc., an Amazon.com company\n# and is made available for your personal, non-commercial use subject\n# to our Conditions of Use here: https://www.imdb.com/conditions/\n# Use of any device, tool, or process designed to data mine or scrape the content\n# using automated means is prohibited without prior written permission from IMDb.\n# For authorized data access and licensing inquiries, see: https://www.imdb.com/licensing/\n\nUser-agent: Googlebot\nUser-agent: Googlebot-Image\nUser-agent: Googlebot-Video\nUser-agent: Google-PageRenderer\nUser-agent: Google-InspectionTool\nUser-agent: Google-Safety\nUser-agent: Google-Site-Verification\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: Chrome-Lighthouse\nUser-agent: Storebot-Google\nUser-agent: Mediapartners-Google\nUser-agent: GoogleStructuredData\nUser-agent: Google-Read-Aloud\nUser-agent: bingbot\nUser-agent: Applebot\nUser-agent: DuckDuckBot\nUser-agent: DuckAssistBot\nUser-agent: Baiduspider\nUser-agent: Sogou\nUser-agent: MojeekBot\nUser-agent: facebookexternalhit\nUser-agent: Twitterbot\nUser-agent: Pinterestbot\nUser-agent: LinkedInBot\nUser-agent: WhatsApp\nUser-agent: TelegramBot\nUser-agent: Discordbot\nUser-agent: Snapchat\nUser-agent: Slackbot-LinkExpanding\nUser-agent: Amazonbot\nUser-agent: Amzn-SearchBot\nUser-agent: Amzn-User\nUser-agent: ClarityBot\nUser-agent: Citoid\nAllow: /\nDisallow: /register\nDisallow: /*/register\nDisallow: /registration/\nDisallow: /*/registration/\nDisallow: /search/title/*\nDisallow: /*/search/title/*\nDisallow: /search/name/*\nDisallow: /*/search/name/*\nDisallow: /find\nDisallow: /*/find\nDisallow: /find/\nDisallow: /*/find/\nDisallow: /contribute/*\nDisallow: /*/contribute/*\nDisallow: /title/*/review/*\nDisallow: /*/title/*/review/*\nDisallow: /title/*/reviews\nDisallow: /*/title/*/reviews\nDisallow: /user/ur*/reviews\nDisallow: /*/user/ur*/reviews\n\nUser-agent: AmazonAdBot\nAllow: /\n\nUser-Agent: __usage_ai-training\nDisallow: /\n\nUser-agent: *\nDisallow: /\n",
+   "url": "https://www.imdb.com/robots.txt"
   },
-  "afr": {
-    "domain": "imdb.com",
-    "engineVersion": "afr-1.0.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-10T11:16:35.510Z",
-    "score": 42,
-    "grade": "D",
-    "strategyTag": "AI-Closed",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 15.58,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 5.583333333333333,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 2.25/9 · hybrid 0.00/6 · training 3.33/10; strategy tag AI-Closed. Blocked examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 202"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 202, full HTML document returned"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Comprehensibility",
-        "awarded": 18,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 12,
-            "max": 14,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "no JSON-LD blocks"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 3,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 3,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Interactivity",
-        "awarded": 8,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 2,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 6,
-            "max": 6,
-            "status": "pass",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP endpoint found: https://imdb.com/.well-known/mcp"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 5.583333333333333,
-      "l1.no-tech-wall": 5,
-      "l1.basic-availability": 5,
-      "l2.llms-family": 12,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 3,
-      "l2.sitemap": 3,
-      "l2.content-signals": 0,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 2,
-      "l3.mcp": 6,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAF/zPifwAABpIv\",\n          \"context\":\"HYL1zy41cYMsfuSg6bCCR6XVjYOwlMJZjP4UF8xshuHsu6E+6VEWPaVPsKURT+sPYZ9sRTRjnecdZZUyX2pCAdLuChjiRFzKjPy9oKJnMB9iHHSqMo+rAFrxfBaDMDMM1i0j6+TS+ynP59RRvQhtjPL5iQa/i4ihrXGfyG8wGVj7I5JxDylVN8Cy9KF6H4k413KwiCqrHC9x1Quqag7qBJbrmY3X3HlIbOE6fG29Y38pxyKkhXngELS89Ts3CAqL+bMZQjCF9i2tfF8lWPSArR005z+6nAKfhESHi06kYrdISqCijgOdJaJk1YoNLcNwTWi7brg8y0rBcw1V0tx7wESvkFKW6+UHLfKVJeGzDPkgibnAfw==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.imdb.com/llms.txt"
+  },
+  "llmsFull": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAHzzPixAAAClfH\",\n          \"context\":\"uGZd6gkqy4qtI1p+XhLcnJeycBGEo1uAwvdC8FEIMdemyXG3W7A/WfAWtQhRaUnM17aOCpHCEL0bM+VJ3ZLTZQLeLcnH0KxnJksjNI0SleIwm+dMPJ8/aGk1uK2pM7fGmnAR2dMU9p/hx8v/3cNZ+o8gYNo8PJq5wZBqTCWSQ4+UnWCnXJiPPFXaz3oNWYltI0CWHf9o/9sShHh3rvwfZy6GaOIGe2Yvs6KinKfNjWgmIpemy/vFaeZ9FTPF5KdKz3RTvSQm3o3gONxf/DZzjMSgtzRCjJMSQye35Zv2g7CtANKtNCshBatroFZbopC/1aCLWS9KqxyFGfMUTRlB7ffnGelNU+QGm6sn/nFGJgTeQPOHGw==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.imdb.com/llms-full.txt"
+  },
+  "homepage": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAFADPb3wAAChT8\",\n          \"context\":\"HE/Sv1ze5NljVhBxyJ5LKGrUcAWE2W0xtjH6G1jkDt3tkEnFSd0AZDQI91HClu9ft2EjS9oGeHH4vMez2zmSL1w3bPEek76hR0mtoWBO1OHMRGJQz/M9iiJk2MeFnikzEPNc+T+4nSgmFVpBOoKbHCIthUGyDZfnkRuFgYRdJ6ukEZAll2a0LYSYJ7Ec1j08xQLiiqCJeR1RoZ3JiC7rmvvzCLufOqiOF919+vskGx/T96kWLy8Qg5I04rrpSEmCjnqQq0+wSXrDsdulRXMzy7NR43GevK/7Mcq9FooE87hAj9ZLrKiGBV/OMYI2dMqGXxSqforYSkohj98WecoNDRQIHjCGoBaF8CSmEn4o5nFvGzSlPw==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.imdb.com/"
+  },
+  "sitemap": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAEDDPUvAAAC2qA\",\n          \"context\":\"7n/KBaid1acmebwUpUbrTGq3b3mxmvH7C5IxMFYK/9i6GOTMoz5o9W/zuHSrBWmSWxoz34CeBz9nFN+vyT/er+CbbX9hAVlrCTKfQLC8zWdRiLsF4IM5SaWw/NicJ3ksSHRob8+oZaB7mGSM1/RJFxS09ibpWZb+05++KtomKHtQk047Yi9xvNfinm5Vp3LuiJu7Vn3aXWP4uGG3unp8IUxEW1iwUwl50J91Lzqoqi+PTsM5HMNiVE71VGiTxXOsB7OYWD9wUiUV+SDFhkceTulfrJr7Onk/u2AkzLLgZfya+5le4ZwQWT24jK8S3YFtAKHHQjyfibLvocYxHotXkiZ8GpnidnIZ1Q5CuNhOlxSaXq4DAQ==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.imdb.com/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['imdb.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHH5weT1HohkpYgAc79+FLjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxINZjF2t//W/c2/zAgEQgDvocE7EgAqRZYOvT2sJIsEYYNiyUwexE2xPvukX4FN+3lCQoZaQwDM5NI/pgfibGC+uXXCTr0QPPznr3g==\",\n          \"iv\":\"CgAGeDPitAAACd3b\",\n          \"context\":\"l4H9arfwUqkB/SjDkZyYAZTPVOqIYY0/dSBvD1DxEfISLc7JGWw/U4yjCTxWoUbabVnjZzxdLY8l8IgrlaC3KbM3pO0F7Ud7YyRP3Vd2NymSrCkDdGGyd46yjff3MAIAsRm6UD4u88/1H5D3EuVcXbTfGAYMrPI5Xu0ncoch9JaZupEW5eXmXmOcXZGLZNAIuRpBLVB9GEEQSUoJNKY/YRQ8CWdJJ5FLMDBbStScKHJ/VxwD7k0w4izzPpjPYqhimY5voB529bsfdtZ3QJT4kty2mUwLj4dp03nkzTMoCkx5nCp/HNW75xPkalBv4AWwgT1DyEr6SSLKfGn3fpC/2l7FalwXCjzzzUMYo/gxbc//ZMqblg==\"\n};\n    </script>\n    <script src=\"https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.imdb.com/agents.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": true,
+   "urls": [
+    "https://imdb.com/.well-known/mcp"
+   ]
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": false
   }
+ },
+ "afr": {
+  "domain": "imdb.com",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-10T11:16:35.510Z",
+  "score": 42,
+  "grade": "D",
+  "state": "scored",
+  "strategyTag": "AI-Closed",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 15.58,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 5.583333333333333,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 2.25/9 · hybrid 0.00/6 · training 3.33/10; strategy tag AI-Closed. Blocked examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 202"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 202, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Comprehensibility",
+    "awarded": 18,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 12,
+      "max": 14,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "no JSON-LD blocks"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 3,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 3,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Interactivity",
+    "awarded": 8,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 2,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 6,
+      "max": 6,
+      "status": "pass",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP endpoint found: https://imdb.com/.well-known/mcp"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; no developer console"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 5.583333333333333,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 12,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 3,
+   "l2.sitemap": 3,
+   "l2.content-signals": 0,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 2,
+   "l3.mcp": 6,
+   "l3.site-ai-features": 0
+  }
+ }
 }

@@ -1,250 +1,251 @@
 {
-  "signals": {
-    "domain": "coupang.com",
-    "fetchedAt": "2026-11-10T11:52:51.289Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "## Google\nUser-agent: Googlebot\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Google Mobile\nUser-agent: Googlebot-Mobile\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Google Image\nUser-agent: Googlebot-image\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Naver\nUser-agent: NaverBot\nAllow: /$\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Naver\nUser-agent: Yeti\nAllow: /$\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Bing\nUser-agent: Bingbot\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Daum\nUser-agent: Daum\nAllow: /$\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Daumoa\nUser-agent: Daumoa\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n# Block OpenAI Model Training\nUser-agent: GPTBot\nDisallow: /\n\n# Block ChatGPT Real-time User Browsing\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Block OpenAI SearchGPT Indexing\nUser-agent: OAI-SearchBot\nDisallow: /\n\n## Block AI / scraper bots\nUser-agent: AddSearchBot\nUser-agent: aiHitBot\nUser-agent: EtaoSpider\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: AI2Bot-DeepResearchEval\nUser-agent: Andibot\nUser-agent: Claude-SearchBot\nUser-agent: Claude-User\nUser-agent: ClaudeBot\nUser-agent: Claude-Web\nUser-agent: Brightbot\nUser-agent: BuddyBot\nUser-agent: Bytespider\nUser-agent: Channel3Bot\nUser-agent: Cloudflare-AutoRAG\nUser-agent: CloudflareBrowserRenderingCrawler\nUser-agent: Devin\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: CCBot\nUser-agent: Echobot Bot\nUser-agent: Linguee Bot\nUser-agent: DeepSeekBot\nUser-agent: Diffbot\nUser-agent: DuckAssistBot\nUser-agent: EchoboxBot\nUser-agent: factset_spyderbot\nUser-agent: Google-CloudVertexBot\nUser-agent: Google-Extended\nUser-agent: Google-NotebookLM\nUser-agent: GoogleAgent-Mariner\nUser-agent: PanguBot\nUser-agent: PetalBot\nUser-agent: iaskspider\nUser-agent: iAskBot\nUser-agent: ImagesiftBot\nUser-agent: imageSpider\nUser-agent: FriendlyCrawler\nUser-agent: VelenPublicWebCrawler\nUser-agent: ISSCyberRiskCrawler\nUser-agent: KlaviyoAIBot\nUser-agent: laion-huggingface-processor\nUser-agent: LinkupBot\nUser-agent: Manus-User\nUser-agent: meta-externalfetcher\nUser-agent: meta-externalagent\nUser-agent: meta-webindexer\nUser-agent: Copilot\nUser-agent: CopilotNative\nUser-agent: CopilotSapphire\nUser-agent: MistralAI-User\nUser-agent: netEstate Imprint Crawler\nUser-agent: imgproxy\nUser-agent: Scrapy\nUser-agent: img2dataset\nUser-agent: Panscient\nUser-agent: panscient.com\nUser-agent: Perplexity-User\nUser-agent: PerplexityBot\nUser-agent: PhindBot\nUser-agent: Poggio-Citations\nUser-agent: QualifiedBot\nUser-agent: SBIntuitionsBot\nUser-agent: Sidetrade indexer bot\nUser-agent: Anomura\nUser-agent: Cotoyogi\nUser-agent: Crawl4AI\nUser-agent: Datenbank Crawler\nUser-agent: IbouBot\nUser-agent: ICC-Crawler\nUser-agent: Kangaroo Bot\nUser-agent: KunatoCrawler\nUser-agent: ShapBot\nUser-agent: Thinkbot\nUser-agent: TavilyBot\nUser-agent: Timpibot\nUser-agent: TerraCotta\nUser-agent: TwinAgent\nUser-agent: YaK\nUser-agent: ZanistaBot\nUser-agent: webzio-extended\nUser-agent: omgili\nUser-agent: wpbot\nUser-agent: WRTNBot\nUser-agent: GrokBot\nUser-agent: Grok-DeepSearch\nUser-agent: xAI-Grok\nUser-agent: YouBot\nUser-agent: ChatGLM-Spider\nDisallow: /\n\n## disallow all other bots\nUser-agent: *\nDisallow: /\n\nSitemap: https://www.coupang.com/sitemap/sitemap.xml\n",
-      "url": "https://www.coupang.com/robots.txt",
-      "challengedStatus": 403,
-      "uaFallback": true
-    },
-    "llms": {
-      "status": 404,
-      "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>CloudFront</center>\r\n<script type=\"text/javascript\"  src=\"/H5JZSMGV0-pgI5xjjA/tXtu0Q3GSY/HABsaTcD/HlRCR/W0bXHQ4?v=30274539-98ec-0984-349f-3e89e66a173e\" defer></script></body>\r\n</html>\r\n",
-      "url": "https://www.coupang.com/llms.txt",
-      "challengedStatus": 403,
-      "uaFallback": true
-    },
-    "llmsFull": {
-      "status": 404,
-      "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>CloudFront</center>\r\n<script type=\"text/javascript\"  src=\"/H5JZSMGV0-pgI5xjjA/tXtu0Q3GSY/HABsaTcD/HlRCR/W0bXHQ4?v=c928ef77-dad2-1915-4d3b-99206f45173e\" defer></script></body>\r\n</html>\r\n",
-      "url": "https://www.coupang.com/llms-full.txt",
-      "challengedStatus": 403,
-      "uaFallback": true
-    },
-    "homepage": {
-      "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;coupang&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;686d3e17&#46;1794311570&#46;94a672c4\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;686d3e17&#46;1794311570&#46;94a672c4</P>\n</BODY>\n</HTML>\n",
-      "url": "https://www.coupang.com/"
-    },
-    "sitemap": {
-      "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;coupang&#46;com&#47;sitemap&#47;sitemap&#46;xml\" on this server.<P>\nReference&#32;&#35;18&#46;696d3e17&#46;1794311570&#46;4db5aade\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;696d3e17&#46;1794311570&#46;4db5aade</P>\n</BODY>\n</HTML>\n",
-      "url": "https://www.coupang.com/sitemap/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;coupang&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;6f6d3e17&#46;1794311570&#46;71d3f0d4\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;6f6d3e17&#46;1794311570&#46;71d3f0d4</P>\n</BODY>\n</HTML>\n",
-      "url": "https://www.coupang.com/agents.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    }
+ "signals": {
+  "domain": "coupang.com",
+  "fetchedAt": "2026-11-10T11:52:51.289Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "## Google\nUser-agent: Googlebot\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Google Mobile\nUser-agent: Googlebot-Mobile\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Google Image\nUser-agent: Googlebot-image\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Naver\nUser-agent: NaverBot\nAllow: /$\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Naver\nUser-agent: Yeti\nAllow: /$\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Bing\nUser-agent: Bingbot\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Daum\nUser-agent: Daum\nAllow: /$\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n## Daumoa\nUser-agent: Daumoa\nAllow: /vp/products/\nAllow: /np/products/brand-shop?brandName=*\nAllow: /np/categories/\nAllow: /np/campaigns/\nAllow: /np/best100/\nAllow: /np/todayopen\nAllow: /np/omp\nAllow: /vp/wowcard\nAllow: /np/coupangglobal\nAllow: /np/search?q=*\nDisallow: /vm/direct-orders/\nDisallow: /vm/cart/\nDisallow: /gppu-choice-widget?itemId=*\nDisallow: /vendor-items/\nDisallow: /other-seller-json\nDisallow: /brandsdp/invalid/\nDisallow: /vm/mlp/\n\n# Block OpenAI Model Training\nUser-agent: GPTBot\nDisallow: /\n\n# Block ChatGPT Real-time User Browsing\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Block OpenAI SearchGPT Indexing\nUser-agent: OAI-SearchBot\nDisallow: /\n\n## Block AI / scraper bots\nUser-agent: AddSearchBot\nUser-agent: aiHitBot\nUser-agent: EtaoSpider\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: AI2Bot-DeepResearchEval\nUser-agent: Andibot\nUser-agent: Claude-SearchBot\nUser-agent: Claude-User\nUser-agent: ClaudeBot\nUser-agent: Claude-Web\nUser-agent: Brightbot\nUser-agent: BuddyBot\nUser-agent: Bytespider\nUser-agent: Channel3Bot\nUser-agent: Cloudflare-AutoRAG\nUser-agent: CloudflareBrowserRenderingCrawler\nUser-agent: Devin\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: CCBot\nUser-agent: Echobot Bot\nUser-agent: Linguee Bot\nUser-agent: DeepSeekBot\nUser-agent: Diffbot\nUser-agent: DuckAssistBot\nUser-agent: EchoboxBot\nUser-agent: factset_spyderbot\nUser-agent: Google-CloudVertexBot\nUser-agent: Google-Extended\nUser-agent: Google-NotebookLM\nUser-agent: GoogleAgent-Mariner\nUser-agent: PanguBot\nUser-agent: PetalBot\nUser-agent: iaskspider\nUser-agent: iAskBot\nUser-agent: ImagesiftBot\nUser-agent: imageSpider\nUser-agent: FriendlyCrawler\nUser-agent: VelenPublicWebCrawler\nUser-agent: ISSCyberRiskCrawler\nUser-agent: KlaviyoAIBot\nUser-agent: laion-huggingface-processor\nUser-agent: LinkupBot\nUser-agent: Manus-User\nUser-agent: meta-externalfetcher\nUser-agent: meta-externalagent\nUser-agent: meta-webindexer\nUser-agent: Copilot\nUser-agent: CopilotNative\nUser-agent: CopilotSapphire\nUser-agent: MistralAI-User\nUser-agent: netEstate Imprint Crawler\nUser-agent: imgproxy\nUser-agent: Scrapy\nUser-agent: img2dataset\nUser-agent: Panscient\nUser-agent: panscient.com\nUser-agent: Perplexity-User\nUser-agent: PerplexityBot\nUser-agent: PhindBot\nUser-agent: Poggio-Citations\nUser-agent: QualifiedBot\nUser-agent: SBIntuitionsBot\nUser-agent: Sidetrade indexer bot\nUser-agent: Anomura\nUser-agent: Cotoyogi\nUser-agent: Crawl4AI\nUser-agent: Datenbank Crawler\nUser-agent: IbouBot\nUser-agent: ICC-Crawler\nUser-agent: Kangaroo Bot\nUser-agent: KunatoCrawler\nUser-agent: ShapBot\nUser-agent: Thinkbot\nUser-agent: TavilyBot\nUser-agent: Timpibot\nUser-agent: TerraCotta\nUser-agent: TwinAgent\nUser-agent: YaK\nUser-agent: ZanistaBot\nUser-agent: webzio-extended\nUser-agent: omgili\nUser-agent: wpbot\nUser-agent: WRTNBot\nUser-agent: GrokBot\nUser-agent: Grok-DeepSearch\nUser-agent: xAI-Grok\nUser-agent: YouBot\nUser-agent: ChatGLM-Spider\nDisallow: /\n\n## disallow all other bots\nUser-agent: *\nDisallow: /\n\nSitemap: https://www.coupang.com/sitemap/sitemap.xml\n",
+   "url": "https://www.coupang.com/robots.txt",
+   "challengedStatus": 403,
+   "uaFallback": true
   },
-  "afr": {
-    "domain": "coupang.com",
-    "engineVersion": "afr-1.0.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-10T11:52:51.289Z",
-    "score": 3,
-    "grade": "F",
-    "strategyTag": "AI-Closed",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 2.25,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 2.25,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 2.25/9 · hybrid 0.00/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 403, homepage unavailable"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Comprehensibility",
-        "awarded": 1,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check JSON-LD"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check semantic HTML"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 1,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 0,
-            "max": 6,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check content signals"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Interactivity",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 403; ai.txt not probed; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "AI features not probed"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 2.25,
-      "l1.no-tech-wall": 0,
-      "l1.basic-availability": 0,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 0,
-      "l2.sitemap": 1,
-      "l2.content-signals": 0,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 404,
+   "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>CloudFront</center>\r\n<script type=\"text/javascript\"  src=\"/H5JZSMGV0-pgI5xjjA/tXtu0Q3GSY/HABsaTcD/HlRCR/W0bXHQ4?v=30274539-98ec-0984-349f-3e89e66a173e\" defer></script></body>\r\n</html>\r\n",
+   "url": "https://www.coupang.com/llms.txt",
+   "challengedStatus": 403,
+   "uaFallback": true
+  },
+  "llmsFull": {
+   "status": 404,
+   "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>CloudFront</center>\r\n<script type=\"text/javascript\"  src=\"/H5JZSMGV0-pgI5xjjA/tXtu0Q3GSY/HABsaTcD/HlRCR/W0bXHQ4?v=c928ef77-dad2-1915-4d3b-99206f45173e\" defer></script></body>\r\n</html>\r\n",
+   "url": "https://www.coupang.com/llms-full.txt",
+   "challengedStatus": 403,
+   "uaFallback": true
+  },
+  "homepage": {
+   "status": 403,
+   "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;coupang&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;686d3e17&#46;1794311570&#46;94a672c4\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;686d3e17&#46;1794311570&#46;94a672c4</P>\n</BODY>\n</HTML>\n",
+   "url": "https://www.coupang.com/"
+  },
+  "sitemap": {
+   "status": 403,
+   "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;coupang&#46;com&#47;sitemap&#47;sitemap&#46;xml\" on this server.<P>\nReference&#32;&#35;18&#46;696d3e17&#46;1794311570&#46;4db5aade\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;696d3e17&#46;1794311570&#46;4db5aade</P>\n</BODY>\n</HTML>\n",
+   "url": "https://www.coupang.com/sitemap/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 403,
+   "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;coupang&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;6f6d3e17&#46;1794311570&#46;71d3f0d4\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;6f6d3e17&#46;1794311570&#46;71d3f0d4</P>\n</BODY>\n</HTML>\n",
+   "url": "https://www.coupang.com/agents.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
   }
+ },
+ "afr": {
+  "domain": "coupang.com",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-10T11:52:51.289Z",
+  "score": 3,
+  "grade": "F",
+  "state": "scored",
+  "strategyTag": "AI-Closed",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 2.25,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 2.25,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 2.25/9 · hybrid 0.00/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 403, homepage unavailable"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Comprehensibility",
+    "awarded": 1,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check JSON-LD"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check semantic HTML"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 1,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 0,
+      "max": 6,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check content signals"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Interactivity",
+    "awarded": 0,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md HTTP 403; ai.txt not probed; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "AI features not probed"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 2.25,
+   "l1.no-tech-wall": 0,
+   "l1.basic-availability": 0,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 0,
+   "l2.sitemap": 1,
+   "l2.content-signals": 0,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

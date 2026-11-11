@@ -1,254 +1,255 @@
 {
-  "signals": {
-    "domain": "oracle.com",
-    "fetchedAt": "2026-11-10T11:13:59.529Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "# /robots.txt for www.oracle.com\n##############################################\n# Sitemaps                                   #\n##############################################\nSitemap: https://www.oracle.com/sitemap.xml\nSitemap: https://www.oracle.com/international.xml\n\n##############################################\n# Future use for AI                          #\n##############################################\n# LLMs: https://www.oracle.com/llms.yaml\n# LLMs: https://www.oracle.com/llms.txt\n\n##############################################\n# AI Crawlers.                               #\n##############################################\nUser-agent: OAI-SearchBot     # Search (shows my webpages as links inside ChatGPT search). NOT used for model training\nUser-agent: ChatGPT-User      # User-driven browsing from ChatGPT and Custom GPTs. Acts after a human click.\nUser-agent: ChatGPT-User/2.0  # User-driven browsing from ChatGPT and Custom GPTs. Acts after a human click.\nUser-agent: GPTBot            # Model-training crawler. Opt-out here if I don’t want content in GPT-4o or GPT-5.\nUser-agent: anthropic-ai      # Anthropic bulk model training\nUser-agent: ClaudeBot         # Anthropic chat citation fetch\nUser-agent: claude-web        # Anthropic web-focused crawl\nUser-agent: PerplexityBot     # Perplexity index builder\nUser-agent: Perplexity-User   # Perplexity human-triggered visit\nUser-agent: Google-Extended   # Google (Gemini)\nUser-agent: BingBot           # Microsoft Bing Copilot\nUser-agent: Applebot          # Apple\nUser-agent: Applebot-Extended # Apple\nUser-agent: LinkedInBot       # Linkedin\nUser-agent: Amazonbot         # Amazon\nDisallow: /a/ocom/docs/gated/\nDisallow: /splash/\nDisallow: /us/\nDisallow: /_qa/\nDisallow: /a/ocom/resources/\nDisallow: /financial-services/ofss/\nDisallow: /a/ocom/docs/corporate/pricing/\nDisallow: /assets/managed-cloud-services-sd-4738082.pdf\nDisallow: /us/corporate/contracts/mcs-iaas-service-desc-3014939.pdf\nDisallow: /us/corporate/contracts/mcs-saas-service-desc-3762902.pdf\nAllow: /\n\n##############################################\n# Search Crawlers                            #\n##############################################\nUser-agent: *\n# Disallow: /cis/*\nDisallow: /corporate/contracts/\nDisallow: /a/ocom/docs/gated/\nDisallow: /splash/\nDisallow: /test/\nDisallow: /us\nDisallow: /_qa/\nDisallow: /a/ocom/resources/\nDisallow: /financial-services/ofss/\nDisallow: /a/ocom/docs/corporate/pricing/\nDisallow: /assets/managed-cloud-services-sd-4738082.pdf\nDisallow: /us/corporate/contracts/mcs-iaas-service-desc-3014939.pdf\nDisallow: /us/corporate/contracts/mcs-saas-service-desc-3762902.pdf\nAllow: /\n",
-      "url": "https://www.oracle.com/robots.txt",
-      "challengedStatus": 403,
-      "uaFallback": true
-    },
-    "llms": {
-      "status": 404,
-      "body": "<!DOCTYPE html>\r\n<html lang=\"en-US\" class=\"no-js\">\r\n\r\n<head>\r\n\t<title>Page not found | Oracle</title>\r\n\t<meta name=\"Title\" content=\"Page not found | Oracle\">\r\n\t<meta name=\"Description\" content=\"We can't find the page you were looking for\">\r\n\t<meta name=\"robots\" content=\"noindex, nofollow\">\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width\">\r\n\t<style>\r\n\t\tbody,\r\n\t\thtml {\r\n\t\t\tpadding: 0;\r\n\t\t\tmargin: 0;\r\n\t\t\tbackground: #fff;\r\n\t\t\tfont-size: 0;\r\n\t\t\tborder: 0;\r\n\t\t\theight: 100%;\r\n\t\t\twidth: 100%\r\n\t\t}\r\n\r\n\t\tiframe {\r\n\t\t\twebkit-overflow-scrolling: touch;\r\n\t\t\toverflow: auto;\r\n\t\t\tposition: absolute;\r\n\t\t\ttop: 0;\r\n\t\t\tbottom: 0;\r\n\t\t\tleft: 0;\r\n\t\t\tright: 0;\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t\tbox-sizing: border-box;\r\n\t\t\tborder: 0;\r\n\t\t\tborder-right: #dadee0 .6px solid\r\n\t\t}\r\n\t</style>\r\n</head>\r\n\r\n<body class=\"f11 f11v4\">\r\n\t<div class=\"f11v4w1\">\r\n\t\t<div class=\"f11v4w2\">\r\n\t\t\t<iframe id=\"notfoundpage\" src=\"\"></iframe>\r\n\r\n\t\t\t<noscript>\r\n\t\t\t\t<iframe src=\"/404-error-page.html\"></iframe>\r\n\t\t\t</noscript>\r\n\t\t</div>\r\n\t</div>\r\n<script type=\"text/javascript\"  src=\"/AL0oL/TTX/B-6d/hr/Sy7t_Z/wS1iNSONSu/HGkjOnwD/BHM/JNmtfdSM5?v=c4ef2e8e-12a8-52ca-599d-8f962b2a17d5\" defer></script></body>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n\tvar targetsrc = '/LOCAL_DIR/404-error-page.html';\r\n\r\n\t//set to file path using \"LOCAL\" as a placeholder for location directory\r\n\tvar defaultpg = '/404-error-page.html';\r\n\t// this should be the same as the noscript iframe src \r\n\r\n\tvar white = ',tw,cn,ua,tr,se,si,sk,cis,md,ro,pt,br,pl,no,nl,be-nl,mn,lv,lt,kr,jp,it,hu,hr,il,fr,ch-fr,ca-fr,be-fr,fi,ve,uy,py,pr,pe,pa,ni,mx,latam,hn,gt,es,ec,cr,co,cl,bz,bo,ar,za,ye,vn,th,sn,sg,sa,rs,qa,pk,ph,om,nz,np,ng,my,mv,mt,middleeast,me,ma,lu,lk,lb,la,kw,kh,ke,jo,iq,in,il-en,ie,id,hk,gh,uk,europe,eg,ee,dz,cy,ca-en,bt,bn,bh,be,bd,ba,au,asean,apac,africa,ae,gr,de,ch-de,at,dk,cz,bg,ye-ar,sa-ar,qa-ar,om-ar,middleeast-ar,lb-ar,kw-ar,jo-ar,iq-ar,eg-ar,bh-ar,ae-ar,ko,ja,pt-br,zh-tw,ru,zh-cn,sv,en';\r\n\tvar local = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1].split('/')[0] : '';\r\n\t///marketincloud/ site specic error page\r\n\t//var omgdefaultpg = '/marketingcloud/404-error-page.html';\r\n\t//var omgtargetsrc = '/LOCAL_DIR/marketingcloud/404-error-page.html';\r\n\t//var omcurl = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1] : '';\r\n\t//if(omcurl.indexOf('marketingcloud/') > -1){\r\n\t//targetsrc = (white.indexOf(','+local+',') > -1) ? omgtargetsrc.replace(/LOCAL_DIR/,local) : omgdefaultpg;\r\n\t//} else {\r\n\ttargetsrc = (white.indexOf(',' + local + ',') > -1) ? targetsrc.replace(/LOCAL_DIR/, local) : defaultpg;\r\n\t//}\r\n\r\n\tdocument.getElementById('notfoundpage').src = targetsrc;\r\n\r\n</script>\r\n\r\n<!-- Start SiteCatalyst code -->\r\n<script language=\"JavaScript\" src=\"https://www.oracle.com/us/assets/metrics/ora_error.js\"></script>\r\n<!-- End SiteCatalyst code -->\r\n\r\n</html>",
-      "url": "https://www.oracle.com/llms.txt",
-      "challengedStatus": 403,
-      "uaFallback": true
-    },
-    "llmsFull": {
-      "status": 404,
-      "body": "<!DOCTYPE html>\r\n<html lang=\"en-US\" class=\"no-js\">\r\n\r\n<head>\r\n\t<title>Page not found | Oracle</title>\r\n\t<meta name=\"Title\" content=\"Page not found | Oracle\">\r\n\t<meta name=\"Description\" content=\"We can't find the page you were looking for\">\r\n\t<meta name=\"robots\" content=\"noindex, nofollow\">\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width\">\r\n\t<style>\r\n\t\tbody,\r\n\t\thtml {\r\n\t\t\tpadding: 0;\r\n\t\t\tmargin: 0;\r\n\t\t\tbackground: #fff;\r\n\t\t\tfont-size: 0;\r\n\t\t\tborder: 0;\r\n\t\t\theight: 100%;\r\n\t\t\twidth: 100%\r\n\t\t}\r\n\r\n\t\tiframe {\r\n\t\t\twebkit-overflow-scrolling: touch;\r\n\t\t\toverflow: auto;\r\n\t\t\tposition: absolute;\r\n\t\t\ttop: 0;\r\n\t\t\tbottom: 0;\r\n\t\t\tleft: 0;\r\n\t\t\tright: 0;\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t\tbox-sizing: border-box;\r\n\t\t\tborder: 0;\r\n\t\t\tborder-right: #dadee0 .6px solid\r\n\t\t}\r\n\t</style>\r\n</head>\r\n\r\n<body class=\"f11 f11v4\">\r\n\t<div class=\"f11v4w1\">\r\n\t\t<div class=\"f11v4w2\">\r\n\t\t\t<iframe id=\"notfoundpage\" src=\"\"></iframe>\r\n\r\n\t\t\t<noscript>\r\n\t\t\t\t<iframe src=\"/404-error-page.html\"></iframe>\r\n\t\t\t</noscript>\r\n\t\t</div>\r\n\t</div>\r\n<script type=\"text/javascript\"  src=\"/AL0oL/TTX/B-6d/hr/Sy7t_Z/wS1iNSONSu/HGkjOnwD/BHM/JNmtfdSM5?v=be49f5c4-91be-952d-ec0d-acd1a51217d5\" defer></script></body>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n\tvar targetsrc = '/LOCAL_DIR/404-error-page.html';\r\n\r\n\t//set to file path using \"LOCAL\" as a placeholder for location directory\r\n\tvar defaultpg = '/404-error-page.html';\r\n\t// this should be the same as the noscript iframe src \r\n\r\n\tvar white = ',tw,cn,ua,tr,se,si,sk,cis,md,ro,pt,br,pl,no,nl,be-nl,mn,lv,lt,kr,jp,it,hu,hr,il,fr,ch-fr,ca-fr,be-fr,fi,ve,uy,py,pr,pe,pa,ni,mx,latam,hn,gt,es,ec,cr,co,cl,bz,bo,ar,za,ye,vn,th,sn,sg,sa,rs,qa,pk,ph,om,nz,np,ng,my,mv,mt,middleeast,me,ma,lu,lk,lb,la,kw,kh,ke,jo,iq,in,il-en,ie,id,hk,gh,uk,europe,eg,ee,dz,cy,ca-en,bt,bn,bh,be,bd,ba,au,asean,apac,africa,ae,gr,de,ch-de,at,dk,cz,bg,ye-ar,sa-ar,qa-ar,om-ar,middleeast-ar,lb-ar,kw-ar,jo-ar,iq-ar,eg-ar,bh-ar,ae-ar,ko,ja,pt-br,zh-tw,ru,zh-cn,sv,en';\r\n\tvar local = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1].split('/')[0] : '';\r\n\t///marketincloud/ site specic error page\r\n\t//var omgdefaultpg = '/marketingcloud/404-error-page.html';\r\n\t//var omgtargetsrc = '/LOCAL_DIR/marketingcloud/404-error-page.html';\r\n\t//var omcurl = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1] : '';\r\n\t//if(omcurl.indexOf('marketingcloud/') > -1){\r\n\t//targetsrc = (white.indexOf(','+local+',') > -1) ? omgtargetsrc.replace(/LOCAL_DIR/,local) : omgdefaultpg;\r\n\t//} else {\r\n\ttargetsrc = (white.indexOf(',' + local + ',') > -1) ? targetsrc.replace(/LOCAL_DIR/, local) : defaultpg;\r\n\t//}\r\n\r\n\tdocument.getElementById('notfoundpage').src = targetsrc;\r\n\r\n</script>\r\n\r\n<!-- Start SiteCatalyst code -->\r\n<script language=\"JavaScript\" src=\"https://www.oracle.com/us/assets/metrics/ora_error.js\"></script>\r\n<!-- End SiteCatalyst code -->\r\n\r\n</html>",
-      "url": "https://www.oracle.com/llms-full.txt",
-      "challengedStatus": 403,
-      "uaFallback": true
-    },
-    "homepage": {
-      "status": 403,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Technical Difficulties</title>\n    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            font-family: 'Roboto', sans-serif;\n            background-color: #f4f4f4;\n            color: #333;\n            margin: 0;\n            padding: 0;\n}\n\n        .container {\n            text-align: center;\n            padding: 40px;\n}\n\n        .content {\n            background-color: #fff;\n            padding: 30px;\n            border-radius: 10px;\n            box-shadow: 0 4px 8px rgba(0,\n    0,\n    0,\n    0.1);\n            max-width: 800px;\n            margin: 0 auto;\n}\n\n        .logo img {\n            width: 154px;\n            height: 19px;\n}\n\n        h1 {\n            color: #000000;\n            font-size: 28px;\n            margin-bottom: 20px;\n}\n\n        p {\n            line-height: 1.6;\n            font-size: 16px;\n            text-align: center;\n            /* Centered text */\n}\n\n        .incident-number {\n            font-size: 18px;\n            font-weight: bold;\n            color: #C74634;\n            margin-top: 20px;\n}\n\n        .contact-info {\n            margin-top: 20px;\n            font-size: 14px;\n}\n\n        .contact-info b {\n            color: #0066cc;\n}\n\n        #url-display {\n            font-size: 16px;\n            /* Adjust text size relative to the viewport width */\n            word-wrap: break-word;\n            /* Ensure the text doesn't overflow */\n            text-align: center;\n            font-weight: bold;\n}\n    </style>\n</head>\n\n<body>\n    <div class=\"container\">\n        <div class=\"content\">\n            <div class=\"logo\">\n                <div id=\"u30logo\">\n                    <svg width=\"231\" height=\"30\" viewBox=\"0 0 231 30\" preserveAspectRatio=\"xMinYMid\">\n                        <path fill=\"#C74634\"\n                            d=\"M99.61,19.52h15.24l-8.05-13L92,30H85.27l18-28.17a4.29,4.29,0,0,1,7-.05L128.32,30h-6.73l-3.17-5.25H103l-3.36-5.23m69.93,5.23V0.28h-5.72V27.16a2.76,2.76,0,0,0,.85,2,2.89,2.89,0,0,0,2.08.87h26l3.39-5.25H169.54M75,20.38A10,10,0,0,0,75,.28H50V30h5.71V5.54H74.65a4.81,4.81,0,0,1,0,9.62H58.54L75.6,30h8.29L72.43,20.38H75M14.88,30H32.15a14.86,14.86,0,0,0,0-29.71H14.88a14.86,14.86,0,1,0,0,29.71m16.88-5.23H15.26a9.62,9.62,0,0,1,0-19.23h16.5a9.62,9.62,0,1,1,0,19.23M140.25,30h17.63l3.34-5.23H140.64a9.62,9.62,0,1,1,0-19.23h16.75l3.38-5.25H140.25a14.86,14.86,0,1,0,0,29.71m69.87-5.23a9.62,9.62,0,0,1-9.26-7h24.42l3.36-5.24H200.86a9.61,9.61,0,0,1,9.26-7h16.76l3.35-5.25h-20.5a14.86,14.86,0,0,0,0,29.71h17.63l3.35-5.23h-20.6\"\n                            transform=\"translate(-0.02 0)\"></path>\n                    </svg>\n                </div>\n            </div>\n            <br>\n            <h1>Technical Difficulties</h1>\n            <p class=\"incident-number\"> Site Accessed: <span id=\"url-display\"></span> </p>\n            <p>This site is experiencing a technical\n                difficulty. We are aware of the issue and are working as quickly as possible to correct the problem.\n            </p>\n            <p>We apologize for any inconvenience this may have caused.</p>\n            <div class=\"contact-info\">\n                <p>To speak with an Oracle sales representative: <b>1.800.ORACLE1</b></p>\n                <p>To contact Oracle Corporate Headquarters from anywhere in the world: <b>1.650.506.7000</b></p>\n                <p>To get technical support in the United States: <b>1.800.633.0738</b></p>\n            </div>\n            <p class=\"incident-number\">Incident Number: 0.a9f7d517.1794309238.203f870</p>\n        </div>\n    </div>\n    <script>\n        // Display the full URL in the paragraph element\n        document.getElementById('url-display').innerHTML = '<b>' + window.location.href + '</b>';\n    </script>\n</body>\n\n</html>",
-      "url": "https://www.oracle.com/"
-    },
-    "sitemap": {
-      "status": 200,
-      "body": "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<sitemap>\n<loc>https://www.oracle.com/sitemap-core.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-corporate.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-education.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-servers.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-support.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-misc.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-ai-world.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-customers.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/news.xml</loc>\n</sitemap>\n</sitemapindex>\n",
-      "url": "https://www.oracle.com/sitemap.xml",
-      "challengedStatus": 403,
-      "uaFallback": true
-    },
-    "agentsMd": {
-      "status": 404,
-      "body": "<!DOCTYPE html>\r\n<html lang=\"en-US\" class=\"no-js\">\r\n\r\n<head>\r\n\t<title>Page not found | Oracle</title>\r\n\t<meta name=\"Title\" content=\"Page not found | Oracle\">\r\n\t<meta name=\"Description\" content=\"We can't find the page you were looking for\">\r\n\t<meta name=\"robots\" content=\"noindex, nofollow\">\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width\">\r\n\t<style>\r\n\t\tbody,\r\n\t\thtml {\r\n\t\t\tpadding: 0;\r\n\t\t\tmargin: 0;\r\n\t\t\tbackground: #fff;\r\n\t\t\tfont-size: 0;\r\n\t\t\tborder: 0;\r\n\t\t\theight: 100%;\r\n\t\t\twidth: 100%\r\n\t\t}\r\n\r\n\t\tiframe {\r\n\t\t\twebkit-overflow-scrolling: touch;\r\n\t\t\toverflow: auto;\r\n\t\t\tposition: absolute;\r\n\t\t\ttop: 0;\r\n\t\t\tbottom: 0;\r\n\t\t\tleft: 0;\r\n\t\t\tright: 0;\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t\tbox-sizing: border-box;\r\n\t\t\tborder: 0;\r\n\t\t\tborder-right: #dadee0 .6px solid\r\n\t\t}\r\n\t</style>\r\n</head>\r\n\r\n<body class=\"f11 f11v4\">\r\n\t<div class=\"f11v4w1\">\r\n\t\t<div class=\"f11v4w2\">\r\n\t\t\t<iframe id=\"notfoundpage\" src=\"\"></iframe>\r\n\r\n\t\t\t<noscript>\r\n\t\t\t\t<iframe src=\"/404-error-page.html\"></iframe>\r\n\t\t\t</noscript>\r\n\t\t</div>\r\n\t</div>\r\n<script type=\"text/javascript\"  src=\"/AL0oL/TTX/B-6d/hr/Sy7t_Z/wS1iNSONSu/HGkjOnwD/BHM/JNmtfdSM5?v=f795b252-253c-11d3-1db3-26d47ec717d5\" defer></script></body>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n\tvar targetsrc = '/LOCAL_DIR/404-error-page.html';\r\n\r\n\t//set to file path using \"LOCAL\" as a placeholder for location directory\r\n\tvar defaultpg = '/404-error-page.html';\r\n\t// this should be the same as the noscript iframe src \r\n\r\n\tvar white = ',tw,cn,ua,tr,se,si,sk,cis,md,ro,pt,br,pl,no,nl,be-nl,mn,lv,lt,kr,jp,it,hu,hr,il,fr,ch-fr,ca-fr,be-fr,fi,ve,uy,py,pr,pe,pa,ni,mx,latam,hn,gt,es,ec,cr,co,cl,bz,bo,ar,za,ye,vn,th,sn,sg,sa,rs,qa,pk,ph,om,nz,np,ng,my,mv,mt,middleeast,me,ma,lu,lk,lb,la,kw,kh,ke,jo,iq,in,il-en,ie,id,hk,gh,uk,europe,eg,ee,dz,cy,ca-en,bt,bn,bh,be,bd,ba,au,asean,apac,africa,ae,gr,de,ch-de,at,dk,cz,bg,ye-ar,sa-ar,qa-ar,om-ar,middleeast-ar,lb-ar,kw-ar,jo-ar,iq-ar,eg-ar,bh-ar,ae-ar,ko,ja,pt-br,zh-tw,ru,zh-cn,sv,en';\r\n\tvar local = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1].split('/')[0] : '';\r\n\t///marketincloud/ site specic error page\r\n\t//var omgdefaultpg = '/marketingcloud/404-error-page.html';\r\n\t//var omgtargetsrc = '/LOCAL_DIR/marketingcloud/404-error-page.html';\r\n\t//var omcurl = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1] : '';\r\n\t//if(omcurl.indexOf('marketingcloud/') > -1){\r\n\t//targetsrc = (white.indexOf(','+local+',') > -1) ? omgtargetsrc.replace(/LOCAL_DIR/,local) : omgdefaultpg;\r\n\t//} else {\r\n\ttargetsrc = (white.indexOf(',' + local + ',') > -1) ? targetsrc.replace(/LOCAL_DIR/, local) : defaultpg;\r\n\t//}\r\n\r\n\tdocument.getElementById('notfoundpage').src = targetsrc;\r\n\r\n</script>\r\n\r\n<!-- Start SiteCatalyst code -->\r\n<script language=\"JavaScript\" src=\"https://www.oracle.com/us/assets/metrics/ora_error.js\"></script>\r\n<!-- End SiteCatalyst code -->\r\n\r\n</html>",
-      "url": "https://www.oracle.com/agents.md",
-      "challengedStatus": 403,
-      "uaFallback": true
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    }
+ "signals": {
+  "domain": "oracle.com",
+  "fetchedAt": "2026-11-10T11:13:59.529Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "# /robots.txt for www.oracle.com\n##############################################\n# Sitemaps                                   #\n##############################################\nSitemap: https://www.oracle.com/sitemap.xml\nSitemap: https://www.oracle.com/international.xml\n\n##############################################\n# Future use for AI                          #\n##############################################\n# LLMs: https://www.oracle.com/llms.yaml\n# LLMs: https://www.oracle.com/llms.txt\n\n##############################################\n# AI Crawlers.                               #\n##############################################\nUser-agent: OAI-SearchBot     # Search (shows my webpages as links inside ChatGPT search). NOT used for model training\nUser-agent: ChatGPT-User      # User-driven browsing from ChatGPT and Custom GPTs. Acts after a human click.\nUser-agent: ChatGPT-User/2.0  # User-driven browsing from ChatGPT and Custom GPTs. Acts after a human click.\nUser-agent: GPTBot            # Model-training crawler. Opt-out here if I don’t want content in GPT-4o or GPT-5.\nUser-agent: anthropic-ai      # Anthropic bulk model training\nUser-agent: ClaudeBot         # Anthropic chat citation fetch\nUser-agent: claude-web        # Anthropic web-focused crawl\nUser-agent: PerplexityBot     # Perplexity index builder\nUser-agent: Perplexity-User   # Perplexity human-triggered visit\nUser-agent: Google-Extended   # Google (Gemini)\nUser-agent: BingBot           # Microsoft Bing Copilot\nUser-agent: Applebot          # Apple\nUser-agent: Applebot-Extended # Apple\nUser-agent: LinkedInBot       # Linkedin\nUser-agent: Amazonbot         # Amazon\nDisallow: /a/ocom/docs/gated/\nDisallow: /splash/\nDisallow: /us/\nDisallow: /_qa/\nDisallow: /a/ocom/resources/\nDisallow: /financial-services/ofss/\nDisallow: /a/ocom/docs/corporate/pricing/\nDisallow: /assets/managed-cloud-services-sd-4738082.pdf\nDisallow: /us/corporate/contracts/mcs-iaas-service-desc-3014939.pdf\nDisallow: /us/corporate/contracts/mcs-saas-service-desc-3762902.pdf\nAllow: /\n\n##############################################\n# Search Crawlers                            #\n##############################################\nUser-agent: *\n# Disallow: /cis/*\nDisallow: /corporate/contracts/\nDisallow: /a/ocom/docs/gated/\nDisallow: /splash/\nDisallow: /test/\nDisallow: /us\nDisallow: /_qa/\nDisallow: /a/ocom/resources/\nDisallow: /financial-services/ofss/\nDisallow: /a/ocom/docs/corporate/pricing/\nDisallow: /assets/managed-cloud-services-sd-4738082.pdf\nDisallow: /us/corporate/contracts/mcs-iaas-service-desc-3014939.pdf\nDisallow: /us/corporate/contracts/mcs-saas-service-desc-3762902.pdf\nAllow: /\n",
+   "url": "https://www.oracle.com/robots.txt",
+   "challengedStatus": 403,
+   "uaFallback": true
   },
-  "afr": {
-    "domain": "oracle.com",
-    "engineVersion": "afr-1.0.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-10T11:13:59.529Z",
-    "score": 24,
-    "grade": "F",
-    "strategyTag": "Middle-Path",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 20.33,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 20.333333333333336,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 6.75/9 · hybrid 5.25/6 · training 8.33/10; strategy tag Middle-Path. Unconfigured examples: Claude-SearchBot, Googlebot, Claude-User."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 403, homepage unavailable"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Comprehensibility",
-        "awarded": 4,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check JSON-LD"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check semantic HTML"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 4,
-            "max": 4,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 0,
-            "max": 6,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check content signals"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Interactivity",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 404; ai.txt not probed; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "AI features not probed"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 20.333333333333336,
-      "l1.no-tech-wall": 0,
-      "l1.basic-availability": 0,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 0,
-      "l2.sitemap": 4,
-      "l2.content-signals": 0,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 404,
+   "body": "<!DOCTYPE html>\r\n<html lang=\"en-US\" class=\"no-js\">\r\n\r\n<head>\r\n\t<title>Page not found | Oracle</title>\r\n\t<meta name=\"Title\" content=\"Page not found | Oracle\">\r\n\t<meta name=\"Description\" content=\"We can't find the page you were looking for\">\r\n\t<meta name=\"robots\" content=\"noindex, nofollow\">\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width\">\r\n\t<style>\r\n\t\tbody,\r\n\t\thtml {\r\n\t\t\tpadding: 0;\r\n\t\t\tmargin: 0;\r\n\t\t\tbackground: #fff;\r\n\t\t\tfont-size: 0;\r\n\t\t\tborder: 0;\r\n\t\t\theight: 100%;\r\n\t\t\twidth: 100%\r\n\t\t}\r\n\r\n\t\tiframe {\r\n\t\t\twebkit-overflow-scrolling: touch;\r\n\t\t\toverflow: auto;\r\n\t\t\tposition: absolute;\r\n\t\t\ttop: 0;\r\n\t\t\tbottom: 0;\r\n\t\t\tleft: 0;\r\n\t\t\tright: 0;\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t\tbox-sizing: border-box;\r\n\t\t\tborder: 0;\r\n\t\t\tborder-right: #dadee0 .6px solid\r\n\t\t}\r\n\t</style>\r\n</head>\r\n\r\n<body class=\"f11 f11v4\">\r\n\t<div class=\"f11v4w1\">\r\n\t\t<div class=\"f11v4w2\">\r\n\t\t\t<iframe id=\"notfoundpage\" src=\"\"></iframe>\r\n\r\n\t\t\t<noscript>\r\n\t\t\t\t<iframe src=\"/404-error-page.html\"></iframe>\r\n\t\t\t</noscript>\r\n\t\t</div>\r\n\t</div>\r\n<script type=\"text/javascript\"  src=\"/AL0oL/TTX/B-6d/hr/Sy7t_Z/wS1iNSONSu/HGkjOnwD/BHM/JNmtfdSM5?v=c4ef2e8e-12a8-52ca-599d-8f962b2a17d5\" defer></script></body>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n\tvar targetsrc = '/LOCAL_DIR/404-error-page.html';\r\n\r\n\t//set to file path using \"LOCAL\" as a placeholder for location directory\r\n\tvar defaultpg = '/404-error-page.html';\r\n\t// this should be the same as the noscript iframe src \r\n\r\n\tvar white = ',tw,cn,ua,tr,se,si,sk,cis,md,ro,pt,br,pl,no,nl,be-nl,mn,lv,lt,kr,jp,it,hu,hr,il,fr,ch-fr,ca-fr,be-fr,fi,ve,uy,py,pr,pe,pa,ni,mx,latam,hn,gt,es,ec,cr,co,cl,bz,bo,ar,za,ye,vn,th,sn,sg,sa,rs,qa,pk,ph,om,nz,np,ng,my,mv,mt,middleeast,me,ma,lu,lk,lb,la,kw,kh,ke,jo,iq,in,il-en,ie,id,hk,gh,uk,europe,eg,ee,dz,cy,ca-en,bt,bn,bh,be,bd,ba,au,asean,apac,africa,ae,gr,de,ch-de,at,dk,cz,bg,ye-ar,sa-ar,qa-ar,om-ar,middleeast-ar,lb-ar,kw-ar,jo-ar,iq-ar,eg-ar,bh-ar,ae-ar,ko,ja,pt-br,zh-tw,ru,zh-cn,sv,en';\r\n\tvar local = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1].split('/')[0] : '';\r\n\t///marketincloud/ site specic error page\r\n\t//var omgdefaultpg = '/marketingcloud/404-error-page.html';\r\n\t//var omgtargetsrc = '/LOCAL_DIR/marketingcloud/404-error-page.html';\r\n\t//var omcurl = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1] : '';\r\n\t//if(omcurl.indexOf('marketingcloud/') > -1){\r\n\t//targetsrc = (white.indexOf(','+local+',') > -1) ? omgtargetsrc.replace(/LOCAL_DIR/,local) : omgdefaultpg;\r\n\t//} else {\r\n\ttargetsrc = (white.indexOf(',' + local + ',') > -1) ? targetsrc.replace(/LOCAL_DIR/, local) : defaultpg;\r\n\t//}\r\n\r\n\tdocument.getElementById('notfoundpage').src = targetsrc;\r\n\r\n</script>\r\n\r\n<!-- Start SiteCatalyst code -->\r\n<script language=\"JavaScript\" src=\"https://www.oracle.com/us/assets/metrics/ora_error.js\"></script>\r\n<!-- End SiteCatalyst code -->\r\n\r\n</html>",
+   "url": "https://www.oracle.com/llms.txt",
+   "challengedStatus": 403,
+   "uaFallback": true
+  },
+  "llmsFull": {
+   "status": 404,
+   "body": "<!DOCTYPE html>\r\n<html lang=\"en-US\" class=\"no-js\">\r\n\r\n<head>\r\n\t<title>Page not found | Oracle</title>\r\n\t<meta name=\"Title\" content=\"Page not found | Oracle\">\r\n\t<meta name=\"Description\" content=\"We can't find the page you were looking for\">\r\n\t<meta name=\"robots\" content=\"noindex, nofollow\">\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width\">\r\n\t<style>\r\n\t\tbody,\r\n\t\thtml {\r\n\t\t\tpadding: 0;\r\n\t\t\tmargin: 0;\r\n\t\t\tbackground: #fff;\r\n\t\t\tfont-size: 0;\r\n\t\t\tborder: 0;\r\n\t\t\theight: 100%;\r\n\t\t\twidth: 100%\r\n\t\t}\r\n\r\n\t\tiframe {\r\n\t\t\twebkit-overflow-scrolling: touch;\r\n\t\t\toverflow: auto;\r\n\t\t\tposition: absolute;\r\n\t\t\ttop: 0;\r\n\t\t\tbottom: 0;\r\n\t\t\tleft: 0;\r\n\t\t\tright: 0;\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t\tbox-sizing: border-box;\r\n\t\t\tborder: 0;\r\n\t\t\tborder-right: #dadee0 .6px solid\r\n\t\t}\r\n\t</style>\r\n</head>\r\n\r\n<body class=\"f11 f11v4\">\r\n\t<div class=\"f11v4w1\">\r\n\t\t<div class=\"f11v4w2\">\r\n\t\t\t<iframe id=\"notfoundpage\" src=\"\"></iframe>\r\n\r\n\t\t\t<noscript>\r\n\t\t\t\t<iframe src=\"/404-error-page.html\"></iframe>\r\n\t\t\t</noscript>\r\n\t\t</div>\r\n\t</div>\r\n<script type=\"text/javascript\"  src=\"/AL0oL/TTX/B-6d/hr/Sy7t_Z/wS1iNSONSu/HGkjOnwD/BHM/JNmtfdSM5?v=be49f5c4-91be-952d-ec0d-acd1a51217d5\" defer></script></body>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n\tvar targetsrc = '/LOCAL_DIR/404-error-page.html';\r\n\r\n\t//set to file path using \"LOCAL\" as a placeholder for location directory\r\n\tvar defaultpg = '/404-error-page.html';\r\n\t// this should be the same as the noscript iframe src \r\n\r\n\tvar white = ',tw,cn,ua,tr,se,si,sk,cis,md,ro,pt,br,pl,no,nl,be-nl,mn,lv,lt,kr,jp,it,hu,hr,il,fr,ch-fr,ca-fr,be-fr,fi,ve,uy,py,pr,pe,pa,ni,mx,latam,hn,gt,es,ec,cr,co,cl,bz,bo,ar,za,ye,vn,th,sn,sg,sa,rs,qa,pk,ph,om,nz,np,ng,my,mv,mt,middleeast,me,ma,lu,lk,lb,la,kw,kh,ke,jo,iq,in,il-en,ie,id,hk,gh,uk,europe,eg,ee,dz,cy,ca-en,bt,bn,bh,be,bd,ba,au,asean,apac,africa,ae,gr,de,ch-de,at,dk,cz,bg,ye-ar,sa-ar,qa-ar,om-ar,middleeast-ar,lb-ar,kw-ar,jo-ar,iq-ar,eg-ar,bh-ar,ae-ar,ko,ja,pt-br,zh-tw,ru,zh-cn,sv,en';\r\n\tvar local = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1].split('/')[0] : '';\r\n\t///marketincloud/ site specic error page\r\n\t//var omgdefaultpg = '/marketingcloud/404-error-page.html';\r\n\t//var omgtargetsrc = '/LOCAL_DIR/marketingcloud/404-error-page.html';\r\n\t//var omcurl = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1] : '';\r\n\t//if(omcurl.indexOf('marketingcloud/') > -1){\r\n\t//targetsrc = (white.indexOf(','+local+',') > -1) ? omgtargetsrc.replace(/LOCAL_DIR/,local) : omgdefaultpg;\r\n\t//} else {\r\n\ttargetsrc = (white.indexOf(',' + local + ',') > -1) ? targetsrc.replace(/LOCAL_DIR/, local) : defaultpg;\r\n\t//}\r\n\r\n\tdocument.getElementById('notfoundpage').src = targetsrc;\r\n\r\n</script>\r\n\r\n<!-- Start SiteCatalyst code -->\r\n<script language=\"JavaScript\" src=\"https://www.oracle.com/us/assets/metrics/ora_error.js\"></script>\r\n<!-- End SiteCatalyst code -->\r\n\r\n</html>",
+   "url": "https://www.oracle.com/llms-full.txt",
+   "challengedStatus": 403,
+   "uaFallback": true
+  },
+  "homepage": {
+   "status": 403,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Technical Difficulties</title>\n    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            font-family: 'Roboto', sans-serif;\n            background-color: #f4f4f4;\n            color: #333;\n            margin: 0;\n            padding: 0;\n}\n\n        .container {\n            text-align: center;\n            padding: 40px;\n}\n\n        .content {\n            background-color: #fff;\n            padding: 30px;\n            border-radius: 10px;\n            box-shadow: 0 4px 8px rgba(0,\n    0,\n    0,\n    0.1);\n            max-width: 800px;\n            margin: 0 auto;\n}\n\n        .logo img {\n            width: 154px;\n            height: 19px;\n}\n\n        h1 {\n            color: #000000;\n            font-size: 28px;\n            margin-bottom: 20px;\n}\n\n        p {\n            line-height: 1.6;\n            font-size: 16px;\n            text-align: center;\n            /* Centered text */\n}\n\n        .incident-number {\n            font-size: 18px;\n            font-weight: bold;\n            color: #C74634;\n            margin-top: 20px;\n}\n\n        .contact-info {\n            margin-top: 20px;\n            font-size: 14px;\n}\n\n        .contact-info b {\n            color: #0066cc;\n}\n\n        #url-display {\n            font-size: 16px;\n            /* Adjust text size relative to the viewport width */\n            word-wrap: break-word;\n            /* Ensure the text doesn't overflow */\n            text-align: center;\n            font-weight: bold;\n}\n    </style>\n</head>\n\n<body>\n    <div class=\"container\">\n        <div class=\"content\">\n            <div class=\"logo\">\n                <div id=\"u30logo\">\n                    <svg width=\"231\" height=\"30\" viewBox=\"0 0 231 30\" preserveAspectRatio=\"xMinYMid\">\n                        <path fill=\"#C74634\"\n                            d=\"M99.61,19.52h15.24l-8.05-13L92,30H85.27l18-28.17a4.29,4.29,0,0,1,7-.05L128.32,30h-6.73l-3.17-5.25H103l-3.36-5.23m69.93,5.23V0.28h-5.72V27.16a2.76,2.76,0,0,0,.85,2,2.89,2.89,0,0,0,2.08.87h26l3.39-5.25H169.54M75,20.38A10,10,0,0,0,75,.28H50V30h5.71V5.54H74.65a4.81,4.81,0,0,1,0,9.62H58.54L75.6,30h8.29L72.43,20.38H75M14.88,30H32.15a14.86,14.86,0,0,0,0-29.71H14.88a14.86,14.86,0,1,0,0,29.71m16.88-5.23H15.26a9.62,9.62,0,0,1,0-19.23h16.5a9.62,9.62,0,1,1,0,19.23M140.25,30h17.63l3.34-5.23H140.64a9.62,9.62,0,1,1,0-19.23h16.75l3.38-5.25H140.25a14.86,14.86,0,1,0,0,29.71m69.87-5.23a9.62,9.62,0,0,1-9.26-7h24.42l3.36-5.24H200.86a9.61,9.61,0,0,1,9.26-7h16.76l3.35-5.25h-20.5a14.86,14.86,0,0,0,0,29.71h17.63l3.35-5.23h-20.6\"\n                            transform=\"translate(-0.02 0)\"></path>\n                    </svg>\n                </div>\n            </div>\n            <br>\n            <h1>Technical Difficulties</h1>\n            <p class=\"incident-number\"> Site Accessed: <span id=\"url-display\"></span> </p>\n            <p>This site is experiencing a technical\n                difficulty. We are aware of the issue and are working as quickly as possible to correct the problem.\n            </p>\n            <p>We apologize for any inconvenience this may have caused.</p>\n            <div class=\"contact-info\">\n                <p>To speak with an Oracle sales representative: <b>1.800.ORACLE1</b></p>\n                <p>To contact Oracle Corporate Headquarters from anywhere in the world: <b>1.650.506.7000</b></p>\n                <p>To get technical support in the United States: <b>1.800.633.0738</b></p>\n            </div>\n            <p class=\"incident-number\">Incident Number: 0.a9f7d517.1794309238.203f870</p>\n        </div>\n    </div>\n    <script>\n        // Display the full URL in the paragraph element\n        document.getElementById('url-display').innerHTML = '<b>' + window.location.href + '</b>';\n    </script>\n</body>\n\n</html>",
+   "url": "https://www.oracle.com/"
+  },
+  "sitemap": {
+   "status": 200,
+   "body": "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<sitemap>\n<loc>https://www.oracle.com/sitemap-core.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-corporate.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-education.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-servers.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-support.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-misc.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-ai-world.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/sitemap-customers.xml</loc>\n</sitemap>\n<sitemap>\n<loc>https://www.oracle.com/news.xml</loc>\n</sitemap>\n</sitemapindex>\n",
+   "url": "https://www.oracle.com/sitemap.xml",
+   "challengedStatus": 403,
+   "uaFallback": true
+  },
+  "agentsMd": {
+   "status": 404,
+   "body": "<!DOCTYPE html>\r\n<html lang=\"en-US\" class=\"no-js\">\r\n\r\n<head>\r\n\t<title>Page not found | Oracle</title>\r\n\t<meta name=\"Title\" content=\"Page not found | Oracle\">\r\n\t<meta name=\"Description\" content=\"We can't find the page you were looking for\">\r\n\t<meta name=\"robots\" content=\"noindex, nofollow\">\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width\">\r\n\t<style>\r\n\t\tbody,\r\n\t\thtml {\r\n\t\t\tpadding: 0;\r\n\t\t\tmargin: 0;\r\n\t\t\tbackground: #fff;\r\n\t\t\tfont-size: 0;\r\n\t\t\tborder: 0;\r\n\t\t\theight: 100%;\r\n\t\t\twidth: 100%\r\n\t\t}\r\n\r\n\t\tiframe {\r\n\t\t\twebkit-overflow-scrolling: touch;\r\n\t\t\toverflow: auto;\r\n\t\t\tposition: absolute;\r\n\t\t\ttop: 0;\r\n\t\t\tbottom: 0;\r\n\t\t\tleft: 0;\r\n\t\t\tright: 0;\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t\tbox-sizing: border-box;\r\n\t\t\tborder: 0;\r\n\t\t\tborder-right: #dadee0 .6px solid\r\n\t\t}\r\n\t</style>\r\n</head>\r\n\r\n<body class=\"f11 f11v4\">\r\n\t<div class=\"f11v4w1\">\r\n\t\t<div class=\"f11v4w2\">\r\n\t\t\t<iframe id=\"notfoundpage\" src=\"\"></iframe>\r\n\r\n\t\t\t<noscript>\r\n\t\t\t\t<iframe src=\"/404-error-page.html\"></iframe>\r\n\t\t\t</noscript>\r\n\t\t</div>\r\n\t</div>\r\n<script type=\"text/javascript\"  src=\"/AL0oL/TTX/B-6d/hr/Sy7t_Z/wS1iNSONSu/HGkjOnwD/BHM/JNmtfdSM5?v=f795b252-253c-11d3-1db3-26d47ec717d5\" defer></script></body>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n\tvar targetsrc = '/LOCAL_DIR/404-error-page.html';\r\n\r\n\t//set to file path using \"LOCAL\" as a placeholder for location directory\r\n\tvar defaultpg = '/404-error-page.html';\r\n\t// this should be the same as the noscript iframe src \r\n\r\n\tvar white = ',tw,cn,ua,tr,se,si,sk,cis,md,ro,pt,br,pl,no,nl,be-nl,mn,lv,lt,kr,jp,it,hu,hr,il,fr,ch-fr,ca-fr,be-fr,fi,ve,uy,py,pr,pe,pa,ni,mx,latam,hn,gt,es,ec,cr,co,cl,bz,bo,ar,za,ye,vn,th,sn,sg,sa,rs,qa,pk,ph,om,nz,np,ng,my,mv,mt,middleeast,me,ma,lu,lk,lb,la,kw,kh,ke,jo,iq,in,il-en,ie,id,hk,gh,uk,europe,eg,ee,dz,cy,ca-en,bt,bn,bh,be,bd,ba,au,asean,apac,africa,ae,gr,de,ch-de,at,dk,cz,bg,ye-ar,sa-ar,qa-ar,om-ar,middleeast-ar,lb-ar,kw-ar,jo-ar,iq-ar,eg-ar,bh-ar,ae-ar,ko,ja,pt-br,zh-tw,ru,zh-cn,sv,en';\r\n\tvar local = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1].split('/')[0] : '';\r\n\t///marketincloud/ site specic error page\r\n\t//var omgdefaultpg = '/marketingcloud/404-error-page.html';\r\n\t//var omgtargetsrc = '/LOCAL_DIR/marketingcloud/404-error-page.html';\r\n\t//var omcurl = (/oracle.com\\/[^\\/]+\\//i.test(document.location.href)) ? document.location.href.split('oracle.com/')[1] : '';\r\n\t//if(omcurl.indexOf('marketingcloud/') > -1){\r\n\t//targetsrc = (white.indexOf(','+local+',') > -1) ? omgtargetsrc.replace(/LOCAL_DIR/,local) : omgdefaultpg;\r\n\t//} else {\r\n\ttargetsrc = (white.indexOf(',' + local + ',') > -1) ? targetsrc.replace(/LOCAL_DIR/, local) : defaultpg;\r\n\t//}\r\n\r\n\tdocument.getElementById('notfoundpage').src = targetsrc;\r\n\r\n</script>\r\n\r\n<!-- Start SiteCatalyst code -->\r\n<script language=\"JavaScript\" src=\"https://www.oracle.com/us/assets/metrics/ora_error.js\"></script>\r\n<!-- End SiteCatalyst code -->\r\n\r\n</html>",
+   "url": "https://www.oracle.com/agents.md",
+   "challengedStatus": 403,
+   "uaFallback": true
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
   }
+ },
+ "afr": {
+  "domain": "oracle.com",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-10T11:13:59.529Z",
+  "score": 24,
+  "grade": "F",
+  "state": "scored",
+  "strategyTag": "Middle-Path",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 20.33,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 20.333333333333336,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 6.75/9 · hybrid 5.25/6 · training 8.33/10; strategy tag Middle-Path. Unconfigured examples: Claude-SearchBot, Googlebot, Claude-User."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 403, homepage unavailable"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Comprehensibility",
+    "awarded": 4,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check JSON-LD"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check semantic HTML"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 4,
+      "max": 4,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 0,
+      "max": 6,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check content signals"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Interactivity",
+    "awarded": 0,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md HTTP 404; ai.txt not probed; homepage unavailable"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "AI features not probed"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 20.333333333333336,
+   "l1.no-tech-wall": 0,
+   "l1.basic-availability": 0,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 0,
+   "l2.sitemap": 4,
+   "l2.content-signals": 0,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }
