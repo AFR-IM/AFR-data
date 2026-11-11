@@ -1,250 +1,250 @@
 {
-  "signals": {
-    "domain": "binance.com",
-    "fetchedAt": "2026-11-11T03:22:33.021Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "# ---------------------------------------------------------------------------\n# Major search engines (Baidu / Bing / DuckDuckGo / Yahoo Slurp / Google)\n# ---------------------------------------------------------------------------\nUser-agent: Baiduspider\nUser-agent: Bingbot\nUser-agent: DuckDuckBot\nUser-agent: Slurp\nUser-agent: Googlebot\n\n# Selective Allow overrides (carve-outs).\nAllow: /\nAllow: */bapi/fe/\nAllow: */sitemap_output/\nAllow: */funding-history/perpetual/\nAllow: */funding-history/quarterly/\n\n# Query-parameter blocks (?hl= honored reliably only by Google)\nDisallow: */price*?hl=\nDisallow: */how-to-buy*?hl=\nDisallow: */price-prediction*?hl=\nDisallow: */altcoins*?hl=\n\n# Legacy / undefined URL fragments\nDisallow: *undefine*\nDisallow: *UNDEFINE*\nDisallow: */collected/undefined\n\n# Activity / campaign landing (kept out of index)\nDisallow: */activity/challenge-competition/\nDisallow: */activity/collect-and-win/\nDisallow: */activity/referral-entry/\n\n# Tracking / noise query params\nDisallow: *fbclid=\nDisallow: /*?sqb=\n\n# Internal / non-indexable content surfaces\nDisallow: */advertiserDetail\nDisallow: */funding-history\nDisallow: */trading-rules\nDisallow: */comments\nDisallow: */feed/search\nDisallow: */feed/sitemap/\nDisallow: */version.web\nDisallow: */loan/data/\nDisallow: */markets/spot-FIAT/\nDisallow: */markets/spot-USDT/\nDisallow: */OTC-Trading/\nDisallow: */backtest/\nDisallow: */buy-sell-crypto/referral/\nDisallow: */buy-sell-crypto/buy-sell/result/buy/\nDisallow: */buy-sell-crypto/buy-sell/result/sell/\nDisallow: */chart-webview/\nDisallow: */chat/\nDisallow: */convert-modal-ui/\nDisallow: */customindicator/\nDisallow: */delivery/\nDisallow: */crypto/recurring/\nDisallow: */survey/\nDisallow: */academy/courses/certificate/\n\n# Compliance / privacy / account surfaces\nDisallow: */complaint-form/\nDisallow: */compliance-confirm/\nDisallow: */kyc-ui/\nDisallow: */my/\nDisallow: */deposit/result/order-v3/\nDisallow: */fiat/deposit/result/order\n\n# Internal / API / non-HTML endpoints\nDisallow: */bapi/\nDisallow: */api/\nDisallow: */fapi/\nDisallow: */fvideo/\nDisallow: */mp-cms/app/\nDisallow: */mp-cms/disclaimer/\nDisallow: */sitemap_.xml\n\n# Square (social) non-canonical surfaces\nDisallow: */en-AU/square\nDisallow: */en-GB/square\nDisallow: */square/creator-center/\nDisallow: */square/notification\nDisallow: */square/bookmark\nDisallow: */square/settings\n\n# ---------------------------------------------------------------------------\n# Yandex\n# ---------------------------------------------------------------------------\nUser-agent: Yandex\nHost: www.binance.com\n\n# Selective Allow overrides (carve-outs).\nAllow: /\nAllow: */bapi/fe/\nAllow: */sitemap_output/\nAllow: */funding-history/perpetual/\nAllow: */funding-history/quarterly/\n\n# Query-parameter blocks\nDisallow: /*ref=\nDisallow: /*symbol=\nDisallow: /*version=\nDisallow: /*theme=\nDisallow: /*contract=\nDisallow: /*code=\nDisallow: /*tab=\nDisallow: /*poolId=\nDisallow: /*type=\nDisallow: /*layout=\nDisallow: /*navId=\nDisallow: /*channel=\nDisallow: /*utm_source=\nDisallow: /*source=\nDisallow: /*utm=\nDisallow: /*fbclid=\nDisallow: /*sqb=\n\n# Path-level blocks (mirrored from the major-engine group for compliance/privacy parity)\nDisallow: *undefine*\nDisallow: *UNDEFINE*\nDisallow: */collected/undefined\nDisallow: */complaint-form/\nDisallow: */compliance-confirm/\nDisallow: */kyc-ui/\nDisallow: */my/\nDisallow: */deposit/result/order-v3/\nDisallow: */fiat/deposit/result/order\nDisallow: */survey/\nDisallow: */academy/courses/certificate/\nDisallow: */bapi/\nDisallow: */api/\nDisallow: */fapi/\nDisallow: */fvideo/\nDisallow: */mp-cms/app/\nDisallow: */mp-cms/disclaimer/\nDisallow: */feed/search\nDisallow: */feed/sitemap/\nDisallow: */sitemap_.xml\n\n# Yandex-specific dynamic parameter deduplication (compact multi-param form).\nClean-param: layout&callback&fiat&from&type&asset&packetId&shareCode\nClean-param: r&return_to&productid\nClean-param: _escaped_fragment_\n\n# ---------------------------------------------------------------------------\n# Default: all other crawlers (incl. AI crawlers, scrapers, etc.)\n# ---------------------------------------------------------------------------\nUser-agent: *\n\n# Selective Allow overrides (carve-outs).\nAllow: /\nAllow: */bapi/fe/\nAllow: */sitemap_output/\nAllow: */funding-history/perpetual/\nAllow: */funding-history/quarterly/\n\n# Marketing/activity landing pages - explicitly allowed (documents intent)\nAllow: */activity/challenge-competition/\nAllow: */activity/collect-and-win/\nAllow: */activity/referral-entry/\n\n# Sensitive / internal paths - denied even to unlisted crawlers\nDisallow: *undefine*\nDisallow: *UNDEFINE*\nDisallow: */collected/undefined\nDisallow: */complaint-form/\nDisallow: */compliance-confirm/\nDisallow: */kyc-ui/\nDisallow: */my/\nDisallow: */deposit/result/order-v3/\nDisallow: */fiat/deposit/result/order\nDisallow: */survey/\nDisallow: */academy/courses/certificate/\nDisallow: */bapi/\nDisallow: */api/\nDisallow: */fapi/\nDisallow: */fvideo/\nDisallow: */mp-cms/app/\nDisallow: */mp-cms/disclaimer/\nDisallow: */feed/search\nDisallow: */feed/sitemap/\nDisallow: */sitemap_.xml\n\n# ---------------------------------------------------------------------------\n# Sitemaps (global - honored by all crawlers)\n# ---------------------------------------------------------------------------\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Blog_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Nft_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_SupportAndAnnouncement_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Futures_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Earn_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Loan_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Market_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Default_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Fiat_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Crypto_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Square_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Academy_New_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Muses_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Growth_index.xml\n",
-      "url": "https://www.binance.com/robots.txt"
-    },
-    "llms": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AE+g+xhXgNGekX6u9JB+9/aAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlYl8sWlzCf+V4vECAgEQgDs722Kd7XHBqtwbliyuRnbAXr4QV1/WPeWKM9sDQvYqb9XXr9/muCsrK+MB03tChiuPD63bQnNZpveiVg==\",\n          \"iv\":\"D57KwgDeoAAAHq6o\",\n          \"context\":\"12Jrn2yT5AM+e2w2ZHNENVptxvq3+zk6uMicfpILCb2lsie8m5AAUZuMpPClyF8TWCj9MyUJwu+KUnz48c6OcxnuZzhjkYndPsqKu+L7PAVAtM3KoVu5Hiifln0PT+bFqKFIxZG+ZgRyRhLl6WAQSl4b0wv1/2oCg8b4d5HVLNrE1XWSVqdEaLiu2lh5HWOGG1rdwY94mv5SxOrO5+4ctQnwDOS7CIbN8/Gld3k8i6oY5oAh+ey+5PLQHSP1f8jl//Yd1ettyPlj6HBltMo/Z/jZgNsC6qHiI1y1MnesX91gk81XScIw4sc6w00BNVE2Z5pVJpQ6Z5sckFkjS/dsGP/Ud/3xScXQAQNQ3Ry/9WqlmrpboSeRP0Wj12HWnXsDKXEthv6oph+cws6Mk6i7pDyZH8hmk2kdJgq3MYHEpvkxbaM=\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.binance.com/llms.txt"
-    },
-    "llmsFull": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AE+g+xhXgNGekX6u9JB+9/aAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlYl8sWlzCf+V4vECAgEQgDs722Kd7XHBqtwbliyuRnbAXr4QV1/WPeWKM9sDQvYqb9XXr9/muCsrK+MB03tChiuPD63bQnNZpveiVg==\",\n          \"iv\":\"D57K6wDevgAAI4f/\",\n          \"context\":\"QbQcrQe+xDQcU9PerOnlV4OglKH5e7oJxVVID6qZhK3foNkaT3+3pliQ5P14/gut9i6OC8Lk867OCbLlb9WirIVKrxCwrkS4gdzh2IRDW6WoNKJCrI3mTgOsGrk2gzq3svTRIipaoxHR84a/tnTA6Ew9wp9d5+svqSUK3LcMbk3Xr5D/tyX4Lu6xrObtOuAGBz0EDmC6c3KF9BTyoRS/Xd1aE1peS8frtN0/9DFuFiYbIPXiKgUBGXkinfn9+OWpO2auXC3VTqeOxPqtfA3iSQfIti0KXCrUYm3DtM6Po+P73x5RhH4W/rFTLQJ37mJH/9DN8lACFKolGy/A/c12gcAJmpsIxV6mNsWCvsdlHCR2jjuecriDzFkX3n6x0un/1ZkuncF3InmQ2f9cSsi3tHbptHXuFc31pP/+AN+woi55Yew=\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.binance.com/llms-full.txt"
-    },
-    "homepage": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AE+g+xhXgNGekX6u9JB+9/aAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlYl8sWlzCf+V4vECAgEQgDs722Kd7XHBqtwbliyuRnbAXr4QV1/WPeWKM9sDQvYqb9XXr9/muCsrK+MB03tChiuPD63bQnNZpveiVg==\",\n          \"iv\":\"D57KxgDpWgAAH4VD\",\n          \"context\":\"eMzb8dBLVOimSR36ITVPgk7U73uHIcH6fsZDh1KtH+iJU4tknrPloKO3Mz0gYman5Q3z7MNRFq+XCuZSRPmEV+TBcCNBHckUWdlBtlhReLtjS/Txj2EPC51DthZkcjHuKF2qW3vZo35e5OgmThJiqUOMOOQNR6VomKPxhiJN0Hz4s67w0uwjvhRd0eBPFUr4a+jjYS4lNOXI5FuHSKYdO9aIS8zbq7sQP/AY4xhssvylWg6XwWS2pODi8QGwsMpHnuCM4K4k7LbqqMWmjwD9Sxpm0rZpIBcFdOQEMwNnQSV44IYbDklcJc4fdHd0/gReuZwrWjbhA+FqMotIZ+3XJ5OgJPAt6Q0y24+TNm8zCo3BnBQ/ekvqdN9UTc3AfJOoMZ6wVpwt9Fg+K7ikLjty/1r9TAnBA7sYvw==\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.binance.com/"
-    },
-    "sitemap": {
-      "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\"><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-BH_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_de_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-JP_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ru_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_pt_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_uk-UA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_si-LK_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ar-BH_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_es-AR_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ru-UA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_es-LA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_zh-TC_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-AU_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_kk-KZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_pt-BR_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-KZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-NZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-ZA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_fr_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_fr-AF_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ar_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-NG_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-UZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ar-AE_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-TR_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_es-MX_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-AE_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_lo-LA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_pt-AO_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_es_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ru-UZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-IN_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_id_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_zh-CN_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_uz-UZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_my-MM_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ja_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_az-AZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_vi_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-GB_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ru-KZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-PH_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap></sitemapindex>",
-      "url": "https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_index.xml"
-    },
-    "agentsMd": {
-      "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AE+g+xhXgNGekX6u9JB+9/aAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlYl8sWlzCf+V4vECAgEQgDs722Kd7XHBqtwbliyuRnbAXr4QV1/WPeWKM9sDQvYqb9XXr9/muCsrK+MB03tChiuPD63bQnNZpveiVg==\",\n          \"iv\":\"D57K5ADfOAAAI3mr\",\n          \"context\":\"eZ6J8eh1jyo71C8VqqRhjKbYGKMsGFinZO/OK97/BdN5HsYS4jGNU10M6caZmkoIudNWmoUX+9o5mZxCzgctnw9ME5+VQ1s+1KynxRL4sgrub/P+HoC5uCf0V8dexNt0eaUL6Ky2O+EVN/EwbdM1LzgcQkPfylB7WlRi0TEVO2ClfOqpfvjClvlKH0E/4GdAGXDy7O5TyuGzoC7UnbH+ofhY1uoZNOfhbZPlBpoB62bYscRJVKEUiSD4kEx9coUS1njYJoD3b7FX5gRWS7C/BPbCE9PykMCxtVhA3O9YgT3VxiBdCbZyKSzovPzV/02WQFb0Vt3g4/KpMHBZyGiuVQ322jf+Q9CRe861mdrZvLytR2BVGuDBlQvmsqW/mwOeIXjE6xZsNVpjghLz2IQzB7YHpCr5rj7ApBBw0LWIcFxohW4=\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
-      "url": "https://www.binance.com/agents.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "aiFeatures": {
-      "chatWidget": false,
-      "aiSearch": false,
-      "developerConsole": false
-    }
+ "signals": {
+  "domain": "binance.com",
+  "fetchedAt": "2026-11-11T03:22:33.021Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "# ---------------------------------------------------------------------------\n# Major search engines (Baidu / Bing / DuckDuckGo / Yahoo Slurp / Google)\n# ---------------------------------------------------------------------------\nUser-agent: Baiduspider\nUser-agent: Bingbot\nUser-agent: DuckDuckBot\nUser-agent: Slurp\nUser-agent: Googlebot\n\n# Selective Allow overrides (carve-outs).\nAllow: /\nAllow: */bapi/fe/\nAllow: */sitemap_output/\nAllow: */funding-history/perpetual/\nAllow: */funding-history/quarterly/\n\n# Query-parameter blocks (?hl= honored reliably only by Google)\nDisallow: */price*?hl=\nDisallow: */how-to-buy*?hl=\nDisallow: */price-prediction*?hl=\nDisallow: */altcoins*?hl=\n\n# Legacy / undefined URL fragments\nDisallow: *undefine*\nDisallow: *UNDEFINE*\nDisallow: */collected/undefined\n\n# Activity / campaign landing (kept out of index)\nDisallow: */activity/challenge-competition/\nDisallow: */activity/collect-and-win/\nDisallow: */activity/referral-entry/\n\n# Tracking / noise query params\nDisallow: *fbclid=\nDisallow: /*?sqb=\n\n# Internal / non-indexable content surfaces\nDisallow: */advertiserDetail\nDisallow: */funding-history\nDisallow: */trading-rules\nDisallow: */comments\nDisallow: */feed/search\nDisallow: */feed/sitemap/\nDisallow: */version.web\nDisallow: */loan/data/\nDisallow: */markets/spot-FIAT/\nDisallow: */markets/spot-USDT/\nDisallow: */OTC-Trading/\nDisallow: */backtest/\nDisallow: */buy-sell-crypto/referral/\nDisallow: */buy-sell-crypto/buy-sell/result/buy/\nDisallow: */buy-sell-crypto/buy-sell/result/sell/\nDisallow: */chart-webview/\nDisallow: */chat/\nDisallow: */convert-modal-ui/\nDisallow: */customindicator/\nDisallow: */delivery/\nDisallow: */crypto/recurring/\nDisallow: */survey/\nDisallow: */academy/courses/certificate/\n\n# Compliance / privacy / account surfaces\nDisallow: */complaint-form/\nDisallow: */compliance-confirm/\nDisallow: */kyc-ui/\nDisallow: */my/\nDisallow: */deposit/result/order-v3/\nDisallow: */fiat/deposit/result/order\n\n# Internal / API / non-HTML endpoints\nDisallow: */bapi/\nDisallow: */api/\nDisallow: */fapi/\nDisallow: */fvideo/\nDisallow: */mp-cms/app/\nDisallow: */mp-cms/disclaimer/\nDisallow: */sitemap_.xml\n\n# Square (social) non-canonical surfaces\nDisallow: */en-AU/square\nDisallow: */en-GB/square\nDisallow: */square/creator-center/\nDisallow: */square/notification\nDisallow: */square/bookmark\nDisallow: */square/settings\n\n# ---------------------------------------------------------------------------\n# Yandex\n# ---------------------------------------------------------------------------\nUser-agent: Yandex\nHost: www.binance.com\n\n# Selective Allow overrides (carve-outs).\nAllow: /\nAllow: */bapi/fe/\nAllow: */sitemap_output/\nAllow: */funding-history/perpetual/\nAllow: */funding-history/quarterly/\n\n# Query-parameter blocks\nDisallow: /*ref=\nDisallow: /*symbol=\nDisallow: /*version=\nDisallow: /*theme=\nDisallow: /*contract=\nDisallow: /*code=\nDisallow: /*tab=\nDisallow: /*poolId=\nDisallow: /*type=\nDisallow: /*layout=\nDisallow: /*navId=\nDisallow: /*channel=\nDisallow: /*utm_source=\nDisallow: /*source=\nDisallow: /*utm=\nDisallow: /*fbclid=\nDisallow: /*sqb=\n\n# Path-level blocks (mirrored from the major-engine group for compliance/privacy parity)\nDisallow: *undefine*\nDisallow: *UNDEFINE*\nDisallow: */collected/undefined\nDisallow: */complaint-form/\nDisallow: */compliance-confirm/\nDisallow: */kyc-ui/\nDisallow: */my/\nDisallow: */deposit/result/order-v3/\nDisallow: */fiat/deposit/result/order\nDisallow: */survey/\nDisallow: */academy/courses/certificate/\nDisallow: */bapi/\nDisallow: */api/\nDisallow: */fapi/\nDisallow: */fvideo/\nDisallow: */mp-cms/app/\nDisallow: */mp-cms/disclaimer/\nDisallow: */feed/search\nDisallow: */feed/sitemap/\nDisallow: */sitemap_.xml\n\n# Yandex-specific dynamic parameter deduplication (compact multi-param form).\nClean-param: layout&callback&fiat&from&type&asset&packetId&shareCode\nClean-param: r&return_to&productid\nClean-param: _escaped_fragment_\n\n# ---------------------------------------------------------------------------\n# Default: all other crawlers (incl. AI crawlers, scrapers, etc.)\n# ---------------------------------------------------------------------------\nUser-agent: *\n\n# Selective Allow overrides (carve-outs).\nAllow: /\nAllow: */bapi/fe/\nAllow: */sitemap_output/\nAllow: */funding-history/perpetual/\nAllow: */funding-history/quarterly/\n\n# Marketing/activity landing pages - explicitly allowed (documents intent)\nAllow: */activity/challenge-competition/\nAllow: */activity/collect-and-win/\nAllow: */activity/referral-entry/\n\n# Sensitive / internal paths - denied even to unlisted crawlers\nDisallow: *undefine*\nDisallow: *UNDEFINE*\nDisallow: */collected/undefined\nDisallow: */complaint-form/\nDisallow: */compliance-confirm/\nDisallow: */kyc-ui/\nDisallow: */my/\nDisallow: */deposit/result/order-v3/\nDisallow: */fiat/deposit/result/order\nDisallow: */survey/\nDisallow: */academy/courses/certificate/\nDisallow: */bapi/\nDisallow: */api/\nDisallow: */fapi/\nDisallow: */fvideo/\nDisallow: */mp-cms/app/\nDisallow: */mp-cms/disclaimer/\nDisallow: */feed/search\nDisallow: */feed/sitemap/\nDisallow: */sitemap_.xml\n\n# ---------------------------------------------------------------------------\n# Sitemaps (global - honored by all crawlers)\n# ---------------------------------------------------------------------------\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Blog_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Nft_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_SupportAndAnnouncement_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Futures_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Earn_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Loan_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Market_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Default_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Fiat_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Crypto_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Square_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Academy_New_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Muses_index.xml\nSitemap: https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Growth_index.xml\n",
+   "url": "https://www.binance.com/robots.txt"
   },
-  "afr": {
-    "domain": "binance.com",
-    "engineVersion": "afr-1.1.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-11T03:22:33.021Z",
-    "score": 45,
-    "grade": "C",
-    "state": "scored",
-    "strategyTag": "Middle-Path",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 23.63,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 13.625,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 5.63/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Middle-Path. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 202"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 202, full HTML document returned"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Legibility",
-        "awarded": 19,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 12,
-            "max": 14,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "no JSON-LD blocks"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 3,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 4,
-            "max": 4,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Actionability",
-        "awarded": 2,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 2,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 13.625,
-      "l1.no-tech-wall": 5,
-      "l1.basic-availability": 5,
-      "l2.llms-family": 12,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 3,
-      "l2.sitemap": 4,
-      "l2.content-signals": 0,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 2,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AE+g+xhXgNGekX6u9JB+9/aAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlYl8sWlzCf+V4vECAgEQgDs722Kd7XHBqtwbliyuRnbAXr4QV1/WPeWKM9sDQvYqb9XXr9/muCsrK+MB03tChiuPD63bQnNZpveiVg==\",\n          \"iv\":\"D57KwgDeoAAAHq6o\",\n          \"context\":\"12Jrn2yT5AM+e2w2ZHNENVptxvq3+zk6uMicfpILCb2lsie8m5AAUZuMpPClyF8TWCj9MyUJwu+KUnz48c6OcxnuZzhjkYndPsqKu+L7PAVAtM3KoVu5Hiifln0PT+bFqKFIxZG+ZgRyRhLl6WAQSl4b0wv1/2oCg8b4d5HVLNrE1XWSVqdEaLiu2lh5HWOGG1rdwY94mv5SxOrO5+4ctQnwDOS7CIbN8/Gld3k8i6oY5oAh+ey+5PLQHSP1f8jl//Yd1ettyPlj6HBltMo/Z/jZgNsC6qHiI1y1MnesX91gk81XScIw4sc6w00BNVE2Z5pVJpQ6Z5sckFkjS/dsGP/Ud/3xScXQAQNQ3Ry/9WqlmrpboSeRP0Wj12HWnXsDKXEthv6oph+cws6Mk6i7pDyZH8hmk2kdJgq3MYHEpvkxbaM=\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.binance.com/llms.txt"
+  },
+  "llmsFull": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AE+g+xhXgNGekX6u9JB+9/aAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlYl8sWlzCf+V4vECAgEQgDs722Kd7XHBqtwbliyuRnbAXr4QV1/WPeWKM9sDQvYqb9XXr9/muCsrK+MB03tChiuPD63bQnNZpveiVg==\",\n          \"iv\":\"D57K6wDevgAAI4f/\",\n          \"context\":\"QbQcrQe+xDQcU9PerOnlV4OglKH5e7oJxVVID6qZhK3foNkaT3+3pliQ5P14/gut9i6OC8Lk867OCbLlb9WirIVKrxCwrkS4gdzh2IRDW6WoNKJCrI3mTgOsGrk2gzq3svTRIipaoxHR84a/tnTA6Ew9wp9d5+svqSUK3LcMbk3Xr5D/tyX4Lu6xrObtOuAGBz0EDmC6c3KF9BTyoRS/Xd1aE1peS8frtN0/9DFuFiYbIPXiKgUBGXkinfn9+OWpO2auXC3VTqeOxPqtfA3iSQfIti0KXCrUYm3DtM6Po+P73x5RhH4W/rFTLQJ37mJH/9DN8lACFKolGy/A/c12gcAJmpsIxV6mNsWCvsdlHCR2jjuecriDzFkX3n6x0un/1ZkuncF3InmQ2f9cSsi3tHbptHXuFc31pP/+AN+woi55Yew=\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.binance.com/llms-full.txt"
+  },
+  "homepage": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AE+g+xhXgNGekX6u9JB+9/aAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlYl8sWlzCf+V4vECAgEQgDs722Kd7XHBqtwbliyuRnbAXr4QV1/WPeWKM9sDQvYqb9XXr9/muCsrK+MB03tChiuPD63bQnNZpveiVg==\",\n          \"iv\":\"D57KxgDpWgAAH4VD\",\n          \"context\":\"eMzb8dBLVOimSR36ITVPgk7U73uHIcH6fsZDh1KtH+iJU4tknrPloKO3Mz0gYman5Q3z7MNRFq+XCuZSRPmEV+TBcCNBHckUWdlBtlhReLtjS/Txj2EPC51DthZkcjHuKF2qW3vZo35e5OgmThJiqUOMOOQNR6VomKPxhiJN0Hz4s67w0uwjvhRd0eBPFUr4a+jjYS4lNOXI5FuHSKYdO9aIS8zbq7sQP/AY4xhssvylWg6XwWS2pODi8QGwsMpHnuCM4K4k7LbqqMWmjwD9Sxpm0rZpIBcFdOQEMwNnQSV44IYbDklcJc4fdHd0/gReuZwrWjbhA+FqMotIZ+3XJ5OgJPAt6Q0y24+TNm8zCo3BnBQ/ekvqdN9UTc3AfJOoMZ6wVpwt9Fg+K7ikLjty/1r9TAnBA7sYvw==\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.binance.com/"
+  },
+  "sitemap": {
+   "status": 200,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\"><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-BH_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_de_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-JP_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ru_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_pt_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_uk-UA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_si-LK_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ar-BH_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_es-AR_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ru-UA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_es-LA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_zh-TC_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-AU_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_kk-KZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_pt-BR_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-KZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-NZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-ZA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_fr_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_fr-AF_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ar_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-NG_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-UZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ar-AE_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-TR_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_es-MX_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-AE_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_lo-LA_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_pt-AO_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_es_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ru-UZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-IN_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_id_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_zh-CN_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_uz-UZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_my-MM_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ja_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_az-AZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_vi_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-GB_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_ru-KZ_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap><sitemap><loc>https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_en-PH_0.xml</loc><lastmod>2026-11-11T00:00:20Z</lastmod></sitemap></sitemapindex>",
+   "url": "https://www.binance.com/sitemap_output/domain=www.binance.com/sitemap_Trade_index.xml"
+  },
+  "agentsMd": {
+   "status": 202,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AE+g+xhXgNGekX6u9JB+9/aAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlYl8sWlzCf+V4vECAgEQgDs722Kd7XHBqtwbliyuRnbAXr4QV1/WPeWKM9sDQvYqb9XXr9/muCsrK+MB03tChiuPD63bQnNZpveiVg==\",\n          \"iv\":\"D57K5ADfOAAAI3mr\",\n          \"context\":\"eZ6J8eh1jyo71C8VqqRhjKbYGKMsGFinZO/OK97/BdN5HsYS4jGNU10M6caZmkoIudNWmoUX+9o5mZxCzgctnw9ME5+VQ1s+1KynxRL4sgrub/P+HoC5uCf0V8dexNt0eaUL6Ky2O+EVN/EwbdM1LzgcQkPfylB7WlRi0TEVO2ClfOqpfvjClvlKH0E/4GdAGXDy7O5TyuGzoC7UnbH+ofhY1uoZNOfhbZPlBpoB62bYscRJVKEUiSD4kEx9coUS1njYJoD3b7FX5gRWS7C/BPbCE9PykMCxtVhA3O9YgT3VxiBdCbZyKSzovPzV/02WQFb0Vt3g4/KpMHBZyGiuVQ322jf+Q9CRe861mdrZvLytR2BVGuDBlQvmsqW/mwOeIXjE6xZsNVpjghLz2IQzB7YHpCr5rj7ApBBw0LWIcFxohW4=\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+   "url": "https://www.binance.com/agents.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": false
   }
+ },
+ "afr": {
+  "domain": "binance.com",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-11T03:22:33.021Z",
+  "score": 45,
+  "grade": "C",
+  "state": "scored",
+  "strategyTag": "Middle-Path",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 23.63,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 13.63,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 5.63/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Middle-Path. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 202"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 202, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Legibility",
+    "awarded": 19,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 12,
+      "max": 14,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "no JSON-LD blocks"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 3,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 4,
+      "max": 4,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Actionability",
+    "awarded": 2,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 2,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; no developer console"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 13.63,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 12,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 3,
+   "l2.sitemap": 4,
+   "l2.content-signals": 0,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 2,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

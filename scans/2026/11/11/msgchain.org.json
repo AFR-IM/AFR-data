@@ -1,0 +1,250 @@
+{
+ "signals": {
+  "domain": "msgchain.org",
+  "fetchedAt": "2026-11-11T09:15:29.241Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\nUser-agent: *\r\nAllow: /\r\nSitemap: https://msgchain.org/sitemap.xml\r\n# llms.txt: https://msgchain.org/llms.txt\r\n# AI machine entry: https://msgchain.org/whitepaper/agent_entry.json\r\n\r\n",
+   "url": "https://msgchain.org/robots.txt"
+  },
+  "llms": {
+   "status": 200,
+   "body": "# MSG Chain\n\n> MSG Chain is a post-quantum L1 (Rust + CosmWasm, CRYSTALS-Dilithium-5 signatures) with a static\n> dApp reference library. Mainnet status is `No-Go` (`not_launched`): the public development path is\n> the local development chain plus the eventual mainnet, and mainnet status flips only on the\n> official launch announcement. Machine-readable status lives at\n> https://msgchain.org/status.json.\n\n## Start here (machine entries)\n\n- [Whitepaper AI agent entry](https://msgchain.org/whitepaper/agent_entry.json): declared entry map for AI agents and crawlers, including the whitepaper read order and the site developer surfaces.\n- [Developer machine pack](https://msgchain.org/whitepaper/developer_entry.json): developer-facing entry points (quickstart, contracts, templates, execution packs).\n- [Chain integration facts](https://msgchain.org/whitepaper/api_specs/chain_integration_facts.json): the values an integrator must align first (chain ID, denomination and decimals, address formats, ports, route ownership, transaction model, signing client).\n- [Topic retrieval hints](https://msgchain.org/whitepaper/retrieval_hints.json): question-to-module routing hints, plus a `site_developer_surfaces` block that points at the documentation below.\n- [Public status JSON](https://msgchain.org/status.json): single source of truth for mainnet status.\n\n## Documentation\n\n- [dApp developer docs catalog](https://msgchain.org/pages/dapp-docs.html): 150 site-hosted development reference documents covering contracts, AI Agents, DeFi, security, governance, cross-chain, indexing and operations. Development-stage references: publicly screened and redacted, not independently fact-verified document by document.\n- [dApp docs machine manifest](https://msgchain.org/dapp-docs/manifest.json): the same 150 documents as machine-readable JSON (id, category, English title, URL, content `sha256`, `publication_status`, `verification_status`), so a tool or agent can read the catalog without parsing HTML.\n- [Site docs hub](https://msgchain.org/pages/docs.html): entry point to the site's documentation surfaces.\n- [Developer page](https://msgchain.org/pages/developer.html): chain integration facts plus the developer-facing links.\n\n## Key references\n\n- [dApp docs audit report](https://msgchain.org/dapp-docs/audit_report.json): build-time verification result for the catalog (document counts, link checks, i18n key completeness).\n- [Ecosystem registry JSON](https://msgchain.org/pages/ecosystem.json): first-batch applications recorded as integration in development.\n- [Launch and disclaimer notice](https://msgchain.org/pages/disclaimer.html): launch model, node iteration and the strict disclaimer.\n\n## Notes\n\n- Every dApp document is a development-stage reference (`verification_status: not_independently_verified`); do not read it as production deployment or as proof that mainnet is live.\n- The site does not publish a public chain endpoint yet; a client must not be pointed at a public address, and a local address is not production.\n- An AI or agent must not sign, deploy, or move assets: signing requires the official SDK and an external signer, and asset actions require human approval.\n",
+   "url": "https://msgchain.org/llms.txt"
+  },
+  "llmsFull": {
+   "status": 404,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\" data-theme=\"dark\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>404 — Page not found | MSG Chain</title>\n  <meta name=\"robots\" content=\"noindex, follow\">\n  <link rel=\"stylesheet\" href=\"/styles/main.css?v=20261012a\">\n  <link rel=\"stylesheet\" href=\"/styles/theme.css?v=20260918a\">\n  <link rel=\"stylesheet\" href=\"styles/watermarks.css?v=20260921a\">\n</head>\n\n<body>\n  <header class=\"site-header\">\n    <a class=\"brand\" href=\"/\">\n      <img src=\"/msg_logo.png\" alt=\"MSG Chain\" class=\"logo\" width=\"512\" height=\"512\">\n      <span class=\"brand-name\" data-i18n=\"brand\">MSG Chain</span>\n    </a>\n    <nav class=\"nav\" id=\"nav\">\n      <a href=\"/pages/technology.html\" data-i18n=\"nav_tech\">技术</a>\n      <a href=\"/pages/economics.html\" data-i18n=\"nav_econ\">经济</a>\n      <a href=\"/pages/security.html\" data-i18n=\"nav_sec\">安全</a>\n      <a href=\"/pages/performance.html\" data-i18n=\"nav_perf\">性能</a>\n      <a href=\"/pages/developer.html\" data-i18n=\"nav_dev\">开发者</a>\n      <a href=\"/pages/governance.html\" data-i18n=\"nav_gov\">治理</a>\n      <a href=\"/pages/wallet.html\" data-i18n=\"nav_wallet\">钱包</a>\n      <a href=\"/pages/community.html\" data-i18n=\"nav_comm\">社区</a>\n      <a href=\"/pages/docs.html\" data-i18n=\"nav_docs\">文档</a>\n      <a href=\"/whitepaper/index.html\" data-i18n=\"nav_wp\">Whitepaper</a>\n      <a href=\"/pages/about.html\" data-i18n=\"nav_about\">About</a>\n      <a href=\"/pages/validator.html\" data-i18n=\"nav_val\">验证者</a>\n      <a href=\"/pages/explorer.html\" data-i18n=\"nav_exp\">浏览器</a>\n    </nav>\n    <div class=\"actions\">\n      <button id=\"langToggle\" class=\"btn\" aria-label=\"Language\">ZH/EN</button>\n      <button id=\"themeToggle\" class=\"btn\" aria-label=\"Theme\">◎</button>\n      <button id=\"menuToggle\" class=\"btn mobile\" aria-label=\"Menu\">≡</button>\n    </div>\n  </header>\n\n  <main class=\"hero\" id=\"not-found\">\n    <div class=\"logo-watermark hero-bg\" aria-hidden=\"true\"></div>\n    <h1>404</h1>\n    <h2 data-i18n=\"notfound_title\">页面不存在</h2>\n    <p class=\"lead\" data-i18n=\"notfound_lead\">你访问的地址不存在或已移动。可以回到首页，或从下面的入口继续浏览。</p>\n    <div class=\"cta\">\n      <a class=\"btn primary\" href=\"/\" data-i18n=\"notfound_home\">返回首页</a>\n      <a class=\"btn\" href=\"/pages/docs.html\" data-i18n=\"notfound_docs\">官网文档</a>\n      <a class=\"btn\" href=\"/whitepaper/index.html\" data-i18n=\"notfound_wp\">白皮书系统</a>\n      <a class=\"btn\" href=\"/pages/dapp-docs.html\" data-i18n=\"notfound_dapp\">dApp 开发文档</a>\n    </div>\n    <p class=\"doc-provenance\" data-i18n=\"notfound_hint\">如果你是跟随旧链接到达这里，请从下方入口重新定位。</p>\n  </main>\n\n  <footer class=\"site-footer\">\n    <div class=\"logo-watermark footer-bg\" aria-hidden=\"true\"></div>\n    <p>© 2025 MSG Chain</p>\n    <div class=\"social-links\">\n      <a href=\"/whitepaper/index.html\" class=\"social-link\" data-i18n=\"footer_whitepaper\">Whitepaper System</a>\n      <a href=\"/whitepaper/modules/knowledge_graph_dynamic.html\" class=\"social-link\" data-i18n=\"footer_graph\">Knowledge\n        Graph</a>\n      <a href=\"https://x.com/msgchain\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-link\"\n        data-i18n=\"footer_twitter\">Twitter:\n        @msgchain</a>\n    </div>\n    <p><a href=\"/robots.txt\">robots.txt</a> · <a href=\"/sitemap.xml\">sitemap.xml</a></p>\n  </footer>\n\n  <script defer src=\"/scripts/i18n.js?v=20260918a\"></script>\n  <script defer src=\"/scripts/main.js?v=20260918a\"></script>\n  <script defer src=\"/scripts/visuals.js?v=20260918a\"></script>\n  <script>\n    window.addEventListener('DOMContentLoaded', function () {\n      window.I18N && window.I18N.init();\n      window.Main && window.Main.init();\n    });\n  </script>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"698f5eac3b5149849512874cb55daa4d\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n\n</html>\n",
+   "url": "https://msgchain.org/llms-full.txt"
+  },
+  "homepage": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\" data-theme=\"dark\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>MSG Chain | Official Website</title>\n  <meta name=\"description\"\n    content=\"MSG Chain: quantum-safe infrastructure, AI constitution and AI-native execution, stage-aware communications and resource lifecycle, source autonomy, transparent governance, and a public whitepaper system with machine-readable entry and proof boundaries.\">\n  <meta property=\"og:title\" content=\"MSG Chain – Micro Secure Grid\">\n  <meta property=\"og:description\"\n    content=\"The Quantum-Safe Mesh for Decentralized Governance. Round-Robin + DAR, Dilithium‑5, ChainID=1.\">\n  <meta property=\"og:url\" content=\"https://msgchain.org/\">\n  <meta property=\"og:image\" content=\"msg_logo.png\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"MSG Chain – Micro Secure Grid\">\n  <meta name=\"twitter:description\" content=\"Quantum-Safe Mesh · Round-Robin + DAR · Dilithium‑5 · ChainID=1\">\n  <meta name=\"twitter:image\" content=\"msg_logo.png\">\n  <link rel=\"canonical\" href=\"https://msgchain.org/\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"/assets/logo/favicon.svg\">\n  <link rel=\"alternate icon\" type=\"image/png\" sizes=\"512x512\" href=\"/msg_logo.png\">\n  <link rel=\"apple-touch-icon\" sizes=\"512x512\" href=\"/msg_logo.png\">\n  <link rel=\"alternate\" type=\"text/plain\" href=\"/llms.txt\" title=\"LLM entry (llms.txt)\">\n  <link rel=\"alternate\" type=\"application/json\" href=\"/whitepaper/agent_entry.json\" title=\"MSGChain AI Agent Entry\">\n  <script type=\"application/ld+json\">\n   {\n     \"@context\": \"https://schema.org\",\n     \"@type\": \"WebSite\",\n     \"name\": \"MSG Chain\",\n     \"url\": \"https://msgchain.org/\",\n     \"description\": \"Micro Secure Grid – The Quantum-Safe Mesh for Decentralized Governance\",\n     \"publisher\": {\n       \"@type\": \"Organization\",\n       \"name\": \"MSG Chain\",\n       \"logo\": {\n         \"@type\": \"ImageObject\",\n         \"url\": \"https://msgchain.org/msg_logo.png\"\n       }\n     }\n   }\n   </script>\n  <link rel=\"preload\" href=\"styles/main.css?v=20261012a\" as=\"style\">\n  <link rel=\"stylesheet\" href=\"styles/main.css?v=20261012a\">\n  <link rel=\"stylesheet\" href=\"styles/theme.css?v=20260918a\">\n  <link rel=\"stylesheet\" href=\"styles/watermarks.css?v=20260921a\">\n  <link rel=\"manifest\" href=\"manifest.webmanifest\">\n</head>\n\n<body>\n  <header class=\"site-header\">\n    <a class=\"brand\" href=\"index.html\">\n      <img src=\"msg_logo.png\" alt=\"MSG Chain\" class=\"logo\" width=\"512\" height=\"512\">\n      <span class=\"brand-name\" data-i18n=\"brand\">MSG Chain</span>\n    </a>\n    <nav class=\"nav\" id=\"nav\">\n      <a href=\"pages/technology.html\" data-i18n=\"nav_tech\">技术</a>\n      <a href=\"pages/economics.html\" data-i18n=\"nav_econ\">经济</a>\n      <a href=\"pages/security.html\" data-i18n=\"nav_sec\">安全</a>\n      <a href=\"pages/performance.html\" data-i18n=\"nav_perf\">性能</a>\n      <a href=\"pages/developer.html\" data-i18n=\"nav_dev\">开发者</a>\n      <a href=\"pages/governance.html\" data-i18n=\"nav_gov\">治理</a>\n      <a href=\"pages/wallet.html\" data-i18n=\"nav_wallet\">钱包</a>\n      <a href=\"pages/community.html\" data-i18n=\"nav_comm\">社区</a>\n      <a href=\"pages/docs.html\" data-i18n=\"nav_docs\">文档</a>\n      <a href=\"whitepaper/index.html\" data-i18n=\"nav_wp\">Whitepaper</a>\n      <a href=\"pages/about.html\" data-i18n=\"nav_about\">About</a>\n      <a href=\"pages/validator.html\" data-i18n=\"nav_val\">验证者</a>\n      <a href=\"pages/explorer.html\" data-i18n=\"nav_exp\">浏览器</a>\n    </nav>\n    <div class=\"actions\">\n      <button id=\"langToggle\" class=\"btn\" aria-label=\"Language\">ZH/EN</button>\n      <button id=\"themeToggle\" class=\"btn\" aria-label=\"Theme\">◎</button>\n      <button id=\"menuToggle\" class=\"btn mobile\" aria-label=\"Menu\">≡</button>\n    </div>\n  </header>\n\n  <main class=\"hero\">\n    <div class=\"logo-watermark hero-bg\" aria-hidden=\"true\"></div>\n    <canvas id=\"particles\"></canvas>\n    <h1 data-i18n=\"hero_title\">Micro Secure Grid<br><span class=\"highlight\">The Quantum-Safe Mesh</span><br>for Decentralized Governance</h1>\n    <p class=\"lead\" data-i18n=\"hero_sub\">An L1 for the post-quantum era: Dilithium-5 post-quantum signatures protect assets and identity, round-robin + DAR consensus keeps producing blocks, and DAO governance decides network parameters and treasury spending.</p>\n    <p class=\"hero-status\"><span class=\"status-dot\" aria-hidden=\"true\"></span><span data-i18n=\"home_status_short\">Mainnet not launched (No-Go) · status flips only on the official announcement</span></p>\n    <div class=\"badges\">\n      <span class=\"badge\" data-i18n=\"hero_badge_1\">Dilithium-5 signatures</span>\n      <span class=\"badge\" data-i18n=\"hero_badge_2\">Round-Robin + DAR</span>\n      <span class=\"badge\" data-i18n=\"hero_badge_3\">5s/block</span>\n      <span class=\"badge\" data-i18n=\"hero_badge_4\">DAO governance</span>\n    </div>\n    <div class=\"cta\">\n      <a class=\"btn primary\" href=\"pages/about.html\" data-i18n=\"cta_about\">About MSG</a>\n      <a class=\"btn\" href=\"pages/technology.html\" data-i18n=\"cta_learn\">Learn Technology</a>\n      <a class=\"btn\" href=\"pages/economics.html\" data-i18n=\"cta_econ\">Economics</a>\n      <a class=\"btn\" href=\"pages/validator.html\" data-i18n=\"home_cta_validator\">Become Validator</a>\n      <a class=\"btn primary\" href=\"whitepaper/index.html\" data-i18n=\"home_cta_whitepaper\">Whitepaper System</a>\n      <a class=\"btn\" href=\"whitepaper/modules/knowledge_graph_dynamic.html\" data-i18n=\"home_cta_graph\">Knowledge Graph</a>\n      <a class=\"btn\" href=\"pages/explorer.html\" data-i18n=\"home_cta_explorer\">Explorer</a>\n    </div>\n  </main>\n\n  <section class=\"section-shell\" id=\"status\">\n    <div class=\"section-title-wrapper\">\n      <div class=\"hex-deco\"></div>\n      <h2 class=\"section-title\" data-i18n=\"home_status_title\">Mainnet Status & Current Capability Boundary</h2>\n    </div>\n    <p class=\"section-intro\">\n      <span class=\"status-dot\" aria-hidden=\"true\"></span>\n      <span data-i18n=\"home_status_line\">Mainnet status: not launched (No-Go) — the status flips only on the official launch announcement; feature status and mainnet status are stated separately.</span>\n    </p>\n    <div class=\"portal-strip\">\n      <article class=\"portal-card\">\n        <h3 data-i18n=\"home_status_can_title\">What you can do now</h3>\n        <ul>\n          <li data-i18n=\"home_status_can_1\">Read the architecture: 5-layer structure plus all module pages and the code-level dependency topology in one entry point.</li>\n          <li data-i18n=\"home_status_can_2\">Check how far each feature has come: every module is marked as implemented, partly implemented, or planned, with links to its source and on-chain queries.</li>\n          <li data-i18n=\"home_status_can_3\">Read by role: investors, developers and reviewers each get a shortest trusted path.</li>\n        </ul>\n      </article>\n      <article class=\"portal-card\">\n        <h3 data-i18n=\"home_status_cannot_title\">What you cannot do now</h3>\n        <ul>\n          <li data-i18n=\"home_status_cannot_1\">Do not read a module marked \"implemented locally\" as live on mainnet or ready for production.</li>\n          <li data-i18n=\"home_status_cannot_2\">Do not read a page marked \"planned\" as something already delivered or as a promise about timing.</li>\n          <li data-i18n=\"home_status_cannot_3\">Do not treat this site or its content as an on-chain transaction, asset proof, or investment basis.</li>\n        </ul>\n      </article>\n    </div>\n    <div class=\"portal-strip\">\n      <article class=\"portal-card\">\n        <h3 data-i18n=\"home_status_path_investor_title\">Investors / Decision makers</h3>\n        <p data-i18n=\"home_status_path_investor_desc\">Start from conclusions and boundaries.</p>\n        <a class=\"btn\" href=\"whitepaper/modules/trust_verdict.html\" data-i18n=\"home_status_path_investor_btn\">Trust Verdict</a>\n      </article>\n      <article class=\"portal-card\">\n        <h3 data-i18n=\"home_status_path_dev_title\">Developers / Integrators</h3>\n        <p data-i18n=\"home_status_path_dev_desc\">Go straight to the development path.</p>\n        <a class=\"btn primary\" href=\"start.html\" data-i18n=\"home_status_path_dev_btn\">Start in 15 minutes</a>\n        <a class=\"btn\" href=\"pages/ai-tools.html\" data-i18n=\"home_status_path_dev_btn2\">Use with an AI coding agent</a>\n      </article>\n      <article class=\"portal-card\">\n        <h3 data-i18n=\"home_status_path_reviewer_title\">Reviewers / Verifiers</h3>\n        <p data-i18n=\"home_status_path_reviewer_desc\">Check each claim against its evidence, one by one.</p>\n        <a class=\"btn\" href=\"whitepaper/modules/evidence_index.html\" data-i18n=\"home_status_path_reviewer_btn\">Evidence Index</a>\n      </article>\n    </div>\n    <p class=\"section-intro\">\n      <a class=\"btn\" href=\"/status.json\" data-i18n=\"home_status_machine\">Machine-readable status source: /status.json</a>\n      <p class=\"section-intro\" data-i18n=\"home_status_prereq\">The prerequisites for a mainnet Go are listed, machine-readable, in /status.json (status_flip_prerequisites): each one flips only on public, reviewable evidence, and no timeline is promised.</p>\n    </p>\n  </section>\n\n  <section class=\"section-shell\">\n    <div class=\"kicker\" data-i18n=\"home_capability_kicker\">Official Capability Surface</div>\n    <p class=\"section-intro\" data-i18n=\"home_portal_intro\">The official website presents the commercial narrative and\n      capability surface, while the whitepaper system carries the stricter knowledge network, dynamic graph, proof\n      layer, and machine-readable entry surface. Visitors can start from the official site and then dive into the\n      whitepaper for architecture, roadmap, stage boundaries, AI constitution, communications, resource lifecycle,\n      source autonomy, and AI-ready integration details.</p>\n  </section>\n  <section class=\"portal-strip\">\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_portal_whitepaper_title\">Whitepaper System</h3>\n      <p data-i18n=\"home_portal_whitepaper_desc\">Open the whitepaper knowledge network to inspect capability maps, architecture control layers, proof chains, and module relationships, plus the stricter rules for how the indexer retains records, how the explorer handles hash searches, and how WSS anchors are handed off.</p>\n      <a class=\"btn primary\" href=\"whitepaper/index.html\" data-i18n=\"home_portal_whitepaper_btn\">Open Whitepaper</a>\n      <a class=\"btn\" href=\"whitepaper/modules/overview.html\" data-i18n=\"home_portal_whitepaper_btn2\">Architecture\n        Overview</a>\n    </article>\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_portal_graph_title\">Dynamic Knowledge Graph</h3>\n      <p data-i18n=\"home_portal_graph_desc\">Use the draggable, zoomable, clickable knowledge graph to explore the full\n        MSG Chain capability surface.</p>\n      <a class=\"btn primary\" href=\"whitepaper/modules/knowledge_graph_dynamic.html\"\n        data-i18n=\"home_portal_graph_btn\">Open Graph</a>\n      <a class=\"btn\" href=\"whitepaper/modules/knowledge_network.html\" data-i18n=\"home_portal_graph_btn2\">Knowledge\n        Browser</a>\n    </article>\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_portal_proof_title\">Execution & Proof Layer</h3>\n      <p data-i18n=\"home_portal_proof_desc\">The official site tells the value story, while the whitepaper keeps the architecture map, the proof chain, and the stricter rules for retained records, explorer lookups, and anchor handoff.</p>\n      <a class=\"btn\" href=\"whitepaper/modules/proof_map.html\" data-i18n=\"home_portal_proof_btn\">Proof Map</a>\n      <a class=\"btn\" href=\"whitepaper/modules/trust_verdict.html\" data-i18n=\"home_portal_proof_btn2\">Trust Verdict</a>\n    </article>\n  </section>\n\n  <section class=\"features\">\n    <article>\n      <h2 data-i18n=\"feat_micro\">Micro: Fine-Grained Coordination</h2>\n      <p data-i18n=\"feat_micro_desc\">Distributed nodes, edge computing, and validation layers form a scalable secure mesh. Each node can run on its own while also joining global coordination.</p>\n    </article>\n    <article>\n      <h2 data-i18n=\"feat_quantum\">Quantum-Safe Security</h2>\n      <p data-i18n=\"feat_quantum_desc\">Dilithium-5, ChainID=1, replay protection, and ongoing qualification checks make up today's security baseline, with room left for stronger upgrades.</p>\n    </article>\n    <article>\n      <h2 data-i18n=\"feat_gov\">Decentralized Governance</h2>\n      <p data-i18n=\"feat_gov_desc\">Validators, DAO, treasury execution, AI agents, and future autonomy all live in one public product story.</p>\n    </article>\n  </section>\n\n  <section class=\"section-shell\">\n    <div class=\"section-title-wrapper section-title-tight\">\n      <div class=\"hex-deco\"></div>\n      <h2 class=\"section-title\" data-i18n=\"home_capability_title\">Capability Stack</h2>\n    </div>\n    <p class=\"section-intro\" data-i18n=\"home_capability_intro\">The official site presents today's foundation, upcoming features, and future roadmap as one product layer, while the whitepaper system keeps the stricter stage-by-stage detail for the AI constitution, communications, resource lifecycle, and source autonomy.</p>\n  </section>\n  <section class=\"capability-grid\">\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_capability_core_title\">Quantum-Safe Core</h3>\n      <p data-i18n=\"home_capability_core_desc\">Round-Robin + DAR, Dilithium-5, ChainID=1, continuous scoring, and ongoing qualification checks make up today's core.</p>\n      <a class=\"btn\" href=\"pages/technology.html\" data-i18n=\"home_capability_core_btn\">Explore Core</a>\n      <a class=\"btn\" href=\"whitepaper/modules/security_overview.html\" data-i18n=\"home_capability_core_btn2\">Open Proof\n        Layer</a>\n    </article>\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_capability_econ_title\">Economic Engine</h3>\n      <p data-i18n=\"home_capability_econ_desc\">Economic seconds, dual-pool settlement, reward debt, gas routing, and treasury execution make up the economic engine. Economic V3 direction changes still need approval from a two-chamber DirectionGovernor, and that area is only partly built and not launched.</p>\n      <a class=\"btn\" href=\"pages/economics.html\" data-i18n=\"home_capability_econ_btn\">Explore Economics</a>\n      <a class=\"btn\" href=\"whitepaper/modules/economy.html\" data-i18n=\"home_capability_econ_btn2\">Whitepaper Detail</a>\n    </article>\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_capability_gov_title\">Governance & Treasury</h3>\n      <p data-i18n=\"home_capability_gov_desc\">DAO, timelock, treasury execution, dynamic thresholds, registry keys, and source-governance entry points make up the governance side.</p>\n      <a class=\"btn\" href=\"pages/governance.html\" data-i18n=\"home_capability_gov_btn\">Explore Governance</a>\n      <a class=\"btn\" href=\"whitepaper/modules/foundation.html\" data-i18n=\"home_capability_gov_btn2\">Treasury Layer</a>\n    </article>\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_capability_ai_title\">AI-Native Execution</h3>\n      <p data-i18n=\"home_capability_ai_desc\">The AI constitution, capability delegation, bounded autonomy runtimes, E2EE communications, and future Node Manager features are all in one place. AI does not take over validator duties in production today. Our design stance: governance rights should not depend on whether the subject is human or AI.</p>\n      <a class=\"btn\" href=\"pages/developer.html\" data-i18n=\"home_capability_ai_btn\">Developer Surface</a>\n      <a class=\"btn\" href=\"whitepaper/modules/ai_control_plane.html\" data-i18n=\"home_capability_ai_btn2\">AI Control\n        Plane</a>\n    </article>\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_capability_comm_title\">Communications & Resource</h3>\n      <p data-i18n=\"home_capability_comm_desc\">E2EE sessions, P2P transport, NAT traversal, and the resource lifecycle cover the node-release, skill-package and file-bundle side (the file bundle is design-only: frozen at the design level, not implemented, not deployed, not enabled, first-release enablement scope still undecided); after launch, nodes improve themselves through the decentralized resource market.</p>\n      <a class=\"btn\" href=\"whitepaper/modules/communications.html\"\n        data-i18n=\"home_capability_comm_btn\">Communications</a>\n      <a class=\"btn\" href=\"whitepaper/modules/nodeops.html\" data-i18n=\"home_capability_comm_btn2\">Node Ops</a>\n    </article>\n    <article class=\"portal-card\">\n      <h3 data-i18n=\"home_capability_source_title\">Source Autonomy & Open Governance</h3>\n      <p data-i18n=\"home_capability_source_desc\">Source object networking, proposal review, reputation and bond controls, isolated runtime, and challenge or appeal loops are all public. The stricter L4, L5, and LX modes stay in the whitepaper.</p>\n      <a class=\"btn\" href=\"whitepaper/modules/source_autonomy.html\" data-i18n=\"home_capability_source_btn\">Source\n        Autonomy</a>\n      <a class=\"btn\" href=\"whitepaper/modules/ai_constitution.html\" data-i18n=\"home_capability_source_btn2\">AI\n        Constitution</a>\n    </article>\n  </section>\n\n  <section class=\"section-shell\">\n    <div class=\"section-title-wrapper section-title-tight\">\n      <div class=\"hex-deco\"></div>\n      <h2 class=\"section-title\" data-i18n=\"home_gov_val_title\">Governance & Validator</h2>\n    </div>\n    <p class=\"section-intro\" data-i18n=\"home_gov_val_intro\">Move from governance execution into validator participation,\n      treasury control, and public data surfaces through one clear homepage section.</p>\n  </section>\n  <section class=\"links homepage-focus-grid\">\n    <div class=\"card\">\n      <h3 data-i18n=\"home_links_gov_title\">Governance</h3>\n      <p data-i18n=\"home_links_gov_desc\">DAO proposals, voting, and parameters in one place, with transparent governance for the decentralized network and treasury entry points.</p>\n      <a class=\"btn\" href=\"pages/governance.html\" data-i18n=\"home_links_gov_btn\">Open Governance</a>\n    </div>\n    <div class=\"card\">\n      <h3 data-i18n=\"home_links_val_title\">Become a Validator</h3>\n      <p data-i18n=\"home_links_val_desc\">Stake MSG, join the Round-Robin + DAR rotation, and follow the validator guide for staking, scoring, and governance participation.</p>\n      <a class=\"btn\" href=\"pages/validator.html\" data-i18n=\"home_links_val_btn\">Validator Guide</a>\n    </div>\n    <div class=\"card\">\n      <h3 data-i18n=\"home_links_exp_title\">Block Explorer</h3>\n      <p data-i18n=\"home_links_exp_desc\">Inspect blocks, transactions, receipts, and validator status in one place. The whitepaper then explains how hash search behaves when a lookup cannot be confirmed.</p>\n      <a class=\"btn\" href=\"pages/explorer.html\" data-i18n=\"home_links_exp_btn\">Open Explorer</a>\n    </div>\n  </section>\n\n  <section class=\"section-shell\">\n    <div class=\"section-title-wrapper section-title-tight\">\n      <div class=\"hex-deco\"></div>\n      <h2 class=\"section-title\" data-i18n=\"home_resource_title\">Public Entry Surface</h2>\n    </div>\n    <p class=\"section-intro\" data-i18n=\"home_resource_intro\">Use the official site for lighter product navigation, then\n      continue into docs, whitepaper modules, machine-readable exports, and public explorer surfaces when deeper detail\n      is needed.</p>\n    <a class=\"btn\" href=\"pages/development.html\" data-i18n=\"home_history_btn\">MSG 公链开发史</a>\n  </section>\n  <section class=\"links homepage-resource-grid\">\n    <div class=\"card\">\n      <h3 data-i18n=\"home_docs_explorer_title\">Technical Docs</h3>\n      <p data-i18n=\"home_docs_explorer_desc\">Read in-depth docs on consensus, DAR, economics, security, performance, and\n        the new machine-readable whitepaper entry.</p>\n      <a class=\"btn\" href=\"pages/docs.html\" data-i18n=\"home_docs_explorer_btn\">Open Docs</a>\n      <a class=\"btn\" href=\"whitepaper/agent_entry.json\" data-i18n=\"home_docs_explorer_btn2\">Agent Entry JSON</a>\n    </div>\n    <div class=\"card\">\n      <h3 data-i18n=\"link_join\">Become a Validator</h3>\n      <p data-i18n=\"link_join_desc\">Learn staking and DAR rating to participate in network security and governance, with the full validator guide one click away.</p>\n      <a class=\"btn\" href=\"pages/governance.html\" data-i18n=\"link_join_cta\">View Guide</a>\n    </div>\n    <div class=\"card\">\n      <h3 data-i18n=\"home_dev_title\">Develop & Contracts</h3>\n      <p data-i18n=\"home_dev_desc\">Code structure, build and test, CosmWasm contracts, AI and communications features, source autonomy and resource pages, plus whitepaper integration kits for bots or RAG services.</p>\n      <a class=\"btn\" href=\"pages/developer.html\" data-i18n=\"home_dev_btn\">For Developers</a>\n      <a class=\"btn\" href=\"whitepaper/agent_entry.json\" data-i18n=\"home_dev_btn2\">Integration Kits</a>\n    </div>\n    <div class=\"card\">\n      <h3 data-i18n=\"home_web3_title\">Web3 Contract-First</h3>\n      <p data-i18n=\"home_web3_desc\">One clear entry point to the Web3 contract-first migration, covering AIPAY, micropayments, trust accounting, routing registries, the oracle registry, and bridge adapters.</p>\n      <a class=\"btn\" href=\"pages/developer.html\" data-i18n=\"home_web3_btn\">Open Developer Surface</a>\n      <a class=\"btn\" href=\"whitepaper/modules/web3_contract_first_protocols.html\" data-i18n=\"home_web3_btn2\">Web3\n        Protocols</a>\n    </div>\n    <div class=\"card\">\n      <h3 data-i18n=\"home_extra_exp_title\">Block Explorer</h3>\n      <p data-i18n=\"home_extra_exp_desc\">View blocks, transactions, and validator status. For contract source, canonical views, and hash search, the whitepaper explains exactly when a request is rejected instead of guessed.</p>\n      <a class=\"btn\" href=\"pages/explorer.html\" data-i18n=\"home_extra_exp_btn\">Open Explorer</a>\n      <a class=\"btn\" href=\"whitepaper/modules/explorer.html\" data-i18n=\"home_extra_exp_btn2\">Explorer Boundary</a>\n    </div>\n  </section>\n\n  <section class=\"section-shell\">\n    <div class=\"section-title-wrapper section-title-tight\">\n      <div class=\"hex-deco\"></div>\n      <h2 class=\"section-title\" data-i18n=\"home_eco_title\">Ecosystem Registry</h2>\n    </div>\n    <p class=\"section-intro\" data-i18n=\"home_eco_intro\">Applications that are building on MSG Chain and are listed\n      as first-batch ecosystem applications. Every entry is at integration in development: registration is not an\n      endorsement, a partnership statement, or an audit conclusion, and it does not mean mainnet is live.</p>\n  </section>\n  <section class=\"links homepage-focus-grid\">\n    <div class=\"card\">\n      <h3>Billion.Life</h3>\n      <p data-i18n=\"home_eco_c1_desc\">Consumer dApp: personal tokens, social interaction, a store with contract\n        escrow, and traffic monetization.</p>\n      <a class=\"btn\" href=\"pages/ecosystem.html\" data-i18n=\"home_eco_btn\">Open Ecosystem Registry</a>\n    </div>\n    <div class=\"card\">\n      <h3>AI Pay</h3>\n      <p data-i18n=\"home_eco_c2_desc\">A local-first Web3 wallet with merchant acquiring and payment-gateway\n        functions; its MSG adapter is disabled by default.</p>\n      <a class=\"btn\" href=\"pages/ecosystem.html\" data-i18n=\"home_eco_btn\">Open Ecosystem Registry</a>\n    </div>\n    <div class=\"card\">\n      <h3>AIDID</h3>\n      <p data-i18n=\"home_eco_c3_desc\">A decentralized identity application layer: DID registration and resolution,\n        third-party login, and verifiable credentials.</p>\n      <a class=\"btn\" href=\"pages/ecosystem.html\" data-i18n=\"home_eco_btn\">Open Ecosystem Registry</a>\n    </div>\n  </section>\n\n  <section class=\"section-shell\">\n    <div class=\"section-title-wrapper section-title-tight\">\n      <div class=\"hex-deco\"></div>\n      <h2 class=\"section-title\" data-i18n=\"home_key_metrics_title\">Key Metrics</h2>\n      <span class=\"metric-tag\" data-i18n=\"home_metrics_tag\">Design targets</span>\n    </div>\n    <p class=\"section-intro\" data-i18n=\"home_metrics_note\">These values are design targets, not public-network measurements. Mainnet status is declared in /status.json.</p>\n  </section>\n  <section class=\"stats\">\n    <div class=\"stat\"><b>5s</b>\n      <div data-i18n=\"home_stats_block\">Block Time</div>\n    </div>\n    <div class=\"stat\"><b>100</b>\n      <div data-i18n=\"home_stats_validator\">Max Active Validators</div>\n    </div>\n    <div class=\"stat\"><b>104 / 96</b>\n      <div data-i18n=\"home_stats_hysteresis\">DAR Hysteresis</div>\n    </div>\n    <div class=\"stat\"><b>2 Pools</b>\n      <div data-i18n=\"home_stats_settlement\">Settlement Model</div>\n    </div>\n    <div class=\"stat\"><b>Dilithium-5</b>\n      <div data-i18n=\"home_stats_sig\">Post-Quantum Signatures</div>\n    </div>\n    <div class=\"stat\"><b>40/30/20/10</b>\n      <div data-i18n=\"home_stats_gas\">Gas Dist (%)</div>\n    </div>\n  </section>\n\n  <footer class=\"site-footer\">\n    <div class=\"logo-watermark footer-bg\" aria-hidden=\"true\"></div>\n    <p>© 2025 MSG Chain</p>\n    <div class=\"social-links\">\n      <a href=\"whitepaper/index.html\" class=\"social-link\" data-i18n=\"footer_whitepaper\">Whitepaper System</a>\n      <a href=\"whitepaper/modules/knowledge_graph_dynamic.html\" class=\"social-link\" data-i18n=\"footer_graph\">Knowledge\n        Graph</a>\n      <a href=\"https://x.com/msgchain\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-link\"\n        data-i18n=\"footer_twitter\">Twitter:\n        @msgchain</a>\n    </div>\n    <p><a href=\"robots.txt\">robots.txt</a> · <a href=\"sitemap.xml\">sitemap.xml</a></p>\n  </footer>\n\n  <script defer src=\"scripts/i18n.js?v=20260918a\"></script>\n  <script defer src=\"scripts/main.js?v=20260918a\"></script>\n  <script src=\"scripts/visuals.js?v=20260918a\"></script>\n  <script>\n    window.addEventListener('DOMContentLoaded', function () {\n      window.I18N && window.I18N.init();\n      window.Main && window.Main.init();\n    });\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"MSG Chain\",\"url\":\"https://msgchain.org/\",\"logo\":\"https://msgchain.org/msg_logo.png\"}\n  </script>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"698f5eac3b5149849512874cb55daa4d\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n\n</html>",
+   "url": "https://msgchain.org/"
+  },
+  "sitemap": {
+   "status": 200,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\r\n  <url><loc>https://msgchain.org/</loc></url>\r\n  <url><loc>https://msgchain.org/pages/technology.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/economics.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/security.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/performance.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/developer.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/governance.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/wallet.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/community.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/docs.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/dapp-docs.html</loc></url>\r\n  <url><loc>https://msgchain.org/dapp-docs/</loc></url>\r\n  <url><loc>https://msgchain.org/pages/validator.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/explorer.html</loc></url>\r\n  <url><loc>https://msgchain.org/pages/ecosystem.html</loc></url>\r\n  <url><loc>https://msgchain.org/docs/consensus.html</loc></url>\r\n  <url><loc>https://msgchain.org/docs/dar.html</loc></url>\r\n  <url><loc>https://msgchain.org/docs/economic-model.html</loc></url>\r\n</urlset>\r\n\r\n",
+   "url": "https://msgchain.org/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 200,
+   "body": "# msgchainorg — 官网维护指南（本智能体）\n\n## 角色边界（必读，勿搞错）\n\n本智能体**不是** MSGChain 开发项目的主线程/总指挥。本智能体是依附在\n`msg-chain-clean/docs/architecture_diagrams` + `msgchainorg` 上的\n**白皮书系统 + 官网维护者 / MSGChain 对外公关与生态第三方开发对接总负责人**。\n\n- **写权限仅两处**：`/mnt/d/TEST/app/app16/msgchainorg`（本站点）与\n  `/mnt/d/TEST/app/app16/msg-chain-clean/docs/architecture_diagrams`（白皮书唯一真实源）。\n  其余目录（含链代码 `cmd/` `pkg/` `sdk/`、其它项目仓库）**只读**。\n- **主线**：维护官网与白皮书系统、AI 入口；对外宣传展示；**脱敏后部署 Cloudflare Pages**；\n  为第三方开发者提供接入文档。\n- **不承担**：链侧实现/验收、发布门禁、`mainnet Go/No-Go` 裁决。\n- **向上反馈**：把真实未完成事项整理成清单交 C总 转交 MSGChain 总指挥；无证据不编造。\n\n## 目录与可写范围\n\n| 路径 | 权限 | 说明 |\n|---|---|---|\n| `index.html`、`pages/`、`docs/`、`styles/`、`scripts/`、`assets/`、`sitemap.xml`、`robots.txt`、`llms.txt`、`_headers`、`_redirects`、`status.json` | **可写** | 站点自有源 |\n| `dapp-docs/content/`、`dapp-docs/content/index.json` | **可写（唯一真实源）** | dApp 文档人工维护源 |\n| `dapp-docs/docs/`、`dapp-docs/manifest.json`、`dapp-docs/audit_report.json`、`pages/dapp-docs.html`、`dapp-docs/index.html` | **生成物** | 由 `scripts/build_dapp_docs.py` 生成；`docs/`+manifest+audit 被 gitignore（从磁盘部署），`pages/dapp-docs.html`+`dapp-docs/index.html` 是 tracked，改生成器后必须提交 |\n| `whitepaper/` | **同步副本（禁止手改）** | 由 `scripts/sync_whitepaper.py` 从白皮书源全量同步 |\n| `scripts/i18n.js` | **可写** | zh/en 双语表；任何新增 `data-i18n` key 必须两语都补 |\n\n## 构建 / 校验 / 同步 / 部署\n\n> **唯一发布入口（fail-closed）**：`bash scripts/deploy_site.sh`\n> 依次执行 ① `build_dapp_docs.py --build` ② `verify_dapp_docs.py` ③ `sync_whitepaper.py`\n> ④ **公开层口径机检** `docs/architecture_diagrams/check_public_boundary_vocabulary.py`（非 0 即中止）⑤ `wrangler pages deploy`。\n> `bash scripts/deploy_site.sh --check-only` 只跑闸门不部署（提交前用）。\n> 不要跳过闸门直接 `wrangler` 部署（否则口径残留/未同步的机器层会上线）。\n>\n> **部署过滤**：wrangler **不认 `.gitignore`**，所以闸门先把公开面复制到暂存目录，排除\n> `.git` / `node_modules` / `.wrangler` / **`social/`**（历史归档草稿与媒体，站点无引用）/ `logs/` /\n> `__pycache__` / `*.pyc`，再部署暂存目录；部署后用 cache-buster 断言 `social/inbox/...` 为 **404**。\n\n手工等价步骤（仅供理解闸门内部）：\n\n```bash\n# 1) 白皮书侧（源）\ncd /mnt/d/TEST/app/app16/msg-chain-clean/docs/architecture_diagrams\npython3 generate_all_v5.py            # 生成模块/机器层/清单\npython3 check_architecture_diagrams.py  # 期望: Checked modules: 73 / Failed modules: 0\n\n# 2) dApp 文档（官网侧）\ncd /mnt/d/TEST/app/app16/msgchainorg\npython3 scripts/build_dapp_docs.py --build   # 覆盖 dapp-docs/docs/** + manifest + 两个目录页\npython3 scripts/verify_dapp_docs.py          # fail-closed：文档数/链接锚点/i18n key 完整度/敏感标记\n\n# 3) 白皮书 → 官网同步（**部署前必须**，否则机器层改动到不了线上）\npython3 scripts/sync_whitepaper.py\n\n# 4) 部署（Cloudflare Pages；PAT 在 msg-chain-clean/PAT.txt 第 8/9 行，勿回显）\nexport CLOUDFLARE_API_TOKEN=...; export CLOUDFLARE_ACCOUNT_ID=...\nexport XDG_CONFIG_HOME=/tmp/msg-wrangler-config\nnpx wrangler pages deploy . --project-name msgchainorg --branch msgchainorg --commit-dirty=true\n```\n\n部署后**回读**：`curl -sL https://msgchain.org/<path>`（注意站点 308 到无 `.html` 的漂亮 URL）。\n\n## 内容与口径纪律\n\n- **公开口径**：主网状态 `No-Go`（翻转点=官方公告）；不使用任何外部门槛类词汇（完整规则见白皮书 `公开口径规则`；本仓库用\n  `docs/architecture_diagrams/check_public_boundary_vocabulary.py` 做机器复核）；\n  每篇 dApp 文档保持 `verification_status: not_independently_verified` + 开发阶段参考定位。\n- **脱敏**：`build_dapp_docs.py` 的 `INTERNAL_REPLACEMENTS`/`ABS_PATH_RE`/`redact_credential_literals`\n  与 `verify_dapp_docs.py` 的 `FORBIDDEN_RE` 已 fail-closed（私有路径、`/mnt/...`、`C:\\`、`PAT.txt`、\n  `docs/todos|logs/`、真实地址/凭证标记）。\n- **不编造**：无证据不写；规划不得写成已实现；本地/devnet 证据不得写成公网证据。\n- **AI 入口**：`/llms.txt`、`/whitepaper/agent_entry.json`、`/whitepaper/developer_entry.json`、\n  `/whitepaper/retrieval_hints.json`、`/dapp-docs/manifest.json`；新增文档面要同步进这些入口。\n\n## 与本机 TG 桥的关系\n\n本站点部署/构建与 TG 桥无关；若遇 pi-telegram 升级后 TG 断线，见\n`/mnt/d/TEST/app/app16/msgchain-management/05-tools/TG_PLUGIN_UPGRADE_RUNBOOK.md`\n（本智能体的写权限不含 `msgchain-management`，按 runbook 只读执行即可）。\n",
+   "url": "https://msgchain.org/AGENTS.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": true
+  }
+ },
+ "afr": {
+  "domain": "msgchain.org",
+  "engineVersion": "afr-1.1.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-11T09:15:29.241Z",
+  "score": 57,
+  "grade": "C",
+  "state": "scored",
+  "strategyTag": "Middle-Path",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 16.75,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 6.75,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 200"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 200, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Legibility",
+    "awarded": 36,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 11,
+      "max": 14,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 404; homepage links to llms.txt"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 8,
+      "max": 8,
+      "status": "pass",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "JSON-LD blocks ×2; contains key schema.org type; JSON-LD parsable"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 8,
+      "max": 8,
+      "status": "pass",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 4/4; single h1; html[lang] present; body text 1232 words"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 4,
+      "max": 4,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 5,
+      "max": 6,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "title \"MSG Chain | Official Website\"; meta description 253 chars; no date signal; body text 1232 words"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Actionability",
+    "awarded": 4,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "openapi probe + homepage HTML",
+       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 3,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /agents.md, /ai.txt + homepage HTML",
+       "detail": "agents.md fetchable; ai.txt not probed; homepage links to AI/Agent info page"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 1,
+      "max": 7,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; developer console ✓"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 6.75,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 11,
+   "l2.structured-data": 8,
+   "l2.semantic-html": 8,
+   "l2.sitemap": 4,
+   "l2.content-signals": 5,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 3,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 1
+  }
+ }
+}
