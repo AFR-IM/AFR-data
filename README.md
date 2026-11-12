@@ -1,6 +1,6 @@
-# aiapp-data
+# AFR-data
 
-Public scan data repository for [aiapp.im](https://aiapp.im) — AI-Friendliness Rated Directory.
+Public scan data repository for [afr.im](https://afr.im) — AI-Friendliness Rated Directory.
 
 This repository is the **single source of truth (SSOT)** for AFR scan snapshots.
 The site frontend rebuilds from this data; the D1 database can be fully rebuilt from it.
@@ -25,7 +25,7 @@ Each `scans/.../{domain}.json`:
 }
 ```
 
-- Engine: `packages/afr` in [imAiAPP/aiapp-web](https://github.com/imAiAPP/aiapp-web)
+- Engine: `packages/afr` in [AFR-IM/AFR-web](https://github.com/AFR-IM/AFR-web)
 - Scoring is a pure function — anyone can recompute any snapshot from `signals`.
 
 ## Corrections
