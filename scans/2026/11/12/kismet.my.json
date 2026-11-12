@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "kismet.my",
+    "fetchedAt": "2026-11-12T10:55:49.697Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nAllow: /\nDisallow: /design-system\n\nSitemap: https://kismet.my/sitemap.xml\n",
+      "url": "https://kismet.my/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content=\"MyKismet 我的天命 — 紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引（娱乐与自我反思定位）。\" />\n    <meta name=\"theme-color\" content=\"#131A3A\" />\n    <link rel=\"canonical\" href=\"https://kismet.my/\" />\n\n    <!-- OG（O-1 分享图阶段 C 产出前先用纯色占位规则） -->\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"MyKismet · 我的天命\" />\n    <meta property=\"og:description\" content=\"你的天命，每天两次，为你点亮 —— 五大术数 × AI 每日指引。\" />\n    <meta property=\"og:url\" content=\"https://kismet.my/\" />\n    <meta property=\"og:locale\" content=\"zh_CN\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n\n    <!-- 四芒星 favicon（内联 SVG，阶段 C 换 19.1.2 矢量 logo + 16/32ico） -->\n    <link\n      rel=\"icon\"\n      href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23131A3A'/%3E%3Cpath d='M16 4 L18.6 13.4 L28 16 L18.6 18.6 L16 28 L13.4 18.6 L4 16 L13.4 13.4 Z' fill='%23D4A94E'/%3E%3C/svg%3E\"\n    />\n\n    <!-- 字体（19.2.2）：\n         ① KismetDisplay 全站子集 + Inter 主分片本地 preload（两个 woff2 主文件，\n            19.2.2）——首屏字体在 JS 渲染前就绪，避免晚到重绘拖 LCP；\n         ② Cormorant Garamond（拉丁展示体）按需懒加载；\n         ③ 不外链 Google Fonts（19.8 LCP ≤2.5s；实测外链时 LCP 5.4–10.5s）。 -->\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/kismet-display-subset.woff2\" crossorigin />\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/inter-var.woff2\" crossorigin />\n\n    <title>MyKismet · 我的天命</title>\n    <script type=\"module\" crossorigin src=\"/assets/index-Bg00JWE8.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-BjgZUpgK.css\">\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <noscript>MyKismet 需要 JavaScript 才能绘制你的星图。</noscript>\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"162519a762da46a8872f763613ffeb37\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://kismet.my/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content=\"MyKismet 我的天命 — 紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引（娱乐与自我反思定位）。\" />\n    <meta name=\"theme-color\" content=\"#131A3A\" />\n    <link rel=\"canonical\" href=\"https://kismet.my/\" />\n\n    <!-- OG（O-1 分享图阶段 C 产出前先用纯色占位规则） -->\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"MyKismet · 我的天命\" />\n    <meta property=\"og:description\" content=\"你的天命，每天两次，为你点亮 —— 五大术数 × AI 每日指引。\" />\n    <meta property=\"og:url\" content=\"https://kismet.my/\" />\n    <meta property=\"og:locale\" content=\"zh_CN\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n\n    <!-- 四芒星 favicon（内联 SVG，阶段 C 换 19.1.2 矢量 logo + 16/32ico） -->\n    <link\n      rel=\"icon\"\n      href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23131A3A'/%3E%3Cpath d='M16 4 L18.6 13.4 L28 16 L18.6 18.6 L16 28 L13.4 18.6 L4 16 L13.4 13.4 Z' fill='%23D4A94E'/%3E%3C/svg%3E\"\n    />\n\n    <!-- 字体（19.2.2）：\n         ① KismetDisplay 全站子集 + Inter 主分片本地 preload（两个 woff2 主文件，\n            19.2.2）——首屏字体在 JS 渲染前就绪，避免晚到重绘拖 LCP；\n         ② Cormorant Garamond（拉丁展示体）按需懒加载；\n         ③ 不外链 Google Fonts（19.8 LCP ≤2.5s；实测外链时 LCP 5.4–10.5s）。 -->\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/kismet-display-subset.woff2\" crossorigin />\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/inter-var.woff2\" crossorigin />\n\n    <title>MyKismet · 我的天命</title>\n    <script type=\"module\" crossorigin src=\"/assets/index-Bg00JWE8.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-BjgZUpgK.css\">\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <noscript>MyKismet 需要 JavaScript 才能绘制你的星图。</noscript>\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"162519a762da46a8872f763613ffeb37\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://kismet.my/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content=\"MyKismet 我的天命 — 紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引（娱乐与自我反思定位）。\" />\n    <meta name=\"theme-color\" content=\"#131A3A\" />\n    <link rel=\"canonical\" href=\"https://kismet.my/\" />\n\n    <!-- OG（O-1 分享图阶段 C 产出前先用纯色占位规则） -->\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"MyKismet · 我的天命\" />\n    <meta property=\"og:description\" content=\"你的天命，每天两次，为你点亮 —— 五大术数 × AI 每日指引。\" />\n    <meta property=\"og:url\" content=\"https://kismet.my/\" />\n    <meta property=\"og:locale\" content=\"zh_CN\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n\n    <!-- 四芒星 favicon（内联 SVG，阶段 C 换 19.1.2 矢量 logo + 16/32ico） -->\n    <link\n      rel=\"icon\"\n      href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23131A3A'/%3E%3Cpath d='M16 4 L18.6 13.4 L28 16 L18.6 18.6 L16 28 L13.4 18.6 L4 16 L13.4 13.4 Z' fill='%23D4A94E'/%3E%3C/svg%3E\"\n    />\n\n    <!-- 字体（19.2.2）：\n         ① KismetDisplay 全站子集 + Inter 主分片本地 preload（两个 woff2 主文件，\n            19.2.2）——首屏字体在 JS 渲染前就绪，避免晚到重绘拖 LCP；\n         ② Cormorant Garamond（拉丁展示体）按需懒加载；\n         ③ 不外链 Google Fonts（19.8 LCP ≤2.5s；实测外链时 LCP 5.4–10.5s）。 -->\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/kismet-display-subset.woff2\" crossorigin />\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/inter-var.woff2\" crossorigin />\n\n    <title>MyKismet · 我的天命</title>\n    <script type=\"module\" crossorigin src=\"/assets/index-Bg00JWE8.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-BjgZUpgK.css\">\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <noscript>MyKismet 需要 JavaScript 才能绘制你的星图。</noscript>\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"162519a762da46a8872f763613ffeb37\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://kismet.my/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://kismet.my/</loc>\n    <lastmod>2026-11-11</lastmod>\n    <changefreq>weekly</changefreq>\n  </url>\n</urlset>\n",
+      "url": "https://kismet.my/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content=\"MyKismet 我的天命 — 紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引（娱乐与自我反思定位）。\" />\n    <meta name=\"theme-color\" content=\"#131A3A\" />\n    <link rel=\"canonical\" href=\"https://kismet.my/\" />\n\n    <!-- OG（O-1 分享图阶段 C 产出前先用纯色占位规则） -->\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"MyKismet · 我的天命\" />\n    <meta property=\"og:description\" content=\"你的天命，每天两次，为你点亮 —— 五大术数 × AI 每日指引。\" />\n    <meta property=\"og:url\" content=\"https://kismet.my/\" />\n    <meta property=\"og:locale\" content=\"zh_CN\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n\n    <!-- 四芒星 favicon（内联 SVG，阶段 C 换 19.1.2 矢量 logo + 16/32ico） -->\n    <link\n      rel=\"icon\"\n      href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23131A3A'/%3E%3Cpath d='M16 4 L18.6 13.4 L28 16 L18.6 18.6 L16 28 L13.4 18.6 L4 16 L13.4 13.4 Z' fill='%23D4A94E'/%3E%3C/svg%3E\"\n    />\n\n    <!-- 字体（19.2.2）：\n         ① KismetDisplay 全站子集 + Inter 主分片本地 preload（两个 woff2 主文件，\n            19.2.2）——首屏字体在 JS 渲染前就绪，避免晚到重绘拖 LCP；\n         ② Cormorant Garamond（拉丁展示体）按需懒加载；\n         ③ 不外链 Google Fonts（19.8 LCP ≤2.5s；实测外链时 LCP 5.4–10.5s）。 -->\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/kismet-display-subset.woff2\" crossorigin />\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/inter-var.woff2\" crossorigin />\n\n    <title>MyKismet · 我的天命</title>\n    <script type=\"module\" crossorigin src=\"/assets/index-Bg00JWE8.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-BjgZUpgK.css\">\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <noscript>MyKismet 需要 JavaScript 才能绘制你的星图。</noscript>\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"162519a762da46a8872f763613ffeb37\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://kismet.my/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://kismet.my/.well-known/mcp"
+      ]
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "kismet.my",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-12T10:55:49.697Z",
+    "score": 51,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 20,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 7 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"MyKismet · 我的天命\"; meta description 72 chars; no date signal; body text 7 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://kismet.my/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 4,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}
