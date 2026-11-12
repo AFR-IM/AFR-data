@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "adsrvr.org",
+    "fetchedAt": "2026-11-12T03:16:44.436Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
+      "url": "https://adsrvr.org/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
+      "url": "https://adsrvr.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
+      "url": "https://adsrvr.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Data Access Portal | The Trade Desk</title>\n\n    <link rel=\"stylesheet\" href=\"content/styles/ttd-website.css\" />\n    <link rel=\"stylesheet\" href=\"content/styles/dataportal.css\" />\n    <script src=\"https://code.jquery.com/jquery-3.7.1.min.js\" integrity=\"sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\" crossorigin=\"anonymous\"></script>\n    <script src=\"content/scripts/newrelic.js\"></script>\n    <script src=\"content/scripts/dataportal.js\"></script>\n</head>\n<body>\n    <header id=\"masthead\" role=\"banner\">\n        <div id=\"logo\">\n            <a href=\"https://www.thetradedesk.com/\">\n                <img src=\"https://www.thetradedesk.com/assets/global/ttd-logo.svg\" alt=\"The Trade Desk\">\n            </a>\n        </div>\n        <a href=\"https://www.thetradedesk.com/industry-initiatives/unified-id-solution\"></a>\n        <div id=\"right\" style=\"\n            position:  absolute;\n            bottom: 0;\n            right:  0;\">\n            <a href=\"https://www.thetradedesk.com/industry-initiatives/unified-id-solution\">Looking for the Unified ID Solution?</a>\n        </div>\n    </header>\n    \n    <main id=\"main\" role=\"main\">\n        <section id=\"general-top\" class=\"bg-only-top\">\n            <div class=\"bg bg-848832509 center-center\"></div>\n        </section>\n    \n        <div class=\"shadow-only\"></div>\n    \n        <section id=\"general-body\" class=\"container\">\n    \n            <div class=\"negative-top no-sidebar\">\n    \n                <div class=\"page-content\">\n    \n                    <h1>Control Over Your Personal Information</h1>\n                    <p>By following the instructions below, you may request The Trade Desk limit its (a) use of your personal information for targeted advertising purposes and (b) sale or sharing of your personal information. </p>\n                    <p>In response to browser and device providers changing their support for identifiers currently used for advertising, such as third-party cookies and device ids, it may be possible that you have more than one identifier associated with each browser or device. To enhance the scope of your choices related to targeted advertising and sale or sharing of your personal information, you should follow each of the instructions below.</p>\n\n                    <p>This page explains opt-out choices for The Trade Desk’s advertising platform. You can also control ad targeting cookies we may deploy on our corporate websites by following the instructions behind the footer link titled \"Cookies Settings\" on The Trade Desk websites that you visit.</p>\n    \n                    <h2>Cookie Based Opt-Out</h2>\n                    <p>Some things to keep in mind when using the cookie opt-out:</p>\n                    <ul style=\"padding-left:40px\">\n                        <li>If you use more than one computer, browser or browser profile, you will need to opt-out of cookies on every browser you use</li>\n                        <li>If you clear or delete your cookies, this will result in the deletion of your Trade Desk opt-out cookie, meaning you will need to re-set the opt-out following the deletion</li>\n                        <li>Even after opting out, you may continue to receive advertising through our services, but those ads may be less relevant</li>\n                        <li>After you opt-out, your browser's Trade Desk advertising cookie will be set to all zeros meaning your Trade Desk browser cookie will no longer allow us to target advertising to your interests based on this cookie</li>\n                    </ul>\n                    <p>Please note that if you block or otherwise restrict cookies this can affect choices, such as The Trade Desk opt-out, that are reliant on such cookies</p>\n                    <div class=\"opt-out\" id=\"opt-out\"><a class=\"button\" onclick=\"doOptOut()\">You can opt-out of targeted advertising based on The Trade Desk's browser cookie by clicking here.</a></div>\n                    <div id=\"opt-out-result\">\n                        <img id=\"result-icon\" src=\"content/images/info_blue.png\" alt=\"Result Icon\" />\n                        <span id=\"opt-out-result-success\">A Trade Desk opt out cookie has been successfully set.</span>\n                        <span id=\"opt-out-result-error\">An error occurred while processing your request. Please try again later.</span>\n                    </div>\n\n                    <h2>Industry Opt Out Pages</h2>\n                    <p>The online advertising industry provides opportunities for you to take control over the use of cookie-based identifiers created by companies, including The Trade Desk, that participate in industry self-regulatory programs. You may access these pages as follows:</p>\n                    <ul style=\"padding-left:40px\">\n                        <li>For US based opt-outs use <a href=\"https://www.aboutads.info/choices\">www.aboutads.info/choices</a> and/or <a href=\"https://www.networkadvertising.org/choices\">www.networkadvertising.org/choices</a></li>\n                        <li>For Canadian based opt-outs use <a href=\"https://www.youradchoices.ca/choices\">www.youradchoices.ca/choices</a></li>\n                        <li>For European based opt-outs use <a href=\"https://www.youronlinechoices.com\">www.youronlinechoices.com</a></li>\n                    </ul>\n    \n                    <h2>Device/Apps Opt Out</h2>\n                    <p>Some devices and apps don't have access to web-based browser cookie opt-outs</p>\n                    <ul style=\"padding-left:40px\">\n                        <li>To learn more about the advertising opt-outs provided by your mobile device's operating system (like iOS and Android) or the device manufacture, click <a href=\"https://thenai.org/how-to-opt-out/advertising-privacy-settings-on-mobile-devices/\">here.</a></li>\n                        <li>To learn more about to the advertising opt-outs provided by Connected TV streaming devices, click <a href=\"https://thenai.org/how-to-opt-out/advertising-privacy-settings-on-tvs-streaming-devices/\">here.</a></li>\n                    </ul>\n    \n                    <h2>Opting Out of Other Identifiers</h2>\n                    <p>You can learn more about your options to opt-out of targeted advertising from other identifiers by following the links below:</p>\n                    <ul style=\"padding-left:40px\">\n                        <li>For LiveRamp Identity Link: <a href=\"https://liveramp.com/opt_out/\">liveramp.com/opt-out</a></li>\n                        <li>For UID2: <a href=\"https://transparentadvertising.org/\">transparentadvertising.org</a></li>\n                        <li>For EUID: <a href=\"https://transparentadvertising.eu/\">transparentadvertising.eu</a></li>\n                    </ul>\n    \n                    <p>For additional information and to review our full Services Privacy Policy, click <a href=\"https://www.thetradedesk.com/legal/privacy\">here.</a></p>\n                </div>\n            </div>\n    \n        </section>\n    \n    </main>\n</body>\n</html>\n",
+      "url": "https://adsrvr.org/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
+      "url": "https://adsrvr.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
+      "url": "https://adsrvr.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "adsrvr.org",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-12T03:16:44.436Z",
+    "score": 45,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 35,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 25,
+            "max": 25,
+            "status": "pass",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 9.5,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 6.5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 2/4; single h1; html[lang] present; body text 512 words"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Data Access Portal | The Trade Desk\"; missing/too-short meta description; no date signal; body text 512 words"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 403; ai.txt not probed; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 25,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 6.5,
+      "l2.sitemap": 0,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
