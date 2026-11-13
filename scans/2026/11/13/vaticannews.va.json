@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "vaticannews.va",
+    "fetchedAt": "2026-11-13T03:32:56.723Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\nUser-agent: *\nSitemap: https://www.vaticannews.va/sitemap.xml",
+      "url": "https://www.vaticannews.va/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vaticannews.va/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vaticannews.va/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n\n<title>News from the Vatican - News about the Church - Vatican News</title>\n<meta name=\"description\"  content=\"Visit Vatican News for all the latest updates on Pope Francis, the Holy See and the Church in the World\"/>\n<link rel=\"canonical\" href=\"https://www.vaticannews.va/en.html\"/>\n\n</head>\n<body onload=\"checkCookie()\"><a href=\"https://www.vaticannews.va/cdn-cgi/content?id=lxUbjj_vC0Zwf6Ka5vJ3oCqFFr.MMyxzcvbqnyDRGU4-1794540772.9326146-1.2.1.1-ZwNssGcy_XrAcSCVX1bSZWCMjgDYQHqAd1ObzoYR1Kn90Mi_Wqs26kLay2bq_opA\" aria-hidden=\"true\" rel=\"nofollow noopener\" style=\"display: none !important; visibility: hidden !important\"></a>\n    <div>\n\n        <script>\n        function getCookie(cname) {\n          let name = cname + \"=\";\n          let decodedCookie = decodeURIComponent(document.cookie);\n          let ca = decodedCookie.split(';');\n          for(let i = 0; i < ca.length; i++) {\n            let c = ca[i];\n            while (c.charAt(0) == ' ') {\n              c = c.substring(1);\n            }\n            if (c.indexOf(name) == 0) {\n              return c.substring(name.length, c.length);\n            }\n          }\n          return \"\";\n        }\n\n        function checkCookie() {\n          let lang = getCookie(\"vn_lang_choosen\");\n          if (lang != \"\") {\n            location.href=\"/\"+lang+\".html\";\n          } else {\n            location.href=\"/en.html\";\n          }\n        }\n        </script>\n\n        <a href=\"/en.html\"></a>\n\n    </div>\n</body>\n</html>\n",
+      "url": "https://www.vaticannews.va/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.it.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.en.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.fr.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.de.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.es.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.pt.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.pl.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.sv.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.lt.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.sl.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.sk.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.hy.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.hr.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.hu.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.cs.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.lv.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.sq.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.bg.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.be.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ru.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ro.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.uk.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.zht.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.zh.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ta.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.vi.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.hi.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ml.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.mk.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.mn.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ti.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.am.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ja.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ko.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.sw.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ar.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.he.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.kn.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.ln.xml</loc>\n   </sitemap>\n   <sitemap>\n      <loc>https://www.vaticannews.va/sitemap.az.xml</loc>\n   </sitemap>\n</sitemapindex>\n",
+      "url": "https://www.vaticannews.va/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body><a href=\"https://www.vaticannews.va/cdn-cgi/content?id=ogZcg9KiyMNpMp7SV0j4BmFRi8UW8FFMlBjMrflxc3M-1794540774.2738144-1.2.1.1-ZvbHH8gJd33ladvWVVnVHv_swHLxiu0_s0u3jj4LrniDOQitvPnzJZFkK3GKS_ww\" aria-hidden=\"true\" rel=\"nofollow noopener\" style=\"display: none !important; visibility: hidden !important\"></a>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vaticannews.va/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vaticannews.va/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "vaticannews.va",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-13T03:32:56.723Z",
+    "score": 24,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 16.75,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 6.75,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 7,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 12 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"News from the Vatican - News about the C\"; meta description 103 chars; no date signal; body text 12 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 404; ai.txt HTTP 404; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 6.75,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 4,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "vatican.va",
+    "fetchedAt": "2026-11-13T03:00:48.883Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nAllow: * \nCrawl-delay: 2\n",
+      "url": "https://www.vatican.va/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /llms.txt was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vatican.va/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /llms-full.txt was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vatican.va/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n    <meta charset=\"UTF-8\">\n    \n\n\n\n\n\n<!-- BEGIN: SEO -->\n<title>Vatican</title>\n<meta name=\"description\" content=\"\">\n<meta name=\"keywords\" content=\"\">\n\n<link rel=\"canonical\" href=\"https://www.vatican.va/content/vatican.html\">\n<meta name=\"robots\" content=\"index,follow\">\n\n<!-- BEGIN: OG -->\n<meta property=\"og:title\" content=\"Vatican\">\n\n\n<meta property=\"og:url\" content=\"https://www.vatican.va/content/vatican.html\">\n<meta property=\"og:type\" content=\"website\">\n<!-- END OG-->\n<!-- END: SEO -->\n\n    \n\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-P8S9M8D');</script>\n<!-- End Google Tag Manager -->\n\n\n\n    \n\n\n<!-- BEGIN: headlibs -->\n<link rel=\"stylesheet\" href=\"/etc/clientlibs/foundation/main.min.77f07f85da93e61bb291da28df2065ac.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc/designs/generics2/library/clientlibs.min.25498fb47f0d5f43eead9ee78241c07f.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc/designs/vatican/library/clientlibs.min.b767020478782976e68f777449b5ac6c.css\" type=\"text/css\">\n<script type=\"text/javascript\" src=\"/etc/clientlibs/granite/jquery.min.e0cc37eb1ac1cf9f859edde97cb8dc9f.js\"></script>\n<script type=\"text/javascript\" src=\"/etc/clientlibs/granite/utils.min.cd31222ac49213ace66f3568912db918.js\"></script>\n<script type=\"text/javascript\" src=\"/etc/clientlibs/granite/jquery/granite.min.e26b5f40a34d432bee3ded1ccbdc7041.js\"></script>\n<script type=\"text/javascript\" src=\"/etc/clientlibs/foundation/jquery.min.d7c42e4a257b8b9fe38d1c53dd20d01a.js\"></script>\n<script type=\"text/javascript\" src=\"/etc/clientlibs/foundation/main.min.1705fea38fedb11b0936752ffe8a5fc6.js\"></script>\n<script type=\"text/javascript\" src=\"/etc/designs/generics2/library/clientlibs.min.8bdb4992c9cb6a2a85205683d40bd4af.js\"></script>\n<script type=\"text/javascript\" src=\"/etc/designs/vatican/library/clientlibs.min.a048ef155d62651cae0435360a52b70c.js\"></script>\n\n<!-- END: headlibs -->\n\n    \n\n    \n\n    \n    <link rel=\"icon\" type=\"image/vnd.microsoft.icon\" href=\"/etc/designs/vatican/favicon.ico\">\n    <link rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon\" href=\"/etc/designs/vatican/favicon.ico\">\n    \n    \n</head>\n<body>\n    <div class=\"siv-maincontainer-redirect\">\n        <div style=\"max-width:800px;padding:100px;margin: auto;\">\n        <div class=\"parbase redirect\">\"\n\n\n\n    <script type=\"text/javascript\">\n    //IE8 indexOf fix\n    if (!Array.prototype.indexOf) {\n        Array.prototype.indexOf = function(obj, start) {\n             for (var i = (start || 0), j = this.length; i < j; i++) {\n                 if (this[i] === obj) { return i; }\n             }\n             return -1;\n        }\n    }\n\n    //debugger;\n    var langArray = new Array('it','en','fr','es','de','pt','ar');\n    var langDefault = \"en\";\n    \n    var langBrowser = window.navigator.language || window.navigator.userLanguage;\n    if(langBrowser){\n        langBrowser = langBrowser.toLowerCase().substring(0,2);\n    }\n    \n    var urlRedirect = null;\n    var ind = langArray.indexOf(langBrowser);\n    \n    if(ind>=0){\n        urlRedirect = \"/content/vatican/\"+langArray[ind]+\".html\";\n    }else{\n        urlRedirect = \"/content/vatican/\"+langDefault+\".html\";\n    }\n    /*\n    if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {\n        //console.log(\"mobile\");\n        if(window.location.host == \"m.vatican.va\") {\n            //console.log(\"m.vatican\");\n            //if($(window).width() < 768) {\n            urlRedirect = urlRedirect.replace(\"/content/vatican/\", \"/content/francescomobile/\")\n            urlRedirect = urlRedirect.replace(\"/content/francesco/\", \"/content/francescomobile/\")\n            //}\n        }\n    }\n    */\n    function redir(){\n        if(urlRedirect!=null){\n            location.href=urlRedirect;\n        }\n    }\n\n    function print(){\n        if(urlRedirect!=null){\n            document.write(urlRedirect);\n        }\n    }\n\n\n\n    \n    </script>\n    \n\n\n    <script type=\"text/javascript\">\n    redir();\n    </script>\n\"</div>\n\n        </div>\n    </div>\n</body>\n</html>",
+      "url": "https://vatican.va/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /sitemap.xml was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vatican.va/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /AGENTS.md was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vatican.va/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /ai.txt was not found on this server.</p>\n</body></html>\n",
+      "url": "https://www.vatican.va/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "vatican.va",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-13T03:00:48.883Z",
+    "score": 24,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 3 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Vatican\"; missing/too-short meta description; no date signal; body text 3 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 404; ai.txt HTTP 404; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

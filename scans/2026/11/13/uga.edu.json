@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "uga.edu",
+    "fetchedAt": "2026-11-13T03:17:26.904Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\n\nAllow: /\n\n# Disallow crawling of sensitive files and directories\n# Disallow: /admin/\nDisallow: /prerendered/\n\n# Allow crawling of sitemap.xml file (optional)\nAllow: /sitemap.xml\n\n# Specify crawl rate limits (optional)\nCrawl-Delay: 10\n\n# Sitemap location\nSitemap: https://www.uga.edu/sitemap.xml",
+      "url": "https://www.uga.edu/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link rel=\"icon\" href=\"/favicon.ico\"><title>UGA</title><link href=\"/css/History.b8cd38a1.css\" rel=\"prefetch\"><link href=\"/css/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.4917e849.css\" rel=\"prefetch\"><link href=\"/css/about.f3cfe8da.css\" rel=\"prefetch\"><link href=\"/css/academic-excellence.3c725ff5.css\" rel=\"prefetch\"><link href=\"/css/board-of-regents.2d3b79ee.css\" rel=\"prefetch\"><link href=\"/css/campuses.674e66d2.css\" rel=\"prefetch\"><link href=\"/css/community.c57833b6.css\" rel=\"prefetch\"><link href=\"/css/directory.fa9670d1.css\" rel=\"prefetch\"><link href=\"/css/directory~schools.b6d08816.css\" rel=\"prefetch\"><link href=\"/css/facts.23d2db56.css\" rel=\"prefetch\"><link href=\"/css/faculty-staff.1847bf75.css\" rel=\"prefetch\"><link href=\"/css/holiday-schedule.c030d0e1.css\" rel=\"prefetch\"><link href=\"/css/home.10d0baad.css\" rel=\"prefetch\"><link href=\"/css/not-found.7ac48671.css\" rel=\"prefetch\"><link href=\"/css/research.6e7f8d4f.css\" rel=\"prefetch\"><link href=\"/css/schools.2bd05bca.css\" rel=\"prefetch\"><link href=\"/css/search.9bdf827e.css\" rel=\"prefetch\"><link href=\"/js/History.94916935.js\" rel=\"prefetch\"><link href=\"/js/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.eb5cd568.js\" rel=\"prefetch\"><link href=\"/js/about.93e91e4c.js\" rel=\"prefetch\"><link href=\"/js/academic-excellence.67e4c111.js\" rel=\"prefetch\"><link href=\"/js/board-of-regents.99fc7e6e.js\" rel=\"prefetch\"><link href=\"/js/campuses.ea5c4720.js\" rel=\"prefetch\"><link href=\"/js/community.0f8dc791.js\" rel=\"prefetch\"><link href=\"/js/directory.99da406d.js\" rel=\"prefetch\"><link href=\"/js/directory~schools.8a89ff83.js\" rel=\"prefetch\"><link href=\"/js/facts.5159e63b.js\" rel=\"prefetch\"><link href=\"/js/faculty-staff.87dc55c8.js\" rel=\"prefetch\"><link href=\"/js/holiday-schedule.e43ababd.js\" rel=\"prefetch\"><link href=\"/js/home.223835c5.js\" rel=\"prefetch\"><link href=\"/js/mission.9955f61a.js\" rel=\"prefetch\"><link href=\"/js/not-found.faff5884.js\" rel=\"prefetch\"><link href=\"/js/research.057e307f.js\" rel=\"prefetch\"><link href=\"/js/schools.d6bae034.js\" rel=\"prefetch\"><link href=\"/js/search.ab3644a7.js\" rel=\"prefetch\"><link href=\"/js/social-media.d205a8f8.js\" rel=\"prefetch\"><link href=\"/js/weather-policy.45b0b2cf.js\" rel=\"prefetch\"><link href=\"/css/app.2150044f.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.c4c4e10a.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.8050abd8.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"stylesheet\"><link href=\"/css/app.2150044f.css\" rel=\"stylesheet\"></head><body><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TFFQL3Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><noscript><strong>The University of Georgia: A leading land-grant university committed to research, service, and student-centered education.</strong></noscript><div id=\"app\"></div><script src=\"https://cdn.uga.edu/uga/assets/js/dataprivacy-cookie.js\"></script><script src=\"/js/chunk-vendors.8050abd8.js\"></script><script src=\"/js/app.c4c4e10a.js\"></script></body></html>",
+      "url": "https://www.uga.edu/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link rel=\"icon\" href=\"/favicon.ico\"><title>UGA</title><link href=\"/css/History.b8cd38a1.css\" rel=\"prefetch\"><link href=\"/css/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.4917e849.css\" rel=\"prefetch\"><link href=\"/css/about.f3cfe8da.css\" rel=\"prefetch\"><link href=\"/css/academic-excellence.3c725ff5.css\" rel=\"prefetch\"><link href=\"/css/board-of-regents.2d3b79ee.css\" rel=\"prefetch\"><link href=\"/css/campuses.674e66d2.css\" rel=\"prefetch\"><link href=\"/css/community.c57833b6.css\" rel=\"prefetch\"><link href=\"/css/directory.fa9670d1.css\" rel=\"prefetch\"><link href=\"/css/directory~schools.b6d08816.css\" rel=\"prefetch\"><link href=\"/css/facts.23d2db56.css\" rel=\"prefetch\"><link href=\"/css/faculty-staff.1847bf75.css\" rel=\"prefetch\"><link href=\"/css/holiday-schedule.c030d0e1.css\" rel=\"prefetch\"><link href=\"/css/home.10d0baad.css\" rel=\"prefetch\"><link href=\"/css/not-found.7ac48671.css\" rel=\"prefetch\"><link href=\"/css/research.6e7f8d4f.css\" rel=\"prefetch\"><link href=\"/css/schools.2bd05bca.css\" rel=\"prefetch\"><link href=\"/css/search.9bdf827e.css\" rel=\"prefetch\"><link href=\"/js/History.94916935.js\" rel=\"prefetch\"><link href=\"/js/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.eb5cd568.js\" rel=\"prefetch\"><link href=\"/js/about.93e91e4c.js\" rel=\"prefetch\"><link href=\"/js/academic-excellence.67e4c111.js\" rel=\"prefetch\"><link href=\"/js/board-of-regents.99fc7e6e.js\" rel=\"prefetch\"><link href=\"/js/campuses.ea5c4720.js\" rel=\"prefetch\"><link href=\"/js/community.0f8dc791.js\" rel=\"prefetch\"><link href=\"/js/directory.99da406d.js\" rel=\"prefetch\"><link href=\"/js/directory~schools.8a89ff83.js\" rel=\"prefetch\"><link href=\"/js/facts.5159e63b.js\" rel=\"prefetch\"><link href=\"/js/faculty-staff.87dc55c8.js\" rel=\"prefetch\"><link href=\"/js/holiday-schedule.e43ababd.js\" rel=\"prefetch\"><link href=\"/js/home.223835c5.js\" rel=\"prefetch\"><link href=\"/js/mission.9955f61a.js\" rel=\"prefetch\"><link href=\"/js/not-found.faff5884.js\" rel=\"prefetch\"><link href=\"/js/research.057e307f.js\" rel=\"prefetch\"><link href=\"/js/schools.d6bae034.js\" rel=\"prefetch\"><link href=\"/js/search.ab3644a7.js\" rel=\"prefetch\"><link href=\"/js/social-media.d205a8f8.js\" rel=\"prefetch\"><link href=\"/js/weather-policy.45b0b2cf.js\" rel=\"prefetch\"><link href=\"/css/app.2150044f.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.c4c4e10a.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.8050abd8.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"stylesheet\"><link href=\"/css/app.2150044f.css\" rel=\"stylesheet\"></head><body><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TFFQL3Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><noscript><strong>The University of Georgia: A leading land-grant university committed to research, service, and student-centered education.</strong></noscript><div id=\"app\"></div><script src=\"https://cdn.uga.edu/uga/assets/js/dataprivacy-cookie.js\"></script><script src=\"/js/chunk-vendors.8050abd8.js\"></script><script src=\"/js/app.c4c4e10a.js\"></script></body></html>",
+      "url": "https://www.uga.edu/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link rel=\"icon\" href=\"/favicon.ico\"><title>UGA</title><link href=\"/css/History.b8cd38a1.css\" rel=\"prefetch\"><link href=\"/css/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.4917e849.css\" rel=\"prefetch\"><link href=\"/css/about.f3cfe8da.css\" rel=\"prefetch\"><link href=\"/css/academic-excellence.3c725ff5.css\" rel=\"prefetch\"><link href=\"/css/board-of-regents.2d3b79ee.css\" rel=\"prefetch\"><link href=\"/css/campuses.674e66d2.css\" rel=\"prefetch\"><link href=\"/css/community.c57833b6.css\" rel=\"prefetch\"><link href=\"/css/directory.fa9670d1.css\" rel=\"prefetch\"><link href=\"/css/directory~schools.b6d08816.css\" rel=\"prefetch\"><link href=\"/css/facts.23d2db56.css\" rel=\"prefetch\"><link href=\"/css/faculty-staff.1847bf75.css\" rel=\"prefetch\"><link href=\"/css/holiday-schedule.c030d0e1.css\" rel=\"prefetch\"><link href=\"/css/home.10d0baad.css\" rel=\"prefetch\"><link href=\"/css/not-found.7ac48671.css\" rel=\"prefetch\"><link href=\"/css/research.6e7f8d4f.css\" rel=\"prefetch\"><link href=\"/css/schools.2bd05bca.css\" rel=\"prefetch\"><link href=\"/css/search.9bdf827e.css\" rel=\"prefetch\"><link href=\"/js/History.94916935.js\" rel=\"prefetch\"><link href=\"/js/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.eb5cd568.js\" rel=\"prefetch\"><link href=\"/js/about.93e91e4c.js\" rel=\"prefetch\"><link href=\"/js/academic-excellence.67e4c111.js\" rel=\"prefetch\"><link href=\"/js/board-of-regents.99fc7e6e.js\" rel=\"prefetch\"><link href=\"/js/campuses.ea5c4720.js\" rel=\"prefetch\"><link href=\"/js/community.0f8dc791.js\" rel=\"prefetch\"><link href=\"/js/directory.99da406d.js\" rel=\"prefetch\"><link href=\"/js/directory~schools.8a89ff83.js\" rel=\"prefetch\"><link href=\"/js/facts.5159e63b.js\" rel=\"prefetch\"><link href=\"/js/faculty-staff.87dc55c8.js\" rel=\"prefetch\"><link href=\"/js/holiday-schedule.e43ababd.js\" rel=\"prefetch\"><link href=\"/js/home.223835c5.js\" rel=\"prefetch\"><link href=\"/js/mission.9955f61a.js\" rel=\"prefetch\"><link href=\"/js/not-found.faff5884.js\" rel=\"prefetch\"><link href=\"/js/research.057e307f.js\" rel=\"prefetch\"><link href=\"/js/schools.d6bae034.js\" rel=\"prefetch\"><link href=\"/js/search.ab3644a7.js\" rel=\"prefetch\"><link href=\"/js/social-media.d205a8f8.js\" rel=\"prefetch\"><link href=\"/js/weather-policy.45b0b2cf.js\" rel=\"prefetch\"><link href=\"/css/app.2150044f.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.c4c4e10a.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.8050abd8.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"stylesheet\"><link href=\"/css/app.2150044f.css\" rel=\"stylesheet\"></head><body><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TFFQL3Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><noscript><strong>The University of Georgia: A leading land-grant university committed to research, service, and student-centered education.</strong></noscript><div id=\"app\"></div><script src=\"https://cdn.uga.edu/uga/assets/js/dataprivacy-cookie.js\"></script><script src=\"/js/chunk-vendors.8050abd8.js\"></script><script src=\"/js/app.c4c4e10a.js\"></script></body></html>",
+      "url": "https://www.uga.edu/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://www.uga.edu/</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about/mission</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about/academic-excellence</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about/facts</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about/history-and-traditions</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about/research</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about/value</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about/serving-georgia</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/about/campuses</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/schools</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/directory</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/faculty-and-staff</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/community</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/search</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/holiday-schedule</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/weather-policy</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/download-app</loc>\n  </url>\n  <url>\n    <loc>https://www.uga.edu/social-media</loc>\n  </url>\n</urlset>",
+      "url": "https://www.uga.edu/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link rel=\"icon\" href=\"/favicon.ico\"><title>UGA</title><link href=\"/css/History.b8cd38a1.css\" rel=\"prefetch\"><link href=\"/css/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.4917e849.css\" rel=\"prefetch\"><link href=\"/css/about.f3cfe8da.css\" rel=\"prefetch\"><link href=\"/css/academic-excellence.3c725ff5.css\" rel=\"prefetch\"><link href=\"/css/board-of-regents.2d3b79ee.css\" rel=\"prefetch\"><link href=\"/css/campuses.674e66d2.css\" rel=\"prefetch\"><link href=\"/css/community.c57833b6.css\" rel=\"prefetch\"><link href=\"/css/directory.fa9670d1.css\" rel=\"prefetch\"><link href=\"/css/directory~schools.b6d08816.css\" rel=\"prefetch\"><link href=\"/css/facts.23d2db56.css\" rel=\"prefetch\"><link href=\"/css/faculty-staff.1847bf75.css\" rel=\"prefetch\"><link href=\"/css/holiday-schedule.c030d0e1.css\" rel=\"prefetch\"><link href=\"/css/home.10d0baad.css\" rel=\"prefetch\"><link href=\"/css/not-found.7ac48671.css\" rel=\"prefetch\"><link href=\"/css/research.6e7f8d4f.css\" rel=\"prefetch\"><link href=\"/css/schools.2bd05bca.css\" rel=\"prefetch\"><link href=\"/css/search.9bdf827e.css\" rel=\"prefetch\"><link href=\"/js/History.94916935.js\" rel=\"prefetch\"><link href=\"/js/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.eb5cd568.js\" rel=\"prefetch\"><link href=\"/js/about.93e91e4c.js\" rel=\"prefetch\"><link href=\"/js/academic-excellence.67e4c111.js\" rel=\"prefetch\"><link href=\"/js/board-of-regents.99fc7e6e.js\" rel=\"prefetch\"><link href=\"/js/campuses.ea5c4720.js\" rel=\"prefetch\"><link href=\"/js/community.0f8dc791.js\" rel=\"prefetch\"><link href=\"/js/directory.99da406d.js\" rel=\"prefetch\"><link href=\"/js/directory~schools.8a89ff83.js\" rel=\"prefetch\"><link href=\"/js/facts.5159e63b.js\" rel=\"prefetch\"><link href=\"/js/faculty-staff.87dc55c8.js\" rel=\"prefetch\"><link href=\"/js/holiday-schedule.e43ababd.js\" rel=\"prefetch\"><link href=\"/js/home.223835c5.js\" rel=\"prefetch\"><link href=\"/js/mission.9955f61a.js\" rel=\"prefetch\"><link href=\"/js/not-found.faff5884.js\" rel=\"prefetch\"><link href=\"/js/research.057e307f.js\" rel=\"prefetch\"><link href=\"/js/schools.d6bae034.js\" rel=\"prefetch\"><link href=\"/js/search.ab3644a7.js\" rel=\"prefetch\"><link href=\"/js/social-media.d205a8f8.js\" rel=\"prefetch\"><link href=\"/js/weather-policy.45b0b2cf.js\" rel=\"prefetch\"><link href=\"/css/app.2150044f.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.c4c4e10a.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.8050abd8.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"stylesheet\"><link href=\"/css/app.2150044f.css\" rel=\"stylesheet\"></head><body><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TFFQL3Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><noscript><strong>The University of Georgia: A leading land-grant university committed to research, service, and student-centered education.</strong></noscript><div id=\"app\"></div><script src=\"https://cdn.uga.edu/uga/assets/js/dataprivacy-cookie.js\"></script><script src=\"/js/chunk-vendors.8050abd8.js\"></script><script src=\"/js/app.c4c4e10a.js\"></script></body></html>",
+      "url": "https://www.uga.edu/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link rel=\"icon\" href=\"/favicon.ico\"><title>UGA</title><link href=\"/css/History.b8cd38a1.css\" rel=\"prefetch\"><link href=\"/css/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.4917e849.css\" rel=\"prefetch\"><link href=\"/css/about.f3cfe8da.css\" rel=\"prefetch\"><link href=\"/css/academic-excellence.3c725ff5.css\" rel=\"prefetch\"><link href=\"/css/board-of-regents.2d3b79ee.css\" rel=\"prefetch\"><link href=\"/css/campuses.674e66d2.css\" rel=\"prefetch\"><link href=\"/css/community.c57833b6.css\" rel=\"prefetch\"><link href=\"/css/directory.fa9670d1.css\" rel=\"prefetch\"><link href=\"/css/directory~schools.b6d08816.css\" rel=\"prefetch\"><link href=\"/css/facts.23d2db56.css\" rel=\"prefetch\"><link href=\"/css/faculty-staff.1847bf75.css\" rel=\"prefetch\"><link href=\"/css/holiday-schedule.c030d0e1.css\" rel=\"prefetch\"><link href=\"/css/home.10d0baad.css\" rel=\"prefetch\"><link href=\"/css/not-found.7ac48671.css\" rel=\"prefetch\"><link href=\"/css/research.6e7f8d4f.css\" rel=\"prefetch\"><link href=\"/css/schools.2bd05bca.css\" rel=\"prefetch\"><link href=\"/css/search.9bdf827e.css\" rel=\"prefetch\"><link href=\"/js/History.94916935.js\" rel=\"prefetch\"><link href=\"/js/History~about~academic-excellence~board-of-regents~community~facts~faculty-staff~mission~research~so~ffba6c80.eb5cd568.js\" rel=\"prefetch\"><link href=\"/js/about.93e91e4c.js\" rel=\"prefetch\"><link href=\"/js/academic-excellence.67e4c111.js\" rel=\"prefetch\"><link href=\"/js/board-of-regents.99fc7e6e.js\" rel=\"prefetch\"><link href=\"/js/campuses.ea5c4720.js\" rel=\"prefetch\"><link href=\"/js/community.0f8dc791.js\" rel=\"prefetch\"><link href=\"/js/directory.99da406d.js\" rel=\"prefetch\"><link href=\"/js/directory~schools.8a89ff83.js\" rel=\"prefetch\"><link href=\"/js/facts.5159e63b.js\" rel=\"prefetch\"><link href=\"/js/faculty-staff.87dc55c8.js\" rel=\"prefetch\"><link href=\"/js/holiday-schedule.e43ababd.js\" rel=\"prefetch\"><link href=\"/js/home.223835c5.js\" rel=\"prefetch\"><link href=\"/js/mission.9955f61a.js\" rel=\"prefetch\"><link href=\"/js/not-found.faff5884.js\" rel=\"prefetch\"><link href=\"/js/research.057e307f.js\" rel=\"prefetch\"><link href=\"/js/schools.d6bae034.js\" rel=\"prefetch\"><link href=\"/js/search.ab3644a7.js\" rel=\"prefetch\"><link href=\"/js/social-media.d205a8f8.js\" rel=\"prefetch\"><link href=\"/js/weather-policy.45b0b2cf.js\" rel=\"prefetch\"><link href=\"/css/app.2150044f.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.c4c4e10a.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.8050abd8.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.71d1adc2.css\" rel=\"stylesheet\"><link href=\"/css/app.2150044f.css\" rel=\"stylesheet\"></head><body><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TFFQL3Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><noscript><strong>The University of Georgia: A leading land-grant university committed to research, service, and student-centered education.</strong></noscript><div id=\"app\"></div><script src=\"https://cdn.uga.edu/uga/assets/js/dataprivacy-cookie.js\"></script><script src=\"/js/chunk-vendors.8050abd8.js\"></script><script src=\"/js/app.c4c4e10a.js\"></script></body></html>",
+      "url": "https://www.uga.edu/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "uga.edu",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-13T03:17:26.904Z",
+    "score": 44,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 18,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 16 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"UGA\"; missing/too-short meta description; no date signal; body text 16 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 3,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md fetchable; ai.txt fetchable; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 4,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 3,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

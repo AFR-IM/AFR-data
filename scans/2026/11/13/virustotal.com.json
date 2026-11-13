@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "virustotal.com",
+    "fetchedAt": "2026-11-13T03:03:12.530Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: Baiduspider\nDisallow: /static/css/\nDisallow: /static/js/\nDisallow: /static/font/\nDisallow: /static/tiny_mce/\nDisallow: /static/fileupload/\nDisallow: /static/codemirror/\nDisallow: /static/prettify/\nDisallow: /static/select2/\nDisallow: /?*apikey*",
+      "url": "https://virustotal.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "",
+      "url": "https://virustotal.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <meta name=\"color-scheme\" content=\"light dark\" />\n    <title>The page you navigated to does not exist - VirusTotal</title>\n    <link\n      rel=\"icon\"\n      type=\"image/svg+xml\"\n      href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 108 109'%3E%3Cpath fill='%230b4dda' d='M0 5.9l48.7 48.6L0 103h107.5V5.9zm97.1 86.7H24.5l38.4-38.1-38.4-38.2h72.6z'/%3E%3C/svg%3E\"\n    />\n    <style>\n      :root {\n        --bs-primary: #0b4dda;\n        --bs-primary-rgb: 11, 77, 218;\n        --bs-primary-bg-subtle: #cfddfc;\n        --bs-primary-text-emphasis: #062b79;\n        --bs-primary-border-subtle: #9db8f0;\n        --bs-body-bg: #fff;\n        --bs-body-color: #20242c;\n        --bs-secondary-color: #363c49;\n        --bs-secondary-bg: #f9fafb;\n        --bs-tertiary-color: #626c84;\n        --bs-tertiary-bg: #eceef4;\n        --bs-border-color: #e5e9f0;\n        --bs-border-radius: 0.375rem;\n        --bs-border-radius-lg: 0.5rem;\n        --bs-focus-ring: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);\n        --bs-font-sans-serif:\n          \"Source Sans Pro\", Roboto, RobotoDraft, Helvetica, Arial, system-ui,\n          sans-serif;\n      }\n      @media (prefers-color-scheme: dark) {\n        :root {\n          --bs-primary: #86aaf9;\n          --bs-primary-rgb: 134, 170, 249;\n          --bs-primary-bg-subtle: #28334b;\n          --bs-primary-text-emphasis: #b6ccfb;\n          --bs-primary-border-subtle: #5e77ae;\n          --bs-body-bg: #161625;\n          --bs-body-color: #fff;\n          --bs-secondary-color: #c3d2e8;\n          --bs-secondary-bg: #232c42;\n          --bs-tertiary-color: #8997b4;\n          --bs-tertiary-bg: #2f3d5c;\n          --bs-border-color: #3d4a69;\n        }\n      }\n      *,\n      ::before,\n      ::after {\n        box-sizing: border-box;\n      }\n      body {\n        margin: 0;\n        min-height: 100vh;\n        display: flex;\n        flex-direction: column;\n        font: 400 1rem/1.5 var(--bs-font-sans-serif);\n        color: var(--bs-body-color);\n        background: var(--bs-body-bg);\n        -webkit-font-smoothing: antialiased;\n      }\n      a {\n        color: var(--bs-body-color);\n        text-decoration: none;\n        border-radius: var(--bs-border-radius);\n      }\n      a:hover {\n        color: var(--bs-primary);\n      }\n      a:focus-visible {\n        outline: 0;\n        box-shadow: var(--bs-focus-ring);\n      }\n      .navbar {\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        gap: 1rem;\n        flex-wrap: wrap;\n        padding: 0.75rem 1.5rem;\n        border-bottom: 1px solid var(--bs-border-color);\n      }\n      .navbar-brand {\n        display: inline-flex;\n        color: var(--bs-primary);\n      }\n      .navbar-brand svg {\n        height: 1.5rem;\n        width: auto;\n      }\n      .nav {\n        display: flex;\n        gap: 0.25rem;\n        margin: 0;\n        padding: 0;\n        list-style: none;\n      }\n      .nav-link {\n        display: block;\n        padding: 0.375rem 0.75rem;\n        font-weight: 500;\n        color: var(--bs-secondary-color);\n      }\n      main {\n        flex: 1;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        padding: 2.5rem 1rem;\n      }\n      .card {\n        width: 100%;\n        max-width: 36rem;\n        padding: 3rem 1.5rem;\n        text-align: center;\n        background: var(--bs-secondary-bg);\n        border: 1px solid var(--bs-border-color);\n        border-radius: var(--bs-border-radius-lg);\n      }\n      .display-404 {\n        margin: 0;\n        font-size: clamp(4.5rem, 18vw, 7.5rem);\n        font-weight: 600;\n        line-height: 1;\n        letter-spacing: -0.04em;\n        color: var(--bs-primary-border-subtle);\n      }\n      .badge {\n        display: inline-block;\n        margin: 1.25rem 0 1rem;\n        padding: 0.35em 0.8em;\n        font-size: 0.75rem;\n        font-weight: 600;\n        letter-spacing: 0.05em;\n        text-transform: uppercase;\n        color: var(--bs-primary-text-emphasis);\n        background: var(--bs-primary-bg-subtle);\n        border-radius: 50rem;\n      }\n      h1 {\n        margin: 0 0 0.75rem;\n        font-size: 1.5rem;\n        font-weight: 600;\n        line-height: 1.3;\n      }\n      .text-body-secondary {\n        color: var(--bs-secondary-color);\n      }\n      .lead {\n        margin: 0 auto 2rem;\n        max-width: 28rem;\n        font-size: 1.125rem;\n      }\n      .hstack {\n        display: flex;\n        gap: 0.75rem;\n        justify-content: center;\n        flex-wrap: wrap;\n      }\n      .btn {\n        display: inline-block;\n        padding: 0.5rem 1.25rem;\n        font-weight: 500;\n        line-height: 1.5;\n        color: var(--bs-btn-color);\n        background: var(--bs-btn-bg);\n        border: 1px solid var(--bs-btn-border-color);\n        border-radius: var(--bs-border-radius);\n        transition:\n          color 0.15s,\n          background-color 0.15s,\n          border-color 0.15s,\n          box-shadow 0.15s;\n      }\n      .btn:hover {\n        color: var(--bs-btn-hover-color);\n        background: var(--bs-btn-hover-bg);\n        border-color: var(--bs-btn-hover-bg);\n      }\n      .btn-primary {\n        --bs-btn-color: var(--bs-body-bg);\n        --bs-btn-bg: var(--bs-primary);\n        --bs-btn-border-color: var(--bs-primary);\n        --bs-btn-hover-color: var(--bs-body-bg);\n        --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), 0.8);\n      }\n      .btn-outline-secondary {\n        --bs-btn-color: var(--bs-body-color);\n        --bs-btn-bg: transparent;\n        --bs-btn-border-color: var(--bs-border-color);\n        --bs-btn-hover-color: var(--bs-primary);\n        --bs-btn-hover-bg: var(--bs-body-bg);\n      }\n      .btn-outline-secondary:hover {\n        border-color: var(--bs-border-color);\n      }\n      footer {\n        padding: 1.5rem 1rem;\n        text-align: center;\n        font-size: 0.875rem;\n        color: var(--bs-tertiary-color);\n        border-top: 1px solid var(--bs-border-color);\n      }\n      footer .nav {\n        justify-content: center;\n        flex-wrap: wrap;\n        margin-bottom: 0.5rem;\n      }\n      footer .nav-link {\n        color: var(--bs-tertiary-color);\n        font-weight: 400;\n        padding: 0.25rem 0.5rem;\n      }\n      footer .nav-link:hover {\n        color: var(--bs-primary);\n      }\n      footer p {\n        margin: 0;\n      }\n      @media (max-width: 575.98px) {\n        .navbar {\n          justify-content: center;\n        }\n        .card {\n          padding: 2.5rem 1rem;\n        }\n      }\n      @media (prefers-reduced-motion: reduce) {\n        .btn {\n          transition: none;\n        }\n      }\n    </style>\n  </head>\n  <body>\n    <header class=\"navbar\">\n      <a\n        class=\"navbar-brand\"\n        href=\"https://www.virustotal.com/gui/\"\n        aria-label=\"VirusTotal home\"\n      >\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          viewBox=\"0 0 564.3 109\"\n          fill=\"currentColor\"\n          aria-hidden=\"true\"\n          focusable=\"false\"\n        >\n          <path\n            d=\"m158.6 78.7-17.1-48.6h8.9c10.5 30.5 11.9 34.8 13 38.6 1-3.5 2.6-8.2 13.5-38.6h8.9l-17.9 48.6h-9.3zM194.2 78.7V30.2h8.3v48.5zM299.6 58.3c0 6.6-.6 10.8-2.4 13.9-2.8 4.9-8.7 7.6-17.3 7.6-8.1 0-14.1-2.4-16.9-7.8-1.7-3.1-2.3-7.7-2.3-13.2V30.2h8.3v28.4c0 4 .3 6.8 1 8.6 1.2 3.1 4.2 5.5 10.3 5.5 5.3 0 8.5-1.8 10.1-5.1.8-1.7 1.6-4.9 1.6-8.9V30.2h7.6v28.1zM310.1 69.4c3.7 1.7 8.5 3.3 14.1 3.3 6.6 0 10-2.4 10-6.7 0-3.3-1.2-5.1-7.6-7.3l-6.8-2.3c-7.1-2.4-10.4-6.6-10.4-13.5 0-7.4 5.8-13.9 18.3-13.9 4.9 0 9.7.8 13.6 2.2l-1.8 6.9c-4-1.3-8.8-2.2-12.8-2.2-6.7 0-8.6 3.5-8.6 6.4 0 2.9.9 4.9 6.5 6.7l6.8 2.4c8.3 2.8 11.2 7.2 11.2 13.5 0 7.7-5.3 14.6-18.4 14.6-6.1 0-12-1.4-16.2-3.4l2.1-6.7zM365.5 78.7V37.8H351v-7.6h37.4v7.6h-14.5v40.9zM452.2 78.7V37.8h-14.5v-7.6h37.4v7.6h-14.5v40.9zM412 79.7c-14.1 0-23-11.8-23-25.8 0-15.4 9-24.8 24.2-24.8 14.6 0 22.2 11.3 22.3 24.8.1 13.9-8.7 25.8-23.5 25.8zm.6-43.6c-9.6 0-14.8 6-14.8 17.9 0 14.5 6.3 18.7 14.6 18.7 8.6 0 14.4-5.3 14.4-18.3.2-11.5-3.1-18.3-14.2-18.3zM473.4 78.7l18.7-48.6h9.6l18.2 48.6H511L506.1 66h-18.9l-5 12.8h-8.8zm30.5-19.8c-4.5-12.5-6-16.5-7-19.9-1.1 3.3-2.4 7.1-7.4 19.9h14.4zM527.9 78.7V30.2h9v41.2l24.2-.3.1 7.6zM0 5.9l48.7 48.6L0 103h107.5V5.9H0zm97.1 86.7H24.5l38.4-38.1-38.4-38.2h72.6v76.3zM240.8 57.7c7.2-2.4 10-7.5 10-13.7 0-6.7-3.5-10.9-8.6-12.5-3-.9-7.3-1.3-11.5-1.3h-15v48.6h8.3V58.9l2.8-.2c3.7 0 5.5.4 6.3.3L244 78.7h9.2l-12.4-21zm-2.2-6.6c-2 1.1-4.9 1.4-8.4 1.4H224V37.1h6.3c3.3 0 5.8.1 7.7.8 2.6 1 4 3.3 4 6.6-.1 3-1.2 5.4-3.4 6.6z\"\n          />\n        </svg>\n      </a>\n      <nav aria-label=\"Main\">\n        <ul class=\"nav\">\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://www.virustotal.com/gui/home/search\"\n              >Search</a\n            >\n          </li>\n          <li>\n            <a class=\"nav-link\" href=\"https://docs.virustotal.com/\">API</a>\n          </li>\n          <li>\n            <a class=\"nav-link\" href=\"https://www.virustotal.com/gui/contact-us\"\n              >Contact</a\n            >\n          </li>\n        </ul>\n      </nav>\n    </header>\n    <main>\n      <section class=\"card\" aria-labelledby=\"title\">\n        <p class=\"display-404\" aria-hidden=\"true\">404</p>\n        <span class=\"badge\">Error 404</span>\n        <h1 id=\"title\">The page you navigated to does not exist</h1>\n        <p class=\"lead text-body-secondary\">\n          The page you were looking for is out of reach, may have been moved, or\n          does not exist.\n        </p>\n        <div class=\"hstack\">\n          <a class=\"btn btn-primary\" href=\"https://www.virustotal.com/gui/\"\n            >Go to homepage</a\n          >\n          <a\n            class=\"btn btn-outline-secondary\"\n            href=\"https://www.virustotal.com/gui/home/search\"\n            >Try a new search</a\n          >\n        </div>\n      </section>\n    </main>\n    <footer>\n      <nav aria-label=\"Footer\">\n        <ul class=\"nav\">\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/docs/terms-of-service\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Terms of Service</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/docs/privacy-policy\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Privacy Notice</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >API</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://www.virustotal.com/gui/contact-us\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Contact Us</a\n            >\n          </li>\n        </ul>\n      </nav>\n      <p>&copy; VirusTotal. All rights reserved.</p>\n    </footer>\n  </body>\n</html>",
+      "url": "https://virustotal.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><base href=\"/gui/\"><script data-entry-loader-anchor=\"\">window.VTConfig=JSON.parse('{\"apiUrl\":\"/api-proxy\",\"apiRoute\":\"ui\",\"firebaseApiKey\":\"[redacted]\",\"firebaseAuthDomain\":\"virustotalcloud.firebaseapp.com\",\"captchaSiteKey\":\"6Le-FTYqAAAAAKhTKMsdty7T9sOWkICH4UvIGUzp\",\"matiEnv\":\"https://advantage.mandiant.com\",\"asmEnv\":\"https://asm.advantage.mandiant.com\",\"botAgentId\":\"2166e570-8173-4c94-8270-6d559fed63b0\",\"authPortalUri\":\"https://auth-autopush.proactive-autopush.virustotal.com\",\"oidcProviderUri\":\"https://identity-proactive.virustotal.com/realms/master/login-actions/authenticate\",\"allowListedClientIds\":[\"gtidev\",\"gti\",\"oidcflowclient\"],\"allowListedProactiveHosts\":[\"proactive.virustotal.com\",\"proactive-autopush.virustotal.com\",\"proactive-staging.virustotal.com\",\"proactive-dev.virustotal.com\"],\"allowListedAuthPortalHosts\":[\"auth.proactive.virustotal.com\",\"auth-autopush.proactive-autopush.virustotal.com\",\"auth-staging.proactive-staging.virustotal.com\",\"auth-dev.proactive-dev.virustotal.com\",\"proactive.virustotal.com\",\"proactive-autopush.virustotal.com\",\"proactive-staging.virustotal.com\",\"proactive-dev.virustotal.com\"],\"proactiveHostToAuthPortalMap\":{\"proactive.virustotal.com\":\"https://auth.proactive.virustotal.com\",\"proactive-autopush.virustotal.com\":\"https://auth-autopush.proactive-autopush.virustotal.com\",\"proactive-staging.virustotal.com\":\"https://auth-staging.proactive-staging.virustotal.com\",\"proactive-dev.virustotal.com\":\"https://auth-dev.proactive-dev.virustotal.com\"},\"base\":\"/gui/\",\"errorService\":\"virustotal-ui-main\",\"consolePrompt\":false,\"recaptchaV3SiteKey\":\"6LdawOwtAAAAAEJuyEXijrVsxVKwqhUS8E1rUkT3\",\"buildInfo\":{\"branch\":\"heads/master-0-gb41470b\",\"timestamp\":\"2026-11-11T08:56:12.633Z\",\"wasClean\":false},\"timestamp\":\"v1x687x0\",\"gaKey\":\"UA-27433547-2\",\"gtmId\":\"GTM-KFBGZNL\"}'),document.querySelector(\"base\").href=VTConfig.base;const baseUrl=document.querySelector(\"base\").href;window.VTConfig.rootPath=baseUrl</script><script>!function(){function e(e,o){return new Promise((function(t,n){document.head.appendChild(Object.assign(Object.assign(document.createElement(\"script\"),{fetchPriority:\"high\"}),{src:e,onload:t,onerror:n},o?{type:\"module\"}:void 0))}))}var o=[];function t(){e(\"./main.aa28f111679026aae194.js\")}\"composedPath\"in Event.prototype||o.push(e(\"polyfills/composedPath.551ad64c21200577a3af115dc4f704b8.js\",!1)),\"attachShadow\"in Element.prototype&&\"getRootNode\"in Element.prototype||o.push(e(\"polyfills/shady-css.4e9d95156d75a4fc4870c0e310f97de5.js\",!1)),o.length?Promise.all(o).then(t):t()}()</script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag(\"js\",new Date),function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({\"gtm.start\":(new Date).getTime(),event:\"gtm.js\"});var r=t.getElementsByTagName(a)[0],s=t.createElement(a);s.async=!0,s.src=\"https://www.googletagmanager.com/gtm.js?id=GTM-KFBGZNL\",r.parentNode.insertBefore(s,r)}(window,document,\"script\",\"dataLayer\")</script><script>\"virustotal.com\"==document.location.host&&(document.location.href=document.location.href.replace(\"virustotal.com\",\"www.virustotal.com\"))</script><meta name=\"generator\" content=\"VirusTotal\"><meta name=\"viewport\" content=\"width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes\"><title>VirusTotal</title><meta name=\"description\" content=\"VirusTotal\"><link rel=\"icon\" href=\"images/favicon.svg\"><link rel=\"manifest\" href=\"manifest.json\"><meta name=\"theme-color\" content=\"#3f51b5\"><meta name=\"mobile-web-app-capable\" content=\"yes\"><meta name=\"application-name\" content=\"VirusTotal\"><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\"><meta name=\"apple-mobile-web-app-title\" content=\"VirusTotal\"><link rel=\"apple-touch-icon\" href=\"images/manifest/icon-48x48.png\"><link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"images/manifest/icon-72x72.png\"><link rel=\"apple-touch-icon\" sizes=\"96x96\" href=\"images/manifest/icon-96x96.png\"><link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"images/manifest/icon-144x144.png\"><link rel=\"apple-touch-icon\" sizes=\"192x192\" href=\"images/manifest/icon-192x192.png\"><meta name=\"msapplication-TileImage\" content=\"images/manifest/icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#3f51b5\"><meta name=\"msapplication-tap-highlight\" content=\"no\"><meta name=\"referrer\" content=\"origin\"><style custom-style=\"\" css-ponyfill=\"\">:root{--vt-ui-key-val-table-property-list-label-color:var(--bs-body-color);--vt-ui-key-val-table-property-list-value-color:var(--bs-body-color);--vt-ui-list-body-color:var(--bs-body-color);--vt-ui-list-link-hover-color:var(--bs-primary);--vt-ui-detections-ratio-body-color:var(--bs-body-color);--vt-ui-comment-color:var(--bs-body-color);--vt-ui-comment-link-color:var(--bs-body-color);--vt-ui-select-color:var(--bs-body-color);--vt-ui-expandable-detail-list-color:var(--bs-body-color);--vt-ui-expandable-detail-list-link-hover-color:var(--bs-primary);--vt-ui-simple-expandable-list-font-size:var(--bs-body-font-size);--vt-ui-key-val-table-property-list-font-size:var(--bs-body-font-size);--vt-ui-expandable-entry-font-size:var(--bs-body-font-size);--item-report-font-size-default:var(--bs-body-font-size);--vt-ui-chips-cursor:var(--intelligence-pivot-cursor);--vt-ui-toolbar-icon-size:28px;--skeleton-animation:skeleton-loading 2s ease infinite;--vt-ui-dropdown-content-border:none;--max-page-width:1300px;--vt-ui-nav-links-hover-color:var(--bs-primary)}body,html{font-size:14px}.view.drawer{position:fixed;top:0;right:0;z-index:103;height:100%;width:75%;max-width:var(--max-page-width,1300px);overflow-y:scroll;background:var(--bs-body-bg,#161625);box-shadow:0 8px 10px -5px rgba(0,0,0,.2),0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12)}</style><style>body{margin:0;line-height:1.5;background-color:var(--bs-body-bg,#161625);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;--vt-ui-popover-header-height:20px}body.drawer-open,body.modal-open{overflow:hidden}#vt-ui-dropdown-backdrop,iron-overlay-backdrop{z-index:101!important}*{-webkit-tap-highlight-color:transparent}</style><link rel=\"search\" type=\"application/opensearchdescription+xml\" title=\"Search in VT\" href=\"static/opensearch.xml\"><script>performance&&location.href.indexOf(\"virustotal.com/gui/\")<0&&performance.mark(\"timer-app-start\"),window.addEventListener(\"unhandledrejection\",(function(e){console.warn(\"WARNING: Unhandled promise rejection. Reason: \"+e.reason,e),console.log(\"WARNING: Unhandled promise rejection. Reason: \"+e.reason,e)}))</script></head><body><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KFBGZNL\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><vt-ui-shell><div id=\"view-container\"></div></vt-ui-shell><script>document.location.hash&&(document.location.href=baseUrl+document.location.hash.substr(2)),window.displayTosChangedMessage=!1</script><noscript>Please enable JavaScript to view this website.</noscript></body></html>",
+      "url": "https://www.virustotal.com/gui/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "",
+      "url": "https://virustotal.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <meta name=\"color-scheme\" content=\"light dark\" />\n    <title>The page you navigated to does not exist - VirusTotal</title>\n    <link\n      rel=\"icon\"\n      type=\"image/svg+xml\"\n      href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 108 109'%3E%3Cpath fill='%230b4dda' d='M0 5.9l48.7 48.6L0 103h107.5V5.9zm97.1 86.7H24.5l38.4-38.1-38.4-38.2h72.6z'/%3E%3C/svg%3E\"\n    />\n    <style>\n      :root {\n        --bs-primary: #0b4dda;\n        --bs-primary-rgb: 11, 77, 218;\n        --bs-primary-bg-subtle: #cfddfc;\n        --bs-primary-text-emphasis: #062b79;\n        --bs-primary-border-subtle: #9db8f0;\n        --bs-body-bg: #fff;\n        --bs-body-color: #20242c;\n        --bs-secondary-color: #363c49;\n        --bs-secondary-bg: #f9fafb;\n        --bs-tertiary-color: #626c84;\n        --bs-tertiary-bg: #eceef4;\n        --bs-border-color: #e5e9f0;\n        --bs-border-radius: 0.375rem;\n        --bs-border-radius-lg: 0.5rem;\n        --bs-focus-ring: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);\n        --bs-font-sans-serif:\n          \"Source Sans Pro\", Roboto, RobotoDraft, Helvetica, Arial, system-ui,\n          sans-serif;\n      }\n      @media (prefers-color-scheme: dark) {\n        :root {\n          --bs-primary: #86aaf9;\n          --bs-primary-rgb: 134, 170, 249;\n          --bs-primary-bg-subtle: #28334b;\n          --bs-primary-text-emphasis: #b6ccfb;\n          --bs-primary-border-subtle: #5e77ae;\n          --bs-body-bg: #161625;\n          --bs-body-color: #fff;\n          --bs-secondary-color: #c3d2e8;\n          --bs-secondary-bg: #232c42;\n          --bs-tertiary-color: #8997b4;\n          --bs-tertiary-bg: #2f3d5c;\n          --bs-border-color: #3d4a69;\n        }\n      }\n      *,\n      ::before,\n      ::after {\n        box-sizing: border-box;\n      }\n      body {\n        margin: 0;\n        min-height: 100vh;\n        display: flex;\n        flex-direction: column;\n        font: 400 1rem/1.5 var(--bs-font-sans-serif);\n        color: var(--bs-body-color);\n        background: var(--bs-body-bg);\n        -webkit-font-smoothing: antialiased;\n      }\n      a {\n        color: var(--bs-body-color);\n        text-decoration: none;\n        border-radius: var(--bs-border-radius);\n      }\n      a:hover {\n        color: var(--bs-primary);\n      }\n      a:focus-visible {\n        outline: 0;\n        box-shadow: var(--bs-focus-ring);\n      }\n      .navbar {\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        gap: 1rem;\n        flex-wrap: wrap;\n        padding: 0.75rem 1.5rem;\n        border-bottom: 1px solid var(--bs-border-color);\n      }\n      .navbar-brand {\n        display: inline-flex;\n        color: var(--bs-primary);\n      }\n      .navbar-brand svg {\n        height: 1.5rem;\n        width: auto;\n      }\n      .nav {\n        display: flex;\n        gap: 0.25rem;\n        margin: 0;\n        padding: 0;\n        list-style: none;\n      }\n      .nav-link {\n        display: block;\n        padding: 0.375rem 0.75rem;\n        font-weight: 500;\n        color: var(--bs-secondary-color);\n      }\n      main {\n        flex: 1;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        padding: 2.5rem 1rem;\n      }\n      .card {\n        width: 100%;\n        max-width: 36rem;\n        padding: 3rem 1.5rem;\n        text-align: center;\n        background: var(--bs-secondary-bg);\n        border: 1px solid var(--bs-border-color);\n        border-radius: var(--bs-border-radius-lg);\n      }\n      .display-404 {\n        margin: 0;\n        font-size: clamp(4.5rem, 18vw, 7.5rem);\n        font-weight: 600;\n        line-height: 1;\n        letter-spacing: -0.04em;\n        color: var(--bs-primary-border-subtle);\n      }\n      .badge {\n        display: inline-block;\n        margin: 1.25rem 0 1rem;\n        padding: 0.35em 0.8em;\n        font-size: 0.75rem;\n        font-weight: 600;\n        letter-spacing: 0.05em;\n        text-transform: uppercase;\n        color: var(--bs-primary-text-emphasis);\n        background: var(--bs-primary-bg-subtle);\n        border-radius: 50rem;\n      }\n      h1 {\n        margin: 0 0 0.75rem;\n        font-size: 1.5rem;\n        font-weight: 600;\n        line-height: 1.3;\n      }\n      .text-body-secondary {\n        color: var(--bs-secondary-color);\n      }\n      .lead {\n        margin: 0 auto 2rem;\n        max-width: 28rem;\n        font-size: 1.125rem;\n      }\n      .hstack {\n        display: flex;\n        gap: 0.75rem;\n        justify-content: center;\n        flex-wrap: wrap;\n      }\n      .btn {\n        display: inline-block;\n        padding: 0.5rem 1.25rem;\n        font-weight: 500;\n        line-height: 1.5;\n        color: var(--bs-btn-color);\n        background: var(--bs-btn-bg);\n        border: 1px solid var(--bs-btn-border-color);\n        border-radius: var(--bs-border-radius);\n        transition:\n          color 0.15s,\n          background-color 0.15s,\n          border-color 0.15s,\n          box-shadow 0.15s;\n      }\n      .btn:hover {\n        color: var(--bs-btn-hover-color);\n        background: var(--bs-btn-hover-bg);\n        border-color: var(--bs-btn-hover-bg);\n      }\n      .btn-primary {\n        --bs-btn-color: var(--bs-body-bg);\n        --bs-btn-bg: var(--bs-primary);\n        --bs-btn-border-color: var(--bs-primary);\n        --bs-btn-hover-color: var(--bs-body-bg);\n        --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), 0.8);\n      }\n      .btn-outline-secondary {\n        --bs-btn-color: var(--bs-body-color);\n        --bs-btn-bg: transparent;\n        --bs-btn-border-color: var(--bs-border-color);\n        --bs-btn-hover-color: var(--bs-primary);\n        --bs-btn-hover-bg: var(--bs-body-bg);\n      }\n      .btn-outline-secondary:hover {\n        border-color: var(--bs-border-color);\n      }\n      footer {\n        padding: 1.5rem 1rem;\n        text-align: center;\n        font-size: 0.875rem;\n        color: var(--bs-tertiary-color);\n        border-top: 1px solid var(--bs-border-color);\n      }\n      footer .nav {\n        justify-content: center;\n        flex-wrap: wrap;\n        margin-bottom: 0.5rem;\n      }\n      footer .nav-link {\n        color: var(--bs-tertiary-color);\n        font-weight: 400;\n        padding: 0.25rem 0.5rem;\n      }\n      footer .nav-link:hover {\n        color: var(--bs-primary);\n      }\n      footer p {\n        margin: 0;\n      }\n      @media (max-width: 575.98px) {\n        .navbar {\n          justify-content: center;\n        }\n        .card {\n          padding: 2.5rem 1rem;\n        }\n      }\n      @media (prefers-reduced-motion: reduce) {\n        .btn {\n          transition: none;\n        }\n      }\n    </style>\n  </head>\n  <body>\n    <header class=\"navbar\">\n      <a\n        class=\"navbar-brand\"\n        href=\"https://www.virustotal.com/gui/\"\n        aria-label=\"VirusTotal home\"\n      >\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          viewBox=\"0 0 564.3 109\"\n          fill=\"currentColor\"\n          aria-hidden=\"true\"\n          focusable=\"false\"\n        >\n          <path\n            d=\"m158.6 78.7-17.1-48.6h8.9c10.5 30.5 11.9 34.8 13 38.6 1-3.5 2.6-8.2 13.5-38.6h8.9l-17.9 48.6h-9.3zM194.2 78.7V30.2h8.3v48.5zM299.6 58.3c0 6.6-.6 10.8-2.4 13.9-2.8 4.9-8.7 7.6-17.3 7.6-8.1 0-14.1-2.4-16.9-7.8-1.7-3.1-2.3-7.7-2.3-13.2V30.2h8.3v28.4c0 4 .3 6.8 1 8.6 1.2 3.1 4.2 5.5 10.3 5.5 5.3 0 8.5-1.8 10.1-5.1.8-1.7 1.6-4.9 1.6-8.9V30.2h7.6v28.1zM310.1 69.4c3.7 1.7 8.5 3.3 14.1 3.3 6.6 0 10-2.4 10-6.7 0-3.3-1.2-5.1-7.6-7.3l-6.8-2.3c-7.1-2.4-10.4-6.6-10.4-13.5 0-7.4 5.8-13.9 18.3-13.9 4.9 0 9.7.8 13.6 2.2l-1.8 6.9c-4-1.3-8.8-2.2-12.8-2.2-6.7 0-8.6 3.5-8.6 6.4 0 2.9.9 4.9 6.5 6.7l6.8 2.4c8.3 2.8 11.2 7.2 11.2 13.5 0 7.7-5.3 14.6-18.4 14.6-6.1 0-12-1.4-16.2-3.4l2.1-6.7zM365.5 78.7V37.8H351v-7.6h37.4v7.6h-14.5v40.9zM452.2 78.7V37.8h-14.5v-7.6h37.4v7.6h-14.5v40.9zM412 79.7c-14.1 0-23-11.8-23-25.8 0-15.4 9-24.8 24.2-24.8 14.6 0 22.2 11.3 22.3 24.8.1 13.9-8.7 25.8-23.5 25.8zm.6-43.6c-9.6 0-14.8 6-14.8 17.9 0 14.5 6.3 18.7 14.6 18.7 8.6 0 14.4-5.3 14.4-18.3.2-11.5-3.1-18.3-14.2-18.3zM473.4 78.7l18.7-48.6h9.6l18.2 48.6H511L506.1 66h-18.9l-5 12.8h-8.8zm30.5-19.8c-4.5-12.5-6-16.5-7-19.9-1.1 3.3-2.4 7.1-7.4 19.9h14.4zM527.9 78.7V30.2h9v41.2l24.2-.3.1 7.6zM0 5.9l48.7 48.6L0 103h107.5V5.9H0zm97.1 86.7H24.5l38.4-38.1-38.4-38.2h72.6v76.3zM240.8 57.7c7.2-2.4 10-7.5 10-13.7 0-6.7-3.5-10.9-8.6-12.5-3-.9-7.3-1.3-11.5-1.3h-15v48.6h8.3V58.9l2.8-.2c3.7 0 5.5.4 6.3.3L244 78.7h9.2l-12.4-21zm-2.2-6.6c-2 1.1-4.9 1.4-8.4 1.4H224V37.1h6.3c3.3 0 5.8.1 7.7.8 2.6 1 4 3.3 4 6.6-.1 3-1.2 5.4-3.4 6.6z\"\n          />\n        </svg>\n      </a>\n      <nav aria-label=\"Main\">\n        <ul class=\"nav\">\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://www.virustotal.com/gui/home/search\"\n              >Search</a\n            >\n          </li>\n          <li>\n            <a class=\"nav-link\" href=\"https://docs.virustotal.com/\">API</a>\n          </li>\n          <li>\n            <a class=\"nav-link\" href=\"https://www.virustotal.com/gui/contact-us\"\n              >Contact</a\n            >\n          </li>\n        </ul>\n      </nav>\n    </header>\n    <main>\n      <section class=\"card\" aria-labelledby=\"title\">\n        <p class=\"display-404\" aria-hidden=\"true\">404</p>\n        <span class=\"badge\">Error 404</span>\n        <h1 id=\"title\">The page you navigated to does not exist</h1>\n        <p class=\"lead text-body-secondary\">\n          The page you were looking for is out of reach, may have been moved, or\n          does not exist.\n        </p>\n        <div class=\"hstack\">\n          <a class=\"btn btn-primary\" href=\"https://www.virustotal.com/gui/\"\n            >Go to homepage</a\n          >\n          <a\n            class=\"btn btn-outline-secondary\"\n            href=\"https://www.virustotal.com/gui/home/search\"\n            >Try a new search</a\n          >\n        </div>\n      </section>\n    </main>\n    <footer>\n      <nav aria-label=\"Footer\">\n        <ul class=\"nav\">\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/docs/terms-of-service\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Terms of Service</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/docs/privacy-policy\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Privacy Notice</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >API</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://www.virustotal.com/gui/contact-us\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Contact Us</a\n            >\n          </li>\n        </ul>\n      </nav>\n      <p>&copy; VirusTotal. All rights reserved.</p>\n    </footer>\n  </body>\n</html>",
+      "url": "https://virustotal.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <meta name=\"color-scheme\" content=\"light dark\" />\n    <title>The page you navigated to does not exist - VirusTotal</title>\n    <link\n      rel=\"icon\"\n      type=\"image/svg+xml\"\n      href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 108 109'%3E%3Cpath fill='%230b4dda' d='M0 5.9l48.7 48.6L0 103h107.5V5.9zm97.1 86.7H24.5l38.4-38.1-38.4-38.2h72.6z'/%3E%3C/svg%3E\"\n    />\n    <style>\n      :root {\n        --bs-primary: #0b4dda;\n        --bs-primary-rgb: 11, 77, 218;\n        --bs-primary-bg-subtle: #cfddfc;\n        --bs-primary-text-emphasis: #062b79;\n        --bs-primary-border-subtle: #9db8f0;\n        --bs-body-bg: #fff;\n        --bs-body-color: #20242c;\n        --bs-secondary-color: #363c49;\n        --bs-secondary-bg: #f9fafb;\n        --bs-tertiary-color: #626c84;\n        --bs-tertiary-bg: #eceef4;\n        --bs-border-color: #e5e9f0;\n        --bs-border-radius: 0.375rem;\n        --bs-border-radius-lg: 0.5rem;\n        --bs-focus-ring: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);\n        --bs-font-sans-serif:\n          \"Source Sans Pro\", Roboto, RobotoDraft, Helvetica, Arial, system-ui,\n          sans-serif;\n      }\n      @media (prefers-color-scheme: dark) {\n        :root {\n          --bs-primary: #86aaf9;\n          --bs-primary-rgb: 134, 170, 249;\n          --bs-primary-bg-subtle: #28334b;\n          --bs-primary-text-emphasis: #b6ccfb;\n          --bs-primary-border-subtle: #5e77ae;\n          --bs-body-bg: #161625;\n          --bs-body-color: #fff;\n          --bs-secondary-color: #c3d2e8;\n          --bs-secondary-bg: #232c42;\n          --bs-tertiary-color: #8997b4;\n          --bs-tertiary-bg: #2f3d5c;\n          --bs-border-color: #3d4a69;\n        }\n      }\n      *,\n      ::before,\n      ::after {\n        box-sizing: border-box;\n      }\n      body {\n        margin: 0;\n        min-height: 100vh;\n        display: flex;\n        flex-direction: column;\n        font: 400 1rem/1.5 var(--bs-font-sans-serif);\n        color: var(--bs-body-color);\n        background: var(--bs-body-bg);\n        -webkit-font-smoothing: antialiased;\n      }\n      a {\n        color: var(--bs-body-color);\n        text-decoration: none;\n        border-radius: var(--bs-border-radius);\n      }\n      a:hover {\n        color: var(--bs-primary);\n      }\n      a:focus-visible {\n        outline: 0;\n        box-shadow: var(--bs-focus-ring);\n      }\n      .navbar {\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        gap: 1rem;\n        flex-wrap: wrap;\n        padding: 0.75rem 1.5rem;\n        border-bottom: 1px solid var(--bs-border-color);\n      }\n      .navbar-brand {\n        display: inline-flex;\n        color: var(--bs-primary);\n      }\n      .navbar-brand svg {\n        height: 1.5rem;\n        width: auto;\n      }\n      .nav {\n        display: flex;\n        gap: 0.25rem;\n        margin: 0;\n        padding: 0;\n        list-style: none;\n      }\n      .nav-link {\n        display: block;\n        padding: 0.375rem 0.75rem;\n        font-weight: 500;\n        color: var(--bs-secondary-color);\n      }\n      main {\n        flex: 1;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        padding: 2.5rem 1rem;\n      }\n      .card {\n        width: 100%;\n        max-width: 36rem;\n        padding: 3rem 1.5rem;\n        text-align: center;\n        background: var(--bs-secondary-bg);\n        border: 1px solid var(--bs-border-color);\n        border-radius: var(--bs-border-radius-lg);\n      }\n      .display-404 {\n        margin: 0;\n        font-size: clamp(4.5rem, 18vw, 7.5rem);\n        font-weight: 600;\n        line-height: 1;\n        letter-spacing: -0.04em;\n        color: var(--bs-primary-border-subtle);\n      }\n      .badge {\n        display: inline-block;\n        margin: 1.25rem 0 1rem;\n        padding: 0.35em 0.8em;\n        font-size: 0.75rem;\n        font-weight: 600;\n        letter-spacing: 0.05em;\n        text-transform: uppercase;\n        color: var(--bs-primary-text-emphasis);\n        background: var(--bs-primary-bg-subtle);\n        border-radius: 50rem;\n      }\n      h1 {\n        margin: 0 0 0.75rem;\n        font-size: 1.5rem;\n        font-weight: 600;\n        line-height: 1.3;\n      }\n      .text-body-secondary {\n        color: var(--bs-secondary-color);\n      }\n      .lead {\n        margin: 0 auto 2rem;\n        max-width: 28rem;\n        font-size: 1.125rem;\n      }\n      .hstack {\n        display: flex;\n        gap: 0.75rem;\n        justify-content: center;\n        flex-wrap: wrap;\n      }\n      .btn {\n        display: inline-block;\n        padding: 0.5rem 1.25rem;\n        font-weight: 500;\n        line-height: 1.5;\n        color: var(--bs-btn-color);\n        background: var(--bs-btn-bg);\n        border: 1px solid var(--bs-btn-border-color);\n        border-radius: var(--bs-border-radius);\n        transition:\n          color 0.15s,\n          background-color 0.15s,\n          border-color 0.15s,\n          box-shadow 0.15s;\n      }\n      .btn:hover {\n        color: var(--bs-btn-hover-color);\n        background: var(--bs-btn-hover-bg);\n        border-color: var(--bs-btn-hover-bg);\n      }\n      .btn-primary {\n        --bs-btn-color: var(--bs-body-bg);\n        --bs-btn-bg: var(--bs-primary);\n        --bs-btn-border-color: var(--bs-primary);\n        --bs-btn-hover-color: var(--bs-body-bg);\n        --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), 0.8);\n      }\n      .btn-outline-secondary {\n        --bs-btn-color: var(--bs-body-color);\n        --bs-btn-bg: transparent;\n        --bs-btn-border-color: var(--bs-border-color);\n        --bs-btn-hover-color: var(--bs-primary);\n        --bs-btn-hover-bg: var(--bs-body-bg);\n      }\n      .btn-outline-secondary:hover {\n        border-color: var(--bs-border-color);\n      }\n      footer {\n        padding: 1.5rem 1rem;\n        text-align: center;\n        font-size: 0.875rem;\n        color: var(--bs-tertiary-color);\n        border-top: 1px solid var(--bs-border-color);\n      }\n      footer .nav {\n        justify-content: center;\n        flex-wrap: wrap;\n        margin-bottom: 0.5rem;\n      }\n      footer .nav-link {\n        color: var(--bs-tertiary-color);\n        font-weight: 400;\n        padding: 0.25rem 0.5rem;\n      }\n      footer .nav-link:hover {\n        color: var(--bs-primary);\n      }\n      footer p {\n        margin: 0;\n      }\n      @media (max-width: 575.98px) {\n        .navbar {\n          justify-content: center;\n        }\n        .card {\n          padding: 2.5rem 1rem;\n        }\n      }\n      @media (prefers-reduced-motion: reduce) {\n        .btn {\n          transition: none;\n        }\n      }\n    </style>\n  </head>\n  <body>\n    <header class=\"navbar\">\n      <a\n        class=\"navbar-brand\"\n        href=\"https://www.virustotal.com/gui/\"\n        aria-label=\"VirusTotal home\"\n      >\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          viewBox=\"0 0 564.3 109\"\n          fill=\"currentColor\"\n          aria-hidden=\"true\"\n          focusable=\"false\"\n        >\n          <path\n            d=\"m158.6 78.7-17.1-48.6h8.9c10.5 30.5 11.9 34.8 13 38.6 1-3.5 2.6-8.2 13.5-38.6h8.9l-17.9 48.6h-9.3zM194.2 78.7V30.2h8.3v48.5zM299.6 58.3c0 6.6-.6 10.8-2.4 13.9-2.8 4.9-8.7 7.6-17.3 7.6-8.1 0-14.1-2.4-16.9-7.8-1.7-3.1-2.3-7.7-2.3-13.2V30.2h8.3v28.4c0 4 .3 6.8 1 8.6 1.2 3.1 4.2 5.5 10.3 5.5 5.3 0 8.5-1.8 10.1-5.1.8-1.7 1.6-4.9 1.6-8.9V30.2h7.6v28.1zM310.1 69.4c3.7 1.7 8.5 3.3 14.1 3.3 6.6 0 10-2.4 10-6.7 0-3.3-1.2-5.1-7.6-7.3l-6.8-2.3c-7.1-2.4-10.4-6.6-10.4-13.5 0-7.4 5.8-13.9 18.3-13.9 4.9 0 9.7.8 13.6 2.2l-1.8 6.9c-4-1.3-8.8-2.2-12.8-2.2-6.7 0-8.6 3.5-8.6 6.4 0 2.9.9 4.9 6.5 6.7l6.8 2.4c8.3 2.8 11.2 7.2 11.2 13.5 0 7.7-5.3 14.6-18.4 14.6-6.1 0-12-1.4-16.2-3.4l2.1-6.7zM365.5 78.7V37.8H351v-7.6h37.4v7.6h-14.5v40.9zM452.2 78.7V37.8h-14.5v-7.6h37.4v7.6h-14.5v40.9zM412 79.7c-14.1 0-23-11.8-23-25.8 0-15.4 9-24.8 24.2-24.8 14.6 0 22.2 11.3 22.3 24.8.1 13.9-8.7 25.8-23.5 25.8zm.6-43.6c-9.6 0-14.8 6-14.8 17.9 0 14.5 6.3 18.7 14.6 18.7 8.6 0 14.4-5.3 14.4-18.3.2-11.5-3.1-18.3-14.2-18.3zM473.4 78.7l18.7-48.6h9.6l18.2 48.6H511L506.1 66h-18.9l-5 12.8h-8.8zm30.5-19.8c-4.5-12.5-6-16.5-7-19.9-1.1 3.3-2.4 7.1-7.4 19.9h14.4zM527.9 78.7V30.2h9v41.2l24.2-.3.1 7.6zM0 5.9l48.7 48.6L0 103h107.5V5.9H0zm97.1 86.7H24.5l38.4-38.1-38.4-38.2h72.6v76.3zM240.8 57.7c7.2-2.4 10-7.5 10-13.7 0-6.7-3.5-10.9-8.6-12.5-3-.9-7.3-1.3-11.5-1.3h-15v48.6h8.3V58.9l2.8-.2c3.7 0 5.5.4 6.3.3L244 78.7h9.2l-12.4-21zm-2.2-6.6c-2 1.1-4.9 1.4-8.4 1.4H224V37.1h6.3c3.3 0 5.8.1 7.7.8 2.6 1 4 3.3 4 6.6-.1 3-1.2 5.4-3.4 6.6z\"\n          />\n        </svg>\n      </a>\n      <nav aria-label=\"Main\">\n        <ul class=\"nav\">\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://www.virustotal.com/gui/home/search\"\n              >Search</a\n            >\n          </li>\n          <li>\n            <a class=\"nav-link\" href=\"https://docs.virustotal.com/\">API</a>\n          </li>\n          <li>\n            <a class=\"nav-link\" href=\"https://www.virustotal.com/gui/contact-us\"\n              >Contact</a\n            >\n          </li>\n        </ul>\n      </nav>\n    </header>\n    <main>\n      <section class=\"card\" aria-labelledby=\"title\">\n        <p class=\"display-404\" aria-hidden=\"true\">404</p>\n        <span class=\"badge\">Error 404</span>\n        <h1 id=\"title\">The page you navigated to does not exist</h1>\n        <p class=\"lead text-body-secondary\">\n          The page you were looking for is out of reach, may have been moved, or\n          does not exist.\n        </p>\n        <div class=\"hstack\">\n          <a class=\"btn btn-primary\" href=\"https://www.virustotal.com/gui/\"\n            >Go to homepage</a\n          >\n          <a\n            class=\"btn btn-outline-secondary\"\n            href=\"https://www.virustotal.com/gui/home/search\"\n            >Try a new search</a\n          >\n        </div>\n      </section>\n    </main>\n    <footer>\n      <nav aria-label=\"Footer\">\n        <ul class=\"nav\">\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/docs/terms-of-service\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Terms of Service</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/docs/privacy-policy\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Privacy Notice</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://docs.virustotal.com/\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >API</a\n            >\n          </li>\n          <li>\n            <a\n              class=\"nav-link\"\n              href=\"https://www.virustotal.com/gui/contact-us\"\n              target=\"_blank\"\n              rel=\"noopener\"\n              >Contact Us</a\n            >\n          </li>\n        </ul>\n      </nav>\n      <p>&copy; VirusTotal. All rights reserved.</p>\n    </footer>\n  </body>\n</html>",
+      "url": "https://virustotal.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "virustotal.com",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-13T03:03:12.530Z",
+    "score": 25,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 2,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 8 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"VirusTotal\"; missing/too-short meta description; no date signal; body text 8 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 404; ai.txt HTTP 404; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

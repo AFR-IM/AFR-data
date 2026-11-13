@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "aeroflot.ru",
+    "fetchedAt": "2026-11-13T03:09:36.216Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n   <head>\n      <meta charset=\"UTF-8\"/>\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n      <title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title>\n      <style>:root{--color-primary:#000000;--bg-primary:#fff;--font-family-header:Arial,Helvetica,Roboto,Roboto Condensed,sans-serif;--font-family-text:var(--font-family-header);--font-size-sm:14px;--font-size-md:16px;--font-size-xl:28px;--font-size-2xl:40px;--font-weight-regular:400;--line-height-heading:140%;--line-height-text:160%;--button-color:#93a2af;--button-border:1px solid #d4e0eb}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{display:flex;flex-direction:column;height:100vh;font-family:var(--font-family-text);font-weight:400;font-size:16px;line-height:160%;color:var(--color-primary);background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;margin:0 auto 1rem;width:230px}.main{display:flex;align-items:center;flex-direction:column;margin:125px auto;text-align:center}.section{max-width:780px}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-regular);line-height:var(--line-height-heading)}.text{margin:16px auto;font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:100px;width:100%}.info_item{column-gap:6px;display:flex;align-items:center;justify-content:space-between;flex-direction:row;border:var(--button-border);padding:15px;width:100%;position:relative}.info_item+.info_item{margin-top:20px}.info_data{font-weight:var(--font-weight-regular)}.icon-button{display:flex;align-items:center;border:none;background:0 0;color:var(--button-color);cursor:pointer}img.logo[src=\"\"]{display:none}@media (max-width:1365px){body{margin-left:auto;margin-right:auto;padding:11px;max-width:1000px}}@media (max-width:1023px){body{max-width:750px}.info{margin-top:75px}}@media (max-width:767px){body{max-width:542px}.main{margin-top:15%}.heading{font-size:var(--font-size-xl)}.text{font-size:var(--font-size-sm)}}@media (max-width:576px){body{max-width:450px}.info_caption{position:absolute;top:-30px;white-space:nowrap}.info_item+.info_item{margin-top:45px}}</style>\n   </head>\n   <body>\n      <div class=\"main\">\n         <img id=\"logo\" class=\"logo\" width=\"230\" height=\"50\" loading=\"lazy\" src=\"https://netstorage.aeroflot.ru/mailimg/logo_blue_no_skyteam_ru.png\"/>\n         <section class=\"section\">\n            <h1 class=\"heading\">Доступ к сайту временно ограничен владельцем веб-ресурса</h1>\n            <p class=\"text\">Если считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса и сообщите данные, указанные ниже.</p>\n            <div class=\"info\">\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш IP адрес: </span><span id=\"ip\" class=\"info_data\">4.154.12.198</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"ip\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш ID запроса к ресурсу: </span><span id=\"request_id\" class=\"info_data\">c4f1bf5133e997e2bfde9b2e96a0b013</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"request_id\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Время блокировки (UTC): </span><span id=\"block_time\" class=\"info_data\">2026-11-13T03:09:31.944Z</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"block_time\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n            </div>\n         </section>\n      </div>\n      <script>\n         function copy(id){\n            var el=document.getElementById(id),text=(el.textContent||\"\").trim();\n            if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text);return}\n            var r=document.createRange();r.selectNodeContents(el);\n            var s=window.getSelection();s.removeAllRanges();s.addRange(r);\n            try{document.execCommand(\"copy\")}catch(e){}\n            s.removeAllRanges()\n         }\n      </script>\n   </body>\n</html>",
+      "url": "https://www.aeroflot.ru/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n   <head>\n      <meta charset=\"UTF-8\"/>\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n      <title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title>\n      <style>:root{--color-primary:#000000;--bg-primary:#fff;--font-family-header:Arial,Helvetica,Roboto,Roboto Condensed,sans-serif;--font-family-text:var(--font-family-header);--font-size-sm:14px;--font-size-md:16px;--font-size-xl:28px;--font-size-2xl:40px;--font-weight-regular:400;--line-height-heading:140%;--line-height-text:160%;--button-color:#93a2af;--button-border:1px solid #d4e0eb}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{display:flex;flex-direction:column;height:100vh;font-family:var(--font-family-text);font-weight:400;font-size:16px;line-height:160%;color:var(--color-primary);background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;margin:0 auto 1rem;width:230px}.main{display:flex;align-items:center;flex-direction:column;margin:125px auto;text-align:center}.section{max-width:780px}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-regular);line-height:var(--line-height-heading)}.text{margin:16px auto;font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:100px;width:100%}.info_item{column-gap:6px;display:flex;align-items:center;justify-content:space-between;flex-direction:row;border:var(--button-border);padding:15px;width:100%;position:relative}.info_item+.info_item{margin-top:20px}.info_data{font-weight:var(--font-weight-regular)}.icon-button{display:flex;align-items:center;border:none;background:0 0;color:var(--button-color);cursor:pointer}img.logo[src=\"\"]{display:none}@media (max-width:1365px){body{margin-left:auto;margin-right:auto;padding:11px;max-width:1000px}}@media (max-width:1023px){body{max-width:750px}.info{margin-top:75px}}@media (max-width:767px){body{max-width:542px}.main{margin-top:15%}.heading{font-size:var(--font-size-xl)}.text{font-size:var(--font-size-sm)}}@media (max-width:576px){body{max-width:450px}.info_caption{position:absolute;top:-30px;white-space:nowrap}.info_item+.info_item{margin-top:45px}}</style>\n   </head>\n   <body>\n      <div class=\"main\">\n         <img id=\"logo\" class=\"logo\" width=\"230\" height=\"50\" loading=\"lazy\" src=\"https://netstorage.aeroflot.ru/mailimg/logo_blue_no_skyteam_ru.png\"/>\n         <section class=\"section\">\n            <h1 class=\"heading\">Доступ к сайту временно ограничен владельцем веб-ресурса</h1>\n            <p class=\"text\">Если считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса и сообщите данные, указанные ниже.</p>\n            <div class=\"info\">\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш IP адрес: </span><span id=\"ip\" class=\"info_data\">4.154.12.198</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"ip\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш ID запроса к ресурсу: </span><span id=\"request_id\" class=\"info_data\">ea38e94daf18cbdc6e5298a7c1b76e29</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"request_id\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Время блокировки (UTC): </span><span id=\"block_time\" class=\"info_data\">2026-11-13T03:09:32.467Z</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"block_time\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n            </div>\n         </section>\n      </div>\n      <script>\n         function copy(id){\n            var el=document.getElementById(id),text=(el.textContent||\"\").trim();\n            if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text);return}\n            var r=document.createRange();r.selectNodeContents(el);\n            var s=window.getSelection();s.removeAllRanges();s.addRange(r);\n            try{document.execCommand(\"copy\")}catch(e){}\n            s.removeAllRanges()\n         }\n      </script>\n   </body>\n</html>",
+      "url": "https://www.aeroflot.ru/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n   <head>\n      <meta charset=\"UTF-8\"/>\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n      <title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title>\n      <style>:root{--color-primary:#000000;--bg-primary:#fff;--font-family-header:Arial,Helvetica,Roboto,Roboto Condensed,sans-serif;--font-family-text:var(--font-family-header);--font-size-sm:14px;--font-size-md:16px;--font-size-xl:28px;--font-size-2xl:40px;--font-weight-regular:400;--line-height-heading:140%;--line-height-text:160%;--button-color:#93a2af;--button-border:1px solid #d4e0eb}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{display:flex;flex-direction:column;height:100vh;font-family:var(--font-family-text);font-weight:400;font-size:16px;line-height:160%;color:var(--color-primary);background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;margin:0 auto 1rem;width:230px}.main{display:flex;align-items:center;flex-direction:column;margin:125px auto;text-align:center}.section{max-width:780px}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-regular);line-height:var(--line-height-heading)}.text{margin:16px auto;font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:100px;width:100%}.info_item{column-gap:6px;display:flex;align-items:center;justify-content:space-between;flex-direction:row;border:var(--button-border);padding:15px;width:100%;position:relative}.info_item+.info_item{margin-top:20px}.info_data{font-weight:var(--font-weight-regular)}.icon-button{display:flex;align-items:center;border:none;background:0 0;color:var(--button-color);cursor:pointer}img.logo[src=\"\"]{display:none}@media (max-width:1365px){body{margin-left:auto;margin-right:auto;padding:11px;max-width:1000px}}@media (max-width:1023px){body{max-width:750px}.info{margin-top:75px}}@media (max-width:767px){body{max-width:542px}.main{margin-top:15%}.heading{font-size:var(--font-size-xl)}.text{font-size:var(--font-size-sm)}}@media (max-width:576px){body{max-width:450px}.info_caption{position:absolute;top:-30px;white-space:nowrap}.info_item+.info_item{margin-top:45px}}</style>\n   </head>\n   <body>\n      <div class=\"main\">\n         <img id=\"logo\" class=\"logo\" width=\"230\" height=\"50\" loading=\"lazy\" src=\"https://netstorage.aeroflot.ru/mailimg/logo_blue_no_skyteam_ru.png\"/>\n         <section class=\"section\">\n            <h1 class=\"heading\">Доступ к сайту временно ограничен владельцем веб-ресурса</h1>\n            <p class=\"text\">Если считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса и сообщите данные, указанные ниже.</p>\n            <div class=\"info\">\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш IP адрес: </span><span id=\"ip\" class=\"info_data\">4.154.12.198</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"ip\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш ID запроса к ресурсу: </span><span id=\"request_id\" class=\"info_data\">0862fa71fd189b5cf860f6a937caca60</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"request_id\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Время блокировки (UTC): </span><span id=\"block_time\" class=\"info_data\">2026-11-13T03:09:32.987Z</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"block_time\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n            </div>\n         </section>\n      </div>\n      <script>\n         function copy(id){\n            var el=document.getElementById(id),text=(el.textContent||\"\").trim();\n            if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text);return}\n            var r=document.createRange();r.selectNodeContents(el);\n            var s=window.getSelection();s.removeAllRanges();s.addRange(r);\n            try{document.execCommand(\"copy\")}catch(e){}\n            s.removeAllRanges()\n         }\n      </script>\n   </body>\n</html>",
+      "url": "https://www.aeroflot.ru/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n   <head>\n      <meta charset=\"UTF-8\"/>\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n      <title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title>\n      <style>:root{--color-primary:#000000;--bg-primary:#fff;--font-family-header:Arial,Helvetica,Roboto,Roboto Condensed,sans-serif;--font-family-text:var(--font-family-header);--font-size-sm:14px;--font-size-md:16px;--font-size-xl:28px;--font-size-2xl:40px;--font-weight-regular:400;--line-height-heading:140%;--line-height-text:160%;--button-color:#93a2af;--button-border:1px solid #d4e0eb}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{display:flex;flex-direction:column;height:100vh;font-family:var(--font-family-text);font-weight:400;font-size:16px;line-height:160%;color:var(--color-primary);background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;margin:0 auto 1rem;width:230px}.main{display:flex;align-items:center;flex-direction:column;margin:125px auto;text-align:center}.section{max-width:780px}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-regular);line-height:var(--line-height-heading)}.text{margin:16px auto;font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:100px;width:100%}.info_item{column-gap:6px;display:flex;align-items:center;justify-content:space-between;flex-direction:row;border:var(--button-border);padding:15px;width:100%;position:relative}.info_item+.info_item{margin-top:20px}.info_data{font-weight:var(--font-weight-regular)}.icon-button{display:flex;align-items:center;border:none;background:0 0;color:var(--button-color);cursor:pointer}img.logo[src=\"\"]{display:none}@media (max-width:1365px){body{margin-left:auto;margin-right:auto;padding:11px;max-width:1000px}}@media (max-width:1023px){body{max-width:750px}.info{margin-top:75px}}@media (max-width:767px){body{max-width:542px}.main{margin-top:15%}.heading{font-size:var(--font-size-xl)}.text{font-size:var(--font-size-sm)}}@media (max-width:576px){body{max-width:450px}.info_caption{position:absolute;top:-30px;white-space:nowrap}.info_item+.info_item{margin-top:45px}}</style>\n   </head>\n   <body>\n      <div class=\"main\">\n         <img id=\"logo\" class=\"logo\" width=\"230\" height=\"50\" loading=\"lazy\" src=\"https://netstorage.aeroflot.ru/mailimg/logo_blue_no_skyteam_ru.png\"/>\n         <section class=\"section\">\n            <h1 class=\"heading\">Доступ к сайту временно ограничен владельцем веб-ресурса</h1>\n            <p class=\"text\">Если считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса и сообщите данные, указанные ниже.</p>\n            <div class=\"info\">\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш IP адрес: </span><span id=\"ip\" class=\"info_data\">4.154.12.198</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"ip\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш ID запроса к ресурсу: </span><span id=\"request_id\" class=\"info_data\">c71070e5fbe14ca7646123a080cf426d</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"request_id\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Время блокировки (UTC): </span><span id=\"block_time\" class=\"info_data\">2026-11-13T03:09:33.510Z</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"block_time\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n            </div>\n         </section>\n      </div>\n      <script>\n         function copy(id){\n            var el=document.getElementById(id),text=(el.textContent||\"\").trim();\n            if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text);return}\n            var r=document.createRange();r.selectNodeContents(el);\n            var s=window.getSelection();s.removeAllRanges();s.addRange(r);\n            try{document.execCommand(\"copy\")}catch(e){}\n            s.removeAllRanges()\n         }\n      </script>\n   </body>\n</html>",
+      "url": "https://www.aeroflot.ru/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n   <head>\n      <meta charset=\"UTF-8\"/>\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n      <title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title>\n      <style>:root{--color-primary:#000000;--bg-primary:#fff;--font-family-header:Arial,Helvetica,Roboto,Roboto Condensed,sans-serif;--font-family-text:var(--font-family-header);--font-size-sm:14px;--font-size-md:16px;--font-size-xl:28px;--font-size-2xl:40px;--font-weight-regular:400;--line-height-heading:140%;--line-height-text:160%;--button-color:#93a2af;--button-border:1px solid #d4e0eb}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{display:flex;flex-direction:column;height:100vh;font-family:var(--font-family-text);font-weight:400;font-size:16px;line-height:160%;color:var(--color-primary);background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;margin:0 auto 1rem;width:230px}.main{display:flex;align-items:center;flex-direction:column;margin:125px auto;text-align:center}.section{max-width:780px}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-regular);line-height:var(--line-height-heading)}.text{margin:16px auto;font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:100px;width:100%}.info_item{column-gap:6px;display:flex;align-items:center;justify-content:space-between;flex-direction:row;border:var(--button-border);padding:15px;width:100%;position:relative}.info_item+.info_item{margin-top:20px}.info_data{font-weight:var(--font-weight-regular)}.icon-button{display:flex;align-items:center;border:none;background:0 0;color:var(--button-color);cursor:pointer}img.logo[src=\"\"]{display:none}@media (max-width:1365px){body{margin-left:auto;margin-right:auto;padding:11px;max-width:1000px}}@media (max-width:1023px){body{max-width:750px}.info{margin-top:75px}}@media (max-width:767px){body{max-width:542px}.main{margin-top:15%}.heading{font-size:var(--font-size-xl)}.text{font-size:var(--font-size-sm)}}@media (max-width:576px){body{max-width:450px}.info_caption{position:absolute;top:-30px;white-space:nowrap}.info_item+.info_item{margin-top:45px}}</style>\n   </head>\n   <body>\n      <div class=\"main\">\n         <img id=\"logo\" class=\"logo\" width=\"230\" height=\"50\" loading=\"lazy\" src=\"https://netstorage.aeroflot.ru/mailimg/logo_blue_no_skyteam_ru.png\"/>\n         <section class=\"section\">\n            <h1 class=\"heading\">Доступ к сайту временно ограничен владельцем веб-ресурса</h1>\n            <p class=\"text\">Если считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса и сообщите данные, указанные ниже.</p>\n            <div class=\"info\">\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш IP адрес: </span><span id=\"ip\" class=\"info_data\">4.154.12.198</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"ip\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш ID запроса к ресурсу: </span><span id=\"request_id\" class=\"info_data\">8e8bf036d46772db630221ff4e781d41</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"request_id\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Время блокировки (UTC): </span><span id=\"block_time\" class=\"info_data\">2026-11-13T03:09:34.032Z</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"block_time\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n            </div>\n         </section>\n      </div>\n      <script>\n         function copy(id){\n            var el=document.getElementById(id),text=(el.textContent||\"\").trim();\n            if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text);return}\n            var r=document.createRange();r.selectNodeContents(el);\n            var s=window.getSelection();s.removeAllRanges();s.addRange(r);\n            try{document.execCommand(\"copy\")}catch(e){}\n            s.removeAllRanges()\n         }\n      </script>\n   </body>\n</html>",
+      "url": "https://www.aeroflot.ru/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n   <head>\n      <meta charset=\"UTF-8\"/>\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n      <title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title>\n      <style>:root{--color-primary:#000000;--bg-primary:#fff;--font-family-header:Arial,Helvetica,Roboto,Roboto Condensed,sans-serif;--font-family-text:var(--font-family-header);--font-size-sm:14px;--font-size-md:16px;--font-size-xl:28px;--font-size-2xl:40px;--font-weight-regular:400;--line-height-heading:140%;--line-height-text:160%;--button-color:#93a2af;--button-border:1px solid #d4e0eb}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{display:flex;flex-direction:column;height:100vh;font-family:var(--font-family-text);font-weight:400;font-size:16px;line-height:160%;color:var(--color-primary);background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;margin:0 auto 1rem;width:230px}.main{display:flex;align-items:center;flex-direction:column;margin:125px auto;text-align:center}.section{max-width:780px}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-regular);line-height:var(--line-height-heading)}.text{margin:16px auto;font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:100px;width:100%}.info_item{column-gap:6px;display:flex;align-items:center;justify-content:space-between;flex-direction:row;border:var(--button-border);padding:15px;width:100%;position:relative}.info_item+.info_item{margin-top:20px}.info_data{font-weight:var(--font-weight-regular)}.icon-button{display:flex;align-items:center;border:none;background:0 0;color:var(--button-color);cursor:pointer}img.logo[src=\"\"]{display:none}@media (max-width:1365px){body{margin-left:auto;margin-right:auto;padding:11px;max-width:1000px}}@media (max-width:1023px){body{max-width:750px}.info{margin-top:75px}}@media (max-width:767px){body{max-width:542px}.main{margin-top:15%}.heading{font-size:var(--font-size-xl)}.text{font-size:var(--font-size-sm)}}@media (max-width:576px){body{max-width:450px}.info_caption{position:absolute;top:-30px;white-space:nowrap}.info_item+.info_item{margin-top:45px}}</style>\n   </head>\n   <body>\n      <div class=\"main\">\n         <img id=\"logo\" class=\"logo\" width=\"230\" height=\"50\" loading=\"lazy\" src=\"https://netstorage.aeroflot.ru/mailimg/logo_blue_no_skyteam_ru.png\"/>\n         <section class=\"section\">\n            <h1 class=\"heading\">Доступ к сайту временно ограничен владельцем веб-ресурса</h1>\n            <p class=\"text\">Если считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса и сообщите данные, указанные ниже.</p>\n            <div class=\"info\">\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш IP адрес: </span><span id=\"ip\" class=\"info_data\">4.154.12.198</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"ip\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш ID запроса к ресурсу: </span><span id=\"request_id\" class=\"info_data\">53f77a77a68c826c7cd0dbd8292a7374</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"request_id\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Время блокировки (UTC): </span><span id=\"block_time\" class=\"info_data\">2026-11-13T03:09:34.553Z</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"block_time\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n            </div>\n         </section>\n      </div>\n      <script>\n         function copy(id){\n            var el=document.getElementById(id),text=(el.textContent||\"\").trim();\n            if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text);return}\n            var r=document.createRange();r.selectNodeContents(el);\n            var s=window.getSelection();s.removeAllRanges();s.addRange(r);\n            try{document.execCommand(\"copy\")}catch(e){}\n            s.removeAllRanges()\n         }\n      </script>\n   </body>\n</html>",
+      "url": "https://www.aeroflot.ru/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://aeroflot.ru/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n   <head>\n      <meta charset=\"UTF-8\"/>\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n      <title>Доступ к сайту временно ограничен владельцем веб-ресурса.</title>\n      <style>:root{--color-primary:#000000;--bg-primary:#fff;--font-family-header:Arial,Helvetica,Roboto,Roboto Condensed,sans-serif;--font-family-text:var(--font-family-header);--font-size-sm:14px;--font-size-md:16px;--font-size-xl:28px;--font-size-2xl:40px;--font-weight-regular:400;--line-height-heading:140%;--line-height-text:160%;--button-color:#93a2af;--button-border:1px solid #d4e0eb}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{display:flex;flex-direction:column;height:100vh;font-family:var(--font-family-text);font-weight:400;font-size:16px;line-height:160%;color:var(--color-primary);background-color:var(--bg-primary)}button{font-size:inherit}.logo{height:auto;margin:0 auto 1rem;width:230px}.main{display:flex;align-items:center;flex-direction:column;margin:125px auto;text-align:center}.section{max-width:780px}.heading{font-family:var(--font-family-header);font-size:var(--font-size-2xl);font-weight:var(--font-weight-regular);line-height:var(--line-height-heading)}.text{margin:16px auto;font-family:var(--font-family-text);font-size:var(--font-size-md);font-weight:var(--font-weight-regular);line-height:var(--line-height-text)}.info{align-items:center;display:flex;flex-direction:column;margin-top:100px;width:100%}.info_item{column-gap:6px;display:flex;align-items:center;justify-content:space-between;flex-direction:row;border:var(--button-border);padding:15px;width:100%;position:relative}.info_item+.info_item{margin-top:20px}.info_data{font-weight:var(--font-weight-regular)}.icon-button{display:flex;align-items:center;border:none;background:0 0;color:var(--button-color);cursor:pointer}img.logo[src=\"\"]{display:none}@media (max-width:1365px){body{margin-left:auto;margin-right:auto;padding:11px;max-width:1000px}}@media (max-width:1023px){body{max-width:750px}.info{margin-top:75px}}@media (max-width:767px){body{max-width:542px}.main{margin-top:15%}.heading{font-size:var(--font-size-xl)}.text{font-size:var(--font-size-sm)}}@media (max-width:576px){body{max-width:450px}.info_caption{position:absolute;top:-30px;white-space:nowrap}.info_item+.info_item{margin-top:45px}}</style>\n   </head>\n   <body>\n      <div class=\"main\">\n         <img id=\"logo\" class=\"logo\" width=\"230\" height=\"50\" loading=\"lazy\" src=\"https://netstorage.aeroflot.ru/mailimg/logo_blue_no_skyteam_ru.png\"/>\n         <section class=\"section\">\n            <h1 class=\"heading\">Доступ к сайту временно ограничен владельцем веб-ресурса</h1>\n            <p class=\"text\">Если считаете, что произошла ошибка, пожалуйста, обратитесь к владельцу веб-ресурса и сообщите данные, указанные ниже.</p>\n            <div class=\"info\">\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш IP адрес: </span><span id=\"ip\" class=\"info_data\">4.154.12.198</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"ip\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Ваш ID запроса к ресурсу: </span><span id=\"request_id\" class=\"info_data\">897935ce48578c7c2ac65886cb57f9d4</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"request_id\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n               <div class=\"info_item\">\n                  <div><span class=\"info_caption\">Время блокировки (UTC): </span><span id=\"block_time\" class=\"info_data\">2026-11-13T03:09:36.121Z</span></div>\n                  <button class=\"icon-button\" onclick='copy(\"block_time\")'>\n                     <svg alt=\"\" width=\"10\" height=\"12\" fill=\"currentColor\">\n                        <path d=\"M8.738 10.5H3.254V3.492h5.484zm0-7.992H3.254q-.422 0-.727.281a.95.95 0 00-.28.703V10.5q0 .422.28.703.305.282.727.305h5.484a1.04 1.04 0 00.703-.305.92.92 0 00.305-.703V3.492a.92.92 0 00-.305-.703.95.95 0 00-.703-.281M7.238.492h-6a1.04 1.04 0 00-.703.305.95.95 0 00-.281.703v7.008h.984V1.5h6z\"/>\n                     </svg>\n                  </button>\n               </div>\n            </div>\n         </section>\n      </div>\n      <script>\n         function copy(id){\n            var el=document.getElementById(id),text=(el.textContent||\"\").trim();\n            if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text);return}\n            var r=document.createRange();r.selectNodeContents(el);\n            var s=window.getSelection();s.removeAllRanges();s.addRange(r);\n            try{document.execCommand(\"copy\")}catch(e){}\n            s.removeAllRanges()\n         }\n      </script>\n   </body>\n</html>",
+      "url": "https://www.aeroflot.ru/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "aeroflot.ru",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-13T03:09:36.216Z",
+    "score": 51,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 19,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 43 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Доступ к сайту временно ограничен владел\"; missing/too-short meta description; no date signal; body text 43 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 9,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md fetchable; ai.txt fetchable; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://aeroflot.ru/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 3,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 3,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "islonline.net",
+    "fetchedAt": "2026-11-13T03:15:24.506Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /\n",
+      "url": "https://islonline.net/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html><head><title>Error 404: Not Found</title></head><body><h1>Error 404: Not Found</h1></body></html>",
+      "url": "https://islonline.net/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html><head><title>Error 404: Not Found</title></head><body><h1>Error 404: Not Found</h1></body></html>",
+      "url": "https://islonline.net/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html class=\"no-js h-100 w-100\" lang=\"\">\n   <head>\n\t\t<meta charset=\"utf-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t\r\n\r\n<title>Join a Session</title>\r\n\r\n\n\t\t<meta name=\"description\" content=\"\">\n\t\t\n\t\t\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/staticpool/f5d115ae/static/core/2600/web_template/opensans.css\" />\n\t\t<link rel=\"stylesheet\" href=\"/staticpool/f5d115ae/static/core/2600/e/bootstrap-5.3.3/css/bootstrap.min.css\">\n\t\t<link rel=\"stylesheet\" href=\"/staticpool/f5d115ae/static/core/2600/web_template/styles.css\">\n\t\t<link rel=\"shortcut icon\" href=\"/favicon.ico\" />\n\t\t\n\t\t\r\n\t<link rel=\"stylesheet\" href=\"/webspace/account/cp_styles.css\">\r\n\t\r\n\n\t\t\n\t\t<script src=\"/staticpool/f5d115ae/static/core/2600/common.js\" type=\"text/javascript\"></script>\n\t\t\n\t\t<script src=\"/staticpool/f5d115ae/static/core/2600/error-handler.js\" type=\"text/javascript\"></script>\n        \n\t\t<script src=\"/staticpool/f5d115ae/static/core/2600/jquery-3.6.0.min.js\" type=\"text/javascript\"></script>\n\t\t<script src=\"/staticpool/f5d115ae/static/core/2600/e/bootstrap-5.3.3/js/bootstrap.bundle.min.js\" type=\"text/javascript\"></script>\n\t\t<script type=\"text/javascript\" src=\"/staticpool/f5d115ae/core/webutils_v2.js\"></script>\n\t\t\n\t\t<script src=\"/staticpool/f5d115ae/static/core/2600/web-template.js\" type=\"text/javascript\"></script>\n\t\t\n\t\t\n\t\t\r\n<script type=\"text/javascript\" src=\"/webspace/account/myutils.js\"></script>\r\n\n\t\t\n\t</head>\n\t<body class=\" webversion-v2600 h-100 w-100 disable-tracking\">\n\t\t\r\n\t\r\n\t\r\n\n\t\t\n\t\t\n\t\t<script type=\"text/javascript\">\n\t\t\n\t\t\tfunction WebAPI2hsrv(req_data) {\n\t\t\t\treturn '403';\n\t\t\t}\n\n\t\t\tfunction WebAPI2resphook(req_data, resp_data) { /*nop*/ }\n\t\t\n\t\t\t\n\t\t\tvar ISLSessionElevateHint = false;\n\t\t\t\n\t\t\t\n\t\t\tvar postToken = '';\n\t\t\t\n\t\t\tvar ISLWebVersion = '';\n\t\t\tvar ISLWebVersions = [{\"description\":\"\",\"name\":\"v440\",\"title\":\"Deprecated (v440)\"},{\"description\":\"\",\"name\":\"v2100\",\"title\":\"Deprecated (v2100)\"},{\"description\":\"\",\"name\":\"v2200\",\"title\":\"Deprecated (v2200)\"},{\"description\":\"\",\"name\":\"v2400\",\"title\":\"Deprecated (v2400)\"},{\"description\":\"\",\"name\":\"v2500\",\"title\":\"Classic (v2500)\"},{\"default\":1,\"description\":\"\",\"name\":\"v2600\",\"title\":\"Default (v2600)\"}];\n\t\t\tvar ISLWebVersionCurrent;\n\t\t\tvar ISLWebVersionDefault;\n\t\t\t\n\t\t\t\t$each(ISLWebVersions, function(v) {\n\t\t\t\t\tif(typeof(v.name) != 'string' || typeof(v.title) != 'string') return;\n\t\t\t\t\tif(v.default) ISLWebVersionDefault = v;\n\t\t\t\t\tif(v.name === ISLWebVersion) ISLWebVersionCurrent = v;\n\t\t\t\t});\n\t\t\t\tif(typeof(ISLWebVersionCurrent) == 'undefined') ISLWebVersionCurrent = ISLWebVersionDefault;\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t$(initSidebar);\n\t\t\t\n\t\t\t\n\t\t</script>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div class=\"d-inline-flex flex-column\" style=\"min-width: 100%; min-height: 100%;\">\n\t\t\r\n\t\r\n\n\t\t<nav class=\"navbar navbar-light navbar-expand\">\n\t\t\t<div id=\"navbar\" class=\"icp-navbar navbar-collapse collapse d-none d-lg-block\">\n\n\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t<div class=\"vertical-align-container\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a class=\"d-inline-block h-100\" href=\"https://www.islonline.com/?hl=en\"><img class=\"mh-100\" src=\"/webspace/account/logo_islonline.svg\" alt=\"ISL Online (powered by PDQ.com)\"/></a>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<ul class=\"nav navbar-nav ms-auto d-flex navbar-end\">\n\t\t\t\t\t<li class=\"nav-item\"><a href=\"/users/main/join.html\">Join</a></li>\n\t\t\t\t\t<li class=\"nav-item\"><a href=\"/users/main/downloads.html\">Downloads</a></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"\"><a href=\"/users/isllight/start.html\">Login</a></li>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</nav>\n\t\t\n\t\t<div class=\"d-flex flex-grow-1\">\n\t\t\t\n\t\t\t<div class=\"d-flex flex-column mt-2\" style=\"flex: 1 1;\">\n\t\t<div class=\"container doc\">\n\t\t<div class=\"margin-top\"></div>\n\t\t\t\n\n<link rel=\"stylesheet\" href=\"/staticpool/f5d115ae/static/main/2600/styles-join.css\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <div id=\"sm-responsive\" style=\"display:none;\"></div>\n    <div class=\"container-medium mx-auto margin-top-40\">\n        <div id=\"preload-1\"></div>\n        <div id=\"preload-2\"></div>\n        <!-- View: Join form -->\n        <div class=\"text-center clearfix margin-after-lg\" id=\"view-join\">\n            <form method=\"post\" class=\"section-content\">\n                <input type=\"hidden\" id=\"text-invalid-code\" value=\"Please enter a valid session code.\"></input>\n                <input type=\"hidden\" id=\"text_registration_required\" value=\"Registration required.\"></input>\n                <div id=\"js-enabled\" class=\"form-content\" style=\"display:none\">\n                    <h2 class=\"nomargin session-title pb-3 font-weight-semibold\">Join a Session</h2>\n                    \n                    <div class=\"mt-4 mx-auto join-content-narrow\" id=\"join-content\">\n                    \n                        <div class=\"alert alert-error\" style=\"display:none;\"></div>\n                        <div class=\"alert alert-warning\" style=\"display:none\"></div>\n                        <div id=\"session-info-box\" style=\"display:none\"></div>\n                                                <div class=\"form-input-wrapper float-label\">\n                            <label class=\"icp-label toggled\">Enter Session Code</label>\n                            <div class=\"icp-input icp-input-large\">\n                                <input class=\"input-join float-label-input\" type=\"tel\" inputmode=\"numeric\" autocomplete=\"off\" placeholder=\"Enter Session Code\">\n                            </div>\n                            <span class=\"loader-icon input-loader\"></span>\n                        </div>\n                        \n                        <div class=\"form-group btn-group row\">\n                            <span class=\"loader-icon btn-loader\"></span>\n\t\t\t\t\t\t\t<a href=\"javascript:void(0)\" id=\"btn-isl-join\" class=\"btn button button-main button-xxl scta\">Join</a>\n                        </div>\n                    </div>\n                </div>\n                <!-- No JS fallback -->\n                <noscript>\n                <div id=\"no-js\">To view this page, you need to have JavaScript enabled! Alternatively, you may proceed to the <a href=\"downloads.html\">Downloads</a> page.</div>\n                </noscript>\n            </form>\n        </div>\n        <!-- END View: Join form -->\n        <!-- View Switcher -->\n        <div id=\"view-switcher\">\n        </div>\n        <!-- END View Switcher-->\n    </div>\n\n    <input type=\"hidden\" id=\"text-subscribe-message\" value=\"You have been successfully subscribed to event&#39;s notifications.\"></input>\n    <input type=\"hidden\" id=\"text-unsubscribe-warning\" value=\"You have been successfully unsubscribed from event&#39;s notifications.\"></input>\n    <input type=\"hidden\" id=\"text-email-error\" value=\"Please enter a valid email address and try again.\"></input>\n    <input type=\"hidden\" id=\"text-unsubscribe-error\" value=\"An error occured during the unsubscription process. Please try again, or contact an administrator.\"></input>\n    <input type=\"hidden\" id=\"text-noapp\" value=\"You do not seem to have Your App installed, do you want to download it now?\"></input>\n    <input type=\"hidden\" id=\"text-public\" value=\"Run the downloaded application to enter.\"></input>\n    <input type=\"hidden\" id=\"text-public_and_reg\" value=\"Click join button to enter.\"></input>\n    <input type=\"hidden\" id=\"text-reg_only\" value=\"Registration Required\"></input>\n    <input type=\"hidden\" id=\"text-reg_confirm_only\" value=\"Registration Required\"></input>\n    <input type=\"hidden\" id=\"text-closed\" value=\"Registration Closed\"></input>\n    <input type=\"hidden\" id=\"text-not_active\" value=\"This event is overdue\"></input>\n    <input type=\"hidden\" id=\"text-register\" value=\"Register\"></input>\n    <input type=\"hidden\" id=\"text-joinmeeting\" value=\"Join a Meeting\"></input>\n    <input type=\"hidden\" id=\"text-joinwebinar\" value=\"Join a Webinar\"></input>\n    <input type=\"hidden\" id=\"text-code_error\" value=\"Session code is invalid. Please enter the correct session code.\"></input>\n    <input type=\"hidden\" id=\"text-alwayson-invite\" value=\"Invitation to grant access\"></input>\n    <input type=\"hidden\" id=\"text-light-invite\" value=\"Invitation to remote support\"></input>\n    <input type=\"hidden\" id=\"text-groop-invite\" value=\"Invitation to meeting\"></input>\n\n    <script>\n        document.getElementById('js-enabled').style.display=\"\";        \n\n\t\t\n        var flag_ISLCONFPROXY_1818 = true;\n                \n\t\t        \n        \n            var flag_ISLCONFPROXY_2319 = false;\n          \n    </script>\n    <script src=\"/staticpool/f5d115ae/static/main/2600/join.js\" type=\"text/javascript\"></script>\n    <script src=\"/staticpool/f5d115ae/static/core/2600/float-label.js\" type=\"text/javascript\"></script>\n    \n    <script src=\"/staticpool/f5d115ae/static/core/2600/isl-user-agent.js\" type=\"text/javascript\"></script>\n    \n    <script>\n        var I = {},\n        \n        languageCode = 'en',\n        translations = {\n            'No data from API':'No data from API',\n            'An error occured. Please contact a system administrator.':'An error occured. Please contact a system administrator.',\n            'Connection timed out. Please try again.':'Connection timed out. Please try again.',\n            'Join another session':'Join another session',\n            'owner':'owner',\n            'host':'host',\n            'presenter':'presenter',\n            'guest':'guest'\n        };\n    </script>\n      <script type=\"text/html\" id=\"joinSessionTemplate\">\n        <div class=\"text-center\" id=\"join-session-page\">\n            \n            <% if (ISL.JOIN.sessionType === 'ISL Light' && ISL.JOIN.allowJoinBrowser) { %>\n                \n                <% if (\"ask_everytime\" === ISL.JOIN.sessionJoinType || \"join_app\" === ISL.JOIN.sessionJoinType) { %>\n                    <div class=\"content-title\" id=\"join-waiting-title\">\n                        <% if (ISL.JOIN.apiData && ISL.JOIN.apiData.data && ISL.JOIN.apiData.data.supporterName) { %>\n                            <span class=\"join-waiting-name\">_</span> is waiting for you\n                        <% } else { %>\n                            Operator is waiting for you\n                        <% } %>\n                    </div>\n                    <div class=\"fw-semibold\" id=\"session-info-box\">\n                        <div class=\"margin-after-xs\">Download and run the application to join a session.</div>\n\n                        <div id=\"session-info-container\">_</div>\n\n                        <div class=\"margin-after-lg join-warning-wrap\">\n                            \n                            <div class=\"message-container warning nomargin\">Only join sessions with people you recognize and trust!</div>\n                            \n                        </div>\n\n                        <div id=\"join-schema-hint\" style=\"display:none\">Couldn't open the application. Please download and install it below.</div>\n\n                        <div class=\"form-group btn-group row margin-after-xs\" id=\"join-download-btn-wrap\">\n                            <a href=\"javascript:void(0)\" class=\"btn-isllight-join-app button button-main button-xl scta col-12\">Download</a>\n                        </div>\n\n                        <div id=\"join-download-started\" class=\"margin-after-lg\" style=\"display:none\">\n                            <div class=\"download-started-title\">Download Started</div>\n                            <div class=\"download-started-body\">Please run the downloaded application to connect with the operator.</div>\n                            <div class=\"download-started-again\"><a href=\"javascript:void(0)\" id=\"join-download-again\">Download Again</a></div>\n                        </div>\n\n                        <% if (\"ask_everytime\" === ISL.JOIN.sessionJoinType && ISL.JOIN.allowJoinBrowser && ISL.JOIN.joinWebLink) { %>\n                        <div class=\"form-group btn-group row margin-after-xs\">\n                            <a href=\"javascript:void(0)\" class=\"btn-isllight-join-browser button button-main button-xl col-12\">Join in Browser</a>\n                        </div>\n                        <% } %>\n\n                        <% if (ISL.JOIN.joinSchemaLink) { %>\n                        <div class=\"btn-isllight-launch-wrap\">\n                            <div>Already installed the app?</div>\n                            <div><a href=\"javascript:void(0)\" class=\"btn-isllight-join-app-schema\">Launch application</a></div>\n                        </div>\n                        <% } %>\n\n                        <hr class=\"join-divider\" />\n\n                        <div><a href=\"/join\" >Join another session</a></div>\n                    </div>\n                <% } else { %>\n                \n                \n                    <!-- /-> Join in browser -->\n                    <div class=\"content-title\">Join a Session</div>\n                \n                    <!-- / -->\n\n                    <div class=\"offset-md-2 col-md-8 offset-lg-3 col-lg-6 fw-semibold\" id=\"session-info-box\">\n                        \n                        <!-- /-> Join in browser -->\n                        <div class=\"margin-after-xs\">Please proceed to connect with the operator.</div>\n                        \n                        <!-- / -->\n\n                        <!-- /->* -->\n                        <div id=\"session-info-container\">_</div>\n                        \n                        <div class=\"margin-after-xs join-warning-wrap\">\n                        \n                            \n                            <div class=\"message-container warning nomargin\">Only join sessions with people you recognize and trust!</div>\n                            \n                        </div>\n                        <!-- / -->\n\n                        <!-- /-> Join in app -->\n                        \n                        <!-- /-> Join in browser -->\n                        <div class=\"form-group btn-group row margin-after-lg\">\n                            <a href=\"javascript:void(0)\" class=\"btn-isllight-join-browser button button-main button-xl scta col-12\">Join</a>\n                        </div>\n                        \n                        <!-- / -->\n\n                        <div class=\"join-another-wrap\"><a href=\"/join\" >Join another session</a></div>\n                    </div>\n                \n                <% } %>\n                \n            <% } else { %>\n            \n                    <div class=\"content-title\">Thank you for downloading!</div>\n        \n            <div class=\"mt-4 offset-md-2 col-md-8 offset-lg-3 col-lg-6 font-weight-semibold\" id=\"session-info-box\">\n                <% if(\"ISL AlwaysOn\" === ISL.JOIN.sessionType) { %>\n                    <div>Please run the downloaded application to grant access.</div>\n                    <div class=\"nopadding-top\">If your download didn't start, <a id=\"dl-link\">click here to retry.</a></div>\n\t\t\t\t\t<br />\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"session-info-container\">_</div>\n\t\t\t\t\t\n                    \n                    <div class=\"message-container warning nomargin\">Only grant computer access to people you recognize and trust!</div>\n                    \n                <% } else { %>\n                    <div>Please run the downloaded application to connect with operator.</div>\n                    <div class=\"nopadding-top\">If your download didn't start, <a id=\"dl-link\">click here to retry.</a></div>\n\t\t\t\t\t<br />\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"session-info-container\">_</div>\n\t\t\t\t\t\n                    \n                    <div class=\"message-container warning nomargin\">Only join sessions with people you recognize and trust!</div>\n                    \n                <% } %>\n                <br />\n                <div><a href=\"/join\" >Join another session</a></div>\n            </div>\n            \n            <% } %>\n            \n                        \n        </div>\n    </script>\n\n    <script type=\"text/html\" id=\"androidTemplate\">\n        <div class=\"text-center\" id=\"join-page\">\n            <h2 class=\"nomargin\">Thank you for joining!</h2>\n\n            <div class=\"mt-4 offset-md-2 col-md-8 offset-lg-3 col-lg-6 font-weight-semibold\" id=\"session-info-box\">\n                \n\t\t\t\t<div id=\"session-info-container\">_</div>\n\t\t\t\t\n                \n                <div class=\"message-container warning nomargin\">Only join sessions with people you recognize and trust!</div>\n                \n                <br />\n                <div><a href=\"/join\" >Join another session</a></div>\n            </div>\n        </div>\n    </script>\n\n    <script type=\"text/html\" id=\"registerTemplate\">\n        <div class=\"text-center\" id=\"register-page\">\n\n        </div>\n    </script>\n\n    <script type=\"text/html\" id=\"lightSessionInfoTemplate\">\n        <div class=\"box-inside margin-after-xs font-weight-semibold\"\">\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Session Type:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= ISL.JOIN.type[ISL.JOIN.sessionType] %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Session Code:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= ISL.JOIN.formatSessionCode(code) %></div>\n            </div>\n            \n            <% if(supporterName) { %>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Full Name:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= supporterName %></div>\n            </div>\n            <% } if(supporterEmail) { %>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">E-Mail:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= supporterEmail %></div>\n            </div>\n            <% } if(supporterUsername) { %>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Username:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= supporterUsername %></div>\n            </div>\n            <% } %>\n            \n        </div>\n    </script>\n\n    <script type=\"text/html\" id=\"alwaysonSessionInfoTemplate\">\n        <div class=\"box-inside margin-after-xs font-weight-semibold\"\">\n            <div class=\"row\">\n                <div class=\"col-md-4 col-sm-12\">Session Type:</div>\n                <div class=\"col-md-8 col-sm-12 font-xs-bold\"><%= ISL.JOIN.type[ISL.JOIN.sessionType] %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-4 col-sm-12\">Grant Code:</div>\n                <div class=\"col-md-8 col-sm-12 font-xs-bold\"><%= ISL.JOIN.formatSessionCode(code) %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-4 col-sm-12\">User:</div>\n                <div class=\"col-md-8 col-sm-12 font-xs-bold\"><%= username %></div>\n            </div>\n\n\t\t\t<% if(isSet(ISL.JOIN.apiData) && isSet(ISL.JOIN.apiData.data) && isSet(ISL.JOIN.apiData.data.group_name) && ISL.JOIN.apiData.data.group_name) { %>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-4 col-sm-12\">Group Name:</div>\n\t\t\t\t<div class=\"col-md-8 col-sm-12 font-xs-bold\"><%= ISL.JOIN.apiData.data.group_name %></div>\n\t\t\t</div>\n\t\t\t<% } %>\n\n        </div>\n    </script>\n\n    <script type=\"text/html\" id=\"platformNotSupportedTemplate\">\n        <div class=\"text-center font-weight-semibold\"\">\n            <h4>Sorry, your platform is not supported.</h4>\n            <br />\n            <div><a href=\"/join\" >Join another session</a></div>\n        </div>\n    </script>\n\n    <script type=\"text/html\" id=\"groopSessionInfoTemplate\">\n        <div class=\"box-inside margin-after-xs font-weight-semibold\"\">\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Session Type:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= ISL.JOIN.type[ISL.JOIN.sessionType] %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Host:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= creator %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Session Code:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= ISL.JOIN.formatSessionCode(code) %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Session Name:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= session_name %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Status:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= status %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Starting On:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= start_time %></div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Your Role:</div>\n                \n                <div class=\"col-md-7 col-sm-12 font-xs-bold\"><%= owner == 1 ? translate('owner') : \"undefined\" !== typeof default_role ? translate(default_role) : \"/\" %></div>\n                \n            </div>\n            <% if(\"undefined\" !== typeof subscribe){ %>\n            <div class=\"row\">\n                <div class=\"col-md-5 col-sm-12\">Notifications:</div>\n                <div class=\"col-md-7 col-sm-12 font-xs-bold\">\n                    <div class=\"join-subscribtion\">\n                        <a href=\"javascript:void(0);\" onclick=\"ISL.JOIN.showSubscribeForm();return false;\" class=\"subscribe\">Subscribe</a>\n                        <a href=\"javascript:void(0);\" onclick=\"ISL.JOIN.unsubscribe(this);return false;\" class=\"unsubscribe hidden\">Unsubscribe</a>\n                        <div class=\"subscribe-email hidden\"><span class=\"bracket\">&nbsp;(</span><span class=\"address\"></span><span class=\"bracket\">)</span></div>\n                        <div class=\"subscribe-form hidden inputform\">\n                                                        <div class=\"icp-input d-flex\">\n                                <input type=\"text\" id=\"subscribe-email\" class=\"flex-grow-1\" placeholder=\"Email address\" />\n                                <span class=\"input-group-btn ms-1\">\n                                    <a href=\"javascript:void(0);\" onclick=\"ISL.JOIN.subscribe(this);return false;\" class=\"button\">OK</a>\n                               </span>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <% } %>\n        </div>\n    </script>\n\n\n\t\t\t<noscript><div class=\"js-hint alert alert-warning margin-top\">Please enable JavaScript for the optimal experience.</div></noscript>\n\t\t\r\n\t\r\n\t\t<!-- Live chat -->\r\n\t\t\r\n\t\r\n\t<!-- Zoho live chat -->\r\n\t\r\n\t<!-- Admin settings overrides -->\r\n\t\r\n\t<!-- Cookie Law -->\r\n\t<div class=\"cookie-warning\" style=\"display:none;\">\r\n        <div class=\"cookie-warning-body\">\r\n            <h2 class=\"cookie-consent-title\">Cookie Consent</h2>\r\n            <p>\r\n                We use cookies to ensure the proper functioning of our website (essential cookies) and, with your consent, for other purposes (functional and other cookies) as outlined in our <a href=\"https://www.islonline.com/legal/cookies.htm?hl=en\">Cookie Policy</a> and <a href=\"https://www.islonline.com/legal/privacy-policy.htm?hl=en\">Privacy Policy</a>. You can update your cookie preferences at any time.\r\n            </p>\r\n            <div class=\"text-center\">\r\n                <ul class=\"list-actions list-unstyled list-inline\">\r\n                    <li><a href=\"javascript:void(0);\" class=\"btn btn-cta\" onclick=\"setCookiesConsent('.cookie-warning',true);\">Accept All</a></li>\r\n                    <li><a href=\"javascript:void(0);\" class=\"btn btn-primary\" onclick=\"setCookiesConsent('.cookie-warning',false);\">Essential Only</a></li>\r\n                    <li ><a href=\"https://www.islonline.com/legal/cookies.htm?hl=en#manage-settings\" class=\"btn btn-primary\" onclick=\"setCookiesConsent('.cookie-warning',false);\">Manage Cookies</a></li>\r\n                </ul>\r\n                <ul class=\"list-bottom-links list-unstyled list-inline\">\r\n                    <li>\r\n                        <a href=\"https://www.islonline.com/join/\" class=\"gray-text-link\">Join a Session</a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://www.islonline.net/start/ISLLight?branch=any&amp;stable_since=2014-01-01\" class=\"gray-text-link\" rel=\"nofollow\">Download ISL Light</a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\n\t\t\n        <footer class=\"clear\">\n            <div class=\"footer wrapper \">\n\t\t\t\t<p class=\"copyright\">\n\t\t\t\t\t<span class=\"footer-left\">&copy; 2003-2026 <a target=\"_blank\" href=\"https://www.islonline.com\">ISL Online</a></span>\n\t\t\t\t\t<span class=\"footer-right\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a target=\"_blank\" href=\"https://www.islonline.com/help/?hl=en\">Manuals</a>\n\t\t\t\t\t\t&#x7c;\n\t\t\t\t\t\t<a href=\"/users/main/change_language.html\">English</a>\n\t\t\t\t\t\t&#x7c; Version: <a id=\"change-version-href\" href=\"/users/main/change_version.html\">Change</a>\n\t\t\t\t\t\t<script type=\"text/javascript\">if(typeof(ISLWebVersionCurrent) != 'undefined' && ISLWebVersionCurrent.title !== '') $('#change-version-href').html(ISLWebVersionCurrent.title);</script>\n\t\t\t\t\t</span>\n\t\t\t\t</p>\n            </div>\n        </footer>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t\n\t\t\r\n\t\t<script>\r\n\t\t\t\r\n\t\t\t\tvar loggedIn = false;\r\n\t\t\t\r\n\t\r\n\t\t\tvar detectedGeoipCountry = 'US';\r\n\t\t\tvar langVariant = '';\r\n\t\t\tvar langCode = 'en';\r\n\t\t\tvar mytoken = '';\r\n\t\t\tvar secureRedir = '2_YqfY7uKvl.tyKWwHwNvzQBEan12.Y7wTLrmUCNo1zWRR0zGGL6f9anmU41PGrIe_aLvf66h63DPgAKpdjHRvpxyYJSWZcmb88CAEoxhgbMOLmrXR3eKywMuA9moEAgGTAQI-';\r\n\t\t\tfunction setVersion(setNew) {\r\n\t\t\t\tif(setNew) {\r\n\t\t\t\t\tsetComVersionCookie('flag_enable').done(function() {\r\n\t\t\t\t\t\tlocation.reload();\r\n\t\t\t\t\t});\r\n\t\t\t\t} else {\r\n\t\t\t\t\tdocument.location.href = 'https://www.islonline.com/set-cookies.htm?flag_disable=www_5288&flag_expiry=60&redir=' + encodeURIComponent(document.location.href.replace('account','islv61'));\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tfunction setComVersionCookie(queryParamKey) {\r\n\t\t\t\tvar URL = 'https://www.islonline.com/set-cookies.htm';\r\n\t\t\t\treturn ajax = $.ajax({\r\n\t\t\t\t\turl:URL + '?' + queryParamKey + '=www_5288', \r\n\t\t\t\t\tmethod : \"GET\",\r\n\t\t\t\t\txhrFields: {\r\n\t\t\t\t\t\twithCredentials: true\r\n\t\t\t\t\t}\r\n\t\t\t\t});\r\n\t\t\t}\r\n\t\t</script>\r\n\t\t\r\n\t\t<!-- Back to reports redirect change -->\t\r\n\t\t<script>\r\n\t\t  document.addEventListener('DOMContentLoaded', function() {\t\t\t\t\r\n\t\t\t\tif (!document.URL.split('/').filter(Boolean).pop().startsWith('meetings.html')) return;\r\n\t\t\t\tconst container = document.querySelector('.content');\r\n\t\t\t\tconst backLink = container.children[0];\r\n\t\t\t\tif (backLink && backLink.getAttribute('href') === '/users/reports') {\r\n\t\t\t\t  backLink.setAttribute('href','/users/main/session_redirect?redirect=https://www.islonline.com/account/hosted-service/reports.htm');\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t\t</script>\r\n\t\t<!-- Back to reports redirect change -->\t\r\n\t\t\r\n\t\t<script type=\"text/javascript\" src=\"/webspace/account/notifications.js\"></script>\r\n\t\t<script type=\"text/javascript\" src=\"/webspace/account/scripts.js\"></script>\r\n\t\t<!-- detected country code: US -->\r\n\t\n\t\t\n\t\t\n\t\t\n\t</body>\n</html>\n",
+      "url": "https://islonline.net/users/main/join.html"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<html><head><title>Error 404: Not Found</title></head><body><h1>Error 404: Not Found</h1></body></html>",
+      "url": "https://islonline.net/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html><head><title>Error 404: Not Found</title></head><body><h1>Error 404: Not Found</h1></body></html>",
+      "url": "https://islonline.net/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html><head><title>Error 404: Not Found</title></head><body><h1>Error 404: Not Found</h1></body></html>",
+      "url": "https://islonline.net/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "islonline.net",
+    "engineVersion": "afr-1.1.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-13T03:15:24.506Z",
+    "score": 15,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "AI-Closed",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 10,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "fail",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 0.00/9 · hybrid 0.00/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4.5,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3.5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 2/4; no h1; html[lang] present; body text 104 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Join a Session\"; missing/too-short meta description; no date signal; body text 104 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "openapi probe + homepage HTML",
+              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md, /ai.txt + homepage HTML",
+              "detail": "agents.md HTTP 404; ai.txt HTTP 404; homepage has no AI info page link"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3.5,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
