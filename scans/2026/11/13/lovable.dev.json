@@ -1,250 +1,250 @@
 {
-  "signals": {
-    "domain": "lovable.dev",
-    "fetchedAt": "2026-11-13T03:14:48.299Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "User-Agent: *\nAllow: /\nDisallow: /auth\nDisallow: /@*\nDisallow: /desktop-dictation\nDisallow: /desktop-quick-chat\nDisallow: /landing\nDisallow: /landing/*\n# The `&`/`%26` refinement tails below come from buildTemplatesUrl.ts — change one, change both.\nDisallow: /templates&\nDisallow: /templates%26\nDisallow: /templates/*&\nDisallow: /templates/*%26\nDisallow: /*/templates&\nDisallow: /*/templates%26\nDisallow: /*/templates/*&\nDisallow: /*/templates/*%26\n\n# A named group replaces the `*` group outright, so its rules are repeated, not inherited.\nUser-Agent: Slackbot\nUser-Agent: Slackbot-LinkExpanding\nUser-Agent: Twitterbot\nUser-Agent: LinkedInBot\nUser-Agent: facebookexternalhit\nUser-Agent: Facebot\nUser-Agent: Discordbot\nUser-Agent: WhatsApp\nUser-Agent: TelegramBot\nAllow: /\nDisallow: /auth\nDisallow: /@*\nDisallow: /desktop-dictation\nDisallow: /desktop-quick-chat\nDisallow: /landing\nDisallow: /landing/*\n\n# Split from the crawler group below: these open one pasted URL, so filter links must resolve.\nUser-Agent: ChatGPT-User\nUser-Agent: Claude-User\nUser-Agent: Claude-Web\nAllow: /\nDisallow: /auth\nDisallow: /desktop-dictation\nDisallow: /desktop-quick-chat\nDisallow: /projects/\nDisallow: /@*\nDisallow: /landing\nDisallow: /landing/*\n\nUser-Agent: GPTBot\nUser-Agent: OAI-SearchBot\nUser-Agent: ClaudeBot\nUser-Agent: PerplexityBot\nUser-Agent: Google-Extended\nUser-Agent: Applebot-Extended\nAllow: /\nDisallow: /auth\nDisallow: /desktop-dictation\nDisallow: /desktop-quick-chat\nDisallow: /projects/\nDisallow: /@*\nDisallow: /landing\nDisallow: /landing/*\nDisallow: /templates&\nDisallow: /templates%26\nDisallow: /templates/*&\nDisallow: /templates/*%26\nDisallow: /*/templates&\nDisallow: /*/templates%26\nDisallow: /*/templates/*&\nDisallow: /*/templates/*%26\n\nSitemap: https://lovable.dev/sitemap.xml\n",
-      "url": "https://lovable.dev/robots.txt"
-    },
-    "llms": {
-      "status": 200,
-      "body": "# Lovable\n\n> Lovable is an AI-powered platform for building web and mobile apps, websites, and internal tools from natural-language prompts.\n\nThis file lists the main hubs of lovable.dev for AI assistants and answer engines. Full product documentation lives at https://docs.lovable.dev/llms.txt.\n\n## Product\n\n- [Pricing](https://lovable.dev/pricing): Plans, credits, and pricing for individuals, teams, and enterprises.\n- [Enterprise](https://lovable.dev/enterprise-landing): Lovable for enterprise — security, governance, and scale.\n- [Security](https://lovable.dev/security): Lovable's security posture, compliance, and data handling.\n- [Lovable Cloud](https://lovable.dev/cloud): Built-in backend, database, and hosting for Lovable apps.\n- [Internal tools](https://lovable.dev/tools): Build internal tools and dashboards with Lovable.\n- [Prototyping](https://lovable.dev/prototypes): Turn ideas into interactive prototypes.\n- [Shopify](https://lovable.dev/shopify): Build Shopify storefronts and apps with Lovable.\n- [Supabase integration](https://lovable.dev/supabase-integration): Connect Lovable apps to a Supabase backend.\n- [SEO & AEO](https://lovable.dev/seo-aeo): Search- and answer-engine optimization for Lovable sites.\n- [Growth tools](https://lovable.dev/grow): A plan for your first users, then search, community posts, and ads from the Lovable chat.\n- [Download apps](https://lovable.dev/download): Desktop and mobile Lovable apps.\n\n## Documentation\n\n- [Documentation (llms.txt)](https://docs.lovable.dev/llms.txt): Curated index of Lovable product documentation for LLMs.\n- [Documentation (llms-full.txt)](https://docs.lovable.dev/llms-full.txt): Full-text Lovable documentation for LLMs.\n- [Lovable MCP server](https://docs.lovable.dev/integrations/lovable-mcp-server): Connect AI tools to Lovable to create and manage projects.\n- [Lovable MCP endpoint](https://mcp.lovable.dev): Remote MCP endpoint for programmatic access to Lovable.\n\n## Guides\n\n- [Guides](https://lovable.dev/guides): Step-by-step guides and tutorials for building with Lovable.\n- [App alternatives](https://lovable.dev/guides/category/app-alternatives): App alternatives guides.\n- [App comparisons](https://lovable.dev/guides/category/app-comparisons): App comparisons guides.\n- [App inspiration](https://lovable.dev/guides/category/app-inspiration): App inspiration guides.\n- [App teardowns](https://lovable.dev/guides/category/app-teardowns): App teardowns guides.\n- [Best apps tools](https://lovable.dev/guides/category/best-apps-tools): Best apps tools guides.\n- [Business](https://lovable.dev/guides/category/business): Business guides.\n- [Business app ideas](https://lovable.dev/guides/category/business-app-ideas): Business app ideas guides.\n- [Comparisons](https://lovable.dev/guides/category/comparisons): Comparisons guides.\n- [Competitive comparisons](https://lovable.dev/guides/category/competitive-comparisons): Competitive comparisons guides.\n- [How to](https://lovable.dev/guides/category/how-to): How to guides.\n- [Product comparisons](https://lovable.dev/guides/category/product-comparisons): Product comparisons guides.\n- [Resources for solopreneur](https://lovable.dev/guides/category/resources-for-solopreneur): Resources for solopreneur guides.\n- [Use case pages](https://lovable.dev/guides/category/use-case-pages): Use case pages guides.\n- [Website definitions explainers](https://lovable.dev/guides/category/website-definitions-explainers): Website definitions explainers guides.\n- [Website inspiration](https://lovable.dev/guides/category/website-inspiration): Website inspiration guides.\n\n## Use cases\n\n- [Solutions & use cases](https://lovable.dev/solutions): Use cases and solutions for building apps, websites, and products.\n\n## Templates\n\n- [Templates](https://lovable.dev/templates): Browse starter templates by category.\n- [Apps](https://lovable.dev/templates/apps): Apps templates.\n- [Websites](https://lovable.dev/templates/websites): Websites templates.\n\n## Blog\n\n- [Blog](https://lovable.dev/blog): Articles, product news, and insights from the Lovable team.\n\n## Optional\n\n- [Partner directory](https://lovable-partner-directory.lovable.app/): Hire a vetted Lovable partner or agency.\n- [Partners](https://lovable.dev/partners): Partner and affiliate programs.\n- [Careers](https://lovable.dev/careers): Open roles at Lovable.\n- [Support](https://lovable.dev/support): Help center and support resources.\n- [Videos](https://lovable.dev/videos): Video tutorials and walkthroughs.\n- [Reviews](https://lovable.dev/reviews): What customers say about Lovable.\n- [Brand](https://lovable.dev/brand): Brand guidelines and assets.\n- [Connectors](https://lovable.dev/connect): Chat connectors and integrations available in Lovable.\n",
-      "url": "https://lovable.dev/llms.txt"
-    },
-    "llmsFull": {
-      "status": 404,
-      "body": "Not Found",
-      "url": "https://lovable.dev/llms-full.txt"
-    },
-    "homepage": {
-      "status": 403,
-      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-Zi0TF8ckKSZAVIJoCWhiJb&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"Zi0TF8ckKSZAVIJoCWhiJb\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'pRVmipE5ErGvr6svQLYo5zb1J145xuuI7EyZ0hQaPjM-1794539686-1.2.1.1-yGMd9XPWmIVaH2HEpnwdDLEhDrNf_e65AlBnb.Tj.EMgi43RGxe5IYvX_O5T9kD1',cITimeS: '1794539686',cN: 'Zi0TF8ckKSZAVIJoCWhiJb',cRay: 'a59a9bb2cedf1f63',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=bBJhiIUnE_t.IsSUS7as0Tqm6s3rCVUFplAiBzzxB2k-1794539686-1.0.1.1-7Uv7JMsOpY7O_WRtgWUDKuPt.Zr4R0dbRciwldo7984\",cvId: '3',cZone: 'lovable.dev',fa:\"/?__cf_chl_f_tk=bBJhiIUnE_t.IsSUS7as0Tqm6s3rCVUFplAiBzzxB2k-1794539686-1.0.1.1-7Uv7JMsOpY7O_WRtgWUDKuPt.Zr4R0dbRciwldo7984\",md: '3POMjwQeWiNI7.oYYEKrLn8KzsDi6goZS77DjF95b4I-1794539686-1.2.1.1-0aG3x_rxkVio7FH95cM7UZrKwO94fc1InpFMLi7M3p0L8kDNYJtJc6UuQ5jTgfN0yOoK9j3noivo_dbK97rrrfOafupxQu9.cZ1iy0YOwIWnWcicolsxdYPAKPBjhUkeFKewKwtL1Tqzgl3BxtpLaHoRkQvOeMJuLJRXzMRxMu5Pd8VQ8k4HSOqhnSzd.m2v7flm.evmcpku6Kkh6RCckxHjiMpZTE8Eb0njbM2hyYDMr2FwYVzRjV7LVdduSTjXxBioeYwLgSxu_iuIaBRSZwPKOHKPuOV.yPGq4yBCmcJ.wTp.Fy_41oC7W5hPPzhfNqNfRtOYZhViJo19Oy4C9NMBQoxcXLzZ9bJqRSIKGJUNno7.0Cn_qOP1Pb5WRk0rH6.18dPCOUWHFZHmaV_ib39IxVAM8tV7gjpqvRJPVkTwhhx6lbTJ8LyyhTDU1KFTfwEeQHgEfwOqoc0pZyZmOxnjDv0y933PGgl.ZjzuBCRIxjHEoBuIF_1gwp169.wxSj3w_sE0tSgIWaQzLiME2958f8XW1qlAG1ImJ_ewdS3HtlyxhhG9b6MvZS_KQiJYhQxXQFlu2CipcNP5eP2FR.rnNeyNZD0LcSIdWa8RIiT5vrjIcLM8jyYJIf9bdDJiQ7gDX4HsgxvpQNlNqzi2Lga3hGn9SrdiUb06cvwF2A_NMtt90pVIdrjHo2oDc4XYfrCo_rWyZXTvgmT9Q733P79cFU0Ov0dll8dV7tbzU63Gvt4Ev0LFh2W3iww4S0PH1Y13rFG5c_itTi_5pKe8NyMYi50g0k8XX6Kj_.XkX8xgZFsIzlE9fzOitGtsPy7M.P65R0Zexfh7cViTMyValntkwu_Eo.vLFl315rcUkLrQWF95CNhEoZWv21Pv4Lz4HsbrXfzJ_rJcd2s2XeBzayT08lCkzHHDvPjMb61NCuClZnE.ijlIqFBaOywAIZ0aYQAkCZ04V7o83D2CXvKZ5EBENjqQlSjd6K_mat9JDDEEwZX2rowaQbX1GXj4m7gA8g6YqthWemt9WcRhRDVFOaReWGYYMJAXXM3vM9BDd9ltEqyeraItxi58Xoz8V4U8sne3NZUXnPz4xBwS7IFqqX2U1MVAjmFIAxgFoD3PWg8kxeOJQG3swnzrmbd43h.Ez2gd32TRXna_xcKJuz3jk.pCcvh_94VdDActSrfpYvk',mdrd: 'jlRauKmLOr8G8R.Llm_4UKyRGrf35j2flEV1wNTRFVM-1794539686-1.2.1.1-P655R.6.9L9Ywyt9aJ_A8I7OUkBUSLsUJaq4OJbKPoSnbR.tBJJUa_mzW5jL3vVYEE72N_UgjJ.oVtwXD8m.doYuozazLmcldvP8JBwXvpgTLyTHTvIrNwvJclOx4NIX1Ms2A9K0NlskGvxxM6B7qwIevkE6681R5LDGoUHAlVrC.Wd74wNUCiaUpKCxVVndVl356vdCHtJKzDAGi92VBexzh9JZknvUUasNXmtlbDE8acrJlm5tM43S.IEclT1eMAVFAstduHTFe_BM9I91_ouHP7Mta_syuXAfrK1FG7NGaecNjib5PsOchvgTDeqhl6ytYADE4MQkEq_mxPPzqrqEtb6Nn4wapbWzUPzDG1aLZPDrz2yPpHqHJDRiYIg.SSWonoNwHbAE3JaSpocQSA',};var a = document.createElement('script');a.nonce = 'Zi0TF8ckKSZAVIJoCWhiJb';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a59a9bb2cedf1f63';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=bBJhiIUnE_t.IsSUS7as0Tqm6s3rCVUFplAiBzzxB2k-1794539686-1.0.1.1-7Uv7JMsOpY7O_WRtgWUDKuPt.Zr4R0dbRciwldo7984\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
-      "url": "https://lovable.dev/"
-    },
-    "sitemap": {
-      "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/en.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/pt-br.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/de.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/fr.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/es.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/it.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/hi.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/id.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/th.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/ko.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/ja.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n</sitemapindex>",
-      "url": "https://lovable.dev/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 404,
-      "body": "Not Found",
-      "url": "https://lovable.dev/AGENTS.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "aiTxt": {
-      "status": 404,
-      "body": "Not Found",
-      "url": "https://lovable.dev/ai.txt"
-    }
+ "signals": {
+  "domain": "lovable.dev",
+  "fetchedAt": "2026-11-13T03:14:48.299Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "User-Agent: *\nAllow: /\nDisallow: /auth\nDisallow: /@*\nDisallow: /desktop-dictation\nDisallow: /desktop-quick-chat\nDisallow: /landing\nDisallow: /landing/*\n# The `&`/`%26` refinement tails below come from buildTemplatesUrl.ts — change one, change both.\nDisallow: /templates&\nDisallow: /templates%26\nDisallow: /templates/*&\nDisallow: /templates/*%26\nDisallow: /*/templates&\nDisallow: /*/templates%26\nDisallow: /*/templates/*&\nDisallow: /*/templates/*%26\n\n# A named group replaces the `*` group outright, so its rules are repeated, not inherited.\nUser-Agent: Slackbot\nUser-Agent: Slackbot-LinkExpanding\nUser-Agent: Twitterbot\nUser-Agent: LinkedInBot\nUser-Agent: facebookexternalhit\nUser-Agent: Facebot\nUser-Agent: Discordbot\nUser-Agent: WhatsApp\nUser-Agent: TelegramBot\nAllow: /\nDisallow: /auth\nDisallow: /@*\nDisallow: /desktop-dictation\nDisallow: /desktop-quick-chat\nDisallow: /landing\nDisallow: /landing/*\n\n# Split from the crawler group below: these open one pasted URL, so filter links must resolve.\nUser-Agent: ChatGPT-User\nUser-Agent: Claude-User\nUser-Agent: Claude-Web\nAllow: /\nDisallow: /auth\nDisallow: /desktop-dictation\nDisallow: /desktop-quick-chat\nDisallow: /projects/\nDisallow: /@*\nDisallow: /landing\nDisallow: /landing/*\n\nUser-Agent: GPTBot\nUser-Agent: OAI-SearchBot\nUser-Agent: ClaudeBot\nUser-Agent: PerplexityBot\nUser-Agent: Google-Extended\nUser-Agent: Applebot-Extended\nAllow: /\nDisallow: /auth\nDisallow: /desktop-dictation\nDisallow: /desktop-quick-chat\nDisallow: /projects/\nDisallow: /@*\nDisallow: /landing\nDisallow: /landing/*\nDisallow: /templates&\nDisallow: /templates%26\nDisallow: /templates/*&\nDisallow: /templates/*%26\nDisallow: /*/templates&\nDisallow: /*/templates%26\nDisallow: /*/templates/*&\nDisallow: /*/templates/*%26\n\nSitemap: https://lovable.dev/sitemap.xml\n",
+   "url": "https://lovable.dev/robots.txt"
   },
-  "afr": {
-    "domain": "lovable.dev",
-    "engineVersion": "afr-1.1.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-13T03:14:48.299Z",
-    "score": 33,
-    "grade": "D",
-    "state": "scored",
-    "strategyTag": "Middle-Path",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 19.5,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 19.5,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 6.75/9 · hybrid 5.25/6 · training 7.50/10; strategy tag Middle-Path. Unconfigured examples: Claude-SearchBot, Googlebot, Perplexity-User."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 0,
-            "max": 5,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 403, homepage unavailable"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Legibility",
-        "awarded": 13,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 9,
-            "max": 14,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check JSON-LD"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check semantic HTML"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 4,
-            "max": 4,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 0,
-            "max": 6,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "homepage unavailable; cannot check content signals"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Actionability",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "unknown",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 404; ai.txt HTTP 404; homepage unavailable"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "unknown",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "AI features not probed"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 19.5,
-      "l1.no-tech-wall": 0,
-      "l1.basic-availability": 0,
-      "l2.llms-family": 9,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 0,
-      "l2.sitemap": 4,
-      "l2.content-signals": 0,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 200,
+   "body": "# Lovable\n\n> Lovable is an AI-powered platform for building web and mobile apps, websites, and internal tools from natural-language prompts.\n\nThis file lists the main hubs of lovable.dev for AI assistants and answer engines. Full product documentation lives at https://docs.lovable.dev/llms.txt.\n\n## Product\n\n- [Pricing](https://lovable.dev/pricing): Plans, credits, and pricing for individuals, teams, and enterprises.\n- [Enterprise](https://lovable.dev/enterprise-landing): Lovable for enterprise — security, governance, and scale.\n- [Security](https://lovable.dev/security): Lovable's security posture, compliance, and data handling.\n- [Lovable Cloud](https://lovable.dev/cloud): Built-in backend, database, and hosting for Lovable apps.\n- [Internal tools](https://lovable.dev/tools): Build internal tools and dashboards with Lovable.\n- [Prototyping](https://lovable.dev/prototypes): Turn ideas into interactive prototypes.\n- [Shopify](https://lovable.dev/shopify): Build Shopify storefronts and apps with Lovable.\n- [Supabase integration](https://lovable.dev/supabase-integration): Connect Lovable apps to a Supabase backend.\n- [SEO & AEO](https://lovable.dev/seo-aeo): Search- and answer-engine optimization for Lovable sites.\n- [Growth tools](https://lovable.dev/grow): A plan for your first users, then search, community posts, and ads from the Lovable chat.\n- [Download apps](https://lovable.dev/download): Desktop and mobile Lovable apps.\n\n## Documentation\n\n- [Documentation (llms.txt)](https://docs.lovable.dev/llms.txt): Curated index of Lovable product documentation for LLMs.\n- [Documentation (llms-full.txt)](https://docs.lovable.dev/llms-full.txt): Full-text Lovable documentation for LLMs.\n- [Lovable MCP server](https://docs.lovable.dev/integrations/lovable-mcp-server): Connect AI tools to Lovable to create and manage projects.\n- [Lovable MCP endpoint](https://mcp.lovable.dev): Remote MCP endpoint for programmatic access to Lovable.\n\n## Guides\n\n- [Guides](https://lovable.dev/guides): Step-by-step guides and tutorials for building with Lovable.\n- [App alternatives](https://lovable.dev/guides/category/app-alternatives): App alternatives guides.\n- [App comparisons](https://lovable.dev/guides/category/app-comparisons): App comparisons guides.\n- [App inspiration](https://lovable.dev/guides/category/app-inspiration): App inspiration guides.\n- [App teardowns](https://lovable.dev/guides/category/app-teardowns): App teardowns guides.\n- [Best apps tools](https://lovable.dev/guides/category/best-apps-tools): Best apps tools guides.\n- [Business](https://lovable.dev/guides/category/business): Business guides.\n- [Business app ideas](https://lovable.dev/guides/category/business-app-ideas): Business app ideas guides.\n- [Comparisons](https://lovable.dev/guides/category/comparisons): Comparisons guides.\n- [Competitive comparisons](https://lovable.dev/guides/category/competitive-comparisons): Competitive comparisons guides.\n- [How to](https://lovable.dev/guides/category/how-to): How to guides.\n- [Product comparisons](https://lovable.dev/guides/category/product-comparisons): Product comparisons guides.\n- [Resources for solopreneur](https://lovable.dev/guides/category/resources-for-solopreneur): Resources for solopreneur guides.\n- [Use case pages](https://lovable.dev/guides/category/use-case-pages): Use case pages guides.\n- [Website definitions explainers](https://lovable.dev/guides/category/website-definitions-explainers): Website definitions explainers guides.\n- [Website inspiration](https://lovable.dev/guides/category/website-inspiration): Website inspiration guides.\n\n## Use cases\n\n- [Solutions & use cases](https://lovable.dev/solutions): Use cases and solutions for building apps, websites, and products.\n\n## Templates\n\n- [Templates](https://lovable.dev/templates): Browse starter templates by category.\n- [Apps](https://lovable.dev/templates/apps): Apps templates.\n- [Websites](https://lovable.dev/templates/websites): Websites templates.\n\n## Blog\n\n- [Blog](https://lovable.dev/blog): Articles, product news, and insights from the Lovable team.\n\n## Optional\n\n- [Partner directory](https://lovable-partner-directory.lovable.app/): Hire a vetted Lovable partner or agency.\n- [Partners](https://lovable.dev/partners): Partner and affiliate programs.\n- [Careers](https://lovable.dev/careers): Open roles at Lovable.\n- [Support](https://lovable.dev/support): Help center and support resources.\n- [Videos](https://lovable.dev/videos): Video tutorials and walkthroughs.\n- [Reviews](https://lovable.dev/reviews): What customers say about Lovable.\n- [Brand](https://lovable.dev/brand): Brand guidelines and assets.\n- [Connectors](https://lovable.dev/connect): Chat connectors and integrations available in Lovable.\n",
+   "url": "https://lovable.dev/llms.txt"
+  },
+  "llmsFull": {
+   "status": 404,
+   "body": "Not Found",
+   "url": "https://lovable.dev/llms-full.txt"
+  },
+  "homepage": {
+   "status": 403,
+   "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-Zi0TF8ckKSZAVIJoCWhiJb&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"Zi0TF8ckKSZAVIJoCWhiJb\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'pRVmipE5ErGvr6svQLYo5zb1J145xuuI7EyZ0hQaPjM-1794539686-1.2.1.1-yGMd9XPWmIVaH2HEpnwdDLEhDrNf_e65AlBnb.Tj.EMgi43RGxe5IYvX_O5T9kD1',cITimeS: '1794539686',cN: 'Zi0TF8ckKSZAVIJoCWhiJb',cRay: 'a59a9bb2cedf1f63',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=bBJhiIUnE_t.IsSUS7as0Tqm6s3rCVUFplAiBzzxB2k-1794539686-1.0.1.1-7Uv7JMsOpY7O_WRtgWUDKuPt.Zr4R0dbRciwldo7984\",cvId: '3',cZone: 'lovable.dev',fa:\"/?__cf_chl_f_tk=bBJhiIUnE_t.IsSUS7as0Tqm6s3rCVUFplAiBzzxB2k-1794539686-1.0.1.1-7Uv7JMsOpY7O_WRtgWUDKuPt.Zr4R0dbRciwldo7984\",md: '3POMjwQeWiNI7.oYYEKrLn8KzsDi6goZS77DjF95b4I-1794539686-1.2.1.1-0aG3x_rxkVio7FH95cM7UZrKwO94fc1InpFMLi7M3p0L8kDNYJtJc6UuQ5jTgfN0yOoK9j3noivo_dbK97rrrfOafupxQu9.cZ1iy0YOwIWnWcicolsxdYPAKPBjhUkeFKewKwtL1Tqzgl3BxtpLaHoRkQvOeMJuLJRXzMRxMu5Pd8VQ8k4HSOqhnSzd.m2v7flm.evmcpku6Kkh6RCckxHjiMpZTE8Eb0njbM2hyYDMr2FwYVzRjV7LVdduSTjXxBioeYwLgSxu_iuIaBRSZwPKOHKPuOV.yPGq4yBCmcJ.wTp.Fy_41oC7W5hPPzhfNqNfRtOYZhViJo19Oy4C9NMBQoxcXLzZ9bJqRSIKGJUNno7.0Cn_qOP1Pb5WRk0rH6.18dPCOUWHFZHmaV_ib39IxVAM8tV7gjpqvRJPVkTwhhx6lbTJ8LyyhTDU1KFTfwEeQHgEfwOqoc0pZyZmOxnjDv0y933PGgl.ZjzuBCRIxjHEoBuIF_1gwp169.wxSj3w_sE0tSgIWaQzLiME2958f8XW1qlAG1ImJ_ewdS3HtlyxhhG9b6MvZS_KQiJYhQxXQFlu2CipcNP5eP2FR.rnNeyNZD0LcSIdWa8RIiT5vrjIcLM8jyYJIf9bdDJiQ7gDX4HsgxvpQNlNqzi2Lga3hGn9SrdiUb06cvwF2A_NMtt90pVIdrjHo2oDc4XYfrCo_rWyZXTvgmT9Q733P79cFU0Ov0dll8dV7tbzU63Gvt4Ev0LFh2W3iww4S0PH1Y13rFG5c_itTi_5pKe8NyMYi50g0k8XX6Kj_.XkX8xgZFsIzlE9fzOitGtsPy7M.P65R0Zexfh7cViTMyValntkwu_Eo.vLFl315rcUkLrQWF95CNhEoZWv21Pv4Lz4HsbrXfzJ_rJcd2s2XeBzayT08lCkzHHDvPjMb61NCuClZnE.ijlIqFBaOywAIZ0aYQAkCZ04V7o83D2CXvKZ5EBENjqQlSjd6K_mat9JDDEEwZX2rowaQbX1GXj4m7gA8g6YqthWemt9WcRhRDVFOaReWGYYMJAXXM3vM9BDd9ltEqyeraItxi58Xoz8V4U8sne3NZUXnPz4xBwS7IFqqX2U1MVAjmFIAxgFoD3PWg8kxeOJQG3swnzrmbd43h.Ez2gd32TRXna_xcKJuz3jk.pCcvh_94VdDActSrfpYvk',mdrd: 'jlRauKmLOr8G8R.Llm_4UKyRGrf35j2flEV1wNTRFVM-1794539686-1.2.1.1-P655R.6.9L9Ywyt9aJ_A8I7OUkBUSLsUJaq4OJbKPoSnbR.tBJJUa_mzW5jL3vVYEE72N_UgjJ.oVtwXD8m.doYuozazLmcldvP8JBwXvpgTLyTHTvIrNwvJclOx4NIX1Ms2A9K0NlskGvxxM6B7qwIevkE6681R5LDGoUHAlVrC.Wd74wNUCiaUpKCxVVndVl356vdCHtJKzDAGi92VBexzh9JZknvUUasNXmtlbDE8acrJlm5tM43S.IEclT1eMAVFAstduHTFe_BM9I91_ouHP7Mta_syuXAfrK1FG7NGaecNjib5PsOchvgTDeqhl6ytYADE4MQkEq_mxPPzqrqEtb6Nn4wapbWzUPzDG1aLZPDrz2yPpHqHJDRiYIg.SSWonoNwHbAE3JaSpocQSA',};var a = document.createElement('script');a.nonce = 'Zi0TF8ckKSZAVIJoCWhiJb';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a59a9bb2cedf1f63';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=bBJhiIUnE_t.IsSUS7as0Tqm6s3rCVUFplAiBzzxB2k-1794539686-1.0.1.1-7Uv7JMsOpY7O_WRtgWUDKuPt.Zr4R0dbRciwldo7984\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+   "url": "https://lovable.dev/"
+  },
+  "sitemap": {
+   "status": 200,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/en.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/pt-br.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/de.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/fr.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/es.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/it.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/hi.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/id.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/th.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/ko.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovable.dev/sitemap/ja.xml</loc>\n    <lastmod>2026-11-13T00:40:30.000Z</lastmod>\n  </sitemap>\n</sitemapindex>",
+   "url": "https://lovable.dev/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 404,
+   "body": "Not Found",
+   "url": "https://lovable.dev/AGENTS.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "aiTxt": {
+   "status": 404,
+   "body": "Not Found",
+   "url": "https://lovable.dev/ai.txt"
   }
+ },
+ "afr": {
+  "domain": "lovable.dev",
+  "engineVersion": "afr-1.2.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-13T03:14:48.299Z",
+  "score": 35,
+  "grade": "D",
+  "state": "scored",
+  "strategyTag": "Middle-Path",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 19.5,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 19.5,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 6.75/9 · hybrid 5.25/6 · training 7.50/10; strategy tag Middle-Path. Unconfigured examples: Claude-SearchBot, Googlebot, Perplexity-User."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 0,
+      "max": 5,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 403, homepage unavailable"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Legibility",
+    "awarded": 13,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 9,
+      "max": 14,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check JSON-LD"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 0,
+      "max": 8,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check semantic HTML"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 4,
+      "max": 4,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 0,
+      "max": 6,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "homepage unavailable; cannot check content signals"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Actionability",
+    "awarded": 2,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 2,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; API documentation entry point present; OpenAPI not found"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 404; llms.txt has no agent policy section"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "unknown",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "AI features not probed"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 19.5,
+   "l1.no-tech-wall": 0,
+   "l1.basic-availability": 0,
+   "l2.llms-family": 9,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 0,
+   "l2.sitemap": 4,
+   "l2.content-signals": 0,
+   "l3.public-api": 2,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

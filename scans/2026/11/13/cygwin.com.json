@@ -1,255 +1,255 @@
 {
-  "signals": {
-    "domain": "cygwin.com",
-    "fetchedAt": "2026-11-13T02:55:32.305Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "# contact sourcemaster@sourceware.org for questions.\n# see http://www.robotstxt.org/\n# for information about the file format.\n\nUser-agent: Scooter\nDisallow: /ml/\n\nUser-agent: Test Crawler\nDisallow: /\n\nUser-agent: DigExt\nDisallow: /\n\nUser-agent: CW Crawler\nDisallow: /\n\nUser-agent: Sosospider\nDisallow: /\n\nUser-agent: *\nDisallow: /bugzilla/\nDisallow: /cgi-bin/\nDisallow: /cgi/\nDisallow: /cgi2-bin/\nDisallow: /ml/overseers/\nDisallow: /packages/\nDisallow: /snapshots/\nDisallow: /viewcvs/\nDisallow: /viewvc/\nDisallow: /git/\nDisallow: /git-cygwin-packages/\nDisallow: /cgit/\nDisallow: donations.html\nDisallow: setup-x86.exe\nDisallow: setup-x86_64.exe\nDisallow: mirrors.lst\n\nCrawl-Delay: 60\n",
-      "url": "https://cygwin.com/robots.txt"
-    },
-    "llms": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
-      "url": "https://cygwin.com/llms.txt"
-    },
-    "llmsFull": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
-      "url": "https://cygwin.com/llms-full.txt"
-    },
-    "homepage": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" />\n    <title>Cygwin</title>\n  </head>\n\n<body>\n<div class=\"cartouche\" id=\"navbar\">\n<ul>\n  <li><a href=\"/index.html\">Cygwin</a></li>\n  <li class=\"nohover\">\n  <ul>\n    <li><a href=\"/install.html\">Install Cygwin</a></li>\n    <li><a href=\"/install.html\">Update Cygwin</a></li>\n    <li><a href=\"/packages/\">Search Packages</a></li>\n    <li><a href=\"/licensing.html\">Licensing Terms</a></li>\n  </ul>\n  </li>\n</ul>\n<ul>\n<li><a href=\"http://x.cygwin.com/\">Cygwin/X</a></li>\n</ul>\n<ul>\n  <li><a href=\"/who.html\">Community</a></li>\n  <li class=\"nohover\">\n  <ul>\n    <li><a href=\"/problems.html\">Reporting Problems</a></li>\n    <li><a href=\"/lists.html\">Mailing Lists</a></li>\n    <li><a href=\"/news.html\">Newsgroups</a></li>\n    <li><a href=\"/irc.html\">IRC channels</a></li>\n    <li><a href=\"/goldstars/\" class=\"gold\">Gold Stars</a></li>\n    <li><a href=\"/mirrors.html\">Mirror Sites</a></li>\n    <li><a href=\"/donations.html\">Donations</a></li>\n  </ul>\n  </li>\n</ul>\n<ul>\n  <li><a href=\"/docs.html\">Documentation</a></li>\n  <li class=\"nohover\">\n  <ul>\n    <li><a href=\"/faq.html\">FAQ</a></li>\n    <li><a href=\"/cygwin-ug-net.html\">User's Guide</a></li>\n    <li><a href=\"/cygwin-api/\">API Reference</a></li>\n    <li><a href=\"/acronyms/\">Acronyms</a></li>\n  </ul>\n  </li>\n</ul>\n<ul>\n  <li><a href=\"/contrib.html\">Contributing</a></li>\n  <li class=\"nohover\">\n  <ul>\n    <li><a href=\"/git.html\">Source in Git</a></li>\n    <li><a href=\"/contrib/dll.html\">Cygwin DLL</a></li>\n    <li><a href=\"/packages.html\">Cygwin Packages</a></li>\n    <li><a href=\"https://sourceware.org/cygwin-apps/\">Cygwin Apps</a></li>\n  </ul>\n  </li>\n</ul>\n<ul>\n  <li><a href=\"/links.html\">Related Sites</a></li>\n</ul>\n</div>\n\n<div id=\"main\">\n<div id=\"top\">\n  <div class=\"cartouche\">\n   <h1 id=\"big-title\">Cygwin</h1>\n   <p class=\"catchphrase\">Get that <a href=\"https://www.linuxfoundation.org/\">Linux</a> feeling - on Windows</p>\n  </div>\n</div>\n\n<h1>This is the home of the Cygwin project</h1>\n\n<h2 class=\"cartouche no-vert-margins\">What...</h2>\n\n<div id=\"wrap\">\n  <div id=\"leftwhat\">\n    <h2>...is it?</h2>\n    <p>Cygwin is:</p>\n    <ul class=\"compact\">\n    <li>a large collection of GNU and Open Source tools which provide functionality\n        similar to a\n\t<a href=\"https://en.wikipedia.org/wiki/Linux_distribution\">Linux distribution</a>\n\ton Windows.</li>\n    <li>a DLL (cygwin1.dll) which provides substantial POSIX API functionality.</li>\n    </ul>\n  </div>\n  <div id=\"rightwhat\">\n    <h2>...isn't it?</h2>\n    <p>Cygwin is not:</p>\n    <ul class=\"compact\">\n    <li>a way to run native Linux apps on Windows.  You must\n    rebuild your application <em>from source</em> if you want it to run on Windows.</li>\n    <li>a way to magically make native Windows apps aware of UNIX&reg;\n    functionality like signals, ptys, etc.  Again, you need to build your apps <em>from source</em>\n    if you want to take advantage of Cygwin functionality.</li>\n    </ul>\n  </div>\n  <div id=\"endwrap\"></div>\n</div>\n<div>\n\n  <h2 class=\"cartouche\">Cygwin version</h2>\n\n  <p>\n    The most recent version of the Cygwin DLL is\n    <b><a href=\"https://cygwin.com/pipermail/cygwin-announce/2026-October/013527.html\">3.6.12</a></b>.\n  </p>\n  <p>\n    The Cygwin DLL currently works with all recent, commercially released\n    x86_64 versions of Windows, starting with Windows 8.1.  For more\n    information see the <a href=\"faq.html#faq.what.supported\">FAQ</a>.\n  </p>\n\n  <h2 class=\"cartouche\">Note to users of older Windows versions</h2>\n\n  <p>Cygwin 3.4.10 was the last Cygwin version supporting Windows 7,\n  Windows 8, Windows Server 2008 R2 and Windows Server 2012.  If you\n  need Cygwin on these or even older systems, consider using the\n  <a href=\"http://www.crouchingtigerhiddenfruitbat.org/Cygwin/timemachine.html\">Cygwin Time Machine</a>.<p>\n\n  <h2 class=\"cartouche\">Installing Cygwin</h2>\n\n  <p>\n    <b>Install Cygwin by running the\n    <a href=\"setup-x86_64.exe\">Cygwin Installer</a></b>\n  </p>\n  <p>\n    Use the setup program to perform a <a href=\"install.html\">fresh install</a>\n    or to <a href=\"install.html\">update</a> an existing installation.\n  </p>\n  <p>\n    Keep in mind that individual packages in the distribution are updated separately\n    from the DLL so the Cygwin DLL version is not useful as a general Cygwin\n    distribution release number.\n  </p>\n\n  <h2 class=\"cartouche\" id=\"support\">Support for Cygwin</h2>\n\n  <p>\n    For <b>all</b> Cygwin-related questions, observations, suggestions and bug\n    reports, please check the resources available at this site, such as the\n    <a href=\"faq.html\">FAQ</a>, the\n    <a href=\"cygwin-ug-net.html\">User's Guide</a> and the\n    <a href=\"lists.html\">mailing list archives</a>.  If you've exhausted\n    these resources then please send email to the\n    <a href=\"lists.html\"><b>appropriate mailing list</b></a>.\n  </p>\n  <p>\n    Please send notification of technical problems (bad html, broken\n    links) concerning these web pages to\n    <a href=\"lists.html#cygwin\">the Cygwin mailing list</a>.\n  </p>\n  <p>\n    Please <b>do not</b> send personal email with \"quick questions\" to\n    individual Cygwin contributors.  The Cygwin mailing lists are the places\n    for all questions.  Really.  I mean it.\n  </p>\n\n</div>\n<div id=\"footer\">\n  <p>\n    <i>The Cygwin DLL and utilities are Copyright &copy; Cygwin authors.\n    Other packages have other copyrights.<br/>\n    UNIX &reg; is a registered trademark of the Open Group in the United States\n    and other countries.</i>\n  </p>\n</div>\n\n<div class=\"nodisplay\">\nNOT SEND EMAIL TO THIS ADDRESS: <a href=\"mailto:aaaspam@sourceware.org\">aaaspam@sourceware.org</a>\nIT IS HERE ONLY TO COLLECT SPAM.  IF YOU SEND EMAIL TO THIS ADDRESS YOU WILL BE AUTOMATICALLY BLOCKED.\n</div>\n\n</div>\n</body>\n</html>\n",
-      "url": "https://cygwin.com/"
-    },
-    "sitemap": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
-      "url": "https://cygwin.com/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
-      "url": "https://cygwin.com/AGENTS.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "aiTxt": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
-      "url": "https://cygwin.com/ai.txt"
-    },
-    "aiFeatures": {
-      "chatWidget": false,
-      "aiSearch": false,
-      "developerConsole": false
-    }
+ "signals": {
+  "domain": "cygwin.com",
+  "fetchedAt": "2026-11-13T02:55:32.305Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "# contact sourcemaster@sourceware.org for questions.\n# see http://www.robotstxt.org/\n# for information about the file format.\n\nUser-agent: Scooter\nDisallow: /ml/\n\nUser-agent: Test Crawler\nDisallow: /\n\nUser-agent: DigExt\nDisallow: /\n\nUser-agent: CW Crawler\nDisallow: /\n\nUser-agent: Sosospider\nDisallow: /\n\nUser-agent: *\nDisallow: /bugzilla/\nDisallow: /cgi-bin/\nDisallow: /cgi/\nDisallow: /cgi2-bin/\nDisallow: /ml/overseers/\nDisallow: /packages/\nDisallow: /snapshots/\nDisallow: /viewcvs/\nDisallow: /viewvc/\nDisallow: /git/\nDisallow: /git-cygwin-packages/\nDisallow: /cgit/\nDisallow: donations.html\nDisallow: setup-x86.exe\nDisallow: setup-x86_64.exe\nDisallow: mirrors.lst\n\nCrawl-Delay: 60\n",
+   "url": "https://cygwin.com/robots.txt"
   },
-  "afr": {
-    "domain": "cygwin.com",
-    "engineVersion": "afr-1.1.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-13T02:55:32.305Z",
-    "score": 29,
-    "grade": "D",
-    "state": "scored",
-    "strategyTag": "Unconfigured",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 22.5,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 12.5,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 200"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 200, full HTML document returned"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Legibility",
-        "awarded": 6,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "no JSON-LD blocks"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 4,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "semantic landmarks 0/4; h1 ×2 (multiple); html[lang] present; body text 443 words"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 2,
-            "max": 6,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "title \"Cygwin\"; missing/too-short meta description; no date signal; body text 443 words (moderate)"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Actionability",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 404; ai.txt HTTP 404; homepage has no AI info page link"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 12.5,
-      "l1.no-tech-wall": 5,
-      "l1.basic-availability": 5,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 4,
-      "l2.sitemap": 0,
-      "l2.content-signals": 2,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+   "url": "https://cygwin.com/llms.txt"
+  },
+  "llmsFull": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+   "url": "https://cygwin.com/llms-full.txt"
+  },
+  "homepage": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" />\n    <title>Cygwin</title>\n  </head>\n\n<body>\n<div class=\"cartouche\" id=\"navbar\">\n<ul>\n  <li><a href=\"/index.html\">Cygwin</a></li>\n  <li class=\"nohover\">\n  <ul>\n    <li><a href=\"/install.html\">Install Cygwin</a></li>\n    <li><a href=\"/install.html\">Update Cygwin</a></li>\n    <li><a href=\"/packages/\">Search Packages</a></li>\n    <li><a href=\"/licensing.html\">Licensing Terms</a></li>\n  </ul>\n  </li>\n</ul>\n<ul>\n<li><a href=\"http://x.cygwin.com/\">Cygwin/X</a></li>\n</ul>\n<ul>\n  <li><a href=\"/who.html\">Community</a></li>\n  <li class=\"nohover\">\n  <ul>\n    <li><a href=\"/problems.html\">Reporting Problems</a></li>\n    <li><a href=\"/lists.html\">Mailing Lists</a></li>\n    <li><a href=\"/news.html\">Newsgroups</a></li>\n    <li><a href=\"/irc.html\">IRC channels</a></li>\n    <li><a href=\"/goldstars/\" class=\"gold\">Gold Stars</a></li>\n    <li><a href=\"/mirrors.html\">Mirror Sites</a></li>\n    <li><a href=\"/donations.html\">Donations</a></li>\n  </ul>\n  </li>\n</ul>\n<ul>\n  <li><a href=\"/docs.html\">Documentation</a></li>\n  <li class=\"nohover\">\n  <ul>\n    <li><a href=\"/faq.html\">FAQ</a></li>\n    <li><a href=\"/cygwin-ug-net.html\">User's Guide</a></li>\n    <li><a href=\"/cygwin-api/\">API Reference</a></li>\n    <li><a href=\"/acronyms/\">Acronyms</a></li>\n  </ul>\n  </li>\n</ul>\n<ul>\n  <li><a href=\"/contrib.html\">Contributing</a></li>\n  <li class=\"nohover\">\n  <ul>\n    <li><a href=\"/git.html\">Source in Git</a></li>\n    <li><a href=\"/contrib/dll.html\">Cygwin DLL</a></li>\n    <li><a href=\"/packages.html\">Cygwin Packages</a></li>\n    <li><a href=\"https://sourceware.org/cygwin-apps/\">Cygwin Apps</a></li>\n  </ul>\n  </li>\n</ul>\n<ul>\n  <li><a href=\"/links.html\">Related Sites</a></li>\n</ul>\n</div>\n\n<div id=\"main\">\n<div id=\"top\">\n  <div class=\"cartouche\">\n   <h1 id=\"big-title\">Cygwin</h1>\n   <p class=\"catchphrase\">Get that <a href=\"https://www.linuxfoundation.org/\">Linux</a> feeling - on Windows</p>\n  </div>\n</div>\n\n<h1>This is the home of the Cygwin project</h1>\n\n<h2 class=\"cartouche no-vert-margins\">What...</h2>\n\n<div id=\"wrap\">\n  <div id=\"leftwhat\">\n    <h2>...is it?</h2>\n    <p>Cygwin is:</p>\n    <ul class=\"compact\">\n    <li>a large collection of GNU and Open Source tools which provide functionality\n        similar to a\n\t<a href=\"https://en.wikipedia.org/wiki/Linux_distribution\">Linux distribution</a>\n\ton Windows.</li>\n    <li>a DLL (cygwin1.dll) which provides substantial POSIX API functionality.</li>\n    </ul>\n  </div>\n  <div id=\"rightwhat\">\n    <h2>...isn't it?</h2>\n    <p>Cygwin is not:</p>\n    <ul class=\"compact\">\n    <li>a way to run native Linux apps on Windows.  You must\n    rebuild your application <em>from source</em> if you want it to run on Windows.</li>\n    <li>a way to magically make native Windows apps aware of UNIX&reg;\n    functionality like signals, ptys, etc.  Again, you need to build your apps <em>from source</em>\n    if you want to take advantage of Cygwin functionality.</li>\n    </ul>\n  </div>\n  <div id=\"endwrap\"></div>\n</div>\n<div>\n\n  <h2 class=\"cartouche\">Cygwin version</h2>\n\n  <p>\n    The most recent version of the Cygwin DLL is\n    <b><a href=\"https://cygwin.com/pipermail/cygwin-announce/2026-October/013527.html\">3.6.12</a></b>.\n  </p>\n  <p>\n    The Cygwin DLL currently works with all recent, commercially released\n    x86_64 versions of Windows, starting with Windows 8.1.  For more\n    information see the <a href=\"faq.html#faq.what.supported\">FAQ</a>.\n  </p>\n\n  <h2 class=\"cartouche\">Note to users of older Windows versions</h2>\n\n  <p>Cygwin 3.4.10 was the last Cygwin version supporting Windows 7,\n  Windows 8, Windows Server 2008 R2 and Windows Server 2012.  If you\n  need Cygwin on these or even older systems, consider using the\n  <a href=\"http://www.crouchingtigerhiddenfruitbat.org/Cygwin/timemachine.html\">Cygwin Time Machine</a>.<p>\n\n  <h2 class=\"cartouche\">Installing Cygwin</h2>\n\n  <p>\n    <b>Install Cygwin by running the\n    <a href=\"setup-x86_64.exe\">Cygwin Installer</a></b>\n  </p>\n  <p>\n    Use the setup program to perform a <a href=\"install.html\">fresh install</a>\n    or to <a href=\"install.html\">update</a> an existing installation.\n  </p>\n  <p>\n    Keep in mind that individual packages in the distribution are updated separately\n    from the DLL so the Cygwin DLL version is not useful as a general Cygwin\n    distribution release number.\n  </p>\n\n  <h2 class=\"cartouche\" id=\"support\">Support for Cygwin</h2>\n\n  <p>\n    For <b>all</b> Cygwin-related questions, observations, suggestions and bug\n    reports, please check the resources available at this site, such as the\n    <a href=\"faq.html\">FAQ</a>, the\n    <a href=\"cygwin-ug-net.html\">User's Guide</a> and the\n    <a href=\"lists.html\">mailing list archives</a>.  If you've exhausted\n    these resources then please send email to the\n    <a href=\"lists.html\"><b>appropriate mailing list</b></a>.\n  </p>\n  <p>\n    Please send notification of technical problems (bad html, broken\n    links) concerning these web pages to\n    <a href=\"lists.html#cygwin\">the Cygwin mailing list</a>.\n  </p>\n  <p>\n    Please <b>do not</b> send personal email with \"quick questions\" to\n    individual Cygwin contributors.  The Cygwin mailing lists are the places\n    for all questions.  Really.  I mean it.\n  </p>\n\n</div>\n<div id=\"footer\">\n  <p>\n    <i>The Cygwin DLL and utilities are Copyright &copy; Cygwin authors.\n    Other packages have other copyrights.<br/>\n    UNIX &reg; is a registered trademark of the Open Group in the United States\n    and other countries.</i>\n  </p>\n</div>\n\n<div class=\"nodisplay\">\nNOT SEND EMAIL TO THIS ADDRESS: <a href=\"mailto:aaaspam@sourceware.org\">aaaspam@sourceware.org</a>\nIT IS HERE ONLY TO COLLECT SPAM.  IF YOU SEND EMAIL TO THIS ADDRESS YOU WILL BE AUTOMATICALLY BLOCKED.\n</div>\n\n</div>\n</body>\n</html>\n",
+   "url": "https://cygwin.com/"
+  },
+  "sitemap": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+   "url": "https://cygwin.com/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+   "url": "https://cygwin.com/AGENTS.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "aiTxt": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+   "url": "https://cygwin.com/ai.txt"
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": false
   }
+ },
+ "afr": {
+  "domain": "cygwin.com",
+  "engineVersion": "afr-1.2.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-13T02:55:32.305Z",
+  "score": 29,
+  "grade": "D",
+  "state": "scored",
+  "strategyTag": "Unconfigured",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 22.5,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 12.5,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 200"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 200, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Legibility",
+    "awarded": 6,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "no JSON-LD blocks"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 4,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 0/4; h1 ×2 (multiple); html[lang] present; body text 443 words"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 2,
+      "max": 6,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "title \"Cygwin\"; missing/too-short meta description; no date signal; body text 443 words (moderate)"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Actionability",
+    "awarded": 0,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; no developer console"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 12.5,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 4,
+   "l2.sitemap": 0,
+   "l2.content-signals": 2,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

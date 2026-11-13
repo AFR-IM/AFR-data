@@ -1,257 +1,257 @@
 {
-  "signals": {
-    "domain": "tynt.com",
-    "fetchedAt": "2026-11-13T03:00:43.680Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
-      "url": "https://tynt.com/robots.txt"
-    },
-    "llms": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
-      "url": "https://tynt.com/llms.txt"
-    },
-    "llmsFull": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
-      "url": "https://tynt.com/llms-full.txt"
-    },
-    "homepage": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
-      "url": "https://tynt.com/"
-    },
-    "sitemap": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
-      "url": "https://tynt.com/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
-      "url": "https://tynt.com/agents.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": true,
-      "urls": [
-        "https://tynt.com/.well-known/mcp"
-      ]
-    },
-    "aiTxt": {
-      "status": 200,
-      "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
-      "url": "https://tynt.com/ai.txt"
-    },
-    "aiFeatures": {
-      "chatWidget": false,
-      "aiSearch": false,
-      "developerConsole": false
-    }
+ "signals": {
+  "domain": "tynt.com",
+  "fetchedAt": "2026-11-13T03:00:43.680Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
+   "url": "https://tynt.com/robots.txt"
   },
-  "afr": {
-    "domain": "tynt.com",
-    "engineVersion": "afr-1.1.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-13T03:00:43.680Z",
-    "score": 49,
-    "grade": "C",
-    "state": "scored",
-    "strategyTag": "Unconfigured",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 22.5,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 12.5,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 200"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 200, full HTML document returned"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Legibility",
-        "awarded": 17.75,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 12,
-            "max": 14,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "no JSON-LD blocks"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 2.75,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "semantic landmarks 1/4; single h1; missing html[lang]; body text 42 words (too low)"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 2,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 1,
-            "max": 6,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "title \"We've Moved!\"; missing/too-short meta description; no date signal; body text 42 words (low)"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Actionability",
-        "awarded": 9,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 3,
-            "max": 4,
-            "status": "partial",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md fetchable; ai.txt fetchable; homepage has no AI info page link"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 6,
-            "max": 6,
-            "status": "pass",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP endpoint found: https://tynt.com/.well-known/mcp"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 12.5,
-      "l1.no-tech-wall": 5,
-      "l1.basic-availability": 5,
-      "l2.llms-family": 12,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 2.75,
-      "l2.sitemap": 2,
-      "l2.content-signals": 1,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 3,
-      "l3.mcp": 6,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
+   "url": "https://tynt.com/llms.txt"
+  },
+  "llmsFull": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
+   "url": "https://tynt.com/llms-full.txt"
+  },
+  "homepage": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
+   "url": "https://tynt.com/"
+  },
+  "sitemap": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
+   "url": "https://tynt.com/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
+   "url": "https://tynt.com/agents.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": true,
+   "urls": [
+    "https://tynt.com/.well-known/mcp"
+   ]
+  },
+  "aiTxt": {
+   "status": 200,
+   "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>We've Moved!</title>\n    <style type=\"text/css\">\n\n      *, *:after, *:before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n      }\n\n      body {\n        font-family: \"canada-type-gibson\", sans-serif;\n        background: #FFFFFF;\n        color: #787878;\n        font-weight: 300;\n        margin: 0;\n      }\n\n      .container-fluid {\n        padding-right: 0;\n        padding-left: 0;\n      }\n\n      .red-link {\n        color: #EF3743;\n        font-weight: 300;\n      }\n\n      .wrapper {\n        width: 100%;\n        text-align: center;\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        -moz-transform: translate(-50%, -50%);\n        -webkit-transform: translate(-50%, -50%);\n        -o-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n      }\n\n      .redirect_msg{\n        margin: 60px 0 60px 0;\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .header {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        background-color: white;\n        z-index: 1000;\n        height: 72px;\n      }\n\n      .logo {\n        padding-left: 28px;\n        padding-top: 20px;\n      }\n\n      label {\n        font-size: 15px;\n      }\n\n      p {\n        font-size: 20px;\n        line-height: 20px;\n      }\n\n      .copyright {\n        display: inline-block;\n        float: right;\n        margin-right: 20px;\n      }\n\n      .copyright p{\n        color: #787878;\n        font-size: 12px;\n        line-height: 12px;\n        text-transform: uppercase;\n      }\n\n      .copyright a {\n        color: #787878;\n      }\n\n      a {\n        text-decoration:none;\n      }\n\n      h1 {\n        font-weight: 300;\n        color: #3C3C3C;\n        padding: 0;\n        margin-top: 0;\n        font-size: 60px;\n        line-height: 60px;\n      }\n\n      h2{\n        margin-top: 18px;\n        font-size: 26px;\n        line-height: 26px;\n        font-weight: 200;\n      }\n\n\n\n      .btn {\n        border: 1px solid #EF3743;\n        background-color: #EF3743;\n        color: white;\n        line-height: 44px;\n        width: 250px;\n        margin-top: 0;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        border-radius: 5px;\n        display: inline-block;\n      }\n\n      .btn:hover {\n        border: 1px solid #f0606c;\n        background-color: #f0606c;\n      }\n\n      .footer {\n          position: absolute;\n          bottom: 0;\n          width: 100%;\n          height: 60px;\n          background-color: #2A273F;\n      }\n\n    </style>\n\n    <script type=\"text/javascript\">\n    function delayedRedirect(){\n        window.location = \"https://platform.33across.com/\"\n    }\n    </script>\n\n    <script src=\"https://use.typekit.net/vqk5buo.js\"></script>\n    <script>\n      try {\n        Typekit.load({async: true});\n      } catch (e) {\n      }\n    </script>\n\n    <%= csrf_meta_tags %>\n  </head>\n  <body onLoad=\"setTimeout('delayedRedirect()', 10000)\">\n\n    <!-- HEADER -->\n    <div class=\"container-fluid header\">\n      <div class=\"row-fluid\">\n        <div class=\"span6 padding logo\">\n          <a href=\"https://platform.33across.com/dashboard\">\n            <img src=\"/img/dashboard_logo.png\">\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <!-- BODY -->\n    <div class=\"container-fluid\">\n      <div class=\"wrapper\">\n\n        <div class=\"headline\">\n          <h1>We've Moved!</h1>\n          <h2>Your favorite traffic and monetization platform has a new look and more insights!</h2>\n        </div>\n\n        <div class=\"redirect_msg\">\n          <i>You will be automatically re-directed in 10 seconds</i>\n        </div>\n\n        <p>Already have an account?</p>\n\n        <a href=\"https://platform.33across.com/sessions/new\" class=\"btn\"> Click here to login</a>\n\n      </div>\n    </div>\n\n    <!-- FOOTER -->\n    <footer class=\"footer\">\n      <div class=\"container\">\n        <div class=\"row-fluid\">\n          <div class=\"span6 padding logo\">\n            <a href=\"/dashboard\">\n              <img src=\"/img/logo_grey.png\">\n            </a>\n            <div class=\"copyright\">\n              <p>&copy; 2016 33Across Inc. All rights reserved | <a href=\"http://33across.com/contact/\">Contact Us</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>\n",
+   "url": "https://tynt.com/ai.txt"
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": false
   }
+ },
+ "afr": {
+  "domain": "tynt.com",
+  "engineVersion": "afr-1.2.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-13T03:00:43.680Z",
+  "score": 48,
+  "grade": "C",
+  "state": "scored",
+  "strategyTag": "Unconfigured",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 22.5,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 12.5,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 200"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 200, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Legibility",
+    "awarded": 17.75,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 12,
+      "max": 14,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "no JSON-LD blocks"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 2.75,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 1/4; single h1; missing html[lang]; body text 42 words (too low)"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 2,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 1,
+      "max": 6,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "title \"We've Moved!\"; missing/too-short meta description; no date signal; body text 42 words (low)"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Actionability",
+    "awarded": 8,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 2,
+      "max": 4,
+      "status": "partial",
+      "evidence": {
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 6,
+      "max": 6,
+      "status": "pass",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP endpoint found: https://tynt.com/.well-known/mcp"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; no developer console"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 12.5,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 12,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 2.75,
+   "l2.sitemap": 2,
+   "l2.content-signals": 1,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 2,
+   "l3.mcp": 6,
+   "l3.site-ai-features": 0
+  }
+ }
 }

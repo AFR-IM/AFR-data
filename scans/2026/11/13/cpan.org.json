@@ -1,255 +1,255 @@
 {
-  "signals": {
-    "domain": "cpan.org",
-    "fetchedAt": "2026-11-13T02:46:16.613Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 200,
-      "body": "\n\n# Hello Robots!\n# Welcome to CPAN.\n\nUser-agent: *\nDisallow: /badrobot/\n\nUser-Agent: The Knowledge AI\nDisallow: /\n\n",
-      "url": "https://www.cpan.org/robots.txt"
-    },
-    "llms": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
-      "url": "https://www.cpan.org/llms.txt"
-    },
-    "llmsFull": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
-      "url": "https://www.cpan.org/llms-full.txt"
-    },
-    "homepage": {
-      "status": 200,
-      "body": "\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>The Comprehensive Perl Archive Network - www.cpan.org</title>\n    <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" />    <link rel=\"author\" href=\"mailto:cpan+linkrelauthor@perl.org\" />\n\t<link rel=\"canonical\" href=\"https://www.cpan.org/index.html\" />\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"misc/css/cpan.css\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\n<!-- Copyright Jarkko Hietaniemi <jhi@iki.fi>\n     1998,1999,2000,2001,2003,2003,2004,2005,2008\n     Copyright 2010-2013 Ask Bjørn Hansen <ask@perl.org>\n     All Rights Reserved.\n     The CPAN Logo provided by J.C. Thorpe.\n     You may distribute this document either under the Artistic License\n     (comes with Perl) or the GNU Public License, whichever suits you.\n\n     LEGALESE\n\n     You are not allowed to remove or alter these comments.\n\n     You are not allowed to rename, remove, or add any files\n     in your public mirror of CPAN.\n\n     \"Public mirror of CPAN\" means a site listed in\n     the SITES.html and SITES files at the top level of CPAN\n     and also listed at the site http://mirrors.cpan.org/.\n\n     You are not allowed to alter any file\n     in you public mirror of CPAN\n     EXCEPT\n     that you can add a short acknowledgement for example\n     for your hosting company, company, university, or sponsor,\n     into this CPAN top-level index.html by adding a small\n     non-animated image and a hyperlink pointing to your organization\n     with text like \"hosted by\", \"powered by\", or \"sponsored by\",\n     by placing it visually next to the \"CPAN master site hosted by\n     ...\" acknowledgement at the bottom of the page.\n     The image used may not be larger than the one used for the master\n     site acknowledgement logos.\n         (Technical sidenote: if you do add an acknowledgement link,\n         please do think of the consequences to your possible downstream\n         CPAN mirrors.)\n     Altering this index.html in any other way is not allowed.\n     Altering any other files is not allowed.\n\n     Adding any advertisements or any revenue-generating material\n     is strictly forbidden.\n\n     Similarly, for your public CPAN mirrors \"framing\" or \"wrapping\"\n     the CPAN web pages into other sites by using e.g. HTML tables\n     or frames is not allowed.\n\n     You are allowed to use the files of CPAN to create your own\n     web sites and services since we are just a distributor of the files,\n     we do not own most of them.  However, you may not call your creations\n     \"CPAN\" or \"CPAN mirrors\".  You may say that the files are \"mirrored\n     from CPAN\".\n\n-->\n<script type=\"text/javascript\" charset=\"utf-8\">\n    function focusField() {\n        document.getElementById(\"searchfield\").focus();\n    }\n    onload = focusField;\n</script>\n\n\n\n<script defer data-domain=\"cpan.org\" src=\"https://cdn.perl.org/js/script.js\"></script>\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-PXE98NKGY2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-PXE98NKGY2');\n</script>\n\n</head>\n<body class=\"section_home\">\n\n<table id=\"wrapper\" border=\"0\" width=\"95%\" cellspacing=\"0\" cellpadding=\"2\" align=\"center\">\n    <tr>\n        <td id=\"header\">\n\n\t\t\t<div id=\"header_left\">\n\t\t\t\t<a href=\"index.html\"><img src=\"misc/images/cpan.svg\" id=\"logo\" alt=\"CPAN\" width=\"250\" height=\"77\" /></a>\n     \t\t</div>\n\n\t\t\t<div id=\"header_right\">\n\t\t\t  <h1>Comprehensive Perl Archive Network</h1>\n              <p id=\"strapline\">Stop reinventing wheels, start building space rockets</p>\n           </div>\n        </td>\n    </tr>\n    <tr>\n        <td id=\"menubar_holder\">\n\n            <ul class=\"menubar\">\n\t\t\t\t<li><a href=\"index.html\">Home</a></li>\n                <li><a href=\"modules/index.html\">Modules</a></li>\n                <li><a href=\"ports/index.html\">Ports</a></li>\n                <li><a href=\"src/README.html\">Perl Source</a></li>\n                <li><a href=\"misc/cpan-faq.html\">FAQ</a></li>\n                <li><a href=\"SITES.html\">Mirrors</a></li>\n\t\t\t</ul>\n\n\t\t\t<div id=\"searchbar\">\n\t\t\t\t<form method=\"get\" action=\"https://metacpan.org/search\" name=\"f\" class=\"searchbox menubar\" id=\"f\">\n\t\t\t\t<a href=\"https://metacpan.org/\">Search</a>:\n\t\t\t\t\t <input id=\"searchfield\" type=\"text\" name=\"q\" value=\"\" placeholder=\"Module name\" />\n\t\t\t\t\t<input type=\"submit\" value=\"Search\" />\n\t\t\t\t</form>\n\t\t\t</div>\n\t\t</td>\n    </tr>\n    <tr>\n        <td>\n            <div id=\"content\">\n\n            \n\n    <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n    <tr>\n        <td class=\"third\">\n            <h2>Welcome to CPAN</h2>\n            <p>\n                The Comprehensive Perl Archive Network (CPAN) currently\n                has <a href=\"modules/index.html\">33,740,095\n                Perl modules</a> in 52,919 distributions,\n                written by 14,759 authors.\n            </p>\n            <p>The archive has been online since October 1995 and is constantly growing.</p>\n\n\t\t\t<h2>Search CPAN via</h2>\n\n            <ul>\n                <li><a href=\"https://metacpan.org/\">metacpan.org</a></li>\n            </ul>\n\n        </td>\n\n        <td class=\"third\">\n            <div style=\"margin-left: 20px\">\n                <h2>Recent Uploads</h2>\n                \n    \n    \n    \n    <ul>\n    \n        <li><a href=\"https://metacpan.org/release/MANWAR/Map-Tube-CLI-v1.2.1\">Map-Tube-CLI-v1.2.1</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/CUKEBOT/Cucumber-Test-Release-Automation-v0.0.181\">Cucumber-Test-Release-Automation-v0.0.181</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/TINITA/YAML-LibYAML-v0.910.1-TRIAL\">YAML-LibYAML-v0.910.1-TRIAL</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/ILYAZ/etext-2.09\">etext-2.09</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/BRONG/Net-DAVTalk-0.26\">Net-DAVTalk-0.26</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/BRONG/Net-CardDAVTalk-0.14\">Net-CardDAVTalk-0.14</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/BRONG/Net-CalDAVTalk-0.19\">Net-CalDAVTalk-0.19</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/RADKOV/Term-Highlight-2.3.1\">Term-Highlight-2.3.1</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/DAPINK/DateTime-TimeZone-Local-Win32-2.07\">DateTime-TimeZone-Local-Win32-2.07</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/EXODIST/Review-Helper-0.001\">Review-Helper-0.001</a></li>\n        \n    <li><a href=\"https://metacpan.org/recent\"><strong>more...</strong></a></li>\n    </ul>\n    \n\n            </div>\n        </td>\n\n        <td class=\"third\">\n            <h2>Getting Started</h2>\n            <ul>\n                <li><a href=\"modules/INSTALL.html\">Installing Perl Modules</a></li>\n                <li><a href=\"http://learn.perl.org/\">Learn Perl</a></li>\n            </ul>\n\n            <h2>\n                How to contribute\n            </h2>\n            <ul>\n                <li>Read <a href=\"modules/04pause.html\">this</a>\n                </li>\n                <li>Visit <a href=\n                \"https://pause.perl.org/\">https://pause.perl.org/</a>\n                </li>\n            </ul>\n\n            <h2>Perl Resources</h2>\n            <ul>\n                <li><a href=\"http://www.perl.org/\">The Perl Programming language</a></li>\n                <li><a href=\"http://perldoc.perl.org/\">Perl Documentation</a></li>\n                <li><a href=\"http://lists.perl.org/\">Mailing Lists</a></li>\n                <li><a href=\"http://learn.perl.org/faq/\">Perl FAQ</a></li>\n\t\t\t</ul>\n        </td>\n    </tr>\n    </table>\n\n            </div>\n        </td>\n    </tr>\n    <tr>\n        <td id=\"footer\">\n            <div id=\"footer_copyright\">\n                <p>Yours Eclectically, The Self-Appointed Master Librarians (<i>OOK!</i>) of the CPAN.<br/>\n                   &copy; 1995-2010 Jarkko Hietaniemi.\n                   &copy; 2011-2024 <a href=\"https://www.perl.org\">Perl.org</a>.\n                   All rights reserved.\n                   <a href=\"disclaimer.html\">Disclaimer</a>.\n                </p>\n            </div>\n\n            \n            <div id=\"footer_mirror\">\n\t\t\t<p>Master mirror hosted by <a href=\"https://www.netactuate.com/\"><img class=\"netactuate\" alt=\"NetActuate\"\n                height=\"49\" width=\"149\" src=\"misc/images/netactuate.png\" /></a>\n            and\n            <a href=\"https://www.fastly.com/\"><img alt=\"Fastly\" height=\"49\" width=\"118\"\n                src=\"misc/images/fastly.png\" /></a>\n            </p>\n            </div>\n            \n\n\n        </td>\n    </tr>\n</table>\n\n</body>\n</html>\n\n",
-      "url": "https://www.cpan.org/"
-    },
-    "sitemap": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
-      "url": "https://www.cpan.org/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
-      "url": "https://www.cpan.org/AGENTS.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "aiTxt": {
-      "status": 404,
-      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
-      "url": "https://www.cpan.org/ai.txt"
-    },
-    "aiFeatures": {
-      "chatWidget": false,
-      "aiSearch": false,
-      "developerConsole": false
-    }
+ "signals": {
+  "domain": "cpan.org",
+  "fetchedAt": "2026-11-13T02:46:16.613Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 200,
+   "body": "\n\n# Hello Robots!\n# Welcome to CPAN.\n\nUser-agent: *\nDisallow: /badrobot/\n\nUser-Agent: The Knowledge AI\nDisallow: /\n\n",
+   "url": "https://www.cpan.org/robots.txt"
   },
-  "afr": {
-    "domain": "cpan.org",
-    "engineVersion": "afr-1.1.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-13T02:46:16.613Z",
-    "score": 28,
-    "grade": "D",
-    "state": "scored",
-    "strategyTag": "Unconfigured",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 22.5,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 12.5,
-            "max": 25,
-            "status": "partial",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 200"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 200, full HTML document returned"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Legibility",
-        "awarded": 5,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "no JSON-LD blocks"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 4,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 131 words (low)"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 1,
-            "max": 6,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "title \"The Comprehensive Perl Archive Network -\"; missing/too-short meta description; no date signal; body text 131 words (low)"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Actionability",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 404; ai.txt HTTP 404; homepage has no AI info page link"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 12.5,
-      "l1.no-tech-wall": 5,
-      "l1.basic-availability": 5,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 4,
-      "l2.sitemap": 0,
-      "l2.content-signals": 1,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
+   "url": "https://www.cpan.org/llms.txt"
+  },
+  "llmsFull": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
+   "url": "https://www.cpan.org/llms-full.txt"
+  },
+  "homepage": {
+   "status": 200,
+   "body": "\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>The Comprehensive Perl Archive Network - www.cpan.org</title>\n    <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" />    <link rel=\"author\" href=\"mailto:cpan+linkrelauthor@perl.org\" />\n\t<link rel=\"canonical\" href=\"https://www.cpan.org/index.html\" />\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"misc/css/cpan.css\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\n<!-- Copyright Jarkko Hietaniemi <jhi@iki.fi>\n     1998,1999,2000,2001,2003,2003,2004,2005,2008\n     Copyright 2010-2013 Ask Bjørn Hansen <ask@perl.org>\n     All Rights Reserved.\n     The CPAN Logo provided by J.C. Thorpe.\n     You may distribute this document either under the Artistic License\n     (comes with Perl) or the GNU Public License, whichever suits you.\n\n     LEGALESE\n\n     You are not allowed to remove or alter these comments.\n\n     You are not allowed to rename, remove, or add any files\n     in your public mirror of CPAN.\n\n     \"Public mirror of CPAN\" means a site listed in\n     the SITES.html and SITES files at the top level of CPAN\n     and also listed at the site http://mirrors.cpan.org/.\n\n     You are not allowed to alter any file\n     in you public mirror of CPAN\n     EXCEPT\n     that you can add a short acknowledgement for example\n     for your hosting company, company, university, or sponsor,\n     into this CPAN top-level index.html by adding a small\n     non-animated image and a hyperlink pointing to your organization\n     with text like \"hosted by\", \"powered by\", or \"sponsored by\",\n     by placing it visually next to the \"CPAN master site hosted by\n     ...\" acknowledgement at the bottom of the page.\n     The image used may not be larger than the one used for the master\n     site acknowledgement logos.\n         (Technical sidenote: if you do add an acknowledgement link,\n         please do think of the consequences to your possible downstream\n         CPAN mirrors.)\n     Altering this index.html in any other way is not allowed.\n     Altering any other files is not allowed.\n\n     Adding any advertisements or any revenue-generating material\n     is strictly forbidden.\n\n     Similarly, for your public CPAN mirrors \"framing\" or \"wrapping\"\n     the CPAN web pages into other sites by using e.g. HTML tables\n     or frames is not allowed.\n\n     You are allowed to use the files of CPAN to create your own\n     web sites and services since we are just a distributor of the files,\n     we do not own most of them.  However, you may not call your creations\n     \"CPAN\" or \"CPAN mirrors\".  You may say that the files are \"mirrored\n     from CPAN\".\n\n-->\n<script type=\"text/javascript\" charset=\"utf-8\">\n    function focusField() {\n        document.getElementById(\"searchfield\").focus();\n    }\n    onload = focusField;\n</script>\n\n\n\n<script defer data-domain=\"cpan.org\" src=\"https://cdn.perl.org/js/script.js\"></script>\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-PXE98NKGY2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-PXE98NKGY2');\n</script>\n\n</head>\n<body class=\"section_home\">\n\n<table id=\"wrapper\" border=\"0\" width=\"95%\" cellspacing=\"0\" cellpadding=\"2\" align=\"center\">\n    <tr>\n        <td id=\"header\">\n\n\t\t\t<div id=\"header_left\">\n\t\t\t\t<a href=\"index.html\"><img src=\"misc/images/cpan.svg\" id=\"logo\" alt=\"CPAN\" width=\"250\" height=\"77\" /></a>\n     \t\t</div>\n\n\t\t\t<div id=\"header_right\">\n\t\t\t  <h1>Comprehensive Perl Archive Network</h1>\n              <p id=\"strapline\">Stop reinventing wheels, start building space rockets</p>\n           </div>\n        </td>\n    </tr>\n    <tr>\n        <td id=\"menubar_holder\">\n\n            <ul class=\"menubar\">\n\t\t\t\t<li><a href=\"index.html\">Home</a></li>\n                <li><a href=\"modules/index.html\">Modules</a></li>\n                <li><a href=\"ports/index.html\">Ports</a></li>\n                <li><a href=\"src/README.html\">Perl Source</a></li>\n                <li><a href=\"misc/cpan-faq.html\">FAQ</a></li>\n                <li><a href=\"SITES.html\">Mirrors</a></li>\n\t\t\t</ul>\n\n\t\t\t<div id=\"searchbar\">\n\t\t\t\t<form method=\"get\" action=\"https://metacpan.org/search\" name=\"f\" class=\"searchbox menubar\" id=\"f\">\n\t\t\t\t<a href=\"https://metacpan.org/\">Search</a>:\n\t\t\t\t\t <input id=\"searchfield\" type=\"text\" name=\"q\" value=\"\" placeholder=\"Module name\" />\n\t\t\t\t\t<input type=\"submit\" value=\"Search\" />\n\t\t\t\t</form>\n\t\t\t</div>\n\t\t</td>\n    </tr>\n    <tr>\n        <td>\n            <div id=\"content\">\n\n            \n\n    <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n    <tr>\n        <td class=\"third\">\n            <h2>Welcome to CPAN</h2>\n            <p>\n                The Comprehensive Perl Archive Network (CPAN) currently\n                has <a href=\"modules/index.html\">33,740,095\n                Perl modules</a> in 52,919 distributions,\n                written by 14,759 authors.\n            </p>\n            <p>The archive has been online since October 1995 and is constantly growing.</p>\n\n\t\t\t<h2>Search CPAN via</h2>\n\n            <ul>\n                <li><a href=\"https://metacpan.org/\">metacpan.org</a></li>\n            </ul>\n\n        </td>\n\n        <td class=\"third\">\n            <div style=\"margin-left: 20px\">\n                <h2>Recent Uploads</h2>\n                \n    \n    \n    \n    <ul>\n    \n        <li><a href=\"https://metacpan.org/release/MANWAR/Map-Tube-CLI-v1.2.1\">Map-Tube-CLI-v1.2.1</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/CUKEBOT/Cucumber-Test-Release-Automation-v0.0.181\">Cucumber-Test-Release-Automation-v0.0.181</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/TINITA/YAML-LibYAML-v0.910.1-TRIAL\">YAML-LibYAML-v0.910.1-TRIAL</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/ILYAZ/etext-2.09\">etext-2.09</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/BRONG/Net-DAVTalk-0.26\">Net-DAVTalk-0.26</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/BRONG/Net-CardDAVTalk-0.14\">Net-CardDAVTalk-0.14</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/BRONG/Net-CalDAVTalk-0.19\">Net-CalDAVTalk-0.19</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/RADKOV/Term-Highlight-2.3.1\">Term-Highlight-2.3.1</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/DAPINK/DateTime-TimeZone-Local-Win32-2.07\">DateTime-TimeZone-Local-Win32-2.07</a></li>\n        \n    \n        <li><a href=\"https://metacpan.org/release/EXODIST/Review-Helper-0.001\">Review-Helper-0.001</a></li>\n        \n    <li><a href=\"https://metacpan.org/recent\"><strong>more...</strong></a></li>\n    </ul>\n    \n\n            </div>\n        </td>\n\n        <td class=\"third\">\n            <h2>Getting Started</h2>\n            <ul>\n                <li><a href=\"modules/INSTALL.html\">Installing Perl Modules</a></li>\n                <li><a href=\"http://learn.perl.org/\">Learn Perl</a></li>\n            </ul>\n\n            <h2>\n                How to contribute\n            </h2>\n            <ul>\n                <li>Read <a href=\"modules/04pause.html\">this</a>\n                </li>\n                <li>Visit <a href=\n                \"https://pause.perl.org/\">https://pause.perl.org/</a>\n                </li>\n            </ul>\n\n            <h2>Perl Resources</h2>\n            <ul>\n                <li><a href=\"http://www.perl.org/\">The Perl Programming language</a></li>\n                <li><a href=\"http://perldoc.perl.org/\">Perl Documentation</a></li>\n                <li><a href=\"http://lists.perl.org/\">Mailing Lists</a></li>\n                <li><a href=\"http://learn.perl.org/faq/\">Perl FAQ</a></li>\n\t\t\t</ul>\n        </td>\n    </tr>\n    </table>\n\n            </div>\n        </td>\n    </tr>\n    <tr>\n        <td id=\"footer\">\n            <div id=\"footer_copyright\">\n                <p>Yours Eclectically, The Self-Appointed Master Librarians (<i>OOK!</i>) of the CPAN.<br/>\n                   &copy; 1995-2010 Jarkko Hietaniemi.\n                   &copy; 2011-2024 <a href=\"https://www.perl.org\">Perl.org</a>.\n                   All rights reserved.\n                   <a href=\"disclaimer.html\">Disclaimer</a>.\n                </p>\n            </div>\n\n            \n            <div id=\"footer_mirror\">\n\t\t\t<p>Master mirror hosted by <a href=\"https://www.netactuate.com/\"><img class=\"netactuate\" alt=\"NetActuate\"\n                height=\"49\" width=\"149\" src=\"misc/images/netactuate.png\" /></a>\n            and\n            <a href=\"https://www.fastly.com/\"><img alt=\"Fastly\" height=\"49\" width=\"118\"\n                src=\"misc/images/fastly.png\" /></a>\n            </p>\n            </div>\n            \n\n\n        </td>\n    </tr>\n</table>\n\n</body>\n</html>\n\n",
+   "url": "https://www.cpan.org/"
+  },
+  "sitemap": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
+   "url": "https://www.cpan.org/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
+   "url": "https://www.cpan.org/AGENTS.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "aiTxt": {
+   "status": 404,
+   "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.71 (Unix) Server at www.cpan.org Port 80</address>\n</body></html>\n",
+   "url": "https://www.cpan.org/ai.txt"
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": false
   }
+ },
+ "afr": {
+  "domain": "cpan.org",
+  "engineVersion": "afr-1.2.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-13T02:46:16.613Z",
+  "score": 28,
+  "grade": "D",
+  "state": "scored",
+  "strategyTag": "Unconfigured",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 22.5,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 12.5,
+      "max": 25,
+      "status": "partial",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 200"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 200, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Legibility",
+    "awarded": 5,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "no JSON-LD blocks"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 4,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 131 words (low)"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 1,
+      "max": 6,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "title \"The Comprehensive Perl Archive Network -\"; missing/too-short meta description; no date signal; body text 131 words (low)"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Actionability",
+    "awarded": 0,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; no developer console"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 12.5,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 4,
+   "l2.sitemap": 0,
+   "l2.content-signals": 1,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }
