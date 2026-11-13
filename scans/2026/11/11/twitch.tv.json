@@ -57,10 +57,10 @@
  },
  "afr": {
   "domain": "twitch.tv",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T02:54:34.055Z",
-  "score": 62,
+  "score": 67,
   "grade": "B",
   "state": "scored",
   "strategyTag": "Middle-Path",
@@ -180,19 +180,19 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 12,
+    "awarded": 17,
     "max": 25,
     "checks": [
      {
       "id": "l3.public-api",
       "layer": "L3",
       "name": "Public API",
-      "awarded": 0,
+      "awarded": 5,
       "max": 8,
-      "status": "fail",
+      "status": "partial",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "llms.txt references an API; no API documentation entry point; OpenAPI not found"
       }
      },
      {
@@ -203,8 +203,8 @@
       "max": 4,
       "status": "partial",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
       }
      },
      {
@@ -243,7 +243,7 @@
    "l2.semantic-html": 0,
    "l2.sitemap": 4,
    "l2.content-signals": 3,
-   "l3.public-api": 0,
+   "l3.public-api": 5,
    "l3.agent-instructions": 2,
    "l3.mcp": 6,
    "l3.site-ai-features": 4

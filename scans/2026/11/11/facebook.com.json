@@ -55,11 +55,11 @@
  },
  "afr": {
   "domain": "facebook.com",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T02:45:37.201Z",
-  "score": 37,
-  "grade": "D",
+  "score": 46,
+  "grade": "C",
   "state": "scored",
   "strategyTag": "AI-Closed",
   "layers": [
@@ -178,31 +178,31 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 7,
+    "awarded": 16,
     "max": 25,
     "checks": [
      {
       "id": "l3.public-api",
       "layer": "L3",
       "name": "Public API",
-      "awarded": 0,
+      "awarded": 7,
       "max": 8,
-      "status": "fail",
+      "status": "partial",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "llms.txt references an API; API documentation entry point present; OpenAPI not found"
       }
      },
      {
       "id": "l3.agent-instructions",
       "layer": "L3",
       "name": "Agent instructions",
-      "awarded": 2,
+      "awarded": 4,
       "max": 4,
-      "status": "partial",
+      "status": "pass",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md fetchable; ai.txt not probed; homepage has no AI info page link"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md reachable (2xx); llms.txt declares an agent policy section"
       }
      },
      {
@@ -241,8 +241,8 @@
    "l2.semantic-html": 2,
    "l2.sitemap": 3,
    "l2.content-signals": 1,
-   "l3.public-api": 0,
-   "l3.agent-instructions": 2,
+   "l3.public-api": 7,
+   "l3.agent-instructions": 4,
    "l3.mcp": 0,
    "l3.site-ai-features": 5
   }

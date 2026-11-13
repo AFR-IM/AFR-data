@@ -55,11 +55,11 @@
  },
  "afr": {
   "domain": "wix.com",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T03:16:34.650Z",
-  "score": 56,
-  "grade": "C",
+  "score": 63,
+  "grade": "B",
   "state": "scored",
   "strategyTag": "Unconfigured",
   "layers": [
@@ -178,19 +178,19 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 4,
+    "awarded": 11,
     "max": 25,
     "checks": [
      {
       "id": "l3.public-api",
       "layer": "L3",
       "name": "Public API",
-      "awarded": 0,
+      "awarded": 7,
       "max": 8,
-      "status": "fail",
+      "status": "partial",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "llms.txt references an API; API documentation entry point present; OpenAPI not found"
       }
      },
      {
@@ -199,10 +199,10 @@
       "name": "Agent instructions",
       "awarded": 0,
       "max": 4,
-      "status": "unknown",
+      "status": "fail",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md HTTP 404; ai.txt not probed; homepage has no AI info page link"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 404; llms.txt has no agent policy section"
       }
      },
      {
@@ -241,7 +241,7 @@
    "l2.semantic-html": 3,
    "l2.sitemap": 4,
    "l2.content-signals": 5,
-   "l3.public-api": 0,
+   "l3.public-api": 7,
    "l3.agent-instructions": 0,
    "l3.mcp": 0,
    "l3.site-ai-features": 4

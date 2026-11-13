@@ -55,10 +55,10 @@
  },
  "afr": {
   "domain": "onetrust.com",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T03:18:09.101Z",
-  "score": 57,
+  "score": 56,
   "grade": "C",
   "state": "scored",
   "strategyTag": "Unconfigured",
@@ -178,7 +178,7 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 1,
+    "awarded": 0,
     "max": 25,
     "checks": [
      {
@@ -189,20 +189,20 @@
       "max": 8,
       "status": "fail",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
       }
      },
      {
       "id": "l3.agent-instructions",
       "layer": "L3",
       "name": "Agent instructions",
-      "awarded": 1,
+      "awarded": 0,
       "max": 4,
-      "status": "partial",
+      "status": "fail",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md HTTP 404; ai.txt not probed; homepage links to AI/Agent info page"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 404; llms.txt has no agent policy section"
       }
      },
      {
@@ -242,7 +242,7 @@
    "l2.sitemap": 4,
    "l2.content-signals": 5,
    "l3.public-api": 0,
-   "l3.agent-instructions": 1,
+   "l3.agent-instructions": 0,
    "l3.mcp": 0,
    "l3.site-ai-features": 0
   }

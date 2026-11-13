@@ -57,10 +57,10 @@
  },
  "afr": {
   "domain": "checkpoint.com",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T03:00:58.003Z",
-  "score": 80,
+  "score": 86,
   "grade": "A",
   "state": "scored",
   "strategyTag": "Middle-Path",
@@ -180,31 +180,31 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 13,
+    "awarded": 19,
     "max": 25,
     "checks": [
      {
       "id": "l3.public-api",
       "layer": "L3",
       "name": "Public API",
-      "awarded": 0,
+      "awarded": 5,
       "max": 8,
-      "status": "fail",
+      "status": "partial",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "llms.txt references an API; no API documentation entry point; OpenAPI not found"
       }
      },
      {
       "id": "l3.agent-instructions",
       "layer": "L3",
       "name": "Agent instructions",
-      "awarded": 3,
+      "awarded": 4,
       "max": 4,
-      "status": "partial",
+      "status": "pass",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md fetchable; ai.txt not probed; homepage links to AI/Agent info page"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md reachable (2xx); llms.txt declares an agent policy section"
       }
      },
      {
@@ -243,8 +243,8 @@
    "l2.semantic-html": 8,
    "l2.sitemap": 4,
    "l2.content-signals": 5,
-   "l3.public-api": 0,
-   "l3.agent-instructions": 3,
+   "l3.public-api": 5,
+   "l3.agent-instructions": 4,
    "l3.mcp": 6,
    "l3.site-ai-features": 4
   }

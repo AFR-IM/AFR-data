@@ -1,250 +1,250 @@
 {
-  "signals": {
-    "domain": "0xrpc.io",
-    "fetchedAt": "2026-11-12T03:32:12.014Z",
-    "scannerVersion": "scanner-0.1.0",
-    "robots": {
-      "status": 404,
-      "body": "{\"message\":\"Route GET:/robots.txt not found\",\"error\":\"Not Found\",\"statusCode\":404}",
-      "url": "https://0xrpc.io/robots.txt"
-    },
-    "llms": {
-      "status": 404,
-      "body": "{\"message\":\"Route GET:/llms.txt not found\",\"error\":\"Not Found\",\"statusCode\":404}",
-      "url": "https://0xrpc.io/llms.txt"
-    },
-    "llmsFull": {
-      "status": 404,
-      "body": "{\"message\":\"Route GET:/llms-full.txt not found\",\"error\":\"Not Found\",\"statusCode\":404}",
-      "url": "https://0xrpc.io/llms-full.txt"
-    },
-    "homepage": {
-      "status": 200,
-      "body": "<!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title></title>\n  <link rel=\"stylesheet\" href=\"style.css\">\n  <style type=\"text/css\">\n    .markdown-body {\n      max-width: 46em;\n      margin: 2em auto;\n      padding: 0 1em;\n      overflow: hidden;\n      word-wrap: break-word;\n    }\n  </style>\n</head>\n<body>\n  <main class=\"markdown-body\"><h2>0xRPC</h2>\n<p><a href=\"https://0xrpc.io\">https://0xrpc.io</a></p>\n<p>Fast, Free, and private public RPC endpoints</p>\n<h4>Notice</h4>\n<p>We are suffering high usage ( constant 3K ~ 5K requests per second ) and because of our limited cpu capacity your request might be rate limited, please make a donation so that we could invest on our servers.</p>\n<h4>Donations to</h4>\n<p><a href=\"https://etherscan.io/address/0x76e6679eE4960B18941504c57a62F87EAaA559fd\">0x76e6679eE4960B18941504c57a62F87EAaA559fd</a> aka <code>0xrpcio.eth</code></p>\n<p>Accepts ETH, DAI, USDT, USDC, BNB from any EVM chains 😃</p>\n<h4>Upptime</h4>\n<p><a href=\"https://upptime.0xrpc.io\">https://upptime.0xrpc.io</a></p>\n<h4>Updates</h4>\n<ul>\n<li>Disabled polygon endpoint as the node seems unstable with volume of queries ( 25.02.09 )</li>\n<li>Added Unichain endpoint ( 25.02.15 )</li>\n<li>Disabled BNB Chain endpoint as the node seems unstable with volume of queries ( 25.02.21 )</li>\n<li>Added Hoodi Testnet endpoint ( 25.03.20 )</li>\n<li>Disabled Berachain endpoint as the node is unstable following tip ( 25.04.01 )</li>\n<li>Re-enabled BNB Chain mainnet, archive nodes are switched to pruned nodes to fulfill disk space requirement for long term operation ( 25.04.27 )</li>\n<li>Disabled BNB Chain mainnet as the node is draining all available RAMs, use alternative nodes please ( 25.06.03 )</li>\n<li>Due to hardware failures on server all nodes are down atm, use other nodes until it is recovered in a few days ( 25.06.30 )</li>\n<li>Due to excessive hardware usage Base node has been discontinued, thank you for using it! ( 25.09.27 )</li>\n<li>Disabled Avalanche, Optimism, and Unichain endpoints due to low usage &amp; saving costs ( 26.01.01 )</li>\n<li>Zcash, Bitcoin, and Litecoin is now supported ( 26.01.01 )</li>\n<li>Disabled Gnosis Network with node instability ( 26.01.31 )</li>\n<li>Added no-logging sendTransaction blocker for blacklisted accounts for global compliance ( 26.11.01 )</li>\n</ul>\n<h4>About (TOS, Privacy Policy)</h4>\n<ul>\n<li>We run nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.</li>\n<li>We now run full nodes for EVM chains by default, which is capable of deriving historic transactions receipts and contract events (like <code>eth_getTransactionReceipt</code> or <code>eth_getLogs</code>)</li>\n<li>Our endpoints are rate limited with less than 10 ~ 20 calls allowed per second so please use it wisely! (The limits are included with batch requests as well)</li>\n<li>We don’t store any sent data nor any raw IPs. Refer <a href=\"/privacy\">/privacy</a> for more info.</li>\n<li>No tracking of any kind.</li>\n<li>Open issues on <a href=\"https://github.com/0xRPC/0xRPC.github.io/issues\">https://github.com/0xRPC/0xRPC.github.io/issues</a> for any inquiries / bug reports on RPC.</li>\n</ul>\n<h4>Used by</h4>\n<ul>\n<li><a href=\"https://github.com/NethermindEth/sedge/blob/6be63bd9761286fc197885f55743dc4e0ce08c37/configs/public_rpcs.go#L42\">Nethermind</a></li>\n<li><a href=\"https://github.com/sigp/siren/blob/ad9fc6eb09816eb7017b69a241c49c17da85026b/utilities/createWagmiConfig.ts#L19\">Sigma Prime</a></li>\n<li><a href=\"https://github.com/ethersphere/storage-incentives/blob/8000a756a6a9c23d3a2da8dbde803438de23dcc7/hardhat.config.ts#L167\">Swarm</a></li>\n<li><a href=\"https://github.com/api3dao/contracts/blob/282c344fe4cae2982b0cfcfe5d462621d0e5dfa2/CHANGELOG.md?plain=1#L116\">Api3</a></li>\n<li><a href=\"https://github.com/FraxFinance/fraxtal-node/blob/4681d2a7e1bef6dc9d368594fdfd88258e8fc5f9/.env.hoodi-testnet.SAMPLE#L4\">Frax</a></li>\n<li><a href=\"https://github.com/subquery/ethereum-subql-starter/blob/bd2ed434a02f73ebf25f815fde448c39f8f3d36b/Taiko/taiko-hoodi-starter/project.ts#L41\">SubQuery Network</a></li>\n<li><a href=\"https://github.com/helios-network/helios-core/blob/f7380da0afa41b657195ea633f39daa31f131afd/helios-chain/x/hyperion/types/params.go#L253\">Helios</a></li>\n<li><a href=\"https://github.com/HeimLabs/coinbase-stakemyeth-backend/blob/06e55f417145e2d7b7afd98b58a0a7832c1acd61/config/index.ts#L13\">HeimLabs</a></li>\n<li><a href=\"https://github.com/NilFoundation/placeholder/blob/ba9ee053b856211556e57073eda71543da872dd6/load_block/load_block.py#L7\">NilFoundation</a></li>\n<li><a href=\"https://github.com/lanca-io/webapp/blob/a951bd3ddd42d5bd440e9275fed80a33261bbe5c/src/store/form/CreateFormStore.tsx#L45\">Lanca</a></li>\n<li><a href=\"https://github.com/HebePlatform/etc-classic-ui/blob/2ee3b246fc8a46ed2f2594884514908186024fd0/networkConfig.js#L243\">HebeBlock</a></li>\n<li><a href=\"https://github.com/gnosisguild/zodiac-modifier-roles/blob/a5ae54f7a9dabe4d075de86aacfc5ddc671b39f4/packages/evm/hardhat.config.ts#L120\">Gnosis Guild</a></li>\n</ul>\n<p>… <a href=\"https://github.com/search?q=0xrpc&amp;type=code\">and more</a></p>\n<h4>How to use</h4>\n<p><code>$ cast block-number -r https://0xrpc.io/eth</code></p>\n<p>or</p>\n<p><code>$ cast block-number -r wss://0xrpc.io/eth</code></p>\n<p>(All EVM endpoints support websockets)</p>\n<h4>Endpoints</h4>\n<ul>\n<li>Bitcoin Mainnet ( Electrum TCP with SSL )</li>\n</ul>\n<p><code>tcp+ssl://0xrpc.io:50002</code></p>\n<ul>\n<li>Litecoin Mainnet ( Electrum TCP with SSL )</li>\n</ul>\n<p><code>tcp+ssl://0xrpc.io:60002</code></p>\n<ul>\n<li>Monero Mainnet</li>\n</ul>\n<p><a href=\"https://xmr.0xrpc.io\">https://xmr.0xrpc.io</a></p>\n<ul>\n<li>Zcash Mainnet ( Add this to your ywallet or wallet that supports <a href=\"https://github.com/zcash/lightwalletd\">lightwalletd</a> )</li>\n</ul>\n<p><a href=\"https://zec.0xrpc.io:443\">https://zec.0xrpc.io:443</a></p>\n<ul>\n<li>Ethereum Mainnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/eth\">https://0xrpc.io/eth</a></p>\n<p><a href=\"https://0xrpc.io/eth/v1\">https://0xrpc.io/eth/v1</a> (Beacon)</p>\n<ul>\n<li>Ethereum Sepolia Testnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/sep\">https://0xrpc.io/sep</a></p>\n<ul>\n<li>Ethereum Hoodi Testnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/hoodi\">https://0xrpc.io/hoodi</a></p>\n<ul>\n<li>Ethereum Classic Mainnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/etc\">https://0xrpc.io/etc</a></p>\n<ul>\n<li>ETC Mordor Testnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/mordor\">https://0xrpc.io/mordor</a></p>\n<ul>\n<li>MintMe.com Mainnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/mint\">https://0xrpc.io/mint</a></p>\n<h4>Listed on</h4>\n<ul>\n<li><a href=\"https://monero.fail\">https://monero.fail</a></li>\n<li><a href=\"https://chainlist.org\">https://chainlist.org</a></li>\n</ul>\n</main>\n\n\n</body></html>",
-      "url": "https://0xrpc.github.io/"
-    },
-    "sitemap": {
-      "status": 404,
-      "body": "{\"message\":\"Route GET:/sitemap.xml not found\",\"error\":\"Not Found\",\"statusCode\":404}",
-      "url": "https://0xrpc.io/sitemap.xml"
-    },
-    "agentsMd": {
-      "status": 404,
-      "body": "{\"message\":\"Route GET:/AGENTS.md not found\",\"error\":\"Not Found\",\"statusCode\":404}",
-      "url": "https://0xrpc.io/AGENTS.md"
-    },
-    "openapi": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "apiDocs": {
-      "found": false,
-      "urls": []
-    },
-    "mcp": {
-      "probed": true,
-      "found": false,
-      "urls": []
-    },
-    "aiFeatures": {
-      "chatWidget": false,
-      "aiSearch": false,
-      "developerConsole": false
-    }
+ "signals": {
+  "domain": "0xrpc.io",
+  "fetchedAt": "2026-11-12T03:32:12.014Z",
+  "scannerVersion": "scanner-0.1.0",
+  "robots": {
+   "status": 404,
+   "body": "{\"message\":\"Route GET:/robots.txt not found\",\"error\":\"Not Found\",\"statusCode\":404}",
+   "url": "https://0xrpc.io/robots.txt"
   },
-  "afr": {
-    "domain": "0xrpc.io",
-    "engineVersion": "afr-1.1.0",
-    "scannerVersion": "scanner-0.1.0",
-    "scannedAt": "2026-11-12T03:32:12.014Z",
-    "score": 41,
-    "grade": "D",
-    "state": "scored",
-    "strategyTag": "Unconfigured",
-    "layers": [
-      {
-        "layer": "L1",
-        "name": "Reachability",
-        "awarded": 35,
-        "max": 35,
-        "checks": [
-          {
-            "id": "l1.robots.ai-policy",
-            "layer": "L1",
-            "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 25,
-            "max": 25,
-            "status": "pass",
-            "evidence": {
-              "source": "robots.txt",
-              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
-            }
-          },
-          {
-            "id": "l1.no-tech-wall",
-            "layer": "L1",
-            "name": "No technical wall for transparent AI UA",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET / (transparent AI UA)",
-              "detail": "GET / → 200"
-            }
-          },
-          {
-            "id": "l1.basic-availability",
-            "layer": "L1",
-            "name": "Basic availability",
-            "awarded": 5,
-            "max": 5,
-            "status": "pass",
-            "evidence": {
-              "source": "GET /",
-              "detail": "GET / → 200, full HTML document returned"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L2",
-        "name": "Legibility",
-        "awarded": 5.75,
-        "max": 40,
-        "checks": [
-          {
-            "id": "l2.llms-family",
-            "layer": "L2",
-            "name": "llms.txt family",
-            "awarded": 0,
-            "max": 14,
-            "status": "fail",
-            "evidence": {
-              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
-              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
-            }
-          },
-          {
-            "id": "l2.structured-data",
-            "layer": "L2",
-            "name": "Structured data (JSON-LD)",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "no JSON-LD blocks"
-            }
-          },
-          {
-            "id": "l2.semantic-html",
-            "layer": "L2",
-            "name": "Semantic HTML",
-            "awarded": 3.75,
-            "max": 8,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "semantic landmarks 1/4; no h1; html[lang] present; body text 503 words"
-            }
-          },
-          {
-            "id": "l2.sitemap",
-            "layer": "L2",
-            "name": "Sitemap",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
-            }
-          },
-          {
-            "id": "l2.content-signals",
-            "layer": "L2",
-            "name": "Content signals",
-            "awarded": 2,
-            "max": 6,
-            "status": "partial",
-            "evidence": {
-              "source": "homepage HTML",
-              "detail": "missing title; missing/too-short meta description; no date signal; body text 503 words"
-            }
-          }
-        ]
-      },
-      {
-        "layer": "L3",
-        "name": "Actionability",
-        "awarded": 0,
-        "max": 25,
-        "checks": [
-          {
-            "id": "l3.public-api",
-            "layer": "L3",
-            "name": "Public API",
-            "awarded": 0,
-            "max": 8,
-            "status": "fail",
-            "evidence": {
-              "source": "openapi probe + homepage HTML",
-              "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
-            }
-          },
-          {
-            "id": "l3.agent-instructions",
-            "layer": "L3",
-            "name": "Agent instructions",
-            "awarded": 0,
-            "max": 4,
-            "status": "unknown",
-            "evidence": {
-              "source": "GET /agents.md, /ai.txt + homepage HTML",
-              "detail": "agents.md HTTP 404; ai.txt not probed; homepage has no AI info page link"
-            }
-          },
-          {
-            "id": "l3.mcp",
-            "layer": "L3",
-            "name": "MCP interface",
-            "awarded": 0,
-            "max": 6,
-            "status": "fail",
-            "evidence": {
-              "source": "MCP probe",
-              "detail": "MCP probed; no endpoint found"
-            }
-          },
-          {
-            "id": "l3.site-ai-features",
-            "layer": "L3",
-            "name": "In-site AI features",
-            "awarded": 0,
-            "max": 7,
-            "status": "fail",
-            "evidence": {
-              "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
-            }
-          }
-        ]
-      }
-    ],
-    "breakdown": {
-      "l1.robots.ai-policy": 25,
-      "l1.no-tech-wall": 5,
-      "l1.basic-availability": 5,
-      "l2.llms-family": 0,
-      "l2.structured-data": 0,
-      "l2.semantic-html": 3.75,
-      "l2.sitemap": 0,
-      "l2.content-signals": 2,
-      "l3.public-api": 0,
-      "l3.agent-instructions": 0,
-      "l3.mcp": 0,
-      "l3.site-ai-features": 0
-    }
+  "llms": {
+   "status": 404,
+   "body": "{\"message\":\"Route GET:/llms.txt not found\",\"error\":\"Not Found\",\"statusCode\":404}",
+   "url": "https://0xrpc.io/llms.txt"
+  },
+  "llmsFull": {
+   "status": 404,
+   "body": "{\"message\":\"Route GET:/llms-full.txt not found\",\"error\":\"Not Found\",\"statusCode\":404}",
+   "url": "https://0xrpc.io/llms-full.txt"
+  },
+  "homepage": {
+   "status": 200,
+   "body": "<!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title></title>\n  <link rel=\"stylesheet\" href=\"style.css\">\n  <style type=\"text/css\">\n    .markdown-body {\n      max-width: 46em;\n      margin: 2em auto;\n      padding: 0 1em;\n      overflow: hidden;\n      word-wrap: break-word;\n    }\n  </style>\n</head>\n<body>\n  <main class=\"markdown-body\"><h2>0xRPC</h2>\n<p><a href=\"https://0xrpc.io\">https://0xrpc.io</a></p>\n<p>Fast, Free, and private public RPC endpoints</p>\n<h4>Notice</h4>\n<p>We are suffering high usage ( constant 3K ~ 5K requests per second ) and because of our limited cpu capacity your request might be rate limited, please make a donation so that we could invest on our servers.</p>\n<h4>Donations to</h4>\n<p><a href=\"https://etherscan.io/address/0x76e6679eE4960B18941504c57a62F87EAaA559fd\">0x76e6679eE4960B18941504c57a62F87EAaA559fd</a> aka <code>0xrpcio.eth</code></p>\n<p>Accepts ETH, DAI, USDT, USDC, BNB from any EVM chains 😃</p>\n<h4>Upptime</h4>\n<p><a href=\"https://upptime.0xrpc.io\">https://upptime.0xrpc.io</a></p>\n<h4>Updates</h4>\n<ul>\n<li>Disabled polygon endpoint as the node seems unstable with volume of queries ( 25.02.09 )</li>\n<li>Added Unichain endpoint ( 25.02.15 )</li>\n<li>Disabled BNB Chain endpoint as the node seems unstable with volume of queries ( 25.02.21 )</li>\n<li>Added Hoodi Testnet endpoint ( 25.03.20 )</li>\n<li>Disabled Berachain endpoint as the node is unstable following tip ( 25.04.01 )</li>\n<li>Re-enabled BNB Chain mainnet, archive nodes are switched to pruned nodes to fulfill disk space requirement for long term operation ( 25.04.27 )</li>\n<li>Disabled BNB Chain mainnet as the node is draining all available RAMs, use alternative nodes please ( 25.06.03 )</li>\n<li>Due to hardware failures on server all nodes are down atm, use other nodes until it is recovered in a few days ( 25.06.30 )</li>\n<li>Due to excessive hardware usage Base node has been discontinued, thank you for using it! ( 25.09.27 )</li>\n<li>Disabled Avalanche, Optimism, and Unichain endpoints due to low usage &amp; saving costs ( 26.01.01 )</li>\n<li>Zcash, Bitcoin, and Litecoin is now supported ( 26.01.01 )</li>\n<li>Disabled Gnosis Network with node instability ( 26.01.31 )</li>\n<li>Added no-logging sendTransaction blocker for blacklisted accounts for global compliance ( 26.11.01 )</li>\n</ul>\n<h4>About (TOS, Privacy Policy)</h4>\n<ul>\n<li>We run nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.</li>\n<li>We now run full nodes for EVM chains by default, which is capable of deriving historic transactions receipts and contract events (like <code>eth_getTransactionReceipt</code> or <code>eth_getLogs</code>)</li>\n<li>Our endpoints are rate limited with less than 10 ~ 20 calls allowed per second so please use it wisely! (The limits are included with batch requests as well)</li>\n<li>We don’t store any sent data nor any raw IPs. Refer <a href=\"/privacy\">/privacy</a> for more info.</li>\n<li>No tracking of any kind.</li>\n<li>Open issues on <a href=\"https://github.com/0xRPC/0xRPC.github.io/issues\">https://github.com/0xRPC/0xRPC.github.io/issues</a> for any inquiries / bug reports on RPC.</li>\n</ul>\n<h4>Used by</h4>\n<ul>\n<li><a href=\"https://github.com/NethermindEth/sedge/blob/6be63bd9761286fc197885f55743dc4e0ce08c37/configs/public_rpcs.go#L42\">Nethermind</a></li>\n<li><a href=\"https://github.com/sigp/siren/blob/ad9fc6eb09816eb7017b69a241c49c17da85026b/utilities/createWagmiConfig.ts#L19\">Sigma Prime</a></li>\n<li><a href=\"https://github.com/ethersphere/storage-incentives/blob/8000a756a6a9c23d3a2da8dbde803438de23dcc7/hardhat.config.ts#L167\">Swarm</a></li>\n<li><a href=\"https://github.com/api3dao/contracts/blob/282c344fe4cae2982b0cfcfe5d462621d0e5dfa2/CHANGELOG.md?plain=1#L116\">Api3</a></li>\n<li><a href=\"https://github.com/FraxFinance/fraxtal-node/blob/4681d2a7e1bef6dc9d368594fdfd88258e8fc5f9/.env.hoodi-testnet.SAMPLE#L4\">Frax</a></li>\n<li><a href=\"https://github.com/subquery/ethereum-subql-starter/blob/bd2ed434a02f73ebf25f815fde448c39f8f3d36b/Taiko/taiko-hoodi-starter/project.ts#L41\">SubQuery Network</a></li>\n<li><a href=\"https://github.com/helios-network/helios-core/blob/f7380da0afa41b657195ea633f39daa31f131afd/helios-chain/x/hyperion/types/params.go#L253\">Helios</a></li>\n<li><a href=\"https://github.com/HeimLabs/coinbase-stakemyeth-backend/blob/06e55f417145e2d7b7afd98b58a0a7832c1acd61/config/index.ts#L13\">HeimLabs</a></li>\n<li><a href=\"https://github.com/NilFoundation/placeholder/blob/ba9ee053b856211556e57073eda71543da872dd6/load_block/load_block.py#L7\">NilFoundation</a></li>\n<li><a href=\"https://github.com/lanca-io/webapp/blob/a951bd3ddd42d5bd440e9275fed80a33261bbe5c/src/store/form/CreateFormStore.tsx#L45\">Lanca</a></li>\n<li><a href=\"https://github.com/HebePlatform/etc-classic-ui/blob/2ee3b246fc8a46ed2f2594884514908186024fd0/networkConfig.js#L243\">HebeBlock</a></li>\n<li><a href=\"https://github.com/gnosisguild/zodiac-modifier-roles/blob/a5ae54f7a9dabe4d075de86aacfc5ddc671b39f4/packages/evm/hardhat.config.ts#L120\">Gnosis Guild</a></li>\n</ul>\n<p>… <a href=\"https://github.com/search?q=0xrpc&amp;type=code\">and more</a></p>\n<h4>How to use</h4>\n<p><code>$ cast block-number -r https://0xrpc.io/eth</code></p>\n<p>or</p>\n<p><code>$ cast block-number -r wss://0xrpc.io/eth</code></p>\n<p>(All EVM endpoints support websockets)</p>\n<h4>Endpoints</h4>\n<ul>\n<li>Bitcoin Mainnet ( Electrum TCP with SSL )</li>\n</ul>\n<p><code>tcp+ssl://0xrpc.io:50002</code></p>\n<ul>\n<li>Litecoin Mainnet ( Electrum TCP with SSL )</li>\n</ul>\n<p><code>tcp+ssl://0xrpc.io:60002</code></p>\n<ul>\n<li>Monero Mainnet</li>\n</ul>\n<p><a href=\"https://xmr.0xrpc.io\">https://xmr.0xrpc.io</a></p>\n<ul>\n<li>Zcash Mainnet ( Add this to your ywallet or wallet that supports <a href=\"https://github.com/zcash/lightwalletd\">lightwalletd</a> )</li>\n</ul>\n<p><a href=\"https://zec.0xrpc.io:443\">https://zec.0xrpc.io:443</a></p>\n<ul>\n<li>Ethereum Mainnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/eth\">https://0xrpc.io/eth</a></p>\n<p><a href=\"https://0xrpc.io/eth/v1\">https://0xrpc.io/eth/v1</a> (Beacon)</p>\n<ul>\n<li>Ethereum Sepolia Testnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/sep\">https://0xrpc.io/sep</a></p>\n<ul>\n<li>Ethereum Hoodi Testnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/hoodi\">https://0xrpc.io/hoodi</a></p>\n<ul>\n<li>Ethereum Classic Mainnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/etc\">https://0xrpc.io/etc</a></p>\n<ul>\n<li>ETC Mordor Testnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/mordor\">https://0xrpc.io/mordor</a></p>\n<ul>\n<li>MintMe.com Mainnet (Full, 128 state with all blocks)</li>\n</ul>\n<p><a href=\"https://0xrpc.io/mint\">https://0xrpc.io/mint</a></p>\n<h4>Listed on</h4>\n<ul>\n<li><a href=\"https://monero.fail\">https://monero.fail</a></li>\n<li><a href=\"https://chainlist.org\">https://chainlist.org</a></li>\n</ul>\n</main>\n\n\n</body></html>",
+   "url": "https://0xrpc.github.io/"
+  },
+  "sitemap": {
+   "status": 404,
+   "body": "{\"message\":\"Route GET:/sitemap.xml not found\",\"error\":\"Not Found\",\"statusCode\":404}",
+   "url": "https://0xrpc.io/sitemap.xml"
+  },
+  "agentsMd": {
+   "status": 404,
+   "body": "{\"message\":\"Route GET:/AGENTS.md not found\",\"error\":\"Not Found\",\"statusCode\":404}",
+   "url": "https://0xrpc.io/AGENTS.md"
+  },
+  "openapi": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "apiDocs": {
+   "found": false,
+   "urls": []
+  },
+  "mcp": {
+   "probed": true,
+   "found": false,
+   "urls": []
+  },
+  "aiFeatures": {
+   "chatWidget": false,
+   "aiSearch": false,
+   "developerConsole": false
   }
+ },
+ "afr": {
+  "domain": "0xrpc.io",
+  "engineVersion": "afr-1.2.0",
+  "scannerVersion": "scanner-0.1.0",
+  "scannedAt": "2026-11-12T03:32:12.014Z",
+  "score": 41,
+  "grade": "D",
+  "state": "scored",
+  "strategyTag": "Unconfigured",
+  "layers": [
+   {
+    "layer": "L1",
+    "name": "Reachability",
+    "awarded": 35,
+    "max": 35,
+    "checks": [
+     {
+      "id": "l1.robots.ai-policy",
+      "layer": "L1",
+      "name": "robots.txt AI crawler policy (14 UA families)",
+      "awarded": 25,
+      "max": 25,
+      "status": "pass",
+      "evidence": {
+       "source": "robots.txt",
+       "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+      }
+     },
+     {
+      "id": "l1.no-tech-wall",
+      "layer": "L1",
+      "name": "No technical wall for transparent AI UA",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET / (transparent AI UA)",
+       "detail": "GET / → 200"
+      }
+     },
+     {
+      "id": "l1.basic-availability",
+      "layer": "L1",
+      "name": "Basic availability",
+      "awarded": 5,
+      "max": 5,
+      "status": "pass",
+      "evidence": {
+       "source": "GET /",
+       "detail": "GET / → 200, full HTML document returned"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L2",
+    "name": "Legibility",
+    "awarded": 5.75,
+    "max": 40,
+    "checks": [
+     {
+      "id": "l2.llms-family",
+      "layer": "L2",
+      "name": "llms.txt family",
+      "awarded": 0,
+      "max": 14,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+       "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+      }
+     },
+     {
+      "id": "l2.structured-data",
+      "layer": "L2",
+      "name": "Structured data (JSON-LD)",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "no JSON-LD blocks"
+      }
+     },
+     {
+      "id": "l2.semantic-html",
+      "layer": "L2",
+      "name": "Semantic HTML",
+      "awarded": 3.75,
+      "max": 8,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "semantic landmarks 1/4; no h1; html[lang] present; body text 503 words"
+      }
+     },
+     {
+      "id": "l2.sitemap",
+      "layer": "L2",
+      "name": "Sitemap",
+      "awarded": 0,
+      "max": 4,
+      "status": "unknown",
+      "evidence": {
+       "source": "GET /sitemap.xml + robots.txt",
+       "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+      }
+     },
+     {
+      "id": "l2.content-signals",
+      "layer": "L2",
+      "name": "Content signals",
+      "awarded": 2,
+      "max": 6,
+      "status": "partial",
+      "evidence": {
+       "source": "homepage HTML",
+       "detail": "missing title; missing/too-short meta description; no date signal; body text 503 words"
+      }
+     }
+    ]
+   },
+   {
+    "layer": "L3",
+    "name": "Actionability",
+    "awarded": 0,
+    "max": 25,
+    "checks": [
+     {
+      "id": "l3.public-api",
+      "layer": "L3",
+      "name": "Public API",
+      "awarded": 0,
+      "max": 8,
+      "status": "fail",
+      "evidence": {
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+      }
+     },
+     {
+      "id": "l3.agent-instructions",
+      "layer": "L3",
+      "name": "Agent instructions",
+      "awarded": 0,
+      "max": 4,
+      "status": "fail",
+      "evidence": {
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+      }
+     },
+     {
+      "id": "l3.mcp",
+      "layer": "L3",
+      "name": "MCP interface",
+      "awarded": 0,
+      "max": 6,
+      "status": "fail",
+      "evidence": {
+       "source": "MCP probe",
+       "detail": "MCP probed; no endpoint found"
+      }
+     },
+     {
+      "id": "l3.site-ai-features",
+      "layer": "L3",
+      "name": "In-site AI features",
+      "awarded": 0,
+      "max": 7,
+      "status": "fail",
+      "evidence": {
+       "source": "homepage HTML heuristics",
+       "detail": "no in-site chat/assistant; no AI search; no developer console"
+      }
+     }
+    ]
+   }
+  ],
+  "breakdown": {
+   "l1.robots.ai-policy": 25,
+   "l1.no-tech-wall": 5,
+   "l1.basic-availability": 5,
+   "l2.llms-family": 0,
+   "l2.structured-data": 0,
+   "l2.semantic-html": 3.75,
+   "l2.sitemap": 0,
+   "l2.content-signals": 2,
+   "l3.public-api": 0,
+   "l3.agent-instructions": 0,
+   "l3.mcp": 0,
+   "l3.site-ai-features": 0
+  }
+ }
 }

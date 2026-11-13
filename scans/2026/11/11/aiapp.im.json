@@ -61,10 +61,10 @@
  },
  "afr": {
   "domain": "aiapp.im",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T09:15:31.278Z",
-  "score": 86,
+  "score": 87,
   "grade": "A",
   "state": "scored",
   "strategyTag": "AI-Open",
@@ -184,7 +184,7 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 11,
+    "awarded": 12,
     "max": 25,
     "checks": [
      {
@@ -195,20 +195,20 @@
       "max": 8,
       "status": "pass",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI found: https://aiapp.im/openapi.json; API docs present; homepage links to docs/developer pages"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "llms.txt references an API; homepage links API/docs paths; OpenAPI document discovered; API documentation entry point present; OpenAPI: https://aiapp.im/openapi.json"
       }
      },
      {
       "id": "l3.agent-instructions",
       "layer": "L3",
       "name": "Agent instructions",
-      "awarded": 3,
+      "awarded": 4,
       "max": 4,
-      "status": "partial",
+      "status": "pass",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md fetchable; ai.txt not probed; homepage links to AI/Agent info page"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md reachable (2xx); llms.txt declares an agent policy section"
       }
      },
      {
@@ -248,7 +248,7 @@
    "l2.sitemap": 4,
    "l2.content-signals": 6,
    "l3.public-api": 8,
-   "l3.agent-instructions": 3,
+   "l3.agent-instructions": 4,
    "l3.mcp": 0,
    "l3.site-ai-features": 0
   }

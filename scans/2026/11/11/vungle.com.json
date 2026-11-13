@@ -53,7 +53,7 @@
  },
  "afr": {
   "domain": "vungle.com",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T02:59:27.745Z",
   "score": 52,
@@ -187,8 +187,8 @@
       "max": 8,
       "status": "fail",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
       }
      },
      {
@@ -199,8 +199,8 @@
       "max": 4,
       "status": "unknown",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md not probed; ai.txt not probed; homepage has no AI info page link"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md not probed; llms.txt HTTP 404"
       }
      },
      {

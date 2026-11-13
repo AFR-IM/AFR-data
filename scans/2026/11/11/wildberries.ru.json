@@ -52,7 +52,7 @@
  },
  "afr": {
   "domain": "wildberries.ru",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T03:17:12.757Z",
   "score": 31,
@@ -184,10 +184,10 @@
       "name": "Public API",
       "awarded": 0,
       "max": 8,
-      "status": "unknown",
+      "status": "fail",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
       }
      },
      {
@@ -196,10 +196,10 @@
       "name": "Agent instructions",
       "awarded": 0,
       "max": 4,
-      "status": "unknown",
+      "status": "fail",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md HTTP 498; ai.txt not probed; homepage unavailable"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 498; llms.txt HTTP 498"
       }
      },
      {

@@ -58,10 +58,10 @@
  },
  "afr": {
   "domain": "godaddy.com",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.2.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T02:49:37.718Z",
-  "score": 33,
+  "score": 40,
   "grade": "D",
   "state": "scored",
   "strategyTag": "Middle-Path",
@@ -181,19 +181,19 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 0,
+    "awarded": 7,
     "max": 25,
     "checks": [
      {
       "id": "l3.public-api",
       "layer": "L3",
       "name": "Public API",
-      "awarded": 0,
+      "awarded": 7,
       "max": 8,
-      "status": "unknown",
+      "status": "partial",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage unavailable"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "llms.txt references an API; API documentation entry point present; OpenAPI not found"
       }
      },
      {
@@ -202,10 +202,10 @@
       "name": "Agent instructions",
       "awarded": 0,
       "max": 4,
-      "status": "unknown",
+      "status": "fail",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md HTTP 403; ai.txt not probed; homepage unavailable"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 403; llms.txt has no agent policy section"
       }
      },
      {
@@ -244,7 +244,7 @@
    "l2.semantic-html": 0,
    "l2.sitemap": 4,
    "l2.content-signals": 0,
-   "l3.public-api": 0,
+   "l3.public-api": 7,
    "l3.agent-instructions": 0,
    "l3.mcp": 0,
    "l3.site-ai-features": 0
