@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "sqlite.org",
+    "fetchedAt": "2026-11-14T03:16:35.360Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /cvstrac\nDisallow: /src\nDisallow: /docsrc\nDisallow: /cgi\nDisallow: /contrib\n",
+      "url": "https://sqlite.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html><head><title lineno=\"380\">Not Found</title></head>\n<body><h1>Document Not Found</h1>\nThe document /llms.txt is not available on this server\n</body></html>\n",
+      "url": "https://sqlite.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html><head><title lineno=\"380\">Not Found</title></head>\n<body><h1>Document Not Found</h1>\nThe document /llms-full.txt is not available on this server\n</body></html>\n",
+      "url": "https://sqlite.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html><head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n<link href=\"sqlite.css\" rel=\"stylesheet\">\n<title>SQLite Home Page</title>\n<!-- path= -->\n</head>\n<body>\n<div class=nosearch>\n<a href=\"index.html\">\n<img class=\"logo\" src=\"images/sqlite370_banner.svg\" alt=\"SQLite\" border=\"0\">\n</a>\n<div><!-- IE hack to prevent disappearing logo --></div>\n<div class=\"tagline desktoponly\">\nSmall. Fast. Reliable.<br>Choose any three.\n</div>\n<div class=\"menu mainmenu\">\n<ul>\n<li><a href=\"index.html\">Home</a>\n<li class='mobileonly'><a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>\n<li class='wideonly'><a href='about.html'>About</a>\n<li class='desktoponly'><a href=\"docs.html\">Documentation</a>\n<li class='desktoponly'><a href=\"download.html\">Download</a>\n<li class='wideonly'><a href='copyright.html'>License</a>\n<li class='desktoponly'><a href=\"support.html\">Support</a>\n<li class='desktoponly'><a href=\"prosupport.html\">Purchase</a>\n<li class='search' id='search_menubutton'>\n<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>\n</ul>\n</div>\n<div class=\"menu submenu\" id=\"submenu\">\n<ul>\n<li><a href='about.html'>About</a>\n<li><a href='docs.html'>Documentation</a>\n<li><a href='download.html'>Download</a>\n<li><a href='support.html'>Support</a>\n<li><a href='prosupport.html'>Purchase</a>\n</ul>\n</div>\n<div class=\"searchmenu\" id=\"searchmenu\">\n<form method=\"GET\" action=\"search\">\n<select name=\"s\" id=\"searchtype\">\n<option value=\"d\">Search Documentation</option>\n<option value=\"c\">Search Changelog</option>\n</select>\n<input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\">\n<input type=\"submit\" value=\"Go\">\n</form>\n</div>\n</div>\n<script>\nfunction toggle_div(nm) {\nvar w = document.getElementById(nm);\nif( w.style.display==\"block\" ){\nw.style.display = \"none\";\n}else{\nw.style.display = \"block\";\n}\n}\nfunction toggle_search() {\nvar w = document.getElementById(\"searchmenu\");\nif( w.style.display==\"block\" ){\nw.style.display = \"none\";\n} else {\nw.style.display = \"block\";\nsetTimeout(function(){\ndocument.getElementById(\"searchbox\").focus()\n}, 30);\n}\n}\nfunction div_off(nm){document.getElementById(nm).style.display=\"none\";}\nwindow.onbeforeunload = function(e){div_off(\"submenu\");}\n/* Disable the Search feature if we are not operating from CGI, since */\n/* Search is accomplished using CGI and will not work without it. */\nif( !location.origin || !location.origin.match || !location.origin.match(/http/) ){\ndocument.getElementById(\"search_menubutton\").style.display = \"none\";\n}\n/* Used by the Hide/Show button beside syntax diagrams, to toggle the */\nfunction hideorshow(btn,obj){\nvar x = document.getElementById(obj);\nvar b = document.getElementById(btn);\nif( x.style.display!='none' ){\nx.style.display = 'none';\nb.innerHTML='show';\n}else{\nx.style.display = '';\nb.innerHTML='hide';\n}\nreturn false;\n}\nvar antiRobot = 0;\nfunction antiRobotGo(){\nif( antiRobot!=3 ) return;\nantiRobot = 7;\nvar j = document.getElementById(\"mtimelink\");\nif(j && j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\");\n}\nfunction antiRobotDefense(){\ndocument.body.onmousedown=function(){\nantiRobot |= 2;\nantiRobotGo();\ndocument.body.onmousedown=null;\n}\ndocument.body.onmousemove=function(){\nantiRobot |= 2;\nantiRobotGo();\ndocument.body.onmousemove=null;\n}\nsetTimeout(function(){\nantiRobot |= 1;\nantiRobotGo();\n}, 100)\nantiRobotGo();\n}\nantiRobotDefense();\n</script>\n\n\n<div class=\"rightsidebar desktoponly border2px\">\n<h3 align=\"center\">Common Links</h3>\n<ul class=nounderline>\n<li> <a href=\"features.html\">Features</a> </li>\n<li> <a href=\"whentouse.html\">When to use SQLite</a> </li>\n<li> <a href=\"quickstart.html\">Getting Started</a> </li>\n<li> <a href=\"https://sqlite.org/fiddle\">Try it live!</li>\n<li> <a href=\"lang.html\">SQL Syntax</a>\n<ul>\n<li> <a href=\"pragma.html#toc\">Pragmas</a>\n<li> <a href=\"lang_corefunc.html\">SQL functions</a>\n<li> <a href=\"lang_datefunc.html\">Date &amp; time functions</a>\n<li> <a href=\"lang_aggfunc.html#aggfunclist\">Aggregate functions</a>\n<li> <a href=\"windowfunctions.html#biwinfunc\">Window functions</a>\n<li> <a href=\"lang_mathfunc.html\">Math functions</a>\n<li> <a href=\"json1.html\">JSON functions</a>\n</ul>\n</li>\n<li> <a href=\"c3ref/intro.html\">C/C++ Interface Spec</a>\n<ul>\n<li> <a href=\"cintro.html\">Introduction</a>\n<li> <a href=\"c3ref/funclist.html\">List of C-language APIs</a>\n</ul>\n</li>\n<li> <a href=\"cli.html\">The CLI (Command-Line Interface)</a>\n<li> <a href=\"tclsqlite.html\">The TCL Interface Spec</a>\n<li> <a href=\"quirks.html\">Quirks and Gotchas</a> </li>\n<li> <a href=\"faq.html\">Frequently Asked Questions</a> </li>\n<li> <a href=\"https://www.sqlite.org/src/timeline\">Commit History</a> </li>\n<li> <a href=\"chronology.html\">Prior Releases</a>\n<li> <a href=\"https://www.sqlite.org/src/wiki?name=Bug+Reports\">Bugs</a> </li>\n<li> <a href=\"news.html\">News</a> </li>\n</ul>\n\n</div>\n\n<p>SQLite is a C-language library that implements a\n<a href=\"footprint.html\">small</a>,\n<a href=\"fasterthanfs.html\">fast</a>,\n<a href=\"selfcontained.html\">self-contained</a>,\n<a href=\"hirely.html\">high-reliability</a>,\n<a href=\"fullsql.html\">full-featured</a>,\nSQL database engine.\nSQLite is the <a href=\"mostdeployed.html\">most used</a> database engine in the world.\nSQLite is built into all mobile phones and most computers and\ncomes bundled inside countless other applications that people\nuse every day.\n<a href=\"about.html\">More Information...</a>\n\n<p>\nSQLite <a href=\"https://sqlite.org/src\">source code</a>\nis in the <a href=\"copyright.html\">public-domain</a> and is free to\neveryone to use for any purpose.\n\n<h3>Latest Release</h3>\n<a href=\"releaselog/3_54_1.html\">Version 3.54.1</a> (2026-10-16).\n<a class=\"button\" href=\"download.html\">Download</a>\n<a class=\"button\" href=\"chronology.html\">Prior Releases</a>\n\n<div class=\"mobileonly\">\n<h3>Common Links</h3>\n<ul class=nounderline>\n<li> <a href=\"features.html\">Features</a> </li>\n<li> <a href=\"whentouse.html\">When to use SQLite</a> </li>\n<li> <a href=\"quickstart.html\">Getting Started</a> </li>\n<li> <a href=\"https://sqlite.org/fiddle\">Try it live!</li>\n<li> <a href=\"lang.html\">SQL Syntax</a>\n<ul>\n<li> <a href=\"pragma.html#toc\">Pragmas</a>\n<li> <a href=\"lang_corefunc.html\">SQL functions</a>\n<li> <a href=\"lang_datefunc.html\">Date &amp; time functions</a>\n<li> <a href=\"lang_aggfunc.html#aggfunclist\">Aggregate functions</a>\n<li> <a href=\"windowfunctions.html#biwinfunc\">Window functions</a>\n<li> <a href=\"lang_mathfunc.html\">Math functions</a>\n<li> <a href=\"json1.html\">JSON functions</a>\n</ul>\n</li>\n<li> <a href=\"c3ref/intro.html\">C/C++ Interface Spec</a>\n<ul>\n<li> <a href=\"cintro.html\">Introduction</a>\n<li> <a href=\"c3ref/funclist.html\">List of C-language APIs</a>\n</ul>\n</li>\n<li> <a href=\"cli.html\">The CLI (Command-Line Interface)</a>\n<li> <a href=\"tclsqlite.html\">The TCL Interface Spec</a>\n<li> <a href=\"quirks.html\">Quirks and Gotchas</a> </li>\n<li> <a href=\"faq.html\">Frequently Asked Questions</a> </li>\n<li> <a href=\"https://www.sqlite.org/src/timeline\">Commit History</a> </li>\n<li> <a href=\"chronology.html\">Prior Releases</a>\n<li> <a href=\"https://www.sqlite.org/src/wiki?name=Bug+Reports\">Bugs</a> </li>\n<li> <a href=\"news.html\">News</a> </li>\n</ul>\n\n</div>\n\n<h3>Sponsors</h3>\n\n<p>SQLite is made possible in part by sponsors and\n<a href=\"consortium.html\">SQLite Consortium</a> members, including:</p>\n<a name=\"sponsors\"></a>\n<style>\n#sponsors {\n  margin:auto;\n  width:80%;\n}\n.onesponsor a img {\n  width:200px;\n  max-width:200px;\n  padding:1ex;\n}\n</style>\n<div id=\"sponsors\"></div>\n<script>\n  var sponsors = [{\n    \"name\":\"Bloomberg\",\n    \"href\":\"https://www.techatbloomberg.com/\",\n    \"src\":\"bloomberg.png\",\n    \"wx\":0\n  },{\n    \"name\":\"Bentley\",\n    \"href\":\"https://www.bentley.com/\",\n    \"src\":\"bentley.gif\",\n    \"wx\":0\n  },{\n    \"name\":\"NDS\",\n    \"href\":\"http://www.nds-association.org/\",\n    \"src\":\"nds.png\",\n    \"wx\":0\n  },{\n    \"name\":\"Expensify\",\n    \"href\":\"https://www.expensify.com/\",\n    \"src\":\"expensify.png\",\n    \"wx\":225,\n    \"hx\":32\n  },{\n    \"name\":\"Reportr\",\n    \"href\":\"https://reportr.com/?utm_source=sqlite\",\n    \"src\":\"reportr.png\",\n    \"wx\":0\n  }];\n\n  for(var i=0; i<sponsors.length; i++){sponsors[i].idx = Math.random();}\n  sponsors.sort(function(a,b){return a.idx-b.idx});\n  var h = \"\";\n  for(var i=0; i<sponsors.length; i++){\n    h += \"<span class='onesponsor'><a href='\";\n    h += sponsors[i].href;\n    h += \"'><img src='images/foreignlogos/\";\n    h += sponsors[i].src + \"'\";\n    var altText = sponsors[i].name;\n    if( altText ){\n      h += \" alt='\" + altText + \"'\";\n    }\n    h += \">\";\n    if( sponsors[i].text ){\n      h += \"<span class='sponsor-text'>\" + sponsors[i].text + \"</span>\";\n    }\n    h += \"</a></span>\\n\";\n    if( (i%2)==1 && i<sponsors.length-1 ){\n      h += \"<br>\\n\";\n    }\n  }\n  document.getElementById(\"sponsors\").innerHTML = h;\n\n</script>\n<br clear=\"both\">\n<p align=\"center\"><small><i>This page was last updated on 2026-10-25 01:08:16Z </small></i></p>\n\n",
+      "url": "https://sqlite.org/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<html><head><title lineno=\"380\">Not Found</title></head>\n<body><h1>Document Not Found</h1>\nThe document /sitemap.xml is not available on this server\n</body></html>\n",
+      "url": "https://sqlite.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html><head><title lineno=\"380\">Not Found</title></head>\n<body><h1>Document Not Found</h1>\nThe document /AGENTS.md is not available on this server\n</body></html>\n",
+      "url": "https://sqlite.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html><head><title lineno=\"380\">Not Found</title></head>\n<body><h1>Document Not Found</h1>\nThe document /ai.txt is not available on this server\n</body></html>\n",
+      "url": "https://sqlite.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "sqlite.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:16:35.360Z",
+    "score": 27,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 2,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 241 words"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"SQLite Home Page\"; missing/too-short meta description; no date signal; body text 241 words (moderate)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 2,
+      "l2.sitemap": 0,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

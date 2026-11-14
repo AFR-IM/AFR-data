@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "unicode.org",
+    "fetchedAt": "2026-11-14T03:04:15.781Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /draft/\t# not official even if visible\n\n\n# Begin updates for 2025 - Release 17.0\nDisallow: /Public/16.0.0/    # obsolete data\nDisallow: /charts/PDF/Unicode-16.0    # obsolete version\nDisallow: /reports/tr46/tr46-33.html\nDisallow: /reports/tr14/tr14-53.html\nDisallow: /reports/tr15/tr15-56.html\nDisallow: /reports/tr9/tr9-50.html\nDisallow: /reports/tr51/tr51-27.html\nDisallow: /reports/tr34/tr34-31.html\nDisallow: /reports/tr35/tr35-74/    # obsolete version\nDisallow: /reports/tr25/tr25-14.pdf\n# End updates for 2025 - Release 17.0\n\nDisallow: /Public/1.1-Update/\t# obsolete data\nDisallow: /Public/2.1-Update2/\t# obsolete data\nDisallow: /Public/3.0-Update/\t# obsolete data\nDisallow: /Public/3.0-Update/\t# obsolete data\nDisallow: /Public/2.1-Update3/\t# obsolete data\nDisallow: /Public/2.1-Update/\t# obsolete data\nDisallow: /Public/2.1-Update4/\t# obsolete data\nDisallow: /Public/3.0-Update1/ # obsolete data\nDisallow: /Public/3.1-Update/  # obsolete data\nDisallow: /Public/3.1-Update1/ # obsolete data\nDisallow: /Public/3.2-Update/ # obsolete data\nDisallow: /Public/4.0-Update/ # obsolete data\nDisallow: /Public/4.0-Update1/ # obsolete data\nDisallow: /Public/4.1.0/\t# obsolete data\nDisallow: /Public/5.0.0/\t# obsolete data\nDisallow: /Public/5.1.0/\t# obsolete data\nDisallow: /Public/5.2.0/\t# obsolete data\nDisallow: /Public/6.0.0/\t# obsolete data\nDisallow: /Public/6.1.0/\t# obsolete data\nDisallow: /Public/6.2.0/\t# obsolete data\nDisallow: /Public/6.3.0/\t# obsolete data\nDisallow: /Public/7.0.0/\t# obsolete data\nDisallow: /Public/8.0.0/\t# obsolete data\nDisallow: /Public/9.0.0/\t# obsolete data\nDisallow: /Public/10.0.0/\t# obsolete data\nDisallow: /Public/11.0.0/\t# obsolete data\nDisallow: /Public/12.0.0/\t# obsolete data\nDisallow: /Public/13.0.0/\t# obsolete data\nDisallow: /Public/14.0.0/\t# obsolete data\nDisallow: /Public/15.0.0/\t# obsolete data\nDisallow: /Public/15.1.0/\t# obsolete data\nDisallow: /fr/\t\t\t# obsolete pages and charts\nDisallow: /versions/Unicode2.0.0/\t# obsolete version\nDisallow: /versions/Unicode2.1.0/\t# obsolete version\nDisallow: /versions/Unicode3.0.0/\t# obsolete version\nDisallow: /versions/Unicode3.0.1/\t# obsolete version\nDisallow: /versions/Unicode3.1.0/\t# obsolete version\nDisallow: /versions/Unicode3.1.1/\t# obsolete version\nDisallow: /versions/Unicode3.2.0/\t# obsolete version\nDisallow: /versions/Unicode4.0.0/\t# obsolete version\nDisallow: /versions/Unicode4.0.1/\t# obsolete version\nDisallow: /versions/Unicode4.1.0/\t# obsolete version\nDisallow: /versions/Unicode5.0.0/\t# obsolete version\nDisallow: /versions/Unicode5.1.0/\t# obsolete version\nDisallow: /versions/Unicode5.2.0/\t# obsolete version\nDisallow: /versions/Unicode6.0.0/\t# obsolete version\nDisallow: /versions/Unicode6.1.0/\t# obsolete version\nDisallow: /versions/Unicode6.2.0/\t# obsolete version\nDisallow: /versions/Unicode6.3.0/\t# obsolete version\nDisallow: /versions/Unicode7.0.0/\t# obsolete version\nDisallow: /versions/Unicode8.0.0/\t# obsolete version\nDisallow: /versions/Unicode9.0.0/\t# obsolete version\nDisallow: /versions/Unicode10.0.0/\t# obsolete version\nDisallow: /versions/Unicode11.0.0/\t# obsolete version\nDisallow: /versions/Unicode12.0.0/\t# obsolete version\nDisallow: /versions/Unicode13.0.0/\t# obsolete version\nDisallow: /versions/Unicode14.0.0/\t# obsolete version\nDisallow: /versions/Unicode15.0.0/\t# obsolete version\nDisallow: /versions/Unicode15.1.0/\t# obsolete version\nDisallow: /charts/PDF/Unicode-3.1\t# obsolete version\nDisallow: /charts/PDF/Unicode-3.2\t# obsolete version\nDisallow: /charts/PDF/Unicode-4.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-4.1\t# obsolete version\nDisallow: /charts/PDF/Unicode-5.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-5.1\t# obsolete version\nDisallow: /charts/PDF/Unicode-5.2\t# obsolete version\nDisallow: /charts/PDF/Unicode-6.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-6.1\t# obsolete version\nDisallow: /charts/PDF/Unicode-6.2\t# obsolete version\nDisallow: /charts/PDF/Unicode-6.3\t# obsolete version\nDisallow: /charts/PDF/Unicode-7.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-8.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-9.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-10.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-11.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-12.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-13.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-14.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-15.0\t# obsolete version\nDisallow: /charts/PDF/Unicode-15.1\t# obsolete version\nDisallow: /charts/beta/\t\t\t# not permanent content\nDisallow: /reports/tr1.html\t# obsolete TR\nDisallow: /reports/tr2.html\t# obsolete TR\nDisallow: /reports/tr3.html\t# obsolete TR\nDisallow: /reports/tr6-10.html\t# obsolete TR draft\nDisallow: /reports/tr1/\t# obsolete TR\nDisallow: /reports/tr2/\t# obsolete TR\nDisallow: /reports/tr3/\t# obsolete TR\nDisallow: /reports/tr7/\t# obsolete TR\nDisallow: /reports/tr12/\t# obsolete TR\nDisallow: /reports/tr13/\t# obsolete TR\nDisallow: /reports/tr19/\t# obsolete TR\nDisallow: /reports/tr21/\t# obsolete TR\nDisallow: /reports/tr30/\t# obsolete TR\nDisallow: /reports/tr32/\t# obsolete TR\nDisallow: /reports/tr40/\t# obsolete TR\nDisallow: /reports/tr47/\t# obsolete TR\nDisallow: /reports/tr49/\t# obsolete TR\nDisallow: /reports/tr52/\t# obsolete TR\nDisallow: /anon-ftp/\t# same as Public, different path\nDisallow: /Public/MAPPINGS/OBSOLETE/ # obsolete data\nDisallow: /unicode/members/\nDisallow: /members/\nDisallow: /repository/\t# dynamic\nDisallow: /cldr/repository/\t# dynamic\nDisallow: /cldr/utility/\t# dynamic\nDisallow: /cgi-bin/\t# dynamic\nDisallow: /cldr/data/diff/\t# dynamic\nDisallow: /cldr/trac/\t# dynamic\nDisallow: /edcom/bugtrack/\t# dynamic\nDisallow: /uli/trac/\t# dynamic\nDisallow: /~srloomis/ut/trac/\t#dynamic\nDisallow: /repos/\t# dynamic\nDisallow: /repos/cldr-tmp/\t# dynamic\nDisallow: /utility/trac/\t# dynamic\nDisallow: /utility/\t# dynamic\nDisallow: /forum/\t# dynamic\nDisallow: /forum/viewtopic.php\t# dynamic, discontinued\nAllow: /cldr/data/common/\nAllow: /cldr/data/docs/\nAllow: /cldr/data/tools/\nDisallow: /cldr/data/   # everything else\nDisallow: /cldr/dropbox/\t# not really public\nDisallow: /~ecartis\t# not really public\nDisallow: /unibook/oldversions/\t# obsolete data\nDisallow: /reports/tr46/tr46-1.html\nDisallow: /reports/tr46/tr46-2.html\nDisallow: /reports/tr46/tr46-3.html\nDisallow: /reports/tr46/tr46-4.html\nDisallow: /reports/tr46/tr46-5.html\nDisallow: /reports/tr46/tr46-6.html\nDisallow: /reports/tr46/tr46-7.html\nDisallow: /reports/tr46/tr46-8.html\nDisallow: /reports/tr46/tr46-9.html\nDisallow: /reports/tr46/tr46-10.html\nDisallow: /reports/tr46/tr46-11.html\nDisallow: /reports/tr46/tr46-12.html\nDisallow: /reports/tr46/tr46-13.html\nDisallow: /reports/tr46/tr46-14.html\nDisallow: /reports/tr46/tr46-15.html\nDisallow: /reports/tr46/tr46-16.html\nDisallow: /reports/tr46/tr46-17.html\nDisallow: /reports/tr46/tr46-18.html\nDisallow: /reports/tr46/tr46-19.html\nDisallow: /reports/tr46/tr46-20.html\nDisallow: /reports/tr46/tr46-21.html\nDisallow: /reports/tr46/tr46-22.html\nDisallow: /reports/tr46/tr46-23.html\nDisallow: /reports/tr46/tr46-24.html\nDisallow: /reports/tr46/tr46-25.html\nDisallow: /reports/tr46/tr46-26.html\nDisallow: /reports/tr46/tr46-27.html\nDisallow: /reports/tr46/tr46-28.html\nDisallow: /reports/tr46/tr46-29.html\nDisallow: /reports/tr46/tr46-30.html\nDisallow: /reports/tr46/tr46-31.html\nDisallow: /reports/tr46/tr46-32.html\nDisallow: /reports/tr15/tr15-7.html\nDisallow: /reports/tr15/tr15-8.html\nDisallow: /reports/tr15/tr15-9.html\nDisallow: /reports/tr15/tr15-10.html\nDisallow: /reports/tr15/tr15-11.html\nDisallow: /reports/tr15/tr15-12.html\nDisallow: /reports/tr15/tr15-13.html\nDisallow: /reports/tr15/tr15-14.html\nDisallow: /reports/tr15/tr15-15.html\nDisallow: /reports/tr15/tr15-16.html\nDisallow: /reports/tr15/tr15-17.html\nDisallow: /reports/tr15/tr15-18.html\nDisallow: /reports/tr15/tr15-19.html\nDisallow: /reports/tr15/tr15-20.html\nDisallow: /reports/tr15/tr15-21.html\nDisallow: /reports/tr15/tr15-22.html\nDisallow: /reports/tr15/tr15-23.html\nDisallow: /reports/tr15/tr15-24.html\nDisallow: /reports/tr15/tr15-25.html\nDisallow: /reports/tr15/tr15-26.html\nDisallow: /reports/tr15/tr15-20.html\nDisallow: /reports/tr15/tr15-21.html\nDisallow: /reports/tr15/tr15-22.html\nDisallow: /reports/tr15/tr15-23.html\nDisallow: /reports/tr15/tr15-24.html\nDisallow: /reports/tr15/tr15-25.html\nDisallow: /reports/tr15/tr15-26.html\nDisallow: /reports/tr15/tr15-27.html\nDisallow: /reports/tr15/tr15-28.html\nDisallow: /reports/tr15/tr15-29.html\nDisallow: /reports/tr15/tr15-30.html\nDisallow: /reports/tr15/tr15-31.html\nDisallow: /reports/tr15/tr15-32.html\nDisallow: /reports/tr15/tr15-33.html\nDisallow: /reports/tr15/tr15-34.html\nDisallow: /reports/tr15/tr15-35.html\nDisallow: /reports/tr15/tr15-36.html\nDisallow: /reports/tr15/tr15-37.html\nDisallow: /reports/tr15/tr15-38.html\nDisallow: /reports/tr15/tr15-39.html\nDisallow: /reports/tr15/tr15-40.html\nDisallow: /reports/tr15/tr15-40.html\nDisallow: /reports/tr15/tr15-41.html\nDisallow: /reports/tr15/tr15-42.html\nDisallow: /reports/tr15/tr15-43.html\nDisallow: /reports/tr15/tr15-44.html\nDisallow: /reports/tr15/tr15-45.html\nDisallow: /reports/tr15/tr15-46.html\nDisallow: /reports/tr15/tr15-47.html\nDisallow: /reports/tr15/tr15-48.html\nDisallow: /reports/tr15/tr15-49.html\nDisallow: /reports/tr15/tr15-50.html\nDisallow: /reports/tr15/tr15-51.html\nDisallow: /reports/tr15/tr15-52.html\nDisallow: /reports/tr15/tr15-53.html\nDisallow: /reports/tr15/tr15-54.html\nDisallow: /reports/tr15/tr15-55.html\nDisallow: /reports/tr14/tr14-15.html\nDisallow: /reports/dtr14-03.html\nDisallow: /reports/tr14-4/index.html\nDisallow: /reports/tr14-5/index.html\nDisallow: /reports/tr9/tr9-10.html\nDisallow: /reports/tr9/tr9-11.html\nDisallow: /reports/tr9/tr9-12.html\nDisallow: /reports/tr9/tr9-13.html\nDisallow: /reports/tr9/tr9-14.html\nDisallow: /reports/tr9/tr9-15.html\nDisallow: /reports/tr9/tr9-16.html\nDisallow: /reports/tr9/tr9-17.html\nDisallow: /reports/tr9/tr9-18.html\nDisallow: /reports/tr9/tr9-19.html\nDisallow: /reports/tr9/tr9-20.html\nDisallow: /reports/tr9/tr9-21.html\nDisallow: /reports/tr9/tr9-22.html\nDisallow: /reports/tr9/tr9-23.html\nDisallow: /reports/tr9/tr9-24.html\nDisallow: /reports/tr9/tr9-25.html\nDisallow: /reports/tr9/tr9-26.html\nDisallow: /reports/tr9/tr9-20.html\nDisallow: /reports/tr9/tr9-21.html\nDisallow: /reports/tr9/tr9-22.html\nDisallow: /reports/tr9/tr9-23.html\nDisallow: /reports/tr9/tr9-24.html\nDisallow: /reports/tr9/tr9-25.html\nDisallow: /reports/tr9/tr9-26.html\nDisallow: /reports/tr9/tr9-27.html\nDisallow: /reports/tr9/tr9-28.html\nDisallow: /reports/tr9/tr9-29.html\nDisallow: /reports/tr9/tr9-30.html\nDisallow: /reports/tr9/tr9-31.html\nDisallow: /reports/tr9/tr9-32.html\nDisallow: /reports/tr9/tr9-33.html\nDisallow: /reports/tr9/tr9-34.html\nDisallow: /reports/tr9/tr9-35.html\nDisallow: /reports/tr9/tr9-36.html\nDisallow: /reports/tr9/tr9-37.html\nDisallow: /reports/tr9/tr9-38.html\nDisallow: /reports/tr9/tr9-39.html\nDisallow: /reports/tr9/tr9-40.html\nDisallow: /reports/tr9/tr9-40.html\nDisallow: /reports/tr9/tr9-41.html\nDisallow: /reports/tr9/tr9-42.html\nDisallow: /reports/tr9/tr9-43.html\nDisallow: /reports/tr9/tr9-44.html\nDisallow: /reports/tr9/tr9-45.html\nDisallow: /reports/tr9/tr9-46.html\nDisallow: /reports/tr9/tr9-47.html\nDisallow: /reports/tr9/tr9-48.html\nDisallow: /reports/tr9/tr9-49.html\nDisallow: /reports/tr51/tr51-1.html\nDisallow: /reports/tr51/tr51-1-archive.html\nDisallow: /reports/tr51/tr51-2.html\nDisallow: /reports/tr51/tr51-3.html\nDisallow: /reports/tr51/tr51-4.html\nDisallow: /reports/tr51/tr51-5.html\nDisallow: /reports/tr51/tr51-6.html\nDisallow: /reports/tr51/tr51-7.html\nDisallow: /reports/tr51/tr51-8.html\nDisallow: /reports/tr51/tr51-9.html\nDisallow: /reports/tr51/tr51-10.html\nDisallow: /reports/tr51/tr51-11.html\nDisallow: /reports/tr51/tr51-12.html\nDisallow: /reports/tr51/tr51-13.html\nDisallow: /reports/tr51/tr51-14.html\nDisallow: /reports/tr51/tr51-15.html\nDisallow: /reports/tr51/tr51-16.html\nDisallow: /reports/tr51/tr51-17.html\nDisallow: /reports/tr51/tr51-18.html\nDisallow: /reports/tr51/tr51-19.html\nDisallow: /reports/tr51/tr51-20.html\nDisallow: /reports/tr51/tr51-21.html\nDisallow: /reports/tr51/tr51-22.html\nDisallow: /reports/tr51/tr51-23.html\nDisallow: /reports/tr51/tr51-24.html\nDisallow: /reports/tr51/tr51-25.html\nDisallow: /reports/tr51/tr51-26.html\nDisallow: /reports/tr34/tr34-1.html\nDisallow: /reports/tr34/tr34-2.html\nDisallow: /reports/tr34/tr34-3.html\nDisallow: /reports/tr34/tr34-4.html\nDisallow: /reports/tr34/tr34-5.html\nDisallow: /reports/tr34/tr34-6.html\nDisallow: /reports/tr34/tr34-7.html\nDisallow: /reports/tr34/tr34-8.html\nDisallow: /reports/tr34/tr34-9.html\nDisallow: /reports/tr34/tr34-10.html\nDisallow: /reports/tr34/tr34-11.html\nDisallow: /reports/tr34/tr34-12.html\nDisallow: /reports/tr34/tr34-13.html\nDisallow: /reports/tr34/tr34-14.html\nDisallow: /reports/tr34/tr34-15.html\nDisallow: /reports/tr34/tr34-16.html\nDisallow: /reports/tr34/tr34-17.html\nDisallow: /reports/tr34/tr34-18.html\nDisallow: /reports/tr34/tr34-19.html\nDisallow: /reports/tr34/tr34-20.html\nDisallow: /reports/tr34/tr34-21.html\nDisallow: /reports/tr34/tr34-22.html\nDisallow: /reports/tr34/tr34-23.html\nDisallow: /reports/tr34/tr34-24.html\nDisallow: /reports/tr34/tr34-25.html\nDisallow: /reports/tr34/tr34-26.html\nDisallow: /reports/tr34/tr34-27.html\nDisallow: /reports/tr34/tr34-28.html\nDisallow: /reports/tr34/tr34-29.html\nDisallow: /reports/tr34/tr34-30.html\nDisallow: /reports/tr35/tr35-1.html\t# obsolete version\nDisallow: /reports/tr35/tr35-2.html\t# obsolete version\nDisallow: /reports/tr35/tr35-3.html\t# obsolete version\nDisallow: /reports/tr35/tr35-4.html\t# obsolete version\nDisallow: /reports/tr35/tr35-5.html\t# obsolete version\nDisallow: /reports/tr35/tr35-6.html\t# obsolete version\nDisallow: /reports/tr35/tr35-7.html\t# obsolete version\nDisallow: /reports/tr35/tr35-8.html\t# obsolete version\nDisallow: /reports/tr35/tr35-9.html\t# obsolete version\nDisallow: /reports/tr35/tr35-10.html\t# obsolete version\nDisallow: /reports/tr35/tr35-11.html\t# obsolete version\nDisallow: /reports/tr35/tr35-12.html\t# obsolete version\nDisallow: /reports/tr35/tr35-13.html\t# obsolete version\nDisallow: /reports/tr35/tr35-14d1.html\t# obsolete version\nDisallow: /reports/tr35/tr35-15.html\t# obsolete version\nDisallow: /reports/tr35/tr35-16.html\t# obsolete version\nDisallow: /reports/tr35/tr35-17.html\t# obsolete version\nDisallow: /reports/tr35/tr35-18.html\t# obsolete version\nDisallow: /reports/tr35/tr35-19.html\t# obsolete version\nDisallow: /reports/tr35/tr35-20.html\t# obsolete version\nDisallow: /reports/tr35/tr35-21.html\t# obsolete version\nDisallow: /reports/tr35/tr35-22.html\t# obsolete version\nDisallow: /reports/tr35/tr35-23.html\t# obsolete version\nDisallow: /reports/tr35/tr35-25.html\t# obsolete version\nDisallow: /reports/tr35/tr35-27.html\t# obsolete version\nDisallow: /reports/tr35/tr35-29.html\t# obsolete version\nDisallow: /reports/tr35/tr35-30.html\t# obsolete version\nDisallow: /reports/tr35/tr35-30/\t# obsolete version\nDisallow: /reports/tr35/tr35-31/\t# obsolete version\nDisallow: /reports/tr35/tr35-32/\t# obsolete version\nDisallow: /reports/tr35/tr35-33/\t# obsolete version\nDisallow: /reports/tr35/tr35-34/\t# obsolete version\nDisallow: /reports/tr35/tr35-35/\t# obsolete version\nDisallow: /reports/tr35/tr35-36/\t# obsolete version\nDisallow: /reports/tr35/tr35-37/\t# obsolete version\nDisallow: /reports/tr35/tr35-38/\t# obsolete version\nDisallow: /reports/tr35/tr35-39/\t# obsolete version\nDisallow: /reports/tr35/tr35-40/\t# obsolete version\nDisallow: /reports/tr35/tr35-41/\t# obsolete version\nDisallow: /reports/tr35/tr35-42/\t# obsolete version\nDisallow: /reports/tr35/tr35-43/\t# obsolete version\nDisallow: /reports/tr35/tr35-44/\t# obsolete version\nDisallow: /reports/tr35/tr35-45/\t# obsolete version\nDisallow: /reports/tr35/tr35-46/\t# obsolete version\nDisallow: /reports/tr35/tr35-47/\t# obsolete version\nDisallow: /reports/tr35/tr35-48/\t# obsolete version\nDisallow: /reports/tr35/tr35-49/\t# obsolete version\nDisallow: /reports/tr35/tr35-50/\t# obsolete version\nDisallow: /reports/tr35/tr35-51/\t# obsolete version\nDisallow: /reports/tr35/tr35-52/\t# obsolete version\nDisallow: /reports/tr35/tr35-53/\t# obsolete version\nDisallow: /reports/tr35/tr35-54/\t# obsolete version\nDisallow: /reports/tr35/tr35-55/\t# obsolete version\nDisallow: /reports/tr35/tr35-56/\t# obsolete version\nDisallow: /reports/tr35/tr35-57/\t# obsolete version\nDisallow: /reports/tr35/tr35-58/\t# obsolete version\nDisallow: /reports/tr35/tr35-59/\t# obsolete version\nDisallow: /reports/tr35/tr35-60/\t# obsolete version\nDisallow: /reports/tr35/tr35-61/\t# obsolete version\nDisallow: /reports/tr35/tr35-62/\t# obsolete version\nDisallow: /reports/tr35/tr35-63/\t# obsolete version\nDisallow: /reports/tr35/tr35-64/\t# obsolete version\nDisallow: /reports/tr35/tr35-65/\t# obsolete version\nDisallow: /reports/tr35/tr35-66/\t# obsolete version\nDisallow: /reports/tr35/tr35-67/\t# obsolete version\nDisallow: /reports/tr35/tr35-68/\t# obsolete version\nDisallow: /reports/tr25/tr25-1.html\nDisallow: /reports/tr25/tr25-2.html\nDisallow: /reports/tr25/tr25-3.html\nDisallow: /reports/tr25/tr25-4.html\nDisallow: /reports/tr25/tr25-5.html\nDisallow: /reports/tr25/tr25-6.html\nDisallow: /reports/tr25/tr25-7.html\nDisallow: /reports/tr25/tr25-8.html\nDisallow: /reports/tr25/tr25-9.html\nDisallow: /reports/tr25/tr25-10.pdf\nDisallow: /reports/tr25/tr25-11.pdf\nDisallow: /reports/tr25/tr25-12.pdf\nDisallow: /reports/tr25/tr25-13.pdf\nDisallow: /reports/tr25/tr25-14.pdf\nUser-Agent: AhrefsBot\nCrawl-Delay: 60\nUser-Agent: Baiduspider\nCrawl-Delay: 60\nUser-agent: CCBot\nCrawl-Delay: 60\nUser-agent: Gigabot\nDisallow: /\nUser-agent: betaBot\nDisallow: /\nUser-agent: CCBot\nCrawl-Delay: 60\nUser-agent: AhrefsBot\nCrawl-Delay: 60 \nUser-agent: dotbot\nCrawl-Delay: 60 \nUser-agent: MJ12bot\nCrawl-Delay: 60 \nUser-agent: msnbot\nCrawl-delay: 60\nUser-agent: BLEXBot\nCrawl-delay: 60\nUser-agent: SeznamBot\nRequest-rate: 1/1m\nCrawl-delay: 60\nUser-agent: Viber/18.3.2.0\nDisallow: /\n",
+      "url": "https://unicode.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://unicode.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://unicode.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<html><head>\n<meta http-equiv=\"refresh\" content=\"0; url=http://home.unicode.org/\">\n<title>Index</title>\n</head>\n<body>\nAutomatic redirect: <a href=\"http://home.unicode.org/\">http://home.unicode.org/</a>\n</body></html>\n\n",
+      "url": "https://unicode.org/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://unicode.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://unicode.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://unicode.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "unicode.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:04:15.781Z",
+    "score": 23,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 21.67,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 11.67,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 4.17/10; strategy tag Middle-Path. Blocked examples: CCBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 4 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Index\"; missing/too-short meta description; no date signal; body text 4 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 11.67,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

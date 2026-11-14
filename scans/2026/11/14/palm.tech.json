@@ -1,0 +1,236 @@
+{
+  "signals": {
+    "domain": "palm.tech",
+    "fetchedAt": "2026-11-14T03:42:42.163Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "error": "TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+    },
+    "llms": {
+      "error": "TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+    },
+    "llmsFull": {
+      "error": "TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+    },
+    "homepage": {
+      "error": "TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+    },
+    "sitemap": {
+      "error": "TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+    },
+    "agentsMd": {
+      "error": "TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "error": "TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+    }
+  },
+  "afr": {
+    "domain": "palm.tech",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:42:42.163Z",
+    "score": 0,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 0,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "unknown",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "Failed to fetch robots.txt: network error: TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt network error: TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com); GET /llms-full.txt network error: TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com); homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml network error: TypeError: fetch failed (ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: palm.tech. is not in the cert's altnames: DNS:*.oss-eu-central-1.aliyuncs.com, DNS:*.oss-rus-west-1-cross.aliyuncs.com, DNS:*.oss-rus-west-1-internal.aliyuncs.com, DNS:*.eu-central-1.oss.aliyuncs.com, DNS:*.oss-rus-west-1.aliyuncs.com, DNS:*.oss-eu-west-1-cross.aliyuncs.com, DNS:*.oss-enet.aliyuncs.com, DNS:*.oss-eu-central-1-cross.aliyuncs.com, DNS:*.oss-internal.aliyuncs.com, DNS:*.rus-west-1.oss.aliyuncs.com, DNS:*.oss-accelerate.aliyuncs.com, DNS:*.oss-eu-west-1.aliyuncs.com, DNS:*.oss-accelerate-overseas.aliyuncs.com, DNS:*.oss-eu-central-1-internal.aliyuncs.com, DNS:*.aliyuncs.com, DNS:*.oss-eu-west-1-internal.aliyuncs.com, DNS:*.oss.aliyuncs.com, DNS:*.eu-west-1.oss.aliyuncs.com, DNS:*.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.eu-central-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-central-1.aliyuncs.com, DNS:*.s3.oss-eu-central-1-internal.aliyuncs.com, DNS:*.eu-central-1.mgw.aliyuncs.com, DNS:*.oss.eu-central-1.privatelink.aliyuncs.com, DNS:*.oss-eu-central-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-central-1-internal.oss-object-process.aliyuncs.com, DNS:*.eu-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-eu-west-1.aliyuncs.com, DNS:*.s3.oss-eu-west-1-internal.aliyuncs.com, DNS:*.eu-west-1.mgw.aliyuncs.com, DNS:*.oss.eu-west-1.privatelink.aliyuncs.com, DNS:*.oss-eu-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-eu-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.rus-west-1.oss-console.aliyuncs.com, DNS:*.s3.oss-rus-west-1.aliyuncs.com, DNS:*.s3.oss-rus-west-1-internal.aliyuncs.com, DNS:*.rus-west-1.mgw.aliyuncs.com, DNS:*.oss.rus-west-1.privatelink.aliyuncs.com, DNS:*.oss-rus-west-1.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-object-process.aliyuncs.com, DNS:*.oss-rus-west-1.oss-accesspoint.aliyuncs.com, DNS:*.oss-rus-west-1-internal.oss-accesspoint.aliyuncs.com, DNS:*.s3.oss-accelerate.aliyuncs.com, DNS:*.s3.oss-accelerate-overseas.aliyuncs.com, DNS:*.eu-central-1.osscloud.cn, DNS:*.eu-west-1.osscloud.cn, DNS:*.rus-west-1.osscloud.cn, DNS:*.osscloud.cn, DNS:*.eu-central-1.oss-vectors.aliyuncs.com, DNS:*.eu-central-1-internal.oss-vectors.aliyuncs.com, DNS:*.oss-vectors.aliyuncs.com, DNS:*.eu-central-1.oss-tables.aliyuncs.com, DNS:*.eu-central-1-internal.oss-tables.aliyuncs.com, DNS:*.oss-tables.aliyuncs.com, DNS:*.eu-central-1.oss-vpc.aliyuncs.com, DNS:oss-eu-central-1.aliyuncs.com); robots.txt unavailable; cannot check Sitemap reference"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md not probed; llms.txt HTTP undefined"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

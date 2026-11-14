@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "oxfordjournals.org",
+    "fetchedAt": "2026-11-14T03:20:56.925Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=2683518850221; var s=757653248; var n;\nif ((s >> 8) & 1)/*\np+= */p+= 61900330*11;/*\nelse p-=\n*/else  p-=/*\n*13;\n*/27252531* 9;\nif ((s >> 9) & 1)/* 120886108*\n*/p+=/*\nelse p-=\n*/166402827* 10;/* 120886108*\n*/else  p-=\n77156103*/*\n*13;\n*/10;/*\np+= */if ((s >> 15) & 1)\np+=\n120196928*\n16;\telse \tp-=\t78263746*\t16;\nif ((s >> 8) & 1)\np+=\t70702801*/*\n*13;\n*/11;/*\np+= */else /* 120886108*\n*/p-=153174672*/* 120886108*\n*/9; if ((s >> 2) & 1)/*\np+= */p+=\t242415284*5; else /*\nelse p-=\n*/p-=288213029*/*\n*13;\n*/3;\t p-=6055255936;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":2186667635:1;path=/; SameSite=none; Secure;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://oxfordjournals.org/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=2157372996702; var s=3431077837; var n;\nif ((s >> 14) & 1)/*\np+= */p+=/* 120886108*\n*/61806251*/*\nelse p-=\n*/17; else p-=/*\np+= */121444858*/*\np+= */15;if ((s >> 10) & 1)\tp+=\t152475629*13;/* 120886108*\n*/else /*\np+= */p-=/*\nelse p-=\n*/111967101*11;/* 120886108*\n*/if ((s >> 7) & 1) p+=/*\np+= */152854778*/*\np+= */8; else \np-=\n180602670*/*\n*13;\n*/8;\tif ((s >> 15) & 1)/*\nelse p-=\n*/p+=/* 120886108*\n*/51293264*/*\nelse p-=\n*/16;/* 120886108*\n*/else /*\nelse p-=\n*/p-=/* 120886108*\n*/79680449*/*\nelse p-=\n*/16; if ((s >> 6) & 1)p+=123679402*\n9;else /*\nelse p-=\n*/p-=254276119*/*\np+= */7; p-=2583792734;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":1677668027:1;path=/; SameSite=none; Secure;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://oxfordjournals.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=3510953241366; var s=582869117; var n;\nif ((s >> 10) & 1) p+=/*\np+= */49325143*/*\n*13;\n*/13;/*\nelse p-=\n*/else  p-=\n172018741*/*\np+= */11;\nif ((s >> 8) & 1)\np+=/*\np+= */61644705*\n11;/* 120886108*\n*/else \np-=\n99427569* 9;/*\n*13;\n*/if ((s >> 6) & 1)/*\nelse p-=\n*/p+=/*\np+= */15083308*/*\np+= */9;\nelse /*\np+= */p-=\n72553461*/*\nelse p-=\n*/7;/*\nelse p-=\n*/if ((s >> 15) & 1)/* 120886108*\n*/p+= 42628218*/*\np+= */16;/*\n*13;\n*/else  p-=44122432* 16;/* 120886108*\n*/if ((s >> 14) & 1)p+=/* 120886108*\n*/19893620*\t17;\nelse  p-=/*\n*13;\n*/18575819*/*\np+= */15; p+=448602563;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":2378225927:1;path=/; SameSite=none; Secure;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://oxfordjournals.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=1557609120944; var s=2579706810; var n;\nif ((s >> 8) & 1)\np+=77504361*/*\n*13;\n*/11;\telse  p-=/*\np+= */47348888* 9;/* 120886108*\n*/if ((s >> 11) & 1)/*\np+= */p+=/*\np+= */147885062*12;else \tp-=/*\n*13;\n*/138131371*/*\np+= */12;\nif ((s >> 2) & 1) p+=/*\nelse p-=\n*/65648426* 5;\telse /*\n*13;\n*/p-=\n260930657* 3; if ((s >> 14) & 1) p+=/*\n*13;\n*/14464982*\n17;\telse \tp-= 91749920*\n15;/* 120886108*\n*/if ((s >> 0) & 1)p+=/*\nelse p-=\n*/385690338*/*\nelse p-=\n*/3;\nelse /*\n*13;\n*/p-=/*\n*13;\n*/1132850232*/* 120886108*\n*/1; p+=3566079971;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":918424263:1;path=/; SameSite=none; Secure;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://oxfordjournals.org/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=1984932028013; var s=778496919; var n;\nif ((s >> 15) & 1)\np+=\n49380817*/*\np+= */16;\telse /* 120886108*\n*/p-=/*\n*13;\n*/44517271*16;if ((s >> 1) & 1)\tp+=\t292707442*\t2;/*\nelse p-=\n*/else /*\n*13;\n*/p-=/* 120886108*\n*/86373563* 2;if ((s >> 5) & 1) p+=/*\n*13;\n*/298553872* 6;/*\n*13;\n*/else /*\np+= */p-=\t346784125*/* 120886108*\n*/6;/*\n*13;\n*/if ((s >> 0) & 1)\tp+=/*\np+= */347454855*/*\nelse p-=\n*/3; else p-= 593716942*/*\np+= */1;/*\np+= */if ((s >> 5) & 1)/*\np+= */p+=\t191974903* 6;/*\n*13;\n*/else \tp-=\t8804975*/* 120886108*\n*/6;/* 120886108*\n*/ p-=2297940625;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":2166084119:1;path=/; SameSite=none; Secure;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://oxfordjournals.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=1199126729506; var s=771394896; var n;\nif ((s >> 15) & 1)/*\n*13;\n*/p+=/* 120886108*\n*/69741203*/*\n*13;\n*/16;/* 120886108*\n*/else p-=/*\np+= */18251294*/*\n*13;\n*/16;\nif ((s >> 15) & 1)p+=/*\nelse p-=\n*/97501342*\t16;\telse p-=65294432*/*\n*13;\n*/16;\tif ((s >> 15) & 1)\tp+=/* 120886108*\n*/131349804*16;\nelse /*\n*13;\n*/p-=/* 120886108*\n*/79290570* 16;\nif ((s >> 14) & 1)\tp+=/*\np+= */123903645*\t17;/*\np+= */else p-=\n109188802*\t15; if ((s >> 5) & 1)/* 120886108*\n*/p+=\n147330344*/* 120886108*\n*/6;/* 120886108*\n*/else p-=/*\np+= */151303596*/*\nelse p-=\n*/6;\t p-=4044852753;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":2189931732:1;path=/; SameSite=none; Secure;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://oxfordjournals.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://oxfordjournals.org/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=1728144194592; var s=2298809636; var n;\nif ((s >> 7) & 1)p+=/*\n*13;\n*/263297109*/*\nelse p-=\n*/8; else /* 120886108*\n*/p-=/*\np+= */78084523*\t8;\nif ((s >> 3) & 1)\tp+=/*\nelse p-=\n*/360607695*/*\np+= */4;else  p-=\n351691105*/*\n*13;\n*/4;/*\nelse p-=\n*/if ((s >> 0) & 1) p+=\n517201582*\t3;\nelse p-=1311006509*/*\nelse p-=\n*/1;/*\np+= */if ((s >> 2) & 1)\np+= 342791652* 5;else p-=/*\np+= */680642129*3;/*\n*13;\n*/if ((s >> 13) & 1)p+=/*\nelse p-=\n*/47436237*\n14;\telse \np-=\t32978165* 14;\n p+=1576327210;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":645412010:1;path=/; SameSite=none; Secure;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://oxfordjournals.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "oxfordjournals.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:20:56.925Z",
+    "score": 45,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 14,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 1 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 1 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://oxfordjournals.org/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 2,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "theweathernetwork.com",
+    "fetchedAt": "2026-11-14T03:45:19.323Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGK4GiduAMAhS8y1huXM0g+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaIZwX2SFcqevYBaSAgEQgDssERnMO0SMpWipFdQ/+s8yU7XWjegxWGOjMxDinN/aAMv7r1VYBmZ4eTx1602D1nfnV2bPOoRzHUxK9w==\",\n          \"iv\":\"NC4HQgFwIwAAGTBi\",\n          \"context\":\"m5Cd6+dbWbTovJFh7108t8e+FD0Nz4XSvi3xCMX7TVO32aTu7yM8QMKEiL9Fjf/RboUmAGB+IZSRcAf9hrvfO30So6S/RNcxE+pH9+xKqRJFWew8hfoXD7FEfBn8D7yJeqKcVuJWBpgCwFoDXxXjOXR6wDcZPv3fU+XAbU1fUG/DGfv0yJTEJSst5YSmfsMEI7W3I1gckgT9eTGzlusue9DwpP1VFFDfaRro67YLeuX197/6gTg18Ei9nZMPTRN5GHic0JVHX34pjblcp2Z48uzKT/3x8n3KAe84Yp828YtXGds5bNh2RW6EDQ4scAqjZah6yfpgc2ud6L3hNsXEDCbI54NgVG79BXnxNEEUXmyPlJFfs/z7uUoxENA8eM+kHSLExnbTa5EXGSfg09kN9ypZGoOsX/WmRDsZnrbb1Vbmx7FE5mpqjFLelJq0dffszTDc5qy0g+uK3fqZnv4k3VqknJ0MmodrUcE9Sd/WgrT06lHBVtdAqtnIEJWXwfrlh97Xpjj9AYeqxGqsrzHhDbDKUDP6prPol5ggCBpFjQTC9zb1S31QTmJuL2sr+3S3GgyQRb6Rd8IbEXYHtEUqQS9PH83dZDjVU7IcHRqM6/2BDGfCcKt+7MYbZZzJMz9uiBmN/FTk36lUAwYh0RYrJ8LLj1CN/cxSYKfkHv/D4Hmj36HMD9J7jdmoEj/k51lRtA36fiRo7Vmd9I3CIzCLu6KEnctFbxI4YXF1K6oVbhE9ZjQvq9TIwVrQdJ2dWS3Bsrq/TpXaiv6fU4L1WFIT4fuk/VtO9dWumXsiLA7s\"\n};\n    </script>\n    <script src=\"https://eaa93e5f9215.8840c915.us-west-2.token.awswaf.com/eaa93e5f9215/205a030cd466/ce1ec4644351/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.theweathernetwork.com/robots.txt"
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGK4GiduAMAhS8y1huXM0g+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaIZwX2SFcqevYBaSAgEQgDssERnMO0SMpWipFdQ/+s8yU7XWjegxWGOjMxDinN/aAMv7r1VYBmZ4eTx1602D1nfnV2bPOoRzHUxK9w==\",\n          \"iv\":\"NC4HZQFzZwAAFsUn\",\n          \"context\":\"5EOEph7DoJXPymLWJoJSxfvlxzPs5tpPkKl5NMIuhyttGiXk0Xyj9O8SaYlZoaQrT1Jozh2qUFWm7FPGpDpWRkj5dxEhh3nRS9FOx/sjPFv05xEb9xPNnavBn8kR7BYKK0GwBeAY+FV99tc5hhhJ7TrEB835JPeKtcS7ghN7kwF1PCINm604iE4NmdIbsZVwyxxW0ihtAql7XIag1vONtbtJRr46QAR3Zh1nmQoR1rDI2/Xbu/GI+ZdbQJVMlVhHRiSmUeYDwkZvJUzmlBct0v2g+XY6DllVUj1Rx0iy2BRpkPmfBmDSM9FtSIIm13+kSFuxT4Yb+AZvwWfxzYjShHiVKwiVcDE18hl6einb4irsV51WLz49kGBHu54hHq6k0yZ5a8LhwhJkwcdAFazVZLk+Lsypoco6Zj+DxaQc5d4ibTDk4hLnrD5c1lozlzPUn+Oahs/jXPBHUj97x9c5LhX7/2/tQiFmpsk+1eHNeLjlFCWI/pTuMGjRV0sXxz4n7qtjP1CVVPjalpOw1w32sEnHRVmzirYTbq7/r7S3rgR8bka3UAQTihF6ivOE4dS66pxkUoGBeUWgKlD+d4BV3eg3u4INCfJYcQo/4cLs6Hclg/LRNX2CkOudwxWQ+3ZWDk0WHVp77Q7ojtseE9HFR8fN7UxWbfcuebuKJw+JkuDmlvAPrlPqSF9NSY/cgvrZlbtwUNhPEkiI4K6e1L+5LhKgcVyVQsCvMLjlcPBa1Zh5hPu6taf41exeVsCp8Wh5a/0yvUVX1M4aXD3wavePjQTWuAGNl2CemoBI7Gup\"\n};\n    </script>\n    <script src=\"https://eaa93e5f9215.8840c915.us-west-2.token.awswaf.com/eaa93e5f9215/205a030cd466/ce1ec4644351/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.theweathernetwork.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGK4GiduAMAhS8y1huXM0g+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaIZwX2SFcqevYBaSAgEQgDssERnMO0SMpWipFdQ/+s8yU7XWjegxWGOjMxDinN/aAMv7r1VYBmZ4eTx1602D1nfnV2bPOoRzHUxK9w==\",\n          \"iv\":\"NC4HbQFyswAAFxMy\",\n          \"context\":\"IazFu0MWJcM+ZtHYZN94AVjJD0y1VpR0c/g53Fsz4/vas+j7JV3LLI2ND7k3eBlbeFJntwp7/7eRyE7lhjQVcLBMBAyW9tXasvN2fs9sBb5DDzHrKDMx1wA2QxkVFSzjgBamlgX+/18sVYzuayoEc56602O2vRCqzQrOnO/DEUyf8dOFaXhQeGKa2ETj9G6xInFjTI0dMfmB0JIBnlrG4Zlca+DgdL5ohONAEDfKgUliRKQ2e1fIr8Fxl1IziloVw1gnluN/r590nGX/d4KfgkBo3iJNXWw2X3vDa+K+QlZm7m13huxw2xbYe5z9gA2kCkzbgH2SEd0xprrfWrMe+6prX6XrRzg7XT0aDOjG3WiO2grX/zZffmREFBSI885SouF5WKWnZpoqtDVsv+OtDwpz9MhRccd3hUi/blBRn5UFETTDFAUdzB7R87py8fifwkdnsOg4KSt4SzfKgqsYhTUnZ48ijABebC4ToEeqvSwmGTKvn1tJz5waI/+8RFEyNxwU/+m8P1EydJz/IoiPbizLcLwn6HWNgColn2HbWqiPYrgvAqfMFG85dbXyZ5g5gEHGU7ZA8066cnPtqBU0sYDrdbtrqPUvTtjC/ZEMZj0WgFhyexb/m8EF7lEwatBtcQfp6I70IwuLb8uKaXPUNZ7ynZQF/gpjY8UTttKoMgEcewMPckL8ljGDhvbXEef4J2NzulJL1EL0rihbBD96w9oBLB4kS0HBOjJdlaW7tfabCcoh8wV457vRof2VpvsexoB4wZU15ZwZ2HY4cYYOKIFVnsRTKdd4XxszEfC3\"\n};\n    </script>\n    <script src=\"https://eaa93e5f9215.8840c915.us-west-2.token.awswaf.com/eaa93e5f9215/205a030cd466/ce1ec4644351/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.theweathernetwork.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGK4GiduAMAhS8y1huXM0g+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaIZwX2SFcqevYBaSAgEQgDssERnMO0SMpWipFdQ/+s8yU7XWjegxWGOjMxDinN/aAMv7r1VYBmZ4eTx1602D1nfnV2bPOoRzHUxK9w==\",\n          \"iv\":\"NC4HSwFwBQAAFdyN\",\n          \"context\":\"9j/9JRFPtIxal1HEOPKpaSNEEkvEmuY7oJ6CKyoy2Ou5l/B64JlG1UYspZDLFMBx2wbQimprJhPYwmwrD5khBK6LVirdm9puN+fJfTj7VSZULirphg8yQAAsS7q13Vv5DxoZ1nsbClXqMqyAhp6zQeFCNHto40pNL9KCra1TmWuqIVh4J/0rJeIpgxjV8WZ9UHKvy4bPnwapgSQjeYix0Q4wKnRMGdT5tZQrWHAiB0KJBuWr/Q6cncg6h8CulEmdYj3INzh/5LMPUKRtFhEPeOQyKnpdtUPzjkuFFKJeV2O+GZj1RJDWBx4AvyJQ4CJNHRFtuf2U36Jb4/DPPI4c3CC3M5iHJJ3uSsBlkqz9Q+WrJEKDb/EPAvIW2rNqLxWu/8X1tU5esxCAqq6PELHhGv8VWCWY631vuoAUmEv85nbFMSfZCRsLa4HypgHOdl1mMOKRewM/cx8aMjmFP+4af0HPpO/+Sy1NJ57AdRvU3WNZn8+yrl0DzMMuy+2uYMS0ZvG8K2EjPa7saiYwC7SfQuqgKldKhj3VRSZLjPrLWOI45l7ZlqbB3b+pzSdL60y+UDPqXzHSYhvzyzRrlM5/Aj2EkboGhCHYSVlrJ5pIZ08IZTEii5CAG70m8lU+YsHv1x8cU4PGZ/KyojD/dwPGybwJfr18bJXtfC3GlC++r20GTfXGx2M0LcbqdKCN7LONBFHYtwOr50ZcehzVSNPPuO6CqlNxJWhT5bL8ivQl+wemxhdvG+1GXW9jf6iaf2NUMb2JvxODCzy5DL/Y0lEspNIfKbpo0803tor9P0g7\"\n};\n    </script>\n    <script src=\"https://eaa93e5f9215.8840c915.us-west-2.token.awswaf.com/eaa93e5f9215/205a030cd466/ce1ec4644351/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.theweathernetwork.com/"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGK4GiduAMAhS8y1huXM0g+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaIZwX2SFcqevYBaSAgEQgDssERnMO0SMpWipFdQ/+s8yU7XWjegxWGOjMxDinN/aAMv7r1VYBmZ4eTx1602D1nfnV2bPOoRzHUxK9w==\",\n          \"iv\":\"NC4HagFwWwAAGNQu\",\n          \"context\":\"/bwMGKx6vqouiac2KBsFqoQeAg45nIOxoBIxTGHA51BxMG1SFJlUnYTvrKk2PCTI3k/Rug4dWjFEclUXdDY2vb8AlhzcgM09jqSoFpjVKcvKewLxlad1Mr0Cb7T2anmowjuxn76CJ2VE4uX55/hULrBYDuu0iiS0ezRNwt7ndzRD6RSjxdr+EnlQ47wIPDkF9k5eVkz3GcOyqsgwCICxJXmkof7lJODGmBkpxo5ojhJxN0CVZ/aVj16ve16/CE2zMe9EgDE/VUA+gxcbt7Cv+U9vaIghTSE5TkUFOcrGbTDsUDNu+4oZig26JZjAXOmG1jvOjq9wam5gPf5AM4EDNHrgwW1PCMUOBNUWRGeuXngsXcdMWiYdqsqwFRKiJQEYkU6UfPbNfwyCuxSOXkVLzMBRoLeutC1WUj3QWBbAEkRybOCc8w9De8L9jz0Ye0EWjD2Y9pZyTsYD+ybzNFo39MJkPgNpGGhGoaAvOe4wtbKLupZyQaIVovRNIdq5Q7NiHVIIJ5m3d404R70BmdEkHLlhu2QSEjwjrQG5UwDT33rI+MtP4OSgjJS/FX/GQiFBzCDk8E9NonFCh69RYtNZ0xe3Y4aHNAH3OscT4SFZ0UBgZUjEqF5YSTloRuAk7ec1ooi9nyTxtQs+05i+zXJjoZyqlHyX2KJ5HIguRD407gFkTxXN8NdD7N9Oxk9vP8po2OmvlXI6qaG9KdEjSndPX1AtE5CR0M2CqPSnSsmwg0Nz/cqcH/8NbZX2t6eZKLkZ6OBQdHNLq26ATNsq6SZmZvw8oaAjfemR3rRXZIWM\"\n};\n    </script>\n    <script src=\"https://eaa93e5f9215.8840c915.us-west-2.token.awswaf.com/eaa93e5f9215/205a030cd466/ce1ec4644351/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.theweathernetwork.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGK4GiduAMAhS8y1huXM0g+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaIZwX2SFcqevYBaSAgEQgDssERnMO0SMpWipFdQ/+s8yU7XWjegxWGOjMxDinN/aAMv7r1VYBmZ4eTx1602D1nfnV2bPOoRzHUxK9w==\",\n          \"iv\":\"NC4HbgFvxQAAFt1z\",\n          \"context\":\"jlg5oqstjQlj68DfW5I5Y5lrMtNG+66L/Hr4UoMB/8Mbxg0Da2EkCzjmLRKcPNEbDInGhD/De9xXqcVldm7Gn6ccZzxULPJkbZLSRwGs2LrCM8bGynZfV9Td/0XYP3/affs5brFiN8beQnblWXvc7DNb2m3WY9D0TKZLcNYHC1+H1kF80MUeZeY78VtbEMYhNGiAQByVsEFgSQfCq/aVulnY/p4IrgllCQp9Me+NyoJ+YO9i4JqKpGoTBJOrzQyrxlkb2NjQQh2kQTOTu6NeHpp+xkqqlt6EQTu+53hTJnuKCBH2hsu7t7zL0rD63Q7Ahgxio/JITV9RCoDvfBWLzhQ+zqWXx4bvXdyS+z6G1vwV4eKsL+mykO8IcR3II9cXUeaI7HKK2nT6vzZgkYSJB1+WDGUEguL7r5CuoCyI5Hg1sCFgzRBh0rLV/Cv4he4rXfBYbCUL+4CSJhvUKIMMn3wDgIZHqH2CVMVdDcvxV521gclEBnozeKntsMjpKaBnlXmUzvsDWtbVfg8duW7P/QK/t1UaU96adbRftWHyxCIm4y/pG+JQgVKy8CqKyEz3I0eulrP8d+wPam5lS7fo52h+79DV/fxVzNhp4QpIwidWB+gUqu+e0z46lsevPZcV3SyiSOKC2mCOvMhfJ66KOj+L61z4/cjEKVyOdKfiS9aS9RK/FHKfWAqO8TYzODbB7odm0fEvRgPN21SjJho+pW8E8J9x22g+UyO2UA4XzhYJNX4yva6BO3LdIGlDovQfoeiy9pIoO5aGJ6RhLO4cWQRRu87rar0++5LFcwgM\"\n};\n    </script>\n    <script src=\"https://eaa93e5f9215.8840c915.us-west-2.token.awswaf.com/eaa93e5f9215/205a030cd466/ce1ec4644351/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.theweathernetwork.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://theweathernetwork.com/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGK4GiduAMAhS8y1huXM0g+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaIZwX2SFcqevYBaSAgEQgDssERnMO0SMpWipFdQ/+s8yU7XWjegxWGOjMxDinN/aAMv7r1VYBmZ4eTx1602D1nfnV2bPOoRzHUxK9w==\",\n          \"iv\":\"NC4HaQFy2gAAFZ6o\",\n          \"context\":\"fMdHFiALnDAyNi9Fw4ryewaI3UsfuqOjvG+OpWdbYQU/KWz5sIGXAj/xjVHkEHfkxtOda7A/uCLGsWBizmXUovBmJjWiKTKhLMpLnIcQQqSmLEFptIBoXsRDKCgZGvhcPDTHSTQSj1NJ4Z38KNtT1HuDc1Br8cvneVQ0zm22ycCo+PB1tSVTKYtiBwH8ZZL2I9rajw0xBtGxYB3VbiwU1SpDLf+VcHcYSuZrPBP0By/DfCCu5O2I4NpL7iQDAtdU7lJD3PlSr8S21xW4o2OcH9aVy8kfdi6WCRWJuDPwOgOCYlA5j8imjGjWw1kEiEgEIrHhJ9t6vhM294YzpvDPdIOxtq13WRaLZasnn/VR5GnLwqhRa/a4fLDAYt2WLyhdOcIuIMzOGE9N4fT95koWFfXXe2T38kTHXUguabz5b/NxCcLjui0IdR66+kwtgBl6zpSjw7kXAMvufAF9iUVW9geqJiCmmXOyP1Y8VW/x3h9Lo8mYCe25jJzofRYBkg2lwpPk5IQUGxdmWkxoA11HhXqs3XkkPzkI9BTk8xgdlXcOTmbjEvHuBGD/GCrXQUutIcBZroNzawKWiGD0kalfK0nI4SwzUo6sT5s3HVywX44Z7Un7n8mYgeV7caP+VkWfFQW9ENAiX1N67NzVTTW8KhETwVOuzA/E7E/k0FefGhz6ugPOYNAIk3s6uYCUVPP0ycIGOKcIqwVytFm9eWbI6wnKQamqYU9wCIqo36KbAiZaUbzpzlWtUKvzyjmPpjSqIZcDmXLQVMyn05jKo1veTrS/dHr9uoSo8Ho/fx4J\"\n};\n    </script>\n    <script src=\"https://eaa93e5f9215.8840c915.us-west-2.token.awswaf.com/eaa93e5f9215/205a030cd466/ce1ec4644351/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.theweathernetwork.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "theweathernetwork.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:45:19.323Z",
+    "score": 48,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 202"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://theweathernetwork.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 2,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

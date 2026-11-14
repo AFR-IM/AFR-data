@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "purl.org",
+    "fetchedAt": "2026-11-14T02:56:55.336Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nCrawl-delay: 1\n",
+      "url": "https://purl.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+      "url": "https://purl.archive.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+      "url": "https://purl.archive.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "\n\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>PURL Administration</title>\n\n<link rel=\"stylesheet\" href=\"/static/bootstrap/css/bootstrap.css\">\n<link rel=\"stylesheet\" href=\"/static/style.css\">\n<style>table#footer td { padding: 5px; }</style>\n</head>\n\n\n\n<body>\n\n\n\n<div class=\"modal fade\" id=\"loginModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;<span class=\"sr-only\">Close</span></button>\n        <h4 class=\"modal-title\">User login is handled by the Internet Archive</h4>\n      </div>\n      <div class=\"modal-body\">You will be returned to this page after login.</div>\n      <div class=\"modal-footer\">\n        <a href=\"https://archive.org/account/login?referer=http%3A//purl.archive.org/\" class=\"btn\n        btn-primary\">Login to the Internet Archive</a>\n        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"modal fade\" id=\"signupModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;<span class=\"sr-only\">Close</span></button>\n        <h4 class=\"modal-title\">User registration is handled by the Internet Archive</h4>\n      </div>\n      <div class=\"modal-body\">\n<ol>\n<li>Complete the Internet Archive user registration.</li>\n<li>Come back to <a href=\"/?external=True\">https://purl.archive.org/</a></li>\n</ol>\n</div>\n      <div class=\"modal-footer\">\n        <a href=\"https://archive.org/account/signup\"\nclass=\"btn btn-primary\">Sign up at the Internet Archive</a>\n        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n\n<nav class=\"navbar navbar-default\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-header\">\n        \t<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n\t\t\t\t<span class=\"sr-only\">Toggle navigation</span>\n\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t<span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" href=\"/\">PURL Administration</a>\n        </div>\n\n\t\t<div id=\"navbar\" class=\"navbar-collapse collapse\">\n\t\t    <ul class=\"nav navbar-nav navbar-left\">\n\t\t\t\t<li><a href=\"/help\">help</a></li>\n            </ul>\n\n\t\t    <ul class=\"nav navbar-nav navbar-right\">\n                \n                <li><a href=\"#\" role=\"button\" data-toggle=\"modal\" data-target=\"#loginModal\">login</a>\n                <li><a href=\"#\" role=\"button\" data-toggle=\"modal\" data-target=\"#signupModal\">sign up</a>\n                \n\t\t\t</ul>\n\n            \n            <form action=\"/domain_search\" class=\"navbar-form navbar-right\" role=\"search\">\n                <div class=\"form-group\">\n                    <input type=\"text\" name=\"q\" class=\"form-control\" placeholder=\"PURL domain\">\n                    <input type=\"hidden\" name=\"csrf_token\" value=\"IjQ3ZDdkNDcxZTUyYTExNzIwODEzMTE2NmUxZDYwN2QwZDFiMjZkMDAi.avfN4Q.hdK0xUQs7RGOgO2b02_1VUtfuGU\"/>\n                </div>\n                <button type=\"submit\" class=\"btn btn-default\">search</button>\n            </form>\n            \n\n\n\t\t</div>\n    </div>\n</nav>\n\n<div class=\"container\">\n\n  \n\n<div class=\"row\">\n<div class=\"col-md-12\">\n\n<h1>PURL Administration</h1>\n\n<ol class=\"breadcrumb\">\n  <li class=\"active\">Home</li>\n</ol>\n\n<p>PURLs are persistent URLs, they provide permanent addresses for resources on the web.</p>\n\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-6\">\n\n  <h4>Search</h4>\n  <form class=\"form-inline\" action=\"/domain_search\">\n    <input id=\"csrf_token\" name=\"csrf_token\" type=\"hidden\" value=\"IjQ3ZDdkNDcxZTUyYTExNzIwODEzMTE2NmUxZDYwN2QwZDFiMjZkMDAi.avfN4Q.hdK0xUQs7RGOgO2b02_1VUtfuGU\">\n    <div class=\"form-group\">\n      <input class=\"form-control\" name=\"q\">\n    </div>\n    <button type=\"submit\" class=\"btn btn-default\">Search</button>\n  </form>\n\n  <h4>Create a new domain</h4>\n  \n    <p>Login or sign up to create a new domain.</p>\n    <p>\n    <a href=\"#\" role=\"button\" data-toggle=\"modal\" data-target=\"#loginModal\" class=\"btn btn-default\">Login</a>\n    <a href=\"#\" role=\"button\" data-toggle=\"modal\" data-target=\"#signupModal\" class=\"btn btn-default\">Sign up</a>\n    </p>\n    \n</div>\n\n</div>\n\n\n\n\n<div class=\"row\">\n<div class=\"col-md-12\">\n<p>&nbsp;</p>\n<table id=\"footer\">\n<tr>\n<td><img src=\"/static/img/logo_IA-sm.png\"/></td>\n<td>The PURL service is an initiative of the <a\nhref=\"https://archive.org\">Internet Archive</a>, a 501(c)(3) non-profit,<br>\nbuilding a digital library of Internet sites and other cultural artifacts in\ndigital form.<br>\nFor help and assistance please email info@archive.org.</td>\n</tr>\n</table>\n</div>\n</div>\n\n</div>\n\n<script src=\"/static/jquery/jquery.js\"></script>\n<script src=\"/static/bootstrap/js/bootstrap.js\"></script>\n<script src=\"/static/app.js\"></script>\n\n\n<script>\n$('#newdomain').submit(function() {\n    $('#savingModal').modal();\n});\n</script>\n\n\n</body>\n</html>",
+      "url": "https://purl.archive.org/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+      "url": "https://purl.archive.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+      "url": "https://purl.archive.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+      "url": "https://purl.archive.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "purl.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T02:56:55.336Z",
+    "score": 28,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 5.75,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 4.75,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 1/4; single h1; html[lang] present; body text 130 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"PURL Administration\"; missing/too-short meta description; no date signal; body text 130 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 4.75,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

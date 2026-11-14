@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "talkie-ai.com",
+    "fetchedAt": "2026-11-14T02:56:03.710Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-60d313af.js\"></script>\n\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, viewport-fit=cover\" />\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta http-equiv=\"Content-Securiy-Policy\" content=\"script-src 'self'\" />\n    <link rel=\"icon\" href=\"/app-logo-talkie.png\" />\n    <link rel=\"preconnect\" href=\"https://cdn.talkie-ai.com/\" crossorigin />\n    <link rel=\"dns-prefetch\" href=\"https://cdn.talkie-ai.com/\" />\n    \n    <title>Talkie AI | Soulful character AI</title>\n    <meta name=\"keywords\" content=\"talkie ai,ai character chat,ai chatbot,roleplay ai,soulful ai,free ai chat,ai girlfriend,ai boyfriend,talkie online\" />\n    <meta name=\"description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:title\" content=\"Talkie AI | Soulful character AI\" />\n    <meta property=\"og:description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:url\" content=\"https://talkie-ai.com/\" />\n    <meta property=\"og:site_name\" content=\"Talkie AI\" />\n    <meta property=\"og:locale\" content=\"en_US\" />\n    <script>\n      // pc/h5 redirect\n      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {\n        if (window.location.pathname === '/' || window.location.pathname === '/referral') {\n          window.location.replace(location.href.replace(location.origin, 'https://www.talkie-ai.com'));\n        }\n      }\n    </script>\n    <style>\n      html,body,.app {\n        width: 100%;\n        height: 100%;\n        position: relative;\n        background-color: #1C1D20;\n      }\n      @media screen and (max-width: 320px) {\n        html{\n          font-size: 32px;\n        }\n        body{\n          min-width: 320px;\n        }\n      }\n      @media screen and (min-width: 750px) {\n        html{\n          font-size: 75px;\n        }\n        body{\n          max-width: 750px;\n          margin: 0 auto !important;\n        }\n      }\n    </style>\n    <script>\n      (function () {\n        var timer = null;\n        function onResize() {\n          var width = Math.min(document.documentElement.clientWidth, 750);\n          var e = width / 7.5;\n          document.documentElement.style.fontSize = e + 'px';\n        }\n        window.addEventListener('resize', function() {\n          if (timer) clearTimeout(timer);\n          timer = setTimeout(onResize, 100);\n        });\n        onResize();\n      })();\n    </script>\n    <!-- <script>\n    !function (w, d, t) {\n      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=\"https://analytics.tiktok.com/i18n/pixel/events.js\";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(\"script\");o.type=\"text/javascript\",o.async=!0,o.src=i+\"?sdkid=\"+e+\"&lib=\"+t;var a=document.getElementsByTagName(\"script\")[0];a.parentNode.insertBefore(o,a)};\n    \n      ttq.load('CL0FKKRC77U0CK80987G');\n      ttq.page();\n    }(window, document, 'ttq');\n    </script> -->\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-e38f6802.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/swiper-20ec0072.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/firebase-6f4fc5d9.js\">\n    <link rel=\"stylesheet\" href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-2d0ae08b.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-legacy.0482be00.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-legacy.4d2dab1e.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>",
+      "url": "https://talkie-ai.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-60d313af.js\"></script>\n\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, viewport-fit=cover\" />\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta http-equiv=\"Content-Securiy-Policy\" content=\"script-src 'self'\" />\n    <link rel=\"icon\" href=\"/app-logo-talkie.png\" />\n    <link rel=\"preconnect\" href=\"https://cdn.talkie-ai.com/\" crossorigin />\n    <link rel=\"dns-prefetch\" href=\"https://cdn.talkie-ai.com/\" />\n    \n    <title>Talkie AI | Soulful character AI</title>\n    <meta name=\"keywords\" content=\"talkie ai,ai character chat,ai chatbot,roleplay ai,soulful ai,free ai chat,ai girlfriend,ai boyfriend,talkie online\" />\n    <meta name=\"description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:title\" content=\"Talkie AI | Soulful character AI\" />\n    <meta property=\"og:description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:url\" content=\"https://talkie-ai.com/\" />\n    <meta property=\"og:site_name\" content=\"Talkie AI\" />\n    <meta property=\"og:locale\" content=\"en_US\" />\n    <script>\n      // pc/h5 redirect\n      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {\n        if (window.location.pathname === '/' || window.location.pathname === '/referral') {\n          window.location.replace(location.href.replace(location.origin, 'https://www.talkie-ai.com'));\n        }\n      }\n    </script>\n    <style>\n      html,body,.app {\n        width: 100%;\n        height: 100%;\n        position: relative;\n        background-color: #1C1D20;\n      }\n      @media screen and (max-width: 320px) {\n        html{\n          font-size: 32px;\n        }\n        body{\n          min-width: 320px;\n        }\n      }\n      @media screen and (min-width: 750px) {\n        html{\n          font-size: 75px;\n        }\n        body{\n          max-width: 750px;\n          margin: 0 auto !important;\n        }\n      }\n    </style>\n    <script>\n      (function () {\n        var timer = null;\n        function onResize() {\n          var width = Math.min(document.documentElement.clientWidth, 750);\n          var e = width / 7.5;\n          document.documentElement.style.fontSize = e + 'px';\n        }\n        window.addEventListener('resize', function() {\n          if (timer) clearTimeout(timer);\n          timer = setTimeout(onResize, 100);\n        });\n        onResize();\n      })();\n    </script>\n    <!-- <script>\n    !function (w, d, t) {\n      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=\"https://analytics.tiktok.com/i18n/pixel/events.js\";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(\"script\");o.type=\"text/javascript\",o.async=!0,o.src=i+\"?sdkid=\"+e+\"&lib=\"+t;var a=document.getElementsByTagName(\"script\")[0];a.parentNode.insertBefore(o,a)};\n    \n      ttq.load('CL0FKKRC77U0CK80987G');\n      ttq.page();\n    }(window, document, 'ttq');\n    </script> -->\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-e38f6802.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/swiper-20ec0072.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/firebase-6f4fc5d9.js\">\n    <link rel=\"stylesheet\" href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-2d0ae08b.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-legacy.0482be00.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-legacy.4d2dab1e.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>",
+      "url": "https://talkie-ai.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-60d313af.js\"></script>\n\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, viewport-fit=cover\" />\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta http-equiv=\"Content-Securiy-Policy\" content=\"script-src 'self'\" />\n    <link rel=\"icon\" href=\"/app-logo-talkie.png\" />\n    <link rel=\"preconnect\" href=\"https://cdn.talkie-ai.com/\" crossorigin />\n    <link rel=\"dns-prefetch\" href=\"https://cdn.talkie-ai.com/\" />\n    \n    <title>Talkie AI | Soulful character AI</title>\n    <meta name=\"keywords\" content=\"talkie ai,ai character chat,ai chatbot,roleplay ai,soulful ai,free ai chat,ai girlfriend,ai boyfriend,talkie online\" />\n    <meta name=\"description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:title\" content=\"Talkie AI | Soulful character AI\" />\n    <meta property=\"og:description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:url\" content=\"https://talkie-ai.com/\" />\n    <meta property=\"og:site_name\" content=\"Talkie AI\" />\n    <meta property=\"og:locale\" content=\"en_US\" />\n    <script>\n      // pc/h5 redirect\n      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {\n        if (window.location.pathname === '/' || window.location.pathname === '/referral') {\n          window.location.replace(location.href.replace(location.origin, 'https://www.talkie-ai.com'));\n        }\n      }\n    </script>\n    <style>\n      html,body,.app {\n        width: 100%;\n        height: 100%;\n        position: relative;\n        background-color: #1C1D20;\n      }\n      @media screen and (max-width: 320px) {\n        html{\n          font-size: 32px;\n        }\n        body{\n          min-width: 320px;\n        }\n      }\n      @media screen and (min-width: 750px) {\n        html{\n          font-size: 75px;\n        }\n        body{\n          max-width: 750px;\n          margin: 0 auto !important;\n        }\n      }\n    </style>\n    <script>\n      (function () {\n        var timer = null;\n        function onResize() {\n          var width = Math.min(document.documentElement.clientWidth, 750);\n          var e = width / 7.5;\n          document.documentElement.style.fontSize = e + 'px';\n        }\n        window.addEventListener('resize', function() {\n          if (timer) clearTimeout(timer);\n          timer = setTimeout(onResize, 100);\n        });\n        onResize();\n      })();\n    </script>\n    <!-- <script>\n    !function (w, d, t) {\n      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=\"https://analytics.tiktok.com/i18n/pixel/events.js\";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(\"script\");o.type=\"text/javascript\",o.async=!0,o.src=i+\"?sdkid=\"+e+\"&lib=\"+t;var a=document.getElementsByTagName(\"script\")[0];a.parentNode.insertBefore(o,a)};\n    \n      ttq.load('CL0FKKRC77U0CK80987G');\n      ttq.page();\n    }(window, document, 'ttq');\n    </script> -->\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-e38f6802.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/swiper-20ec0072.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/firebase-6f4fc5d9.js\">\n    <link rel=\"stylesheet\" href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-2d0ae08b.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-legacy.0482be00.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-legacy.4d2dab1e.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>",
+      "url": "https://talkie-ai.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-60d313af.js\"></script>\n\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, viewport-fit=cover\" />\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta http-equiv=\"Content-Securiy-Policy\" content=\"script-src 'self'\" />\n    <link rel=\"icon\" href=\"/app-logo-talkie.png\" />\n    <link rel=\"preconnect\" href=\"https://cdn.talkie-ai.com/\" crossorigin />\n    <link rel=\"dns-prefetch\" href=\"https://cdn.talkie-ai.com/\" />\n    \n    <title>Talkie AI | Soulful character AI</title>\n    <meta name=\"keywords\" content=\"talkie ai,ai character chat,ai chatbot,roleplay ai,soulful ai,free ai chat,ai girlfriend,ai boyfriend,talkie online\" />\n    <meta name=\"description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:title\" content=\"Talkie AI | Soulful character AI\" />\n    <meta property=\"og:description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:url\" content=\"https://talkie-ai.com/\" />\n    <meta property=\"og:site_name\" content=\"Talkie AI\" />\n    <meta property=\"og:locale\" content=\"en_US\" />\n    <script>\n      // pc/h5 redirect\n      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {\n        if (window.location.pathname === '/' || window.location.pathname === '/referral') {\n          window.location.replace(location.href.replace(location.origin, 'https://www.talkie-ai.com'));\n        }\n      }\n    </script>\n    <style>\n      html,body,.app {\n        width: 100%;\n        height: 100%;\n        position: relative;\n        background-color: #1C1D20;\n      }\n      @media screen and (max-width: 320px) {\n        html{\n          font-size: 32px;\n        }\n        body{\n          min-width: 320px;\n        }\n      }\n      @media screen and (min-width: 750px) {\n        html{\n          font-size: 75px;\n        }\n        body{\n          max-width: 750px;\n          margin: 0 auto !important;\n        }\n      }\n    </style>\n    <script>\n      (function () {\n        var timer = null;\n        function onResize() {\n          var width = Math.min(document.documentElement.clientWidth, 750);\n          var e = width / 7.5;\n          document.documentElement.style.fontSize = e + 'px';\n        }\n        window.addEventListener('resize', function() {\n          if (timer) clearTimeout(timer);\n          timer = setTimeout(onResize, 100);\n        });\n        onResize();\n      })();\n    </script>\n    <!-- <script>\n    !function (w, d, t) {\n      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=\"https://analytics.tiktok.com/i18n/pixel/events.js\";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(\"script\");o.type=\"text/javascript\",o.async=!0,o.src=i+\"?sdkid=\"+e+\"&lib=\"+t;var a=document.getElementsByTagName(\"script\")[0];a.parentNode.insertBefore(o,a)};\n    \n      ttq.load('CL0FKKRC77U0CK80987G');\n      ttq.page();\n    }(window, document, 'ttq');\n    </script> -->\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-e38f6802.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/swiper-20ec0072.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/firebase-6f4fc5d9.js\">\n    <link rel=\"stylesheet\" href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-2d0ae08b.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-legacy.0482be00.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-legacy.4d2dab1e.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>",
+      "url": "https://talkie-ai.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-60d313af.js\"></script>\n\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, viewport-fit=cover\" />\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta http-equiv=\"Content-Securiy-Policy\" content=\"script-src 'self'\" />\n    <link rel=\"icon\" href=\"/app-logo-talkie.png\" />\n    <link rel=\"preconnect\" href=\"https://cdn.talkie-ai.com/\" crossorigin />\n    <link rel=\"dns-prefetch\" href=\"https://cdn.talkie-ai.com/\" />\n    \n    <title>Talkie AI | Soulful character AI</title>\n    <meta name=\"keywords\" content=\"talkie ai,ai character chat,ai chatbot,roleplay ai,soulful ai,free ai chat,ai girlfriend,ai boyfriend,talkie online\" />\n    <meta name=\"description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:title\" content=\"Talkie AI | Soulful character AI\" />\n    <meta property=\"og:description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:url\" content=\"https://talkie-ai.com/\" />\n    <meta property=\"og:site_name\" content=\"Talkie AI\" />\n    <meta property=\"og:locale\" content=\"en_US\" />\n    <script>\n      // pc/h5 redirect\n      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {\n        if (window.location.pathname === '/' || window.location.pathname === '/referral') {\n          window.location.replace(location.href.replace(location.origin, 'https://www.talkie-ai.com'));\n        }\n      }\n    </script>\n    <style>\n      html,body,.app {\n        width: 100%;\n        height: 100%;\n        position: relative;\n        background-color: #1C1D20;\n      }\n      @media screen and (max-width: 320px) {\n        html{\n          font-size: 32px;\n        }\n        body{\n          min-width: 320px;\n        }\n      }\n      @media screen and (min-width: 750px) {\n        html{\n          font-size: 75px;\n        }\n        body{\n          max-width: 750px;\n          margin: 0 auto !important;\n        }\n      }\n    </style>\n    <script>\n      (function () {\n        var timer = null;\n        function onResize() {\n          var width = Math.min(document.documentElement.clientWidth, 750);\n          var e = width / 7.5;\n          document.documentElement.style.fontSize = e + 'px';\n        }\n        window.addEventListener('resize', function() {\n          if (timer) clearTimeout(timer);\n          timer = setTimeout(onResize, 100);\n        });\n        onResize();\n      })();\n    </script>\n    <!-- <script>\n    !function (w, d, t) {\n      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=\"https://analytics.tiktok.com/i18n/pixel/events.js\";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(\"script\");o.type=\"text/javascript\",o.async=!0,o.src=i+\"?sdkid=\"+e+\"&lib=\"+t;var a=document.getElementsByTagName(\"script\")[0];a.parentNode.insertBefore(o,a)};\n    \n      ttq.load('CL0FKKRC77U0CK80987G');\n      ttq.page();\n    }(window, document, 'ttq');\n    </script> -->\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-e38f6802.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/swiper-20ec0072.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/firebase-6f4fc5d9.js\">\n    <link rel=\"stylesheet\" href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-2d0ae08b.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-legacy.0482be00.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-legacy.4d2dab1e.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>",
+      "url": "https://talkie-ai.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-60d313af.js\"></script>\n\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, viewport-fit=cover\" />\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta http-equiv=\"Content-Securiy-Policy\" content=\"script-src 'self'\" />\n    <link rel=\"icon\" href=\"/app-logo-talkie.png\" />\n    <link rel=\"preconnect\" href=\"https://cdn.talkie-ai.com/\" crossorigin />\n    <link rel=\"dns-prefetch\" href=\"https://cdn.talkie-ai.com/\" />\n    \n    <title>Talkie AI | Soulful character AI</title>\n    <meta name=\"keywords\" content=\"talkie ai,ai character chat,ai chatbot,roleplay ai,soulful ai,free ai chat,ai girlfriend,ai boyfriend,talkie online\" />\n    <meta name=\"description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:title\" content=\"Talkie AI | Soulful character AI\" />\n    <meta property=\"og:description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:url\" content=\"https://talkie-ai.com/\" />\n    <meta property=\"og:site_name\" content=\"Talkie AI\" />\n    <meta property=\"og:locale\" content=\"en_US\" />\n    <script>\n      // pc/h5 redirect\n      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {\n        if (window.location.pathname === '/' || window.location.pathname === '/referral') {\n          window.location.replace(location.href.replace(location.origin, 'https://www.talkie-ai.com'));\n        }\n      }\n    </script>\n    <style>\n      html,body,.app {\n        width: 100%;\n        height: 100%;\n        position: relative;\n        background-color: #1C1D20;\n      }\n      @media screen and (max-width: 320px) {\n        html{\n          font-size: 32px;\n        }\n        body{\n          min-width: 320px;\n        }\n      }\n      @media screen and (min-width: 750px) {\n        html{\n          font-size: 75px;\n        }\n        body{\n          max-width: 750px;\n          margin: 0 auto !important;\n        }\n      }\n    </style>\n    <script>\n      (function () {\n        var timer = null;\n        function onResize() {\n          var width = Math.min(document.documentElement.clientWidth, 750);\n          var e = width / 7.5;\n          document.documentElement.style.fontSize = e + 'px';\n        }\n        window.addEventListener('resize', function() {\n          if (timer) clearTimeout(timer);\n          timer = setTimeout(onResize, 100);\n        });\n        onResize();\n      })();\n    </script>\n    <!-- <script>\n    !function (w, d, t) {\n      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=\"https://analytics.tiktok.com/i18n/pixel/events.js\";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(\"script\");o.type=\"text/javascript\",o.async=!0,o.src=i+\"?sdkid=\"+e+\"&lib=\"+t;var a=document.getElementsByTagName(\"script\")[0];a.parentNode.insertBefore(o,a)};\n    \n      ttq.load('CL0FKKRC77U0CK80987G');\n      ttq.page();\n    }(window, document, 'ttq');\n    </script> -->\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-e38f6802.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/swiper-20ec0072.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/firebase-6f4fc5d9.js\">\n    <link rel=\"stylesheet\" href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-2d0ae08b.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-legacy.0482be00.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-legacy.4d2dab1e.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>",
+      "url": "https://talkie-ai.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://talkie-ai.com/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-60d313af.js\"></script>\n\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, viewport-fit=cover\" />\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta http-equiv=\"Content-Securiy-Policy\" content=\"script-src 'self'\" />\n    <link rel=\"icon\" href=\"/app-logo-talkie.png\" />\n    <link rel=\"preconnect\" href=\"https://cdn.talkie-ai.com/\" crossorigin />\n    <link rel=\"dns-prefetch\" href=\"https://cdn.talkie-ai.com/\" />\n    \n    <title>Talkie AI | Soulful character AI</title>\n    <meta name=\"keywords\" content=\"talkie ai,ai character chat,ai chatbot,roleplay ai,soulful ai,free ai chat,ai girlfriend,ai boyfriend,talkie online\" />\n    <meta name=\"description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:title\" content=\"Talkie AI | Soulful character AI\" />\n    <meta property=\"og:description\" content=\"Create your own multimodal dreams with us. More than an AI companion.\n    Explore a new way of ai free chat and ai character chat with talkie ai\n    - Chat like ai boyfriend and ai girlfriend.\" />\n    <meta property=\"og:url\" content=\"https://talkie-ai.com/\" />\n    <meta property=\"og:site_name\" content=\"Talkie AI\" />\n    <meta property=\"og:locale\" content=\"en_US\" />\n    <script>\n      // pc/h5 redirect\n      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {\n        if (window.location.pathname === '/' || window.location.pathname === '/referral') {\n          window.location.replace(location.href.replace(location.origin, 'https://www.talkie-ai.com'));\n        }\n      }\n    </script>\n    <style>\n      html,body,.app {\n        width: 100%;\n        height: 100%;\n        position: relative;\n        background-color: #1C1D20;\n      }\n      @media screen and (max-width: 320px) {\n        html{\n          font-size: 32px;\n        }\n        body{\n          min-width: 320px;\n        }\n      }\n      @media screen and (min-width: 750px) {\n        html{\n          font-size: 75px;\n        }\n        body{\n          max-width: 750px;\n          margin: 0 auto !important;\n        }\n      }\n    </style>\n    <script>\n      (function () {\n        var timer = null;\n        function onResize() {\n          var width = Math.min(document.documentElement.clientWidth, 750);\n          var e = width / 7.5;\n          document.documentElement.style.fontSize = e + 'px';\n        }\n        window.addEventListener('resize', function() {\n          if (timer) clearTimeout(timer);\n          timer = setTimeout(onResize, 100);\n        });\n        onResize();\n      })();\n    </script>\n    <!-- <script>\n    !function (w, d, t) {\n      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=\"https://analytics.tiktok.com/i18n/pixel/events.js\";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(\"script\");o.type=\"text/javascript\",o.async=!0,o.src=i+\"?sdkid=\"+e+\"&lib=\"+t;var a=document.getElementsByTagName(\"script\")[0];a.parentNode.insertBefore(o,a)};\n    \n      ttq.load('CL0FKKRC77U0CK80987G');\n      ttq.page();\n    }(window, document, 'ttq');\n    </script> -->\n    <script type=\"module\" crossorigin src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-e38f6802.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/swiper-20ec0072.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/firebase-6f4fc5d9.js\">\n    <link rel=\"stylesheet\" href=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-2d0ae08b.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/polyfills-legacy.0482be00.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"https://cdn.talkie-ai.com/public-cdn-s3-us-west-2/talkie-h5/assets/index-legacy.4d2dab1e.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>",
+      "url": "https://talkie-ai.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": true,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "talkie-ai.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T02:56:03.710Z",
+    "score": 54,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 19,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 15 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Talkie AI | Soulful character AI\"; meta description 192 chars; no date signal; body text 15 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 12,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://talkie-ai.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 4,
+            "max": 7,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "in-site chat/assistant ✓; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 3,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 4
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "nhtsa.gov",
+    "fetchedAt": "2026-11-14T03:42:16.348Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "#\r\n# robots.txt\r\n#\r\n# This file is to prevent the crawling and indexing of certain parts\r\n# of your site by web crawlers and spiders run by sites like Yahoo!\r\n# and Google. By telling these \"robots\" where not to go on your site,\r\n# you save bandwidth and server resources.\r\n#\r\n# This file will be ignored unless it is at the root of your host:\r\n# Used:    http://example.com/robots.txt\r\n# Ignored: http://example.com/site/robots.txt\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/robotstxt.html\r\n#\r\n# For syntax checking, see:\r\n# http://www.frobee.com/robots-txt-check\r\n\r\nUser-agent: *\r\nCrawl-delay: 10\r\n# Directories\r\nDisallow: /component-uat\r\nDisallow: /includes/\r\nDisallow: /misc/\r\nDisallow: /modules/\r\nDisallow: /profiles/\r\nDisallow: /scripts/\r\nDisallow: /themes/\r\n# Files\r\nDisallow: /CHANGELOG.txt\r\nDisallow: /cron.php\r\nDisallow: /INSTALL.mysql.txt\r\nDisallow: /INSTALL.pgsql.txt\r\nDisallow: /INSTALL.sqlite.txt\r\nDisallow: /install.php\r\nDisallow: /INSTALL.txt\r\nDisallow: /LICENSE.txt\r\nDisallow: /MAINTAINERS.txt\r\nDisallow: /update.php\r\nDisallow: /UPGRADE.txt\r\nDisallow: /xmlrpc.php\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips/\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /user/register/\r\nDisallow: /user/password/\r\nDisallow: /user/login/\r\nDisallow: /user/logout/\r\nAllow: /car-seats-and-booster-seats/child-passenger-safety-week\r\nDisallow: /vehicle/0\r\nDisallow: /report-a-problem\r\nDisallow: /form/foia\r\nDisallow: /content/ndr\r\nDisallow: /isearch-solr\r\nDisallow: /form/foia\r\nDisallow: /foia-confirmation\r\nDisallow: /views/ajax?\r\n# Paths (no clean URLs)\r\nDisallow: /?q=admin/\r\nDisallow: /?q=comment/reply/\r\nDisallow: /?q=filter/tips/\r\nDisallow: /?q=node/add/\r\nDisallow: /?q=search/\r\nDisallow: /?q=user/password/\r\nDisallow: /?q=user/register/\r\nDisallow: /?q=user/login/\r\nDisallow: /?q=user/logout/\r\n# Custom\r\nDisallow: /isearch\nSitemap: https://www.nhtsa.gov/sitemap.xml",
+      "url": "https://www.nhtsa.gov/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;llms&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;ea72cd17&#46;1794627714&#46;73edc6a0\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;ea72cd17&#46;1794627714&#46;73edc6a0</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.nhtsa.gov/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;llms&#45;full&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;ea72cd17&#46;1794627717&#46;73ee7ae7\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;ea72cd17&#46;1794627717&#46;73ee7ae7</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.nhtsa.gov/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;ea72cd17&#46;1794627720&#46;73eed557\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;ea72cd17&#46;1794627720&#46;73eed557</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.nhtsa.gov/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;sitemap&#46;xml\" on this server.<P>\nReference&#32;&#35;18&#46;ea72cd17&#46;1794627723&#46;73ef2f1c\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;ea72cd17&#46;1794627723&#46;73ef2f1c</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.nhtsa.gov/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;ea72cd17&#46;1794627727&#46;73ef8594\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;ea72cd17&#46;1794627727&#46;73ef8594</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.nhtsa.gov/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;ai&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;ea72cd17&#46;1794627736&#46;73f08006\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;ea72cd17&#46;1794627736&#46;73f08006</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.nhtsa.gov/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "nhtsa.gov",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:42:16.348Z",
+    "score": 14,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

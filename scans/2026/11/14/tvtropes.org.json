@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "tvtropes.org",
+    "fetchedAt": "2026-11-14T03:01:41.862Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no\nAllow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\n# END Cloudflare Managed Content\n\n\n# Block specific bots\nUser-agent: Amazonbot\nUser-agent: anthropic-ai\nUser-agent: Applebot\nUser-agent: Awario*\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ChatGPT-User\nUser-agent: Claude*\nUser-agent: cohere-ai\nUser-agent: DataForSeoBot\nUser-agent: Diffbot\nUser-agent: FacebookBot\nUser-agent: FriendlyCrawler\nUser-agent: GPTBot\nUser-agent: img2dataset\nUser-agent: ImagesiftBot\nUser-agent: magpie-crawler\nUser-agent: Meltwater\nUser-agent: NeevaBot\nUser-agent: omgili*\nUser-agent: peer39_crawler\nUser-agent: PerplexityBot\nUser-agent: PiplBot\nUser-agent: scoop.it\nUser-agent: Seekr\nUser-agent: YouBot\nUser-agent: meta-externalagent\nUser-agent: AhrefsBot\nUser-agent: SemrushBot\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: *\nDisallow: /pmwiki/browse.php?\nDisallow: /pmwiki/search_result.php\nDisallow: /pmwiki/search_result_forum.php\nDisallow: /pmwiki/relatedsearch.php\nDisallow: /pmwiki/tlp_activity.php?*q=\nDisallow: /pmwiki/discards.php?*q=\nDisallow: /pmwiki/query.php?*sparam=\nDisallow: /pmwiki/query.php?*sort=\nDisallow: /pmwiki/popular-pages.php?*search_term=\nDisallow: /pmwiki/pagelist_having_pagetype_in_namespace.php\nDisallow: /pmwiki/pmwiki.php/*action=\nDisallow: /ajax/\nDisallow: /login\nDisallow: /signup\nDisallow: /reset-password\nDisallow: /forgot-username\nDisallow: /verify-email\nDisallow: /pmwiki/login_prompt.php\nDisallow: /pmwiki/login.php\nDisallow: /pmwiki/new_login.php\nDisallow: /pmwiki/appeal.php\nDisallow: /pmwiki/appeals.php\nDisallow: /pmwiki/archived_discussion.php\nDisallow: /pmwiki/article_history.php\nDisallow: /pmwiki/awl.php\nDisallow: /pmwiki/bcollection.php\nDisallow: /pmwiki/bshop.php\nDisallow: /pmwiki/context.php\nDisallow: /pmwiki/create_page.php\nDisallow: /pmwiki/crown_activity.php\nDisallow: /pmwiki/cutlist.php\nDisallow: /pmwiki/discussion.php\nDisallow: /pmwiki/el.php\nDisallow: /pmwiki/forum_holler_mod.php\nDisallow: /pmwiki/forumite_icon_gallery.php\nDisallow: /pmwiki/image-fixer.php\nDisallow: /pmwiki/img_list.php\nDisallow: /pmwiki/issue_helper.php\nDisallow: /pmwiki/launches.php\nDisallow: /pmwiki/no_types.php\nDisallow: /pmwiki/page_type_audit.php\nDisallow: /pmwiki/readpm.php\nDisallow: /pmwiki/remark_show_history.php\nDisallow: /pmwiki/remarks.php\nDisallow: /pmwiki/review_add.php\nDisallow: /pmwiki/showcuts.php\nDisallow: /pmwiki/suspension.php\nDisallow: /pmwiki/to_do_create.php\nDisallow: /pmwiki/to_do_list.php\nDisallow: /pmwiki/video_examples.php\nDisallow: /pmwiki/video_upload.php\nDisallow: /pmwiki/wiki_pm.php\nDisallow: /pmwiki/wysiwyg_source_editor.php\nDisallow: /pmwiki/yk_list.php\n\nSitemap: https://tvtropes.org/sitemap/index.xml\nSitemap: https://tvtropes.org/sitemap/videos/index.xml\n",
+      "url": "https://tvtropes.org/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-Qh3pgz9Zm3djzE71hGkzS9&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"Qh3pgz9Zm3djzE71hGkzS9\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'MidBNndvaJVtwfiXqqYWMbQVO4J8EPzwdb7MGeKW64U-1794625300-1.2.1.1-BYHiLqZrZJUTKhvA6MjfI7isxzrvJQaRlardmlL0kNrqfS5zjd9hO2MM5KMuZHBc',cITimeS: '1794625300',cN: 'Qh3pgz9Zm3djzE71hGkzS9',cRay: 'a5a2c5dee9962304',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms.txt?__cf_chl_tk=DnLfB6H55veX_.v6COS34_zxLZaBZEJQUYZIaZjRQ.s-1794625300-1.0.1.1-CM75tcs4_wH1WcaRHrLxbz_1ddZkQLSHr8lImUITM2A\",cvId: '3',cZone: 'tvtropes.org',fa:\"/llms.txt?__cf_chl_f_tk=DnLfB6H55veX_.v6COS34_zxLZaBZEJQUYZIaZjRQ.s-1794625300-1.0.1.1-CM75tcs4_wH1WcaRHrLxbz_1ddZkQLSHr8lImUITM2A\",md: 'XJGHJZFIspgM3xXCifSHhPGj_KMoiYvdw_N1hToitfA-1794625300-1.2.1.1-VF7HqDSFOJoJsslJq00ZFP1TfdVdZ4RePdpk5KNmBI.BYpjUDVWBp5GsB4JCAwIB_XZ37Rc9GcmhRBZjLszqEjEk7wyaEucH7ekr.gPYiaSuzGl0iLJFavfaAPitxYbWjzHO4wC8U14VzFjClP0vZ.6xy3zk1tdeCUUJsFpXi55xHj786sponQVvmz1WS0dTaM6wH6fu_aBqRzlq6jVhdZjbKda42wSrKkjRgBQCoi47gSvmMOXVDWgQIY7rB0NxXhG6ZXI8zA1YoKJ_5Wp0IF.4F3BkVtLsSxGQ.Sc2I0mhaOviXtdyafMKB8ko_9wqJ.M9Twnyk9ttrs0biLzrlLxUVQQCjAVIQevcX6socBB5uWdznKxtanoDUad5Dzp_WCzT_lflyzqnZ63zsLgdTSOhX0gAvMHuifUXumBYfqJQrzjzY_W7pdpUPGxcTd.RLaBWgYDobNY1HF4caVfoyO8zLBEF3EiyXDrY3cdROzZkzjKxxc_aNBBS285yP4Yedgik18CYAiiYFCGoQin6t43kuFr8ekIo8SdtWOsEK5.2JrhBzOpTYCk5wCJigblHU_Glv9Kvlcrlgy8WUfh4B8kXyoMiUXRboVYtYRrJkYuPTdqi2nP5zECCMuh8rLEbEgpbvQNAuh2NgnOq6Adn4xp5x6.J3GpThYfCw7N.D5BRDxbVDSaddXjVv2RwiT7Ot.VKso.EM7nf3Hx__TUL11kWimBLcdnTXqt1aJHDLlNMSar9cgA2U9ff2rCVSMG8.onpnQqCO6o_KtPc.42MCAOqubXYH_9JDFpgMbCsB91agsMpRSwxgtsLr1THvoqL7BWE7UGrkTZ5etEO1rUAXMwfDZ8W9nTNUgkM9BG0eCeD28H_i_yFPYetZ0sSdjPrU0HRQhAx0bn2Wqa5ugC3zntPhI4xDm8A8X8Tz_Vq_C5HX4FDzcjfSoR1v_c2tQyLMWlmIebKwtJ9AC9OXTJrROg0qWPYtCWAdkAu15BnmUH2a.oLdaxtTWuQK3OaGgg28kEAVKAlAgtsjHtyhm6aTcym.p3c4ZCVk89l__y_QVGrV.lXBWcNk9oG6UxIM24SsqCSZwXnqGQniBOnVssmA54G6HicX25ayHR0isEYbmM',mdrd: 'PsF7M5hBaLMZaZ3BnIWPhxcM750du2RE1wQ.5ptWxVo-1794625300-1.2.1.1-jTCX9g8uvXOjVDP8Oi6x8ibJV325uJXgPo4H4qgRlv_fDVFYBwHUSD1CjzigQAQkBeZHG33Xk7xMle_ue_Xk4UrL6RvRwlUr0wLyyD8lfkg2GV_7YQcLWelvK2ZxDXLaMuVKBd0VDg8Myydn4JR6uya9FNm6A5oQynWP5w14UE037crO.ChTKmk2Z6sM8e0TbAoC0jHZ4uKnplZnIOhlAa67zD4BQ76kj7VsBgwdBha521d1F7et.M5l30xRPhSIn7L2Ezwa3CJAy1Oh2YnLaNhz12AeUkPUrSekdifBer54vbx39VGS4KIQRR2HoV4.aFlh0e2Q8J5s8cK5AdDc4WI2S.uKhecVwZUTmpoUAAO5reRoTmhIf1IA2uOJcEtGWWGFOraptBVZ2yeoNDzYjQ',};var a = document.createElement('script');a.nonce = 'Qh3pgz9Zm3djzE71hGkzS9';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5a2c5dee9962304';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=DnLfB6H55veX_.v6COS34_zxLZaBZEJQUYZIaZjRQ.s-1794625300-1.0.1.1-CM75tcs4_wH1WcaRHrLxbz_1ddZkQLSHr8lImUITM2A\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://tvtropes.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-P3x1Uo2FH77qiAlccAQ5AO&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"P3x1Uo2FH77qiAlccAQ5AO\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'hax.K29ZY2zIiNSA13HzIoWrIeHyByJkp1oCm5iGZDs-1794625300-1.2.1.1-9M3WOciOxXFki62wgNm1bGYOh90vO7kiA8n1yrXbXLhBs2AT0MG_AgSj6J4R6Z0S',cITimeS: '1794625300',cN: 'P3x1Uo2FH77qiAlccAQ5AO',cRay: 'a5a2c5e03eb927a1',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=L6Wio6DX44hG3vuBZ1I7NIW0SHKznd.1sezHHAt8oR0-1794625300-1.0.1.1-.yZJUkIzKuEKsMVZgP16Fp12v1.F5_6mHXZlOML29Oo\",cvId: '3',cZone: 'tvtropes.org',fa:\"/llms-full.txt?__cf_chl_f_tk=L6Wio6DX44hG3vuBZ1I7NIW0SHKznd.1sezHHAt8oR0-1794625300-1.0.1.1-.yZJUkIzKuEKsMVZgP16Fp12v1.F5_6mHXZlOML29Oo\",md: 'MKGqb.mMWEgmJe8vBG6fpJ.l1fYhxPXSJwzPzCdeQI0-1794625300-1.2.1.1-7xYw6a.1no.zvgkcOlv2vMgfg9owvlgFJbtNf0BHpet12coeinSamYdjzqCgoDXKWDA_plSmvjiFmV3VXRKTeK0boq_juc.2Iv1wc4SF5guBGlpbc2tK1WGpaGfYJXU9KjmKsS3tyT1bgPsSlhzLTrxlcYSSFzKZizTH5NNul53vPJB.p_OE2UnISUqKjh5VNYUhEVtAN9j.6ZizsM7pjWGiZ39AqiufIEe2MOkrIjks4RqImyNBPWbI5clNDQTLTIqJ3RBdLXR_ummipi0WgLBat2YJqsFDh3v_cncFt7cRAmbpobAuCt.8GmUU8ZKa3Q4e7xgCYiuAWpwJlhIIwe.ybNNuvg0aUJAs9xlgBI4kJpLa.JLL5IcGOUhzJGRm_VHu3N9Mnpk69dpjS53E105U5QJ03BP2n9YzKWBuRpn9Rd1yR5VFC70kk9GlAFrP6SNUwu3t_PbR.17H3fdyocXggDsA2OAsW30YLKnhgVJGUbwpwFRksg6BWLrd7NToi4tVIZ6olpeuZ_mYE9bXNperk7VN5eJeOlo5xYAxWMruxJYWwShOeV4yflVOpGnXcsmipsdm6N8waIwcPq4IzPS_DaSzZEyKxbuxSRNSjBti2siIBZCYyWAtVCvPCqzNegZjs.ZDU2SPGB5o14HK62jHQbeX72g2CzWreRRRwxdj61sOTpy9RlMA3K4ZAz7zCx_Km.DVVfeRPNEIcITf6Q9xwu1ugnGs7E0Q4fVvaqF1jDT3Z34uB8bamG03RiGBupyS38Oh_24z9aoz.EDSTsQreHZG4OM1SpZutPQ0msDq5ny_I1VFW9B2DNDzJwV_dZTxO5Edt8O5ZM4ftnxV9yQw2o9PWhx.drbRpjvYFydtdtPliZ9DZbsTh0PRmcgEOQPCSIr0piAzi13dwzXgGWWHE0yeH_adR4Y1ZRrRK5cL3ZPgLYM2i0rHp.MkQUSfq08LGYju0JZ0UsUuwxGmLeunAcCeoHZ4dm21V3IiLdUaVYReQHI7VxbRvGP2qgs2BXjf15EnUL5T_.QAEH9jB395NxwIOH.i3csUv1gX9nnOrz9uha_QVixuJgPxvXa6w_57xll1gurnY601I5OHBPIcIk5GHDafJ.HuHj3cwFU',mdrd: 'YMM9wtZYOUibS6yiI6r4qMbqftDYHfAGvU513wg0RDg-1794625300-1.2.1.1-luWFYUqn_MtI.QTsn2EDwqfBuTM_3iIBI9l7Ifs83oreUdOQLyZ2iFYCIxbAMJD4MKkSTaa0iU8zGgbzfafSbsZyuxit8aoTYpt6ELwvxLgaaf5aB38TLunGvMf.ehTPyAPrOWbJ_btoXaYeh5iIRNtib.lz7J5GTXDGAFVfRhIvw2hqlwLjr7sLrQu3MPW8wfiEvxofjWDYjre9c143ScpnLpi7V1f7Xx_JazpMum.ZcfEh6j3KmHqW3MhgeDph2O_erc5aBlF6p4KrYuXSaMt4e2xWyEQa_SzqX8wwVdMKucoDv9CJ70YUNiXOrUXEXU.rD50TwpifJ1HFrzmNghJ2lSt._zBcBXmBT8iruNWS7Z9F74fbX22.5MUHHac6_TG9DlOYM9ooFPIKglCDKPbMYlnkRlGM_s0Wg2smeDA',};var a = document.createElement('script');a.nonce = 'P3x1Uo2FH77qiAlccAQ5AO';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5a2c5e03eb927a1';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=L6Wio6DX44hG3vuBZ1I7NIW0SHKznd.1sezHHAt8oR0-1794625300-1.0.1.1-.yZJUkIzKuEKsMVZgP16Fp12v1.F5_6mHXZlOML29Oo\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://tvtropes.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-cCictGUcWeoOyoToy3D4PH&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"cCictGUcWeoOyoToy3D4PH\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'l8vvT4xS.CokDXs6LB4E_SiLKgkg5zR2rTYmo0.jU.4-1794625300-1.2.1.1-gz7O6Yyqf1CazO1B0w1zN76Gn2_ircLDmlY78eWIr0dwtNCtj12aDzpKWNXSkpJR',cITimeS: '1794625300',cN: 'cCictGUcWeoOyoToy3D4PH',cRay: 'a5a2c5e19c85f37f',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=hpYFHXERxj7_iR34bZ1SKMh094aWb.VhGbh04u1AYKA-1794625300-1.0.1.1-vpPvdpdnC9B7004wOVJdq3wCMBNygPZyzMXirbrdES8\",cvId: '3',cZone: 'tvtropes.org',fa:\"/?__cf_chl_f_tk=hpYFHXERxj7_iR34bZ1SKMh094aWb.VhGbh04u1AYKA-1794625300-1.0.1.1-vpPvdpdnC9B7004wOVJdq3wCMBNygPZyzMXirbrdES8\",md: '6xwPKzNDBDjEDOSktf3NiVRHwjUbhMURrv8.DDItcnM-1794625300-1.2.1.1-mf42_PEuC5sUbBr.EqXtYZP_gFDxlzXRlTVBKpjDu.28ESu8LLzd8Fap2IqeK2dfbhPa9bvJuMJ_2MxrdQ3T_O.vJZLsmz2lQYEOuUpJRvNlV9tv1RDaSVYG1PGfPmvOP6Fx6igojX.geZ2ODqfhtzvW7AHpsZfgju1UR2dnSXo.enpjSaNZZpvHO0XcBe0zSNwoRsrS83iy8oaHsSdyMiTIFQQ6kF2f5WtYmLcbLRYc0dps1mt0S49lxIGOnp3OQE75.q1.zfAjgEPDiIc0Cpb.XYFfP0z4WT6M_G1fd9QhTcddCgRmIP08Srl_1Qx2yl6YAQ1qhuOokKfHoQmeKPwgULLC2BGiraRC128Hkilq0o8_wjYLxZlugRNl3Q9X8u8rYY.G2I12h_tw3u4w_hIup3ZFSNghpW5x3gDvAp2GZ1lIB_IsMDX8bvkO7sVz3FMzjJy_pZzLpNIK0hdUnYoGCvKNlCmI2lEfxxsxOIc0ZHMihECmGVm_0TpOM1HYE7ybtICXDwDYJ_a7mjLKPhVTigzDL5jx7NBdvM0H6ujOh8RfxXeMYyN87.hejzk6uUcSdmNzHhujz.SiIfOkatH8U951cGu5t1tTAe1u7T.vZxHUIt82Z8Y2V9rFHa_JnEbOaRHYGMyPiZ6MhasMMaczVKqjo1XX122UozMz_DI3xT26HMmGaVzahDhcx2FzjgZqrHw3qD3ji42AqG7SZZjmZglSTwTJuubUxYTnbXq1HqGTAVcFlXWgarKcfU9eke8xR5VOBCf8p7OknxNKUKg27RC2.7R5WchN3wtPgteZYvGyC6IGmhUWKoKw6q8yvvv_Tj5CJizjOyeZEPVDtm2VNrzBQ8bSIX5kKpmi2QkornK6SN2bNisXBiIgNpzxOKHOg27egMtW9f0g53b9B9Yj8ZmPh8f9539cc5yhZ7ZrMqm7f6D20Wv7kjZsAn7RlYtszd5Asrve.i9AVagNY2Ldv9Vd.a9DE69ky2uuCtAQeG_Z.tYC_93553oME6_RkEr341_7YrBnFPGfebURuQyyVatmsCD8ewrs3MhNhO5pyccguL86TvydaJL1DGmYiB8BCUAELHkOU5hR9J3.KoVb1uclqDaxYnQobGPDFdg',mdrd: 'mvS4Bm30rtLnMdvVYSK9zWXHVvikBuK_KM.2.i5Mr5U-1794625300-1.2.1.1-DxhpcmrEq5gcbvs4LXZStIBkgnbH7hvlq4TmvsiOqEekvtnqCG8zaIzPUEtNpz1DL7_BC3A.NamxgvbNw3BPVN2yjnfGHJ.UF5TzVljRDGbXnCJfEQGknEu3W8Enp53ui7d9Obz7gAA6Gf2w8BiguRAUgM1c2oRXJlLQ9_QkCF_yMV.J5ejDXRszKZcLIQrK0CjIEX9kZIT0HkUOYudOj2MN7ObE9dd2.9kb84F1jF1VU7ASJo_KSQJd3SSWx0kvvCAM.5oz49tgexx.EkEqBD6PQ3VYxtRFYjTyjZnRba2QHr.RwdNtmkb7fW1Mdet1u8i3bhrr27a5QCKNkSI0cwEvsIO.fc5kXR9K7G39bPyZuHWaUpJP6oUFftDxjB664YE96rzoVBFWhnbBdeQnpQ',};var a = document.createElement('script');a.nonce = 'cCictGUcWeoOyoToy3D4PH';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5a2c5e19c85f37f';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=hpYFHXERxj7_iR34bZ1SKMh094aWb.VhGbh04u1AYKA-1794625300-1.0.1.1-vpPvdpdnC9B7004wOVJdq3wCMBNygPZyzMXirbrdES8\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://tvtropes.org/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-5U7qQGAcBkpOBOBd5xyJiZ&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"5U7qQGAcBkpOBOBd5xyJiZ\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'av8tDE5eRB_pilphTB25R8Y8QekxA0aoCzv4_TifKTc-1794625300-1.2.1.1-XhIcAmVDzyDowciiPkNFIVLpX2wKJDhvmfX0SK8G2IT7DS.T2lRPOi1nl9NRjLTL',cITimeS: '1794625300',cN: '5U7qQGAcBkpOBOBd5xyJiZ',cRay: 'a5a2c5e2e809d8d8',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap/index.xml?__cf_chl_tk=9X81_2ikqCeVGaXzvdZyGzy3ZZqB6N2nCEIrA_nDsAg-1794625300-1.0.1.1-CJ0QnlBbWnG6j0jmYYEpbdUoaC2.6s0o_WODt6mFqr8\",cvId: '3',cZone: 'tvtropes.org',fa:\"/sitemap/index.xml?__cf_chl_f_tk=9X81_2ikqCeVGaXzvdZyGzy3ZZqB6N2nCEIrA_nDsAg-1794625300-1.0.1.1-CJ0QnlBbWnG6j0jmYYEpbdUoaC2.6s0o_WODt6mFqr8\",md: 'ikOR1MNDm6dgrHw17vmvbS.ddq9zPB26aDxzdwE0UD8-1794625300-1.2.1.1-GprKuRYjJRj42FN2MdslpItc7ooyGbtwKboF4n899DSNknOoGR7RZeqf_IEozXYY_EU259hSapdI45pTDXCpnHqaDpirehQSFWwXq73crZhetE5lCRQqqcSN9t4Yi_i0OZyooZy6n4m09Wplj_Zgk3tOVVbgMiS52ZKkkV7cPFRHouZ7qkYAbQ5hPLYrF9HnPFqTLrma.dvxKHCK8pHzrvCvljizgii4lJIlk96zxLWCA3WzCq8PyBFAc86yfqKAHacC1JxmqmzPt8KhEWiw2bMnnqmGrYWrwXJqkgtDafHiXkOPFT0ODvq3dbbtH4RbxPgXiy6aNU.bROmJLIsDxKkWRYynbyGhPDxDlSvKBGqoeBIh9R7L0HySpLhIT7GGtfabQuKYNjS79McLrQOdCEO087Iq3bnAWFzsZsP9LQ1h_tGhcROuPkRZHZZdPxSMfpOZ.8oMF_LPNYzcJZwdU3QBq8vhQkN7ETLR7LeruW.R1dAkIq2lKTfpTfk9NOAHERxxiPiAzj5yb_Chi8BzcqYQqaVYlK3RzXnhcVM7RtvWar6cFEen30IhqdVkswwHp.4j.37ySvxyTJRafMS2r1WtQ3uE14UO.XVN4LdfYQDn6KbSWpmEJjXs_zQFsV_jhaIOE.dUco28appo2WvTvX4GJrK9l2Ddc3JOW4pdXPeSrAtrw8qhjglgiWiqx26HwfRAu1ThJ2zWo27cju6mVGpj1QQ1x58MZJGuj.PEIF7cCF3gtw3U6wRZLTgwAu5KzlMab72DicdVZlQGMAVrMMJxq66Hjg_xBsZNAfhry1ShBVbGI4CSys0n_fRF7IT6SvNWPoSAMmtpdh6_hSzoG7kgeFh_ZsoQOmfGYuYs_KzTSG.utplfzIqG_2D78JXfU_nV6kzRWxpIh9XtEPyeH59FavbxC.DByctiOd.yYpc5hzoW0HCgDZ8LAEN965DCzSu6AJnKfa9XTy5snJMaiK.uUrlOur6kWJQEuTwuUWROtj83hc93UMCMWj4O258CBI0bIQUAwhaHWNVkJrPqxMRO4vh5bHiVPE9tjy2NM1W1XKo5TyplAAN0IIsr0dU_..YlQjo3sAl.NLbon2ZdCuxtD5ZcqPcU1aTeLcqrUgOcVCu3qhzkywN_0Nt8qt92',mdrd: 'pYAEaZwtYwYctW582uuibeulnO2iadZtN1IdBBumVFI-1794625300-1.2.1.1-GYbIotXuaw7PQuzB5N8eb86E5sRcwVH_ISM8i0iGgOPeYtyYE.5O4ThRKYBq1cV3yTdSHBZNm9mLXzkQQO9jvvDl1tl2hlggj9.c9FOnaOOPksGh8oSpVvMFN.r9vZKH_5KIUXqMSs1TW97hsyXsSueIDCb0y5uOOWl3jUELR50cDN.OlSX.u42YXZeuW.fKV3K367RXc8y2jB48tn9aB_fP.RkI_hgzdccXpGTHZMoLJbNiZDaGiJFyWZ3lSFlHRmgu8w23a_8e3iuA8zsTR.U0aS_JgU2mNdLF6xQRWGjOQ4DqiAgHeohMCSNC5KfcucJ8IzPv5bqURBhUS2taleibRl7cjHbVW_NKw0YGc8MHUDBOOkjeVjfoDSGx9WFSgDIVv06NZxex8jVeA8BGBQ',};var a = document.createElement('script');a.nonce = '5U7qQGAcBkpOBOBd5xyJiZ';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5a2c5e2e809d8d8';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap/index.xml?__cf_chl_rt_tk=9X81_2ikqCeVGaXzvdZyGzy3ZZqB6N2nCEIrA_nDsAg-1794625300-1.0.1.1-CJ0QnlBbWnG6j0jmYYEpbdUoaC2.6s0o_WODt6mFqr8\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://tvtropes.org/sitemap/index.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-5ZWrBL81WsZ29kHKJtpaRo&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"5ZWrBL81WsZ29kHKJtpaRo\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'Qkag_1o7RBOT6P48tFZrweWmq5bGx3JaMuks.rM.pJ0-1794625301-1.2.1.1-B8RKwqJcEPycdMTuqgGu6rVp5XqpR4L5.uBNSa8wUzVQXR3GY0e4uZyYRCMRNyg5',cITimeS: '1794625301',cN: '5ZWrBL81WsZ29kHKJtpaRo',cRay: 'a5a2c5e44c8776be',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=4TQGRQpaxjnA6eE884qiaF.F9nriU7.0Umfh4R.kZCo-1794625301-1.0.1.1-hSYVLSieN4NTS79eYlX2C_jA.CnJlTk0wsJHAdIN65E\",cvId: '3',cZone: 'tvtropes.org',fa:\"/agents.md?__cf_chl_f_tk=4TQGRQpaxjnA6eE884qiaF.F9nriU7.0Umfh4R.kZCo-1794625301-1.0.1.1-hSYVLSieN4NTS79eYlX2C_jA.CnJlTk0wsJHAdIN65E\",md: 'mSw4F4adBoUcLNH.ft_EQmdmrWwPjKO5PqqAkzzJqaQ-1794625301-1.2.1.1-5VgDb4W.DzhCG96ratYncGqYZt5.c3yGuJgCn9x_WCOG1awv3IDvYIgCkBhkk_OGX6vDGlFAKfMXo.QRGi_CT7GBleRWTjtHFeW156lsI.pRUTOX6Dh4u_3LCKnzfTOgNG5nc.AYaEsXQRHW9sQabV.WXVgomvdELNW2ekJdj3c1rI5.jTc8yEiXBWdr5YmFVixkjmq7eHqUmvuAtNTtaDQermYfbTq4zeorKT_kEsy5Y.bg0l_RU88UEz9TeI_R0sECsdFCIYeZBlKLWoSukZCeMs4BSnyDCRukWq9afJkdhYH576qLDTJl7ElwqV_9nyke6dEpnbvSvg0q1dBVn6b5Vvp94iC0Hr37zvnEU51SFYFXjvB0Nc7GInz4ohOJZ.DA0aMYbyFr7tTDROl39W.Qd4j4rvVgizvIW47qsM2DQjYMT.d_9M4s_ewgElTEQ.Z3BlRIyfJSTHxBw3Wt9ID0dAnI8T8n6oPz.l_0UkDdyVr0OTtRzr5dZsga18xnix0a9lNosfJIuPsyGIi_LxtXLVAh8o74y_uJXEIB8IguWjcrwoCc7ykZclUMHOq3SltckiVmh1uiOlfyqIod.jgF4IKUAlj7ZFx3dHa3KNsiHHPDtdlDA69p7u7bQ19OPt.kvnzCDU64wDqIaAaCbiKUK849eQakNd7LrJFckO4bpeJD8cl..ZrwqxhBxjH4A1ZZelZWHmWNCU04ymXIs7523EPSvgWvvRFyFQ78HvtJ4WJLJgHg_pDkZXN8tQnOKwfAHcEhaNKPar6OeJAp8IfpiRiKKZDn8Vw1d2pg8M_56Jdqmy8HWY8Ve3V..6luR9qwHCC9cmu_Z5g5VryxfQxkdU7fYUhV.jheHkq1takX2nTgxgrlO.Q70p4TlYUzxIZMBxa9QSpiR7fuFZnkkGjCzYKV6QdVkH6pmJKU7fq_1AsW6Qct6ILIADBzqgVbg..a0u8GSorUbFaVLu.CH8K1VZrhpovOeXRQx007yH2IFa3SIKnWq5VOirsJWREBvl1u7cwABPE9XQWhFVR5PpqSvNpC054WTbGT1.aDIiFXvbz372.AgZvMtWKApDgCNrOCytkxKBR_1bIBDHbzn2oz86u9CDslKhJLzRtwN7w',mdrd: 'dwv4coIlbD5YZ.1vH9sWbjpo1A5FWWOXwjLPe1IMyZk-1794625301-1.2.1.1-O.omwCdbdi_pa0THKvEaqt7fegluqqWZkhxRnagrk6aXATBQS345S0lMHJ4u5zHzNODQX2Fw32EbczNyelL7au_VgXevgywlGWHu3QfZ15jfxVXnspJ8g1HpibNemt.TD2TGFKxHC8w4yYNmsDw1ecai6OgJA7SS8iGwXMbEYIaQosU054IV8NZYMTBdaHVOpUbzG3xhWN.NxJjTAyTJS6l4ZRRU3.rFrvcvuLNZgb.OQ313adgArj1NfhqiVgultTKjGUMvpwMvx6UBLFpcunpnLESqERitTi1xL4P4QqzqXCM50gh42tj9DktErJ1FFHWhjlJiVaOoKT.diBZoSZ00ZbfuNrN6S6KHiaEWJwQWV_21k_LRnCABh2BOqixA_SJXtKE1e7P.d8Z7Q2McMQ',};var a = document.createElement('script');a.nonce = '5ZWrBL81WsZ29kHKJtpaRo';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5a2c5e44c8776be';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=4TQGRQpaxjnA6eE884qiaF.F9nriU7.0Umfh4R.kZCo-1794625301-1.0.1.1-hSYVLSieN4NTS79eYlX2C_jA.CnJlTk0wsJHAdIN65E\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://tvtropes.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "User-Agent: *\nDisallow: /\nDisallow: *",
+      "url": "https://tvtropes.org/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "tvtropes.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:01:41.862Z",
+    "score": 7,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 5.63,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 5.63,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 3.38/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: PerplexityBot, ChatGPT-User, GPTBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, Googlebot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 5.63,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

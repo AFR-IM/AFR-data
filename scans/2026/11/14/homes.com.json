@@ -1,0 +1,258 @@
+{
+  "signals": {
+    "domain": "homes.com",
+    "fetchedAt": "2026-11-14T03:11:40.555Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# OpenAI\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\n\r\nUser-agent: *\r\nAllow: /building-search/$\r\nAllow: /building/\r\nAllow: /school/*/*/*/\r\nDisallow: /report/\r\nDisallow: /market/\r\nDisallow: /analytics/\r\nDisallow: /customer/\r\nDisallow: /property/*/id-*\r\nDisallow: /routes/res/market/i\r\nDisallow: /building-search/*\r\nDisallow: /brokerage/\r\nDisallow: /*/schd-\r\nDisallow: */near/*/s-*/*\r\nDisallow: */studio-to-*-bedroom/*\r\nDisallow: *?*property_type=*\r\nDisallow: *?*bb=*\r\nDisallow: *?*am=*\r\nDisallow: *?*sml=*\r\nDisallow: *?*sk=*\r\nDisallow: *?*listing_type=*\r\nDisallow: *?*price-max=*\r\nDisallow: *?*so=*\r\nDisallow: *?*bn=*\r\nDisallow: *?*bk=*\r\nDisallow: *?*ng-min=*\r\nDisallow: *?*beds=*\r\nDisallow: *?*ssit=*\r\nDisallow: *?*nhs=*\r\nDisallow: *?*cpn=*\r\nDisallow: *?*kws=*\r\nDisallow: *?*bed-max=*\r\nDisallow: *?*brkg=*\r\nDisallow: *?*agp=*\r\n\r\nUser-agent: AdsBot-Google\r\nUser-agent: AdsBot-Google-Mobile\r\nAllow: /building-search/$\r\nAllow: /building/\r\nAllow: /school/*/*/*/\r\nDisallow: /school/*/*/\r\nDisallow: /report/\r\nDisallow: /market/\r\nDisallow: /customer/\r\nDisallow: /property/*/id-*\r\nDisallow: /routes/res/market/i\r\nDisallow: /building-search/*\r\nDisallow: /brokerage/\r\nDisallow: /*/schd-\r\nDisallow: */near/*/s-*/*\r\nDisallow: */studio-to-*-bedroom/*\r\nDisallow: *?*property_type=*\r\nDisallow: *?*bb=*\r\nDisallow: *?*am=*\r\nDisallow: *?*sml=*\r\nDisallow: *?*sk=*\r\nDisallow: *?*listing_type=*\r\nDisallow: *?*price-max=*\r\nDisallow: *?*so=*\r\nDisallow: *?*bn=*\r\nDisallow: *?*bk=*\r\nDisallow: *?*ng-min=*\r\nDisallow: *?*beds=*\r\nDisallow: *?*ssit=*\r\nDisallow: *?*nhs=*\r\nDisallow: *?*cpn=*\r\nDisallow: *?*kws=*\r\nDisallow: *?*bed-max=*\r\nDisallow: *?*brkg=*\r\nDisallow: *?*agp=*\r\n\r\nSitemap: https://www.homes.com/sitemap-cities-for-sale-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-cities-for-rent-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-openhouse-cities-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-counties-for-sale-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-counties-for-rent-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-zipcodes-for-sale-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-zipcodes-for-rent-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-neighborhoods-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-neighborhoods-for-sale-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-neighborhoods-for-rent-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-agent-directory-cities-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-agent-directory-neighborhoods-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-properties-active-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-properties-new-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-sold-zipcodes-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-sold-cities-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-schools-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-neighborhood-search-cities-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-videos-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-city-guide-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-building-detail-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-news-article-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-learn-article-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-school-search-cities-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-search-filters-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-cities-with-pool-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-cities-foreclosure-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-cities-for-sale-price-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-new-homes-search-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-new-homes-property-detail-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-new-homes-builder-profiles-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-new-homes-community-detail-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-cities-for-sale-bedroom-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-arch-style-search-index.xml.gz\r\nSitemap: https://www.homes.com/sitemap-market-reports.xml.gz",
+      "url": "https://www.homes.com/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 200,
+      "body": "# Homes.com\r\n> Homes.com is a real estate platform owned by CoStar Group for buyers, renters, sellers, and agents, offering extensive property listings for sale and for rent, advanced search tools including architectural style and new construction filters, AI-powered search and comparison through Homes Ai, immersive Matterport 3D tours and floor plans, and comprehensive information on homes, schools, cities, and neighborhoods across the United States, alongside real estate news, market reports, calculators, and marketing solutions for agents and builders.\r\n\r\nHomes.com updates listings daily for a range of property types for sale and for rent, including houses, condos, townhomes, mobile homes, new construction homes, and apartments. Listings are sourced through MLS IDX (Internet Data Exchange) feeds from hundreds of multiple listing services nationwide, supplemented by CoStar Group's own proprietary data collection and content, including neighborhood, school, and community information. The platform features interactive maps, property valuation tools, mortgage calculators, and comprehensive data for every city, neighborhood, and school in the United States. Users can access up-to-date housing market insights and real estate news, plus educational resources and guides covering topics like first-time homeownership, the home buying and selling process, and home financing. Real estate professionals and home sellers can utilize the platform to promote their listings and connect with potential clients.\r\n\r\n## Property Listings\r\n> All property listing search pages provide extensive filters, including but not limited to location, price, home type, bedrooms, bathrooms, square footage, and more.\r\n\r\n### For Sale\r\n- [View All For Sale Listings](https://www.homes.com/homes-for-sale/): View all property listings for sale.\r\n- [Search Homes for Sale](https://www.homes.com/houses-for-sale/): Search single family homes for sale.\r\n- [Search Condos for Sale](https://www.homes.com/condos-for-sale/): Search condos for sale.\r\n- [Search Townhomes for Sale](https://www.homes.com/townhouses-for-sale/): Search townhomes for sale.\r\n- [Search Multi-Family Homes for Sale](https://www.homes.com/multi-family-homes-for-sale/): Search multi-family homes for sale.\r\n- [Search New Construction Homes](https://www.homes.com/new-homes/for-sale/): Search new construction homes for sale.\r\n- [Search New Construction Communities](https://www.homes.com/new-homes/for-sale/communities/): Search new construction home communities.\r\n- [New Homes Landing Page](https://www.homes.com/new-homes/): Central hub for exploring new construction homes, communities, and top-rated builders, with local news and buying articles.\r\n- [Search Lots and Land for Sale](https://www.homes.com/land-for-sale/): Search lots and land for sale.\r\n- [Search Mobile Homes for Sale](https://www.homes.com/mobile-homes-for-sale/): Search mobile homes for sale.\r\n\r\n### For Rent\r\n- [View All For Rent Listings](https://www.homes.com/homes-for-rent/): View all property listings for rent.\r\n- [Search Homes for Rent](https://www.homes.com/houses-for-rent/): Search single family homes for rent.\r\n- [Search Townhomes for Rent](https://www.homes.com/townhouses-for-rent/): Search townhomes for rent.\r\n- [Search Condos for Rent](https://www.homes.com/condos-for-rent/): Search condos for rent.\r\n- [Search Apartments for Rent](https://www.homes.com/apartments-for-rent/): Search apartments for rent.\r\n\r\n## Architectural Styles\r\n> Homes.com provides educational content that teaches people how to identify and understand different home architectural styles, and also lets buyers search for and browse homes for sale by architectural style. The following 8 styles are currently supported as search filters, with more planned as this feature expands. The base style URLs below (e.g. /homes-for-sale/victorian/) are localized automatically to the user's current or last-searched location; style-filtered search can also be combined explicitly with a city, state, or county by prepending the geography to the style slug:\r\n> - City: https://www.homes.com/{city-state}/{style}/\r\n> - State: https://www.homes.com/{state}/{style}/\r\n> - County: https://www.homes.com/{county-state}/{style}/\r\n- [Informational resources about architectural styles](https://www.homes.com/learn/category/architectural-styles/): Category hub aggregating all Homes.com articles and guides about architectural styles.\r\n- [Architectural home styles guide](https://www.homes.com/learn/most-popular-house-styles/): In-depth guide covering the most popular U.S. home architectural styles - Colonial Revival, Midcentury Modern, Craftsman, Ranch, Prairie, Tudor, Cape Cod, Spanish Revival, Mediterranean, Victorian, Queen Anne, Cottage, Bungalow, Farmhouse, and Contemporary - with each style's key characteristics, history, and maintenance considerations. FAQs cover how to search for real estate listings by architectural style, linking out to corresponding style search pages by city, state, and county.\r\n- [Victorian style homes for sale](https://www.homes.com/homes-for-sale/victorian/): Search Victorian-style homes for sale near you.\r\n- [Ranch style homes for sale](https://www.homes.com/homes-for-sale/ranch-style-homes/): Search ranch-style homes for sale near you.\r\n- [Mid-century modern homes for sale](https://www.homes.com/homes-for-sale/mid-century-modern/): Search mid-century modern homes for sale near you.\r\n- [Farmhouse style homes for sale](https://www.homes.com/homes-for-sale/farmhouse/): Search farmhouse-style homes for sale near you.\r\n- [Craftsman style homes for sale](https://www.homes.com/homes-for-sale/craftsman/): Search Craftsman-style homes for sale near you.\r\n- [Colonial style homes for sale](https://www.homes.com/homes-for-sale/colonial-style/): Search Colonial-style homes for sale near you.\r\n- [Modern style homes for sale](https://www.homes.com/homes-for-sale/modern/): Search modern-style homes for sale near you.\r\n- [Spanish style homes for sale](https://www.homes.com/homes-for-sale/spanish/): Search Spanish-style homes for sale near you.\r\n\r\n## Guides & Resources\r\n- [Learning Center](https://www.homes.com/learn/): Guides on home buying, selling, local insights, and architectural styles.\r\n- [Buying a Home](https://www.homes.com/learn/category/buying-a-home/): Guides and resources for home buyers.\r\n- [Selling a Home](https://www.homes.com/learn/category/selling-a-home/): Information and advice for home sellers.\r\n- [Guide for Home Buyers](https://www.homes.com/learn/buyer-guide/): Step-by-step guide for home buyers.\r\n- [Guide for Home Sellers](https://www.homes.com/learn/seller-guide/): Step-by-step guide for home sellers.\r\n\r\n## Free Tools\r\n- [Home Valuation Tool](https://www.homes.com/how-much-is-my-home-worth/): Free home valuation report and market comparison.\r\n- [Mortgage Calculator](https://www.homes.com/mortgage-calculator/): Estimate your monthly mortgage payment.\r\n- [Home Affordability Calculator](https://www.homes.com/home-affordability-calculator/): Calculate how much you can afford on a home.\r\n- [Search for Neighborhoods](https://www.homes.com/neighborhood-search/): Search neighborhoods by location.\r\n- [Condo Building Search](https://www.homes.com/building-search/): Search and explore condo buildings for rentals.\r\n- [School Search](https://www.homes.com/school-search/): Search schools by location.\r\n- [Real Estate Agent Search](https://www.homes.com/real-estate-agents/): Find real estate agents by location, sales volume, price range and see client reviews.\r\n- [Homes.com Mobile App](https://www.homes.com/real-estate-app/): Homes.com's mobile app for searching listings and browsing neighborhoods, schools, and agents on the go.\r\n\r\n### Sold\r\n- [Recently Sold Homes](https://www.homes.com/sold/): View recently sold real estate and homes and search by location.\r\n\r\n## Real Estate News\r\n- [Real Estate News](https://www.homes.com/news/): Central hub for real estate news articles.\r\n- [Housing Market News](https://www.homes.com/news/category/housing-market/): Latest news on housing market trends, price movements, and market analysis.\r\n- [Mortgage Rates News](https://www.homes.com/news/category/mortgage-rates/): Current mortgage rate news and interest rate trend analysis.\r\n- [Buying and Selling News](https://www.homes.com/news/category/buying-and-selling/): Expert insights and stories about home buying and selling processes.\r\n- [New Home Construction News](https://www.homes.com/news/category/new-construction/): Updates about new construction homes and development projects.\r\n- [Real Estate Trends](https://www.homes.com/news/category/trends/): Analysis of real estate trends and market movements nationwide.\r\n- [Real Estate Industry News](https://www.homes.com/news/category/industry-news/): Professional real estate industry updates and regulatory changes.\r\n- [Market Reports](https://www.homes.com/reports/): Hub for Homes.com's housing market reports, including national and market-specific data on prices, inventory, and trends.\r\n\r\n## For Real Estate Professionals\r\n- [Listing Promotion Solutions](https://www.homes.com/advertise/): Tools for real estate agents, home sellers, and builders to promote listings, reach qualified buyers, and sell faster. \r\n- [Agent Membership & Marketing](https://www.homes.com/advertise/agents/): Marketing tools, lead generation, and listing promotion for real estate agents.\r\n- [Single Listing Boost](https://www.homes.com/advertise/boost/): Increase exposure for individual home listings.\r\n- [Community Promotion for Builders](https://www.homes.com/advertise/community/): Tool for builders to promote new home communities.\r\n- [Boost for Agents](https://www.homes.com/solutions/boost/agents/): Paid listing promotion for agents that provides premium placement, retargeting ads, and a free Matterport 3D tour to help win listings and sell faster.\r\n- [Boost for Sellers](https://www.homes.com/solutions/boost/sellers/): Paid promotion that puts a seller's listing in front of more buyers through premium placement, retargeting ads, and a free Matterport 3D tour.\r\n- [Your Listing, Your Lead](https://www.homes.com/solutions/yourlistingyourlead/): Homes.com Membership program built around the principle that buyer inquiries on an agent's listings go directly to that agent, not to a competitor.\r\n- [National Ad Campaign](https://www.homes.com/solutions/ad-campaign/): Overview of Homes.com's national marketing campaign driving buyer traffic and awareness back to agent listings on Homes.com.\r\n- [Matterport](https://www.homes.com/solutions/matterport/): Product marketing and education page explaining Matterport 3D Tour and floor plan technology, a feature agents and sellers can add to listings so buyers can take immersive virtual tours, including AI-powered furniture removal and precise room dimensions.\r\n- [About Us (Solutions)](https://www.homes.com/solutions/about-us/): Agent-facing overview of why to list on Homes.com, covering network traffic and growth stats, the \"Your Listing, Your Lead\" no-referral-fee model, detailed neighborhood research, and contact info for customer service, general inquiries, and PR.\r\n\r\n## Product Updates\r\n- [What's New at Homes.com](https://www.homes.com/product-release/): Ongoing page spotlighting the newest features and product updates on Homes.com; content is refreshed periodically as new features launch, so what it covers will change over time (as of this writing, it highlights Homes Ai, a conversational AI home-shopping assistant).\r\n\r\n## City & Neighborhood Guides\r\n\r\n> Below are examples. Guides are available for many cities and neighborhoods-replace the city or neighborhood in the URL as needed.\r\n\r\n- [New York, NY City Guide](https://www.homes.com/local-guide/new-york-ny/): Comprehensive information about living in New York City.\r\n- [Los Angeles, CA City Guide](https://www.homes.com/local-guide/los-angeles-ca/): Comprehensive information about living in Los Angeles, CA.\r\n- [Baldwin Hills, Los Angeles, CA Neighborhood Guide](https://www.homes.com/local-guide/los-angeles-ca/baldwin-hills-neighborhood/): Detailed neighborhood information and local insights for Baldwin Hills neighborhood in Los Angeles, CA.\r\n",
+      "url": "https://www.homes.com/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "",
+      "url": "https://www.homes.com/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;homes&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;8bd02e17&#46;1794625898&#46;1872dd95\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8bd02e17&#46;1794625898&#46;1872dd95</P>\n</BODY>\n</HTML>\n",
+      "url": "https://homes.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;homes&#46;com&#47;sitemap&#45;cities&#45;for&#45;sale&#45;index&#46;xml&#46;gz\" on this server.<P>\nReference&#32;&#35;18&#46;83d02e17&#46;1794625899&#46;199a9878\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;83d02e17&#46;1794625899&#46;199a9878</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.homes.com/sitemap-cities-for-sale-index.xml.gz"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;homes&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;88d02e17&#46;1794625899&#46;175f0bef\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;88d02e17&#46;1794625899&#46;175f0bef</P>\n</BODY>\n</HTML>\n",
+      "url": "https://homes.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "",
+      "url": "https://www.homes.com/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    }
+  },
+  "afr": {
+    "domain": "homes.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:11:40.555Z",
+    "score": 22,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 11.67,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 11.67,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 4.17/10; strategy tag Middle-Path. Blocked examples: GPTBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 10,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 9,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 11.67,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 9,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

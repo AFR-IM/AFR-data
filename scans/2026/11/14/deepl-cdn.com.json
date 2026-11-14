@@ -1,0 +1,236 @@
+{
+  "signals": {
+    "domain": "deepl-cdn.com",
+    "fetchedAt": "2026-11-14T02:47:24.782Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+    },
+    "llms": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+    },
+    "llmsFull": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+    },
+    "homepage": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+    },
+    "sitemap": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+    },
+    "agentsMd": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+    }
+  },
+  "afr": {
+    "domain": "deepl-cdn.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T02:47:24.782Z",
+    "score": 0,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 0,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "unknown",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "Failed to fetch robots.txt: network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443); GET /llms-full.txt network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443); homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:443); robots.txt unavailable; cannot check Sitemap reference"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md not probed; llms.txt HTTP undefined"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "memcached.org",
+    "fetchedAt": "2026-11-14T03:26:36.322Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file\n#\n# To ban all spiders from the entire site uncomment the next two lines:\n# User-Agent: *\n# Disallow: /\n",
+      "url": "https://memcached.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.10.3</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://memcached.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.10.3</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://memcached.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta name=\"generator\" content=\"Hugo 0.55.1\" />\n\t<title>memcached - a distributed memory object caching system</title>\n\t<meta name=\"description\" content=\"memcached\" />\n\t<meta name=\"authors\" content=\"Dormando\" />\n\t<meta http-equiv=\"content-language\" content=\"en\" />\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\n\t<link rel=\"icon\" href=\"favicon.png\" type=\"image/png\" />\n\t<link rel=\"stylesheet\" href=\"/blueprint/screen.css\" type=\"text/css\" media=\"screen, projection\" />\n  <link rel=\"stylesheet\" href=\"/blueprint/print.css\" type=\"text/css\" media=\"print\" />\n  \n\t<link rel=\"stylesheet\" href=\"/stylesheets/style.css\" type=\"text/css\" media=\"screen, projection\" />\n    <link rel=\"alternate\" type=\"application/rss+xml\" href=\"/blog/index.xml\" title=\"Blog RSS Feed\" />\n\t\n</head>\n\n<body>\n\n<div class=\"container showgrids\">\n\n  <div class=\"span-21 header\">\n    <a href=\"/\"><img alt=\"memcached - a distributed memory object caching system\" src=\"/images/memcached_banner75.jpg\" /></a>\n  </div>\n\n  <div class=\"span-21 navbar rounded\">\n    <div id=\"toc\">\n        <ul class=\"a-index\">\n      \t<li id=\"m-index\"><a href=\"/\">Home</a></li>\n      \t<li id=\"m-about\"><a href=\"/about\">About</a></li>\n        <li id=\"m-downloads\"><a href=\"/downloads\">Downloads</a></li>\n        <li id=\"m-blog\"><a href=\"/blog\">Blog</a></li>\n        <li id=\"m-mail\"><a href=\"https://groups.google.com/group/memcached\">Mailing List</a></li>\n        <li id=\"m-wiki\"><a href=\"https://docs.memcached.org\">Docs</a></li>\n        <li id=\"m-bugs\"><a href=\"https://github.com/memcached/memcached/issues\">Bugs</a></li>\n        <li id=\"m-sponsor\"><a href=\"https://github.com/sponsors/dormando\">Sponsor Us!</a></li>\n      </ul>\n    </div>\n  </div>\n  \n  <div class=\"span-21\">\n    <br/>\n  </div>\n<div class=\"span-9\">\n  <div id=\"mc-is\" class=\"rounded\">\n    <h3>What is Memcached?</h3>\n\n      <p><strong>Free &amp; open source, high-performance, distributed memory object caching system</strong>, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.</p>\n\n      <p>Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page\n        rendering.</p>\n\n      <p><strong>Memcached is simple yet powerful</strong>. Its simple design promotes quick deployment, ease of development, and solves many problems facing large data caches. Its API is available for most popular languages.</p>\n      </div>\n\n    </div>\n\n    <div class=\"span-5\">\n      <div id=\"using-mc\">\n        <h3>Supported by</h3>\n        &nbsp;<a href=\"https://www.netflix.com\"><img src=\"images/netflix_logo_mc.png\" alt=\"Netflix\" /></a>\n\n      </div>\n    </div>\n\n    <div class=\"span-7 last\">\n      <div id=\"download-source\" class=\"rounded\">\n<h3>Download Memcached</h3> \n<div class=\"inner rounded\">\n  <div class=\"center pad\">\n    The latest stable memcached release is \n    <div id=\"current-release\">\n        <div id=\"ver\">v1.6.45</div>\n    </div>\n    <a href=\"https://github.com/memcached/memcached/wiki/ReleaseNotes1645\">release notes</a>\n    <small>(2026-7-9)</small>\n  </div>\n\t<table><tr><td>\n\t  <div class=\"center\">\n\t\t  <img width=\"60\" src=\"images/tar.png\" alt=\"Tar.Gz Download\" /><br/>\n          <a href=\"https://www.memcached.org/files/memcached-1.6.45.tar.gz\">tar.gz</a><br/>\n\t  </div>\n\t</td></tr></table>\n\t<div class=\"center\">\n\t  <a href=\"https://github.com/memcached/memcached/wiki/DevelopmentRepos\">Source and Development</a>\n\t</div>\n</div>\n</div>\n\n    </div>\n\n    <div class=\"span-21\">\n      <h2 class=\"section-start rounded\">Quick Example</h2>\n    </div>\n\n    <div class=\"span-11\">\n      <div class=\"example\">\n        <h3>Cache Results</h3>\n        \n<pre>function get_foo(foo_id)\n    foo = memcached_get(\"foo:\" . foo_id)\n    return foo if defined foo\n\n    foo = fetch_foo_from_database(foo_id)\n    memcached_set(\"foo:\" . foo_id, foo)\n    return foo\nend\n</pre>\n\n      </div>\n    </div>\n\n    <div class=\"span-10 last\">\n      <div class=\"example\">\n        <h3>Play with telnet</h3>\n        \n<pre>$ telnet localhost 11211\nTrying 127.0.0.1...\nConnected to localhost.\nEscape character is '^]'.\nget foo\nVALUE foo 0 2\nhi\nEND\nstats\nSTAT pid 8861\n(etc)\n</pre>\n\n      </div>\n    </div>\n\n    <br style=\"clear:both;\" />\n    <br style=\"clear:both;\" />\n    \n    <div class=\"span-21\">\n      <h2 class=\"section-start rounded\">Got a Question?</h2>\n    </div>\n\n    <div class=\"span-7\">\n      <h3 class=\"title\">Chat</h3>\n      <p>If you are curious about something, feel free to ask\n        on the support chats -\n        <a href=\"https://discord.gg/AuD7kJTdvS\">join the Discord Chat</a></p>\n    </div>\n    \n    <div class=\"span-7\">\n      <h3 class=\"title\">Documentation</h3>\n      <p>\n        Many common questions are answered at the \n        <a href=\"https://docs.memcached.org\">Documentation Site</a>.\n      </p>\n    </div>\n    \n    <div class=\"span-7 last\">\n      <h3 class=\"title\">Email</h3>\n        <p>Please feel free to bug us on the \n          <a href=\"http://groups.google.com/group/memcached\">memcached mailing list</a>.</p>\n    </div>\n    \n    <div class=\"span-21\">\n      <div id=\"tip\">\n        Interested in business support, or sponsoring memcached's development?\n        <a href=\"https://www.cacheforge.com\">Cache Forge</a>\n      </div>\n    </div>\n\n\n  <div class=\"span-21\">\n    <br/><br/>\n  </div>\n  \n  <div class=\"span-21 footer rounded\">\n  \t<div class=\"menu\">\n        This page is maintained by Dormando. Logo/Banner images are Copyright (c) 2009-2018\n        Dormando, and may not be used without permission.\n  \t\t<br/>\n        Layout forked from Scott Chacon and Petr Baudis' <a href=\"http://git-scm.com\">git-scm.com</a>\n  \t\t<p>Please contact the mailing list with suggestions and comments.</p>\n\t  </div>\n  </div>\n \n</div>\n\n</body>\n</html>\n",
+      "url": "https://memcached.org/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"\n  xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n  \n  <url>\n    <loc>https://memcached.org/</loc>\n    <lastmod>2026-06-07T16:21:31-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/</loc>\n    <lastmod>2026-06-07T16:21:31-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/cache-cost/</loc>\n    <lastmod>2026-06-07T16:21:31-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/how-long-for-real/</loc>\n    <lastmod>2026-05-22T14:07:28-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/proxy-intro/</loc>\n    <lastmod>2024-03-27T12:44:59-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/paper-review-memc3/</loc>\n    <lastmod>2020-02-23T12:10:51-08:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/persistent-memory-2/</loc>\n    <lastmod>2019-05-08T02:50:21-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/persistent-memory/</loc>\n    <lastmod>2019-04-30T08:32:41-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/nvm-multidisk/</loc>\n    <lastmod>2019-02-04T10:30:00-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/modern-lru/</loc>\n    <lastmod>2018-10-15T11:00:57-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/extstore-cloud/</loc>\n    <lastmod>2018-08-15T11:42:09-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/downloads/</loc>\n    <lastmod>2018-06-26T14:44:12-07:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/blog/nvm-caching/</loc>\n    <lastmod>2018-06-12T00:00:00+00:00</lastmod>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/about/</loc>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/categories/</loc>\n    <priority>0</priority>\n  </url>\n  \n  <url>\n    <loc>https://memcached.org/tags/</loc>\n    <priority>0</priority>\n  </url>\n  \n</urlset>",
+      "url": "https://memcached.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.10.3</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://memcached.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.10.3</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://memcached.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "memcached.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-14T03:26:36.322Z",
+    "score": 30,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 7,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 2,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 271 words"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"memcached - a distributed memory object \"; missing/too-short meta description; no date signal; body text 271 words (moderate)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 2,
+      "l2.sitemap": 3,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
