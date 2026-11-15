@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "thepiratebay.org",
+    "fetchedAt": "2026-11-15T03:13:57.077Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "Crawl-delay: 1\nUser-agent: *\nDisallow: /session/\n",
+      "url": "https://thepiratebay.org/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</title>\n    <meta name=\"description\" content=\"Download music, movies, games, software and much more. The Pirate Bay is the galaxy's most resilient BitTorrent site.\">\n    <meta name=\"keywords\" content=\"mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, upload, share, kopimi, magnets, magnet\">\n    <meta name=\"google-site-verification\" content=\"bHFDBqNJvwG-zHP_GcGEt6vH1OiqdMBAke2M0IZmJ40\" />\n    <meta name=\"exoclick-site-verification\" content=\"4549acd5fe79561a832221ad8eec0ff8\">\n    <link href=\"https://torrindex.net/static/normalize.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://torrindex.net/static/tpb.css\" rel=\"stylesheet\" type=\"text/css\">\n    <script src=\"https://thepiratebay.org/static/main.js\"></script>\n    <script type='text/javascript' src='//unhappyweakness.com/0c/e3/13/0ce3135c177b20043c5650228182ad9a.js'></script>\n</head>\n<body class=\"align-center\" id=\"home\">\n    <header>\n        <nav>\n            <section><img src=\"https://torrindex.net/images/tpb.jpg\"></section>\n            <section>\n                <strong>Search Torrents</strong> |\n                <a href=\"/browse.php\" title=\"Browse Torrents\">Browse&nbsp;Torrents</a> |\n                <a href=\"/search.php?q=top100:recent\" title=\"Recent Torrents\">Recent&nbsp;Torrents</a> |\n                <a href=\"/top.php\" title=\"Top 100\">Top&nbsp;100</a>\n            </section>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <form action=\"/search.php\" name=\"q\">\n                <div>\n                    <input name=\"q\" type=\"search\" title=\"Pirate Search\" placeholder=\"Pirate Search\" autofocus required style=\"width: 20em; padding: 4px;\">\n                </div>\n                <div>\n                    <span class=\"form-box\"><label title=\"All\" for=\"all\" accesskey=\"a\"><input name=\"all\" id=\"all\" type=\"checkbox\" onclick=\"setAll();\" checked>All</label></span>\n                    <span class=\"form-box\"><label title=\"Audio\" for=\"audio\" accesskey=\"q\"><input name=\"audio\" id=\"audio\" type=\"checkbox\" onclick=\"rmAll();\">Audio</label></span>\n                    <span class=\"form-box\"><label title=\"Video\" for=\"video\" accesskey=\"w\"><input name=\"video\" id=\"video\" type=\"checkbox\" onclick=\"rmAll();\">Video</label></span>\n                    <span class=\"form-box\"><label title=\"Applications\" for=\"apps\" accesskey=\"e\"><input name=\"apps\" id=\"apps\" type=\"checkbox\" onclick=\"rmAll();\">Applications</label></span>\n                    <span class=\"form-box\"><label title=\"Games\" for=\"games\" accesskey=\"r\"><input name=\"games\" id=\"games\" type=\"checkbox\" onclick=\"rmAll();\">Games</label></span>\n                    <span class=\"form-box\"><label title=\"Porn\" for=\"porn\" accesskey=\"t\"><input name=\"porn\" id=\"porn\" type=\"checkbox\" onclick=\"rmAll();\">Porn</label></span>\n                    <span class=\"form-box\"><label title=\"Other\" for=\"other\" accesskey=\"y\"><input name=\"other\" id=\"other\" type=\"checkbox\" onclick=\"rmAll();\">Other</label></span>\n                </div>\n                <div>\n                    <input type=\"submit\" title=\"Pirate Search\" name=\"search\" value=\"Pirate Search\" accesskey=\"s\">\n                    <input type=\"submit\" title=\"I'm Feeling Lucky\" name=\"lucky\" value=\"I'm Feeling Lucky\">\n                </div>\n                <input type=\"hidden\" name=\"page\" value=\"0\">\n                <input type=\"hidden\" name=\"orderby\" value=\"\">\n            </form>\n            </div>\n        </section>\n    </main>\n    <footer>\n        <nav>\n            <div>\n                <a href=\"/session/\" title=\"Login\">Login</a> |\n                <a href=\"https://pirates-forum.org/Thread-New-TPB-accounts-available\" title=\"Register\">Register</a>\n            </div>\n            <div>\n                <a href=\"http://piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion\" title=\"tor address\">TOR (New v3)</a> |\n\t\t<a target='_vpn' href=\"http://ikeanangelsaidthe.com/redirect?tid=858335\"><b>VPN</b></a> |\n                <a href=\"https://pirates-forum.org/\" title=\"discussion forum\" target=\"_blank\">Forum</a> |\n            </div>\n        </nav>\n        <p style=\"overflow-wrap: break-word;\">\n            <a href=\"https://bitcoin.org\" target=\"_NEW\">BTC</a>: <b><a href=\"bitcoin:bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m\">bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m</a></b>\n            <br /><a href=\"https://litecoin.org\" target=\"_NEW\">LTC</a>: <b><a href=\"litecoin:Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK\">Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK</a></b>\n            <br /><a href=\"https://ethereum.org\" target=\"_NEW\">ETH</a>: <b><a href=\"ethereum:0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09\">0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09</a></b>\n            <br /><a href=\"https://getmonero.org\" target=\"_NEW\">XMR</a>: <b><a href=\"monero:43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U\">43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U</a></b>\n        </p>\n    </footer>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"22ba130544af4eb0abcc2f3a53b11f87\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://thepiratebay.org/index.html"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</title>\n    <meta name=\"description\" content=\"Download music, movies, games, software and much more. The Pirate Bay is the galaxy's most resilient BitTorrent site.\">\n    <meta name=\"keywords\" content=\"mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, upload, share, kopimi, magnets, magnet\">\n    <meta name=\"google-site-verification\" content=\"bHFDBqNJvwG-zHP_GcGEt6vH1OiqdMBAke2M0IZmJ40\" />\n    <meta name=\"exoclick-site-verification\" content=\"4549acd5fe79561a832221ad8eec0ff8\">\n    <link href=\"https://torrindex.net/static/normalize.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://torrindex.net/static/tpb.css\" rel=\"stylesheet\" type=\"text/css\">\n    <script src=\"https://thepiratebay.org/static/main.js\"></script>\n    <script type='text/javascript' src='//unhappyweakness.com/0c/e3/13/0ce3135c177b20043c5650228182ad9a.js'></script>\n</head>\n<body class=\"align-center\" id=\"home\">\n    <header>\n        <nav>\n            <section><img src=\"https://torrindex.net/images/tpb.jpg\"></section>\n            <section>\n                <strong>Search Torrents</strong> |\n                <a href=\"/browse.php\" title=\"Browse Torrents\">Browse&nbsp;Torrents</a> |\n                <a href=\"/search.php?q=top100:recent\" title=\"Recent Torrents\">Recent&nbsp;Torrents</a> |\n                <a href=\"/top.php\" title=\"Top 100\">Top&nbsp;100</a>\n            </section>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <form action=\"/search.php\" name=\"q\">\n                <div>\n                    <input name=\"q\" type=\"search\" title=\"Pirate Search\" placeholder=\"Pirate Search\" autofocus required style=\"width: 20em; padding: 4px;\">\n                </div>\n                <div>\n                    <span class=\"form-box\"><label title=\"All\" for=\"all\" accesskey=\"a\"><input name=\"all\" id=\"all\" type=\"checkbox\" onclick=\"setAll();\" checked>All</label></span>\n                    <span class=\"form-box\"><label title=\"Audio\" for=\"audio\" accesskey=\"q\"><input name=\"audio\" id=\"audio\" type=\"checkbox\" onclick=\"rmAll();\">Audio</label></span>\n                    <span class=\"form-box\"><label title=\"Video\" for=\"video\" accesskey=\"w\"><input name=\"video\" id=\"video\" type=\"checkbox\" onclick=\"rmAll();\">Video</label></span>\n                    <span class=\"form-box\"><label title=\"Applications\" for=\"apps\" accesskey=\"e\"><input name=\"apps\" id=\"apps\" type=\"checkbox\" onclick=\"rmAll();\">Applications</label></span>\n                    <span class=\"form-box\"><label title=\"Games\" for=\"games\" accesskey=\"r\"><input name=\"games\" id=\"games\" type=\"checkbox\" onclick=\"rmAll();\">Games</label></span>\n                    <span class=\"form-box\"><label title=\"Porn\" for=\"porn\" accesskey=\"t\"><input name=\"porn\" id=\"porn\" type=\"checkbox\" onclick=\"rmAll();\">Porn</label></span>\n                    <span class=\"form-box\"><label title=\"Other\" for=\"other\" accesskey=\"y\"><input name=\"other\" id=\"other\" type=\"checkbox\" onclick=\"rmAll();\">Other</label></span>\n                </div>\n                <div>\n                    <input type=\"submit\" title=\"Pirate Search\" name=\"search\" value=\"Pirate Search\" accesskey=\"s\">\n                    <input type=\"submit\" title=\"I'm Feeling Lucky\" name=\"lucky\" value=\"I'm Feeling Lucky\">\n                </div>\n                <input type=\"hidden\" name=\"page\" value=\"0\">\n                <input type=\"hidden\" name=\"orderby\" value=\"\">\n            </form>\n            </div>\n        </section>\n    </main>\n    <footer>\n        <nav>\n            <div>\n                <a href=\"/session/\" title=\"Login\">Login</a> |\n                <a href=\"https://pirates-forum.org/Thread-New-TPB-accounts-available\" title=\"Register\">Register</a>\n            </div>\n            <div>\n                <a href=\"http://piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion\" title=\"tor address\">TOR (New v3)</a> |\n\t\t<a target='_vpn' href=\"http://ikeanangelsaidthe.com/redirect?tid=858335\"><b>VPN</b></a> |\n                <a href=\"https://pirates-forum.org/\" title=\"discussion forum\" target=\"_blank\">Forum</a> |\n            </div>\n        </nav>\n        <p style=\"overflow-wrap: break-word;\">\n            <a href=\"https://bitcoin.org\" target=\"_NEW\">BTC</a>: <b><a href=\"bitcoin:bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m\">bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m</a></b>\n            <br /><a href=\"https://litecoin.org\" target=\"_NEW\">LTC</a>: <b><a href=\"litecoin:Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK\">Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK</a></b>\n            <br /><a href=\"https://ethereum.org\" target=\"_NEW\">ETH</a>: <b><a href=\"ethereum:0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09\">0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09</a></b>\n            <br /><a href=\"https://getmonero.org\" target=\"_NEW\">XMR</a>: <b><a href=\"monero:43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U\">43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U</a></b>\n        </p>\n    </footer>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"22ba130544af4eb0abcc2f3a53b11f87\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://thepiratebay.org/index.html"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</title>\n    <meta name=\"description\" content=\"Download music, movies, games, software and much more. The Pirate Bay is the galaxy's most resilient BitTorrent site.\">\n    <meta name=\"keywords\" content=\"mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, upload, share, kopimi, magnets, magnet\">\n    <meta name=\"google-site-verification\" content=\"bHFDBqNJvwG-zHP_GcGEt6vH1OiqdMBAke2M0IZmJ40\" />\n    <meta name=\"exoclick-site-verification\" content=\"4549acd5fe79561a832221ad8eec0ff8\">\n    <link href=\"https://torrindex.net/static/normalize.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://torrindex.net/static/tpb.css\" rel=\"stylesheet\" type=\"text/css\">\n    <script src=\"https://thepiratebay.org/static/main.js\"></script>\n    <script type='text/javascript' src='//unhappyweakness.com/0c/e3/13/0ce3135c177b20043c5650228182ad9a.js'></script>\n</head>\n<body class=\"align-center\" id=\"home\">\n    <header>\n        <nav>\n            <section><img src=\"https://torrindex.net/images/tpb.jpg\"></section>\n            <section>\n                <strong>Search Torrents</strong> |\n                <a href=\"/browse.php\" title=\"Browse Torrents\">Browse&nbsp;Torrents</a> |\n                <a href=\"/search.php?q=top100:recent\" title=\"Recent Torrents\">Recent&nbsp;Torrents</a> |\n                <a href=\"/top.php\" title=\"Top 100\">Top&nbsp;100</a>\n            </section>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <form action=\"/search.php\" name=\"q\">\n                <div>\n                    <input name=\"q\" type=\"search\" title=\"Pirate Search\" placeholder=\"Pirate Search\" autofocus required style=\"width: 20em; padding: 4px;\">\n                </div>\n                <div>\n                    <span class=\"form-box\"><label title=\"All\" for=\"all\" accesskey=\"a\"><input name=\"all\" id=\"all\" type=\"checkbox\" onclick=\"setAll();\" checked>All</label></span>\n                    <span class=\"form-box\"><label title=\"Audio\" for=\"audio\" accesskey=\"q\"><input name=\"audio\" id=\"audio\" type=\"checkbox\" onclick=\"rmAll();\">Audio</label></span>\n                    <span class=\"form-box\"><label title=\"Video\" for=\"video\" accesskey=\"w\"><input name=\"video\" id=\"video\" type=\"checkbox\" onclick=\"rmAll();\">Video</label></span>\n                    <span class=\"form-box\"><label title=\"Applications\" for=\"apps\" accesskey=\"e\"><input name=\"apps\" id=\"apps\" type=\"checkbox\" onclick=\"rmAll();\">Applications</label></span>\n                    <span class=\"form-box\"><label title=\"Games\" for=\"games\" accesskey=\"r\"><input name=\"games\" id=\"games\" type=\"checkbox\" onclick=\"rmAll();\">Games</label></span>\n                    <span class=\"form-box\"><label title=\"Porn\" for=\"porn\" accesskey=\"t\"><input name=\"porn\" id=\"porn\" type=\"checkbox\" onclick=\"rmAll();\">Porn</label></span>\n                    <span class=\"form-box\"><label title=\"Other\" for=\"other\" accesskey=\"y\"><input name=\"other\" id=\"other\" type=\"checkbox\" onclick=\"rmAll();\">Other</label></span>\n                </div>\n                <div>\n                    <input type=\"submit\" title=\"Pirate Search\" name=\"search\" value=\"Pirate Search\" accesskey=\"s\">\n                    <input type=\"submit\" title=\"I'm Feeling Lucky\" name=\"lucky\" value=\"I'm Feeling Lucky\">\n                </div>\n                <input type=\"hidden\" name=\"page\" value=\"0\">\n                <input type=\"hidden\" name=\"orderby\" value=\"\">\n            </form>\n            </div>\n        </section>\n    </main>\n    <footer>\n        <nav>\n            <div>\n                <a href=\"/session/\" title=\"Login\">Login</a> |\n                <a href=\"https://pirates-forum.org/Thread-New-TPB-accounts-available\" title=\"Register\">Register</a>\n            </div>\n            <div>\n                <a href=\"http://piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion\" title=\"tor address\">TOR (New v3)</a> |\n\t\t<a target='_vpn' href=\"http://ikeanangelsaidthe.com/redirect?tid=858335\"><b>VPN</b></a> |\n                <a href=\"https://pirates-forum.org/\" title=\"discussion forum\" target=\"_blank\">Forum</a> |\n            </div>\n        </nav>\n        <p style=\"overflow-wrap: break-word;\">\n            <a href=\"https://bitcoin.org\" target=\"_NEW\">BTC</a>: <b><a href=\"bitcoin:bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m\">bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m</a></b>\n            <br /><a href=\"https://litecoin.org\" target=\"_NEW\">LTC</a>: <b><a href=\"litecoin:Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK\">Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK</a></b>\n            <br /><a href=\"https://ethereum.org\" target=\"_NEW\">ETH</a>: <b><a href=\"ethereum:0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09\">0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09</a></b>\n            <br /><a href=\"https://getmonero.org\" target=\"_NEW\">XMR</a>: <b><a href=\"monero:43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U\">43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U</a></b>\n        </p>\n    </footer>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"22ba130544af4eb0abcc2f3a53b11f87\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://thepiratebay.org/index.html"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</title>\n    <meta name=\"description\" content=\"Download music, movies, games, software and much more. The Pirate Bay is the galaxy's most resilient BitTorrent site.\">\n    <meta name=\"keywords\" content=\"mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, upload, share, kopimi, magnets, magnet\">\n    <meta name=\"google-site-verification\" content=\"bHFDBqNJvwG-zHP_GcGEt6vH1OiqdMBAke2M0IZmJ40\" />\n    <meta name=\"exoclick-site-verification\" content=\"4549acd5fe79561a832221ad8eec0ff8\">\n    <link href=\"https://torrindex.net/static/normalize.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://torrindex.net/static/tpb.css\" rel=\"stylesheet\" type=\"text/css\">\n    <script src=\"https://thepiratebay.org/static/main.js\"></script>\n    <script type='text/javascript' src='//unhappyweakness.com/0c/e3/13/0ce3135c177b20043c5650228182ad9a.js'></script>\n</head>\n<body class=\"align-center\" id=\"home\">\n    <header>\n        <nav>\n            <section><img src=\"https://torrindex.net/images/tpb.jpg\"></section>\n            <section>\n                <strong>Search Torrents</strong> |\n                <a href=\"/browse.php\" title=\"Browse Torrents\">Browse&nbsp;Torrents</a> |\n                <a href=\"/search.php?q=top100:recent\" title=\"Recent Torrents\">Recent&nbsp;Torrents</a> |\n                <a href=\"/top.php\" title=\"Top 100\">Top&nbsp;100</a>\n            </section>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <form action=\"/search.php\" name=\"q\">\n                <div>\n                    <input name=\"q\" type=\"search\" title=\"Pirate Search\" placeholder=\"Pirate Search\" autofocus required style=\"width: 20em; padding: 4px;\">\n                </div>\n                <div>\n                    <span class=\"form-box\"><label title=\"All\" for=\"all\" accesskey=\"a\"><input name=\"all\" id=\"all\" type=\"checkbox\" onclick=\"setAll();\" checked>All</label></span>\n                    <span class=\"form-box\"><label title=\"Audio\" for=\"audio\" accesskey=\"q\"><input name=\"audio\" id=\"audio\" type=\"checkbox\" onclick=\"rmAll();\">Audio</label></span>\n                    <span class=\"form-box\"><label title=\"Video\" for=\"video\" accesskey=\"w\"><input name=\"video\" id=\"video\" type=\"checkbox\" onclick=\"rmAll();\">Video</label></span>\n                    <span class=\"form-box\"><label title=\"Applications\" for=\"apps\" accesskey=\"e\"><input name=\"apps\" id=\"apps\" type=\"checkbox\" onclick=\"rmAll();\">Applications</label></span>\n                    <span class=\"form-box\"><label title=\"Games\" for=\"games\" accesskey=\"r\"><input name=\"games\" id=\"games\" type=\"checkbox\" onclick=\"rmAll();\">Games</label></span>\n                    <span class=\"form-box\"><label title=\"Porn\" for=\"porn\" accesskey=\"t\"><input name=\"porn\" id=\"porn\" type=\"checkbox\" onclick=\"rmAll();\">Porn</label></span>\n                    <span class=\"form-box\"><label title=\"Other\" for=\"other\" accesskey=\"y\"><input name=\"other\" id=\"other\" type=\"checkbox\" onclick=\"rmAll();\">Other</label></span>\n                </div>\n                <div>\n                    <input type=\"submit\" title=\"Pirate Search\" name=\"search\" value=\"Pirate Search\" accesskey=\"s\">\n                    <input type=\"submit\" title=\"I'm Feeling Lucky\" name=\"lucky\" value=\"I'm Feeling Lucky\">\n                </div>\n                <input type=\"hidden\" name=\"page\" value=\"0\">\n                <input type=\"hidden\" name=\"orderby\" value=\"\">\n            </form>\n            </div>\n        </section>\n    </main>\n    <footer>\n        <nav>\n            <div>\n                <a href=\"/session/\" title=\"Login\">Login</a> |\n                <a href=\"https://pirates-forum.org/Thread-New-TPB-accounts-available\" title=\"Register\">Register</a>\n            </div>\n            <div>\n                <a href=\"http://piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion\" title=\"tor address\">TOR (New v3)</a> |\n\t\t<a target='_vpn' href=\"http://ikeanangelsaidthe.com/redirect?tid=858335\"><b>VPN</b></a> |\n                <a href=\"https://pirates-forum.org/\" title=\"discussion forum\" target=\"_blank\">Forum</a> |\n            </div>\n        </nav>\n        <p style=\"overflow-wrap: break-word;\">\n            <a href=\"https://bitcoin.org\" target=\"_NEW\">BTC</a>: <b><a href=\"bitcoin:bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m\">bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m</a></b>\n            <br /><a href=\"https://litecoin.org\" target=\"_NEW\">LTC</a>: <b><a href=\"litecoin:Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK\">Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK</a></b>\n            <br /><a href=\"https://ethereum.org\" target=\"_NEW\">ETH</a>: <b><a href=\"ethereum:0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09\">0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09</a></b>\n            <br /><a href=\"https://getmonero.org\" target=\"_NEW\">XMR</a>: <b><a href=\"monero:43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U\">43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U</a></b>\n        </p>\n    </footer>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"22ba130544af4eb0abcc2f3a53b11f87\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://thepiratebay.org/index.html"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</title>\n    <meta name=\"description\" content=\"Download music, movies, games, software and much more. The Pirate Bay is the galaxy's most resilient BitTorrent site.\">\n    <meta name=\"keywords\" content=\"mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, upload, share, kopimi, magnets, magnet\">\n    <meta name=\"google-site-verification\" content=\"bHFDBqNJvwG-zHP_GcGEt6vH1OiqdMBAke2M0IZmJ40\" />\n    <meta name=\"exoclick-site-verification\" content=\"4549acd5fe79561a832221ad8eec0ff8\">\n    <link href=\"https://torrindex.net/static/normalize.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://torrindex.net/static/tpb.css\" rel=\"stylesheet\" type=\"text/css\">\n    <script src=\"https://thepiratebay.org/static/main.js\"></script>\n    <script type='text/javascript' src='//unhappyweakness.com/0c/e3/13/0ce3135c177b20043c5650228182ad9a.js'></script>\n</head>\n<body class=\"align-center\" id=\"home\">\n    <header>\n        <nav>\n            <section><img src=\"https://torrindex.net/images/tpb.jpg\"></section>\n            <section>\n                <strong>Search Torrents</strong> |\n                <a href=\"/browse.php\" title=\"Browse Torrents\">Browse&nbsp;Torrents</a> |\n                <a href=\"/search.php?q=top100:recent\" title=\"Recent Torrents\">Recent&nbsp;Torrents</a> |\n                <a href=\"/top.php\" title=\"Top 100\">Top&nbsp;100</a>\n            </section>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <form action=\"/search.php\" name=\"q\">\n                <div>\n                    <input name=\"q\" type=\"search\" title=\"Pirate Search\" placeholder=\"Pirate Search\" autofocus required style=\"width: 20em; padding: 4px;\">\n                </div>\n                <div>\n                    <span class=\"form-box\"><label title=\"All\" for=\"all\" accesskey=\"a\"><input name=\"all\" id=\"all\" type=\"checkbox\" onclick=\"setAll();\" checked>All</label></span>\n                    <span class=\"form-box\"><label title=\"Audio\" for=\"audio\" accesskey=\"q\"><input name=\"audio\" id=\"audio\" type=\"checkbox\" onclick=\"rmAll();\">Audio</label></span>\n                    <span class=\"form-box\"><label title=\"Video\" for=\"video\" accesskey=\"w\"><input name=\"video\" id=\"video\" type=\"checkbox\" onclick=\"rmAll();\">Video</label></span>\n                    <span class=\"form-box\"><label title=\"Applications\" for=\"apps\" accesskey=\"e\"><input name=\"apps\" id=\"apps\" type=\"checkbox\" onclick=\"rmAll();\">Applications</label></span>\n                    <span class=\"form-box\"><label title=\"Games\" for=\"games\" accesskey=\"r\"><input name=\"games\" id=\"games\" type=\"checkbox\" onclick=\"rmAll();\">Games</label></span>\n                    <span class=\"form-box\"><label title=\"Porn\" for=\"porn\" accesskey=\"t\"><input name=\"porn\" id=\"porn\" type=\"checkbox\" onclick=\"rmAll();\">Porn</label></span>\n                    <span class=\"form-box\"><label title=\"Other\" for=\"other\" accesskey=\"y\"><input name=\"other\" id=\"other\" type=\"checkbox\" onclick=\"rmAll();\">Other</label></span>\n                </div>\n                <div>\n                    <input type=\"submit\" title=\"Pirate Search\" name=\"search\" value=\"Pirate Search\" accesskey=\"s\">\n                    <input type=\"submit\" title=\"I'm Feeling Lucky\" name=\"lucky\" value=\"I'm Feeling Lucky\">\n                </div>\n                <input type=\"hidden\" name=\"page\" value=\"0\">\n                <input type=\"hidden\" name=\"orderby\" value=\"\">\n            </form>\n            </div>\n        </section>\n    </main>\n    <footer>\n        <nav>\n            <div>\n                <a href=\"/session/\" title=\"Login\">Login</a> |\n                <a href=\"https://pirates-forum.org/Thread-New-TPB-accounts-available\" title=\"Register\">Register</a>\n            </div>\n            <div>\n                <a href=\"http://piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion\" title=\"tor address\">TOR (New v3)</a> |\n\t\t<a target='_vpn' href=\"http://ikeanangelsaidthe.com/redirect?tid=858335\"><b>VPN</b></a> |\n                <a href=\"https://pirates-forum.org/\" title=\"discussion forum\" target=\"_blank\">Forum</a> |\n            </div>\n        </nav>\n        <p style=\"overflow-wrap: break-word;\">\n            <a href=\"https://bitcoin.org\" target=\"_NEW\">BTC</a>: <b><a href=\"bitcoin:bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m\">bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m</a></b>\n            <br /><a href=\"https://litecoin.org\" target=\"_NEW\">LTC</a>: <b><a href=\"litecoin:Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK\">Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK</a></b>\n            <br /><a href=\"https://ethereum.org\" target=\"_NEW\">ETH</a>: <b><a href=\"ethereum:0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09\">0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09</a></b>\n            <br /><a href=\"https://getmonero.org\" target=\"_NEW\">XMR</a>: <b><a href=\"monero:43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U\">43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U</a></b>\n        </p>\n    </footer>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"22ba130544af4eb0abcc2f3a53b11f87\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://thepiratebay.org/index.html"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://thepiratebay.org/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</title>\n    <meta name=\"description\" content=\"Download music, movies, games, software and much more. The Pirate Bay is the galaxy's most resilient BitTorrent site.\">\n    <meta name=\"keywords\" content=\"mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, upload, share, kopimi, magnets, magnet\">\n    <meta name=\"google-site-verification\" content=\"bHFDBqNJvwG-zHP_GcGEt6vH1OiqdMBAke2M0IZmJ40\" />\n    <meta name=\"exoclick-site-verification\" content=\"4549acd5fe79561a832221ad8eec0ff8\">\n    <link href=\"https://torrindex.net/static/normalize.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://torrindex.net/static/tpb.css\" rel=\"stylesheet\" type=\"text/css\">\n    <script src=\"https://thepiratebay.org/static/main.js\"></script>\n    <script type='text/javascript' src='//unhappyweakness.com/0c/e3/13/0ce3135c177b20043c5650228182ad9a.js'></script>\n</head>\n<body class=\"align-center\" id=\"home\">\n    <header>\n        <nav>\n            <section><img src=\"https://torrindex.net/images/tpb.jpg\"></section>\n            <section>\n                <strong>Search Torrents</strong> |\n                <a href=\"/browse.php\" title=\"Browse Torrents\">Browse&nbsp;Torrents</a> |\n                <a href=\"/search.php?q=top100:recent\" title=\"Recent Torrents\">Recent&nbsp;Torrents</a> |\n                <a href=\"/top.php\" title=\"Top 100\">Top&nbsp;100</a>\n            </section>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <form action=\"/search.php\" name=\"q\">\n                <div>\n                    <input name=\"q\" type=\"search\" title=\"Pirate Search\" placeholder=\"Pirate Search\" autofocus required style=\"width: 20em; padding: 4px;\">\n                </div>\n                <div>\n                    <span class=\"form-box\"><label title=\"All\" for=\"all\" accesskey=\"a\"><input name=\"all\" id=\"all\" type=\"checkbox\" onclick=\"setAll();\" checked>All</label></span>\n                    <span class=\"form-box\"><label title=\"Audio\" for=\"audio\" accesskey=\"q\"><input name=\"audio\" id=\"audio\" type=\"checkbox\" onclick=\"rmAll();\">Audio</label></span>\n                    <span class=\"form-box\"><label title=\"Video\" for=\"video\" accesskey=\"w\"><input name=\"video\" id=\"video\" type=\"checkbox\" onclick=\"rmAll();\">Video</label></span>\n                    <span class=\"form-box\"><label title=\"Applications\" for=\"apps\" accesskey=\"e\"><input name=\"apps\" id=\"apps\" type=\"checkbox\" onclick=\"rmAll();\">Applications</label></span>\n                    <span class=\"form-box\"><label title=\"Games\" for=\"games\" accesskey=\"r\"><input name=\"games\" id=\"games\" type=\"checkbox\" onclick=\"rmAll();\">Games</label></span>\n                    <span class=\"form-box\"><label title=\"Porn\" for=\"porn\" accesskey=\"t\"><input name=\"porn\" id=\"porn\" type=\"checkbox\" onclick=\"rmAll();\">Porn</label></span>\n                    <span class=\"form-box\"><label title=\"Other\" for=\"other\" accesskey=\"y\"><input name=\"other\" id=\"other\" type=\"checkbox\" onclick=\"rmAll();\">Other</label></span>\n                </div>\n                <div>\n                    <input type=\"submit\" title=\"Pirate Search\" name=\"search\" value=\"Pirate Search\" accesskey=\"s\">\n                    <input type=\"submit\" title=\"I'm Feeling Lucky\" name=\"lucky\" value=\"I'm Feeling Lucky\">\n                </div>\n                <input type=\"hidden\" name=\"page\" value=\"0\">\n                <input type=\"hidden\" name=\"orderby\" value=\"\">\n            </form>\n            </div>\n        </section>\n    </main>\n    <footer>\n        <nav>\n            <div>\n                <a href=\"/session/\" title=\"Login\">Login</a> |\n                <a href=\"https://pirates-forum.org/Thread-New-TPB-accounts-available\" title=\"Register\">Register</a>\n            </div>\n            <div>\n                <a href=\"http://piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion\" title=\"tor address\">TOR (New v3)</a> |\n\t\t<a target='_vpn' href=\"http://ikeanangelsaidthe.com/redirect?tid=858335\"><b>VPN</b></a> |\n                <a href=\"https://pirates-forum.org/\" title=\"discussion forum\" target=\"_blank\">Forum</a> |\n            </div>\n        </nav>\n        <p style=\"overflow-wrap: break-word;\">\n            <a href=\"https://bitcoin.org\" target=\"_NEW\">BTC</a>: <b><a href=\"bitcoin:bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m\">bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m</a></b>\n            <br /><a href=\"https://litecoin.org\" target=\"_NEW\">LTC</a>: <b><a href=\"litecoin:Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK\">Les2qb8tp16kcxkm6cxzWdCV5174pMzcNK</a></b>\n            <br /><a href=\"https://ethereum.org\" target=\"_NEW\">ETH</a>: <b><a href=\"ethereum:0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09\">0xc7F9f7Acc3941cC0Da9956410D0023FB936a6A09</a></b>\n            <br /><a href=\"https://getmonero.org\" target=\"_NEW\">XMR</a>: <b><a href=\"monero:43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U\">43pgpvwinkK4HCxJvEH7Fs2KMkH1VBCVqRjyCVLfCwTrGD1NzGSHkmuDUyFqCjBiCPLYePT1StfQn1uZhkPJczzzFXjYZ1U</a></b>\n        </p>\n    </footer>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"22ba130544af4eb0abcc2f3a53b11f87\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://thepiratebay.org/index.html"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "thepiratebay.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-15T03:13:57.077Z",
+    "score": 54,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 23,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 4/4; no h1; html[lang] present; body text 56 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Download music, movies, games, software!\"; meta description 83 chars; no date signal; body text 56 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://thepiratebay.org/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 5,
+      "l2.sitemap": 3,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

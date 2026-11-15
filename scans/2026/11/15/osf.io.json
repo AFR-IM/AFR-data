@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "osf.io",
+    "fetchedAt": "2026-11-15T03:35:27.177Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# www.robotstxt.org/\n\nUser-agent: *\nDisallow: /api/*\nDisallow: *?view_only=\ncrawl-delay: 10\n\n# Robots that have misbehaved\nUser-agent: PingBot\nUser-agent: PerplexityBot\nUser-agent: GPTBot\nUser-agent: BaiduSpider\nUser-agent: Meta-ExternalAgent\nDisallow: *",
+      "url": "https://osf.io/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container=\"\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>OSF</title>\n    <base href=\"/\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n    <script src=\"assets/ace-builds/ace.js\" defer=\"\"></script>\n    <script src=\"assets/js/newrelic/newrelic.snippet.js\"></script>\n  <style>@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}:root{--openSans:\"Open Sans\", sans-serif;--pr-blue-1:#337ab7;--pr-blue-2:#84aed2;--pr-blue-3:#0089ff;--dark-blue-1:#24384a;--dark-blue-2:#384b5c;--bg-blue-2:#e6f1fc;--bg-blue-3:#f1f8fd;--grey-1:#8b97a4;--grey-2:#e0e1e2;--grey-3:#eff0f1;--grey-4:#606b7b;--grey-outline:#00000029;--white:#ffffff;--green-1:#357935;--green-2:#d7e4d7;--green-3:#26ac26;--red-1:#b73333;--red-2:#f1d6d6;--red-3:#e40303;--yellow-1:#8a6d3a;--yellow-2:#fcf8e3;--green-1-alt:#37b183;--green-2-alt:#35aea9;--blue-1:#3792b1;--blue-2:#3379b7;--blue-3:#00beff;--green-1-bg:#ebf7f3;--green-2-bg:#ebf7f6;--blue-1-bg:#ebf4f7;--blue-2-bg:#ebf2f8;--white-60:rgba(256, 256, 256, .6);--osf-provider-primary-color:#f5fafd;--osf-provider-secondary-color:#204762;--gradient-1:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #ffffff;--gradient-2:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #f3f8fd;--gradient-3:linear-gradient(90.12deg, #dbedfb .03%, #eff4fc 54.38%, #dbedfb 98.07%);--p-form-field-color:var(--dark-blue-1);--p-form-field-border-color:var(--grey-2);--p-form-field-hover-border-color:var(--grey-1);--p-form-field-disabled-background:var(--white);--p-form-field-disabled-color:var(--grey-1);--p-form-field-placeholder-color:var(--grey-4);--p-list-option-color:var(--dark-blue-1);--p-list-option-focus-color:var(--dark-blue-1);--p-list-option-focus-background:var(--bg-blue-3);--p-list-option-selected-background:var(--bg-blue-2);--stepper-step-background:var(--white);--stepper-active-step-background:var(--pr-blue-1);--stepper-step-color:var(--dark-blue-1);--stepper-active-step-color:var(--white);--stepper-space-line-color:var(--white);--stepper-active-space-line-color:var(--pr-blue-1);--stepper-step-border-color:var(--white);--stepper-active-step-border-color:var(--pr-blue-1);--stepper-invalid-step-background:var(--white);--stepper-invalid-step-color:var(--red-1);--stepper-invalid-step-border-color:var(--red-1);--header-color:none;--header-background-color:none;--header-background-image-url:none;--branding-primary-color:var(--osf-provider-primary-color);--branding-secondary-color:var(--osf-provider-secondary-color);--branding-background-color:var(--white);--branding-hero-logo-image-url:none;--branding-hero-background-image-url:none}@layer reset,base,primeng;@layer reset{*{margin:0;padding:0;box-sizing:border-box}html,body{color:var(--dark-blue-1);font-family:var(--openSans);font-weight:400;font-size:16px;max-height:100vh;max-width:100vw}body{font-size:.875rem}}@layer base{*:focus-visible{outline:1px solid var(--pr-blue-1);outline-offset:2px}}:root{--p-button-padding-x:1rem;--p-button-padding-y:.5625rem;--p-button-label-font-weight:700;--p-button-raised-shadow:0 0 4px 0 var(--grey-outline)}:root{--p-tooltip-max-width:20rem}:root{--fa-family-brands:\"Font Awesome 7 Brands\";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}:root{--fa-family-classic:\"Font Awesome 7 Free\";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}</style><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\"></noscript></head>\n  <body ngcm=\"\">\n    <osf-root></osf-root>\n    <script>\n      window.prerenderReady = false;\n    </script>\n  <script src=\"scripts-O6FZJ6YQ.js\" defer=\"\"></script><script src=\"main-T4AIR7S5.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://osf.io/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container=\"\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>OSF</title>\n    <base href=\"/\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n    <script src=\"assets/ace-builds/ace.js\" defer=\"\"></script>\n    <script src=\"assets/js/newrelic/newrelic.snippet.js\"></script>\n  <style>@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}:root{--openSans:\"Open Sans\", sans-serif;--pr-blue-1:#337ab7;--pr-blue-2:#84aed2;--pr-blue-3:#0089ff;--dark-blue-1:#24384a;--dark-blue-2:#384b5c;--bg-blue-2:#e6f1fc;--bg-blue-3:#f1f8fd;--grey-1:#8b97a4;--grey-2:#e0e1e2;--grey-3:#eff0f1;--grey-4:#606b7b;--grey-outline:#00000029;--white:#ffffff;--green-1:#357935;--green-2:#d7e4d7;--green-3:#26ac26;--red-1:#b73333;--red-2:#f1d6d6;--red-3:#e40303;--yellow-1:#8a6d3a;--yellow-2:#fcf8e3;--green-1-alt:#37b183;--green-2-alt:#35aea9;--blue-1:#3792b1;--blue-2:#3379b7;--blue-3:#00beff;--green-1-bg:#ebf7f3;--green-2-bg:#ebf7f6;--blue-1-bg:#ebf4f7;--blue-2-bg:#ebf2f8;--white-60:rgba(256, 256, 256, .6);--osf-provider-primary-color:#f5fafd;--osf-provider-secondary-color:#204762;--gradient-1:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #ffffff;--gradient-2:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #f3f8fd;--gradient-3:linear-gradient(90.12deg, #dbedfb .03%, #eff4fc 54.38%, #dbedfb 98.07%);--p-form-field-color:var(--dark-blue-1);--p-form-field-border-color:var(--grey-2);--p-form-field-hover-border-color:var(--grey-1);--p-form-field-disabled-background:var(--white);--p-form-field-disabled-color:var(--grey-1);--p-form-field-placeholder-color:var(--grey-4);--p-list-option-color:var(--dark-blue-1);--p-list-option-focus-color:var(--dark-blue-1);--p-list-option-focus-background:var(--bg-blue-3);--p-list-option-selected-background:var(--bg-blue-2);--stepper-step-background:var(--white);--stepper-active-step-background:var(--pr-blue-1);--stepper-step-color:var(--dark-blue-1);--stepper-active-step-color:var(--white);--stepper-space-line-color:var(--white);--stepper-active-space-line-color:var(--pr-blue-1);--stepper-step-border-color:var(--white);--stepper-active-step-border-color:var(--pr-blue-1);--stepper-invalid-step-background:var(--white);--stepper-invalid-step-color:var(--red-1);--stepper-invalid-step-border-color:var(--red-1);--header-color:none;--header-background-color:none;--header-background-image-url:none;--branding-primary-color:var(--osf-provider-primary-color);--branding-secondary-color:var(--osf-provider-secondary-color);--branding-background-color:var(--white);--branding-hero-logo-image-url:none;--branding-hero-background-image-url:none}@layer reset,base,primeng;@layer reset{*{margin:0;padding:0;box-sizing:border-box}html,body{color:var(--dark-blue-1);font-family:var(--openSans);font-weight:400;font-size:16px;max-height:100vh;max-width:100vw}body{font-size:.875rem}}@layer base{*:focus-visible{outline:1px solid var(--pr-blue-1);outline-offset:2px}}:root{--p-button-padding-x:1rem;--p-button-padding-y:.5625rem;--p-button-label-font-weight:700;--p-button-raised-shadow:0 0 4px 0 var(--grey-outline)}:root{--p-tooltip-max-width:20rem}:root{--fa-family-brands:\"Font Awesome 7 Brands\";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}:root{--fa-family-classic:\"Font Awesome 7 Free\";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}</style><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\"></noscript></head>\n  <body ngcm=\"\">\n    <osf-root></osf-root>\n    <script>\n      window.prerenderReady = false;\n    </script>\n  <script src=\"scripts-O6FZJ6YQ.js\" defer=\"\"></script><script src=\"main-T4AIR7S5.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://osf.io/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container=\"\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>OSF</title>\n    <base href=\"/\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n    <script src=\"assets/ace-builds/ace.js\" defer=\"\"></script>\n    <script src=\"assets/js/newrelic/newrelic.snippet.js\"></script>\n  <style>@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}:root{--openSans:\"Open Sans\", sans-serif;--pr-blue-1:#337ab7;--pr-blue-2:#84aed2;--pr-blue-3:#0089ff;--dark-blue-1:#24384a;--dark-blue-2:#384b5c;--bg-blue-2:#e6f1fc;--bg-blue-3:#f1f8fd;--grey-1:#8b97a4;--grey-2:#e0e1e2;--grey-3:#eff0f1;--grey-4:#606b7b;--grey-outline:#00000029;--white:#ffffff;--green-1:#357935;--green-2:#d7e4d7;--green-3:#26ac26;--red-1:#b73333;--red-2:#f1d6d6;--red-3:#e40303;--yellow-1:#8a6d3a;--yellow-2:#fcf8e3;--green-1-alt:#37b183;--green-2-alt:#35aea9;--blue-1:#3792b1;--blue-2:#3379b7;--blue-3:#00beff;--green-1-bg:#ebf7f3;--green-2-bg:#ebf7f6;--blue-1-bg:#ebf4f7;--blue-2-bg:#ebf2f8;--white-60:rgba(256, 256, 256, .6);--osf-provider-primary-color:#f5fafd;--osf-provider-secondary-color:#204762;--gradient-1:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #ffffff;--gradient-2:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #f3f8fd;--gradient-3:linear-gradient(90.12deg, #dbedfb .03%, #eff4fc 54.38%, #dbedfb 98.07%);--p-form-field-color:var(--dark-blue-1);--p-form-field-border-color:var(--grey-2);--p-form-field-hover-border-color:var(--grey-1);--p-form-field-disabled-background:var(--white);--p-form-field-disabled-color:var(--grey-1);--p-form-field-placeholder-color:var(--grey-4);--p-list-option-color:var(--dark-blue-1);--p-list-option-focus-color:var(--dark-blue-1);--p-list-option-focus-background:var(--bg-blue-3);--p-list-option-selected-background:var(--bg-blue-2);--stepper-step-background:var(--white);--stepper-active-step-background:var(--pr-blue-1);--stepper-step-color:var(--dark-blue-1);--stepper-active-step-color:var(--white);--stepper-space-line-color:var(--white);--stepper-active-space-line-color:var(--pr-blue-1);--stepper-step-border-color:var(--white);--stepper-active-step-border-color:var(--pr-blue-1);--stepper-invalid-step-background:var(--white);--stepper-invalid-step-color:var(--red-1);--stepper-invalid-step-border-color:var(--red-1);--header-color:none;--header-background-color:none;--header-background-image-url:none;--branding-primary-color:var(--osf-provider-primary-color);--branding-secondary-color:var(--osf-provider-secondary-color);--branding-background-color:var(--white);--branding-hero-logo-image-url:none;--branding-hero-background-image-url:none}@layer reset,base,primeng;@layer reset{*{margin:0;padding:0;box-sizing:border-box}html,body{color:var(--dark-blue-1);font-family:var(--openSans);font-weight:400;font-size:16px;max-height:100vh;max-width:100vw}body{font-size:.875rem}}@layer base{*:focus-visible{outline:1px solid var(--pr-blue-1);outline-offset:2px}}:root{--p-button-padding-x:1rem;--p-button-padding-y:.5625rem;--p-button-label-font-weight:700;--p-button-raised-shadow:0 0 4px 0 var(--grey-outline)}:root{--p-tooltip-max-width:20rem}:root{--fa-family-brands:\"Font Awesome 7 Brands\";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}:root{--fa-family-classic:\"Font Awesome 7 Free\";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}</style><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\"></noscript></head>\n  <body ngcm=\"\">\n    <osf-root></osf-root>\n    <script>\n      window.prerenderReady = false;\n    </script>\n  <script src=\"scripts-O6FZJ6YQ.js\" defer=\"\"></script><script src=\"main-T4AIR7S5.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://osf.io/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container=\"\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>OSF</title>\n    <base href=\"/\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n    <script src=\"assets/ace-builds/ace.js\" defer=\"\"></script>\n    <script src=\"assets/js/newrelic/newrelic.snippet.js\"></script>\n  <style>@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}:root{--openSans:\"Open Sans\", sans-serif;--pr-blue-1:#337ab7;--pr-blue-2:#84aed2;--pr-blue-3:#0089ff;--dark-blue-1:#24384a;--dark-blue-2:#384b5c;--bg-blue-2:#e6f1fc;--bg-blue-3:#f1f8fd;--grey-1:#8b97a4;--grey-2:#e0e1e2;--grey-3:#eff0f1;--grey-4:#606b7b;--grey-outline:#00000029;--white:#ffffff;--green-1:#357935;--green-2:#d7e4d7;--green-3:#26ac26;--red-1:#b73333;--red-2:#f1d6d6;--red-3:#e40303;--yellow-1:#8a6d3a;--yellow-2:#fcf8e3;--green-1-alt:#37b183;--green-2-alt:#35aea9;--blue-1:#3792b1;--blue-2:#3379b7;--blue-3:#00beff;--green-1-bg:#ebf7f3;--green-2-bg:#ebf7f6;--blue-1-bg:#ebf4f7;--blue-2-bg:#ebf2f8;--white-60:rgba(256, 256, 256, .6);--osf-provider-primary-color:#f5fafd;--osf-provider-secondary-color:#204762;--gradient-1:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #ffffff;--gradient-2:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #f3f8fd;--gradient-3:linear-gradient(90.12deg, #dbedfb .03%, #eff4fc 54.38%, #dbedfb 98.07%);--p-form-field-color:var(--dark-blue-1);--p-form-field-border-color:var(--grey-2);--p-form-field-hover-border-color:var(--grey-1);--p-form-field-disabled-background:var(--white);--p-form-field-disabled-color:var(--grey-1);--p-form-field-placeholder-color:var(--grey-4);--p-list-option-color:var(--dark-blue-1);--p-list-option-focus-color:var(--dark-blue-1);--p-list-option-focus-background:var(--bg-blue-3);--p-list-option-selected-background:var(--bg-blue-2);--stepper-step-background:var(--white);--stepper-active-step-background:var(--pr-blue-1);--stepper-step-color:var(--dark-blue-1);--stepper-active-step-color:var(--white);--stepper-space-line-color:var(--white);--stepper-active-space-line-color:var(--pr-blue-1);--stepper-step-border-color:var(--white);--stepper-active-step-border-color:var(--pr-blue-1);--stepper-invalid-step-background:var(--white);--stepper-invalid-step-color:var(--red-1);--stepper-invalid-step-border-color:var(--red-1);--header-color:none;--header-background-color:none;--header-background-image-url:none;--branding-primary-color:var(--osf-provider-primary-color);--branding-secondary-color:var(--osf-provider-secondary-color);--branding-background-color:var(--white);--branding-hero-logo-image-url:none;--branding-hero-background-image-url:none}@layer reset,base,primeng;@layer reset{*{margin:0;padding:0;box-sizing:border-box}html,body{color:var(--dark-blue-1);font-family:var(--openSans);font-weight:400;font-size:16px;max-height:100vh;max-width:100vw}body{font-size:.875rem}}@layer base{*:focus-visible{outline:1px solid var(--pr-blue-1);outline-offset:2px}}:root{--p-button-padding-x:1rem;--p-button-padding-y:.5625rem;--p-button-label-font-weight:700;--p-button-raised-shadow:0 0 4px 0 var(--grey-outline)}:root{--p-tooltip-max-width:20rem}:root{--fa-family-brands:\"Font Awesome 7 Brands\";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}:root{--fa-family-classic:\"Font Awesome 7 Free\";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}</style><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\"></noscript></head>\n  <body ngcm=\"\">\n    <osf-root></osf-root>\n    <script>\n      window.prerenderReady = false;\n    </script>\n  <script src=\"scripts-O6FZJ6YQ.js\" defer=\"\"></script><script src=\"main-T4AIR7S5.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://osf.io/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container=\"\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>OSF</title>\n    <base href=\"/\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n    <script src=\"assets/ace-builds/ace.js\" defer=\"\"></script>\n    <script src=\"assets/js/newrelic/newrelic.snippet.js\"></script>\n  <style>@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}:root{--openSans:\"Open Sans\", sans-serif;--pr-blue-1:#337ab7;--pr-blue-2:#84aed2;--pr-blue-3:#0089ff;--dark-blue-1:#24384a;--dark-blue-2:#384b5c;--bg-blue-2:#e6f1fc;--bg-blue-3:#f1f8fd;--grey-1:#8b97a4;--grey-2:#e0e1e2;--grey-3:#eff0f1;--grey-4:#606b7b;--grey-outline:#00000029;--white:#ffffff;--green-1:#357935;--green-2:#d7e4d7;--green-3:#26ac26;--red-1:#b73333;--red-2:#f1d6d6;--red-3:#e40303;--yellow-1:#8a6d3a;--yellow-2:#fcf8e3;--green-1-alt:#37b183;--green-2-alt:#35aea9;--blue-1:#3792b1;--blue-2:#3379b7;--blue-3:#00beff;--green-1-bg:#ebf7f3;--green-2-bg:#ebf7f6;--blue-1-bg:#ebf4f7;--blue-2-bg:#ebf2f8;--white-60:rgba(256, 256, 256, .6);--osf-provider-primary-color:#f5fafd;--osf-provider-secondary-color:#204762;--gradient-1:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #ffffff;--gradient-2:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #f3f8fd;--gradient-3:linear-gradient(90.12deg, #dbedfb .03%, #eff4fc 54.38%, #dbedfb 98.07%);--p-form-field-color:var(--dark-blue-1);--p-form-field-border-color:var(--grey-2);--p-form-field-hover-border-color:var(--grey-1);--p-form-field-disabled-background:var(--white);--p-form-field-disabled-color:var(--grey-1);--p-form-field-placeholder-color:var(--grey-4);--p-list-option-color:var(--dark-blue-1);--p-list-option-focus-color:var(--dark-blue-1);--p-list-option-focus-background:var(--bg-blue-3);--p-list-option-selected-background:var(--bg-blue-2);--stepper-step-background:var(--white);--stepper-active-step-background:var(--pr-blue-1);--stepper-step-color:var(--dark-blue-1);--stepper-active-step-color:var(--white);--stepper-space-line-color:var(--white);--stepper-active-space-line-color:var(--pr-blue-1);--stepper-step-border-color:var(--white);--stepper-active-step-border-color:var(--pr-blue-1);--stepper-invalid-step-background:var(--white);--stepper-invalid-step-color:var(--red-1);--stepper-invalid-step-border-color:var(--red-1);--header-color:none;--header-background-color:none;--header-background-image-url:none;--branding-primary-color:var(--osf-provider-primary-color);--branding-secondary-color:var(--osf-provider-secondary-color);--branding-background-color:var(--white);--branding-hero-logo-image-url:none;--branding-hero-background-image-url:none}@layer reset,base,primeng;@layer reset{*{margin:0;padding:0;box-sizing:border-box}html,body{color:var(--dark-blue-1);font-family:var(--openSans);font-weight:400;font-size:16px;max-height:100vh;max-width:100vw}body{font-size:.875rem}}@layer base{*:focus-visible{outline:1px solid var(--pr-blue-1);outline-offset:2px}}:root{--p-button-padding-x:1rem;--p-button-padding-y:.5625rem;--p-button-label-font-weight:700;--p-button-raised-shadow:0 0 4px 0 var(--grey-outline)}:root{--p-tooltip-max-width:20rem}:root{--fa-family-brands:\"Font Awesome 7 Brands\";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}:root{--fa-family-classic:\"Font Awesome 7 Free\";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}</style><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\"></noscript></head>\n  <body ngcm=\"\">\n    <osf-root></osf-root>\n    <script>\n      window.prerenderReady = false;\n    </script>\n  <script src=\"scripts-O6FZJ6YQ.js\" defer=\"\"></script><script src=\"main-T4AIR7S5.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://osf.io/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://osf.io/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" data-beasties-container=\"\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>OSF</title>\n    <base href=\"/\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n    <script src=\"assets/ace-builds/ace.js\" defer=\"\"></script>\n    <script src=\"assets/js/newrelic/newrelic.snippet.js\"></script>\n  <style>@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}:root{--openSans:\"Open Sans\", sans-serif;--pr-blue-1:#337ab7;--pr-blue-2:#84aed2;--pr-blue-3:#0089ff;--dark-blue-1:#24384a;--dark-blue-2:#384b5c;--bg-blue-2:#e6f1fc;--bg-blue-3:#f1f8fd;--grey-1:#8b97a4;--grey-2:#e0e1e2;--grey-3:#eff0f1;--grey-4:#606b7b;--grey-outline:#00000029;--white:#ffffff;--green-1:#357935;--green-2:#d7e4d7;--green-3:#26ac26;--red-1:#b73333;--red-2:#f1d6d6;--red-3:#e40303;--yellow-1:#8a6d3a;--yellow-2:#fcf8e3;--green-1-alt:#37b183;--green-2-alt:#35aea9;--blue-1:#3792b1;--blue-2:#3379b7;--blue-3:#00beff;--green-1-bg:#ebf7f3;--green-2-bg:#ebf7f6;--blue-1-bg:#ebf4f7;--blue-2-bg:#ebf2f8;--white-60:rgba(256, 256, 256, .6);--osf-provider-primary-color:#f5fafd;--osf-provider-secondary-color:#204762;--gradient-1:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #ffffff;--gradient-2:linear-gradient( 90.12deg, rgba(219, 237, 251, .5) .03%, rgba(239, 244, 252, .5) 54.38%, rgba(219, 237, 251, .5) 98.07% ), #f3f8fd;--gradient-3:linear-gradient(90.12deg, #dbedfb .03%, #eff4fc 54.38%, #dbedfb 98.07%);--p-form-field-color:var(--dark-blue-1);--p-form-field-border-color:var(--grey-2);--p-form-field-hover-border-color:var(--grey-1);--p-form-field-disabled-background:var(--white);--p-form-field-disabled-color:var(--grey-1);--p-form-field-placeholder-color:var(--grey-4);--p-list-option-color:var(--dark-blue-1);--p-list-option-focus-color:var(--dark-blue-1);--p-list-option-focus-background:var(--bg-blue-3);--p-list-option-selected-background:var(--bg-blue-2);--stepper-step-background:var(--white);--stepper-active-step-background:var(--pr-blue-1);--stepper-step-color:var(--dark-blue-1);--stepper-active-step-color:var(--white);--stepper-space-line-color:var(--white);--stepper-active-space-line-color:var(--pr-blue-1);--stepper-step-border-color:var(--white);--stepper-active-step-border-color:var(--pr-blue-1);--stepper-invalid-step-background:var(--white);--stepper-invalid-step-color:var(--red-1);--stepper-invalid-step-border-color:var(--red-1);--header-color:none;--header-background-color:none;--header-background-image-url:none;--branding-primary-color:var(--osf-provider-primary-color);--branding-secondary-color:var(--osf-provider-secondary-color);--branding-background-color:var(--white);--branding-hero-logo-image-url:none;--branding-hero-background-image-url:none}@layer reset,base,primeng;@layer reset{*{margin:0;padding:0;box-sizing:border-box}html,body{color:var(--dark-blue-1);font-family:var(--openSans);font-weight:400;font-size:16px;max-height:100vh;max-width:100vw}body{font-size:.875rem}}@layer base{*:focus-visible{outline:1px solid var(--pr-blue-1);outline-offset:2px}}:root{--p-button-padding-x:1rem;--p-button-padding-y:.5625rem;--p-button-label-font-weight:700;--p-button-raised-shadow:0 0 4px 0 var(--grey-outline)}:root{--p-tooltip-max-width:20rem}:root{--fa-family-brands:\"Font Awesome 7 Brands\";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}:root{--fa-family-classic:\"Font Awesome 7 Free\";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}</style><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-KRTEHDKY.css\"></noscript></head>\n  <body ngcm=\"\">\n    <osf-root></osf-root>\n    <script>\n      window.prerenderReady = false;\n    </script>\n  <script src=\"scripts-O6FZJ6YQ.js\" defer=\"\"></script><script src=\"main-T4AIR7S5.js\" type=\"module\"></script></body>\n</html>\n",
+      "url": "https://osf.io/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "osf.io",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-15T03:35:27.177Z",
+    "score": 48,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 24.46,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 14.46,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 5.63/9 · hybrid 3.00/6 · training 5.83/10; strategy tag Middle-Path. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, Googlebot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 16,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 1 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"OSF\"; missing/too-short meta description; no date signal; body text 1 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://osf.io/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 14.46,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 2,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

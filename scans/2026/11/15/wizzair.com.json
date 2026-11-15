@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "wizzair.com",
+    "fetchedAt": "2026-11-15T02:47:35.433Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\n# Excluding the 404 and the 500 pages\nDisallow: /en-gb/404\nDisallow: /hu-hu/404\nDisallow: /cs-cz/404\nDisallow: /bg-bg/404\nDisallow: /de-de/404\nDisallow: /es-es/404\nDisallow: /fr-fr/404\nDisallow: /it-it/404\nDisallow: /lv-lv/404\nDisallow: /lt-lt/404\nDisallow: /mk-mk/404\nDisallow: /nl-nl/404\nDisallow: /pl-pl/404\nDisallow: /pt-pt/404\nDisallow: /ro-ro/404\nDisallow: /ru-ru/404\nDisallow: /sv-se/404\nDisallow: /sr-cyrl-rs/404\nDisallow: /uk-ua/404\nDisallow: /bs-latn-ba/404\nDisallow: /sk-sk/404\nDisallow: /ka-ge/404\nDisallow: /nb-no/404\nDisallow: /sq-al/404\nDisallow: /ca-es/404\nDisallow: /el-gr/404\nDisallow: /ar-ae/404\nDisallow: /hi-in/404\nDisallow: /zh-cn/404\nDisallow: /en-gb/500\nDisallow: /hu-hu/500\nDisallow: /cs-cz/500\nDisallow: /bg-bg/500\nDisallow: /de-de/500\nDisallow: /es-es/500\nDisallow: /fr-fr/500\nDisallow: /it-it/500\nDisallow: /lv-lv/500\nDisallow: /lt-lt/500\nDisallow: /mk-mk/500\nDisallow: /nl-nl/500\nDisallow: /pl-pl/500\nDisallow: /pt-pt/500\nDisallow: /ro-ro/500\nDisallow: /ru-ru/500\nDisallow: /sv-se/500\nDisallow: /sr-cyrl-rs/500\nDisallow: /uk-ua/500\nDisallow: /bs-latn-ba/500\nDisallow: /sk-sk/500\nDisallow: /ka-ge/500\nDisallow: /nb-no/500\nDisallow: /sq-al/500\nDisallow: /ca-es/500\nDisallow: /el-gr/500\nDisallow: /ar-ae/500\nDisallow: /hi-in/500\nDisallow: /zh-cn/500\n\n# Excluding everything under the booking, check-in, itinerary and profile\nDisallow: /en-gb/booking/\nDisallow: /hu-hu/booking/\nDisallow: /cs-cz/booking/\nDisallow: /bg-bg/booking/\nDisallow: /de-de/booking/\nDisallow: /es-es/booking/\nDisallow: /fr-fr/booking/\nDisallow: /it-it/booking/\nDisallow: /lv-lv/booking/\nDisallow: /lt-lt/booking/\nDisallow: /mk-mk/booking/\nDisallow: /nl-nl/booking/\nDisallow: /pl-pl/booking/\nDisallow: /pt-pt/booking/\nDisallow: /ro-ro/booking/\nDisallow: /ru-ru/booking/\nDisallow: /sv-se/booking/\nDisallow: /sr-cyrl-rs/booking/\nDisallow: /uk-ua/booking/\nDisallow: /bs-latn-ba/booking/\nDisallow: /sk-sk/booking/\nDisallow: /ka-ge/booking/\nDisallow: /nb-no/booking/\nDisallow: /sq-al/booking/\nDisallow: /ca-es/booking/\nDisallow: /el-gr/booking/\nDisallow: /ar-ae/booking/\nDisallow: /hi-in/booking/\nDisallow: /zh-cn/booking/\nDisallow: /en-gb/check-in/\nDisallow: /hu-hu/check-in/\nDisallow: /cs-cz/check-in/\nDisallow: /bg-bg/check-in/\nDisallow: /de-de/check-in/\nDisallow: /es-es/check-in/\nDisallow: /fr-fr/check-in/\nDisallow: /it-it/check-in/\nDisallow: /lv-lv/check-in/\nDisallow: /lt-lt/check-in/\nDisallow: /mk-mk/check-in/\nDisallow: /nl-nl/check-in/\nDisallow: /pl-pl/check-in/\nDisallow: /pt-pt/check-in/\nDisallow: /ro-ro/check-in/\nDisallow: /ru-ru/check-in/\nDisallow: /sv-se/check-in/\nDisallow: /sr-cyrl-rs/check-in/\nDisallow: /uk-ua/check-in/\nDisallow: /bs-latn-ba/check-in/\nDisallow: /sk-sk/check-in/\nDisallow: /ka-ge/check-in/\nDisallow: /nb-no/check-in/\nDisallow: /sq-al/check-in/\nDisallow: /ca-es/check-in/\nDisallow: /el-gr/check-in/\nDisallow: /ar-ae/check-in/\nDisallow: /hi-in/check-in/\nDisallow: /zh-cn/check-in/\nDisallow: /en-gb/itinerary/\nDisallow: /hu-hu/itinerary/\nDisallow: /cs-cz/itinerary/\nDisallow: /bg-bg/itinerary/\nDisallow: /de-de/itinerary/\nDisallow: /es-es/itinerary/\nDisallow: /fr-fr/itinerary/\nDisallow: /it-it/itinerary/\nDisallow: /lv-lv/itinerary/\nDisallow: /lt-lt/itinerary/\nDisallow: /mk-mk/itinerary/\nDisallow: /nl-nl/itinerary/\nDisallow: /pl-pl/itinerary/\nDisallow: /pt-pt/itinerary/\nDisallow: /ro-ro/itinerary/\nDisallow: /ru-ru/itinerary/\nDisallow: /sv-se/itinerary/\nDisallow: /sr-cyrl-rs/itinerary/\nDisallow: /uk-ua/itinerary/\nDisallow: /bs-latn-ba/itinerary/\nDisallow: /sk-sk/itinerary/\nDisallow: /ka-ge/itinerary/\nDisallow: /nb-no/itinerary/\nDisallow: /sq-al/itinerary/\nDisallow: /ca-es/itinerary/\nDisallow: /el-gr/itinerary/\nDisallow: /ar-ae/itinerary/\nDisallow: /hi-in/itinerary/\nDisallow: /zh-cn/itinerary/\nDisallow: /en-gb/itinerary-new/\nDisallow: /hu-hu/itinerary-new/\nDisallow: /cs-cz/itinerary-new/\nDisallow: /bg-bg/itinerary-new/\nDisallow: /de-de/itinerary-new/\nDisallow: /es-es/itinerary-new/\nDisallow: /fr-fr/itinerary-new/\nDisallow: /it-it/itinerary-new/\nDisallow: /lv-lv/itinerary-new/\nDisallow: /lt-lt/itinerary-new/\nDisallow: /mk-mk/itinerary-new/\nDisallow: /nl-nl/itinerary-new/\nDisallow: /pl-pl/itinerary-new/\nDisallow: /pt-pt/itinerary-new/\nDisallow: /ro-ro/itinerary-new/\nDisallow: /ru-ru/itinerary-new/\nDisallow: /sv-se/itinerary-new/\nDisallow: /sr-cyrl-rs/itinerary-new/\nDisallow: /uk-ua/itinerary-new/\nDisallow: /bs-latn-ba/itinerary-new/\nDisallow: /sk-sk/itinerary-new/\nDisallow: /ka-ge/itinerary-new/\nDisallow: /nb-no/itinerary-new/\nDisallow: /sq-al/itinerary-new/\nDisallow: /ca-es/itinerary-new/\nDisallow: /el-gr/itinerary-new/\nDisallow: /ar-ae/itinerary-new/\nDisallow: /hi-in/itinerary-new/\nDisallow: /zh-cn/itinerary-new/\nDisallow: /en-gb/profile/\nDisallow: /hu-hu/profile/\nDisallow: /cs-cz/profile/\nDisallow: /bg-bg/profile/\nDisallow: /de-de/profile/\nDisallow: /es-es/profile/\nDisallow: /fr-fr/profile/\nDisallow: /it-it/profile/\nDisallow: /lv-lv/profile/\nDisallow: /lt-lt/profile/\nDisallow: /mk-mk/profile/\nDisallow: /nl-nl/profile/\nDisallow: /pl-pl/profile/\nDisallow: /pt-pt/profile/\nDisallow: /ro-ro/profile/\nDisallow: /ru-ru/profile/\nDisallow: /sv-se/profile/\nDisallow: /sr-cyrl-rs/profile/\nDisallow: /uk-ua/profile/\nDisallow: /bs-latn-ba/profile/\nDisallow: /sk-sk/profile/\nDisallow: /ka-ge/profile/\nDisallow: /nb-no/profile/\nDisallow: /sq-al/profile/\nDisallow: /ca-es/profile/\nDisallow: /el-gr/profile/\nDisallow: /ar-ae/profile/\nDisallow: /hi-in/profile/\nDisallow: /zh-cn/profile/\n\n# Excluding root pages of booking, check-in, itinerary and profile\nDisallow: /en-gb/booking\nDisallow: /hu-hu/booking\nDisallow: /cs-cz/booking\nDisallow: /bg-bg/booking\nDisallow: /de-de/booking\nDisallow: /es-es/booking\nDisallow: /fr-fr/booking\nDisallow: /it-it/booking\nDisallow: /lv-lv/booking\nDisallow: /lt-lt/booking\nDisallow: /mk-mk/booking\nDisallow: /nl-nl/booking\nDisallow: /pl-pl/booking\nDisallow: /pt-pt/booking\nDisallow: /ro-ro/booking\nDisallow: /ru-ru/booking\nDisallow: /sv-se/booking\nDisallow: /sr-cyrl-rs/booking\nDisallow: /uk-ua/booking\nDisallow: /bs-latn-ba/booking\nDisallow: /sk-sk/booking\nDisallow: /ka-ge/booking\nDisallow: /nb-no/booking\nDisallow: /sq-al/booking\nDisallow: /ca-es/booking\nDisallow: /el-gr/booking\nDisallow: /ar-ae/booking\nDisallow: /hi-in/booking\nDisallow: /zh-cn/booking\nDisallow: /en-gb/check-in\nDisallow: /hu-hu/check-in\nDisallow: /cs-cz/check-in\nDisallow: /bg-bg/check-in\nDisallow: /de-de/check-in\nDisallow: /es-es/check-in\nDisallow: /fr-fr/check-in\nDisallow: /it-it/check-in\nDisallow: /lv-lv/check-in\nDisallow: /lt-lt/check-in\nDisallow: /mk-mk/check-in\nDisallow: /nl-nl/check-in\nDisallow: /pl-pl/check-in\nDisallow: /pt-pt/check-in\nDisallow: /ro-ro/check-in\nDisallow: /ru-ru/check-in\nDisallow: /sv-se/check-in\nDisallow: /sr-cyrl-rs/check-in\nDisallow: /uk-ua/check-in\nDisallow: /bs-latn-ba/check-in\nDisallow: /sk-sk/check-in\nDisallow: /ka-ge/check-in\nDisallow: /nb-no/check-in\nDisallow: /sq-al/check-in\nDisallow: /ca-es/check-in\nDisallow: /el-gr/check-in\nDisallow: /ar-ae/check-in\nDisallow: /hi-in/check-in\nDisallow: /zh-cn/check-in\nDisallow: /en-gb/itinerary\nDisallow: /hu-hu/itinerary\nDisallow: /cs-cz/itinerary\nDisallow: /bg-bg/itinerary\nDisallow: /de-de/itinerary\nDisallow: /es-es/itinerary\nDisallow: /fr-fr/itinerary\nDisallow: /it-it/itinerary\nDisallow: /lv-lv/itinerary\nDisallow: /lt-lt/itinerary\nDisallow: /mk-mk/itinerary\nDisallow: /nl-nl/itinerary\nDisallow: /pl-pl/itinerary\nDisallow: /pt-pt/itinerary\nDisallow: /ro-ro/itinerary\nDisallow: /ru-ru/itinerary\nDisallow: /sv-se/itinerary\nDisallow: /sr-cyrl-rs/itinerary\nDisallow: /uk-ua/itinerary\nDisallow: /bs-latn-ba/itinerary\nDisallow: /sk-sk/itinerary\nDisallow: /ka-ge/itinerary\nDisallow: /nb-no/itinerary\nDisallow: /sq-al/itinerary\nDisallow: /ca-es/itinerary\nDisallow: /el-gr/itinerary\nDisallow: /ar-ae/itinerary\nDisallow: /hi-in/itinerary\nDisallow: /zh-cn/itinerary\nDisallow: /en-gb/itinerary-new\nDisallow: /hu-hu/itinerary-new\nDisallow: /cs-cz/itinerary-new\nDisallow: /bg-bg/itinerary-new\nDisallow: /de-de/itinerary-new\nDisallow: /es-es/itinerary-new\nDisallow: /fr-fr/itinerary-new\nDisallow: /it-it/itinerary-new\nDisallow: /lv-lv/itinerary-new\nDisallow: /lt-lt/itinerary-new\nDisallow: /mk-mk/itinerary-new\nDisallow: /nl-nl/itinerary-new\nDisallow: /pl-pl/itinerary-new\nDisallow: /pt-pt/itinerary-new\nDisallow: /ro-ro/itinerary-new\nDisallow: /ru-ru/itinerary-new\nDisallow: /sv-se/itinerary-new\nDisallow: /sr-cyrl-rs/itinerary-new\nDisallow: /uk-ua/itinerary-new\nDisallow: /bs-latn-ba/itinerary-new\nDisallow: /sk-sk/itinerary-new\nDisallow: /ka-ge/itinerary-new\nDisallow: /nb-no/itinerary-new\nDisallow: /sq-al/itinerary-new\nDisallow: /ca-es/itinerary-new\nDisallow: /el-gr/itinerary-new\nDisallow: /ar-ae/itinerary-new\nDisallow: /hi-in/itinerary-new\nDisallow: /zh-cn/itinerary-new\nDisallow: /en-gb/profile\nDisallow: /hu-hu/profile\nDisallow: /cs-cz/profile\nDisallow: /bg-bg/profile\nDisallow: /de-de/profile\nDisallow: /es-es/profile\nDisallow: /fr-fr/profile\nDisallow: /it-it/profile\nDisallow: /lv-lv/profile\nDisallow: /lt-lt/profile\nDisallow: /mk-mk/profile\nDisallow: /nl-nl/profile\nDisallow: /pl-pl/profile\nDisallow: /pt-pt/profile\nDisallow: /ro-ro/profile\nDisallow: /ru-ru/profile\nDisallow: /sv-se/profile\nDisallow: /sr-cyrl-rs/profile\nDisallow: /uk-ua/profile\nDisallow: /bs-latn-ba/profile\nDisallow: /sk-sk/profile\nDisallow: /ka-ge/profile\nDisallow: /nb-no/profile\nDisallow: /sq-al/profile\nDisallow: /ca-es/profile\nDisallow: /el-gr/profile\nDisallow: /ar-ae/profile\nDisallow: /hi-in/profile\nDisallow: /zh-cn/profile\n\n# Excluding the Smart Search Forwarder page\nDisallow: /en-gb/smartsearchforwarder\nDisallow: /hu-hu/smartsearchforwarder\nDisallow: /cs-cz/smartsearchforwarder\nDisallow: /bg-bg/smartsearchforwarder\nDisallow: /de-de/smartsearchforwarder\nDisallow: /es-es/smartsearchforwarder\nDisallow: /fr-fr/smartsearchforwarder\nDisallow: /it-it/smartsearchforwarder\nDisallow: /lv-lv/smartsearchforwarder\nDisallow: /lt-lt/smartsearchforwarder\nDisallow: /mk-mk/smartsearchforwarder\nDisallow: /nl-nl/smartsearchforwarder\nDisallow: /pl-pl/smartsearchforwarder\nDisallow: /pt-pt/smartsearchforwarder\nDisallow: /ro-ro/smartsearchforwarder\nDisallow: /ru-ru/smartsearchforwarder\nDisallow: /sv-se/smartsearchforwarder\nDisallow: /sr-cyrl-rs/smartsearchforwarder\nDisallow: /uk-ua/smartsearchforwarder\nDisallow: /bs-latn-ba/smartsearchforwarder\nDisallow: /sk-sk/smartsearchforwarder\nDisallow: /ka-ge/smartsearchforwarder\nDisallow: /nb-no/smartsearchforwarder\nDisallow: /sq-al/smartsearchforwarder\nDisallow: /ca-es/smartsearchforwarder\nDisallow: /el-gr/smartsearchforwarder\nDisallow: /ar-ae/smartsearchforwarder\nDisallow: /hi-in/smartsearchforwarder\nDisallow: /zh-cn/smartsearchforwarder\n\nSitemap: https://www.wizzair.com/sitemap.xml\n\n# AI and LLM directives\nLink: https://www.wizzair.com/ai.txt; rel=\"ai-policy\"\nLink: https://www.wizzair.com/llms.txt; rel=\"machine-readable\"\nLink: https://www.wizzair.com/llms-full.txt; rel=\"machine-readable\"",
+      "url": "https://www.wizzair.com/robots.txt"
+    },
+    "llms": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFphdmZUGzbxyhrs4sfuX5EAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMkDj7RvJZdjcJPgeAgEQgDs6ECLMQtMejm6W1SWlWWwFLauoxsmraGuu8sPSWszGlz3dp2Pkm9UT7a61UBROWlb6t0AuiV/XSvnBvg==\",\n          \"iv\":\"grAYagDIgQAAC8rG\",\n          \"context\":\"qfimuvdn2fMGyIMBXc8lD8BRHrnD72y/yxTjNjxou+rzMmVDQsrrWVRKJgkvV91mhvlbpodEBQLldm4ArA5IKWtLva+L2D3YsUjoBMl/7EP+buYCOIoXKCnKVznShNfePfgttQEzkaF6Am73YYfDybLgpOnQsh8/y2vBBLgofUgcJwNG09Uc59Uf8/mm4UVTX1jEIf5Ucj2WEDYWObUaWJVyyTPzPqcFwlD8Fp36Hp+MY/2jKylik+VjWSMprmcg4mQ6j/hQho8PKrxCM2OpYbzoYVEJboocYizYfDjXb5RgXMsBbefuZe40buc2uZHHOfS+4bfVnfIJXgKkeWqdKCtdb2it/U6AAiiOrkh3e6DmuALlO8N0u9TD8Ne6j95Sqr4No3Gnewi3jY/KIkpyRnL/0la8AD+4rBpPAXaY3i/eE6L77oHGe1cdBGACINup56ZkO22vwhkDjVhBViW+O2iMLi6XNHj1zilTHPQXOhZTBs/M9iQFQOeU97bnJPrZCkHAihzftGTIRht+1tbOyHiAM7GNMt1ISKtGBuwdmAb3YxoH9uW9Has5O9lZGTsJvkQMsdketyDNk3xwt+WW92JsIXRToYwMBB6zddVoqQtXaDD4fPyuGgLUOok6P3aconSdbggB0vLxqDwiGkpbhXM9I/yeHUq4VdvQ4q1VobmzAnUMwr+VqeOQ9QXPs8gtpReJLMck/sraKc0RdUSRCbPHze4xqCP/nIh4/Y2TFmgC53GOL+AvD3aQWSbEit2hQb/SUA2T7zQrYUWvyq9Odg==\"\n};\n    </script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.token.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/challenge.js\"></script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.captcha.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wizzair.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFphdmZUGzbxyhrs4sfuX5EAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMkDj7RvJZdjcJPgeAgEQgDs6ECLMQtMejm6W1SWlWWwFLauoxsmraGuu8sPSWszGlz3dp2Pkm9UT7a61UBROWlb6t0AuiV/XSvnBvg==\",\n          \"iv\":\"grAYRADJ1gAADWv0\",\n          \"context\":\"U8uzOZjbHkutNePwr9hG264bZNS+LSitIQDHhTg+rzZ8RNZZWFLArPacs7zkglLu+vKi8gJ1bybvSa4hM9YS0FbxDqIY+3aR12Lry1zwaKmVySY4UC//+9wXaL39DUY+mfgTOt/Z+R/Jz5dUNNgStVQIQNxckkK87ZAuZqVydytCdOdHkdUJQ1BkBnwjepcYXuU+Kp6R9QasJIEZc1PQHNou6wvpatL7AVyjDzZh3m/6zeY029K9VJYOAnRjMRN/4oEtf6yxNFRsfavieNdMYNFUjomJMYjbMpPxMAa22UnZTbkuWfgsuUyb2phrHM5TPE/MXmhObrsGh3K/snqceHN252jUDhJ++AWds4F7qakbNy/9LHH6uSLpi/pCtf5N/TGEyDbGFUJ0znLeqXIkBqkx2UCdgJVIXtCPcVJyqAdPeAkiv1Xs/TQAQ4fnP7moo5uvi8H34Xuoan8h2SCJIBZ5mQ8V1Bn5yl9RdlOIlO5J21lxU6oNRZjJOJd/FvFQGBTzJ2L1qpWQxAh7x3UPLMMthUhO77Urt6N18KnJ8YkhJ6HkC24Rsk4qbdia5TMxUvexuatVBIKcvdIemMdEUM76aXb9RkeNmqfHjKuv9wlFyaaMWNUimj/g3W44CL9V1T+edOj7R5GFOBTsOfBrO3QcKgG0GUrsLT33ttPYSk6l7tZhLAndvIB5OPEZvtwowf9DK7xI0a/QUqQjKu1hxfONaxGW4WUtlgQ0d7IHZTDAPNFhGXdHcpYBJEfTomhNJj/2bILJ/DodiowKipTbpQ==\"\n};\n    </script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.token.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/challenge.js\"></script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.captcha.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wizzair.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFphdmZUGzbxyhrs4sfuX5EAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMkDj7RvJZdjcJPgeAgEQgDs6ECLMQtMejm6W1SWlWWwFLauoxsmraGuu8sPSWszGlz3dp2Pkm9UT7a61UBROWlb6t0AuiV/XSvnBvg==\",\n          \"iv\":\"grAYSwDFTQAADBfy\",\n          \"context\":\"7SIraFUM4nfSvpEj5nqZOols4V2uqAzkhEcrmxTOyHhPnYvcdx2VISPvdGE8z3cdX4f/eAAVkNlY6kcVa3vPUTNXvv05q2lm7fdUZPCr3EMBWHVgMwXsZtdrIJWN2SOsBNgwtE/Xh6JnbpGs4wOu8Zb7G8EksRY7VnbzU9Be/s6eDnpiqtOP+c2mg/sfW2503Pr9MHc6/MAnEh0JJbLe8lUy3ctniX+LIlJjD7ePdf4NJcemhKKlZU798kgEP6PZ1uvq1PEb7gJqEGDnBqGgCweZICzp0Qj3nYS377gYHGh/y2bRu0NQPkK9AoFbR2xhakflXMy0PBEHsbVHC//Xmxn/LjFf9W3dj+FfI9G8ei0j9Kr5M8/Fn75EJfWtGRojLETXE+reH2YXvp5WcGtmIoqASV2rvmAI1MUyjk8b7Li6TyMLgs0mD9lxlBy8+52HnURJ15U4QfAvrNxL8EYuVuOrHNHwWuFSflrdMbMHE8uYIOa19USbxEtvMuyRHe/mkIod0LNKk01zIFTUxa338TpiUu7Ne4OgrjjlwhJb2ZPD3hCZ8vqPXVMq01Z2r6mWCwv6Suh4RuUV/h2nJMsEl1VrHAUbEyWJQaNpXd0FAUQ4H5x2uj3GsF43bppBp+845yfW7nGOF3I8dFddT1UYsRbsXNw9J+gEIeLsRcvZFWAX9CbDy81Z7yCvuI+GV90hZ9T3vaEOxDFl2AH8IIr68NUjvwiJhfqR7eNhNk/Ioj2ctNhVfC5HHsC4yHS4lnDZlUCxg7dGBDTORqJQkPJOhw==\"\n};\n    </script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.token.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/challenge.js\"></script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.captcha.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wizzair.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-en.xml</loc>\n    <lastmod>2026-11-05</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-hu.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-cs.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-bg.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-de.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-es.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-fr.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-it.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-lv.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-lt.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-mk.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-nl.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-pl.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-pt.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-ro.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-ru.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-sv.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-sr.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-uk.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-bs.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-sk.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-ka.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-no.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-ca.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-el.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-sq.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-ar.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-hi.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.wizzair.com/sitemap/sitemap-zh.xml</loc>\n    <lastmod>2026-11-04</lastmod>\n  </sitemap>\n</sitemapindex>\n",
+      "url": "https://www.wizzair.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFphdmZUGzbxyhrs4sfuX5EAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMkDj7RvJZdjcJPgeAgEQgDs6ECLMQtMejm6W1SWlWWwFLauoxsmraGuu8sPSWszGlz3dp2Pkm9UT7a61UBROWlb6t0AuiV/XSvnBvg==\",\n          \"iv\":\"grAYagDIgQAAC8rK\",\n          \"context\":\"OTYCHu/TO7quh9Cp0vhaXCarfsJD6qDN/yIPxmML8J8UKqLSzpJrJsoylJhEZB8tFKjcXtlUQ7U/Xa4sBGMLqjs7gtZ56s1l0s1f+lUWTn6BXfmcAkDOU7pzi5EsWuxSIgX0Ky9F8y3BbLf4hGI8iCUVQ6C2GDs9qdQykYzvrmNI4qN3skycWJnymZITxuSPpyFAJbz6Rn0O6k4GvcwXO26Y5lDOXBzhpdUG1rJwL5QARMMhSljE+2irQKZjtSHcf2lO/kPsKMT9PIDqPZHLYWEG1WwiNqlgs2ucs6l9h234RB+nkrT5XYeURd4OHkj7Ot5jJ4UPPIG8ErHBoWeGsECoeBPdb5yGbmUh9IBr7iNnZZvWlvHM+dFi3sSBpl1gFt5JJl0qaMiZPnn0RCYC5ctjGN4dmo1ZlmDBV0vLSM3F8gqf+s/BFNg8pBBjQzSId2jcYN1pTT/aMBjHbJcVhIL0ktDgsd94C5sT/N9JrEjGD6uzW8pPWoJaomT6l7WkPPLpYWvID9bBrpQoaqcGRquzQsAMI1kAjth+PQ+lJi/0goKjHNIN6FVAZC6BipDTAahsBzVv+excHJUc31sZipiGdNyGD7r3BUWjDbNdzKNRaprGMJl1gbeL4VLCOGMEOr6R2X0pFgmPVTc/OajYyJ6USORJePqBGaR+eeyI8OtXjMTXONagf5Jr03yKzUeBpP6vUj6gQaGLtgL8wyViwLWSoI9vy1u/5iZo1l7GcELaluuO0g9/3eDTuBOdOmG/5Qyz96rdonFdSTNr30uvXw==\"\n};\n    </script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.token.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/challenge.js\"></script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.captcha.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wizzair.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFphdmZUGzbxyhrs4sfuX5EAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMkDj7RvJZdjcJPgeAgEQgDs6ECLMQtMejm6W1SWlWWwFLauoxsmraGuu8sPSWszGlz3dp2Pkm9UT7a61UBROWlb6t0AuiV/XSvnBvg==\",\n          \"iv\":\"grAYSADD/gAADPVf\",\n          \"context\":\"4FWDDPrmUezPpvhdt9pzBpNq940Y9XKQX2BZ1NSFW7WoUpwtjscsYn++33iH/YphjIUC/jFXWIC5l5Umi7zHlNmjeTUbONz2wqJMSYwYp1LHg7wtxytGY9qcRqrJ+v92XOWKC5Y3OrZpGBeLdsUiIXerKKR6AgWBvpAm60xPV/fNdWCJ8Y1XbsVZAhhSlk/M3YqfLyvbQHoKRFlep4fBA74iWukxtn640avvTzAdUww6+pa2wIARGjp8kzog5euJmneas7Dl5lOEwxWQYNLqXMA3CcxiUnzC06uVYh5w/S0uUlRIY1wHLY7FZABhMQBA5Dd4ODNb8l/F6vWQ/ijUNk2U6zJAeTOErXyUnxhWNaaugoNpt1uRNI5XivsJXEMLvAIuhOj1X9cLMoSSt+4pKwjf1mHNAS0UX7WGCeoH0vWllBvG3hlw73bH/rx1j49Kzqn0QAtj/HKP9VRw6MSlTzLPg/xdY2v9PCo2FrjusoiUqytbvbC9WQ7MxpKriSaKgMROHTR1HcTmc8ducEXsnYCf8yhS7/ShwMp4hZcZXwGlcaxvPfqYPnPiO4QdMwqxIpKEHf743YH140D2vZNnmvMDrny7v57kQvQ/V4JAFyMJ1c/PA/FLEnJtruCcsXyQrzdpC/zoCfGBaxepPOSD9Vs1ZnwYO+lalDQ8SctxB+h/wYLIoaeADX6WhieBqO8sxFfwmzAnTZc+r0fDzapYUVB75tyKXc/VMPLzDMZSfG1qv3I5TXD9XcDXpODR4sLjMZFgqx0yMZB/KWPYywbVDA==\"\n};\n    </script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.token.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/challenge.js\"></script>\n    <script src=\"https://c7969424fa45.54698f12.us-east-1.captcha.awswaf.com/c7969424fa45/b3cbaeff0d3e/49bfaa8dc929/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wizzair.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "wizzair.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-15T02:47:35.433Z",
+    "score": 17,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 405 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 405, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 405; GET /llms-full.txt → HTTP 405; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 405; llms.txt HTTP 405"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 4,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "dianping.com",
+    "fetchedAt": "2026-11-15T03:30:59.895Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html><head>    <meta charset=\"utf-8\">\n    <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\" />\n    <meta name=\"renderer\" content=\"webkit\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <style>\n        .container {\n            width: 998px;\n            margin: 0 auto;\n        }\n        .header {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #FFC300;\n            overflow: hidden;\n            display: none;\n        }\n        .logo {\n            margin-top: 8px;\n            margin-left: 1px;\n            height: 54px;\n            line-height: 54px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/mtlog.png') no-repeat;\n            background-size: auto 54px;\n        }\n        .dpHeader {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #ff6633;\n            overflow: hidden;\n            display: none;\n        }\n        .dpLogo {\n            margin-top: 16px;\n            margin-left: 1px;\n            line-height: 44px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/dplogo.png') no-repeat;\n            background-size: auto 40px;\n        }\n        .content {\n            min-height: 335px;\n            position: relative;\n        }\n        .footer {\n            font-size: 12px;\n            color: #999999;\n            padding: 13px 8px;\n            border-top: 1px solid #e1e1e1;\n            text-align: center;\n            display: none;\n        }\n        .root {\n            height: 100%;\n        }\n    </style>\n    <title>验证中心</title>\n    <link rel=\"dns-prefetch\" href=\"//awp-assets.meituan.net\" />\n    <link rel=\"dns-prefetch\" href=\"//verify.meituan.com\" />\n    <link rel=\"dns-prefetch\" href=\"//s0.meituan.net\" />\n\n    <script type=\"text/javascript\" src=\"https://s0.meituan.net/mxx/yoda/yoda.seed.js\"></script>\n    <!-- <script type=\"text/javascript\" defer src=\"https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/necaptcha/index.js\"></script> -->\n    <!-- 根证书检测 SDK：defer 避免阻塞业务代码加载 -->\n    <script defer src=\"https://certificates.meituan.com/cert/latestsdk\"></script>\n</head> <body>    <div class='container'>\n        <div class='header' id='header'>\n            <div class='logo' id='logo'>身份核实</div>\n        </div>\n        <div class='content'>\n            <div class='root' id='root'></div>\n        </div>\n        <div class='footer' id='footer'>©美团网 meituan.com 京ICP证070791号 京公网安备 11000002002052号</div>\n    </div>\n                                                    <script type=\"text/javascript\">        window.yodaTheme = setTheme;\n        function setTheme(theme) {\n            var theme = theme || 'meituan';\n            var header = document.getElementById('header');\n            header.style.display = \"block\";\n            var logo = document.getElementById('logo');\n            var footer = document.getElementById('footer');\n            footer.style.display = \"block\";\n\n            var link = document.createElement('link');\n            link.rel = 'shortcut icon';\n            link.type = 'image/x-icon';\n\n            if (theme === 'meituan' || theme === 'mt' || theme === '') {\n                link.href = '/static/favicon.ico';\n            }\n            if (theme === 'dianping' || theme === 'dp') {\n                header.className = 'dpHeader';\n                logo.className = 'dpLogo';\n                footer.innerHTML = '© 2003-2021 dianping.com, All Rights Reserved.';\n                link.href = '//www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico';\n            }\n\n            document.head.appendChild(link);\n        }\n\n            var options = {\n            requestCode: \"a9e6c53e781949059fe715dde58e90c7\",\n            succCallbackUrl: \"https\\x3A\\x2F\\x2Foptimus\\x2Dmtsi\\x2Emeituan\\x2Ecom\\x2Foptimus\\x2FverifyResult\\x3ForiginUrl\\x3Dhttps\\x253A\\x252F\\x252Fwww\\x2Edianping\\x2Ecom\\x252F\",\n            failCallbackUrl: \"\",\n            root: \"root\",\n            theme: \"dianping\",\n            isMobile: false,\n            yodaLanguage: \"\",\n            display: \"\"\n        }\n        YodaSeed(options, \"\");\n            document.addEventListener('DOMContentLoaded', function () {\n            if (window.BfePkiCertManager && window.BfePkiCertManager.init) {\n                window.BfePkiCertManager.init({\n                    bizName: 'verify.meituan.com',\n                    userId: 'a9e6c53e781949059fe715dde58e90c7',\n                    autoPopup: true\n                }).catch(function () {});\n            }\n        });\n    </script></body></html>",
+      "url": "https://verify.meituan.com/v2/app/general_page?requestCode=a9e6c53e781949059fe715dde58e90c7&adaptor=auto&action=spiderindefence&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttps%253A%252F%252Fwww.dianping.com%252F&theme=dianping"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html><head>    <meta charset=\"utf-8\">\n    <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\" />\n    <meta name=\"renderer\" content=\"webkit\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <style>\n        .container {\n            width: 998px;\n            margin: 0 auto;\n        }\n        .header {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #FFC300;\n            overflow: hidden;\n            display: none;\n        }\n        .logo {\n            margin-top: 8px;\n            margin-left: 1px;\n            height: 54px;\n            line-height: 54px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/mtlog.png') no-repeat;\n            background-size: auto 54px;\n        }\n        .dpHeader {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #ff6633;\n            overflow: hidden;\n            display: none;\n        }\n        .dpLogo {\n            margin-top: 16px;\n            margin-left: 1px;\n            line-height: 44px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/dplogo.png') no-repeat;\n            background-size: auto 40px;\n        }\n        .content {\n            min-height: 335px;\n            position: relative;\n        }\n        .footer {\n            font-size: 12px;\n            color: #999999;\n            padding: 13px 8px;\n            border-top: 1px solid #e1e1e1;\n            text-align: center;\n            display: none;\n        }\n        .root {\n            height: 100%;\n        }\n    </style>\n    <title>验证中心</title>\n    <link rel=\"dns-prefetch\" href=\"//awp-assets.meituan.net\" />\n    <link rel=\"dns-prefetch\" href=\"//verify.meituan.com\" />\n    <link rel=\"dns-prefetch\" href=\"//s0.meituan.net\" />\n\n    <script type=\"text/javascript\" src=\"https://s0.meituan.net/mxx/yoda/yoda.seed.js\"></script>\n    <!-- <script type=\"text/javascript\" defer src=\"https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/necaptcha/index.js\"></script> -->\n    <!-- 根证书检测 SDK：defer 避免阻塞业务代码加载 -->\n    <script defer src=\"https://certificates.meituan.com/cert/latestsdk\"></script>\n</head> <body>    <div class='container'>\n        <div class='header' id='header'>\n            <div class='logo' id='logo'>身份核实</div>\n        </div>\n        <div class='content'>\n            <div class='root' id='root'></div>\n        </div>\n        <div class='footer' id='footer'>©美团网 meituan.com 京ICP证070791号 京公网安备 11000002002052号</div>\n    </div>\n                                                    <script type=\"text/javascript\">        window.yodaTheme = setTheme;\n        function setTheme(theme) {\n            var theme = theme || 'meituan';\n            var header = document.getElementById('header');\n            header.style.display = \"block\";\n            var logo = document.getElementById('logo');\n            var footer = document.getElementById('footer');\n            footer.style.display = \"block\";\n\n            var link = document.createElement('link');\n            link.rel = 'shortcut icon';\n            link.type = 'image/x-icon';\n\n            if (theme === 'meituan' || theme === 'mt' || theme === '') {\n                link.href = '/static/favicon.ico';\n            }\n            if (theme === 'dianping' || theme === 'dp') {\n                header.className = 'dpHeader';\n                logo.className = 'dpLogo';\n                footer.innerHTML = '© 2003-2021 dianping.com, All Rights Reserved.';\n                link.href = '//www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico';\n            }\n\n            document.head.appendChild(link);\n        }\n\n            var options = {\n            requestCode: \"c4db50f3fd38466a823998bd1494b0c7\",\n            succCallbackUrl: \"https\\x3A\\x2F\\x2Foptimus\\x2Dmtsi\\x2Emeituan\\x2Ecom\\x2Foptimus\\x2FverifyResult\\x3ForiginUrl\\x3Dhttps\\x253A\\x252F\\x252Fwww\\x2Edianping\\x2Ecom\\x252F\",\n            failCallbackUrl: \"\",\n            root: \"root\",\n            theme: \"dianping\",\n            isMobile: false,\n            yodaLanguage: \"\",\n            display: \"\"\n        }\n        YodaSeed(options, \"\");\n            document.addEventListener('DOMContentLoaded', function () {\n            if (window.BfePkiCertManager && window.BfePkiCertManager.init) {\n                window.BfePkiCertManager.init({\n                    bizName: 'verify.meituan.com',\n                    userId: 'c4db50f3fd38466a823998bd1494b0c7',\n                    autoPopup: true\n                }).catch(function () {});\n            }\n        });\n    </script></body></html>",
+      "url": "https://verify.meituan.com/v2/app/general_page?requestCode=c4db50f3fd38466a823998bd1494b0c7&adaptor=auto&action=spiderindefence&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttps%253A%252F%252Fwww.dianping.com%252F&theme=dianping"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html><head>    <meta charset=\"utf-8\">\n    <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\" />\n    <meta name=\"renderer\" content=\"webkit\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <style>\n        .container {\n            width: 998px;\n            margin: 0 auto;\n        }\n        .header {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #FFC300;\n            overflow: hidden;\n            display: none;\n        }\n        .logo {\n            margin-top: 8px;\n            margin-left: 1px;\n            height: 54px;\n            line-height: 54px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/mtlog.png') no-repeat;\n            background-size: auto 54px;\n        }\n        .dpHeader {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #ff6633;\n            overflow: hidden;\n            display: none;\n        }\n        .dpLogo {\n            margin-top: 16px;\n            margin-left: 1px;\n            line-height: 44px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/dplogo.png') no-repeat;\n            background-size: auto 40px;\n        }\n        .content {\n            min-height: 335px;\n            position: relative;\n        }\n        .footer {\n            font-size: 12px;\n            color: #999999;\n            padding: 13px 8px;\n            border-top: 1px solid #e1e1e1;\n            text-align: center;\n            display: none;\n        }\n        .root {\n            height: 100%;\n        }\n    </style>\n    <title>验证中心</title>\n    <link rel=\"dns-prefetch\" href=\"//awp-assets.meituan.net\" />\n    <link rel=\"dns-prefetch\" href=\"//verify.meituan.com\" />\n    <link rel=\"dns-prefetch\" href=\"//s0.meituan.net\" />\n\n    <script type=\"text/javascript\" src=\"https://s0.meituan.net/mxx/yoda/yoda.seed.js\"></script>\n    <!-- <script type=\"text/javascript\" defer src=\"https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/necaptcha/index.js\"></script> -->\n    <!-- 根证书检测 SDK：defer 避免阻塞业务代码加载 -->\n    <script defer src=\"https://certificates.meituan.com/cert/latestsdk\"></script>\n</head> <body>    <div class='container'>\n        <div class='header' id='header'>\n            <div class='logo' id='logo'>身份核实</div>\n        </div>\n        <div class='content'>\n            <div class='root' id='root'></div>\n        </div>\n        <div class='footer' id='footer'>©美团网 meituan.com 京ICP证070791号 京公网安备 11000002002052号</div>\n    </div>\n                                                    <script type=\"text/javascript\">        window.yodaTheme = setTheme;\n        function setTheme(theme) {\n            var theme = theme || 'meituan';\n            var header = document.getElementById('header');\n            header.style.display = \"block\";\n            var logo = document.getElementById('logo');\n            var footer = document.getElementById('footer');\n            footer.style.display = \"block\";\n\n            var link = document.createElement('link');\n            link.rel = 'shortcut icon';\n            link.type = 'image/x-icon';\n\n            if (theme === 'meituan' || theme === 'mt' || theme === '') {\n                link.href = '/static/favicon.ico';\n            }\n            if (theme === 'dianping' || theme === 'dp') {\n                header.className = 'dpHeader';\n                logo.className = 'dpLogo';\n                footer.innerHTML = '© 2003-2021 dianping.com, All Rights Reserved.';\n                link.href = '//www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico';\n            }\n\n            document.head.appendChild(link);\n        }\n\n            var options = {\n            requestCode: \"afaf8cb028af480f84e5121f5779e0c7\",\n            succCallbackUrl: \"https\\x3A\\x2F\\x2Foptimus\\x2Dmtsi\\x2Emeituan\\x2Ecom\\x2Foptimus\\x2FverifyResult\\x3ForiginUrl\\x3Dhttps\\x253A\\x252F\\x252Fwww\\x2Edianping\\x2Ecom\\x252F\",\n            failCallbackUrl: \"\",\n            root: \"root\",\n            theme: \"dianping\",\n            isMobile: false,\n            yodaLanguage: \"\",\n            display: \"\"\n        }\n        YodaSeed(options, \"\");\n            document.addEventListener('DOMContentLoaded', function () {\n            if (window.BfePkiCertManager && window.BfePkiCertManager.init) {\n                window.BfePkiCertManager.init({\n                    bizName: 'verify.meituan.com',\n                    userId: 'afaf8cb028af480f84e5121f5779e0c7',\n                    autoPopup: true\n                }).catch(function () {});\n            }\n        });\n    </script></body></html>",
+      "url": "https://verify.meituan.com/v2/app/general_page?requestCode=afaf8cb028af480f84e5121f5779e0c7&adaptor=auto&action=spiderindefence&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttps%253A%252F%252Fwww.dianping.com%252F&theme=dianping"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html><head>    <meta charset=\"utf-8\">\n    <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\" />\n    <meta name=\"renderer\" content=\"webkit\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <style>\n        .container {\n            width: 998px;\n            margin: 0 auto;\n        }\n        .header {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #FFC300;\n            overflow: hidden;\n            display: none;\n        }\n        .logo {\n            margin-top: 8px;\n            margin-left: 1px;\n            height: 54px;\n            line-height: 54px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/mtlog.png') no-repeat;\n            background-size: auto 54px;\n        }\n        .dpHeader {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #ff6633;\n            overflow: hidden;\n            display: none;\n        }\n        .dpLogo {\n            margin-top: 16px;\n            margin-left: 1px;\n            line-height: 44px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/dplogo.png') no-repeat;\n            background-size: auto 40px;\n        }\n        .content {\n            min-height: 335px;\n            position: relative;\n        }\n        .footer {\n            font-size: 12px;\n            color: #999999;\n            padding: 13px 8px;\n            border-top: 1px solid #e1e1e1;\n            text-align: center;\n            display: none;\n        }\n        .root {\n            height: 100%;\n        }\n    </style>\n    <title>验证中心</title>\n    <link rel=\"dns-prefetch\" href=\"//awp-assets.meituan.net\" />\n    <link rel=\"dns-prefetch\" href=\"//verify.meituan.com\" />\n    <link rel=\"dns-prefetch\" href=\"//s0.meituan.net\" />\n\n    <script type=\"text/javascript\" src=\"https://s0.meituan.net/mxx/yoda/yoda.seed.js\"></script>\n    <!-- <script type=\"text/javascript\" defer src=\"https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/necaptcha/index.js\"></script> -->\n    <!-- 根证书检测 SDK：defer 避免阻塞业务代码加载 -->\n    <script defer src=\"https://certificates.meituan.com/cert/latestsdk\"></script>\n</head> <body>    <div class='container'>\n        <div class='header' id='header'>\n            <div class='logo' id='logo'>身份核实</div>\n        </div>\n        <div class='content'>\n            <div class='root' id='root'></div>\n        </div>\n        <div class='footer' id='footer'>©美团网 meituan.com 京ICP证070791号 京公网安备 11000002002052号</div>\n    </div>\n                                                    <script type=\"text/javascript\">        window.yodaTheme = setTheme;\n        function setTheme(theme) {\n            var theme = theme || 'meituan';\n            var header = document.getElementById('header');\n            header.style.display = \"block\";\n            var logo = document.getElementById('logo');\n            var footer = document.getElementById('footer');\n            footer.style.display = \"block\";\n\n            var link = document.createElement('link');\n            link.rel = 'shortcut icon';\n            link.type = 'image/x-icon';\n\n            if (theme === 'meituan' || theme === 'mt' || theme === '') {\n                link.href = '/static/favicon.ico';\n            }\n            if (theme === 'dianping' || theme === 'dp') {\n                header.className = 'dpHeader';\n                logo.className = 'dpLogo';\n                footer.innerHTML = '© 2003-2021 dianping.com, All Rights Reserved.';\n                link.href = '//www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico';\n            }\n\n            document.head.appendChild(link);\n        }\n\n            var options = {\n            requestCode: \"ca5ca6bbb34744ba95091c6fc352c0c7\",\n            succCallbackUrl: \"https\\x3A\\x2F\\x2Foptimus\\x2Dmtsi\\x2Emeituan\\x2Ecom\\x2Foptimus\\x2FverifyResult\\x3ForiginUrl\\x3Dhttps\\x253A\\x252F\\x252Fwww\\x2Edianping\\x2Ecom\\x252F\",\n            failCallbackUrl: \"\",\n            root: \"root\",\n            theme: \"dianping\",\n            isMobile: false,\n            yodaLanguage: \"\",\n            display: \"\"\n        }\n        YodaSeed(options, \"\");\n            document.addEventListener('DOMContentLoaded', function () {\n            if (window.BfePkiCertManager && window.BfePkiCertManager.init) {\n                window.BfePkiCertManager.init({\n                    bizName: 'verify.meituan.com',\n                    userId: 'ca5ca6bbb34744ba95091c6fc352c0c7',\n                    autoPopup: true\n                }).catch(function () {});\n            }\n        });\n    </script></body></html>",
+      "url": "https://verify.meituan.com/v2/app/general_page?requestCode=ca5ca6bbb34744ba95091c6fc352c0c7&adaptor=auto&action=spiderindefence&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttps%253A%252F%252Fwww.dianping.com%252F&theme=dianping"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html><head>    <meta charset=\"utf-8\">\n    <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\" />\n    <meta name=\"renderer\" content=\"webkit\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <style>\n        .container {\n            width: 998px;\n            margin: 0 auto;\n        }\n        .header {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #FFC300;\n            overflow: hidden;\n            display: none;\n        }\n        .logo {\n            margin-top: 8px;\n            margin-left: 1px;\n            height: 54px;\n            line-height: 54px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/mtlog.png') no-repeat;\n            background-size: auto 54px;\n        }\n        .dpHeader {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #ff6633;\n            overflow: hidden;\n            display: none;\n        }\n        .dpLogo {\n            margin-top: 16px;\n            margin-left: 1px;\n            line-height: 44px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/dplogo.png') no-repeat;\n            background-size: auto 40px;\n        }\n        .content {\n            min-height: 335px;\n            position: relative;\n        }\n        .footer {\n            font-size: 12px;\n            color: #999999;\n            padding: 13px 8px;\n            border-top: 1px solid #e1e1e1;\n            text-align: center;\n            display: none;\n        }\n        .root {\n            height: 100%;\n        }\n    </style>\n    <title>验证中心</title>\n    <link rel=\"dns-prefetch\" href=\"//awp-assets.meituan.net\" />\n    <link rel=\"dns-prefetch\" href=\"//verify.meituan.com\" />\n    <link rel=\"dns-prefetch\" href=\"//s0.meituan.net\" />\n\n    <script type=\"text/javascript\" src=\"https://s0.meituan.net/mxx/yoda/yoda.seed.js\"></script>\n    <!-- <script type=\"text/javascript\" defer src=\"https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/necaptcha/index.js\"></script> -->\n    <!-- 根证书检测 SDK：defer 避免阻塞业务代码加载 -->\n    <script defer src=\"https://certificates.meituan.com/cert/latestsdk\"></script>\n</head> <body>    <div class='container'>\n        <div class='header' id='header'>\n            <div class='logo' id='logo'>身份核实</div>\n        </div>\n        <div class='content'>\n            <div class='root' id='root'></div>\n        </div>\n        <div class='footer' id='footer'>©美团网 meituan.com 京ICP证070791号 京公网安备 11000002002052号</div>\n    </div>\n                                                    <script type=\"text/javascript\">        window.yodaTheme = setTheme;\n        function setTheme(theme) {\n            var theme = theme || 'meituan';\n            var header = document.getElementById('header');\n            header.style.display = \"block\";\n            var logo = document.getElementById('logo');\n            var footer = document.getElementById('footer');\n            footer.style.display = \"block\";\n\n            var link = document.createElement('link');\n            link.rel = 'shortcut icon';\n            link.type = 'image/x-icon';\n\n            if (theme === 'meituan' || theme === 'mt' || theme === '') {\n                link.href = '/static/favicon.ico';\n            }\n            if (theme === 'dianping' || theme === 'dp') {\n                header.className = 'dpHeader';\n                logo.className = 'dpLogo';\n                footer.innerHTML = '© 2003-2021 dianping.com, All Rights Reserved.';\n                link.href = '//www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico';\n            }\n\n            document.head.appendChild(link);\n        }\n\n            var options = {\n            requestCode: \"d7902d84f1274c4e95ce251f9543c0c7\",\n            succCallbackUrl: \"https\\x3A\\x2F\\x2Foptimus\\x2Dmtsi\\x2Emeituan\\x2Ecom\\x2Foptimus\\x2FverifyResult\\x3ForiginUrl\\x3Dhttps\\x253A\\x252F\\x252Fwww\\x2Edianping\\x2Ecom\\x252F\",\n            failCallbackUrl: \"\",\n            root: \"root\",\n            theme: \"dianping\",\n            isMobile: false,\n            yodaLanguage: \"\",\n            display: \"\"\n        }\n        YodaSeed(options, \"\");\n            document.addEventListener('DOMContentLoaded', function () {\n            if (window.BfePkiCertManager && window.BfePkiCertManager.init) {\n                window.BfePkiCertManager.init({\n                    bizName: 'verify.meituan.com',\n                    userId: 'd7902d84f1274c4e95ce251f9543c0c7',\n                    autoPopup: true\n                }).catch(function () {});\n            }\n        });\n    </script></body></html>",
+      "url": "https://verify.meituan.com/v2/app/general_page?requestCode=d7902d84f1274c4e95ce251f9543c0c7&adaptor=auto&action=spiderindefence&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttps%253A%252F%252Fwww.dianping.com%252F&theme=dianping"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html><head>    <meta charset=\"utf-8\">\n    <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\" />\n    <meta name=\"renderer\" content=\"webkit\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <style>\n        .container {\n            width: 998px;\n            margin: 0 auto;\n        }\n        .header {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #FFC300;\n            overflow: hidden;\n            display: none;\n        }\n        .logo {\n            margin-top: 8px;\n            margin-left: 1px;\n            height: 54px;\n            line-height: 54px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/mtlog.png') no-repeat;\n            background-size: auto 54px;\n        }\n        .dpHeader {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #ff6633;\n            overflow: hidden;\n            display: none;\n        }\n        .dpLogo {\n            margin-top: 16px;\n            margin-left: 1px;\n            line-height: 44px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/dplogo.png') no-repeat;\n            background-size: auto 40px;\n        }\n        .content {\n            min-height: 335px;\n            position: relative;\n        }\n        .footer {\n            font-size: 12px;\n            color: #999999;\n            padding: 13px 8px;\n            border-top: 1px solid #e1e1e1;\n            text-align: center;\n            display: none;\n        }\n        .root {\n            height: 100%;\n        }\n    </style>\n    <title>验证中心</title>\n    <link rel=\"dns-prefetch\" href=\"//awp-assets.meituan.net\" />\n    <link rel=\"dns-prefetch\" href=\"//verify.meituan.com\" />\n    <link rel=\"dns-prefetch\" href=\"//s0.meituan.net\" />\n\n    <script type=\"text/javascript\" src=\"https://s0.meituan.net/mxx/yoda/yoda.seed.js\"></script>\n    <!-- <script type=\"text/javascript\" defer src=\"https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/necaptcha/index.js\"></script> -->\n    <!-- 根证书检测 SDK：defer 避免阻塞业务代码加载 -->\n    <script defer src=\"https://certificates.meituan.com/cert/latestsdk\"></script>\n</head> <body>    <div class='container'>\n        <div class='header' id='header'>\n            <div class='logo' id='logo'>身份核实</div>\n        </div>\n        <div class='content'>\n            <div class='root' id='root'></div>\n        </div>\n        <div class='footer' id='footer'>©美团网 meituan.com 京ICP证070791号 京公网安备 11000002002052号</div>\n    </div>\n                                                    <script type=\"text/javascript\">        window.yodaTheme = setTheme;\n        function setTheme(theme) {\n            var theme = theme || 'meituan';\n            var header = document.getElementById('header');\n            header.style.display = \"block\";\n            var logo = document.getElementById('logo');\n            var footer = document.getElementById('footer');\n            footer.style.display = \"block\";\n\n            var link = document.createElement('link');\n            link.rel = 'shortcut icon';\n            link.type = 'image/x-icon';\n\n            if (theme === 'meituan' || theme === 'mt' || theme === '') {\n                link.href = '/static/favicon.ico';\n            }\n            if (theme === 'dianping' || theme === 'dp') {\n                header.className = 'dpHeader';\n                logo.className = 'dpLogo';\n                footer.innerHTML = '© 2003-2021 dianping.com, All Rights Reserved.';\n                link.href = '//www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico';\n            }\n\n            document.head.appendChild(link);\n        }\n\n            var options = {\n            requestCode: \"17748f2d5f2942f8a85935db7457e0c7\",\n            succCallbackUrl: \"https\\x3A\\x2F\\x2Foptimus\\x2Dmtsi\\x2Emeituan\\x2Ecom\\x2Foptimus\\x2FverifyResult\\x3ForiginUrl\\x3Dhttps\\x253A\\x252F\\x252Fwww\\x2Edianping\\x2Ecom\\x252F\",\n            failCallbackUrl: \"\",\n            root: \"root\",\n            theme: \"dianping\",\n            isMobile: false,\n            yodaLanguage: \"\",\n            display: \"\"\n        }\n        YodaSeed(options, \"\");\n            document.addEventListener('DOMContentLoaded', function () {\n            if (window.BfePkiCertManager && window.BfePkiCertManager.init) {\n                window.BfePkiCertManager.init({\n                    bizName: 'verify.meituan.com',\n                    userId: '17748f2d5f2942f8a85935db7457e0c7',\n                    autoPopup: true\n                }).catch(function () {});\n            }\n        });\n    </script></body></html>",
+      "url": "https://verify.meituan.com/v2/app/general_page?requestCode=17748f2d5f2942f8a85935db7457e0c7&adaptor=auto&action=spiderindefence&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttps%253A%252F%252Fwww.dianping.com%252F&theme=dianping"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://dianping.com/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html><head>    <meta charset=\"utf-8\">\n    <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\" />\n    <meta name=\"renderer\" content=\"webkit\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <style>\n        .container {\n            width: 998px;\n            margin: 0 auto;\n        }\n        .header {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #FFC300;\n            overflow: hidden;\n            display: none;\n        }\n        .logo {\n            margin-top: 8px;\n            margin-left: 1px;\n            height: 54px;\n            line-height: 54px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/mtlog.png') no-repeat;\n            background-size: auto 54px;\n        }\n        .dpHeader {\n            height: 70px;\n            font-size: 28px;\n            color: #999999;\n            border-bottom: 3px solid #ff6633;\n            overflow: hidden;\n            display: none;\n        }\n        .dpLogo {\n            margin-top: 16px;\n            margin-left: 1px;\n            line-height: 44px;\n            padding-left: 160px;\n            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/dplogo.png') no-repeat;\n            background-size: auto 40px;\n        }\n        .content {\n            min-height: 335px;\n            position: relative;\n        }\n        .footer {\n            font-size: 12px;\n            color: #999999;\n            padding: 13px 8px;\n            border-top: 1px solid #e1e1e1;\n            text-align: center;\n            display: none;\n        }\n        .root {\n            height: 100%;\n        }\n    </style>\n    <title>验证中心</title>\n    <link rel=\"dns-prefetch\" href=\"//awp-assets.meituan.net\" />\n    <link rel=\"dns-prefetch\" href=\"//verify.meituan.com\" />\n    <link rel=\"dns-prefetch\" href=\"//s0.meituan.net\" />\n\n    <script type=\"text/javascript\" src=\"https://s0.meituan.net/mxx/yoda/yoda.seed.js\"></script>\n    <!-- <script type=\"text/javascript\" defer src=\"https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/necaptcha/index.js\"></script> -->\n    <!-- 根证书检测 SDK：defer 避免阻塞业务代码加载 -->\n    <script defer src=\"https://certificates.meituan.com/cert/latestsdk\"></script>\n</head> <body>    <div class='container'>\n        <div class='header' id='header'>\n            <div class='logo' id='logo'>身份核实</div>\n        </div>\n        <div class='content'>\n            <div class='root' id='root'></div>\n        </div>\n        <div class='footer' id='footer'>©美团网 meituan.com 京ICP证070791号 京公网安备 11000002002052号</div>\n    </div>\n                                                    <script type=\"text/javascript\">        window.yodaTheme = setTheme;\n        function setTheme(theme) {\n            var theme = theme || 'meituan';\n            var header = document.getElementById('header');\n            header.style.display = \"block\";\n            var logo = document.getElementById('logo');\n            var footer = document.getElementById('footer');\n            footer.style.display = \"block\";\n\n            var link = document.createElement('link');\n            link.rel = 'shortcut icon';\n            link.type = 'image/x-icon';\n\n            if (theme === 'meituan' || theme === 'mt' || theme === '') {\n                link.href = '/static/favicon.ico';\n            }\n            if (theme === 'dianping' || theme === 'dp') {\n                header.className = 'dpHeader';\n                logo.className = 'dpLogo';\n                footer.innerHTML = '© 2003-2021 dianping.com, All Rights Reserved.';\n                link.href = '//www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico';\n            }\n\n            document.head.appendChild(link);\n        }\n\n            var options = {\n            requestCode: \"c42a1d4ff76e42cbbc6c361149ecc0c7\",\n            succCallbackUrl: \"https\\x3A\\x2F\\x2Foptimus\\x2Dmtsi\\x2Emeituan\\x2Ecom\\x2Foptimus\\x2FverifyResult\\x3ForiginUrl\\x3Dhttps\\x253A\\x252F\\x252Fwww\\x2Edianping\\x2Ecom\\x252F\",\n            failCallbackUrl: \"\",\n            root: \"root\",\n            theme: \"dianping\",\n            isMobile: false,\n            yodaLanguage: \"\",\n            display: \"\"\n        }\n        YodaSeed(options, \"\");\n            document.addEventListener('DOMContentLoaded', function () {\n            if (window.BfePkiCertManager && window.BfePkiCertManager.init) {\n                window.BfePkiCertManager.init({\n                    bizName: 'verify.meituan.com',\n                    userId: 'c42a1d4ff76e42cbbc6c361149ecc0c7',\n                    autoPopup: true\n                }).catch(function () {});\n            }\n        });\n    </script></body></html>",
+      "url": "https://verify.meituan.com/v2/app/general_page?requestCode=c42a1d4ff76e42cbbc6c361149ecc0c7&adaptor=auto&action=spiderindefence&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttps%253A%252F%252Fwww.dianping.com%252F&theme=dianping"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "dianping.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-15T03:30:59.895Z",
+    "score": 47,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 16,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 7 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"验证中心\"; missing/too-short meta description; no date signal; body text 7 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://dianping.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 3,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

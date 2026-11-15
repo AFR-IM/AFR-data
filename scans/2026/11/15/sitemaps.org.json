@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "sitemaps.org",
+    "fetchedAt": "2026-11-15T03:17:17.059Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "Sitemap: https://www.sitemaps.org/sitemap.xml",
+      "url": "https://sitemaps.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.",
+      "url": "https://sitemaps.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.",
+      "url": "https://sitemaps.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\r\n\r\n<head>\r\n\r\n    <title>sitemaps.org - Home</title>\r\n\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n    <script type=\"text/javascript\">  var appInsights=window.appInsights||function(config){function i(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o=\"script\",s=\"AuthenticatedUserContext\",h=\"start\",c=\"stop\",l=\"Track\",a=l+\"Event\",v=l+\"Page\",y=u.createElement(o),r,f;y.src=config.url||\"https://az416426.vo.msecnd.net/scripts/a/ai.0.js\";u.getElementsByTagName(o)[0].parentNode.appendChild(y);try{t.cookie=u.cookie}catch(p){}for(t.queue=[],t.version=\"1.0\",r=[\"Event\",\"Exception\",\"Metric\",\"PageView\",\"Trace\",\"Dependency\"];r.length;)i(\"track\"+r.pop());return i(\"set\"+s),i(\"clear\"+s),i(h+a),i(c+a),i(h+v),i(c+v),i(\"flush\"),config.disableExceptionTracking||(r=\"onerror\",i(\"_\"+r),f=e[r],e[r]=function(config,i,u,e,o){var s=f&&f(config,i,u,e,o);return s!==!0&&t[\"_\"+r](config,i,u,e,o),s}),t}({instrumentationKey:\"7e3b1cc3-2b8a-4ed1-a44d-254e44c50719\"});window.appInsights=appInsights;appInsights.trackPageView();</script>\r\n    <meta name=\"description\" content=\"The Sitemaps protocol enables webmasters to information earch engine about pages on their site that are available for crawling.\" />\r\n\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"/sitemaps.css\" media=\"screen, projection\">\r\n<script type=\"text/javascript\" src=\"/lang.js\"></script>\r\n\r\n\r\n    <style type=\"text/css\">\r\n\r\n        .style1\r\n\r\n        {\r\n\r\n            color: #FF0000;\r\n\r\n        }\r\n\r\n    </style>\r\n\r\n</head>\r\n\r\n<body>\r\n\r\n    <div id=\"container\">\r\n\r\n        <div id=\"intro\">\r\n\r\n            <div id=\"pageHeader\">\r\n\r\n                <h1>\r\n\r\n                    sitemaps.org</h1>\r\n\r\n            </div>\r\n\r\n            <div id=\"selectionbar\">\r\n\r\n                <ul>\r\n\r\n                    <li><a href=\"faq.php\">FAQ</a></li>\r\n\r\n                    <li><a href=\"protocol.php\">Protocol</a></li>\r\n\r\n                    <li class=\"activelink\"><a href=\"#\">Home</a></li>\r\n\r\n                </ul>\r\n\r\n            </div>\r\n\r\n            <!-- end selectionbar -->\r\n\r\n        </div>\r\n\r\n        <!-- end intro -->\r\n\r\n        <div style=\"padding: 14px; float: right;\" id=\"languagebox\">\r\n\r\n            Language: <span id=\"langContainer\"></span>\r\n\r\n        </div>\r\n\r\n        <div id=\"mainContent\">\r\n\r\n            <h1>\r\n\r\n                What are Sitemaps?</h1>\r\n\r\n            <p>\r\n\r\n                Sitemaps are an easy way for webmasters to inform search engines about pages on\r\n\r\n                their sites that are available for crawling. In its simplest form, a Sitemap is\r\n\r\n                an XML file that lists URLs for a site along with additional metadata about each\r\n\r\n                URL (when it was last updated, how often it usually changes, and how important it\r\n\r\n                is, relative to other URLs in the site) so that search engines can more intelligently\r\n\r\n                crawl the site.</p>\r\n\r\n            <p>\r\n\r\n                Web crawlers usually discover pages from links within the site and from other sites.\r\n\r\n                Sitemaps supplement this data to allow crawlers that support Sitemaps to pick up\r\n\r\n                all URLs in the Sitemap and learn about those URLs using the associated metadata.\r\n\r\n                Using the Sitemap <a href=\"protocol.php\">protocol</a> does not guarantee that web\r\n\r\n                pages are included in search engines, but provides hints for web crawlers to do\r\n\r\n                a better job of crawling your site.</p>\r\n\r\n            <p>\r\n\r\n                Sitemap 0.90 is offered under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/2.5/\">\r\n\r\n                    Attribution-ShareAlike Creative Commons License</a> and has wide adoption, including\r\n\r\n                support from Google, Yahoo!, and Microsoft.</p>\r\n\r\n            <p class=\"date\">\r\n\r\n                Last Updated: 17 April 2020\r\n\r\n            </p>\r\n\r\n        </div>\r\n\r\n        <!-- end maincontent -->\r\n\r\n    </div>\r\n\r\n    <!-- closes #container -->\r\n\r\n    <div id=\"footer\">\r\n\r\n        <p>\r\n\r\n            <a href=\"terms.php\">Terms and conditions</a></p>\r\n\r\n    </div>\r\n\r\n</body>\r\n\r\n</html>\r\n\r\n",
+      "url": "https://sitemaps.org/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/da/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/da/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/da/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/da/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/de/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/de/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/de/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/de/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/en_GB/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/en_GB/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/en_GB/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/en_GB/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/es/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/es/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/es/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/es/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/fi/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/fi/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/fi/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/fi/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/fr/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/fr/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/fr/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/fr/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/it/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/it/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/it/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/it/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ja/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ja/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ja/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ja/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ko/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ko/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ko/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ko/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/nl/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/nl/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/nl/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/nl/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/no/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/no/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/no/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/no/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/pl/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/pl/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/pl/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/pl/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/pt_BR/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/pt_BR/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/pt_BR/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/pt_BR/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ro/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ro/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ro/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ro/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ru/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ru/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ru/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/ru/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/sv/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/sv/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/sv/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/sv/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/tr/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/tr/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/tr/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/tr/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_CN/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_CN/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_CN/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_CN/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_HK/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_HK/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_HK/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_HK/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_TW/</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_TW/protocol.html</loc>\r\n\t\t<lastmod>2022-12-15</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_TW/faq.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n\t<url>\r\n\t\t<loc>https://www.sitemaps.org/zh_TW/terms.html</loc>\r\n\t\t<lastmod>2016-11-21</lastmod>\r\n\t</url>\r\n</urlset>",
+      "url": "https://www.sitemaps.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.",
+      "url": "https://sitemaps.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.",
+      "url": "https://sitemaps.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "sitemaps.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-15T03:17:17.059Z",
+    "score": 32,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 9,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 2,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; h1 ×2 (multiple); missing html[lang]; body text 190 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"sitemaps.org - Home\"; meta description 127 chars; no date signal; body text 190 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 2,
+      "l2.sitemap": 4,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

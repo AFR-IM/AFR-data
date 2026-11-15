@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "codeforces.com",
+    "fetchedAt": "2026-11-15T02:58:51.749Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\n# Block known bad bots and aggressive scrapers\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: Mediapartners-Google\r\nDisallow: /\r\n\r\nUser-agent: IsraBot\r\nDisallow: /\r\n\r\nUser-agent: Orthogaffe\r\nDisallow: /\r\n\r\nUser-agent: UbiCrawler\r\nDisallow: /\r\n\r\nUser-agent: DOC\r\nDisallow: /\r\n\r\nUser-agent: Zao\r\nDisallow: /\r\n\r\nUser-agent: sitecheck.internetseer.com\r\nDisallow: /\r\n\r\nUser-agent: Zealbot\r\nDisallow: /\r\n\r\nUser-agent: MSIECrawler\r\nDisallow: /\r\n\r\nUser-agent: SiteSnagger\r\nDisallow: /\r\n\r\nUser-agent: WebStripper\r\nDisallow: /\r\n\r\nUser-agent: WebCopier\r\nDisallow: /\r\n\r\nUser-agent: Fetch\r\nDisallow: /\r\n\r\nUser-agent: Offline Explorer\r\nDisallow: /\r\n\r\nUser-agent: Teleport\r\nDisallow: /\r\n\r\nUser-agent: TeleportPro\r\nDisallow: /\r\n\r\nUser-agent: WebZIP\r\nDisallow: /\r\n\r\nUser-agent: linko\r\nDisallow: /\r\n\r\nUser-agent: HTTrack\r\nDisallow: /\r\n\r\nUser-agent: Microsoft.URL.Control\r\nDisallow: /\r\n\r\nUser-agent: Xenu\r\nDisallow: /\r\n\r\nUser-agent: larbin\r\nDisallow: /\r\n\r\nUser-agent: libwww\r\nDisallow: /\r\n\r\nUser-agent: ZyBORG\r\nDisallow: /\r\n\r\nUser-agent: Download Ninja\r\nDisallow: /\r\n\r\nUser-agent: fast\r\nDisallow: /\r\n\r\nUser-agent: grub-client\r\nDisallow: /\r\n\r\nUser-agent: k2spider\r\nDisallow: /\r\n\r\nUser-agent: NPBot\r\nDisallow: /\r\n\r\nUser-agent: WebReaper\r\nDisallow: /\r\n\r\n# AI and LLM crawlers\r\n\r\nUser-agent: Omgilibot\r\nDisallow: /\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-agent: openai-crawler\r\nDisallow: /\r\n\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\n\r\nUser-agent: Claude-Web\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: PerplexityBot\r\nDisallow: /\r\n\r\nUser-agent: YouBot\r\nDisallow: /\r\n\r\nUser-agent: Amazonbot\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: Applebot\r\nDisallow: /\r\n\r\nUser-agent: facebookexternalhit\r\nDisallow: /\r\n\r\nUser-agent: MetaAI-Bot\r\nDisallow: /\r\n\r\nUser-agent: HuggingFaceBot\r\nDisallow: /\r\n\r\n# Common scraping tools (only allow /api)\r\n\r\nUser-agent: Scrapy\r\nDisallow: /\r\nAllow: /api/\r\n\r\nUser-agent: python-requests\r\nDisallow: /\r\nAllow: /api/\r\n\r\nUser-agent: curl\r\nDisallow: /\r\nAllow: /api/\r\n\r\nUser-agent: Wget\r\nDisallow: /\r\nAllow: /api/\r\n\r\n# General restrictions for all bots\r\n\r\nUser-agent: *\r\nDisallow: /admin\r\nDisallow: /alpha\r\nDisallow: /attachment\r\nDisallow: /comments/with\r\nDisallow: /contest\r\nDisallow: /contestInvitation\r\nDisallow: /contestRegistrants\r\nDisallow: /contestRegistration\r\nDisallow: /contests/with\r\nDisallow: /css\r\nDisallow: /data\r\nDisallow: /enter\r\nDisallow: /gifts\r\nDisallow: /trustList\r\nDisallow: /group\r\nDisallow: /gym/edit\r\nDisallow: /images\r\nDisallow: /js\r\nDisallow: /list/view\r\nDisallow: /lists\r\nDisallow: /lists/edit\r\nDisallow: /lists/new\r\nDisallow: /logout\r\nDisallow: /markitup\r\nDisallow: /mashups\r\nDisallow: /modules\r\nDisallow: /printEntry\r\nDisallow: /problemset/standings\r\nDisallow: /problemset/status\r\nDisallow: /problemset/submit\r\nDisallow: /proposals\r\nDisallow: /ratings\r\nDisallow: /ratings/page\r\nDisallow: /recent-actions\r\nDisallow: /register\r\nDisallow: /renderer\r\nDisallow: /site\r\nDisallow: /scripts\r\nDisallow: /search\r\nDisallow: /settings\r\nDisallow: /society\r\nDisallow: /spectator\r\nDisallow: /st.codeforces.com\r\nDisallow: /submissions\r\nDisallow: */submission/*\r\nDisallow: /support\r\nDisallow: /system\r\nDisallow: /teams/invite\r\nDisallow: /teams/with\r\nDisallow: /top-contributed\r\nDisallow: /u\r\nDisallow: /unsubscribe\r\nDisallow: /uploadfile\r\nDisallow: /user\r\nDisallow: /userForm\r\nDisallow: /userFormFieldValue/download\r\nDisallow: /userform\r\nDisallow: /userlist\r\nDisallow: /users\r\nDisallow: /usertalk\r\nDisallow: /verifyme\r\n",
+      "url": "https://codeforces.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\">\r\n<html>\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n    <meta http-equiv=\"pragma\" content=\"no-cache\">\r\n    <meta http-equiv=\"expires\" content=\"-1\">\r\n    <title>Codeforces</title>\r\n    <link rel=\"shortcut icon\" type=\"image/png\" href=\"//codeforces.com/static/favicon.png\">\r\n    <link rel=\"stylesheet\" href=\"//codeforces.com/static/css/clear.css\" type=\"text/css\" charset=\"UTF-8\">\r\n    <link rel=\"stylesheet\" href=\"//codeforces.com/static/css/style.css\" type=\"text/css\" charset=\"UTF-8\">\r\n</head>\r\n<body>\r\n<div id=\"header\">\r\n    <div style=\"float: left;\">\r\n        <a href=\"/\"><img height=\"65\" style=\"height: 65px;\" src=\"https://assets.codeforces.com/images/codeforces-logo-with-telegram-555x130.png\" alt=\"Codeforces\"/></a>\r\n    </div>\r\n    <br style=\"clear: both;\"/>\r\n</div>\r\n\r\n<h3>The requested URL was not found on this server.</h3>\r\n<hr>\r\n<h3>Запрошенный URL не найден на сервере.</h3>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"316c29dfa3804effb5a91c52a59b5bd0\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://codeforces.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\">\r\n<html>\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n    <meta http-equiv=\"pragma\" content=\"no-cache\">\r\n    <meta http-equiv=\"expires\" content=\"-1\">\r\n    <title>Codeforces</title>\r\n    <link rel=\"shortcut icon\" type=\"image/png\" href=\"//codeforces.com/static/favicon.png\">\r\n    <link rel=\"stylesheet\" href=\"//codeforces.com/static/css/clear.css\" type=\"text/css\" charset=\"UTF-8\">\r\n    <link rel=\"stylesheet\" href=\"//codeforces.com/static/css/style.css\" type=\"text/css\" charset=\"UTF-8\">\r\n</head>\r\n<body>\r\n<div id=\"header\">\r\n    <div style=\"float: left;\">\r\n        <a href=\"/\"><img height=\"65\" style=\"height: 65px;\" src=\"https://assets.codeforces.com/images/codeforces-logo-with-telegram-555x130.png\" alt=\"Codeforces\"/></a>\r\n    </div>\r\n    <br style=\"clear: both;\"/>\r\n</div>\r\n\r\n<h3>The requested URL was not found on this server.</h3>\r\n<hr>\r\n<h3>Запрошенный URL не найден на сервере.</h3>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"316c29dfa3804effb5a91c52a59b5bd0\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://codeforces.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-wSwVTkF9tbHstK0VPXkftX&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"wSwVTkF9tbHstK0VPXkftX\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'TuudzUeN.m3va5QpgkhuOogGixWDw2_luxKunwzsSak-1794711529-1.2.1.1-pgYSWsRrkoxXgpunoBI2jaxm1xKOOTaKRw0qlKqG0eNgrkqWdRYJr8Z2RzIanSnl',cITimeS: '1794711529',cN: 'wSwVTkF9tbHstK0VPXkftX',cRay: 'a5aaff167f3af475',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=o.L5BjWEtKlX4dReCtwhWOmu5bgBg.MxvmAd5AewHls-1794711529-1.0.1.1-nX9_bhyaeYWuzksW20Cqr4Zuzm8Uyt18Nmc4BxcCwts\",cvId: '3',cZone: 'codeforces.com',fa:\"/?__cf_chl_f_tk=o.L5BjWEtKlX4dReCtwhWOmu5bgBg.MxvmAd5AewHls-1794711529-1.0.1.1-nX9_bhyaeYWuzksW20Cqr4Zuzm8Uyt18Nmc4BxcCwts\",md: '2sI6gFcTG7pQIobw3BxxK.ai_rbc3_KlDhBUYSD8WwE-1794711529-1.2.1.1-cryE30pvzdLKn2Nnlww.xJtHbSV3.EnJzDaOJ5PsuYXXXmQYXGnUnsgSt2HW_ouJaIdN9U9uS9IPpf4QFLM1l0WIVL.KZf2o1kBPFjOTK8bizTda1Xu57l83GDYl1kqC_4w6hH9YZh70moBJtQYXstSo3BrCyXXSNwL4xV12gERTiqPGKxEtxup1j1aXiOmgvey9nMll599F08AbcER2L9IZRFChUHcj3O8sJXqoWNvZojx8L1shDf8MryTU4Xpj1Pq7hftNkf.0B7bRWQIuI0OdYjDjfzGadbHPTOTEz4wLdtaDef4fchtSsmeNXhMFHTqA.5cscgXE8SmzRyJvE0AL1fp7e61zu44hzwhr0z9PRqo6PJH3Q3EDwe2ePTmJcU4l4X3HbNYS6kFnwAX.g_yu.Gh8KaIRV5yfkI8wJyF6ywgQz72KPLMojYFtXfzGJwLlfxBiU.laGy5kzBZoyzVPK1wLd7DeiARXmIiUXxO7s47axME0UBlqCn7omQD_Pn5GB1gOIEyAgu6s9Fp3DJX.5zw1ZVX2ob2tq.MjB8WNZYUsLos3YEvVQKUd4t6_cJGf9fyTvFyx.zyVcKJ2_PXERwfSi2IPbnvUfYMNR6U.SQud75nOJRgtpmePmuuFAGxzTm_keDf5dK.FY_ANcozRjhrwuHJJbRhY2pjcs8gND3iKxUeoXjv3.rtNrI.SXRpH3ObB1DaDWj8ISDVIQ6cb7TqQpmCXZYNwgaLbSb0Q_3EEMo0R8euMhYlItmJ5MKpmD0x030hap7zhv6UsndNtSjEqFr1zFE.ljiycrwqc1vs0OBIV4aFEWREdGjrYcrz.xtTAVrz4fgO36xZ_KxydeGyjQ6Dy9cH5T5O_gzokWQVI57wh1UdDXLoCBtHHh24RcTjZwRLmQLgjVwP9YUye0So7HfGCv5K9j8DxvkiExZqv8sJSDBdd4SkeLxTJ7843nwTTKE4Lde_f53SRK0XBD9Z5P9e61YQqiSE7RspgPC3fK75JK5esbwl1m3bK7vOJPob4H4CATHLaSWkFSWpGsbR.Rp0mIyb9ys..Vczc2jUvKk9438zyNUeT_e4K89__9.hnMpqh30RmX_4ve1vA9Uu_EPVLBCyl3y3ptTQ',mdrd: 'MOyepqjzHQYGOsRK_MPIXLTjXFZT4QuU.FDqJLioSq0-1794711529-1.2.1.1-ST6ygjNyKWirZfX0U6gt8u.tFMpxe3bJbtVOfPDEY7OYdgLh_tthQ2deJVFdlVdbveIVc5a9_H7lfFwF_xDUSlP1aXsbscc8hm.8oqCHrEZHEwUx4.Qg9UTqy8KlIR_J0M.FA8zAQZWCquIBpMdMcqMrVCcY88XTy.W2id7uEUsdmnT4ybbwQi5V7uBbZraFYlqyu3sHR19ivBRo0Qqhh0v5Bpn0wVsy6sagSMW17CbLu9zplF51sVwUnM3LgP4_ieQUccbYy34ncBE0kVSvpplgAQMqZWDHx_ix9FVOlYF2n3nUTBh8k_iH_7twYTqjBfPvtmYX80YsP7aTgIgG2lGzc2_XdCSea3GjiDL9J0YF8P8DSvc8G61xaoozzTeR8JariL0kqXAPVbv7nyANiw',};var a = document.createElement('script');a.nonce = 'wSwVTkF9tbHstK0VPXkftX';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5aaff167f3af475';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=o.L5BjWEtKlX4dReCtwhWOmu5bgBg.MxvmAd5AewHls-1794711529-1.0.1.1-nX9_bhyaeYWuzksW20Cqr4Zuzm8Uyt18Nmc4BxcCwts\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://codeforces.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-qlJm82G9iHLHsXUD6dD0Qc&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"qlJm82G9iHLHsXUD6dD0Qc\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'jvNoD5o5KBZJALhs7WEinOq1A7upIPl2AC_B_NHJhWs-1794711530-1.2.1.1-Y4VKyvpFH.vRtq5vmr4mls7LLEN08dD.eOPFUP5h.8pxar55HwVkBFZXQyby4m6K',cITimeS: '1794711530',cN: 'qlJm82G9iHLHsXUD6dD0Qc',cRay: 'a5aaff18389872f9',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=GHbYp71gPPt6EMgOA5fcaHhZVwkGLl5etDz_6ZDCSKI-1794711530-1.0.1.1-HXNfUEDkcYGxySVrbTcbhxndhuhmdg9f5vZmF8V7hTU\",cvId: '3',cZone: 'codeforces.com',fa:\"/sitemap.xml?__cf_chl_f_tk=GHbYp71gPPt6EMgOA5fcaHhZVwkGLl5etDz_6ZDCSKI-1794711530-1.0.1.1-HXNfUEDkcYGxySVrbTcbhxndhuhmdg9f5vZmF8V7hTU\",md: 'EmQPFWmQkG_gvZ7OmqYyOAnhMOBCle0OjGhTxp7HPm4-1794711530-1.2.1.1-gJaBGIW4RNcBciJPenDWF1UzRFndFbBz4HbvoKnjDyOA03D53HD7v47EsRfZNAu_8L_Lvn2nag2mo8Mq2VmjL78Hck3VQ7vvT1ecJC_Z6nTOc.MjihSnz3W8I3v21Jn_fQB_tzgFvwiIRJRBWVU2n72B2n4PWswVLsBwXIF1uF2_lE.TBJjp3nKsHz7TvgMQJALlHMOaO8MPjZLcAPmIEKa03feeOqmngJXUiF_kJC22i0gUu99778.bWcG9tw31mZcWvb3SCF1QCsMKql6hw7wwvA5O.WsX0NRHICcDuGMSl.QL.NWVN4DsvBN9pnxqQDSFkm6QT235N1Ftek8cjC84b8FIzyYgTbm.Nyr4aEQQecGQRn1Yy.0jYPbZX3QiYkLiKuKYQaVqCW7IUOsTeiX2GU0LmCUkS6PW3bYTC80aIoPEgd8ZaM2cYvZEjNocGMOX_h89WZsCCB5NSQOCgNQMzUGXv.5MV3_Ddq8DYzKoRfIUm6eatcCat69RPyJ9y15DpTWXUF8gx148FJvAIfETQmoCCCQi2uLNf5LBuJngTgumc4EXGg_jCF3jUOab9RX9YHeAlZvV9_3XEA7VdWZwxI80x9s_XDwplv5ED4jrOGPbbbrQviYz_O_yv9YLATibSeiASPc7THtNii5fwfvCMnaH5SpGN83OZ97pqkGVRIaRUAdnQqQlIZ4VEoZRWr35R2S.aoW6OXYwzwd4sM4FRcIK3QVP5MPHAFNsUpFvu8ugKpXC2ZgMx.1V4FqA9dOrhUK3aAZ7jKx6OG9JpqypVZkc4cD_sUqUUwDkW0OHfH6pr5K82EQD3cQviTVrSNe6D9VIPxpHSsNcvwnjXDWb1f.7h70P7Xlr7F0hEP_waMFAi4ulDW4zy305PHXTLMZ.d7RDd2.x6iha9Imf2tnuqv_K1G.UjuvTcielDRjmDK.dvpqBW77lzxYUK1LhzQQWlbVeLYIDyc4SF_Q7slbrPzzYsX8.WiuhL5fD9EXpS1lOLG7ObbbeA6mKq7.d42jdRyFuPTbNlylQIYDWtwsDymuQUKMg4x4rYeQFT4ptfnVE_axPRmWSXx.3HWhF6VGpllyvC1PtXb1Jz9cC3ksIzBsGK1kVOC9SbK2LyfuWU7lVLrjIIfFsFhLNuzoT',mdrd: 'BA3YyMsHtFIycl2HCw81_U5bJbWTRLPHgv4R5FcyWYo-1794711530-1.2.1.1-xluSVYNVeyOIR2aj8.X_JU2JGTKvHWJrvp8VxYmpvaUhJWJhJpPCbud4S1MQGpucvl9N.8a3C21YRZ8NGlSu5ikUrkc88bMjO4Za2fCWUfgn_068dwG2DsZln1CxwnYAaa7bkhg9vygPhVvmmIU6YIw275TdCCkbI2HyjShJZGUuh8XPWG4m_tsXcaJaOBZ6z5YBKMJurx3vmIOzjpqNE021Wa5ESjFkYPip2QlsSpZIntQjGCjowPj8.hocZ0CXYxI_Gf1wlHKNex4iq1PxSDAOY9tENgzJA5EwQUbkznZqokuUlqAQ1fYKkVNqZQF.crBKB3eJ2DmaWFeqsJSNO6HM_outc10pJAafotyWgQPXzy1eQQPyL7A.mvt_KmeE25Lo_Ni_3orRXtrWChFPIw',};var a = document.createElement('script');a.nonce = 'qlJm82G9iHLHsXUD6dD0Qc';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5aaff18389872f9';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=GHbYp71gPPt6EMgOA5fcaHhZVwkGLl5etDz_6ZDCSKI-1794711530-1.0.1.1-HXNfUEDkcYGxySVrbTcbhxndhuhmdg9f5vZmF8V7hTU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://codeforces.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-y7gCXXWZlPYWQhmm4gNHST&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"y7gCXXWZlPYWQhmm4gNHST\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'xfrgKVCoc3mkfiHAZ88cBJRBaLCMJdTbK.k3SRWpy7I-1794711530-1.2.1.1-xVDTz0nCV9MzELkTzuIWmEpdiL.QCy6wNXTyPgcx.dcn0YcAOBuvN.AWOukjwCX3',cITimeS: '1794711530',cN: 'y7gCXXWZlPYWQhmm4gNHST',cRay: 'a5aaff1a09cd2286',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=1O87XpDb22SYASVlQMB0wHG6tgOEJhANEdeehxxUXV8-1794711530-1.0.1.1-4J_D2_0k.GrsA2vlOZ0n9kTGI0o2GL.jSMw6PZaR3aU\",cvId: '3',cZone: 'codeforces.com',fa:\"/agents.md?__cf_chl_f_tk=1O87XpDb22SYASVlQMB0wHG6tgOEJhANEdeehxxUXV8-1794711530-1.0.1.1-4J_D2_0k.GrsA2vlOZ0n9kTGI0o2GL.jSMw6PZaR3aU\",md: '_ffvBiEFh3gPCFpWavr0Q6v.Frp022a1LmbhjXC2KIw-1794711530-1.2.1.1-qm_GUGdWmr34gtQLAxjoqHEZA1dKrjFU9xeDkKx21ren2ceAnGEAD0DmMU.MAVggapadLe3CrlAz2eUL4zC2CVVdI1ZmUhqadqCujuw.8zoJWo.2zIUjIL.BRjpqBRe.CNNb_3fDAhicfIuB2.EXEvhtAU5aXft6RG2BLuL7QGm8kOG0PK_VXeBuNqWcHzWQQDLubcWUdamtdNNtZFjUpJoHhS29xNEmCZR9YgkyNDiTxX23lztg4YDbZNOYHLYze3hXtfNVF4A9K4Bvjz3n3iKp5rnKRq40DkR.aeNZLZd6cjQ0Nbw_gxiouASPX6lWurGapGwuPi3qA.CwmYrtEeulO97W.SH0COP1n91EM7eWNXYGqQ0u7ytz_.uEfwLJAr5Giiz96FRrxzvM6uyB7J9MY147PRM1ssg76firCnRWZnyqGbG8xbd9i7Tyv_W3eR71abJmswuRWIa4X0maSDke.rLhqUeKp9FKm5J9OIaFGU8hD_zhQShBqQDcI49Nql_u16FhI2Sy_QStDfcdHRoxHrp8MHt51DLDpozvgdi1Pb9TSfu87B.58CKcgzSVZ8oFLQjV_..4Z8G55ZDFWLz7zzbpnnyUeX1QeNcJOF8OT3thrx5XEZOeqGLdNkJj4jqu9o664OC2UKIFGkrYWtkZNUMqelOSMbIK5IJZzkXZNrb1BIsihpa3jAV2NsTsREgQ9m4h_jC9_XCei5AZNPjKXLQULzRVp8Tr7xtx5EsBtMoGaf7W5ZDzbCsFIqylSzAtJip3vIHpiBW3itSJnUFPgSU2hc5XKK4nXVBacHeOgskumbGoiWTIlEYOp05V2bkFgdGBRUcobm9jwWRXbZDtYiE9DTimyvuma_LFbM3XxeA1mjfYVQjY3_Ty.l4yaitt4U83asC0aRLT3Hyl2aSR7SdggngPiMjQpCZdKz3Awxd9l3ylU3sY_5i7ww1Bn.1Jq3oeY.ofSeNTKemo.NVU4J8HiQjKkGHEy.4gg1VsHdjP5Yau5z7dNjdb2Yc8m5.eaV8KvdUPJjfs98grTXtABv1V1xpK4.Zt396Hd3gGpY2TCrukj2W02R3pT6EK4IRPAOnumPeXB9tPSTLKS_y9wpm2JJMP4zXxLkB.ZaTjnGM8ClhU1BhBd5JcVLKB',mdrd: '3iFCmdhbzQsS5cdxf741igdXpeGzZKEy6fxREcKojBc-1794711530-1.2.1.1-h0hmw_XCjdE2ywhWpH3KeWxEkorLpaeHJ_UjFioQaGG_cAQubVBCJI_4.sGAQ3Oq4qEVYi.krkgBWtaATmHjKQmdyKBqSXIrrdV6Ktv4jmYnAnggGOmeuPY3E8dYr_S7HWcjbfAdltaL2VvBI1YP7sHQNc7RYBLtWw1TTshVNKo8RX7hzzBRhXgV258t0VRvGWjRvCohNuWlveXEaz9KRRawW5nLnauGx2LvvgoIcOmrHdEdX0eA9pzE_cnGhhOXCvwq.p_IYy3AdqczDdJueGDrBMDVUyxj.zvXUODWFiy2XCBqsFQ0Vvkspi7QHfy8NBrgNavMT6zkcTHqVm1HXntOF0.UBbYPpc2fFYmP0FAAULC_sK2SDgm.GNG1sqNSve5Jc_2CWI0RtIHn0X4oTQ',};var a = document.createElement('script');a.nonce = 'y7gCXXWZlPYWQhmm4gNHST';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5aaff1a09cd2286';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=1O87XpDb22SYASVlQMB0wHG6tgOEJhANEdeehxxUXV8-1794711530-1.0.1.1-4J_D2_0k.GrsA2vlOZ0n9kTGI0o2GL.jSMw6PZaR3aU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://codeforces.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\">\r\n<html>\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n    <meta http-equiv=\"pragma\" content=\"no-cache\">\r\n    <meta http-equiv=\"expires\" content=\"-1\">\r\n    <title>Codeforces</title>\r\n    <link rel=\"shortcut icon\" type=\"image/png\" href=\"//codeforces.com/static/favicon.png\">\r\n    <link rel=\"stylesheet\" href=\"//codeforces.com/static/css/clear.css\" type=\"text/css\" charset=\"UTF-8\">\r\n    <link rel=\"stylesheet\" href=\"//codeforces.com/static/css/style.css\" type=\"text/css\" charset=\"UTF-8\">\r\n</head>\r\n<body>\r\n<div id=\"header\">\r\n    <div style=\"float: left;\">\r\n        <a href=\"/\"><img height=\"65\" style=\"height: 65px;\" src=\"https://assets.codeforces.com/images/codeforces-logo-with-telegram-555x130.png\" alt=\"Codeforces\"/></a>\r\n    </div>\r\n    <br style=\"clear: both;\"/>\r\n</div>\r\n\r\n<h3>The requested URL was not found on this server.</h3>\r\n<hr>\r\n<h3>Запрошенный URL не найден на сервере.</h3>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"316c29dfa3804effb5a91c52a59b5bd0\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://codeforces.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "codeforces.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-15T02:58:51.749Z",
+    "score": 5,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 4.88,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 4.88,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 3.38/9 · hybrid 1.50/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: PerplexityBot, ChatGPT-User, Google-Extended. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, Googlebot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 4.88,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

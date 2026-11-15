@@ -1,0 +1,242 @@
+{
+  "signals": {
+    "domain": "kbb.com",
+    "fetchedAt": "2026-11-15T02:50:50.781Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-Agent: *\nDisallow: */recall*vin=\nDisallow: /*trid= \nDisallow: /*psid=\nDisallow: /*siomid\nDisallow: /mykbb/\nDisallow: /*legaldisclaimer\nDisallow: /*?listingid=\nDisallow: /*vehicleid=*repair=\nDisallow: /schedule-service\nDisallow: /base-style-consumer_reviews_write_review/\nDisallow: /car-dealers/experian*\nDisallow: /cars-for-sale/experian*\nDisallow: /redirect/experian_forward.jsp*\nDisallow: /pixall/\nDisallow: /marketplace/buy/*\nDisallow: /marketplace/api/files/*\nDisallow: */undefined\nDisallow: */pep\nDisallow: /pep\nDisallow: /cars-for-sale/experian*\nDisallow: */car-offers/*\nDisallow: */options/\nDisallow: /cars-for-sale/build-and-price\nDisallow: *intent=\nDisallow: /cars-for-sale/vehicle-conditioning/\nDisallow: */valuetype/\nDisallow: */hasAutoDetected\nDisallow: */car-match-quiz*vehicles=*scores=*attributes=\nDisallow: */car-quiz*vehicles=*scores=*attributes=\nDisallow: /comment-summary\nDisallow: /kbbreport/\nDisallow: *bvstate\nDisallow: */decision-tree\nDisallow: /category/0/\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: ClaudeBot\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: Claude-User\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: Claude-SearchBot\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: DuckAssistBot\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: /rest/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: PerplexityBot\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: Perplexity-User\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: GrokBot\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: OAI-SearchBot\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: OAI-AdsBot\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: GPTBot\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: ChatGPT-User\nDisallow: /*.js\nDisallow: /*.css\nDisallow: /*.json\nDisallow: /api/\nDisallow: */pep\nDisallow: /pep\nDisallow: /kbbreport/\nDisallow: /pixall\nDisallow: */pixall\nDisallow: /category/0/\n\nUser-agent: Google-InspectionTool\nAllow: *\nDisallow: */recall*vin=\nDisallow: /*trid= \nDisallow: /*psid=\nDisallow: /*siomid\nDisallow: /mykbb/\nDisallow: /*legaldisclaimer\nDisallow: /*?listingid=\nDisallow: /*vehicleid=*repair=\nDisallow: /schedule-service\nDisallow: /base-style-consumer_reviews_write_review/\nDisallow: /car-dealers/experian*\nDisallow: /cars-for-sale/experian*\nDisallow: /redirect/experian_forward.jsp*\nDisallow: /pixall/\nDisallow: /marketplace/buy/*\nDisallow: /marketplace/api/files/*\nDisallow: */undefined\nDisallow: */pep\nDisallow: /pep\nDisallow: /cars-for-sale/experian*\nDisallow: */car-offers/*\nDisallow: */options/\nDisallow: /cars-for-sale/build-and-price\nDisallow: *intent=\nDisallow: /cars-for-sale/vehicle-conditioning/\nDisallow: */valuetype/\nDisallow: */hasAutoDetected\nDisallow: */car-match-quiz*vehicles=*scores=*attributes=\nDisallow: */car-quiz*vehicles=*scores=*attributes=\nDisallow: /comment-summary\nDisallow: /kbbreport/\nDisallow: *bvstate\nDisallow: */decision-tree\n\nUser-agent: Mediapartners-Google\nDisallow: /\nUser-agent: Slurp\nDisallow: /\nUser-agent: Sogou web spider\nDisallow: /\nUser-agent: Yahoo Ad Monitoring\nDisallow: /\n\nUser-agent: Tag Inspector Spider\nAllow: /\n\nUser-agent: Adsbot-Google\nAllow: /*psid=\n\nSitemap: https://www.kbb.com/sitemap-index.xml\nSitemap: https://www.kbb.com/sitemap-classifieds_condition_make_model_trim.xml.gz\nSitemap: https://www.kbb.com/sitemap-classifieds_condition_make_model_year.xml.gz\n",
+      "url": "https://www.kbb.com/robots.txt"
+    },
+    "llms": {
+      "error": "timeout: This operation was aborted"
+    },
+    "llmsFull": {
+      "error": "timeout: This operation was aborted"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;kbb&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;570dc617&#46;1794710920&#46;a9efac9\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;570dc617&#46;1794710920&#46;a9efac9</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.kbb.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<sitemapindex xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-nav.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-classifieds_nsrp_condition_make.xml.gz</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-classifieds_nsrp_make.xml.gz</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-classifieds_nsrp_make_model.xml.gz</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-classifieds_nsrp_condition_make_model.xml.gz</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-make_model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-category.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-latest_news.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-google_news.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-articles.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-what_is.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-motorcycles_make.xml/</loc>\n  </sitemap>  \n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-motorcycles_category.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-ymm_overview.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-ymm_used_overview.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-ymmt_overview.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-ymmt_used_overview.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-top-lists.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-recalls-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-recalls-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-service-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-service-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-auto-repair-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-auto-repair-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-brake-repair-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-spark-plug-replacement-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-oil-change-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-wheel-alignment-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-battery-replacement-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-transmission-fluid-change-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-coolant-flush-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-check-engine-light-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-fuel-filter-replacement-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-fuel-pump-replacement-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-timing-belt-replacement-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-transmission-repair-and-replacement-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-water-pump-replacement-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-wheel-bearing-replacement-make.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-brake-repair-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-spark-plug-replacement-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-oil-change-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-wheel-alignment-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-battery-replacement-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-transmission-fluid-change-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-coolant-flush-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-check-engine-light-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-fuel-filter-replacement-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-fuel-pump-replacement-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-timing-belt-replacement-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-transmission-repair-and-replacement-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-water-pump-replacement-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-wheel-bearing-replacement-model.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-obd-ii-pages.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-obd-ii-p-codes.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-obd-ii-c-codes.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-obd-ii-u-codes.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-acura-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-alfa-romeo-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-aston-martin-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-audi-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-bentley-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-bmw-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-buick-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-cadillac-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-chevrolet-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-chrysler-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-daewoo-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-daihatsu-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-dodge-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-eagle-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-ferrari-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-fiat-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-fisker-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-ford-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-freightliner-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-genesis-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-geo-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-gmc-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-honda-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-hummer-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-hyundai-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-infiniti-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-isuzu-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-jaguar-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-jeep-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-kia-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-lamborghini-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-land-rover-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-lexus-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-lincoln-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-lotus-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-maserati-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-maybach-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-mazda-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-mclaren-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-mercedes-benz-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-mercury-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-mini-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-mitsubishi-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-nissan-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-oldsmobile-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-panoz-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-plymouth-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-pontiac-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-porsche-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-ram-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-rivian-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-rolls-royce-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-saab-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-saturn-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-scion-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-smart-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-srt-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-subaru-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-suzuki-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-tesla-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-toyota-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-volkswagen-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-local-volvo-auto-service-centers.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap1.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap2.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap3.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap4.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap5.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap6.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap7.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap8.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap9.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap10.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/post-sitemap11.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/page-sitemap.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-best_cars.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-compare_specs.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-make_category.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-make-incentives.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-model-incentives.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-ymm_consumer_reviews.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-acura.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-alfa%20romeo.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-aston%20martin.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-audi.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-bentley.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-bmw.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-buick.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-cadillac.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-chevrolet-0.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-chevrolet-1.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-chrysler.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-daewoo.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-daihatsu.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-dodge.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-eagle.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-ferrari.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-fiat.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-fisker.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-ford-0.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-ford-1.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-ford-2.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-freightliner.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-genesis.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-geo.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-gmc.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-honda.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-hummer.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-hyundai.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-infiniti.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-isuzu.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-jaguar.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-jeep.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-kia.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-lamborghini.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-land%20rover.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-lexus.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-lincoln.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-lotus.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-lucid.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-maserati.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-maybach.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-mazda.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-mclaren.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-mercedes-benz.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-mercury.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-mini.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-mitsubishi.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-nissan.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-oldsmobile.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-panoz.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-plymouth.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-polestar.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-pontiac.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-porsche.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-ram.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-rivian.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-rolls-royce.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-saab.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-saturn.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-scion.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-smart.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-srt.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-subaru.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-suzuki.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-tesla.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-toyota-0.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-toyota-1.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-vinfast.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-volkswagen.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-images_ymm-volvo.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-auto-loan-calculator.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-car-affordability-calculator.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-car-lease-calculator.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-ymm_depreciation.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-ymm_cost_to_own.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-ymm_car_finance.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-compare-results-category.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-car-make-model-list.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-new-car.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-electric-guide.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-videos.xml/</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.kbb.com/sitemap-games.xml/</loc>\n  </sitemap>\n</sitemapindex>\n",
+      "url": "https://www.kbb.com/sitemap-index.xml"
+    },
+    "agentsMd": {
+      "error": "timeout: This operation was aborted"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "error": "timeout: This operation was aborted"
+    }
+  },
+  "afr": {
+    "domain": "kbb.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-15T02:50:50.781Z",
+    "score": 24,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 19.79,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 19.79,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 7.88/9 · hybrid 5.25/6 · training 6.67/10; strategy tag Middle-Path. Blocked examples: Amazonbot. Unconfigured examples: Googlebot, Google-Extended, Bytespider."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt network error: timeout: This operation was aborted; GET /llms-full.txt network error: timeout: This operation was aborted; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md not probed; llms.txt HTTP undefined"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 19.79,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 4,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

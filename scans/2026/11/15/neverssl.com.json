@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "neverssl.com",
+    "fetchedAt": "2026-11-15T03:20:03.017Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://neverssl.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://neverssl.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://neverssl.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<html>\n\t<head>\n\t\t<title>NeverSSL - Connecting ... </title>\n\t\t<style>\n\t\tbody {\n\t\t\tfont-family: Montserrat, helvetica, arial, sans-serif;\n\t\t\tfont-size: 16x;\n\t\t\tcolor: #444444;\n\t\t\tmargin: 0;\n\t\t}\n\t\th2 {\n\t\t\tfont-weight: 700;\n\t\t\tfont-size: 1.6em;\n\t\t\tmargin-top: 30px;\n\t\t}\n\t\tp {\n\t\t\tline-height: 1.6em;\n\t\t}\n\t\t.container {\n\t\t\tmax-width: 650px;\n\t\t\tmargin: 20px auto 20px auto;\n\t\t\tpadding-left: 15px;\n\t\t\tpadding-right: 15px\n\t\t}\n\t\t.header {\n\t\t\tbackground-color: #42C0FD;\n\t\t\tcolor: #FFFFFF;\n\t\t\tpadding: 10px 0 10px 0;\n\t\t\tfont-size: 2.2em;\n\t\t}\n\t\t.notice {\n\t\t\tbackground-color: red;\n\t\t\tcolor: white;\n\t\t\tpadding: 10px 0 10px 0;\n\t\t\tfont-size: 1.25em;\n\t\t\tanimation: flash 4s infinite;\n\t\t}\n\t\t@keyframes flash {\n\t\t0% {\n\t\t\tbackground-color: red;\n\t\t}\n\t\t50% {\n\t\t\tbackground-color: #AA0000;\n\t\t}\n\t\t0% {\n\t\t\tbackground-color: red;\n\t\t}\n\t\t}\n\t\t<!-- CSS from Mark Webster https://gist.github.com/markcwebster/9bdf30655cdd5279bad13993ac87c85d -->\n\t\t</style>\n\n\t\t<script>\n\t\t\tvar adjectives = [ 'cool' , 'calm' , 'relaxed', 'soothing', 'serene', 'slow',\n\t\t\t\t\t\t\t'beautiful', 'wonderful', 'wonderous', 'fun', 'good',\n\t\t\t\t\t\t\t'glowing', 'inner', 'grand', 'majestic', 'astounding',\n\t\t\t\t\t\t\t'fine', 'splendid', 'transcendent', 'sublime', 'whole',\n\t\t\t\t\t\t\t'unique', 'old', 'young', 'fresh', 'clear', 'shiny',\n\t\t\t\t\t\t\t'shining', 'lush', 'quiet', 'bright', 'silver' ];\n\n\t\t\tvar nouns =\t  [ 'day', 'dawn', 'peace', 'smile', 'love', 'zen', 'laugh',\n\t\t\t\t\t\t\t'yawn', 'poem', 'song', 'joke', 'verse', 'kiss', 'sunrise',\n\t\t\t\t\t\t\t'sunset', 'eclipse', 'moon', 'rainbow', 'rain', 'plan',\n\t\t\t\t\t\t\t'play', 'chart', 'birds', 'stars', 'pathway', 'secret',\n\t\t\t\t\t\t\t'treasure', 'melody', 'magic', 'spell', 'light', 'morning'];\n\n\t\t\tvar prefix =\n\t\t\t\t\t// Choose 3 zen adjectives\n\t\t\t\t\tadjectives.sort(function(){return 0.5-Math.random()}).slice(-3).join('')\n\t\t\t\t\t+\n\t\t\t\t\t// Coupled with a zen noun\n\t\t\t\t\tnouns.sort(function(){return 0.5-Math.random()}).slice(-1).join('');\n\t\t\twindow.location.href = 'http://' + prefix + '.neverssl.com/online';\n\t\t</script>\n\t</head>\n\t<body>\n\t<noscript>\n\t\t<div class=\"notice\">\n\t\t\t<div class=\"container\">\n\t\t\t\t⚠️ JavaScript appears to be disabled. NeverSSL's cache-busting works better if you enable JavaScript for <code>neverssl.com</code>.\n\t\t\t</div>\n\t\t</div>\n\t</noscript>\n\t<div class=\"header\">\n\t\t<div class=\"container\">\n\t\t<h1>NeverSSL</h1>\n\t\t</div>\n\t</div>\n\t<div class=\"content\">\n\t<div class=\"container\">\n\n\t<h1 id=\"status\"></h1>\n\t<script>document.querySelector(\"#status\").textContent = \"Connecting ...\";</script>\n\t<noscript>\n\n\t\t<h2>What?</h2>\n\t\t<p>This website is for when you try to open Facebook, Google, Amazon, etc\n\t\ton a wifi network, and nothing happens. Type \"http://neverssl.com\"\n\t\tinto your browser's url bar, and you'll be able to log on.</p>\n\n\t\t<h2>How?</h2>\n\t\t<p>neverssl.com will never use SSL (also known as TLS). No\n\t\tencryption, no strong authentication, no <a\n\t\thref=\"https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security\">HSTS</a>,\n\t\tno HTTP/2.0, just plain old unencrypted HTTP and forever stuck in the dark\n\t\tages of internet security.</p>\n\n\t\t<h2>Why?</h2>\n\t\t<p>Normally, that's a bad idea. You should always use SSL and secure\n\t\tencryption when possible. In fact, it's such a bad idea that most websites\n\t\tare now using https by default.</p>\n\n\t\t<p>And that's great, but it also means that if you're relying on\n\t\tpoorly-behaved wifi networks, it can be hard to get online.  Secure\n\t\tbrowsers and websites using https make it impossible for those wifi\n\t\tnetworks to send you to a login or payment page. Basically, those networks\n\t\tcan't tap into your connection just like attackers can't. Modern browsers\n\t\tare so good that they can remember when a website supports encryption and\n\t\teven if you type in the website name, they'll use https.</p>\n\n\t\t<p>And if the network never redirects you to this page, well as you can\n\t\tsee, you're not missing much.</p>\n\n        <a href=\"https://twitter.com/neverssl\">Follow @neverssl</a>\n\n\t</noscript>\n\n\t</div>\n\t</div>\n\n\t</body>\n</html>\n",
+      "url": "https://neverssl.com/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://neverssl.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://neverssl.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+      "url": "https://neverssl.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "neverssl.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-15T03:20:03.017Z",
+    "score": 40,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 35,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 25,
+            "max": 25,
+            "status": "pass",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 5,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; h1 ×2 (multiple); missing html[lang]; body text 227 words"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"NeverSSL - Connecting ...\"; missing/too-short meta description; no date signal; body text 227 words (moderate)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 25,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 0,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
