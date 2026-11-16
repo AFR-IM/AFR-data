@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "cnews.fr",
+    "fetchedAt": "2026-11-16T03:30:16.193Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nCrawl-delay: 10\nSitemap: https://www.cnews.fr/sitemap.xml\nSitemap: https://www.cnews.fr/googlenews.xml\n\n# Directories\nDisallow: /includes/\nDisallow: /misc/\nDisallow: /modules/\nDisallow: /profiles/\nDisallow: /scripts/\nAllow: /themes/cnews/favicon.ico\nAllow: /themes/cnews/img/favicon-48x48.png\nAllow: /themes/cnews/img/favicon-64x64.png\nDisallow: /themes/\n\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips/\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /rechercher/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\nDisallow: /user/logout/\nDisallow: /nofollow/\nDisallow: /textsize/\nDisallow: /print/\nDisallow: /printmail/\nDisallow: /depeches/afp/0/\nDisallow: /content/\nDisallow: /actu/\nDisallow: /article/\nDisallow: /commentaires/\nDisallow: /depeche/\nDisallow: /image-du-jour/\nDisallow: /infographies/\nDisallow: /les-recettes-de-cuisines/\nDisallow: /top-news/\nDisallow: /conditions-generales-utilisation\nDisallow: /user/login\nDisallow: /le-club/\n\n# Paths (no clean URLs)\nDisallow: /?q=admin/\nDisallow: /?q=comment/reply/\nDisallow: /?q=filter/tips/\nDisallow: /?q=node/add/\nDisallow: /?q=search/\nDisallow: /?q=user/password/\nDisallow: /?q=user/register/\nDisallow: /?q=user/login/\nDisallow: /?q=user/logout/\nDisallow: /?q=nofollow/\nDisallow: /?q=textsize/\nDisallow: /?q=print/\nDisallow: /?q=printmail/\nDisallow: /?q=depeches/afp/0/\nDisallow: /?q=content/\nDisallow: /?q=actu/\nDisallow: /?q=article/\nDisallow: /?q=commentaires/\nDisallow: /?q=depeche/\nDisallow: /?q=image-du-jour/\nDisallow: /?q=infographies/\nDisallow: /?q=les-recettes-de-cuisines/\nDisallow: /?q=top-news/\nDisallow: /cdn-cgi/\nDisallow: /*/aggregate$\n\n# Paths (others)\nDisallow: /france/2021-09-21/lancien-ministre-socialiste-paul-quiles-est-decede-1129008\nDisallow: /*nba-corner*\n\nUser-agent: grapeshot\nDisallow:\n\nUser-agent: Googlebot-News\nDisallow: /le-corner-partenaires/\n",
+      "url": "https://www.cnews.fr/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL \"https://www.cnews.fr/llms.txt\" was not found on this server.</p></body></html>",
+      "url": "https://www.cnews.fr/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL \"https://www.cnews.fr/llms-full.txt\" was not found on this server.</p></body></html>",
+      "url": "https://www.cnews.fr/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-XbkyxcKz2MaoglzJW2as2P&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"XbkyxcKz2MaoglzJW2as2P\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'UQZhY6e8j0KhD0WVu6RAVdZPur9AIT..HJ6Bo31T.dg-1794799800-1.2.1.1-OFMuuePRHxG8lG2wpFs0OjItWgDX2cG7XGtWZS55yMRbmCnUm0qORn30Rl18rMco',cITimeS: '1794799800',cN: 'XbkyxcKz2MaoglzJW2as2P',cRay: 'a5b36a1dfe2fbae3',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=ABXxylh7.cOjYHsS7Ns1kJ1k_U3c9Z93z1XpoSu7oQs-1794799800-1.0.1.1-aMD4EcgxcFYQcPcx9AwnEdMzEvi.Wqkbp.iQ2cFekD0\",cvId: '3',cZone: 'cnews.fr',fa:\"/?__cf_chl_f_tk=ABXxylh7.cOjYHsS7Ns1kJ1k_U3c9Z93z1XpoSu7oQs-1794799800-1.0.1.1-aMD4EcgxcFYQcPcx9AwnEdMzEvi.Wqkbp.iQ2cFekD0\",md: 'CH_jGdu4K4qWdI0oUjMl80TWXTNvixPhxy9HHShYMWY-1794799800-1.2.1.1-NX9vgf2EmBx02Z4jVlFW0YVTisicqGKnLvyzn03ZiDUuIZ39c3Wc_eXjKzfyJZ5OLN000_2YIIiQdLVLLPZPt14xJ8dnYWF0m74NlKHtvpP8hdFr7vm2IDg5trlQrPdWBhuEnvHS8Sk1wHfFX3q7CBQIu5XAJmhuSvDJTU0MYHjYv5OZOsLvwLPrzHoFfpnkDR2nj2Nl8a5heLy_WL1sWSXHeVDtcyTouSfndeHkjgNd6crqrpU8w.0NwtH.O.v9WxISjNjsqoxQF3MVnb8bV7_hB4wD_bz.pGk8BSxzzMQUTcWNkL9u2hZ7zVpv1K6jSVwGo7xAqbz5LXy9owgnTVV8agFKJR2MXhIY_LfpEFaKr7ayD5EcnMwM78TC4jHXOncdNPNME8X6TzVnz7NbPbv9HNJGvViIyaXr7BGSC3HI3EN8UEFnWLPf3WdZhRKp66NLIIco8BKyNb88ZvRY.6Y4.2dk0Q9MLO.nRO6V_CKXdN5pEXa0y1lF4aHDkg3mNz18hftwFw_g3xZ.DWhtRNIhjHcBMin1ltGjdycu1QLhf__Fht2.tYMpT_TirF4sT4fIbIha.G4CW4rLNS3RVT.gt.RHo_BQpQ2XgfS0oEZtxHeVxTz_j6E4u7LkhuB9clZupedlChAJGJWS2I8oM7TOgiLK9WeqK5ZqjlJ5NKip6lGT..eTp4A.HjioGPSkzMDKzZv_d1reEUHOI5dUGiFsvTQRGVsqMq6lg2DeYJbkd197vFt_NMxcyqC9PkvrpZT4vSui80ooj8d6SVcZlKt6Cy0GlZIZx21466Lsv56jj5meocaZyVv23U2Wy4WPq1qwUCT7hKtGG88wAVz9xxJAScsb0kmCGSwncJH8Cs7fs.w225oBXodbNbo_bTdRKGJNNTja5R5J4eLnzS.tHQjVxAAbAf8opjjJ.13sHoy4o.NEt.9t4qnDkb6hvgykHNgJntyiP7GY69tUnBuF2C9yHhtMXolbMoI0.FdURTylUQtjOarJc0MQZTecqe78J9ztsHClGTVNz_ds2Q97XVSyKowIEiMdoLDWNhFhj6kecZ9cnJbtdgGfo3xMC3rXb3z54Xc62MF2k9xy9oAx_ARG4AfceUaVXg6xUyd9doc',mdrd: 'xP.ROBSD8N04YRWd1rEfvUkWzxA7TsvFxlfzjD1c_8U-1794799800-1.2.1.1-Jmp_3ojAmgiu6d65x.BaOy2uFe1A4E2awZ57i_tJ59YiRmILXMEgKvZR2FUlE5lTsItI3aEn0vxGRLDcg_9W_RsNPwxgTiOdZpcsZk0tm0xCcRA.h1mOUzl6Xh_Ti4bJpr2P11PffunBjtL4q26zaJIhUKt.Cw2z2VfYlh2R6aZ7t5omMmqsATBWIou4BCdZxQnz4rTwnNGlvXusG01mKCtlcfpe9p9CSRO.lxUZCI9FoUHf2_60FI90jCvwiINXvJ.lYDaDKMxfIkxXaUGSa6NJ3u7t_ijOvT55DVU5.oVDPZbFAuil2enM5LXXu9IzQod3VpLwLaI4mEcgcp8V5Z4BUBgc3X.mJSahL4wJwfHv9H1jxwniseX6c5rCpb9Zt1exLpwXW2LpU0PRINEx6w',};var a = document.createElement('script');a.nonce = 'XbkyxcKz2MaoglzJW2as2P';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b36a1dfe2fbae3';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=ABXxylh7.cOjYHsS7Ns1kJ1k_U3c9Z93z1XpoSu7oQs-1794799800-1.0.1.1-aMD4EcgxcFYQcPcx9AwnEdMzEvi.Wqkbp.iQ2cFekD0\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://cnews.fr/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-eylX3VMtcWxxabSzQ0l9W1&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"eylX3VMtcWxxabSzQ0l9W1\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'F.q9XxkE0_tYc27NQz6hNyumqOkLixyfbyE0mtafhO8-1794799803-1.2.1.1-v3KqRFSszvwjo6.I7B3K3jptW24jkYXvvVzt22B0tbRmZloJ.ZrX8OD8bit1I.5l',cITimeS: '1794799803',cN: 'eylX3VMtcWxxabSzQ0l9W1',cRay: 'a5b36a31796ae3c6',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=eqDOVGG1D.taXOMGi5l6.QSO_WCfT.6DS5a4WcHy0DM-1794799803-1.0.1.1-HUOOrv6w2oWh3HcBMJ09IyrUZudezmIZEoOr1zRWyJ8\",cvId: '3',cZone: 'www.cnews.fr',fa:\"/sitemap.xml?__cf_chl_f_tk=eqDOVGG1D.taXOMGi5l6.QSO_WCfT.6DS5a4WcHy0DM-1794799803-1.0.1.1-HUOOrv6w2oWh3HcBMJ09IyrUZudezmIZEoOr1zRWyJ8\",md: 'j57ciJudp6s4QjnO.IufezGrr03Qq3n5wbWvyBPE21c-1794799803-1.2.1.1-HL5kCQlryjXr.0f2PzdoV3gEEuR_UxT59nZq0vmpPkdxp1KWSGTvL39uMJS8s7biPPNFZAsYhMW5yCreysL_qOWk9cBY46aVGinQboblXweqICP9mScySbpCfGisK.OE9a3zON6MB51s5rMe6Y9yy5iWGgaMqVrxqo73sGz2fjmVbWuQW0OE8alveTzw7o2pgJsneqL3Hq3cuFrrP.PdS972Ez9b6JScGn6zSP3TUpmMKvzmMHApqA8Fu3UnYsKJ3KlZSOJt.Q3C8gH4x4tsUveeLXuXjlQVpsRoAzuR4gbXuHK6J6h0Yx6UjqQL9ukwPeDxWwN2SMQAitOouu30ZqMcJ95u19FksBiDNld5W1_gRU1JV9CHQKVoSTBvpudUri8us5oiPycjpnIXEcAvZXe3BCbTlMVCvSh2EOLBHqBDGvyktciD_OCqIzZ8ELdGXIfuwXEcgWrcshRh.aNDW86nXf_6GNu7oWb4fYtqkeGjwddcAJcBKML29y1VS.jo0OHJFwv3DMFd_tt_SRIIeLV7bEScXEsx39hIuAI2niEaqZkXkXWBGV_f8TH6A8LZxGflsoAQXvEDQzhl2zoItFbSSGxztorwG09H6SkbFP_7JRe8q26cMw3SvHBkKp38onZ7lmFJsYKTZ0Wb8rEoQXsCOu26yVqNQP3FEeoXFzfYrf9sCYEj9uAIBZ35N91nNPvBMDBBCy6Ph0XyKyT3_NRct.GbuRjl08hNucB7HO.A2gRnjzE1srheKQw5jg1TOPMrhgu0g6ZAZ9VPUW76g_P3COHpHaab48zvScQNXiYR25dGCXK3NQYRHVFsKoay78Gyfw0upjxLgekGnHTdYyehRT.oLsMd1TEbt72awpVpF8THr_.JVqSde4z.9y41G9FrA68Rdv1SoEjgRUSgCt6UQA0cCVt41AyWOCoIDo_KNTazOXVzZIpK7JQ.gD28ZD8cN6E9puHFpD.58hrME4Ge_G6IjdoBcwD5Kag1yT3NRpBF1CvJIi0cWOHL.IkAD1f11C_S_dt4DJdJxl.3nsoSjek4wBqCsVyYEPhWoKe5q5l.C021PkTrhRltYHFL4l1J42ixLVpW9cu.EKsiEeypjtdRT_qRwYiRVDP.KYBn7hu1BQVa_SrF2M_qmTS2',mdrd: '7HIYFnGYoynBkE1NGIkVS.4EMWkxvmvqRFsNJFuvm24-1794799803-1.2.1.1-tOXUAed9lLIBIuPidNPmdUAt4WrXe5AWkUmqSvT1.fPvEuFuNmlRNCR0Dlo5QuKfqbTkHCiTZaPD5lpxZKmRfbj7ouFXmfGDgeUfl6UMOR495f1TwQUiSPvASm_nDcyQLT4aGSpqcvBYdgtTy43ctjhWTmyW3IvvUwjczZoOVBIHgcgSDN43Yi9RzvMCvpneFj93mjvssxUEV.mD_a._S4MEMj74lHBNGAuGspFYLp1OyiWSe31Pt8fczT9oCbrX1BOw6Y6_vpfGvDMXyWajwj2wCpHdib9PSv99CnoF1uZzIb3UFpAvev9YkEWVqntkP6NZvYUHXwMnxPp284dMMe9m9N224I8AMHpxAmyNZU7x3WipK4BgGDYNwlhDLdIqpPjFlUulEwtKm.A9ihULYw',};var a = document.createElement('script');a.nonce = 'eylX3VMtcWxxabSzQ0l9W1';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b36a31796ae3c6';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=eqDOVGG1D.taXOMGi5l6.QSO_WCfT.6DS5a4WcHy0DM-1794799803-1.0.1.1-HUOOrv6w2oWh3HcBMJ09IyrUZudezmIZEoOr1zRWyJ8\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.cnews.fr/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-I0Hdv32HUHHp1O3NksOUCr&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"I0Hdv32HUHHp1O3NksOUCr\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '0BpaYzIe3Wnm6hhqSiCLjwJchOTJ2RBq_9Gmcgtn.X8-1794799806-1.2.1.1-DWahrX3bTugKy8r_zIAIQgye.d23pf6RDH3259J_PHjJmhWcXJsy052E2_x5lt2i',cITimeS: '1794799806',cN: 'I0Hdv32HUHHp1O3NksOUCr',cRay: 'a5b36a449d107040',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=WibhTDy_Ai6F_OU2CuJvXggjW6tfFOHQVL4DkVjIui8-1794799806-1.0.1.1-ry_PYL1dZRR7d2numeD3GeKvDcaFSNjdBlbq1R0bnWw\",cvId: '3',cZone: 'cnews.fr',fa:\"/agents.md?__cf_chl_f_tk=WibhTDy_Ai6F_OU2CuJvXggjW6tfFOHQVL4DkVjIui8-1794799806-1.0.1.1-ry_PYL1dZRR7d2numeD3GeKvDcaFSNjdBlbq1R0bnWw\",md: 'cxAz2zFX3ia7rGiaPOAujnjQ9c52_USEmmMINHlI6TY-1794799806-1.2.1.1-4k88bhhTazYip94L_oVH4Chw_jaFcrnNsE9yyeo72Q7uW8mGf5d1mBQ2MxSWmZ66ux8PyFP6bH8mi6URFkAOBdDvYZrAI_baKzvnJL_KmQ5ZT1VAtt0d02u7eZRS41paMunUuTtRVzvnTiI9rtlm6.7V36yU787q8HConz0o6OAnKgrHCOkzWprbsB31eE3aTiORAwlMsdZDBBlsajPD11LRkJwzLIBySXafFcxVaEZqA2ccjnWoGEiXPTYGpSFiBD_IFLqeiKlAKBF7HoaAXYK_aOnH.cPIZal2EGIBRiWa31MIV8whzitYqyFzdG7XLGjGcCqC7.LI78itHCGidgQxffWwHoeFmbs5GGoUnvYJRZiUYv58TlxscguY5vSVuezoOMgvRbopzHiEClAq6SPGja5hzU4S.SL62y.rifIVUiue3f0Ub8V9WFLf_hKO38jNoS0Yi6nJTQTTtHPPQSN41pUK5uPNgSM79bvP2dOz6yA6L0_OkEkxoAVOqX5R9KK2x547zzMx3fwmIC.K6HyK72F1mVXi9wrPsqIpzjXYrN5HV3s5ey.t8EcnpQm6l44YWtDZ8KLaukgX_K9cn2VaKlmJw2HVbgbyJkfOu8DOQNFROn0hQDY4q8ZpFJdIR1LJG89XxXuGiA1eIIF6m1L1tPVVjel4YfNzPK4LTXieVpF66ztGF7lEcj83VO8y.h0WpRRh49dxDjDSgxAXLyoCW4MvNlGcMDUCGbiMhtIqdK4cWaZ9QyCY3h1uRzdZaI5tZb6R3HEpXkFdKWWVmiWHOEoJmqTU7rqp7A5wQuMj3IQq6EpOTYSyodbAWClfUTVAjPZiUWK.jQDb9y0eAg789aLbRSGErnAe5fS77jIL2u4eYIPydo3dlhW4bivEve2Tk99ZNRJAiAu8gAAujSOl32hvyEeIF2pSkMSiWIr0lhCQjV3yNiEJTYi3T1iPHZvRN2hhbuROu9R96vuLlyyL8ISJW4PcVi7DQb5MtD6noL7_YTEIz.hFPFJ1CMid85Xfb_dyNoPUp.ish04yqqAeeBJ1MCiOYB.alC9wkYO_aSjzS1hCdbXd5HBx71i4uMMDwC1vf0kKMPA1Vx.BzNSyV1XkAdvWKW1iFTnxVao',mdrd: 'r9hN7xwSdTdczF2.feOrlRck5K74TsbYY5WLFfJ_6KE-1794799806-1.2.1.1-1vTdXRxRWDFAVfMzLxQl_pw5qIqt2l9d81yDoZs_ROJPwu9Gzn8GzFSD6nqkUwoqiXTWWffVSyBbICFFuqxlDQATxPcJH6vm7yM_hC97DBsmolxCmOQzaQ49MgD7J.bIU.RcRdNYz0om8XeLX90aTEJe9JXhNBKtBO6.XPJqdcYTZDaWXXmGSgL6a2o6nqg.wDoKUinpYecDbKSxuXXKRwMqUkU5fo55WywtQM.tS1DklvqNne7LSXzwllgewDcxpFVxeraoNn6LhfJ.aPkbXm.8CW3SQOvhIfHj0o4SJRxUui8s4Y3Fq0r9d3cVYSDQmAev83zJonx1B2rZQ2LXma94e_XbcuOMVRF_5sjvLfR.G4rlbnCewCwLzKAz_FOuJELsZFbR1Ky3kUz3q.1qaA',};var a = document.createElement('script');a.nonce = 'I0Hdv32HUHHp1O3NksOUCr';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b36a449d107040';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=WibhTDy_Ai6F_OU2CuJvXggjW6tfFOHQVL4DkVjIui8-1794799806-1.0.1.1-ry_PYL1dZRR7d2numeD3GeKvDcaFSNjdBlbq1R0bnWw\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://cnews.fr/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL \"https://www.cnews.fr/ai.txt\" was not found on this server.</p></body></html>",
+      "url": "https://www.cnews.fr/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "cnews.fr",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-16T03:30:16.193Z",
+    "score": 14,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

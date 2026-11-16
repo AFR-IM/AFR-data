@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "1capp.com",
+    "fetchedAt": "2026-11-16T03:19:54.440Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nCrawl-Delay: 5\n",
+      "url": "https://1capp.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Mon Nov 16 03:19:29 UTC 2026</div><div>There was an unexpected error (type=Not Found, status=404).</div><div>No message available</div></body></html>",
+      "url": "https://1capp.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Mon Nov 16 03:19:32 UTC 2026</div><div>There was an unexpected error (type=Not Found, status=404).</div><div>No message available</div></body></html>",
+      "url": "https://1capp.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html><!--[if lt IE 7]>\n<html ng-app=\"1cApp\" data-meta=\"change\" class=\"c1-app ielow no-svg\" lang=\"ru\"> <![endif]--><!--[if IE 7]>\n<html ng-app=\"1cApp\" data-meta=\"change\" class=\"c1-app ielow no-svg\" lang=\"ru\"> <![endif]--><!--[if IE 8]>\n<html ng-app=\"1cApp\" data-meta=\"change\" class=\"c1-app ielow no-svg\" lang=\"ru\"> <![endif]--><!--[if gt IE 8]><!--><html ng-app=\"1cApp\" data-meta=\"change\" class=\"c1-app iexplorer\" lang=\"ru\"><!--<![endif]--><head><base><meta charset=\"utf-8\"><title>1С:Предприятие 8. Готовое рабочее место</title><meta name=\"keywords\" content=\"1с:предприятие готовое рабоче место, 1с:грм, 1С:Облачная инфраструктура, 1с:ои, типовые, отраслевые конфигурации\"><meta name=\"description\" content=\"1С:Готовое рабочее место(1С:ГРМ) - это конструктор, с помощью которого каждый Партнёр фирмы 1С может\n        построить свой собственный облачный сервис и предоставлять его клиентам от своего имени.\n        У Партнёра появляется возможность создавать свою уникальную продуктовую линейку, набор услуг,\n        уникальные тарифы и другие особенности, которые выделят Партнёра на конкурентном рынке облачных сервисов. Только для партнеров фирмы 1С\"><meta name=\"viewport\" content=\"width=device-width\"><meta name=\"theme-color\" content=\"#c43f2b\"><meta name=\"msapplication-navbutton-color\" content=\"#c43f2b\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#c43f2b\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic\" rel=\"stylesheet\"><link rel=\"stylesheet\" href=\"https://static.1capp.com/libs/angular-material/1.2.5/angular-material.css\"><link rel=\"stylesheet\" href=\"https://static.1capp.com/libs/bootstrap/3.3.7/bootstrap.css\"><link rel=\"stylesheet\" href=\"https://static.1capp.com/libs/ng-table/4.0.0/ng-table.css\"><link rel=\"stylesheet\" href=\"https://static.1capp.com/libs/ui-select/0.14.1/select.css\"><link rel=\"stylesheet\" href=\"styles/style-f50d051751.css\"></head><body><div id=\"wrapper\" ui-view=\"main\"><style>.loader-container {\n      position: fixed;\n      width: 100%;\n      height: 100%;\n      background: #ffffff;\n      z-index: 2;\n      top: 0;\n      left: 0;\n    }\n    .lc-in {\n      margin: 0;\n      width: 100%;\n      min-height: 100%;\n      height: 100%;\n      box-sizing: border-box;\n      display: flex;\n      flex-direction: column;\n    }\n    .loader-box {\n      width: 220px;\n      height: 220px;\n      margin: 0 auto;\n      position: relative;\n      background: #ffffff;\n    }\n    .loader-image {\n      width: 160px;\n      position: absolute;\n      top: 30px;\n      left: 30px;\n    }\n    .dot {\n      opacity: 0;\n      font-weight: bold;\n      font-size: 14px;\n      font-family: sans-serif;\n    }\n    .dot-a {\n      animation: pulse-a 1s infinite;\n    }\n    .dot-b {\n      animation: pulse-b 1s infinite;\n    }\n    .dot-c {\n      animation: pulse-c 1s infinite;\n    }\n    .loader-text {\n      font-family: sans-serif;\n      font-size: 19px;\n      text-align: center;\n      font-weight: 400;\n      margin-top: -1em;\n      letter-spacing: 2px;\n    }\n    .flex {\n      flex: 1; box-sizing: border-box; min-height: 1vh;\n    }\n    @keyframes pulse-a {\n      0% {\n        opacity: 0;\n      }\n      25% {\n        opacity: 1;\n      }\n      50% {\n        opacity: 0;\n      }\n      75% {\n        opacity: 0;\n      }\n      100% {\n        opacity: 0;\n      }\n    }\n\n    @keyframes pulse-b {\n      0% {\n        opacity: 0;\n      }\n      25% {\n        opacity: 0\n      }\n      50% {\n        opacity: 1;\n      }\n      75% {\n        opacity: 0;\n      }\n      100% {\n        opacity: 0;\n      }\n    }\n\n    @keyframes pulse-c {\n      0% {\n        opacity: 0;\n      }\n      25% {\n        opacity: 0;\n      }\n      50% {\n        opacity: 0;\n      }\n      75% {\n        opacity: 1;\n      }\n      100% {\n        opacity: 0;\n      }\n    }</style><div class=\"loader-container\"><div class=\"lc-in\"><div class=\"flex\"></div><div class=\"loader-box\"><div class=\"loader-image\"><div><svg xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 86.3 59.3\"><g id=\"g28\"><polygon class=\"st0\" points=\"23.7,19.3 27.6,19.3 27.6,37.1 30.3,37.1 30.3,16.6 23.7,16.6 \" id=\"polygon4\" style=\"clip-rule:evenodd;fill:#d71921;fill-rule:evenodd\" transform=\"matrix(1.7866372,0,0,1.7928459,-34.108365,-19.191751)\"/><polygon class=\"st0\" points=\"21,23.6 23.7,23.6 23.7,37.2 26.4,37.2 26.4,20.8 21,20.8 \" id=\"polygon6\" style=\"clip-rule:evenodd;fill:#d71921;fill-rule:evenodd\" transform=\"matrix(1.7866372,0,0,1.7928459,-34.108365,-19.191751)\"/><path class=\"st0\" d=\"M 82.559047,41.944296 H 41.46639 c -7.682539,0 -13.221114,-6.274961 -13.221114,-12.549921 0,-6.9921 4.82392,-13.804915 13.221114,-13.984199 8.218532,0 13.042452,6.812815 13.221117,13.984199 h 4.82392 c 0,-10.398507 -7.68254,-18.824883 -18.045037,-18.824883 -10.362495,0 -18.045036,8.784946 -18.045036,18.824883 0,9.860653 8.218532,17.390605 18.045036,17.390605 h 14.114435 13.578443 13.578443 v -4.840684 z\" id=\"path8\" style=\"clip-rule:evenodd;fill:#d71921;fill-rule:evenodd;stroke-width:1.78973889\"/><path class=\"st0\" d=\"M 82.559047,34.235058 H 41.46639 c -2.858619,0 -5.538575,-2.151414 -5.538575,-4.840683 0,-3.406407 2.143965,-6.274961 5.538575,-6.274961 3.394611,0 5.538575,2.868554 5.538575,6.274961 0,0 4.823922,0 4.823922,0 0,-6.274961 -4.823922,-11.115645 -10.541161,-11.115645 -5.895902,0 -10.362495,4.840684 -10.362495,10.577791 0,5.737107 4.645256,10.398507 10.362495,10.398507 h 41.271321 z\" id=\"path10\" style=\"clip-rule:evenodd;fill:#d71921;fill-rule:evenodd;stroke-width:1.78973889\"/><path class=\"st1\" d=\"m 77.377799,18.458014 c -1.071982,-1.97213 -3.037284,-3.227123 -5.359911,-3.227123 -2.501293,0 -4.823922,1.434277 -5.895903,3.585693 0,0 0.178664,0 0.178664,0 0.893317,0 1.786636,0.179284 2.679955,0.537854 0.714655,-0.896424 1.786637,-1.434277 3.037284,-1.434277 1.42931,0 2.679955,0.896423 3.215946,2.3307 l 0.357328,0.896422 h 1.786637 c 1.42931,0 2.501293,1.075708 2.501293,2.689269 0,1.254993 -1.071983,2.3307 -2.501293,2.3307 h -11.07715 c -0.714655,0 -1.42931,-0.537854 -1.42931,-1.254992 0,-0.717139 0.535991,-1.434277 1.42931,-1.434277 0.893317,0 1.42931,0.717138 1.42931,1.434277 h 2.679955 c 0,-2.3307 -1.786638,-4.30283 -4.109265,-4.30283 -2.322629,0 -4.109267,1.97213 -4.109267,4.30283 0,2.3307 1.786638,4.123545 4.109267,4.123545 h 11.07715 c 2.85862,0 5.359912,-2.330699 5.359912,-5.199253 -0.178664,-2.868554 -2.322628,-5.199253 -5.359912,-5.378538 z\" id=\"path26\" style=\"fill:#d71921;stroke-width:1.78973889\"/></g></svg></div><div class=\"loader-text\">загрузка <em class=\"dot-a dot\">.</em> <em class=\"dot-b dot\">.</em> <em class=\"dot-c dot\">.</em></div></div></div><div class=\"flex\"></div></div></div></div><div class=\"footer ng-hide\" ng-show=\"true\"><div class=\"footer-in\"><div class=\"logo\">&copy; <span>OOO \"1С\" Все права защищены.<br>Все торговые марки являются собственностью их правообладателей.</span><div><span>ver.:</span> <span>1.1.1344</span></div></div><div class=\"right\"><div><strong>Общие вопросы</strong> <a href=\"mailto:info@1capp.com\">info@1capp.com</a></div><div><strong>Техническая поддержка</strong> <a target=\"_blank\" href=\"https://support.1c.ru\">https://support.1c.ru</a></div><div><span>Только для партнеров фирмы 1С</span></div></div></div></div><script>/*detect ie 11*/\n  var isIE11 = null;\n  try {\n    isIE11 = !!window.MSInputMethodContext && !!document.documentMode;\n  } catch (e) {\n    console.log('isIE11', e);\n  }\n  /*detect ie 10*/\n  var isIE10 = false;\n  /*@cc_on\n      if (/^10/.test(@_jscript_version)) {\n          isIE10 = true;\n      }\n  @*/\n  /*detect 9*/\n  try {\n    var ie9 = (function () {\n\n      var undef,\n        v = 3,\n        div = document.createElement('div'),\n        all = div.getElementsByTagName('i');\n\n      while (\n        div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',\n          all[0]\n        ) ;\n\n      return v > 4 ? v : false;\n\n    }());\n  } catch (e) {\n    console.log('ie9', e);\n  }\n\n  /*detect 7 8 9 ie*/\n  var oldIE = false;\n  try {\n    var htmlClasses = document.getElementsByTagName('html')[0].className;\n\n    if (htmlClasses.indexOf(\"ielow\") >= 0) {\n      oldIE = true;\n    }\n    if (oldIE || ie9 || isIE10 || isIE11) {\n\n      var a = 'Браузер Internet Explorer версии 11 и ниже не поддерживаются';\n      var b = 'Воспользуйтесь другим браузером, например: Chrome, Firefox и т.д.';\n\n      alert(a);\n\n      alert(b);\n\n      document.getElementById('wrapper').innerHTML = '<div style=\"padding: 4em;\"><p>' + a + '</p><p>' + b + '</p></div>';\n\n\n    } else {\n      if (htmlClasses.indexOf('iexplorer') >= 0) {\n        htmlClasses.replace('iexplorer', '');\n      }\n    }\n  } catch (e) {\n    console.log('oldIE', e);\n  }\n\n  try {\n    var oldChrome = (parseInt(navigator.userAgent.match(/Chrom(e|ium)\\/([0-9]+)\\./)[2], 10) < 55) || false;\n    var oldFirefox = (parseInt(navigator.userAgent.match(/Firefox\\/([0-9]+)\\./)[1], 10) < 48) || false;\n    if (oldChrome || oldFirefox) {\n\n      var c = 'Вы используйте устаревший браузер, работа сайта может быть не корректной';\n      var d = 'Пожалуйста обновите ваш браузер до последних версий.';\n\n      alert(c);\n      alert(d);\n\n      document.getElementById('wrapper').innerHTML = '<div style=\"padding: 4em;\"><p>' + c + '</p><p>' + d + '</p></div>';\n    }\n  } catch (e) {\n    console.warn('oldBrowser', e);\n  }</script><script>!function (A, n, g, u, l, a, r) {\n\t\tA.GoogleAnalyticsObject = l, A[l] = A[l] || function () {\n\t\t\t\t\t(A[l].q = A[l].q || []).push(arguments)\n\t\t\t\t}, A[l].l = +new Date, a = n.createElement(g),\n\t\t\t\tr = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)\n\t}(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');\n\n\tga('create', 'UA-71430044-1', 'auto');\n\tga('send', 'pageview');</script><!--[if lt IE 10]>\n<script src=\"scripts/iefix/xdomain.js\"></script>\n<![endif]--><script src=\"https://static.1capp.com/libs/angular/1.8.3/angular.js\"></script><script src=\"https://static.1capp.com/libs/angular-animate/1.8.3/angular-animate.js\"></script><script src=\"https://static.1capp.com/libs/angular-aria/1.8.3/angular-aria.js\"></script><script src=\"https://static.1capp.com/libs/angular-cookies/1.8.3/angular-cookies.js\"></script><script src=\"https://static.1capp.com/libs/angular-messages/1.8.3/angular-messages.js\"></script><script src=\"https://static.1capp.com/libs/angular-material/1.2.5/angular-material.js\"></script><script src=\"https://static.1capp.com/libs/angular-hateoas/0.2.5/angular-hateoas.js\"></script><script src=\"https://static.1capp.com/libs/jquery/3.6.0/jquery.js\"></script><script src=\"https://static.1capp.com/libs/bootstrap/3.3.7/bootstrap.js\"></script><script src=\"https://static.1capp.com/libs/angular-resource/1.8.3/angular-resource.js\"></script><script src=\"https://static.1capp.com/libs/angular-sanitize/1.8.3/angular-sanitize.js\"></script><script src=\"https://static.1capp.com/libs/angular-local-storage/0.7.1/angular-local-storage.js\"></script><script src=\"https://static.1capp.com/libs/angular-spring-data-rest/0.4.6/angular-spring-data-rest.js\"></script><script src=\"https://static.1capp.com/libs/ng-file-upload/12.2.13/ng-file-upload.js\"></script><script src=\"https://static.1capp.com/libs/ng-table/4.0.0/ng-table.js\"></script><script src=\"https://static.1capp.com/libs/moment/2.29.4/moment.js\"></script><script src=\"https://static.1capp.com/libs/angular-moment/1.1.0/angular-moment.js\"></script><script src=\"https://static.1capp.com/libs/angular-ui-router/1.0.23/angular-ui-router.js\"></script><script src=\"https://static.1capp.com/libs/angular-ui-router/1.0.23/stateEvents.js\"></script><script src=\"https://static.1capp.com/libs/angular-translate/2.18.1/angular-translate.js\"></script><script src=\"https://static.1capp.com/libs/typograf/1.0.4/typograf.js\"></script><script src=\"https://static.1capp.com/libs/angular-translate-loader-url/2.18.1/angular-translate-loader-url.js\"></script><script src=\"https://static.1capp.com/libs/angular-translate-loader-static-files/2.18.1/angular-translate-loader-static-files.js\"></script><script src=\"https://static.1capp.com/libs/angular-translate-loader-partial/2.18.1/angular-translate-loader-partial.js\"></script><script src=\"https://static.1capp.com/libs/angular-dynamic-locale/0.1.37/tmhDynamicLocale.js\"></script><script src=\"https://static.1capp.com/libs/excellentexport/2.0.3/excellentexport.js\"></script><script src=\"https://static.1capp.com/libs/ui-select/0.14.1/select.js\"></script><script src=\"https://static.1capp.com/libs/angular-crypto/0.0.3/angular-crypto.js\"></script><script src=\"https://static.1capp.com/libs/clipboard/1.5.16/clipboard.js\"></script><script src=\"https://static.1capp.com/libs/ngclipboard/1.1.3/ngclipboard.js\"></script><script src=\"https://static.1capp.com/libs/chartjs/3.7.3/chart.min.js\"></script><script src=\"https://static.1capp.com/libs/chartjs/3.7.3/chartjs-adapter-moment.min.js\"></script><script src=\"https://static.1capp.com/libs/chartjs/3.7.3/moment-with-locales.min.js\"></script><script src=\"config.module.js?c=1.1.1344\"></script><script>/*! modernizr 3.5.0 (Custom Build) | MIT *\n\t* https://modernizr.com/download/?-svg-setclasses !*/\n   !function(e,n,s){function o(e){var n=r.className,s=Modernizr._config.classPrefix||\"\";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp(\"(^|\\\\s)\"+s+\"no-js(\\\\s|$)\");n=n.replace(o,\"$1\"+s+\"js$2\")}Modernizr._config.enableClasses&&(n+=\" \"+s+e.join(\" \"+s),c?r.className.baseVal=n:r.className=n)}function a(e,n){return typeof e===n}function t(){var e,n,s,o,t,f,r;for(var c in l)if(l.hasOwnProperty(c)){if(e=[],n=l[c],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(o=a(n.fn,\"function\")?n.fn():n.fn,t=0;t<e.length;t++)f=e[t],r=f.split(\".\"),1===r.length?Modernizr[r[0]]=o:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=o),i.push((o?\"\":\"no-\")+r.join(\"-\"))}}var i=[],l=[],f={_version:\"3.5.0\",_config:{classPrefix:\"\",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){l.push({name:e,fn:n,options:s})},addAsyncTest:function(e){l.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=f,Modernizr=new Modernizr,Modernizr.addTest(\"svg\",!!n.createElementNS&&!!n.createElementNS(\"http://www.w3.org/2000/svg\",\"svg\").createSVGRect);var r=n.documentElement,c=\"svg\"===r.nodeName.toLowerCase();t(),o(i),delete f.addTest,delete f.addAsyncTest;for(var u=0;u<Modernizr._q.length;u++)Modernizr._q[u]();e.Modernizr=Modernizr}(window,document);</script><script src=\"scripts/scripts-min-9f0e2ba9ab.js\"></script><script src=\"scripts/templates-min-4629518c8b.js\"></script></body></html>",
+      "url": "https://1capp.com/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Mon Nov 16 03:19:38 UTC 2026</div><div>There was an unexpected error (type=Not Found, status=404).</div><div>No message available</div></body></html>",
+      "url": "https://1capp.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Mon Nov 16 03:19:44 UTC 2026</div><div>There was an unexpected error (type=Not Found, status=404).</div><div>No message available</div></body></html>",
+      "url": "https://1capp.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Mon Nov 16 03:19:54 UTC 2026</div><div>There was an unexpected error (type=Not Found, status=404).</div><div>No message available</div></body></html>",
+      "url": "https://1capp.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "1capp.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-16T03:19:54.440Z",
+    "score": 27,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 34 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"1С:Предприятие 8. Готовое рабочее место\"; meta description 443 chars; no date signal; body text 34 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 0,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

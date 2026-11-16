@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "artnet.com",
+    "fetchedAt": "2026-11-16T03:41:02.672Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\n",
+      "url": "https://artnet.com/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-Rid6WD6ArpH6r1owZAee1Y&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"Rid6WD6ArpH6r1owZAee1Y\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'QKSSkrqI5hO9vfbl2r0kl8yIQBCPMyb8CHclcjSfY8M-1794800460-1.2.1.1-teOFMEIBgtFvEtwDrylDWlW7D5PyKKcJCy9u4vdXAoTLPOpkX7qLriNB3FHMFfA8',cITimeS: '1794800460',cN: 'Rid6WD6ArpH6r1owZAee1Y',cRay: 'a5b37a40ee182425',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms.txt?__cf_chl_tk=LAgklMkgVz.nFM5B2P6asebI6_bKc6QUHsVgi3xXL1A-1794800460-1.0.1.1-FJZwRHjWso05uFI3VnMp_bAzB5M3ID155gAP42YXunc\",cvId: '3',cZone: 'artnet.com',fa:\"/llms.txt?__cf_chl_f_tk=LAgklMkgVz.nFM5B2P6asebI6_bKc6QUHsVgi3xXL1A-1794800460-1.0.1.1-FJZwRHjWso05uFI3VnMp_bAzB5M3ID155gAP42YXunc\",md: 'o.jnGTwpPTqB7_wxP5RUksMQesNF2Y6u6bmxN3N8HEw-1794800460-1.2.1.1-7gIcoh631GBqSef5SZXWUBhTaZZr8QZ3bgYq_lxnpTmMSjz.wZu1R26gPeDlLKgR_7hRUbUS_9orfXqHti38Kj7kAXSeXUNHmhk2kZ3NxjrHOcYM6UxxrC8JL0cHqZhBXieNqE34OapmkxIdFGnsRDtxYWdCthBXRIMcixDw8SmP83n_C_S_3l8tZ.mtB49ovdriy.kUI9wReCiMQOzL.6IU.ogRsdVBSTLxm3xQ1y26EwHR6973qzc89ehzjdNzJwTnihBUqY6ZkgzMHZmmpjrbskgd2y9QN_Bf1B6uqmC.YwfmaQ7TjMNuT7ffzgjhhyPY71haF2ABf5VqYR0Wq3YE29zJgi8eEGtaCITQSK.dn2PtTOErxhNHKgBNM3lDihU.YTvZfmy4HZu6D9GsDQrHulSCy3kJrp7IwLiKGSXLSLp9qvW2TO1ob56No_3VCb_iCS9Xj__PC13VTdQ1XrukvBwc.5t29_U7UxMTjtidQtP2pEXb4c8238d4nxy4rDd1XDcaqcAY9IfBNTkJ_ggfsXVWYSVd01DJQRLbcq.H90PuHBmlZWeoJDxPSuURnuoy_OOVsIo0OeCAZqiecg4UMs_vOuYTdsjAcBJoEsQjuSRNSOYZezWTfCrYfD3rpUQdLogK.vI_a_BPVPJIHVPVicCtecaY902Sw9VwHG1n6h1k6vu3B2Hx_.0y4IYR3jHcH9aGar9xJOaGyAEQ41dScPhSYOBqeRJLGiPpECdDCC19tBTZQI2Bvo21ylcZrodGSjZtCTZoyhR_9lkB5CSo913M7AJgRJi3gIxeaffS.pt9Ht0fWdkldJ5tF8H6_v758pFEuRJ50Z5iPHbBYVAzadXyPRL4OJ4m6Z2lHV4tfdFqMqOKNopEEbsuYSSzYEqdnZyXaal2rrNgUUIrrwKO1H_awQ_9dVRWtZFTuYmZ0qaVv_UMlrcjs7TshKpwivoglr9uw.r9ed7opY3ZTwjJ1YvAzKZy3UAxdxjNh8dB2kLJJBWQM2SHVNzyHFptmVR5QUfx_Bd30cW5nnDSNtIdXrwtmaWg2BQOoYozYGbWusLvx9l16mBKcnUmnFQf9aG_GyC5YL1te8_92Dy5X.5lHzq5KbaG306Bp53u2kuUlS8X636NZ1HrBZPbJB3vkgk4qbHpqr03t6cJooFYVq2So229ujSJDjjIYvyQw3d1YitLaDyXm8aqwalXAf95pWzdX0nanlcKwkVWU7_Jsg',mdrd: 'VQ_4stZZTyH_isPU7gPaZ8p9z9vJIb0pdzOj6u5h9jA-1794800460-1.2.1.1-DldoSxPtTNzBHHNlSH59uUjGHK5sju6zXZ3uueV0LA6mFoaCk.V5jT5L8bqgLJ9hanqIpXdMV9SjsLDpC5Q0LOkPBPk9k.ImfI_gajixlihMso6.k8LzqRG8GteLcWU8atWYQsSgpw9FlIYfGhlpgwUdNUVe0azDdP9_2JdsiNCgCje_R4Fz_SNcAaNg26ByNckcO1oJ2KD6CQPazGLqWLADzWdklxBxvwA3vUf7k7M0w3clvVxpliaeMUzMHjo_fs1A_gIT4uRgfFYitX9t0ZwINhcT0rmxA6uyxwtcD2MMqrblfU71j73Y2NWQ0HMmqouQJYOqyqzyXkaqfcejcBnBJXhRrrR4E3lsedaxF2OyvIsjRRc_a5Y2AKJY4acVNAXxxcoJ9.KtTiR2VIiKzQ',};var a = document.createElement('script');a.nonce = 'Rid6WD6ArpH6r1owZAee1Y';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b37a40ee182425';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=LAgklMkgVz.nFM5B2P6asebI6_bKc6QUHsVgi3xXL1A-1794800460-1.0.1.1-FJZwRHjWso05uFI3VnMp_bAzB5M3ID155gAP42YXunc\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://artnet.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-CHwU8CXyUbsZSD39A3hVvc&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"CHwU8CXyUbsZSD39A3hVvc\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'R_qtPyEexTl0qdoDK9JzEiOgmSs7yW5kPzmPDCeQcHE-1794800461-1.2.1.1-EFzfeeFbp3yJoWxEaqkfsmPSxXcWNA7iGmAYKSjNWMLljpefYe9YlJimQRIX9LEJ',cITimeS: '1794800461',cN: 'CHwU8CXyUbsZSD39A3hVvc',cRay: 'a5b37a42bb1c5d13',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=XgCLpl_azs1PypZj0U7jMm6KugVF9vasqzCA.Rzy0Nc-1794800461-1.0.1.1-I1ziJ3F7ZB7Os1wie74r41PWJhNSEYTGpR_i6tvX69o\",cvId: '3',cZone: 'artnet.com',fa:\"/llms-full.txt?__cf_chl_f_tk=XgCLpl_azs1PypZj0U7jMm6KugVF9vasqzCA.Rzy0Nc-1794800461-1.0.1.1-I1ziJ3F7ZB7Os1wie74r41PWJhNSEYTGpR_i6tvX69o\",md: '3NTvk82kPqHuDclDWNuZEw0n9XBWbMUpRm6S3sLMYos-1794800461-1.2.1.1-1e6Su3TOxDX4gEnKEm7ChCJA4VoBew.tzhCUhEOEg6jQDNMl554eGLHRCgGvY3D4JiBwAZ7QQLwNv0jSyQRI1mdRXmpw5XaugszOIyQtZSnOq8PH798Fzjy_97k31NCKhzyxZ3LXEqKQtr_Lj5eAjm87nA6GjcfrpwIW52u1T77aFMIal.nyn0.3kDEsSRgN9RJNYYI0xL1XSQ7vP4tXwU2B8PeIJZQWjtxZn6S6tPQdy7ufthyDWpbPn1jPUqxfghuV5qU2R66MnyGY5axfG6kt0W3cWFIFpNRm7JsyI.ZHEM5hEz2ufI82AcroYHn_VkwqsA2.QvSXRA3TZi8JURmaiBK7UfubZh0nP.ZInDi2XhH0yfvO2P5tkcEo_iEBR7EB2xeYwOEydXwYTQdt7vOTD_.lOgrJP.jmWNaRrUPQsGR0pPtbqdpwIbj7h..h18sNpnosxndwcYKUbw9oRPvM0KvfS525rinLUv9E9D82ZyGX8cHPI4Kz1d7nzFJeQNlRXJE1JHwjRAU050WMZnXHVQtSL2FXOwI6HcaK_PLaSaPkjgIZlIMNQlB7aHM0xjxQUsmJf528qVflzbyfxCbCLB.tMoNR1lj_LYeY4rVAIv2_MVnr7sGoSdvmrcCS8hiOykER3Hc2ioEfxes9WslRde6CMC..vBaH2R3fArN6y_7bForqLVr170ZYPbxZSIk7y9AEKaCQ4ZXuGGRfzPaUeHcting0YBEyGqDKHJFlvM7wkZt8O10_sHBpMBSVXxxe6adJOf2tKnxPRtAosR6gxz6PGCL3sA4_xypQs6oqPsQT7JNiUvqfoD8Nloya0vAyPba.2Amt5LlWQkJ6xdU8TL.iPDTu9OITEcXp0BrjELNsBRclLV75FBfD5yQbrbBVbRR_AQWITUwER0iNuL4u7pmg4Qspv0IqIuLHaPYXa9sSLk6.NXQDGzpwrwnOweE6Xa7.0aFwAI9bgyaR9FxGD1o44UsKhaymjW.UmjILpdLR.NXOhOG0hXLiBMkkq7kwD5aINQTfEMQzxj3r86fX6GrUXRYhUG1lRFKNXuu6kMh3V1_y3Nl8_KIUBAvn0liE0kPeARrCHrOQETjVk6PhmMNCe9cCtGlEpqUjbsQ5PZaUSOKVdUkJyYe1fk4FFE5ZEcB6730.k18Pp3s94CNZBHeG9qyTIdi.a6srrn8sHBbb.vBTbI4UeiVLflJmCi78DGuCvpTixFJbMSuZSQWLZLKJwPpISEISCdbH3JI',mdrd: 'JSkyt4ad0xN2YxM3INfOMlm.anWQh7bRchnhfAeTVfM-1794800461-1.2.1.1-zuj9.wu6X.DsjoRxKHYetekzNejsky0B6LlNE6bxY6wA2LUE0lokVRBwuORWIwG2D3gHD6CX3Sc6wTHqF5DHR7_7t3FAbJZSsZqiE528WEXCqsfOIqeOeT2lZn4t.0y7L9LAJoH_bd_Nk_iXZ1yEbQYW0RJrQH0Pvw8iEf8YWLiFDbD85TNuECMImXNx3oAXzeqnI8Hg1hkfCn8YYkNREzq5kWYXmcTjU3pZhkaHpvrZ24FJe8.jiF8snZWCFSeTzf6spVcJ9yP9lzrRX4GGUZXhCJACRkT8w8TChCF7fbq2Z4uL0pDr_0wu7roBpB0vaNXxXrlBB66TjhqzlD5RKNeb8sEMHu5RYsUppA06j7GO77V17kd7G28xnwRU7qN93dHeJ0Uk7yiBsg0BDqjbZg',};var a = document.createElement('script');a.nonce = 'CHwU8CXyUbsZSD39A3hVvc';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b37a42bb1c5d13';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=XgCLpl_azs1PypZj0U7jMm6KugVF9vasqzCA.Rzy0Nc-1794800461-1.0.1.1-I1ziJ3F7ZB7Os1wie74r41PWJhNSEYTGpR_i6tvX69o\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://artnet.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-hldivVYCItdpeJvAJmn8qg&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"hldivVYCItdpeJvAJmn8qg\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '4lQBj92o30KPnGzUQDxbUZ3AHbyjtmP5ARA1UHUObrM-1794800461-1.2.1.1-Ab4dc66xejlsJQB3mJsSeN1FeyfA6HGt50eIgY32acTia9HSIMj.U1IgilnNDiAh',cITimeS: '1794800461',cN: 'hldivVYCItdpeJvAJmn8qg',cRay: 'a5b37a443ec628a6',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=D6baFTTCnvlbg.k3cqy0c8fWfT8bMzCvZacX2ikhdCM-1794800461-1.0.1.1-JSpwLRCzjMvSBrfAWxcGTRxKbL54nDY32umvRotbsac\",cvId: '3',cZone: 'artnet.com',fa:\"/?__cf_chl_f_tk=D6baFTTCnvlbg.k3cqy0c8fWfT8bMzCvZacX2ikhdCM-1794800461-1.0.1.1-JSpwLRCzjMvSBrfAWxcGTRxKbL54nDY32umvRotbsac\",md: '2D9g1IX7zsJjyb3uhxyOTfKwwNfF6C_DsGCCZVTRXpE-1794800461-1.2.1.1-RGmwNdNN50QfnrcBWPakyzbGlX.SbPSh988F5cfAA7R.jOuHrQYzbW9gCF81NTfGo.DmpKzVLP09uHgK4HX2Gju5lidtwQdDT6vUY97lXIm_SVZ.Sd5PcGhe3LXqxyKJfvhE2F60_A.5fa6oCe8mMIlABn0xQBZeu97XNpqof0d7jrF9bscHVkoEzZv4haiv3YNa1MobF..eMGaP_40WR8juCJ6pQ9A7SAd1YNyqHpW0KyyunYWAizJvwrXXYfEmxRRrsBdSCmhD9PWLpvaB6OegSze05Y61vq.cgCK7GD5DCsy3AZSFWt7jqwdYEKUUPmHchsyOVuRuv7hOONDMbKc1b1NFg1O1kZ86oOZ_arj_LRZp5ZHgAwN0K_hWlJURIlxZrqPSSu31jutTtxaQgh5Zdnt8443uN0b658mf6hXpOhdDNyXqRhtzjyIYTIxF32qimsGKwxD264OZMYJQFfjJn..2r8ngqkn3lIN2s2j3nQ5eGbCKb_SCdMXn.u8_km9klQlC8nDiKjaHUJdBm2ao_PdUlPjHXx6e3VtDwXojV9VpaInFtxeIcJEV3POCv4Rm3J.T4ENeZl6pf.RvWAmt7wvMjZ8szhhcuSk5nWQ6te1EjscZw8hrNA9oTSmdo7Wk3BGldIGJTzO4Rij1Kgs0T0ZDVJrnpsuKBypY7MBLKNuWuE2hzSDJ5McZmqm1SLVnCZlcycVSq9aP7LW9mV5JT_0lqp0WnKODe4v8K9_fvsLNKH8OdtMl0DTEJ8IbPhj4jh_RQ2HNauObwA_FDmiSTViK0RtHenOztenayg_UGqEBQNSRziFgieXo3hX8.sewg5RveEwJ6T5qhK8QCBDqlnDRBRgknQgdXlxPGnfyfyCvLhkSoPsvWsV70VpMsLywGYjrnrykI97mXIVnS0STWwsnQHDdZmhJlc7PVbm7CSGPFagZ2ip23NaNStfZhFx2OrwY7NbuRacAtXssmJqXHCJ6v1Nd93xWzrlDMYHc1NyXJb8JUjc2UTdbPAPWThaRJeixPd8ekoEy2MVjTEHil6bl79SzamijE_BLAaW5Zym4ZfbyfMnZW6H4GX.FCEhKh8xI7dG94NO85xZyUebOiBym5oNLfuXykW0y44dFff8b4pYmg3jwFCHE7j8H8HPe2Wx.nJbcNX2cEn5lzg75Ja37kiioedUbfjWy5mzlNMDEwVtI8quQolDPN9vg',mdrd: 'W1isUBcKYUhlTIqSXBJjg1ZsK7IBwWgk4Yz7TV1Y2Tk-1794800461-1.2.1.1-Or9P5RKuDCtogpbE3e7Lh_7zmv9vtjGADm045WJh0Rbt9yPlw2TGtr7b1cBxQX7KDUYGaRYtwZWx9nT_HlJ4fKwrViH1GPa6JUZ10Br5evkBPq3VUDrPdOPAGRICp1ahStq9R6O4pacgWkjpUlJF5LeyRfWh6JcQwWMJkiLPYpeTW6ic1bUeMvdzfZH79hVeI83xcBmEPFs2JaNZwijlv8KhLDsu28Fsyr77GEJ0BsYn5cdgbZAUcAAODJ.xhAGfywINax5h7ZIA5Fki827gt_qym7PmfXc7VYrmuOTve9ymeqvQQSgIYpwbSIkd8WFVjiAvwuzAWxVpegi5BFymyjD3.IwnA_AO5z7LeflFhXiF4tEgs7PgwB0pLrmop0hgfv3SRoOybVj8hMQno8IUxg',};var a = document.createElement('script');a.nonce = 'hldivVYCItdpeJvAJmn8qg';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b37a443ec628a6';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=D6baFTTCnvlbg.k3cqy0c8fWfT8bMzCvZacX2ikhdCM-1794800461-1.0.1.1-JSpwLRCzjMvSBrfAWxcGTRxKbL54nDY32umvRotbsac\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://artnet.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-vG1MKTfimnNIfGTB6oqazX&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"vG1MKTfimnNIfGTB6oqazX\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'qXQb38n3PlxRn7MdeyxfIiPOLfS1QCAda4MGTEWwwSE-1794800461-1.2.1.1-mhi3JDt3XVeRw2th4Hbldc9gQySKCFjdvGQPiWUlETgzZGJrpP2agwzZ7M6hjUdN',cITimeS: '1794800461',cN: 'vG1MKTfimnNIfGTB6oqazX',cRay: 'a5b37a45985820d7',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=Dhg9_kgW5aDIH9WkfJhVCB.yGiLxL5RXQoTvjMNPrYI-1794800461-1.0.1.1-KEz5fw4iZXNYcUQoJDbqw7CRGQnZjFWDLjtqd2uA0fQ\",cvId: '3',cZone: 'artnet.com',fa:\"/sitemap.xml?__cf_chl_f_tk=Dhg9_kgW5aDIH9WkfJhVCB.yGiLxL5RXQoTvjMNPrYI-1794800461-1.0.1.1-KEz5fw4iZXNYcUQoJDbqw7CRGQnZjFWDLjtqd2uA0fQ\",md: 'hjQ14nDS3_eEcVOqY0GNBlKaOLZtuJww57cJSdxFJKQ-1794800461-1.2.1.1-.JV7f8JPO98Bt8T4_zKzIoY7DfYctMrz7BtAZjv8X_JRzLZPDvj9wgws_O3xIvN4L83A4PpS9cgYS3xhfr2RTT3Zl8NGYsoBy2jAdaSkEIHf7zPhZ1q3qHytngmS7InvvP4YlJaR9L5q7hDkhVOAJTZmxhqqXEHMgTeFs45QvLH_oOpawWOD_cN.RLB.1UlJOhBWuOcmWL0TI1l37D1B0DzgLxY5mDNdNyjVzmdCgn_1XgDSxHHAGQVmrIQpgoLQLUeSRGnAsYjkk2M_4poJv5dlGHvyV2wqbZnysXp0sNqCWxrgeO2GFlTFGMuNKIOVAR.sVve15DdQOWjCafwBvbIpe_1dfmHB8dQm3PMmNhslScBCHLtQxn.hXbcGq1cpi_C40TFAvSIJ8Vn5Gc4XYK5E86HMmynMhJHoOUyZiFIiA4sb99s9YeEhywMD.ec7jr9r0P7jqU9cnG1dgESiMMXXRb9UmP5X9rByNCNYTNY1vNQKd7kca4gW2wVcjPWqJL80oxQoOWAcudu36OS7S9iLOseJMxS9PKFx8nvnkEwSvEIESPydvZ7T_hMDK9jDH4sb9BSaP4GOJ7PXMhIVPM2sTtE_SDze0i5WLaW4IrrMxDe1aVZbHjnPsT2bUXuBJIJX4_gtAD_9YKvftMXltwhowLJwuCJlvdsedQ8jCksSpIEzAAhlz4f8CNX0BAHYWYWgAxAabviQwkotIZyX3kM6rY.8hGr8WNmA3gdj3NWM5Wu1FuxqXzMZQtEPGjWyKfA4BTu1.Ud9eeE01CQF2JVghPQujfW2H0dPZTyWDZwQi7Ra.J8QzD0r2DBjGsaDw_.zP9X5PpX3NifJWyBJ95S5JdSLb9NhwHhtNn3LEwjxdWmTgp1DbYTcrcupL2r3t8XLj64ldebsKwW.ztLqTzzrFQco3aHhhw3jxlb5CsNm9PAZDjUWrGaeEnm83AKovd645NKa_oefYjfB_MNhtuEHx9purqccJrzxghWSamzR4GOEBUGUPAHl6c1qWxNEsPg_ZewRlKtv3F_EdaxcS2WtHMcDQdho8Q1n9ksBlDZb.M8px_CXYRvIuuyV_VEDw.fOwEiusaKqrSevT9IpugC7d9Ef8tCFcuRP0ONQNI3jXPfoVJL42eqUyDoh1HMi0NCzbM4oy8ZxfnMdZD7aowTwu1wZYh61jZNPZ9N4d4k8dfldatpwbWl2FkpQ7ms.TUiqQqeSghRee524nJstXQ',mdrd: 'IPwfa.ia6DliXC2O.mXUH_wAo8xdFy_c0tbF5YclZwI-1794800461-1.2.1.1-wTSlwhIUkp0OIi5jY0JcKEZN8gJxwcOuFmO7sQzTca.wi.cGfhoyZz6wvWxe5eleH8jK.SuCob5y9QM5EFRIRA8tXg1IhJz3EEr13H2LpXRKoSKsbH2oQT4yLFmVu4pvyfZGBRoE9LyThL0XT9t5gZIITXxxtyM6z_zN4sIFkXCuc2IfaCYruBWAppET.2FveN2G1BCG_oLLObCytIQRcNIIs.AaRUaM20hlA0yX0dG4.w3k9UzfMNKC8CN97WRsT9O7DYGvZAqsW6EjvDc3pgg_b0DfPNqBpJD.SX.27yAv0ci._hj1vxO5nPVuP9oaFhvqCo8DqiwIARHDqJEYJS0q1sBjT4KWUXcUBL632xNvl2TzSIF3IsWe7h2FCLYB9zOh0iaqPQGkhMB29NbmbA',};var a = document.createElement('script');a.nonce = 'vG1MKTfimnNIfGTB6oqazX';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b37a45985820d7';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=Dhg9_kgW5aDIH9WkfJhVCB.yGiLxL5RXQoTvjMNPrYI-1794800461-1.0.1.1-KEz5fw4iZXNYcUQoJDbqw7CRGQnZjFWDLjtqd2uA0fQ\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://artnet.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-8B6WT0yxriGxC2eHoyGwqx&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"8B6WT0yxriGxC2eHoyGwqx\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'EHm68YKQNUC4fL0FZa9N4Xeki_JOx5GvanB5Sr6SHNQ-1794800461-1.2.1.1-G9OVWkPE9BqLNeKu8M.pO50TVc1JMhbsd8PEuU1uWH5ayBBWNO9K3Q5Ytz1vUTqk',cITimeS: '1794800461',cN: '8B6WT0yxriGxC2eHoyGwqx',cRay: 'a5b37a46faa0d62f',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=FpUOjpR63kO2c9FBYzGlvKCZ4fIZyj1N_ruesxucLaU-1794800461-1.0.1.1-4jPxy8NplGu2q_sUSeHa_lRGYQvg5gB3rQ7YUyRxfwk\",cvId: '3',cZone: 'artnet.com',fa:\"/agents.md?__cf_chl_f_tk=FpUOjpR63kO2c9FBYzGlvKCZ4fIZyj1N_ruesxucLaU-1794800461-1.0.1.1-4jPxy8NplGu2q_sUSeHa_lRGYQvg5gB3rQ7YUyRxfwk\",md: 'hvSckhFoW8cROl5LItcQX25QU7pkzru0CnB_Vq3AsUc-1794800461-1.2.1.1-zNeWq_dRRh_YVfiyw9e220COJggJLJFBmjTt9XdPXLgtShPexZA1ehtTeengLAwUssibmls3kPN3F9eFr4DWFlaNz8ow3ov5GC3J9Ar6rguH3U.0lHl6.1kUfmsfkCVr8Z8BFNq55LDX1nb1yPL4lG6sDeAUhCL1Vi9KkfR4KZv8yx_BB_AEYFT00TwJJdILeBw9XRdqZx3f9vf8uNVpNxXTv2cUJGR4PBjzTYbr6nGcpqoizrd3nO7g7yG3r1V.F8I7CBhcM2oMaGuhtlQXjXdk9rJQsTCwLNHhwgBMF0rRPOwQdY7smNQ0bvmrOfCi_CaNt1NeycNtkf.CIOLKo1iBXaQWNjonZ1rmKxuNhENY0Y6Oo4YeUxxDptnSU67D5WFTbPkhojPNVfQs1iKAu793Yj1q46GxRdJ4cB4zOs5Ezjq8AHXYIcm2OF4KmMd1IlLhVspxKJhE.vIwFWmb2Y1GoPLF1XmCl4iK06NNIDBxvXNlXEgLW7LJIQh.qw0k0MqmTj0KwaMtbVd3mT_K5l6Hg6MqUuDt0t6tA__o9lD.KTf_BBubfXeiVBY43iYQJHq7BhBMtaZojyiW48tibfV0CEX9PcrU5nD5KJI39.g6kKoQ9WokZ01K3cY07xe6aXciUQUb2.mOAi2SPC3yXjD0OqFr5qBZikTJ1Mnv1aBvf4uEUSbzG1JqHpkQXj5dMduYER0ILvdX4HIcfFfjh_z9Ej.HrSwnCxzIVvVVpjrtEzAkwxLIJcEaoFgxY96ZcUcVllGw06Hoc2kLYslaIvp2Nt4TVBOkWWNw60ZmaIPyX_84QNXkvgMlBUHIEu4Ng42K.UHL7r853tryb0oFiGgcjf1xDOTyYx8S4UBiJkvujah.fBlDczybImKzwExwMUVrjzdvI.Vbby8_7JVWJr7uTxj7j_XNEkilIJY93CupR6QhIgie0jatJnr2J73eDAnkK.qoyQdSHWMN7imrE8lxcI2M1XGgDPP56jgZQaJzsCABku6sEm4qq_m2c.5X_Mjh0FEvFHBPTe2BDiwd5.soqNBJ6uTCW.OiRk.akNbGjL.J8RN5zNLuhaMt264T4eKR921bgenPJg9Zt7gu0esUYE8lquS_6oXOmhet8JezQ0taLR8ACExjh7WIkOZVtSylc0qtiCbtS24dIMbagKT_nw8GW7JGRVlHlmvEnVufKE68._pha.486cH0rD1D',mdrd: 'yDVlqME2r3QV0PGYPcKH3Z6Mh61RqqLR5wNUU_W9MOg-1794800461-1.2.1.1-I.QsXghiGgYUS9XXJSDK8P30qt42FITN3nXJnucND.MnybRMJ0a0_4to_90Y5XaW2BnL8MoZ_1ru2OOxRfRe.1jWubFHcd5caio4FXuftckkus9LGd6E_QJ30ySBm67yse1WHyi1RqFeOU21IHlh5oNbqh2HgbIJabfQCTzmAOI5OjQ1Bsl1z6KKE1m_pISrFEaj4_OeXAO_QJR8T2xmKfF1Q5vyq_BbsxaLSi_2HqPpU_6Qmwkvcu29vLlcG39icO_9lr4liOizkSXv0emiZL26aZEZUrsE15vg.ZDVjjd3_aMWKcqp9UT2TJNNnFFd7hySkBCIkdXZjNIkdmp7vUp.q3QWcOLgmSjWMCV5T5v1qw4jpmskx5ZzT5ezkyxgM3mD0zRO5FmmblUCX8kBgA',};var a = document.createElement('script');a.nonce = '8B6WT0yxriGxC2eHoyGwqx';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b37a46faa0d62f';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=FpUOjpR63kO2c9FBYzGlvKCZ4fIZyj1N_ruesxucLaU-1794800461-1.0.1.1-4jPxy8NplGu2q_sUSeHa_lRGYQvg5gB3rQ7YUyRxfwk\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://artnet.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-sOlQ5qQmeNfEiToIGosCPO&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"sOlQ5qQmeNfEiToIGosCPO\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'JMY5_NV4i81MolFqbi.I1aXhF25neRHNooLy6GnhDxY-1794800462-1.2.1.1-UCyKRhu2pT9hDkFfsOFErF9TqO3r2YHs2LJMHsjJGvThimayf6_8POPdkiDV_4pU',cITimeS: '1794800462',cN: 'sOlQ5qQmeNfEiToIGosCPO',cRay: 'a5b37a4b885f5001',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/ai.txt?__cf_chl_tk=t6LcIfRHEMxnciNNHzKsaMebRpeQy2PpdFFgWsk3CUo-1794800462-1.0.1.1-02e5L4YDrPSx9BgkxEBR70QkhnMDrsNgU7C9w9CPPKk\",cvId: '3',cZone: 'artnet.com',fa:\"/ai.txt?__cf_chl_f_tk=t6LcIfRHEMxnciNNHzKsaMebRpeQy2PpdFFgWsk3CUo-1794800462-1.0.1.1-02e5L4YDrPSx9BgkxEBR70QkhnMDrsNgU7C9w9CPPKk\",md: 'gHZzMfSdxKo69LdEYoqwt2EfU3Wxq0uHyEEfB0gbBqM-1794800462-1.2.1.1-D8_X7UsI6GdEOzl6F3RjbxXx3DsECEyWL9hQuliN1PxnhyTTSLPLBtjymr5dqcvUOWavTC1SVCkJDXxhbmc_NRQ10eMybY9iBffJL4vMxXTvq8J1v0MKoWafPiuoxZUjprn3Lj2hwB.GLW3So3ry7xZgIaaov4pPGTOzYAtlqxvBuvbmPUnWPBb5ERt5FaE1oyfsNuC0cECCYd6B.rRjTrriNRkkj1P3zGWjh9T1zlulNhFKyqq9zwMX447SEin0zBsUUDUV2gw8js33q1CwIUOa_f.NosVe4URu3vg.DHX9zLo.yh6EOVSwSfm8CfAFpha3Oyd6Kqv65U1rpAoGBvyq7WBlrB6fhwnPmNx0is61NCmR6UJXCxlKU90gBgPVXs28RdeW7TvnkTllLAzLatovjDhoVI8IYvJs0wNMdnl_W3cweH7A0sTYHaqJJh84EpSb.ncVgzvWcTqtpB3xU8hsrBMDu.QRoiPqWZ6RcKKXX4AfydsSwaC3KvMJDvLaLIcEqR_K6xgUBUHf1CQN7voHWKD_aeRReZEDgJhTf1z26tfcSH5KbBtwYdTuwfmvn2hG91mWaxun1IKxPlQNsYwHZVIHx7GLgzNl1caSaINEJiogHoFbPr6ba3E_Kj7J0ZimorEPiFWE01SUbUtzpSun4fn20.torDuxbbBhXQYxzTKriztC.X9L9K_WAne1FVVBAnrBISmMkBeYnSrWxlB1Km4AXLEnxnd81oVnZqUSSGbET55xSg071PT7pNswY4T3ingHCa2.Tggb_OqNEI3Ywgz4dGfg9uadZ49BfR29StQBRpJmb3wl839yvFmM3oqdBTXqqrm8rVqgwAsqlrYFugyjy9vTSm0XM7vXOuuHUl..1PJ791_9DNbmx4L3_uFLW.Rcc_Sxjb3NbjS7LSpayxWHeL29tf1D.sSf8u2X06imQGb_Gtm4lL0KSz80qTX8DgQ_Hcg1oOChqTqpXw579aCq9N7er1rs653s6k8UFPYMkm3rB9puUZzfNkfrrPf0KzhLgQUDACF_IcJ74cfiqqlqvzCZskWn8vlBshSBmCC58tkfKuBk1DZgE2FOYl2L1rkBp3J15dzKv3nMZKRDXa_qjPLdeB546CABq6J3XPMVVCwfFxsWrHr20mk9trs9C5VJD2LjaiyoT9gPyGHgM3QjzzIcYzJ6fnKhI4supiW5yjoOR2LBh2wnASbfhYShWl5jVbXzvMWyGIg7dw',mdrd: 'Owd34RYF_42ZDshp6Vk89Tizc4WQchZ5hu2JJT7FMRQ-1794800462-1.2.1.1-UlaDu.bc69CM6CG5H8jObQLF_fX8S6nNsgLEJAejBfOzQMmXBJ0X1m3lYmwI_EzfGz.udCSFFJQ1GUTlysqKUFiqA7f79C1TQbcm0x0M0WoiQ27hDDVdJwKtEK03UupzT2YKf9yF9xWWCCiKkt6_n.qMHdCLAQjaPjP7tUUcykHomvMqmXBnarwRylCsN.jx36ZKTWDtg_mWBvtzjGiiUcFArlH.ITfVYiDKojSutcS2NzM_j4L0NZiSS0lx0FMY5h3ehRbMB3kLJpmV.09kG0PubWjuF4MKUhGp5jPhG1MRgLt0X3XXUmCI_iQ6hkWkx_d.n5ksfIOrkX8gwunTqBQEppzM.GIysp0AZ1vudIEAYOxk_DZkArV59BP9o6wECgHaN0oZbLDJxfHdiGYReA',};var a = document.createElement('script');a.nonce = 'sOlQ5qQmeNfEiToIGosCPO';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5b37a4b885f5001';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=t6LcIfRHEMxnciNNHzKsaMebRpeQy2PpdFFgWsk3CUo-1794800462-1.0.1.1-02e5L4YDrPSx9BgkxEBR70QkhnMDrsNgU7C9w9CPPKk\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://artnet.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "artnet.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-16T03:41:02.672Z",
+    "score": 7,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 6.75,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 6.75,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 6.75,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

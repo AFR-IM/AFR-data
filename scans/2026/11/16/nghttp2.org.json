@@ -1,0 +1,253 @@
+{
+  "signals": {
+    "domain": "nghttp2.org",
+    "fetchedAt": "2026-11-16T02:52:20.873Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: \n\nSitemap: //nghttp2.org/sitemap.xml \n",
+      "url": "https://nghttp2.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "not found",
+      "url": "https://nghttp2.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "not found",
+      "url": "https://nghttp2.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "\n<!DOCTYPE html>\n<!--[if IEMobile 7 ]><html class=\"no-js iem7\"><![endif]-->\n<!--[if lt IE 9]><html class=\"no-js lte-ie8\"><![endif]-->\n<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class=\"no-js\" lang=\"en\"><!--<![endif]-->\n<head>\n  <meta charset=\"utf-8\">\n  <title>Nghttp2: HTTP/2 C Library - nghttp2.org</title>\n  <meta name=\"author\" content=\"Tatsuhiro Tsujikawa\">\n\n  \n  <meta name=\"description\" content=\"Nghttp2: HTTP/2 C Library Feb 16th, 2015 11:16 pm nghttp2 is an implementation of\nHTTP/2 and its header\ncompression algorithm HPACK in\nC. The &hellip;\">\n  \n\n  <!-- http://t.co/dKP3o1e -->\n  <meta name=\"HandheldFriendly\" content=\"True\">\n  <meta name=\"MobileOptimized\" content=\"320\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n  \n  <link rel=\"canonical\" href=\"//nghttp2.org\">\n  <link href=\"/favicon.png\" rel=\"icon\">\n  <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\">\n  <link href=\"/atom.xml\" rel=\"alternate\" title=\"nghttp2.org\" type=\"application/atom+xml\">\n  <script src=\"/javascripts/modernizr-2.0.js\"></script>\n  <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n  <script>!window.jQuery && document.write(unescape('%3Cscript src=\"./javascripts/libs/jquery.min.js\"%3E%3C/script%3E'))</script>\n  <script src=\"/javascripts/octopress.js\" type=\"text/javascript\"></script>\n  <!--Fonts from Google\"s Web font directory at http://google.com/webfonts -->\n<link href=\"//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic\" rel=\"stylesheet\" type=\"text/css\">\n<link href=\"//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic\" rel=\"stylesheet\" type=\"text/css\">\n\n  \n\n</head>\n\n<body   >\n  <header role=\"banner\"><hgroup>\n  <h1><a href=\"/\">nghttp2.org</a></h1>\n  \n    <h2>HTTP/2 C library and tools</h2>\n  \n</hgroup>\n\n</header>\n  <nav role=\"navigation\"><ul class=\"subscription\" data-subscription=\"rss\">\n  <li><a href=\"/atom.xml\" rel=\"subscribe-rss\" title=\"subscribe via RSS\">RSS</a></li>\n  \n</ul>\n  \n<form action=\"https://www.google.com/search\" method=\"get\">\n  <fieldset role=\"search\">\n    <input type=\"hidden\" name=\"q\" value=\"site://nghttp2.org\" />\n    <input class=\"search\" type=\"text\" name=\"q\" results=\"0\" placeholder=\"Search\"/>\n  </fieldset>\n</form>\n  \n<ul class=\"main-navigation\">\n  <li><a href=\"/\">Top</a></li>\n  <li><a href=\"/blog/\">Blog</a></li>\n  <li><a href=\"/blog/archives\">Archives</a></li>\n  <li><a href=\"/documentation/\">Documentation</a></li>\n  <li><a href=\"/v2/\">V2 documentation</a></li>\n  <li><a href=\"/httpbin\">Httpbin</a></li>\n  <li><a href=\"https://github.com/nghttp2/nghttp2/releases\">Releases</a></li>\n  <li><a href=\"https://github.com/nghttp2/nghttp2\">Source Code</a></li>\n</ul>\n\n</nav>\n  <div id=\"main\">\n    <div id=\"content\">\n      <div>\n<article role=\"article\">\n  \n  <header>\n    <h1 class=\"entry-title\">Nghttp2: HTTP/2 C Library</h1>\n    <p class=\"meta\">\n\n\n\n\n<time class='entry-date' datetime='2015-02-16T23:16:00+09:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:16 pm</span></time></p>\n  </header>\n  \n  <p>nghttp2 is an implementation of\n<a href=\"https://datatracker.ietf.org/doc/html/rfc9113\">HTTP/2</a> and its header\ncompression algorithm <a href=\"https://datatracker.ietf.org/doc/html/rfc7541\">HPACK</a> in\nC.</p>\n\n<p>The framing layer of HTTP/2 is implemented as a form of reusable C\nlibrary.  On top of that, we have implemented HTTP/2 <a href=\"/documentation/nghttp.1.html\">client</a>, <a href=\"/documentation/nghttpd.1.html\">server</a>\nand <a href=\"/documentation/nghttpx.1.html\">proxy</a>.\nWe have also developed <a href=\"/documentation/h2load.1.html\">load test and benchmarking tool</a> for HTTP/2.</p>\n\n<p>We have participated in httpbis working group since HTTP/2 draft-04,\nwhich is the first implementation draft.  Since then we have updated\nnghttp2 library constantly to latest specification and nghttp2 is now\none of the most mature <a href=\"https://github.com/http2/http2-spec/wiki/Implementations\">HTTP/2 implementations</a>.</p>\n\n<p>All C APIs are <a href=\"/documentation/apiref.html\">fully documented</a>.</p>\n\n<p>HTTP/2 utilizes header compression method called <a href=\"https://tools.ietf.org/html/rfc7541\">HPACK</a>.  We offer\nHPACK encoder and decoder are available as <a href=\"/documentation/tutorial-hpack.html\">public API</a>.</p>\n\n<p>Finally, we have started <a href=\"https://github.com/nghttp2/nghttp2-v2\">nghttp2 version2</a> development.</p>\n\n  \n    <footer>\n      <p class=\"meta\">\n        \n        \n\n\n\n\n<time class='entry-date' datetime='2015-02-16T23:16:00+09:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:16 pm</span></time>\n        \n      </p>\n      \n        <div class=\"sharing\">\n  \n  <a href=\"//twitter.com/share\" class=\"twitter-share-button\" data-url=\"//nghttp2.org/index.html\" data-via=\"\" data-counturl=\"//nghttp2.org/index.html\" >Tweet</a>\n  \n  \n  \n</div>\n\n      \n    </footer>\n  \n</article>\n\n</div>\n\n<aside class=\"sidebar\">\n  \n    <section>\n  <h1>Recent Posts</h1>\n  <ul id=\"recent_posts\">\n    \n      <li class=\"post\">\n        <a href=\"/blog/2026/11/02/nghttp2-v1-71-0/\">Nghttp2 v1.71.0</a>\n      </li>\n    \n      <li class=\"post\">\n        <a href=\"/blog/2026/10/12/nghttp2-v2-v0-1-0/\">Nghttp2-v2 v0.1.0</a>\n      </li>\n    \n      <li class=\"post\">\n        <a href=\"/blog/2026/07/29/nghttp2-v1-70-0/\">Nghttp2 v1.70.0</a>\n      </li>\n    \n      <li class=\"post\">\n        <a href=\"/blog/2026/04/19/nghttp2-v1-69-0/\">Nghttp2 v1.69.0</a>\n      </li>\n    \n      <li class=\"post\">\n        <a href=\"/blog/2026/03/18/nghttp2-v1-68-1/\">Nghttp2 v1.68.1</a>\n      </li>\n    \n  </ul>\n</section>\n\n\n\n\n\n  \n</aside>\n\n\n    </div>\n  </div>\n  <footer role=\"contentinfo\"><p>\n  Copyright &copy; 2026 - Tatsuhiro Tsujikawa -\n  <span class=\"credit\">Powered by <a href=\"http://octopress.org\">Octopress</a></span>\n</p>\n\n</footer>\n  \n\n\n\n\n\n\n\n  <script type=\"text/javascript\">\n    (function(){\n      var twitterWidgets = document.createElement('script');\n      twitterWidgets.type = 'text/javascript';\n      twitterWidgets.async = true;\n      twitterWidgets.src = '//platform.twitter.com/widgets.js';\n      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);\n    })();\n  </script>\n\n\n\n\n\n</body>\n</html>\n",
+      "url": "https://nghttp2.org/"
+    },
+    "sitemap": {
+      "error": "TypeError: Failed to parse URL from //nghttp2.org/sitemap.xml (ERR_INVALID_URL: Invalid URL)"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "not found",
+      "url": "https://nghttp2.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "not found",
+      "url": "https://nghttp2.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "nghttp2.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-16T02:52:20.873Z",
+    "score": 33,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 10.25,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 5.25,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 3/4; h1 ×3 (multiple); html[lang] present; body text 189 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml network error: TypeError: Failed to parse URL from //nghttp2.org/sitemap.xml (ERR_INVALID_URL: Invalid URL); robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 4,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Nghttp2: HTTP/2 C Library - nghttp2.org\"; meta description 150 chars; date signal present; body text 189 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 5.25,
+      "l2.sitemap": 1,
+      "l2.content-signals": 4,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

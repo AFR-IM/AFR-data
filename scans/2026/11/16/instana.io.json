@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "instana.io",
+    "fetchedAt": "2026-11-16T03:19:02.633Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://instana.io/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://instana.io/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://instana.io/llms-full.txt"
+    },
+    "homepage": {
+      "status": 401,
+      "body": "\n\n\n\n\n\n<html lang=\"en-US\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"referrer\" content=\"origin\" />\n    \n    <title>Log in - Instana</title>\n\n    <link\n      rel=\"apple-touch-icon-precomposed\"\n      sizes=\"57x57\"\n      href=\"/assets/49840/apple-touch-icon-57x57.png\"\n    />\n    <link\n      rel=\"apple-touch-icon-precomposed\"\n      sizes=\"72x72\"\n      href=\"/assets/49840/apple-touch-icon-72x72.png\"\n    />\n    <link\n      rel=\"apple-touch-icon-precomposed\"\n      sizes=\"120x120\"\n      href=\"/assets/49840/apple-touch-icon-120x120.png\"\n    />\n    <link\n      rel=\"apple-touch-icon-precomposed\"\n      sizes=\"152x152\"\n      href=\"/assets/49840/apple-touch-icon-152x152.png\"\n    />\n    <link\n      rel=\"icon\"\n      type=\"image/png\"\n      href=\"/assets/49840/favicon-32x32.png\"\n      sizes=\"32x32\"\n    />\n    <link\n      rel=\"icon\"\n      type=\"image/png\"\n      href=\"/assets/49840/favicon-16x16.png\"\n      sizes=\"16x16\"\n    />\n\n    <link\n      rel=\"stylesheet\"\n      href=\"/assets/49840/css/carbon-styles.css\"\n    />\n\n    \n\n    \n    \n\n  </head>\n  <body class=\"cds-theme-white\">\n    \n    <cds-header class=\"cds-theme-g100\" aria-label=\"Dark UI Shell\">\n        <cds-header-name prefix=\"IBM\">Instana</cds-header-name>\n    </cds-header>\n\n    <div class=\"content-container\">\n      \n    <div class=\"cds--grid\">\n      <div class=\"cds--row\">\n        <div class=\"cds--col-lg-6 cds--col-md-8 cds--col-sm-16\">\n          <cds-stack gap=\"5\">\n            <h1 class=\"title-login\">\n              Log in\n            </h1>\n            <div class=\"border-login\"></div>\n              \n              <div id=\"session-timeout-notification-container\"></div>\n              <cds-text-input\n                id=\"email\"\n                \n                  label=\"Email\"\n                  type=\"email\"\n                  invalid-text=\"Please use a valid email.\"\n                \n                name=\"email\"\n                value=\"\"\n              ></cds-text-input>\n              <cds-text-input\n                id=\"password\"\n                name=\"password\"\n                type=\"password\"\n                label=\"Password\"\n              >\n              </cds-text-input>\n            \n          <form id=\"loginForm\" action=\"/auth/signIn\" method=\"post\">\n            <input type=\"hidden\"\n                   name=\"returnUrl\"\n                   id=\"returnUrl\"\n                   value=\"\">\n            <input type=\"hidden\"\n                   name=\"email\"\n                   id=\"hiddenEmail\">\n            <input type=\"hidden\"\n                   name=\"password\"\n                   id=\"hiddenPassword\">\n            <input type=\"hidden\"\n                   name=\"captcha\"\n                   id=\"hiddenCaptcha\">\n            <cds-stack gap=\"5\">\n              <cds-button kind=\"primary\" type=\"submit\" id=\"submitBtn\">\n                Log in\n              </cds-button>\n            <div class=\"rememberId-section\">\n              \n              <cds-link href=\"#\" id=\"lostPassword\">Lost password?</cds-link>\n              \n            </div>\n            \n              <div class=\"border-login\"></div>\n              <div class=\"text-alternative-logins\">\n                Alternative logins\n              </div>\n              <cds-button\n                href='/auth/signIn/sso/idp?client_name=ssoGoogle&returnUrl='\n                id=\"sso_forward_link\"\n                target=\"_self\"\n                title=\"Google Single Sign On\"\n                kind=\"tertiary\"\n              >\n                <div class=\"buttonWithIcon\">\n                  <span>Log in with Google</span>\n                  <img src=\"/assets/49840/images/google.svg\" alt=\"google-icon\" />\n                </div>\n              </cds-button>\n            \n            </cds-stack>\n          </form>\n        </cds-stack>\n        </div>\n        <div class=\"cds--col-lg-10 cds--col-md-8 cds--col-sm-16 hide-on-mobile\">\n          <img src=\"/assets/49840/images/login.svg\" alt=\"login-image\" />\n        </div>\n      </div>\n      <div class=\"cds--row in-sign-in__link_container\">\n        <cds-link href=\"https://www.ibm.com/us-en/privacy\" target=\"_blank\" rel=\"noopener noreferrer\" >IBM Privacy Statement</cds-link>\n        <cds-link href=\"https://www.ibm.com/legal/terms\" target=\"_blank\" rel=\"noopener noreferrer\" >Terms of\n            Use</cds-link>\n      </div>\n    </div>\n    <script src=\"/assets/49840/dist/js/libs/stack.min.js\"></script>\n    <script src=\"/assets/49840/dist/js/libs/text-input.min.js\"></script>\n    <script src=\"/assets/49840/dist/js/libs/button.min.js\"></script>\n    <script src=\"/assets/49840/dist/js/libs/notification.min.js\"></script>\n    <script src=\"/assets/49840/dist/js/libs/link.min.js\"></script>\n    <script src=\"/assets/49840/dist/js/libs/ui-shell.min.js\"></script>\n    <script src=\"/assets/49840/dist/js/lostPassword.js\"></script>\n    \n      <script src=\"/assets/49840/dist/js/logIn.js\"></script>\n    \n\n    </div>\n  </body>\n</html>\n\n",
+      "url": "https://instana.io/auth/signIn"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "{\"errors\":[\"HTTP 404 Not Found\"]}",
+      "url": "https://instana.io/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://instana.io/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://instana.io/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "instana.io",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-16T03:19:02.633Z",
+    "score": 25,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 25,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 25,
+            "max": 25,
+            "status": "pass",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 401 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 401, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 25,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

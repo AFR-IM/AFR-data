@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "gelbooru.com",
+    "fetchedAt": "2026-11-16T03:08:22.751Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /index.php?page=post&id=213234&s=view\nDisallow: /public",
+      "url": "https://gelbooru.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"https://gelbooru.com/default.css\" title=\"default\" />\n</head>\n<body>\n<br /><br />\n<center>\n<img src=\"https://gelbooru.com/layout/404.jpg\" alt=\"Gelbooru 404\" />\n<br /><br />\n<h1>There was an error.</h1>\n<br />\nThis content is not available in your country.<br /><br />\nLet us know on <a href=\"https://discord.gg/Zxs9tPE\"><b>Discord</b></a> or on <a href=\"https://twitter.com/gelbooru\"><b>Twitter</b></a>\n</center>\n</body></html>",
+      "url": "https://gelbooru.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"https://gelbooru.com/default.css\" title=\"default\" />\n</head>\n<body>\n<br /><br />\n<center>\n<img src=\"https://gelbooru.com/layout/404.jpg\" alt=\"Gelbooru 404\" />\n<br /><br />\n<h1>There was an error.</h1>\n<br />\nThis content is not available in your country.<br /><br />\nLet us know on <a href=\"https://discord.gg/Zxs9tPE\"><b>Discord</b></a> or on <a href=\"https://twitter.com/gelbooru\"><b>Twitter</b></a>\n</center>\n</body></html>",
+      "url": "https://gelbooru.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html>\n\t<head>\n\t\t<meta charset=\"UTF-8\">\n\t\t<title>Gelbooru | Anime Art & Hentai Gallery - Free to Explore</title><link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"responsive.css?1\" title=\"default\" />\n\t\t\n\t\t<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"css/jquery-ui.css?1\" title=\"default\" />\n\t\t<link rel=\"SHORTCUT ICON\" href=\"favicon.png\" />\n\t\t<meta name=\"keywords\" content=\"anime, archive, gallery, imageboard, imageboard, hentai, videos\" />\n\t\t<meta name=\"description\" content=\"Browse millions of anime, manga, videos, and video game themed images on Gelbooru. Discover art with detailed tags. Contains explicit hentai content.\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t<link rel=\"search\" type=\"application/opensearchdescription+xml\" title=\"Gelbooru.com: Coded by Geltas\" href=\"gelbooru.xml\" />\n\t\t<link rel=\"stylesheet\" href=\"//gelbooru.com/bootstrap.css\">\n\t</head>\n\t\n\t<body style=\"background: url('layout/index_back.png') repeat-x;\">\n\t\t<br /><br /><br />\n\t\t<div id=\"static-index\">\n\t\t\t<h1 style=\"font-size: 4em;\"><a href=\"index.php?page=post&s=list&tags=all\">Gelbooru</a></h1><br />\n\t\t\t\t<div class=\"space\" id=\"links\" style=\"margin-bottom: 10px;\">\n\t\t\t\t\t<a href=\"index.php?page=post&amp;s=list\" title=\"A paginated list of every post\"><b>Browse All Posts</b></a>\n\t\t\t\t\t<a href=\"index.php?page=comment&amp;s=list\">Comments</a>\n\t\t\t\t\t<a href=\"index.php?page=forum&amp;s=list\">Forum</a>\n\t\t\t\t\t<a href=\"index.php?page=wiki&amp;s=list\">Wiki</a>\n\t\t\t\t\t<a href=\"index.php?page=account&amp;s=home\" title=\"Account options\">My Account</a>\n\t\t\t\t\t<a href=\"index.php?page=help\" title=\"Account options\">&raquo;</a>\n\t\t\t\t</div>\n\t\t\t\t\t\t     <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js\"></script> \n\t\t<script src=\"https://gelbooru.com//script/miscJs.js?1\"></script>\n\t\t<script type=\"text/javascript\" src=\"//gelbooru.com/script/application.grid.js\"></script>\n\t\t\t<form action=\"index.php?page=search\" method=\"post\">\n\t\t\t\t<input id=\"tags-search\" name=\"tags\" class=\"search_list-frontpage\" data-autocomplete=\"tag-query\" type=\"text\" placeholder=\"Ex: blue_sky cloud 1girl\" autofocus />\n\t\t\t\t<input name=\"commit\" class=\"secondary_search\" type=\"submit\" value=\"Search\" /><br /><br />\n\t\t\t</form>\n\t\t\t<div style=\"font-family: tahoma; font-size: 11px; color: #5a5a5a;\"><a href=\"tos.php\">Terms of service</a> - Total number of visitors so far: Over 9,000 - <a href=\"index.php?page=aboutus\">About Us</a><br />\n\t\t\tRunning Gelbooru Beta 0.2.5</div><br /><img src=\"./counter/1.gif\" border=\"0\" alt=\"1\"/><img src=\"./counter/4.gif\" border=\"0\" alt=\"4\"/><img src=\"./counter/5.gif\" border=\"0\" alt=\"5\"/><img src=\"./counter/9.gif\" border=\"0\" alt=\"9\"/><img src=\"./counter/5.gif\" border=\"0\" alt=\"5\"/><img src=\"./counter/4.gif\" border=\"0\" alt=\"4\"/><img src=\"./counter/1.gif\" border=\"0\" alt=\"1\"/><img src=\"./counter/7.gif\" border=\"0\" alt=\"7\"/><div style=\"text-align: center; color: #5a5a5a; font-family: tahoma;\">Have you first tried disabling your <a href=\"#\" onclick=\"javascript:addEngine('gelbooru','png','0')\">AdBlock</a>?</div>\n\t\t\t<small style=\"color: #aaa;\">Original concept by <a href=\"http://danbooru.donmai.us\">Danbooru</a></small></div><br /><br /><br /><br /><center>\t<script src=\"https://gelbooru.com/script/autocomplete3.js?3\"></script>\n\t<script src=\"https://gelbooru.com/script/jquery-hotkeys.js?1\"></script>\n</body></html>",
+      "url": "https://gelbooru.com/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"https://gelbooru.com/default.css\" title=\"default\" />\n</head>\n<body>\n<br /><br />\n<center>\n<img src=\"https://gelbooru.com/layout/404.jpg\" alt=\"Gelbooru 404\" />\n<br /><br />\n<h1>There was an error.</h1>\n<br />\nThis content is not available in your country.<br /><br />\nLet us know on <a href=\"https://discord.gg/Zxs9tPE\"><b>Discord</b></a> or on <a href=\"https://twitter.com/gelbooru\"><b>Twitter</b></a>\n</center>\n</body></html>",
+      "url": "https://gelbooru.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"https://gelbooru.com/default.css\" title=\"default\" />\n</head>\n<body>\n<br /><br />\n<center>\n<img src=\"https://gelbooru.com/layout/404.jpg\" alt=\"Gelbooru 404\" />\n<br /><br />\n<h1>There was an error.</h1>\n<br />\nThis content is not available in your country.<br /><br />\nLet us know on <a href=\"https://discord.gg/Zxs9tPE\"><b>Discord</b></a> or on <a href=\"https://twitter.com/gelbooru\"><b>Twitter</b></a>\n</center>\n</body></html>",
+      "url": "https://gelbooru.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"https://gelbooru.com/default.css\" title=\"default\" />\n</head>\n<body>\n<br /><br />\n<center>\n<img src=\"https://gelbooru.com/layout/404.jpg\" alt=\"Gelbooru 404\" />\n<br /><br />\n<h1>There was an error.</h1>\n<br />\nThis content is not available in your country.<br /><br />\nLet us know on <a href=\"https://discord.gg/Zxs9tPE\"><b>Discord</b></a> or on <a href=\"https://twitter.com/gelbooru\"><b>Twitter</b></a>\n</center>\n</body></html>",
+      "url": "https://gelbooru.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "gelbooru.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-16T03:08:22.751Z",
+    "score": 29,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 6,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; missing html[lang]; body text 51 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Gelbooru | Anime Art & Hentai Gallery - \"; meta description 149 chars; no date signal; body text 51 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 0,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "bandlab.com",
+    "fetchedAt": "2026-11-16T02:53:52.590Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /0$\nDisallow: /403$\nDisallow: /404$\nDisallow: /500$\nDisallow: /email-confirm\nDisallow: /join\nDisallow: /membership/get-membership\nDisallow: /search/\nDisallow: /update-browser\nSitemap: https://www.bandlab.com/web-app/sitemap-8cdefab6ca.xml\nSitemap: https://www.bandlab.com/promo/sitemap.xml\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: Webzio-Extended\nDisallow: /\n\nUser-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\nAllow: /$\nAllow: /360ra$\nAllow: /ai$\nAllow: /boost$\nAllow: /creation-features$\nAllow: /distribution$\nAllow: /download$\nAllow: /fan-reach$\nAllow: /features/albums$\nAllow: /fx$\nAllow: /mastering$\nAllow: /membership$\nAllow: /membership-reddit$\nAllow: /opportunities$\nAllow: /pages$\nAllow: /products/ai-tools$\nAllow: /products/beatmaker$\nAllow: /products/mastering$\nAllow: /products/vocal-tools$\nAllow: /products/vocalist$\nAllow: /products/voice-cleaner$\nAllow: /promote-your-track$\nAllow: /songstarter$\nAllow: /sounds/home$\nAllow: /splitter$\n",
+      "url": "https://www.bandlab.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!doctype html> <html lang=\"en\" ng-strict-di> <head> <meta charset=\"utf-8\"> <base href=\"/\"> <title>BandLab</title> <meta name=\"prerender-status-code\" content=\"200\"> <meta name=\"robots\" content=\"all\"> <meta name=\"build\" content=\"79d98e38f32dd954e3fcbfe047a0f0d43348dc1c\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,viewport-fit=cover\"> <meta name=\"referrer\" content=\"origin-when-cross-origin\"> <meta name=\"version\" content=\"10.3.5\"> <meta name=\"description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"color-scheme\" content=\"light dark\"> <meta property=\"og:site_name\" content=\"BandLab\"> <meta property=\"og:url\" content=\"https://www.bandlab.com\"> <meta property=\"og:type\" content=\"website\"> <meta property=\"og:title\" content=\"BandLab - Make Music Online\"> <meta property=\"og:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta property=\"og:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta name=\"twitter:card\" content=\"summary\"> <meta name=\"twitter:site\" content=\"@BandLab\"> <meta name=\"twitter:title\" content=\"BandLab - Make Music Online\"> <meta name=\"twitter:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"twitter:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta property=\"fb:admins\" content=\"684751977\"> <meta property=\"fb:app_id\" content=\"260753417459194\"> <link rel=\"canonical\" href=\"https://www.bandlab.com\"> <link rel=\"dns-prefetch\" href=\"https://bl-prod-images.azureedge.net/v1.3\"> <link rel=\"icon\" type=\"image/png\" href=\"https://www.bandlab.com/web-app/images/favicons/favicon-48x48-53ec365b4b.png\" sizes=\"48x48\"> <link rel=\"manifest\" href=\"https://www.bandlab.com/web-app/manifest-bb9e077cad.json\"> <meta name=\"theme-color\" content=\"#282c32\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-fonts/v5.0.6/bandlab-sans.css\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-app/styles/main-695753a526.css\"> <link rel=\"search\" href=\"https://www.bandlab.com/web-app/common/static/opensearchdescription-376177ab3f.xml\" type=\"application/opensearchdescription+xml\" title=\"BandLab\"> <script nomodule>window.location.href=\"https://help.bandlab.com/hc/articles/900001558383-What-are-the-minimum-requirements-for-using-BandLab-?utm_source=www.bandlab.com&utm_campaign=nomodule\"</script> <script>window.fromAPI = { userAgent: {\"ua\":\"afrScanner/0.1 (+https://afr.im/bot; AI-friendliness research crawler)\",\"browser\":{},\"engine\":{},\"os\":{},\"device\":{},\"cpu\":{}}, countryCode: \"US\" }</script> </head> <body> <div class=\"title-bar\"> <div id=\"incompatibleBanner\"></div> <promo-banner ng-show=\"isPromoBannerVisible()\"></promo-banner> <div id=\"download-app-banner\"> <download-app-banner></download-app-banner> </div> <site-top-bar></site-top-bar> <site-tab-bar></site-tab-bar> </div> <main> <back-to-top></back-to-top> <div class=\"view-main\" ui-view></div> </main> <site-nav-bar class=\"show-for-medium-down\"></site-nav-bar> <global-player></global-player> <flyout></flyout> <div class=\"view-overlay\" ng-class=\"{ 'is-active': state.current.name.includes('.tree') || state.current.name.includes('promoteWizard.edit') }\" ng-click=\"closeOverlay($event)\"> <div class=\"view-overlay-content\" ui-view=\"overlay\"> </div> </div> <div floating-chat> <floating-conversation ng-repeat=\"conversation in floatingChat.activeConversations\"></floating-conversation> </div> <modal-download-apps-small></modal-download-apps-small> <modal-group></modal-group> <privacy-banner></privacy-banner> <script>let appTheme=localStorage.getItem(\"appTheme\");switch(appTheme||(appTheme=\"system\",localStorage.setItem(\"appTheme\",appTheme)),appTheme){case\"dark\":case\"light\":document.body.setAttribute(\"data-theme\",appTheme);break;case\"system\":window.matchMedia(\"(prefers-color-scheme: dark)\").matches?document.body.setAttribute(\"data-theme\",\"dark\"):document.body.setAttribute(\"data-theme\",\"light\")}</script> <script type=\"module\" src=\"https://www.bandlab.com/web-app/scripts/DL_6cInN.js\"></script> </body> </html> ",
+      "url": "https://www.bandlab.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!doctype html> <html lang=\"en\" ng-strict-di> <head> <meta charset=\"utf-8\"> <base href=\"/\"> <title>BandLab</title> <meta name=\"prerender-status-code\" content=\"200\"> <meta name=\"robots\" content=\"all\"> <meta name=\"build\" content=\"79d98e38f32dd954e3fcbfe047a0f0d43348dc1c\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,viewport-fit=cover\"> <meta name=\"referrer\" content=\"origin-when-cross-origin\"> <meta name=\"version\" content=\"10.3.5\"> <meta name=\"description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"color-scheme\" content=\"light dark\"> <meta property=\"og:site_name\" content=\"BandLab\"> <meta property=\"og:url\" content=\"https://www.bandlab.com\"> <meta property=\"og:type\" content=\"website\"> <meta property=\"og:title\" content=\"BandLab - Make Music Online\"> <meta property=\"og:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta property=\"og:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta name=\"twitter:card\" content=\"summary\"> <meta name=\"twitter:site\" content=\"@BandLab\"> <meta name=\"twitter:title\" content=\"BandLab - Make Music Online\"> <meta name=\"twitter:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"twitter:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta property=\"fb:admins\" content=\"684751977\"> <meta property=\"fb:app_id\" content=\"260753417459194\"> <link rel=\"canonical\" href=\"https://www.bandlab.com\"> <link rel=\"dns-prefetch\" href=\"https://bl-prod-images.azureedge.net/v1.3\"> <link rel=\"icon\" type=\"image/png\" href=\"https://www.bandlab.com/web-app/images/favicons/favicon-48x48-53ec365b4b.png\" sizes=\"48x48\"> <link rel=\"manifest\" href=\"https://www.bandlab.com/web-app/manifest-bb9e077cad.json\"> <meta name=\"theme-color\" content=\"#282c32\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-fonts/v5.0.6/bandlab-sans.css\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-app/styles/main-695753a526.css\"> <link rel=\"search\" href=\"https://www.bandlab.com/web-app/common/static/opensearchdescription-376177ab3f.xml\" type=\"application/opensearchdescription+xml\" title=\"BandLab\"> <script nomodule>window.location.href=\"https://help.bandlab.com/hc/articles/900001558383-What-are-the-minimum-requirements-for-using-BandLab-?utm_source=www.bandlab.com&utm_campaign=nomodule\"</script> <script>window.fromAPI = { userAgent: {\"ua\":\"afrScanner/0.1 (+https://afr.im/bot; AI-friendliness research crawler)\",\"browser\":{},\"engine\":{},\"os\":{},\"device\":{},\"cpu\":{}}, countryCode: \"US\" }</script> </head> <body> <div class=\"title-bar\"> <div id=\"incompatibleBanner\"></div> <promo-banner ng-show=\"isPromoBannerVisible()\"></promo-banner> <div id=\"download-app-banner\"> <download-app-banner></download-app-banner> </div> <site-top-bar></site-top-bar> <site-tab-bar></site-tab-bar> </div> <main> <back-to-top></back-to-top> <div class=\"view-main\" ui-view></div> </main> <site-nav-bar class=\"show-for-medium-down\"></site-nav-bar> <global-player></global-player> <flyout></flyout> <div class=\"view-overlay\" ng-class=\"{ 'is-active': state.current.name.includes('.tree') || state.current.name.includes('promoteWizard.edit') }\" ng-click=\"closeOverlay($event)\"> <div class=\"view-overlay-content\" ui-view=\"overlay\"> </div> </div> <div floating-chat> <floating-conversation ng-repeat=\"conversation in floatingChat.activeConversations\"></floating-conversation> </div> <modal-download-apps-small></modal-download-apps-small> <modal-group></modal-group> <privacy-banner></privacy-banner> <script>let appTheme=localStorage.getItem(\"appTheme\");switch(appTheme||(appTheme=\"system\",localStorage.setItem(\"appTheme\",appTheme)),appTheme){case\"dark\":case\"light\":document.body.setAttribute(\"data-theme\",appTheme);break;case\"system\":window.matchMedia(\"(prefers-color-scheme: dark)\").matches?document.body.setAttribute(\"data-theme\",\"dark\"):document.body.setAttribute(\"data-theme\",\"light\")}</script> <script type=\"module\" src=\"https://www.bandlab.com/web-app/scripts/DL_6cInN.js\"></script> </body> </html> ",
+      "url": "https://www.bandlab.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html> <html lang=\"en\" ng-strict-di> <head> <meta charset=\"utf-8\"> <base href=\"/\"> <title>BandLab</title> <meta name=\"prerender-status-code\" content=\"200\"> <meta name=\"robots\" content=\"all\"> <meta name=\"build\" content=\"79d98e38f32dd954e3fcbfe047a0f0d43348dc1c\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,viewport-fit=cover\"> <meta name=\"referrer\" content=\"origin-when-cross-origin\"> <meta name=\"version\" content=\"10.3.5\"> <meta name=\"description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"color-scheme\" content=\"light dark\"> <meta property=\"og:site_name\" content=\"BandLab\"> <meta property=\"og:url\" content=\"https://www.bandlab.com\"> <meta property=\"og:type\" content=\"website\"> <meta property=\"og:title\" content=\"BandLab - Make Music Online\"> <meta property=\"og:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta property=\"og:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta name=\"twitter:card\" content=\"summary\"> <meta name=\"twitter:site\" content=\"@BandLab\"> <meta name=\"twitter:title\" content=\"BandLab - Make Music Online\"> <meta name=\"twitter:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"twitter:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta property=\"fb:admins\" content=\"684751977\"> <meta property=\"fb:app_id\" content=\"260753417459194\"> <link rel=\"canonical\" href=\"https://www.bandlab.com\"> <link rel=\"dns-prefetch\" href=\"https://bl-prod-images.azureedge.net/v1.3\"> <link rel=\"icon\" type=\"image/png\" href=\"https://www.bandlab.com/web-app/images/favicons/favicon-48x48-53ec365b4b.png\" sizes=\"48x48\"> <link rel=\"manifest\" href=\"https://www.bandlab.com/web-app/manifest-bb9e077cad.json\"> <meta name=\"theme-color\" content=\"#282c32\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-fonts/v5.0.6/bandlab-sans.css\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-app/styles/main-695753a526.css\"> <link rel=\"search\" href=\"https://www.bandlab.com/web-app/common/static/opensearchdescription-376177ab3f.xml\" type=\"application/opensearchdescription+xml\" title=\"BandLab\"> <script nomodule>window.location.href=\"https://help.bandlab.com/hc/articles/900001558383-What-are-the-minimum-requirements-for-using-BandLab-?utm_source=www.bandlab.com&utm_campaign=nomodule\"</script> <script>window.fromAPI = { userAgent: {\"ua\":\"afrScanner/0.1 (+https://afr.im/bot; AI-friendliness research crawler)\",\"browser\":{},\"engine\":{},\"os\":{},\"device\":{},\"cpu\":{}}, countryCode: \"US\" }</script> </head> <body> <div class=\"title-bar\"> <div id=\"incompatibleBanner\"></div> <promo-banner ng-show=\"isPromoBannerVisible()\"></promo-banner> <div id=\"download-app-banner\"> <download-app-banner></download-app-banner> </div> <site-top-bar></site-top-bar> <site-tab-bar></site-tab-bar> </div> <main> <back-to-top></back-to-top> <div class=\"view-main\" ui-view></div> </main> <site-nav-bar class=\"show-for-medium-down\"></site-nav-bar> <global-player></global-player> <flyout></flyout> <div class=\"view-overlay\" ng-class=\"{ 'is-active': state.current.name.includes('.tree') || state.current.name.includes('promoteWizard.edit') }\" ng-click=\"closeOverlay($event)\"> <div class=\"view-overlay-content\" ui-view=\"overlay\"> </div> </div> <div floating-chat> <floating-conversation ng-repeat=\"conversation in floatingChat.activeConversations\"></floating-conversation> </div> <modal-download-apps-small></modal-download-apps-small> <modal-group></modal-group> <privacy-banner></privacy-banner> <script>let appTheme=localStorage.getItem(\"appTheme\");switch(appTheme||(appTheme=\"system\",localStorage.setItem(\"appTheme\",appTheme)),appTheme){case\"dark\":case\"light\":document.body.setAttribute(\"data-theme\",appTheme);break;case\"system\":window.matchMedia(\"(prefers-color-scheme: dark)\").matches?document.body.setAttribute(\"data-theme\",\"dark\"):document.body.setAttribute(\"data-theme\",\"light\")}</script> <script type=\"module\" src=\"https://www.bandlab.com/web-app/scripts/DL_6cInN.js\"></script> </body> </html> ",
+      "url": "https://www.bandlab.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://www.bandlab.com/</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/download</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/membership</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/distribution</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/sounds/home</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/mastering</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/songstarter</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/splitter</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/opportunities/list</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/creation-features</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/fx</loc>\n  </url>\n  <url>\n    <loc>https://www.bandlab.com/features/albums</loc>\n  </url>\n  <url>\n    <loc>https://blog.bandlab.com/make-money-with-your-music-the-brand-new-tip-jar/</loc>\n  </url>\n  <url>\n    <loc>https://blog.bandlab.com/</loc>\n  </url>\n  <url>\n    <loc>https://blog.bandlab.com/category/tutorials/</loc>\n  </url>\n  <url>\n    <loc>https://blog.bandlab.com/category/guides/</loc>\n  </url>\n  <url>\n    <loc>https://blog.bandlab.com/category/community/</loc>\n  </url>\n  <url>\n    <loc>https://blog.bandlab.com/category/contests/</loc>\n  </url>\n  <url>\n    <loc>https://help.bandlab.com/hc/en-us</loc>\n  </url>\n</urlset>\n",
+      "url": "https://www.bandlab.com/web-app/sitemap-8cdefab6ca.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!doctype html> <html lang=\"en\" ng-strict-di> <head> <meta charset=\"utf-8\"> <base href=\"/\"> <title>BandLab</title> <meta name=\"prerender-status-code\" content=\"200\"> <meta name=\"robots\" content=\"all\"> <meta name=\"build\" content=\"79d98e38f32dd954e3fcbfe047a0f0d43348dc1c\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,viewport-fit=cover\"> <meta name=\"referrer\" content=\"origin-when-cross-origin\"> <meta name=\"version\" content=\"10.3.5\"> <meta name=\"description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"color-scheme\" content=\"light dark\"> <meta property=\"og:site_name\" content=\"BandLab\"> <meta property=\"og:url\" content=\"https://www.bandlab.com\"> <meta property=\"og:type\" content=\"website\"> <meta property=\"og:title\" content=\"BandLab - Make Music Online\"> <meta property=\"og:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta property=\"og:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta name=\"twitter:card\" content=\"summary\"> <meta name=\"twitter:site\" content=\"@BandLab\"> <meta name=\"twitter:title\" content=\"BandLab - Make Music Online\"> <meta name=\"twitter:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"twitter:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta property=\"fb:admins\" content=\"684751977\"> <meta property=\"fb:app_id\" content=\"260753417459194\"> <link rel=\"canonical\" href=\"https://www.bandlab.com\"> <link rel=\"dns-prefetch\" href=\"https://bl-prod-images.azureedge.net/v1.3\"> <link rel=\"icon\" type=\"image/png\" href=\"https://www.bandlab.com/web-app/images/favicons/favicon-48x48-53ec365b4b.png\" sizes=\"48x48\"> <link rel=\"manifest\" href=\"https://www.bandlab.com/web-app/manifest-bb9e077cad.json\"> <meta name=\"theme-color\" content=\"#282c32\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-fonts/v5.0.6/bandlab-sans.css\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-app/styles/main-695753a526.css\"> <link rel=\"search\" href=\"https://www.bandlab.com/web-app/common/static/opensearchdescription-376177ab3f.xml\" type=\"application/opensearchdescription+xml\" title=\"BandLab\"> <script nomodule>window.location.href=\"https://help.bandlab.com/hc/articles/900001558383-What-are-the-minimum-requirements-for-using-BandLab-?utm_source=www.bandlab.com&utm_campaign=nomodule\"</script> <script>window.fromAPI = { userAgent: {\"ua\":\"afrScanner/0.1 (+https://afr.im/bot; AI-friendliness research crawler)\",\"browser\":{},\"engine\":{},\"os\":{},\"device\":{},\"cpu\":{}}, countryCode: \"US\" }</script> </head> <body> <div class=\"title-bar\"> <div id=\"incompatibleBanner\"></div> <promo-banner ng-show=\"isPromoBannerVisible()\"></promo-banner> <div id=\"download-app-banner\"> <download-app-banner></download-app-banner> </div> <site-top-bar></site-top-bar> <site-tab-bar></site-tab-bar> </div> <main> <back-to-top></back-to-top> <div class=\"view-main\" ui-view></div> </main> <site-nav-bar class=\"show-for-medium-down\"></site-nav-bar> <global-player></global-player> <flyout></flyout> <div class=\"view-overlay\" ng-class=\"{ 'is-active': state.current.name.includes('.tree') || state.current.name.includes('promoteWizard.edit') }\" ng-click=\"closeOverlay($event)\"> <div class=\"view-overlay-content\" ui-view=\"overlay\"> </div> </div> <div floating-chat> <floating-conversation ng-repeat=\"conversation in floatingChat.activeConversations\"></floating-conversation> </div> <modal-download-apps-small></modal-download-apps-small> <modal-group></modal-group> <privacy-banner></privacy-banner> <script>let appTheme=localStorage.getItem(\"appTheme\");switch(appTheme||(appTheme=\"system\",localStorage.setItem(\"appTheme\",appTheme)),appTheme){case\"dark\":case\"light\":document.body.setAttribute(\"data-theme\",appTheme);break;case\"system\":window.matchMedia(\"(prefers-color-scheme: dark)\").matches?document.body.setAttribute(\"data-theme\",\"dark\"):document.body.setAttribute(\"data-theme\",\"light\")}</script> <script type=\"module\" src=\"https://www.bandlab.com/web-app/scripts/DL_6cInN.js\"></script> </body> </html> ",
+      "url": "https://www.bandlab.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!doctype html> <html lang=\"en\" ng-strict-di> <head> <meta charset=\"utf-8\"> <base href=\"/\"> <title>BandLab</title> <meta name=\"prerender-status-code\" content=\"200\"> <meta name=\"robots\" content=\"all\"> <meta name=\"build\" content=\"79d98e38f32dd954e3fcbfe047a0f0d43348dc1c\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,viewport-fit=cover\"> <meta name=\"referrer\" content=\"origin-when-cross-origin\"> <meta name=\"version\" content=\"10.3.5\"> <meta name=\"description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"color-scheme\" content=\"light dark\"> <meta property=\"og:site_name\" content=\"BandLab\"> <meta property=\"og:url\" content=\"https://www.bandlab.com\"> <meta property=\"og:type\" content=\"website\"> <meta property=\"og:title\" content=\"BandLab - Make Music Online\"> <meta property=\"og:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta property=\"og:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta name=\"twitter:card\" content=\"summary\"> <meta name=\"twitter:site\" content=\"@BandLab\"> <meta name=\"twitter:title\" content=\"BandLab - Make Music Online\"> <meta name=\"twitter:description\" content=\"The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe\"> <meta name=\"twitter:image\" content=\"https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png\"> <meta property=\"fb:admins\" content=\"684751977\"> <meta property=\"fb:app_id\" content=\"260753417459194\"> <link rel=\"canonical\" href=\"https://www.bandlab.com\"> <link rel=\"dns-prefetch\" href=\"https://bl-prod-images.azureedge.net/v1.3\"> <link rel=\"icon\" type=\"image/png\" href=\"https://www.bandlab.com/web-app/images/favicons/favicon-48x48-53ec365b4b.png\" sizes=\"48x48\"> <link rel=\"manifest\" href=\"https://www.bandlab.com/web-app/manifest-bb9e077cad.json\"> <meta name=\"theme-color\" content=\"#282c32\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-fonts/v5.0.6/bandlab-sans.css\"> <link rel=\"stylesheet\" href=\"https://www.bandlab.com/web-app/styles/main-695753a526.css\"> <link rel=\"search\" href=\"https://www.bandlab.com/web-app/common/static/opensearchdescription-376177ab3f.xml\" type=\"application/opensearchdescription+xml\" title=\"BandLab\"> <script nomodule>window.location.href=\"https://help.bandlab.com/hc/articles/900001558383-What-are-the-minimum-requirements-for-using-BandLab-?utm_source=www.bandlab.com&utm_campaign=nomodule\"</script> <script>window.fromAPI = { userAgent: {\"ua\":\"afrScanner/0.1 (+https://afr.im/bot; AI-friendliness research crawler)\",\"browser\":{},\"engine\":{},\"os\":{},\"device\":{},\"cpu\":{}}, countryCode: \"US\" }</script> </head> <body> <div class=\"title-bar\"> <div id=\"incompatibleBanner\"></div> <promo-banner ng-show=\"isPromoBannerVisible()\"></promo-banner> <div id=\"download-app-banner\"> <download-app-banner></download-app-banner> </div> <site-top-bar></site-top-bar> <site-tab-bar></site-tab-bar> </div> <main> <back-to-top></back-to-top> <div class=\"view-main\" ui-view></div> </main> <site-nav-bar class=\"show-for-medium-down\"></site-nav-bar> <global-player></global-player> <flyout></flyout> <div class=\"view-overlay\" ng-class=\"{ 'is-active': state.current.name.includes('.tree') || state.current.name.includes('promoteWizard.edit') }\" ng-click=\"closeOverlay($event)\"> <div class=\"view-overlay-content\" ui-view=\"overlay\"> </div> </div> <div floating-chat> <floating-conversation ng-repeat=\"conversation in floatingChat.activeConversations\"></floating-conversation> </div> <modal-download-apps-small></modal-download-apps-small> <modal-group></modal-group> <privacy-banner></privacy-banner> <script>let appTheme=localStorage.getItem(\"appTheme\");switch(appTheme||(appTheme=\"system\",localStorage.setItem(\"appTheme\",appTheme)),appTheme){case\"dark\":case\"light\":document.body.setAttribute(\"data-theme\",appTheme);break;case\"system\":window.matchMedia(\"(prefers-color-scheme: dark)\").matches?document.body.setAttribute(\"data-theme\",\"dark\"):document.body.setAttribute(\"data-theme\",\"light\")}</script> <script type=\"module\" src=\"https://www.bandlab.com/web-app/scripts/DL_6cInN.js\"></script> </body> </html> ",
+      "url": "https://www.bandlab.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "bandlab.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-16T02:53:52.590Z",
+    "score": 40,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 17.58,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 7.58,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.83/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 20.75,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1.75,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 1/4; no h1; html[lang] present; body text 1 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"BandLab\"; meta description 114 chars; no date signal; body text 1 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 2,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 7.58,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1.75,
+      "l2.sitemap": 4,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

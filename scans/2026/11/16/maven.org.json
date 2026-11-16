@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "maven.org",
+    "fetchedAt": "2026-11-16T03:32:21.022Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "sitemap: https://search.maven.org/sitemap-index.xml\n",
+      "url": "https://maven.org/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!--\n\n Copyright 2018-present Sonatype, Inc.\n\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n\n-->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-PDC9ZLZ');</script>\n  <!-- End Google Tag Manager -->\n\n  <!-- Gainsight UserID -->\n\n  <script>\n    window.getGainsightUserId = function() {\n      const currentUserId = localStorage.getItem('gainsight-user-uid');\n      if (currentUserId) {\n          return currentUserId;\n      }\n      const newUserId = `${[1e7]}${[-1e3]}${[-4e3]}${[-8e3]}${[-1e11]}`.replace(/[018]/g, (c) => (parseInt(c, 10) ^\n          (crypto.getRandomValues(new Uint8Array(1))[0] &\n              (15 >> (parseInt(c, 10) / 4)))).toString(16));\n      localStorage.setItem('gainsight-user-uid', newUserId);\n      return newUserId;\n    };\n  </script>\n\n <!-- End Gainsight UserID -->\n\n <!-- Google Analytics -->\n\n  <!-- Global site tag (gtag.js) - Google Analytics -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-101097570-3\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'UA-101097570-3');\n  </script>\n\n  <!-- End Google Analytics -->\n\n  <!-- Marketo Integration -->\n\n  <script type=\"text/javascript\" src=\"https://cdn.bizible.com/scripts/bizible.js\" async=\"\"></script>\n\n  <!-- End Marketo Integration -->\n\n  <meta charset=\"utf-8\">\n  <meta name=\"theme-color\" content=\"#336699\"/>\n  <meta name=\"description\" content=\"Official search by the maintainers of Maven Central Repository\">\n  <link rel=\"manifest\" href=\"manifest.json\"/>\n  <title>Maven Central Repository Search</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"canonicalLink\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico?v=3\">\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n  <link type=\"application/opensearchdescription+xml\" rel=\"search\"\n        href=\"open-search-description.xml\"/>\n  <script type=\"application/ld+json\" id=\"structured-data\"></script>\n<link rel=\"stylesheet\" href=\"styles.9fb46a4e844d7fbc314e.css\"></head>\n<body>\n<!-- Google Tag Manager (noscript) -->\n  <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PDC9ZLZ\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n  <app-root></app-root>\n  <noscript>Sorry, your browser does not support JavaScript!</noscript>\n<script src=\"runtime-es2015.683e11ce8dffedaa1c85.js\" type=\"module\"></script><script src=\"polyfills-es2015.6af935d4ee90fe76706b.js\" type=\"module\"></script><script src=\"runtime-es5.f1090e12ea27ab7c21b4.js\" nomodule defer></script><script src=\"polyfills-es5.587224fe788178197934.js\" nomodule defer></script><script src=\"main-es2015.76540079f641857f2387.js\" type=\"module\"></script><script src=\"main-es5.18f434af4af06dfd9226.js\" nomodule defer></script></body>\n</html>\n",
+      "url": "https://maven.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!--\n\n Copyright 2018-present Sonatype, Inc.\n\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n\n-->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-PDC9ZLZ');</script>\n  <!-- End Google Tag Manager -->\n\n  <!-- Gainsight UserID -->\n\n  <script>\n    window.getGainsightUserId = function() {\n      const currentUserId = localStorage.getItem('gainsight-user-uid');\n      if (currentUserId) {\n          return currentUserId;\n      }\n      const newUserId = `${[1e7]}${[-1e3]}${[-4e3]}${[-8e3]}${[-1e11]}`.replace(/[018]/g, (c) => (parseInt(c, 10) ^\n          (crypto.getRandomValues(new Uint8Array(1))[0] &\n              (15 >> (parseInt(c, 10) / 4)))).toString(16));\n      localStorage.setItem('gainsight-user-uid', newUserId);\n      return newUserId;\n    };\n  </script>\n\n <!-- End Gainsight UserID -->\n\n <!-- Google Analytics -->\n\n  <!-- Global site tag (gtag.js) - Google Analytics -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-101097570-3\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'UA-101097570-3');\n  </script>\n\n  <!-- End Google Analytics -->\n\n  <!-- Marketo Integration -->\n\n  <script type=\"text/javascript\" src=\"https://cdn.bizible.com/scripts/bizible.js\" async=\"\"></script>\n\n  <!-- End Marketo Integration -->\n\n  <meta charset=\"utf-8\">\n  <meta name=\"theme-color\" content=\"#336699\"/>\n  <meta name=\"description\" content=\"Official search by the maintainers of Maven Central Repository\">\n  <link rel=\"manifest\" href=\"manifest.json\"/>\n  <title>Maven Central Repository Search</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"canonicalLink\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico?v=3\">\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n  <link type=\"application/opensearchdescription+xml\" rel=\"search\"\n        href=\"open-search-description.xml\"/>\n  <script type=\"application/ld+json\" id=\"structured-data\"></script>\n<link rel=\"stylesheet\" href=\"styles.9fb46a4e844d7fbc314e.css\"></head>\n<body>\n<!-- Google Tag Manager (noscript) -->\n  <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PDC9ZLZ\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n  <app-root></app-root>\n  <noscript>Sorry, your browser does not support JavaScript!</noscript>\n<script src=\"runtime-es2015.683e11ce8dffedaa1c85.js\" type=\"module\"></script><script src=\"polyfills-es2015.6af935d4ee90fe76706b.js\" type=\"module\"></script><script src=\"runtime-es5.f1090e12ea27ab7c21b4.js\" nomodule defer></script><script src=\"polyfills-es5.587224fe788178197934.js\" nomodule defer></script><script src=\"main-es2015.76540079f641857f2387.js\" type=\"module\"></script><script src=\"main-es5.18f434af4af06dfd9226.js\" nomodule defer></script></body>\n</html>\n",
+      "url": "https://maven.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!--\n\n Copyright 2018-present Sonatype, Inc.\n\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n\n-->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-PDC9ZLZ');</script>\n  <!-- End Google Tag Manager -->\n\n  <!-- Gainsight UserID -->\n\n  <script>\n    window.getGainsightUserId = function() {\n      const currentUserId = localStorage.getItem('gainsight-user-uid');\n      if (currentUserId) {\n          return currentUserId;\n      }\n      const newUserId = `${[1e7]}${[-1e3]}${[-4e3]}${[-8e3]}${[-1e11]}`.replace(/[018]/g, (c) => (parseInt(c, 10) ^\n          (crypto.getRandomValues(new Uint8Array(1))[0] &\n              (15 >> (parseInt(c, 10) / 4)))).toString(16));\n      localStorage.setItem('gainsight-user-uid', newUserId);\n      return newUserId;\n    };\n  </script>\n\n <!-- End Gainsight UserID -->\n\n <!-- Google Analytics -->\n\n  <!-- Global site tag (gtag.js) - Google Analytics -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-101097570-3\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'UA-101097570-3');\n  </script>\n\n  <!-- End Google Analytics -->\n\n  <!-- Marketo Integration -->\n\n  <script type=\"text/javascript\" src=\"https://cdn.bizible.com/scripts/bizible.js\" async=\"\"></script>\n\n  <!-- End Marketo Integration -->\n\n  <meta charset=\"utf-8\">\n  <meta name=\"theme-color\" content=\"#336699\"/>\n  <meta name=\"description\" content=\"Official search by the maintainers of Maven Central Repository\">\n  <link rel=\"manifest\" href=\"manifest.json\"/>\n  <title>Maven Central Repository Search</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"canonicalLink\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico?v=3\">\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n  <link type=\"application/opensearchdescription+xml\" rel=\"search\"\n        href=\"open-search-description.xml\"/>\n  <script type=\"application/ld+json\" id=\"structured-data\"></script>\n<link rel=\"stylesheet\" href=\"styles.9fb46a4e844d7fbc314e.css\"></head>\n<body>\n<!-- Google Tag Manager (noscript) -->\n  <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PDC9ZLZ\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n  <app-root></app-root>\n  <noscript>Sorry, your browser does not support JavaScript!</noscript>\n<script src=\"runtime-es2015.683e11ce8dffedaa1c85.js\" type=\"module\"></script><script src=\"polyfills-es2015.6af935d4ee90fe76706b.js\" type=\"module\"></script><script src=\"runtime-es5.f1090e12ea27ab7c21b4.js\" nomodule defer></script><script src=\"polyfills-es5.587224fe788178197934.js\" nomodule defer></script><script src=\"main-es2015.76540079f641857f2387.js\" type=\"module\"></script><script src=\"main-es5.18f434af4af06dfd9226.js\" nomodule defer></script></body>\n</html>\n",
+      "url": "https://maven.org/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!--\n\n Copyright 2018-present Sonatype, Inc.\n\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n\n-->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-PDC9ZLZ');</script>\n  <!-- End Google Tag Manager -->\n\n  <!-- Gainsight UserID -->\n\n  <script>\n    window.getGainsightUserId = function() {\n      const currentUserId = localStorage.getItem('gainsight-user-uid');\n      if (currentUserId) {\n          return currentUserId;\n      }\n      const newUserId = `${[1e7]}${[-1e3]}${[-4e3]}${[-8e3]}${[-1e11]}`.replace(/[018]/g, (c) => (parseInt(c, 10) ^\n          (crypto.getRandomValues(new Uint8Array(1))[0] &\n              (15 >> (parseInt(c, 10) / 4)))).toString(16));\n      localStorage.setItem('gainsight-user-uid', newUserId);\n      return newUserId;\n    };\n  </script>\n\n <!-- End Gainsight UserID -->\n\n <!-- Google Analytics -->\n\n  <!-- Global site tag (gtag.js) - Google Analytics -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-101097570-3\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'UA-101097570-3');\n  </script>\n\n  <!-- End Google Analytics -->\n\n  <!-- Marketo Integration -->\n\n  <script type=\"text/javascript\" src=\"https://cdn.bizible.com/scripts/bizible.js\" async=\"\"></script>\n\n  <!-- End Marketo Integration -->\n\n  <meta charset=\"utf-8\">\n  <meta name=\"theme-color\" content=\"#336699\"/>\n  <meta name=\"description\" content=\"Official search by the maintainers of Maven Central Repository\">\n  <link rel=\"manifest\" href=\"manifest.json\"/>\n  <title>Maven Central Repository Search</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"canonicalLink\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico?v=3\">\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n  <link type=\"application/opensearchdescription+xml\" rel=\"search\"\n        href=\"open-search-description.xml\"/>\n  <script type=\"application/ld+json\" id=\"structured-data\"></script>\n<link rel=\"stylesheet\" href=\"styles.9fb46a4e844d7fbc314e.css\"></head>\n<body>\n<!-- Google Tag Manager (noscript) -->\n  <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PDC9ZLZ\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n  <app-root></app-root>\n  <noscript>Sorry, your browser does not support JavaScript!</noscript>\n<script src=\"runtime-es2015.683e11ce8dffedaa1c85.js\" type=\"module\"></script><script src=\"polyfills-es2015.6af935d4ee90fe76706b.js\" type=\"module\"></script><script src=\"runtime-es5.f1090e12ea27ab7c21b4.js\" nomodule defer></script><script src=\"polyfills-es5.587224fe788178197934.js\" nomodule defer></script><script src=\"main-es2015.76540079f641857f2387.js\" type=\"module\"></script><script src=\"main-es5.18f434af4af06dfd9226.js\" nomodule defer></script></body>\n</html>\n",
+      "url": "https://search.maven.org/sitemap-index.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!--\n\n Copyright 2018-present Sonatype, Inc.\n\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n\n-->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-PDC9ZLZ');</script>\n  <!-- End Google Tag Manager -->\n\n  <!-- Gainsight UserID -->\n\n  <script>\n    window.getGainsightUserId = function() {\n      const currentUserId = localStorage.getItem('gainsight-user-uid');\n      if (currentUserId) {\n          return currentUserId;\n      }\n      const newUserId = `${[1e7]}${[-1e3]}${[-4e3]}${[-8e3]}${[-1e11]}`.replace(/[018]/g, (c) => (parseInt(c, 10) ^\n          (crypto.getRandomValues(new Uint8Array(1))[0] &\n              (15 >> (parseInt(c, 10) / 4)))).toString(16));\n      localStorage.setItem('gainsight-user-uid', newUserId);\n      return newUserId;\n    };\n  </script>\n\n <!-- End Gainsight UserID -->\n\n <!-- Google Analytics -->\n\n  <!-- Global site tag (gtag.js) - Google Analytics -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-101097570-3\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'UA-101097570-3');\n  </script>\n\n  <!-- End Google Analytics -->\n\n  <!-- Marketo Integration -->\n\n  <script type=\"text/javascript\" src=\"https://cdn.bizible.com/scripts/bizible.js\" async=\"\"></script>\n\n  <!-- End Marketo Integration -->\n\n  <meta charset=\"utf-8\">\n  <meta name=\"theme-color\" content=\"#336699\"/>\n  <meta name=\"description\" content=\"Official search by the maintainers of Maven Central Repository\">\n  <link rel=\"manifest\" href=\"manifest.json\"/>\n  <title>Maven Central Repository Search</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"canonicalLink\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico?v=3\">\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n  <link type=\"application/opensearchdescription+xml\" rel=\"search\"\n        href=\"open-search-description.xml\"/>\n  <script type=\"application/ld+json\" id=\"structured-data\"></script>\n<link rel=\"stylesheet\" href=\"styles.9fb46a4e844d7fbc314e.css\"></head>\n<body>\n<!-- Google Tag Manager (noscript) -->\n  <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PDC9ZLZ\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n  <app-root></app-root>\n  <noscript>Sorry, your browser does not support JavaScript!</noscript>\n<script src=\"runtime-es2015.683e11ce8dffedaa1c85.js\" type=\"module\"></script><script src=\"polyfills-es2015.6af935d4ee90fe76706b.js\" type=\"module\"></script><script src=\"runtime-es5.f1090e12ea27ab7c21b4.js\" nomodule defer></script><script src=\"polyfills-es5.587224fe788178197934.js\" nomodule defer></script><script src=\"main-es2015.76540079f641857f2387.js\" type=\"module\"></script><script src=\"main-es5.18f434af4af06dfd9226.js\" nomodule defer></script></body>\n</html>\n",
+      "url": "https://maven.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!--\n\n Copyright 2018-present Sonatype, Inc.\n\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n\n-->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-PDC9ZLZ');</script>\n  <!-- End Google Tag Manager -->\n\n  <!-- Gainsight UserID -->\n\n  <script>\n    window.getGainsightUserId = function() {\n      const currentUserId = localStorage.getItem('gainsight-user-uid');\n      if (currentUserId) {\n          return currentUserId;\n      }\n      const newUserId = `${[1e7]}${[-1e3]}${[-4e3]}${[-8e3]}${[-1e11]}`.replace(/[018]/g, (c) => (parseInt(c, 10) ^\n          (crypto.getRandomValues(new Uint8Array(1))[0] &\n              (15 >> (parseInt(c, 10) / 4)))).toString(16));\n      localStorage.setItem('gainsight-user-uid', newUserId);\n      return newUserId;\n    };\n  </script>\n\n <!-- End Gainsight UserID -->\n\n <!-- Google Analytics -->\n\n  <!-- Global site tag (gtag.js) - Google Analytics -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-101097570-3\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'UA-101097570-3');\n  </script>\n\n  <!-- End Google Analytics -->\n\n  <!-- Marketo Integration -->\n\n  <script type=\"text/javascript\" src=\"https://cdn.bizible.com/scripts/bizible.js\" async=\"\"></script>\n\n  <!-- End Marketo Integration -->\n\n  <meta charset=\"utf-8\">\n  <meta name=\"theme-color\" content=\"#336699\"/>\n  <meta name=\"description\" content=\"Official search by the maintainers of Maven Central Repository\">\n  <link rel=\"manifest\" href=\"manifest.json\"/>\n  <title>Maven Central Repository Search</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"canonicalLink\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico?v=3\">\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n  <link type=\"application/opensearchdescription+xml\" rel=\"search\"\n        href=\"open-search-description.xml\"/>\n  <script type=\"application/ld+json\" id=\"structured-data\"></script>\n<link rel=\"stylesheet\" href=\"styles.9fb46a4e844d7fbc314e.css\"></head>\n<body>\n<!-- Google Tag Manager (noscript) -->\n  <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PDC9ZLZ\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n  <app-root></app-root>\n  <noscript>Sorry, your browser does not support JavaScript!</noscript>\n<script src=\"runtime-es2015.683e11ce8dffedaa1c85.js\" type=\"module\"></script><script src=\"polyfills-es2015.6af935d4ee90fe76706b.js\" type=\"module\"></script><script src=\"runtime-es5.f1090e12ea27ab7c21b4.js\" nomodule defer></script><script src=\"polyfills-es5.587224fe788178197934.js\" nomodule defer></script><script src=\"main-es2015.76540079f641857f2387.js\" type=\"module\"></script><script src=\"main-es5.18f434af4af06dfd9226.js\" nomodule defer></script></body>\n</html>\n",
+      "url": "https://maven.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "maven.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-16T03:32:21.022Z",
+    "score": 32,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 9,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 4,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "JSON-LD blocks ×1; no key schema.org type; no JSON-LD block parsable"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 11 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Maven Central Repository Search\"; meta description 62 chars; no date signal; body text 11 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 4,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 1,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
