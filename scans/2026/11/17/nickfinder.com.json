@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "nickfinder.com",
+    "fetchedAt": "2026-11-17T03:29:28.401Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /comment/\nDisallow: /vote/\nDisallow: /find/\nDisallow: /generator/generateJsonRandomVariants\nDisallow: /sendJabberMessage\nDisallow: /sendChatMessage\nDisallow: /nf-chat\nDisallow: /apiPoint/\nDisallow: /favs/\nDisallow: /my/\nDisallow: /comments/\nDisallow: /variants/\nDisallow: /reporting/\nDisallow: /nfAdv/\nDisallow: /names/findAjax\nDisallow: /fancyText/makeAnotherFancy\nDisallow: /fancyText/makeAnotherPasswords\nDisallow: /whereIsMyName\nDisallow: /site/gotoRandomPage\nDisallow: /site/leaveAfter\n",
+      "url": "https://nickfinder.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Captcha</title>\n\n    <script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>\n    <style>\n        * {\n            box-sizing: border-box;\n        }\n        body {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            margin: 0;\n            padding: 16px;\n            padding-top: 60px;\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n            font-size: 16px;\n            line-height: 1.5;\n            background: #ecf0f5;\n            color: #354861;\n        }\n        .main-header {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            min-width: 100%;\n            height: 44px;\n            max-height: 100px;\n            z-index: 1030;\n            background-color: #354861;\n            background-image: url(https://nickfinder.com/assets2/img/top_line_1.png);\n            background-position: 50% 50%;\n            background-repeat: repeat;\n            box-sizing: border-box;\n            overflow: hidden;\n        }\n        .main-header .logo {\n            display: block;\n            float: left;\n            height: 44px;\n            padding: 0 15px 0 10px;\n            line-height: 44px;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            font-size: 26px;\n            font-weight: 300;\n            color: #fff;\n            width: 100%;\n            max-width: 230px;\n            text-align: center;\n            box-sizing: border-box;\n        }\n        @media (min-width: 400px) {\n            .main-header .logo {\n                text-align: left;\n            }\n        }\n        .page-wrap {\n            width: 100%;\n            max-width: 420px;\n        }\n        .container {\n            text-align: center;\n            padding: clamp(20px, 5vw, 32px);\n            background: #fff;\n            border-radius: 12px;\n            box-shadow: 0 4px 24px rgba(53, 72, 97, 0.08), 0 1px 3px rgba(53, 72, 97, 0.06);\n            border: 1px solid #ebe9f5;\n        }\n        .container h2 {\n            margin: 0 0 1.25em;\n            font-size: clamp(1.125rem, 2.5vw, 1.375rem);\n            font-weight: 600;\n            color: #354861;\n        }\n        .cf-turnstile-wrap {\n            display: flex;\n            justify-content: center;\n            margin-bottom: 1em;\n            min-height: 65px;\n        }\n        .cf-turnstile {\n            margin: 0 auto;\n        }\n        .error {\n            margin: 0;\n            padding: 10px 12px;\n            font-size: 0.9375rem;\n            color: #b91c1c;\n            background: #fef2f2;\n            border-radius: 8px;\n            border: 1px solid #fecaca;\n            display: none;\n        }\n        @media (max-width: 380px) {\n            body {\n                padding: 12px;\n            }\n            .container {\n                padding: 16px;\n            }\n        }\n    </style>\n\n</head>\n<body>\n\n<header class=\"main-header\">\n    <span class=\"logo\">\n        <span class=\"logo-lg\">Nickfinder.com</span>\n    </span>\n</header>\n\n<div class=\"page-wrap\">\n    <div class=\"container\">\n        <h2>Please verify you are not a bot</h2>\n        <div class=\"cf-turnstile-wrap\">\n            <div class=\"cf-turnstile\" data-sitekey=\"0x4AAAAAABdRngFQXjavGSrf\" data-callback=\"onCaptchaSuccess\" data-error-callback=\"onCaptchaError\"></div>\n        </div>\n        <p id=\"error\" class=\"error\">Verification failed. Please try again.</p>\n    </div>\n</div>\n\n<script>\n    function onCaptchaError(code) {\n        try {\n            (new Image()).src = '/lowlevelerrorlogger.php?e=cft_' + encodeURIComponent(code || 'unknown');\n        } catch (e) {}\n        return true; // handled: no \"Uncaught TurnstileError\" in console, widget shows its own failure UI\n    }\n    function onCaptchaSuccess(token) {\n        fetch('/', {\n            method: 'POST',\n            headers: {\n                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',\n            },\n            body: new URLSearchParams({\n                cf_captcha_token: token\n            }),\n        })\n            .then(response => response.json())\n            .then(data => {\n                if (data.success) {\n                    window.location.reload();\n                } else {\n                    document.getElementById('error').style.display = 'block';\n                    turnstile.reset();\n                }\n            })\n            .catch(error => {\n                console.error('Error:', error);\n                document.getElementById('error').style.display = 'block';\n                turnstile.reset();\n            });\n    }\n</script>\n\n\n</body>\n</html>",
+      "url": "https://nickfinder.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Captcha</title>\n\n    <script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>\n    <style>\n        * {\n            box-sizing: border-box;\n        }\n        body {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            margin: 0;\n            padding: 16px;\n            padding-top: 60px;\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n            font-size: 16px;\n            line-height: 1.5;\n            background: #ecf0f5;\n            color: #354861;\n        }\n        .main-header {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            min-width: 100%;\n            height: 44px;\n            max-height: 100px;\n            z-index: 1030;\n            background-color: #354861;\n            background-image: url(https://nickfinder.com/assets2/img/top_line_1.png);\n            background-position: 50% 50%;\n            background-repeat: repeat;\n            box-sizing: border-box;\n            overflow: hidden;\n        }\n        .main-header .logo {\n            display: block;\n            float: left;\n            height: 44px;\n            padding: 0 15px 0 10px;\n            line-height: 44px;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            font-size: 26px;\n            font-weight: 300;\n            color: #fff;\n            width: 100%;\n            max-width: 230px;\n            text-align: center;\n            box-sizing: border-box;\n        }\n        @media (min-width: 400px) {\n            .main-header .logo {\n                text-align: left;\n            }\n        }\n        .page-wrap {\n            width: 100%;\n            max-width: 420px;\n        }\n        .container {\n            text-align: center;\n            padding: clamp(20px, 5vw, 32px);\n            background: #fff;\n            border-radius: 12px;\n            box-shadow: 0 4px 24px rgba(53, 72, 97, 0.08), 0 1px 3px rgba(53, 72, 97, 0.06);\n            border: 1px solid #ebe9f5;\n        }\n        .container h2 {\n            margin: 0 0 1.25em;\n            font-size: clamp(1.125rem, 2.5vw, 1.375rem);\n            font-weight: 600;\n            color: #354861;\n        }\n        .cf-turnstile-wrap {\n            display: flex;\n            justify-content: center;\n            margin-bottom: 1em;\n            min-height: 65px;\n        }\n        .cf-turnstile {\n            margin: 0 auto;\n        }\n        .error {\n            margin: 0;\n            padding: 10px 12px;\n            font-size: 0.9375rem;\n            color: #b91c1c;\n            background: #fef2f2;\n            border-radius: 8px;\n            border: 1px solid #fecaca;\n            display: none;\n        }\n        @media (max-width: 380px) {\n            body {\n                padding: 12px;\n            }\n            .container {\n                padding: 16px;\n            }\n        }\n    </style>\n\n</head>\n<body>\n\n<header class=\"main-header\">\n    <span class=\"logo\">\n        <span class=\"logo-lg\">Nickfinder.com</span>\n    </span>\n</header>\n\n<div class=\"page-wrap\">\n    <div class=\"container\">\n        <h2>Please verify you are not a bot</h2>\n        <div class=\"cf-turnstile-wrap\">\n            <div class=\"cf-turnstile\" data-sitekey=\"0x4AAAAAABdRngFQXjavGSrf\" data-callback=\"onCaptchaSuccess\" data-error-callback=\"onCaptchaError\"></div>\n        </div>\n        <p id=\"error\" class=\"error\">Verification failed. Please try again.</p>\n    </div>\n</div>\n\n<script>\n    function onCaptchaError(code) {\n        try {\n            (new Image()).src = '/lowlevelerrorlogger.php?e=cft_' + encodeURIComponent(code || 'unknown');\n        } catch (e) {}\n        return true; // handled: no \"Uncaught TurnstileError\" in console, widget shows its own failure UI\n    }\n    function onCaptchaSuccess(token) {\n        fetch('/', {\n            method: 'POST',\n            headers: {\n                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',\n            },\n            body: new URLSearchParams({\n                cf_captcha_token: token\n            }),\n        })\n            .then(response => response.json())\n            .then(data => {\n                if (data.success) {\n                    window.location.reload();\n                } else {\n                    document.getElementById('error').style.display = 'block';\n                    turnstile.reset();\n                }\n            })\n            .catch(error => {\n                console.error('Error:', error);\n                document.getElementById('error').style.display = 'block';\n                turnstile.reset();\n            });\n    }\n</script>\n\n\n</body>\n</html>",
+      "url": "https://nickfinder.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Captcha</title>\n\n    <script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>\n    <style>\n        * {\n            box-sizing: border-box;\n        }\n        body {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            margin: 0;\n            padding: 16px;\n            padding-top: 60px;\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n            font-size: 16px;\n            line-height: 1.5;\n            background: #ecf0f5;\n            color: #354861;\n        }\n        .main-header {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            min-width: 100%;\n            height: 44px;\n            max-height: 100px;\n            z-index: 1030;\n            background-color: #354861;\n            background-image: url(https://nickfinder.com/assets2/img/top_line_1.png);\n            background-position: 50% 50%;\n            background-repeat: repeat;\n            box-sizing: border-box;\n            overflow: hidden;\n        }\n        .main-header .logo {\n            display: block;\n            float: left;\n            height: 44px;\n            padding: 0 15px 0 10px;\n            line-height: 44px;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            font-size: 26px;\n            font-weight: 300;\n            color: #fff;\n            width: 100%;\n            max-width: 230px;\n            text-align: center;\n            box-sizing: border-box;\n        }\n        @media (min-width: 400px) {\n            .main-header .logo {\n                text-align: left;\n            }\n        }\n        .page-wrap {\n            width: 100%;\n            max-width: 420px;\n        }\n        .container {\n            text-align: center;\n            padding: clamp(20px, 5vw, 32px);\n            background: #fff;\n            border-radius: 12px;\n            box-shadow: 0 4px 24px rgba(53, 72, 97, 0.08), 0 1px 3px rgba(53, 72, 97, 0.06);\n            border: 1px solid #ebe9f5;\n        }\n        .container h2 {\n            margin: 0 0 1.25em;\n            font-size: clamp(1.125rem, 2.5vw, 1.375rem);\n            font-weight: 600;\n            color: #354861;\n        }\n        .cf-turnstile-wrap {\n            display: flex;\n            justify-content: center;\n            margin-bottom: 1em;\n            min-height: 65px;\n        }\n        .cf-turnstile {\n            margin: 0 auto;\n        }\n        .error {\n            margin: 0;\n            padding: 10px 12px;\n            font-size: 0.9375rem;\n            color: #b91c1c;\n            background: #fef2f2;\n            border-radius: 8px;\n            border: 1px solid #fecaca;\n            display: none;\n        }\n        @media (max-width: 380px) {\n            body {\n                padding: 12px;\n            }\n            .container {\n                padding: 16px;\n            }\n        }\n    </style>\n\n</head>\n<body>\n\n<header class=\"main-header\">\n    <span class=\"logo\">\n        <span class=\"logo-lg\">Nickfinder.com</span>\n    </span>\n</header>\n\n<div class=\"page-wrap\">\n    <div class=\"container\">\n        <h2>Please verify you are not a bot</h2>\n        <div class=\"cf-turnstile-wrap\">\n            <div class=\"cf-turnstile\" data-sitekey=\"0x4AAAAAABdRngFQXjavGSrf\" data-callback=\"onCaptchaSuccess\" data-error-callback=\"onCaptchaError\"></div>\n        </div>\n        <p id=\"error\" class=\"error\">Verification failed. Please try again.</p>\n    </div>\n</div>\n\n<script>\n    function onCaptchaError(code) {\n        try {\n            (new Image()).src = '/lowlevelerrorlogger.php?e=cft_' + encodeURIComponent(code || 'unknown');\n        } catch (e) {}\n        return true; // handled: no \"Uncaught TurnstileError\" in console, widget shows its own failure UI\n    }\n    function onCaptchaSuccess(token) {\n        fetch('/', {\n            method: 'POST',\n            headers: {\n                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',\n            },\n            body: new URLSearchParams({\n                cf_captcha_token: token\n            }),\n        })\n            .then(response => response.json())\n            .then(data => {\n                if (data.success) {\n                    window.location.reload();\n                } else {\n                    document.getElementById('error').style.display = 'block';\n                    turnstile.reset();\n                }\n            })\n            .catch(error => {\n                console.error('Error:', error);\n                document.getElementById('error').style.display = 'block';\n                turnstile.reset();\n            });\n    }\n</script>\n\n\n</body>\n</html>",
+      "url": "https://nickfinder.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Captcha</title>\n\n    <script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>\n    <style>\n        * {\n            box-sizing: border-box;\n        }\n        body {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            margin: 0;\n            padding: 16px;\n            padding-top: 60px;\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n            font-size: 16px;\n            line-height: 1.5;\n            background: #ecf0f5;\n            color: #354861;\n        }\n        .main-header {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            min-width: 100%;\n            height: 44px;\n            max-height: 100px;\n            z-index: 1030;\n            background-color: #354861;\n            background-image: url(https://nickfinder.com/assets2/img/top_line_1.png);\n            background-position: 50% 50%;\n            background-repeat: repeat;\n            box-sizing: border-box;\n            overflow: hidden;\n        }\n        .main-header .logo {\n            display: block;\n            float: left;\n            height: 44px;\n            padding: 0 15px 0 10px;\n            line-height: 44px;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            font-size: 26px;\n            font-weight: 300;\n            color: #fff;\n            width: 100%;\n            max-width: 230px;\n            text-align: center;\n            box-sizing: border-box;\n        }\n        @media (min-width: 400px) {\n            .main-header .logo {\n                text-align: left;\n            }\n        }\n        .page-wrap {\n            width: 100%;\n            max-width: 420px;\n        }\n        .container {\n            text-align: center;\n            padding: clamp(20px, 5vw, 32px);\n            background: #fff;\n            border-radius: 12px;\n            box-shadow: 0 4px 24px rgba(53, 72, 97, 0.08), 0 1px 3px rgba(53, 72, 97, 0.06);\n            border: 1px solid #ebe9f5;\n        }\n        .container h2 {\n            margin: 0 0 1.25em;\n            font-size: clamp(1.125rem, 2.5vw, 1.375rem);\n            font-weight: 600;\n            color: #354861;\n        }\n        .cf-turnstile-wrap {\n            display: flex;\n            justify-content: center;\n            margin-bottom: 1em;\n            min-height: 65px;\n        }\n        .cf-turnstile {\n            margin: 0 auto;\n        }\n        .error {\n            margin: 0;\n            padding: 10px 12px;\n            font-size: 0.9375rem;\n            color: #b91c1c;\n            background: #fef2f2;\n            border-radius: 8px;\n            border: 1px solid #fecaca;\n            display: none;\n        }\n        @media (max-width: 380px) {\n            body {\n                padding: 12px;\n            }\n            .container {\n                padding: 16px;\n            }\n        }\n    </style>\n\n</head>\n<body>\n\n<header class=\"main-header\">\n    <span class=\"logo\">\n        <span class=\"logo-lg\">Nickfinder.com</span>\n    </span>\n</header>\n\n<div class=\"page-wrap\">\n    <div class=\"container\">\n        <h2>Please verify you are not a bot</h2>\n        <div class=\"cf-turnstile-wrap\">\n            <div class=\"cf-turnstile\" data-sitekey=\"0x4AAAAAABdRngFQXjavGSrf\" data-callback=\"onCaptchaSuccess\" data-error-callback=\"onCaptchaError\"></div>\n        </div>\n        <p id=\"error\" class=\"error\">Verification failed. Please try again.</p>\n    </div>\n</div>\n\n<script>\n    function onCaptchaError(code) {\n        try {\n            (new Image()).src = '/lowlevelerrorlogger.php?e=cft_' + encodeURIComponent(code || 'unknown');\n        } catch (e) {}\n        return true; // handled: no \"Uncaught TurnstileError\" in console, widget shows its own failure UI\n    }\n    function onCaptchaSuccess(token) {\n        fetch('/', {\n            method: 'POST',\n            headers: {\n                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',\n            },\n            body: new URLSearchParams({\n                cf_captcha_token: token\n            }),\n        })\n            .then(response => response.json())\n            .then(data => {\n                if (data.success) {\n                    window.location.reload();\n                } else {\n                    document.getElementById('error').style.display = 'block';\n                    turnstile.reset();\n                }\n            })\n            .catch(error => {\n                console.error('Error:', error);\n                document.getElementById('error').style.display = 'block';\n                turnstile.reset();\n            });\n    }\n</script>\n\n\n</body>\n</html>",
+      "url": "https://nickfinder.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Captcha</title>\n\n    <script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>\n    <style>\n        * {\n            box-sizing: border-box;\n        }\n        body {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            margin: 0;\n            padding: 16px;\n            padding-top: 60px;\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n            font-size: 16px;\n            line-height: 1.5;\n            background: #ecf0f5;\n            color: #354861;\n        }\n        .main-header {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            min-width: 100%;\n            height: 44px;\n            max-height: 100px;\n            z-index: 1030;\n            background-color: #354861;\n            background-image: url(https://nickfinder.com/assets2/img/top_line_1.png);\n            background-position: 50% 50%;\n            background-repeat: repeat;\n            box-sizing: border-box;\n            overflow: hidden;\n        }\n        .main-header .logo {\n            display: block;\n            float: left;\n            height: 44px;\n            padding: 0 15px 0 10px;\n            line-height: 44px;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            font-size: 26px;\n            font-weight: 300;\n            color: #fff;\n            width: 100%;\n            max-width: 230px;\n            text-align: center;\n            box-sizing: border-box;\n        }\n        @media (min-width: 400px) {\n            .main-header .logo {\n                text-align: left;\n            }\n        }\n        .page-wrap {\n            width: 100%;\n            max-width: 420px;\n        }\n        .container {\n            text-align: center;\n            padding: clamp(20px, 5vw, 32px);\n            background: #fff;\n            border-radius: 12px;\n            box-shadow: 0 4px 24px rgba(53, 72, 97, 0.08), 0 1px 3px rgba(53, 72, 97, 0.06);\n            border: 1px solid #ebe9f5;\n        }\n        .container h2 {\n            margin: 0 0 1.25em;\n            font-size: clamp(1.125rem, 2.5vw, 1.375rem);\n            font-weight: 600;\n            color: #354861;\n        }\n        .cf-turnstile-wrap {\n            display: flex;\n            justify-content: center;\n            margin-bottom: 1em;\n            min-height: 65px;\n        }\n        .cf-turnstile {\n            margin: 0 auto;\n        }\n        .error {\n            margin: 0;\n            padding: 10px 12px;\n            font-size: 0.9375rem;\n            color: #b91c1c;\n            background: #fef2f2;\n            border-radius: 8px;\n            border: 1px solid #fecaca;\n            display: none;\n        }\n        @media (max-width: 380px) {\n            body {\n                padding: 12px;\n            }\n            .container {\n                padding: 16px;\n            }\n        }\n    </style>\n\n</head>\n<body>\n\n<header class=\"main-header\">\n    <span class=\"logo\">\n        <span class=\"logo-lg\">Nickfinder.com</span>\n    </span>\n</header>\n\n<div class=\"page-wrap\">\n    <div class=\"container\">\n        <h2>Please verify you are not a bot</h2>\n        <div class=\"cf-turnstile-wrap\">\n            <div class=\"cf-turnstile\" data-sitekey=\"0x4AAAAAABdRngFQXjavGSrf\" data-callback=\"onCaptchaSuccess\" data-error-callback=\"onCaptchaError\"></div>\n        </div>\n        <p id=\"error\" class=\"error\">Verification failed. Please try again.</p>\n    </div>\n</div>\n\n<script>\n    function onCaptchaError(code) {\n        try {\n            (new Image()).src = '/lowlevelerrorlogger.php?e=cft_' + encodeURIComponent(code || 'unknown');\n        } catch (e) {}\n        return true; // handled: no \"Uncaught TurnstileError\" in console, widget shows its own failure UI\n    }\n    function onCaptchaSuccess(token) {\n        fetch('/', {\n            method: 'POST',\n            headers: {\n                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',\n            },\n            body: new URLSearchParams({\n                cf_captcha_token: token\n            }),\n        })\n            .then(response => response.json())\n            .then(data => {\n                if (data.success) {\n                    window.location.reload();\n                } else {\n                    document.getElementById('error').style.display = 'block';\n                    turnstile.reset();\n                }\n            })\n            .catch(error => {\n                console.error('Error:', error);\n                document.getElementById('error').style.display = 'block';\n                turnstile.reset();\n            });\n    }\n</script>\n\n\n</body>\n</html>",
+      "url": "https://nickfinder.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://nickfinder.com/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Captcha</title>\n\n    <script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>\n    <style>\n        * {\n            box-sizing: border-box;\n        }\n        body {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            margin: 0;\n            padding: 16px;\n            padding-top: 60px;\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n            font-size: 16px;\n            line-height: 1.5;\n            background: #ecf0f5;\n            color: #354861;\n        }\n        .main-header {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            min-width: 100%;\n            height: 44px;\n            max-height: 100px;\n            z-index: 1030;\n            background-color: #354861;\n            background-image: url(https://nickfinder.com/assets2/img/top_line_1.png);\n            background-position: 50% 50%;\n            background-repeat: repeat;\n            box-sizing: border-box;\n            overflow: hidden;\n        }\n        .main-header .logo {\n            display: block;\n            float: left;\n            height: 44px;\n            padding: 0 15px 0 10px;\n            line-height: 44px;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            font-size: 26px;\n            font-weight: 300;\n            color: #fff;\n            width: 100%;\n            max-width: 230px;\n            text-align: center;\n            box-sizing: border-box;\n        }\n        @media (min-width: 400px) {\n            .main-header .logo {\n                text-align: left;\n            }\n        }\n        .page-wrap {\n            width: 100%;\n            max-width: 420px;\n        }\n        .container {\n            text-align: center;\n            padding: clamp(20px, 5vw, 32px);\n            background: #fff;\n            border-radius: 12px;\n            box-shadow: 0 4px 24px rgba(53, 72, 97, 0.08), 0 1px 3px rgba(53, 72, 97, 0.06);\n            border: 1px solid #ebe9f5;\n        }\n        .container h2 {\n            margin: 0 0 1.25em;\n            font-size: clamp(1.125rem, 2.5vw, 1.375rem);\n            font-weight: 600;\n            color: #354861;\n        }\n        .cf-turnstile-wrap {\n            display: flex;\n            justify-content: center;\n            margin-bottom: 1em;\n            min-height: 65px;\n        }\n        .cf-turnstile {\n            margin: 0 auto;\n        }\n        .error {\n            margin: 0;\n            padding: 10px 12px;\n            font-size: 0.9375rem;\n            color: #b91c1c;\n            background: #fef2f2;\n            border-radius: 8px;\n            border: 1px solid #fecaca;\n            display: none;\n        }\n        @media (max-width: 380px) {\n            body {\n                padding: 12px;\n            }\n            .container {\n                padding: 16px;\n            }\n        }\n    </style>\n\n</head>\n<body>\n\n<header class=\"main-header\">\n    <span class=\"logo\">\n        <span class=\"logo-lg\">Nickfinder.com</span>\n    </span>\n</header>\n\n<div class=\"page-wrap\">\n    <div class=\"container\">\n        <h2>Please verify you are not a bot</h2>\n        <div class=\"cf-turnstile-wrap\">\n            <div class=\"cf-turnstile\" data-sitekey=\"0x4AAAAAABdRngFQXjavGSrf\" data-callback=\"onCaptchaSuccess\" data-error-callback=\"onCaptchaError\"></div>\n        </div>\n        <p id=\"error\" class=\"error\">Verification failed. Please try again.</p>\n    </div>\n</div>\n\n<script>\n    function onCaptchaError(code) {\n        try {\n            (new Image()).src = '/lowlevelerrorlogger.php?e=cft_' + encodeURIComponent(code || 'unknown');\n        } catch (e) {}\n        return true; // handled: no \"Uncaught TurnstileError\" in console, widget shows its own failure UI\n    }\n    function onCaptchaSuccess(token) {\n        fetch('/', {\n            method: 'POST',\n            headers: {\n                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',\n            },\n            body: new URLSearchParams({\n                cf_captcha_token: token\n            }),\n        })\n            .then(response => response.json())\n            .then(data => {\n                if (data.success) {\n                    window.location.reload();\n                } else {\n                    document.getElementById('error').style.display = 'block';\n                    turnstile.reset();\n                }\n            })\n            .catch(error => {\n                console.error('Error:', error);\n                document.getElementById('error').style.display = 'block';\n                turnstile.reset();\n            });\n    }\n</script>\n\n\n</body>\n</html>",
+      "url": "https://nickfinder.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "nickfinder.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-17T03:29:28.401Z",
+    "score": 53,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17.75,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1.75,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 1/4; no h1; html[lang] present; body text 14 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Captcha\"; missing/too-short meta description; no date signal; body text 14 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 13,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "llms.txt references an API; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://nickfinder.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1.75,
+      "l2.sitemap": 3,
+      "l2.content-signals": 1,
+      "l3.public-api": 5,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

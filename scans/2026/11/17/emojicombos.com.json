@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "emojicombos.com",
+    "fetchedAt": "2026-11-17T03:22:26.090Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\n",
+      "url": "https://emojicombos.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "Not found. Error code: 74639201 <script>if(localStorage.loginKey) window.location.href='/not-found';</script>",
+      "url": "https://emojicombos.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "Not found. Error code: 74639201 <script>if(localStorage.loginKey) window.location.href='/not-found';</script>",
+      "url": "https://emojicombos.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Emoji Combos</title>\n    <meta name=\"description\" content=\"A database of emoji combinations!\">\n    <link id=\"favicon\" rel=\"icon\" href=\"/heavy-plus-sign_2795.png\" type=\"image/png\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"color-scheme\" content=\"dark light\">\n    <link rel=\"manifest\" href=\"/manifest.json\">\n    <meta name=\"google-site-verification\" content=\"fjuFeuO7m57BWASe6a-YYfWjT_fMBez1GUhQ4vk4ulI\" />\n    <!-- <script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3263838347296949\" crossorigin=\"anonymous\"></script> -->\n  </head>\n  <body>\n    <link href=\"https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap\" rel=\"stylesheet\">\n    <style>\n      :root {\n        --default-box-shadow:0 1px 1px rgba(0, 0, 0, 0.11);\n        --default-border-radius:2px;\n      }\n      html {\n        box-sizing: border-box;\n        font-family: 'Roboto', sans-serif;\n        color: #222;\n      }\n      *, *:before, *:after {\n        box-sizing: inherit;\n        font-family: inherit;\n      }\n      body {\n        background: #efefef;\n      }\n      .related-topics-list {\n        display:flex;\n        flex-wrap: wrap;\n        justify-content: space-between;\n      }\n      .related-topics-list::after {\n        content: \"\";\n        flex: auto;\n      }\n      .related-topics-list > div {\n        margin: 0.25rem;\n        background: white;\n        box-shadow: var(--default-box-shadow);\n        border-radius: var(--default-border-radius);\n        padding: 0.25rem;\n      }\n      .related-topics-area {\n        max-width:800px;\n        margin:0 auto;\n        margin-bottom:1rem;\n      }\n      .related-topics-area a {\n        color: black;\n        text-decoration: none;\n      }\n\n      .box-module {\n        box-shadow: 0px 1px 1px #b4b4b4;\n        background: white;\n      }\n\n      @media (prefers-color-scheme: dark) {\n        html {\n          color: #d8d8d8;\n        }\n        body {\n          background:#000000;\n        }\n        .box-module {\n          box-shadow: 0px 1px 1px #4c4c4c;\n          background: #353535;\n        }\n      }\n      @media all and (display-mode: standalone) {\n        #titleEl { display:none; }\n        #introEl { display:none; }\n      }\n    </style>\n    \n    <h1 id=\"titleEl\" style=\"text-align: center;\">Emoji Combos<sup style=\"font-weight: normal; opacity: 0.5;\">beta</sup></h1>\n    \n    <p id=\"introEl\" style=\"max-width: 400px; margin: 0 auto; text-align: justify;\">Welcome to Emoji Combos! The database and this site are still being constructed, but in the mean time you can use the search box below. You might also like to check out our <a href=\"/dot-art-generator\">image to dot art generator</a>, our <a href=\"/dot-art-editor\">dot art maker</a>, our <a href=\"/emoji-art-editor\">emoji art maker</a>, and this <a href=\"https://perchance.org/ai-chat\">AI Chat</a>.</p>\n    \n    <!-- <div style=\"display: flex; margin: 1rem; justify-content: center;\">\n      <input id=\"searchInputEl\" placeholder=\"fruits and vegetables\" onkeyup=\"if(event.which === 13) searchButtonEl.click()\"/><button id=\"searchButtonEl\" onclick=\"if(searchInputEl.value.trim()) window.location.href=`/${searchInputEl.value.toLowerCase().replace(/\\s+/g,'-')}-emojis`\">search</button>\n    </div> -->\n\n    <div class=\"box-module\" style=\"max-width: 700px;margin: 1rem auto;padding:0.25rem;border-radius: 3px;box-sizing: border-box;   font-size: 130%;\">\n      <div style=\"display:flex;\">\n        <div style=\"display:flex; flex-direction:column; flex-grow:1;\">\n        <div style=\"height:100%;\"><input id=\"emojiSearchEl\" autocapitalize=\"off\" autocorrect=\"off\" placeholder=\"Search for emojis...\" style=\"width: 100%; font-size: 120%; height: 100%; box-sizing: border-box;\" onkeydown=\"if(event.which === 13) {searchForEmojis(emojiSearchEl.value)}\"></div>\n        </div>\n        <button style=\"min-width:5rem; margin-left:0.25rem;\" onclick=\"searchForEmojis(emojiSearchEl.value)\" id=\"emojiSearchButton\">🔍 search</button>\n      </div>\n    </div>\n    <script>\n    async function searchForEmojis(keyphrase) {\n      if(keyphrase) {\n        emojiSearchButton.textContent = \"⌛ loading…\";\n        fetch(`https://emojicombos.com/api/search?keyphrase=${encodeURIComponent(keyphrase)}`).then(r => r.text()).then(url => window.location.href=url);\n      }\n    }\n    </script>\n    \n    \n    <!-- <div class=\"related-topics-area\" style=\"margin-top: 1rem;\">\n      <div class=\"related-topics-list\"></div>\n    </div> -->\n\n    <div style=\"margin: 0 auto;width:400px; max-width:90vw; margin-top: 3rem;color: grey;font-size: 80%;\">If you'd like to report a bug or suggest a feature, you can <a style=\"color:inherit;\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSfdBn1bZTEhodqtWWdtu75GJkmmjNMtJ2_2hX2UajPMPMmnzQ/viewform?usp=sf_link\" target=\"_blank\">provide feedback here</a>. You can also read our <a style=\"color:inherit;\" href=\"/privacy.html\" rel=\"nofollow\" target=\"_blank\">privacy policy</a>.</div>\n      \n    \n    <!-- Global site tag (gtag.js) - Google Analytics -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-WF5V0J3NPY\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n\n      gtag('config', 'G-WF5V0J3NPY');\n    </script>\n\n\n\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"b2a24a8737c948ef83556434bedb6c30\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://emojicombos.com/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "Not found. Error code: 74639201 <script>if(localStorage.loginKey) window.location.href='/not-found';</script>",
+      "url": "https://emojicombos.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "Not found. Error code: 74639201 <script>if(localStorage.loginKey) window.location.href='/not-found';</script>",
+      "url": "https://emojicombos.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "Not found. Error code: 74639201 <script>if(localStorage.loginKey) window.location.href='/not-found';</script>",
+      "url": "https://emojicombos.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "emojicombos.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-17T03:22:26.090Z",
+    "score": 23,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 16.75,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 6.75,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 6,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 4,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 86 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Emoji Combos\"; meta description 33 chars (short); no date signal; body text 86 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 6.75,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 4,
+      "l2.sitemap": 0,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

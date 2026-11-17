@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "crushblocks.com",
+    "fetchedAt": "2026-11-17T02:58:08.368Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <base href=\"/\" />\n    <!-- <link rel=\"icon\" type=\"image/svg+xml\" href=\"/src/assets/WebOutput/HungryStudioLogo48.png\" />\n    <meta name=\"facebook-domain-verification\" content=\"6bc9qxb3s2mw1vi32whgtnl58ylv4k\"> -->\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover\" />\n    <title>Wonderful Studio</title>\n    <script type=\"module\" crossorigin src=\"/assets/index.b4fe1b9c.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index.ef5b46f0.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <script>\n      (function () {\n        var html = document.documentElement;\n        function getScrollbarWidth() {\n          let scrollDiv = document.createElement('div');\n          scrollDiv.style.cssText =\n            'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';\n          document.body.appendChild(scrollDiv);\n          let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;\n          document.body.removeChild(scrollDiv);\n          return scrollbarWidth;\n        }\n        //获取DPI\n        function getPixelRatio() {\n          let ctx = document.createElement('canvas').getContext('2d');\n          let dpr = window.devicePixelRatio || 1;\n          let bsr =\n            ctx.webkitBackingStorePixelRatio ||\n            ctx.mozBackingStorePixelRatio ||\n            ctx.msBackingStorePixelRatio ||\n            ctx.oBackingStorePixelRatio ||\n            ctx.backingStorePixelRatio ||\n            1;\n          return dpr / bsr;\n        }\n        let widthWindow = window.innerWidth - getScrollbarWidth();\n        function onWindowResize() {\n          widthWindow = window.innerWidth - getScrollbarWidth();\n          try {\n            if (widthWindow >= 1000 || widthWindow <= 560) {\n              html.style.fontSize = widthWindow / 20 + 'px';\n            } else {\n              html.style.fontSize = 1000 / 20 + 'px';\n            }\n          } catch (e) {\n            html.style.fontSize = widthWindow + 'px';\n          }\n        }\n        // Only initialize here; flexible.js handles subsequent viewport changes.\n        onWindowResize();\n\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchmove', function (e) {\n          if (e._isScroller) return;\n          if (e.scale !== 1) {\n            e.preventDefault();\n          }\n        });\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchstart', function (e) {\n          e._isScroller = true;\n        });\n        document.body.addEventListener('touchend', function (e) {\n          e._isScroller = false;\n        });\n        document.body.addEventListener('touchcancel', function (e) {\n          e._isScroller = false;\n        });\n      })();\n    </script>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"/assets/polyfills-legacy.5fcb6679.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"/assets/index-legacy.964d7cb6.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>\n",
+      "url": "https://crushblocks.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <base href=\"/\" />\n    <!-- <link rel=\"icon\" type=\"image/svg+xml\" href=\"/src/assets/WebOutput/HungryStudioLogo48.png\" />\n    <meta name=\"facebook-domain-verification\" content=\"6bc9qxb3s2mw1vi32whgtnl58ylv4k\"> -->\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover\" />\n    <title>Wonderful Studio</title>\n    <script type=\"module\" crossorigin src=\"/assets/index.b4fe1b9c.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index.ef5b46f0.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <script>\n      (function () {\n        var html = document.documentElement;\n        function getScrollbarWidth() {\n          let scrollDiv = document.createElement('div');\n          scrollDiv.style.cssText =\n            'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';\n          document.body.appendChild(scrollDiv);\n          let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;\n          document.body.removeChild(scrollDiv);\n          return scrollbarWidth;\n        }\n        //获取DPI\n        function getPixelRatio() {\n          let ctx = document.createElement('canvas').getContext('2d');\n          let dpr = window.devicePixelRatio || 1;\n          let bsr =\n            ctx.webkitBackingStorePixelRatio ||\n            ctx.mozBackingStorePixelRatio ||\n            ctx.msBackingStorePixelRatio ||\n            ctx.oBackingStorePixelRatio ||\n            ctx.backingStorePixelRatio ||\n            1;\n          return dpr / bsr;\n        }\n        let widthWindow = window.innerWidth - getScrollbarWidth();\n        function onWindowResize() {\n          widthWindow = window.innerWidth - getScrollbarWidth();\n          try {\n            if (widthWindow >= 1000 || widthWindow <= 560) {\n              html.style.fontSize = widthWindow / 20 + 'px';\n            } else {\n              html.style.fontSize = 1000 / 20 + 'px';\n            }\n          } catch (e) {\n            html.style.fontSize = widthWindow + 'px';\n          }\n        }\n        // Only initialize here; flexible.js handles subsequent viewport changes.\n        onWindowResize();\n\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchmove', function (e) {\n          if (e._isScroller) return;\n          if (e.scale !== 1) {\n            e.preventDefault();\n          }\n        });\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchstart', function (e) {\n          e._isScroller = true;\n        });\n        document.body.addEventListener('touchend', function (e) {\n          e._isScroller = false;\n        });\n        document.body.addEventListener('touchcancel', function (e) {\n          e._isScroller = false;\n        });\n      })();\n    </script>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"/assets/polyfills-legacy.5fcb6679.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"/assets/index-legacy.964d7cb6.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>\n",
+      "url": "https://crushblocks.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <base href=\"/\" />\n    <!-- <link rel=\"icon\" type=\"image/svg+xml\" href=\"/src/assets/WebOutput/HungryStudioLogo48.png\" />\n    <meta name=\"facebook-domain-verification\" content=\"6bc9qxb3s2mw1vi32whgtnl58ylv4k\"> -->\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover\" />\n    <title>Wonderful Studio</title>\n    <script type=\"module\" crossorigin src=\"/assets/index.b4fe1b9c.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index.ef5b46f0.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <script>\n      (function () {\n        var html = document.documentElement;\n        function getScrollbarWidth() {\n          let scrollDiv = document.createElement('div');\n          scrollDiv.style.cssText =\n            'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';\n          document.body.appendChild(scrollDiv);\n          let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;\n          document.body.removeChild(scrollDiv);\n          return scrollbarWidth;\n        }\n        //获取DPI\n        function getPixelRatio() {\n          let ctx = document.createElement('canvas').getContext('2d');\n          let dpr = window.devicePixelRatio || 1;\n          let bsr =\n            ctx.webkitBackingStorePixelRatio ||\n            ctx.mozBackingStorePixelRatio ||\n            ctx.msBackingStorePixelRatio ||\n            ctx.oBackingStorePixelRatio ||\n            ctx.backingStorePixelRatio ||\n            1;\n          return dpr / bsr;\n        }\n        let widthWindow = window.innerWidth - getScrollbarWidth();\n        function onWindowResize() {\n          widthWindow = window.innerWidth - getScrollbarWidth();\n          try {\n            if (widthWindow >= 1000 || widthWindow <= 560) {\n              html.style.fontSize = widthWindow / 20 + 'px';\n            } else {\n              html.style.fontSize = 1000 / 20 + 'px';\n            }\n          } catch (e) {\n            html.style.fontSize = widthWindow + 'px';\n          }\n        }\n        // Only initialize here; flexible.js handles subsequent viewport changes.\n        onWindowResize();\n\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchmove', function (e) {\n          if (e._isScroller) return;\n          if (e.scale !== 1) {\n            e.preventDefault();\n          }\n        });\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchstart', function (e) {\n          e._isScroller = true;\n        });\n        document.body.addEventListener('touchend', function (e) {\n          e._isScroller = false;\n        });\n        document.body.addEventListener('touchcancel', function (e) {\n          e._isScroller = false;\n        });\n      })();\n    </script>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"/assets/polyfills-legacy.5fcb6679.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"/assets/index-legacy.964d7cb6.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>\n",
+      "url": "https://crushblocks.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <base href=\"/\" />\n    <!-- <link rel=\"icon\" type=\"image/svg+xml\" href=\"/src/assets/WebOutput/HungryStudioLogo48.png\" />\n    <meta name=\"facebook-domain-verification\" content=\"6bc9qxb3s2mw1vi32whgtnl58ylv4k\"> -->\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover\" />\n    <title>Wonderful Studio</title>\n    <script type=\"module\" crossorigin src=\"/assets/index.b4fe1b9c.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index.ef5b46f0.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <script>\n      (function () {\n        var html = document.documentElement;\n        function getScrollbarWidth() {\n          let scrollDiv = document.createElement('div');\n          scrollDiv.style.cssText =\n            'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';\n          document.body.appendChild(scrollDiv);\n          let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;\n          document.body.removeChild(scrollDiv);\n          return scrollbarWidth;\n        }\n        //获取DPI\n        function getPixelRatio() {\n          let ctx = document.createElement('canvas').getContext('2d');\n          let dpr = window.devicePixelRatio || 1;\n          let bsr =\n            ctx.webkitBackingStorePixelRatio ||\n            ctx.mozBackingStorePixelRatio ||\n            ctx.msBackingStorePixelRatio ||\n            ctx.oBackingStorePixelRatio ||\n            ctx.backingStorePixelRatio ||\n            1;\n          return dpr / bsr;\n        }\n        let widthWindow = window.innerWidth - getScrollbarWidth();\n        function onWindowResize() {\n          widthWindow = window.innerWidth - getScrollbarWidth();\n          try {\n            if (widthWindow >= 1000 || widthWindow <= 560) {\n              html.style.fontSize = widthWindow / 20 + 'px';\n            } else {\n              html.style.fontSize = 1000 / 20 + 'px';\n            }\n          } catch (e) {\n            html.style.fontSize = widthWindow + 'px';\n          }\n        }\n        // Only initialize here; flexible.js handles subsequent viewport changes.\n        onWindowResize();\n\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchmove', function (e) {\n          if (e._isScroller) return;\n          if (e.scale !== 1) {\n            e.preventDefault();\n          }\n        });\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchstart', function (e) {\n          e._isScroller = true;\n        });\n        document.body.addEventListener('touchend', function (e) {\n          e._isScroller = false;\n        });\n        document.body.addEventListener('touchcancel', function (e) {\n          e._isScroller = false;\n        });\n      })();\n    </script>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"/assets/polyfills-legacy.5fcb6679.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"/assets/index-legacy.964d7cb6.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>\n",
+      "url": "https://crushblocks.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <base href=\"/\" />\n    <!-- <link rel=\"icon\" type=\"image/svg+xml\" href=\"/src/assets/WebOutput/HungryStudioLogo48.png\" />\n    <meta name=\"facebook-domain-verification\" content=\"6bc9qxb3s2mw1vi32whgtnl58ylv4k\"> -->\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover\" />\n    <title>Wonderful Studio</title>\n    <script type=\"module\" crossorigin src=\"/assets/index.b4fe1b9c.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index.ef5b46f0.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <script>\n      (function () {\n        var html = document.documentElement;\n        function getScrollbarWidth() {\n          let scrollDiv = document.createElement('div');\n          scrollDiv.style.cssText =\n            'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';\n          document.body.appendChild(scrollDiv);\n          let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;\n          document.body.removeChild(scrollDiv);\n          return scrollbarWidth;\n        }\n        //获取DPI\n        function getPixelRatio() {\n          let ctx = document.createElement('canvas').getContext('2d');\n          let dpr = window.devicePixelRatio || 1;\n          let bsr =\n            ctx.webkitBackingStorePixelRatio ||\n            ctx.mozBackingStorePixelRatio ||\n            ctx.msBackingStorePixelRatio ||\n            ctx.oBackingStorePixelRatio ||\n            ctx.backingStorePixelRatio ||\n            1;\n          return dpr / bsr;\n        }\n        let widthWindow = window.innerWidth - getScrollbarWidth();\n        function onWindowResize() {\n          widthWindow = window.innerWidth - getScrollbarWidth();\n          try {\n            if (widthWindow >= 1000 || widthWindow <= 560) {\n              html.style.fontSize = widthWindow / 20 + 'px';\n            } else {\n              html.style.fontSize = 1000 / 20 + 'px';\n            }\n          } catch (e) {\n            html.style.fontSize = widthWindow + 'px';\n          }\n        }\n        // Only initialize here; flexible.js handles subsequent viewport changes.\n        onWindowResize();\n\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchmove', function (e) {\n          if (e._isScroller) return;\n          if (e.scale !== 1) {\n            e.preventDefault();\n          }\n        });\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchstart', function (e) {\n          e._isScroller = true;\n        });\n        document.body.addEventListener('touchend', function (e) {\n          e._isScroller = false;\n        });\n        document.body.addEventListener('touchcancel', function (e) {\n          e._isScroller = false;\n        });\n      })();\n    </script>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"/assets/polyfills-legacy.5fcb6679.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"/assets/index-legacy.964d7cb6.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>\n",
+      "url": "https://crushblocks.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <base href=\"/\" />\n    <!-- <link rel=\"icon\" type=\"image/svg+xml\" href=\"/src/assets/WebOutput/HungryStudioLogo48.png\" />\n    <meta name=\"facebook-domain-verification\" content=\"6bc9qxb3s2mw1vi32whgtnl58ylv4k\"> -->\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover\" />\n    <title>Wonderful Studio</title>\n    <script type=\"module\" crossorigin src=\"/assets/index.b4fe1b9c.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index.ef5b46f0.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <script>\n      (function () {\n        var html = document.documentElement;\n        function getScrollbarWidth() {\n          let scrollDiv = document.createElement('div');\n          scrollDiv.style.cssText =\n            'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';\n          document.body.appendChild(scrollDiv);\n          let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;\n          document.body.removeChild(scrollDiv);\n          return scrollbarWidth;\n        }\n        //获取DPI\n        function getPixelRatio() {\n          let ctx = document.createElement('canvas').getContext('2d');\n          let dpr = window.devicePixelRatio || 1;\n          let bsr =\n            ctx.webkitBackingStorePixelRatio ||\n            ctx.mozBackingStorePixelRatio ||\n            ctx.msBackingStorePixelRatio ||\n            ctx.oBackingStorePixelRatio ||\n            ctx.backingStorePixelRatio ||\n            1;\n          return dpr / bsr;\n        }\n        let widthWindow = window.innerWidth - getScrollbarWidth();\n        function onWindowResize() {\n          widthWindow = window.innerWidth - getScrollbarWidth();\n          try {\n            if (widthWindow >= 1000 || widthWindow <= 560) {\n              html.style.fontSize = widthWindow / 20 + 'px';\n            } else {\n              html.style.fontSize = 1000 / 20 + 'px';\n            }\n          } catch (e) {\n            html.style.fontSize = widthWindow + 'px';\n          }\n        }\n        // Only initialize here; flexible.js handles subsequent viewport changes.\n        onWindowResize();\n\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchmove', function (e) {\n          if (e._isScroller) return;\n          if (e.scale !== 1) {\n            e.preventDefault();\n          }\n        });\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchstart', function (e) {\n          e._isScroller = true;\n        });\n        document.body.addEventListener('touchend', function (e) {\n          e._isScroller = false;\n        });\n        document.body.addEventListener('touchcancel', function (e) {\n          e._isScroller = false;\n        });\n      })();\n    </script>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"/assets/polyfills-legacy.5fcb6679.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"/assets/index-legacy.964d7cb6.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>\n",
+      "url": "https://crushblocks.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://crushblocks.com/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <base href=\"/\" />\n    <!-- <link rel=\"icon\" type=\"image/svg+xml\" href=\"/src/assets/WebOutput/HungryStudioLogo48.png\" />\n    <meta name=\"facebook-domain-verification\" content=\"6bc9qxb3s2mw1vi32whgtnl58ylv4k\"> -->\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover\" />\n    <title>Wonderful Studio</title>\n    <script type=\"module\" crossorigin src=\"/assets/index.b4fe1b9c.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index.ef5b46f0.css\">\n    <script type=\"module\">try{import.meta.url;import(\"_\").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>\n    <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n  </head>\n  <body>\n    <script>\n      (function () {\n        var html = document.documentElement;\n        function getScrollbarWidth() {\n          let scrollDiv = document.createElement('div');\n          scrollDiv.style.cssText =\n            'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';\n          document.body.appendChild(scrollDiv);\n          let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;\n          document.body.removeChild(scrollDiv);\n          return scrollbarWidth;\n        }\n        //获取DPI\n        function getPixelRatio() {\n          let ctx = document.createElement('canvas').getContext('2d');\n          let dpr = window.devicePixelRatio || 1;\n          let bsr =\n            ctx.webkitBackingStorePixelRatio ||\n            ctx.mozBackingStorePixelRatio ||\n            ctx.msBackingStorePixelRatio ||\n            ctx.oBackingStorePixelRatio ||\n            ctx.backingStorePixelRatio ||\n            1;\n          return dpr / bsr;\n        }\n        let widthWindow = window.innerWidth - getScrollbarWidth();\n        function onWindowResize() {\n          widthWindow = window.innerWidth - getScrollbarWidth();\n          try {\n            if (widthWindow >= 1000 || widthWindow <= 560) {\n              html.style.fontSize = widthWindow / 20 + 'px';\n            } else {\n              html.style.fontSize = 1000 / 20 + 'px';\n            }\n          } catch (e) {\n            html.style.fontSize = widthWindow + 'px';\n          }\n        }\n        // Only initialize here; flexible.js handles subsequent viewport changes.\n        onWindowResize();\n\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchmove', function (e) {\n          if (e._isScroller) return;\n          if (e.scale !== 1) {\n            e.preventDefault();\n          }\n        });\n        // 解决ios下拉出现白色空白\n        document.body.addEventListener('touchstart', function (e) {\n          e._isScroller = true;\n        });\n        document.body.addEventListener('touchend', function (e) {\n          e._isScroller = false;\n        });\n        document.body.addEventListener('touchcancel', function (e) {\n          e._isScroller = false;\n        });\n      })();\n    </script>\n    <div id=\"app\"></div>\n    \n    <script nomodule>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n    <script nomodule crossorigin id=\"vite-legacy-polyfill\" src=\"/assets/polyfills-legacy.5fcb6679.js\"></script>\n    <script nomodule crossorigin id=\"vite-legacy-entry\" data-src=\"/assets/index-legacy.964d7cb6.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n  </body>\n</html>\n",
+      "url": "https://crushblocks.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "crushblocks.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-17T02:58:08.368Z",
+    "score": 47,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 16,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 2 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Wonderful Studio\"; missing/too-short meta description; no date signal; body text 2 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://crushblocks.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 2,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

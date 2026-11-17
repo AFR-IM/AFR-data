@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "hentaiheroes.com",
+    "fetchedAt": "2026-11-17T03:30:02.001Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache Server at hentaiheroes.com Port 80</address>\n</body></html>\n",
+      "url": "https://hentaiheroes.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache Server at hentaiheroes.com Port 80</address>\n</body></html>\n",
+      "url": "https://hentaiheroes.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache Server at hentaiheroes.com Port 80</address>\n</body></html>\n",
+      "url": "https://hentaiheroes.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xmlns:og=\"http://opengraphprotocol.org/schema/\">\n<head>\n\t<title>Hentai Heroes</title>\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, viewport-fit=cover\" />\n\t<meta name=\"apple-mobile-web-app-capable\" content=\"yes\" /><meta name=\"mobile-web-app-capable\" content=\"yes\" />\t<meta name=\"apple-mobile-web-app-title\" content=\"Hentai Heroes\">\n\t<link rel=\"apple-touch-icon\" href=\"https://images.hh-content.com/hentai/pictures/design/logo-apple-touch-icon.png\">\n\t<link rel=\"apple-touch-startup-image\" href=\"https://images.hh-content.com/hentai/pictures/design/logo-screen.png\">\n\t<script type=\"text/javascript\" src=\"https://www.hentaiheroes.com/js/screenfull.js?v=79438236\"></script>\n \t<link href=\"https://hh2.hh-content.com/pictures/design/ic_favicon_32px.png\" rel=\"icon\" type=\"image/png\" />\n\t\t\t<style>\n\t\t\thtml, body { overflow: hidden }\n\t\t\thtml, body {\n\t\t\t\tborder: none;\n\t\t\t\twidth: 100%;\n\t\t\t\theight: 100%;\n\t\t\t\tpadding: 0;\n\t\t\t\tmargin: 0;\n\t\t\t}\n\t\t\tiframe#hh_game {\n\t\t\t\twidth: 100%;\n\t\t\t\theight: 100%;\n\t\t\t\tborder: none;\n\t\t\t\tdisplay: block;\n\t\t\t\tpadding: 0;\n\t\t\t\tmargin: 0;\n\t\t\t}\n\t\t</style>\n\t\t\t\n\t\t<script>\n\twindow.addEventListener(\"message\", function(event) {\n\t\tvar iframe = document.getElementById('hh_game');\n\t\tif (!iframe) {\n\t\t\tconsole.error(\"HH Can't postMessage proxy.\");\n\t\t} else {\n\t\t\tiframe.contentWindow.postMessage(event.data, \"https://www.hentaiheroes.com/\");\n\t\t}\n\t}, false);\n\t</script>\n\n\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link rel=\"preload\" as=\"style\" href=\"//fonts.googleapis.com/css?family=Carter+One|Kalam:700|Mr+Dafoe|Alegreya+Sans:700i|Marck+Script\">\n<link rel=\"stylesheet\" media=\"print\" onload=\"this.onload=null;this.removeAttribute('media');\" href=\"//fonts.googleapis.com/css?family=Carter+One|Kalam:700|Mr+Dafoe|Alegreya+Sans:700i|Marck+Script\">\n<noscript>\n\t<link rel=\"stylesheet\" href=\"//fonts.googleapis.com/css?family=Carter+One|Kalam:700|Mr+Dafoe|Alegreya+Sans:700i|Marck+Script\">\n</noscript>\n\n\t\t\t<script type=\"text/javascript\" src=\"//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js\"></script>\n\n\t<script>\n\t\t// All these variable are also defined in \\Platforms\\NutakuPlatformIntegration::handleGadget()\n\t\tvar IMAGES_URL = 'https://hh2.hh-content.com';\n\t\tvar CHAT_CHANNEL = 'hentai';\n\t\tvar ALLOWED_IFRAME_MESSAGE_TARGET = \"https://www.hentaiheroes.com\";\n\t\tvar GAME_FEATURE_CLUB = true;\n\t\tvar platform_auth = false;\n\t\tvar platform_name = '';\n\n\t\tlet force_rewards_queue = false;\n\t</script>\n\n\t\t\t\n<script type=\"text/javascript\" src=\"https://www.hentaiheroes.com/build/build/club_chat.js?v=79438236\"></script>\n\n\t\n\t\t\t<link rel=\"manifest\" href=\"/images/pictures/misc/pwa/manifest.json\">\n<script type=\"text/javascript\">\n\tlet deffered_event = null;\n\n\tconst is_installed_pwa = window.matchMedia('(display-mode: window-controls-overlay)').matches || window.matchMedia('(display-mode: standalone)').matches;\n\tif(!is_installed_pwa) {\n\t\twindow.addEventListener('beforeinstallprompt', (event) => {\n\t\t\tdeffered_event = event;\n\t\t\tconst iframe = document.querySelector('iframe');\n\t\t\tconst inner_doc = iframe.contentDocument || iframe.contentWindow.document;\n\t\t\tconst install_button = inner_doc.body.querySelector('#pwa_install');\n\t\t\tinstall_button.dataset['redirect'] = false;\n\n\t\t\tinstall_button.addEventListener('click', () => {\n\t\t\t\tdeffered_event.prompt().catch(() => {\n\t\t\t\t\tdocument.location.href = \"/appz\";\n\t\t\t\t})\n\t\t\t})\n\t\t})\n\t}\n\n</script>\n\n\t\t</head>\n<body id=\"hh_hentai\">\n\n\t\t\t<div class=\"chat-absolute-position\" id=\"resize-chat-box\">\n\t<div class=\"chat-wrapper\">\n\t\t<div class=\"chat-container\">\n\n\t\t\t<a class=\"close_cross\">\n\t\t\t\t<img src=\"https://hh2.hh-content.com/clubs/ic_xCross.png\"/>\n\t\t\t</a>\n\n\t\t\t<div class=\"chat_not_in_club\" girls_missing>\n\t\t\t\t<p>You need to acquire more experience to be acknowledged by other heroes. \r\nContinue your journey and find more girls! Come back when you have 15 girls in your Harem!</p>\n\t\t\t\t<p> <span class=\"globalClubs_mix_icn\"></span> </p>\n\t\t\t</div>\n\n\t\t\t<div class=\"chat_not_in_club\" not_club_member>\n\t\t\t\t<p>Create or Join a Club to share your kinky experiences  with other heroes and make it a less lonely adventure!</p>\n\t\t\t\t<p> <span class=\"globalClubs_mix_icn\"></span> </p>\n\t\t\t\t<a class=\"blue_button_L\">Go to Clubs</a>\n\t\t\t</div>\n\n\n\t\t\t<div class=\"chat-active-wrapper\">\n\t\t\t\t<h2>Club Chat</h2>\n\n\t\t\t\t<div class=\"chat-tabs\">\n\t\t\t\t\t<div class=\"tabs-switcher h_container_univ\" id=\"club-chat-tabs\">\n\t\t\t\t\t\t<div id=\"club_members_tab\" class=\"underline-tab switch-tab tab-switcher-fade-in square_blue_btn\" data-tab=\"chat_messages_list\">\n\t\t\t\t\t\t\t<span class=\"chatWhite_flat_icn\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div id=\"upgrades_tab\" class=\"switch-tab tab-switcher-fade-out square_blue_btn\" data-tab=\"chat_members_list\">\n\t\t\t\t\t\t\t<span class=\"clubMember_flat_icn\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"slider\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"club-chat switch-tab-content\" id=\"chat_messages_list\">\n\t\t\t\t\t<div class=\"club-chat-messages-wrapper\">\n\t\t\t\t\t\t<div class=\"club-chat-messages dark_subpanel_box hh-scroll\"></div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"send-block-container\">\n\t\t\t\t\t\t<input class=\"club-chat-input\" maxlength=\"1000\" disabled=\"\">\n\t\t\t\t\t\t<button class=\"club-chat-send\" disabled=\"\">\n\t\t\t\t\t\t\t<span class=\"rightArrow_mix_icn\"></span>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"chat-members-list dark_subpanel_box switch-tab-content hh-scroll\" id=\"chat_members_list\" style=\"display: none;\">\n\t\t\t\t\t<div class=\"online-members\"></div>\n\n\t\t\t\t\t<div class=\"header\">\n\t\t\t\t\t\t<h2 class=\"opacity\">Offline</h2>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"offline-members\"></div>\n\n\t\t\t\t\t<div class=\"header muted-header\">\n\t\t\t\t\t\t<h2>Muted</h2>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"muted-members\"></div>\n\t\t\t\t</div>\n\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\t\n\t<iframe width=\"100%\" height=\"400\" id=\"hh_game\" src=\"/home.html\"></iframe>\n\n\t\n\t\t\n</body>\n</html>\n",
+      "url": "https://www.hentaiheroes.com/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache Server at hentaiheroes.com Port 80</address>\n</body></html>\n",
+      "url": "https://hentaiheroes.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache Server at hentaiheroes.com Port 80</address>\n</body></html>\n",
+      "url": "https://hentaiheroes.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache Server at hentaiheroes.com Port 80</address>\n</body></html>\n",
+      "url": "https://hentaiheroes.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "hentaiheroes.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-17T03:30:02.001Z",
+    "score": 38,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 35,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 25,
+            "max": 25,
+            "status": "pass",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 3,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 2,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 58 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Hentai Heroes\"; missing/too-short meta description; no date signal; body text 58 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 25,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 2,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

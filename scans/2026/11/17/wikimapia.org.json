@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "wikimapia.org",
+    "fetchedAt": "2026-11-17T03:28:57.051Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-Agent: ClaudeBot\nDisallow: /\n\nUser-Agent: GPTBot\nDisallow: /\n\nUser-agent: Claude-SearchBot\nDisallow: /\n\nUser-agent: *\nDisallow: /sys/\nDisallow: /object/\nDisallow: /photo.php\nDisallow: /history.php\nDisallow: /p/u/\nDisallow: /s/\nDisallow: /z1/\nDisallow: /wikij/\nDisallow: /showphoto/\nDisallow: /user/\nDisallow: /ajax/\nDisallow: /guest/\nDisallow: /ads/\nDisallow: /wiki/index.php?*\n\nCrawl-delay: 15\n\n\n",
+      "url": "https://wikimapia.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://wikimapia.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://wikimapia.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"https://www.w3.org/2000/svg\"  xmlns:v=\"urn:schemas-microsoft-com:vml\">\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/>\n<title>Wikimapia - Let's describe the whole world!</title>\n<meta name=\"description\" content=\"Wikimapia is an online editable map - you can describe any place on Earth. Or just surf the map discovering tonns of already marked places.\" />\n<link rel=\"shortcut icon\" href=\"favicon.ico?660\" />\n<meta name=\"google\" value=\"notranslate\" />\n\n<link rel=\"dns-prefetch\" href=\"//maps.googleapis.com\" />\n<link rel=\"dns-prefetch\" href=\"//maps.gstatic.com\" />\n<link rel=\"dns-prefetch\" href=\"//mts0.googleapis.com\" />\n<link rel=\"dns-prefetch\" href=\"//mts1.googleapis.com\" />\n\n<link rel=\"search\" type=\"application/opensearchdescription+xml\" title=\"Wikimapia places\" href=\"https://wikimapia.org/opensearchdescription.xml\" />\n<!-- Google Maps script -->\n<script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAM1xoacjOIxEUyfQfxbJ1zY0KmxbPDJE4\"></script>\n\n<!-- Base classes and utilities -->\n<script type=\"text/javascript\" src=\"\nhttps://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n<!-- Wikimapia settings -->\n<script type=\"text/javascript\">\n(function(settings){\n  for(var key in settings){ this[key] = settings[key]; }\n})({\n      languageIso: \"de\",\n      languagesNative: {\"en\":\"English\",\"fr\":\"Français\",\"co\":\"Corsu\",\"de\":\"Deutsch\"},\n      forceUserLanguage: parseInt('2', 10),\n      stats: { objectsCount: 33052806 },\n      cssJsVersion : 660,\n      yandexMapsAPIkey : 'ANBRVFEBAAAAMWjqDAIA5eNDETex6Dr3NAcge471Uo4LhboAAAAAAAAAAACtmOfInU5-SDBVAiLMN8WO-L6iYA==',\n      bingMapsAPIkey : 'Ak0SDzEKDE50fCHLzaoMkGi3Y_jzmlCLaMNHDChphowf02ZYHdLV3rhtoPlxeffM',\n      wikimapiaTileUrlTemplate : 'http://i{picserver}.wikimapia.org/?x={x}&y={y}&zoom={zoom}&r={random}&type={type}&lng={lng}',\n      facebookParams: {\n        appId: 181571075315633,\n        scope: 'email, user_about_me, publish_actions'\n      },\n      vkontakteParams: { appId: 3948073 },\n      googlePlusParams: { appId: '109481717968938371706' },\n      socketParams: {\n        enable: 0,\n        host: 'http://wikimapia.org' || window.location.host,\n        port: parseInt('8080' || 90)\n      },\n//      cdn: { host: 'http://wikimapia.org' }\n    });\n</script>\n<!--[if IE]>\n  <style type=\"text/css\">\n    #map label { width: auto; display:inline; }\n    #map img { max-width: none; max-height: none; }\n    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {\n      background: #dfdfdf !important;\n      filter: none !important;\n    }\n  </style>\n<![endif]-->\n\n<!-- Packed Wikimapia stylesheets -->\n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"/css/bootstrap.css?660\" />\n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"/css/app.css?660\" />\n\n<script>window.yaContextCb = window.yaContextCb || [] </script> \n<script async src=\"https://yandex.ru/ads/system/context.js\"></script>\n<script async src=\"https://cdn.digitalcaramel.com/caramel.js\"></script>\n\n</head>\n<body class=\"index\">\n    <div id=\"fb-root\"></div>\n    <div id=\"interfaces-dump\">\n      <form id=\"search-form\" class=\"form-search\" name=\"search\" method=\"post\" action=\"/search/\">\n        <input type=\"hidden\" name=\"x\" value=\"\" />\n        <input type=\"hidden\" name=\"y\" value=\"\" />\n        <input type=\"hidden\" name=\"z\" value=\"\" />\n        <input type=\"hidden\" name=\"qu\" value=\"\" />\n        <input type=\"hidden\" name=\"start\" value=\"0\" />\n        <input type=\"hidden\" name=\"jtype\" value=\"\" />\n        <input type=\"hidden\" name=\"try\" value=\"0\" />\n        <div class=\"input-append dropdown\">\n            <input type=\"text\" name=\"q\" id=\"search-input\" size=\"100\" autocomplete=\"off\" />\n            <button type=\"submit\" id=\"search-submit\" class=\"btn btn-small btn-danger\"><i class=\"icon icon-white icon-search\"></i></button>\n        </div>\n      </form>\n      <div id=\"coordtable-wrap\"></div>\n      <div id=\"dmap\">\n          <div class=\"nan\">\n              <a href=\"/about/\" title=\"About Wikimapia\">About Wikimapia</a>,\n              <a href=\"/country/\">All countries</a>,\n              <a href=\"/country/USA/\">USA</a>,\n              <a href=\"/country/Canada/\">Canada</a>,\n              <a href=\"/country/United_Kingdom/\">UK</a>,\n              <a href=\"/country/Australia/\">Australia</a>,\n              <a href=\"/country/New_Zealand/\">New Zealand</a>,\n              <a href=\"/country/Germany/\">Germany</a>,\n              <a href=\"/country/Switzerland/\">Switzerland</a>,\n              <a href=\"/country/Italy/\">Italy</a>,\n              <a href=\"/country/France/\">France</a>,\n              <a href=\"/country/Spain/\">Spain</a>,\n              <a href=\"/country/Russia/\">Russia</a>,\n              <a href=\"/country/India/\">India</a>,\n              <a href=\"/country/Brazil/\">Brazil</a> ...\n              <hr><a href=\"/tags/\">Tags directory</a>,\n              <a href=\"/tags/lastadd/\">Last adds</a>,\n              <a href=\"/tags/moretags1/\">Tags page 2</a>,\n              <a href=\"/tags/moretags2/\">Tags page 3</a>,\n              <a href=\"/tags/moretags3/\">Tags page 4</a>,\n              <a href=\"/tags/moretags4/\">Tags page 5</a>,\n              <a href=\"/tags/moretags5/\">Tags page 6</a>,\n              <a href=\"/tags/moretags6/\">Tags page 7</a>,\n              <a href=\"/tags/moretags7/\">Tags page 8</a>,\n              <a href=\"/tags/moretags8/\">Tags page 9</a>,\n              <a href=\"/tags/moretags9/\">Tags page 10</a> ...\n              <a href=\"https://plus.google.com/109481717968938371706\" id=\"google-plus-connection\" rel=\"publisher\">Google+</a>\n          </div>\n          <div class=\"description\">\n              <noscript>\n                  Wikimapia is an online editable map - you can describe any place on Earth. Or just surf the map discovering tonns of already marked places.<br></noscript><div id=\"loading\" class=\"wikimapia\">Chargement de la carte...</div><noscript><br>We recommend to use a new browser, Firefox is preferrable.\n              </noscript>\n          </div>\n      </div>\n    </div>\n\n    <!-- Packed Wikimapia scripts -->\n    <script src=\"/js/application.js?660\" type=\"text/javascript\"></script>\n    <script type=\"text/javascript\">\n    (function(ns){\n        var params = ns.Utils.extend({\n                                lat : parseFloat('48.86'),\n                lon : parseFloat('2.35'),\n                lang : window.languageIso,\n                localization: {\"sets\":{\"all\":{\"add-place\":\"Ajouter un lieu\",\"menu-map-on-your-page\":\"La&nbsp;carte&nbsp;sur&nbsp;votre&nbsp;page\",\"save-del-marked\":\"Ce lieu est marqu\\u00e9 pour la suppression.\",\"mtype-satellite\":\"Satellite\",\"newmsg\":\"Nouveaux messages (%1)\",\"profile\":\"Profil\",\"restore\":\"Restaurer\",\"putonpage-text\":\"Pour mettre une partie de la carte sur votre site ou blog, d\\u00e9placer\\/modifier le cadre et copier-coller le code ci-dessous dans votre page.\",\"putonpage-text1\":\"Pour mettre un lien vers cette page, copier l'adresse URL trouv\\u00e9e en haut de votre navigateur.\",\"enter-username\":\"Indiquer le nom d'utilisateur choisi (seulement en lettres et chiffres), svp.\",\"username-short\":\"Votre identifiant est trop court.\",\"enter-email\":\"Merci d'indiquer une adresse \\u00e9lectronique correcte.\",\"passshort\":\"Votre mot de passe est trop court.\",\"places-count\":\"%1 lieux\",\"savebut\":\"sauvegarder\",\"cancelbut\":\"annuler\",\"changelng-propose\":\"Changer de langue ?\",\"chooselang\":\"Choisir la langue, svp.\",\"filltitle\":\"Indiquer le titre, svp.\",\"wiki-incor\":\"Le lien vers Wikipedia est erron\\u00e9. Corriger ou effacer.\",\"zoomin-closer\":\"Zoomer plus pr\\u00e8s svp\",\"move-visible\":\"D\\u00e9placer cet objet vers une zone visible\",\"delete-ask\":\"\\u00cates-vous s\\u00fbr de vouloir enlever ce lieu ?\",\"ask-sure\":\"\\u00cates-vous certain de vouloir faire cette op\\u00e9ration ?\",\"removebut\":\"enlever\",\"polygonbig\":\"Le polygone est trop grand, r\\u00e9duire sa taille.\",\"maysendlink\":\"Vous pouvez utiliser le lien pour envoyer \\u00e0 vos amis ce que vous voyez sur la carte. Copier l'URL depuis la barre d\\u2019adresse de votre navigateur.\",\"dismeas\":\"Calculer la distance\",\"total\":\"Total\\u00a0: %1\",\"show-menu-menu\":\"Menu\",\"show-menu-zoomin\":\"Zoomer +\",\"created-review\":\"Note\\u00a0: vous avez cr\\u00e9\\u00e9 ce lieu, attendez que d'autres partenaires le r\\u00e9visent.\",\"uvoted\":\"Note \\u00a0:  Vous avez d\\u00e9j\\u00e0 vot\\u00e9.\",\"sendmbut\":\"Envoyer le message\",\"ismessage\":\"Message\\u00a0:\",\"isyourname\":\"Votre identifiant\\u00a0:\",\"show-menu-history\":\"Historique\",\"show-menu-add-language\":\"Ajouter une autre langue\",\"show-menu-edit-page\":\"Modifier\",\"show-menu-photos\":\"Ajouter des photos\",\"show-menu-polygon\":\"Edit outline\",\"show-menu-delete\":\"Supprimer ce lieu\",\"fittowbut\":\"ajuster \\u00e0 la fen\\u00eatre\",\"clearalpbut\":\"effacer tous les points\",\"logout-but\":\"Quitter la session\",\"user-choosepass2\":\"Les mots de passe ne correspondent pas\",\"show-menu-undelete\":\"R\\u00e9tablir le lieu\",\"menu-forum\":\"Forum\",\"watchlist\":\"Surveillance\",\"menu-docs\":\"Documentation WikiMapia\",\"g-sat\":\"Google satellite\",\"g-map\":\"Google carte\",\"g-hyb\":\"Google hybride\",\"g-ter\":\"Google terrain\",\"transport\":\"Transport\",\"road\":\"Route\",\"railroad\":\"Voie ferr\\u00e9e\",\"ferry\":\"Ferry\",\"river\":\"Fleuve, rivi\\u00e8re\",\"patches\":\"Portions de terrain\",\"water\":\"Lac, \\u00e9tang, plan d\\u2019eau\",\"land\":\"Plaine\",\"default-search\":\"Rechercher des cat\\u00e9gories\",\"no-matches\":\"Aucune cat\\u00e9gorie correspondante\",\"more-lngs\":\"Plus de langues\",\"users-rank\":\"Classement des utilisateurs\",\"join-us\":\"Enregistrez-vous\",\"login\":\"Authentification\",\"search-cat\":\"Cat\\u00e9gorie de recherche\",\"add-cat\":\"Ajouter une cat\\u00e9gorie\",\"viewthis\":\"Voir\",\"cats\":\"Cat\\u00e9gories\",\"editmap\":\"\\u00c9diter la carte\",\"maptype\":\"Type de carte\",\"add-outline\":\"D\\u00e9finir le contour\",\"click-to-prov\":\"Cliquer pour ajouter des informations\",\"surecanchan\":\"\\u00cates-vous s\\u00fbr de bien vouloir annuler les modifications ?\",\"alt-source\":\"Sources alternatives\",\"svchng\":\"Veuillez enregistrer vos modifications.\",\"road-edit\":\"\\u00c9diter les routes\",\"railroad-edit\":\"\\u00c9diter les voies ferr\\u00e9es\",\"ferry-edit\":\"\\u00c9diter un trajet de ferry\",\"river-edit\":\"\\u00c9diter les fleuves, les rivi\\u00e8res\",\"help\":\"aide\",\"adding-po\":\"D\\u00e9finir le contour\",\"adding-po1\":\"\\u00c9diter le contour\",\"adding-water\":\"Ajouter un lac, un \\u00e9tang, un plan d'eau.\",\"adding-land\":\"Ajouter une plaine, une zone terrestre\",\"showing-cat\":\"Cat\\u00e9gorie affich\\u00e9e : \",\"addcat\":\"Ajouter une cat\\u00e9gorie\\u2026\",\"rd-ctsaveroad\":\"Sauvegardez vos modifications avant d'\\u00e9diter le nom\",\"rd-startnew\":\"D\\u00e9buter ici\",\"cancelaction\":\"Annuler\",\"rd-makecrossrd\":\"Cr\\u00e9er une intersection\",\"rd-movsegabove\":\"Le segment ajout\\u00e9 passe au-dessus\",\"rd-movsegunder\":\"Le segment ajout\\u00e9 passe en-dessous\",\"rd-joinpoints\":\"Joindre les points\",\"rd-attachpoints\":\"Rattacher le point\",\"loading\":\"Chargement\\u2026\",\"rd-stopdraw\":\"Arr\\u00eater de dessiner la ligne\",\"rd-attach\":\"Joindre\",\"rd-delpoi\":\"Effacer le point\",\"rd-type-dirt\":\"Sentier, piste\\u2026\",\"rd-type-courty\":\"Chemin ou entr\\u00e9e priv\\u00e9e, ruelle\",\"rd-type-stlow\":\"Rue, route \\u00e0 circulation locale\",\"rd-type-roadhigh\":\"Route \\u00e0 circulation dense, boulevard\",\"rd-type-highway\":\"Autoroute, 4 voies ou plus\",\"rd-select\":\"D\\u00e9but de la s\\u00e9lection\",\"rd-insertpoi\":\"Ins\\u00e9rer le point\",\"rd-delseg\":\"Effacer le segment\",\"rd-cancelsel\":\"Annuler la s\\u00e9lection\",\"rd-setnewname\":\"Choisir un nouveau nom\",\"rd-editname\":\"\\u00c9diter, modifier ce nom\",\"rd-unsetname\":\"Effacer le nom\",\"rd-addriver\":\"Ajouter les rives\",\"rd-removeriver\":\"Supprimer les rives\",\"properties\":\"Propri\\u00e9t\\u00e9s\",\"rd-roadtype\":\"Type de route ou de rue\",\"rd-direction\":\"Direction ou sens\",\"rd-elevation\":\"Niveau de franchissement\",\"rd-el-overpass\":\"Viaduc, pont, passage sup\\u00e9rieur\",\"rd-el-groundroad\":\"Route au niveau du sol\",\"rd-el-tunnel\":\"Tunnel ou passage inf\\u00e9rieur\",\"saving\":\"Sauvegarde des donn\\u00e9es\\u2026\",\"hotel-booking\":\"R\\u00e9servation d'h\\u00f4tel\",\"watchlist-countries\":\"Historique par pays\",\"pip-unbind-from-parent\":\"S\\u00e9parez du lieu attach\\u00e9\",\"pip-alert-select-child-object\":\"S\\u00e9lectionnez les lieux attach\\u00e9s, svp.\",\"zoomcontrol-zoom-in\":\"Zoom avant\",\"zoomcontrol-zoom-out\":\"Zoom arri\\u00e8re\",\"zoomcontrol-house\":\"Maison, R\\u00e9sidence\",\"zoomcontrol-street\":\"Rue\",\"zoomcontrol-city\":\"Ville, Cit\\u00e9\",\"zoomcontrol-country\":\"Pays\",\"zoomcontrol-world\":\"La Terre\",\"slidecontrol-north\":\"Nord\",\"slidecontrol-south\":\"Sud\",\"slidecontrol-east\":\"Est\",\"slidecontrol-west\":\"Ouest\",\"slidecontrol-home\":\"Point de d\\u00e9part\",\"stats-menu-title\":\"Statistiques Wikimapia\",\"history-rev-full\":\"r\\u00e9vision\",\"old-places\":\"anciens lieux\",\"source-other\":\"Autres\",\"del-pl\":\"Lieux supprim\\u00e9s\",\"wikimapia-classic\":\"Wikimapia Classic\",\"g-pan\":\"Google panoramio\",\"menu-blog\":\"Blog Wikimapia\",\"mtype-map\":\"Carte\",\"stats-km\":\"km\",\"history-revert-ask\":\"Vous allez supprimer cette r\\u00e9vision. \\u00cates vous s\\u00fbr?\",\"history-this\":\"Ceci\",\"history-was-cancelled-by\":\"a \\u00e9t\\u00e9 supprim\\u00e9 par\",\"history-undo-ful\":\"Annuler cette r\\u00e9vision\",\"you-are-creating-new-linear-10\":\"Vous \\u00eates entrain de cr\\u00e9er un nouveau nom de cours d'eau\",\"you-are-creating-new-linear-2\":\"Vous \\u00eates en train de cr\\u00e9er un nouveau nom pour une route de traversier\",\"you-are-creating-new-linear-1\":\"Vous \\u00eates entrain de cr\\u00e9er un nouveau nom de voie de chemin de fer\",\"you-are-creating-new-linear-0\":\"Vous \\u00eates entrain de cr\\u00e9er un nouveau nom de rue\",\"history-road-before\":\"Avant\",\"history-road-after\":\"Apr\\u00e8s\",\"history-road-lanes\":\"Voies\",\"history-road-str-name\":\"Nom\",\"history-road-view-rev\":\"Vous regardez la r\\u00e9vision n\\u00b0 %\",\"history-road-prev-seg-pos\":\"Avant\",\"history-road-curr-seg-pos\":\"Apr\\u00e8s\",\"history-road-seg-prop-change\":\"Changer propri\\u00e9t\\u00e9s\",\"history-this-undo-rev\":\"Cette r\\u00e9vision a annul\\u00e9 r\\u00e9v.\",\"wiki-guidelines\":\"R\\u00e8gles de Wikimapia\",\"search-did-not-match3\":\"Si vous \\u00eates certain que ce lieu existe - nous aider en\",\"search-did-not-match4\":\"Ajout de\",\"special-pages\":\"Outils\",\"statusgrid-title\":\"Grille des statistiques\",\"sp-pages-all-levels\":\"Tous les niveaux d'exp\\u00e9rience\",\"sp-pages-10-levels\":\"Niveau +1\",\"sp-pages-20-levels\":\"Niveau +2\",\"sp-pages-30-levels\":\"Niveau +3\",\"sp-pages-40-levels\":\"Niveau +4\",\"photos-moderation\":\"Mod\\u00e9ration des photos\",\"map-shift\":\"Liste des mises \\u00e0 jour des images satellite\",\"watchlist-watch-linear\":\"Objets lin\\u00e9aires\",\"watchlist-watch-railroads\":\"Chemins de fer\",\"watchlist-watch-ferry\":\"Traversier \\/ Ferry \\/ Bac\",\"watchlist-watch-rivers\":\"Cours d'eau\",\"watchlist-watch-all\":\"Tous les objets\",\"bug-features-lists\":\"Listes des bogues et des fonctionnalit\\u00e9s\",\"access-message-banned\":\"You can't use this feature because you are limited\",\"access-message-banned-communicate\":\"Il vous est temporairement interdit d'utiliser cette fonction, car vous ne pouvez pas envoyer des messages, de poster dans le forum et d'y laisser des commentaires (%details_link), mais vous pouvez toujours \\u00e9diter la carte.\",\"access-message-banned-edit\":\"Il vous est temporairement interdit d'utiliser cette fonction, car vous ne pouvez pas \\u00e9diter la carte (%details_link), mais vous pouvez toujours poster dans le forum et envoyer des messages.\",\"access-message-banned-full\":\"Vous ne pouvez pas utiliser cette fonction car vous \\u00eates d\\u00e9sormais banni  (%details_link).\",\"access-message-banned-details-link\":\"voir les d\\u00e9tails\",\"common-please-exit-all-edits\":\"Merci de valider toutes vos \\u00e9ditions\",\"common-sure-to-cancel-editing\":\"Voulez-vous vraiment annuler les modifications ?\",\"mapshift-jsbutton-close\":\"Fermer\",\"mapshift-jsbutton-clarify-points\":\"Set shift\",\"mapshift-jsbutton-edit-points\":\"Edit points\",\"mapshift-jsbutton-points-useless\":\"La modification est sans \\u00e9ffet\",\"mapshift-jsbutton-save-points\":\"Sauvegarder un changement de direction\",\"mapshift-jsbutton-cancel-points-editing\":\"Annuller l'\\u00e9dition\",\"mapshift-jsbutton-delete\":\"Unset shift\",\"mapshift-jsbutton-approve\":\"Approuver\",\"mapshift-jsbutton-decline\":\"D\\u00e9cliner\",\"mapshift-sure-to-delete\":\"\\u00cates vous certain de supprimer la modification de la carte ?\",\"mapshift-sure-to-sign\":\"Are you sure to sign this mapshift?\",\"mapshift-sure-to-approve\":\"\\u00cates-vous certain(e) d'approuver la modification de la carte ?\",\"mapshift-sure-to-decline\":\"\\u00cates-vous certain(e) de refuser la modification de la carte ?\",\"mapshift-points-editing-legend\":\"Le premier marqueur doit \\u00eatre plac\\u00e9 \\u00e0 un point sp\\u00e9cifique de la couche Wikimapia (angle d'un b\\u00e2timent, croisement de routes...). Le second doit \\u00eatre plac\\u00e9 \\u00e0 l\\\\\\\"endroit de l'image satellite correspondante.\",\"mapshift-sure-to-mark-as-useless\":\"Etes-vous certain que la carte superpos\\u00e9e dans cette zone correspond parfaitement \\u00e0 l'image satellite ?\",\"mapshift-has-no-effect-legend\":\"Ce changement est sans  effet. Si vous n'\\u00eates pas d'accord, donc vous devez mettre des points d'ancrage de changement ou signer ce changement avec le vote n\\u00e9gatif pour le recr\\u00e9er.\",\"inwiki-navi-prev\":\"Pr\\u00e9cedent\",\"inwiki-navi-next\":\"Suivant\",\"inwiki-navi-photo-of\":\"Photo %1 sur%2\",\"statusgrid-link-to-this-square\":\"Lien vers ce carr\\u00e9\",\"selected-segment-will-be-attached-0\":\"Les segments s\\u00e9lectionn\\u00e9s vont \\u00eatre attach\\u00e9s \\u00e0 la route %1. Vous pourrez modifier la description apr\\u00e8s sauvegarde.\",\"selected-segment-will-be-attached-1\":\"Les segments s\\u00e9lectionn\\u00e9s vont \\u00eatre attach\\u00e9s \\u00e0 la voie ferr\\u00e9e %1. Vous pourrez modifier la description apr\\u00e8s sauvegarde.\",\"selected-segment-will-be-attached-2\":\"Les segments s\\u00e9lectionn\\u00e9s vont \\u00eatre attach\\u00e9s \\u00e0 la voie de ferry %1. Vous pourrez modifier la description apr\\u00e8s sauvegarde.\",\"selected-segment-will-be-attached-10\":\"Les segments s\\u00e9lectionn\\u00e9s vont \\u00eatre attach\\u00e9s \\u00e0 la rivi\\u00e8re %1. Vous pourrez modifier la description apr\\u00e8s sauvegarde.\",\"statusgrid-button-close\":\"Ferm\\u00e9\",\"statusgrid-zoom-farther\":\"(Vous \\u00eates en dehors de la zone des statistiques. Faite un zoom arri\\u00e8re.)\",\"statusgrid-zoom-closer\":\"(Vous \\u00eates en dehors de la zone des statistiques. Faite un zoom avant.)\",\"statusgrid-button-back\":\"Retour \\u00e0 la grille des statistiques\",\"history-rev-approved-by\":\"Cette r\\u00e9vision a \\u00e9t\\u00e9 approuv\\u00e9e par %1\",\"history-rev-not-approved\":\"Cette r\\u00e9vision n'est pas agr\\u00e9\\u00e9e\",\"history-button-approve\":\"Approuver\",\"history-revision-comment-title\":\"D\\u00e9crivez bri\\u00e8vement les changements que vous avez effectu\\u00e9\",\"history-revision-comment-title-confirm\":\"Modifier le r\\u00e9sum\\u00e9 (facultatif) :\",\"history-revision-comment-open\":\"expliquer vos modifications (optionel)\",\"edit-set-protection\":\"Prot\\u00e9ger\",\"edit-unset-protection\":\"Retirez la protection\",\"edit-ask-protection\":\"Vous allez prot\\u00e9ger ce lieu. Si la protection est en place, seuls les utilisateurs avanc\\u00e9s seront en mesure d'effectuer des modifications. La protection sera supprim\\u00e9e automatiquement apr\\u00e8s 7 jours.%break% Entrez la raison :\",\"edit-ask-unprotection\":\"Vous allez supprimer la protection de ce lieu.%break% Entrez la raison :\",\"access-message-protected\":\"D\\u00e9sol\\u00e9, ce lieu est temporairement prot\\u00e9g\\u00e9 \\u00e0 cause d'un risque de vandalisme.\",\"mapshift-jstoolbar-title\":\"Changement de carte\",\"mapshift-jstoolbar-welcome-question\":\"Regardez attentivement, svp : la carte superpos\\u00e9e correspond t'elle parfaitement \\u00e0 l'image satellite ?\",\"mapshift-jsbutton-add-vector\":\"Non, la superposition n\\u00e9cessite un changement\",\"mapshift-jsbutton-edit-vector\":\"Non, la superposition n\\u00e9cessite un changement\",\"mapshift-jsbutton-useless-vector\":\"Oui, c'est OK\",\"mapshift-jsbutton-edit-area\":\"Editer un changement de zone et options\",\"mapshift-jsbutton-cancel-area-editing\":\"Annuler\",\"mapshift-jsbutton-save-area\":\"Sauvegarder un changement de zone et options\",\"mapshift-area-legend-shift-places\":\"Changement de lieu\",\"mapshift-area-legend-shift-linear\":\"Changement de routes\\/lin\\u00e9aires\",\"mapshift-area-legend-yes\":\"Oui\",\"mapshift-area-legend-no\":\"Non\",\"mapshift-area-legend-date-of-shift\":\"Date de la mise \\u00e0 jour du satellite\",\"mapshift-area-legend-manual\":\"Manuel\",\"mapshift-area-legend-manual-link\":\"Changement de superposition de carte\",\"mapshift-vector-legend-brief-help\":\"Le premier point de marquage devrait \\u00eatre localis\\u00e9 sur un point sp\\u00e9cifique de la superposition Wikimapia, comme un coin d'immeuble ou un carrefour routier. Le second point de marquage devrait \\u00eatre plac\\u00e9 sur un point de l'image satellite qui correspond au premier.\",\"categories-system-create-new\":\"Cr\\u00e9ez une nouvelle cat\\u00e9gorie\",\"categories-system-create-new-alert\":\"\\u00cates-vous certain de vouloir cr\\u00e9er la cat\\u00e9gorie\",\"watchlist-watch-comments\":\"Commentaires\",\"rd-splitpoint\":\"S\\u00e9parer le point\",\"linear-segment-author\":\"Auteur\",\"apply\":\"appliquer\",\"rd-type-bicycle\":\"Piste cyclable\",\"rd-type-footwalk\":\"Voie pi\\u00e9tonne\",\"rd-type-narrow\":\"Voie \\u00e9troite\",\"rd-type-lightrail\":\"M\\u00e9tro l\\u00e9ger, Transit L\\u00e9ger sur Rail\",\"rd-type-streetcar\":\"Tramway\",\"y-map\":\"Carte Yandex\",\"y-hyb\":\"Hibride Yandex\",\"y-sat\":\"Satellite Yandex\",\"b-map\":\"Carte Bing\",\"b-hyb\":\"Carte hybride Bing\",\"b-sat\":\"Vue satellite Bing\",\"o-map\":\"Carte Ovy\",\"o-hyb\":\"Hibride Ovy\",\"yh-sat\":\"Satellite Yahoo\",\"mtype-woverlay\":\"Wikimapia Satellite\",\"mtype-wmap\":\"Carte Wikimapia\",\"mapshift-area-legend-shift-vectors-list\":\"D\\u00e9tails\",\"mapshift-area-legend-shift-vectors-list-show\":\"montrer\",\"mapshift-area-legend-shift-vectors-list-hide\":\"cacher\",\"mapshift-area-legend-shift-vectors-list-good\":\"Vecteur accept\\u00e9\",\"mapshift-area-legend-shift-vectors-list-bad\":\"Vecteur rejet\\u00e9\",\"mapshift-area-legend-shift-vectors-list-none\":\"Un changement n'est pas n\\u00e9cessaire\",\"mapshift-area-legend-shift-vectors-list-empty\":\"Ce changement est vide\",\"mapshift-area-legend-shift-vectors-needed-count\":\"Cette zone requiert la participation de %n% utilisateurs suppl\\u00e9mentaires\",\"sp-pages-50-levels\":\"Niveau +5\",\"geoloc\":\"Mon lieu\",\"menu-report\":\"Rapporter un bug\",\"show-menu-cancel-deletion\":\"Annulez la suppression\",\"menu-about\":\"A propos de Wikimapia\",\"del-marked-short\":\"marqu\\u00e9 pour suppression \",\"you-are-attaching-to-linear-0\":\"Vous attachez segments de la rue existante\",\"you-are-attaching-to-linear-1\":\"Vous attachez segments de la voie ferr\\u00e9e existante\",\"you-are-attaching-to-linear-2\":\"Vous attachez segments de la route du traversier existant \",\"you-are-attaching-to-linear-10\":\"Vous attachez segments de la rivi\\u00e8re existante \",\"hotels-price-from\":\"\\u00e0 partir de \",\"wikimapia-extras\":\"Extras \",\"wikimapia-old\":\"Anciens Wikimapia\",\"level-up-1\":\"Merci de nous rejoindre! En tant que membre enregistr\\u00e9, vous avez maintenant obtenu le premier niveau de l'utilisateur Wikimapia. Vous pouvez maintenant \\u00e9diter lieux cr\\u00e9\\u00e9s par d'autres et t\\u00e9l\\u00e9charger des photos. En savoir plus sur la modification de la carte ici. Avoir un bon d\\u00e9but et bonne chance!\\\\nPointe Pro: Prendre le temps de faire des contours pr\\u00e9cis avec l'outil polygone vous donnera plus de reconnaissance. \",\"level-up-11\":\"Excellent! Vous avez atteint le deuxi\\u00e8me niveau de l'utilisateur. Maintenant vous pouvez cr\\u00e9er et \\u00e9diter des routes, rivi\\u00e8res, chemins de fer sur Wikimapia. En savoir plus sur la fa\\u00e7on de modifier les caract\\u00e9ristiques lin\\u00e9aires ici. Ne vous arr\\u00eatez pas!\\\\nPointe Pro: Lorsque le marquage des routes et des rivi\\u00e8res, n'oubliez pas de zoomer plus et ajouter plus de points pour les courbes. La qualit\\u00e9 est la voie du succ\\u00e8s! \",\"level-up-21\":\"Vous serez invincibles! Il est d\\u00e9sormais le troisi\\u00e8me niveau de l'utilisateur. Communaut\\u00e9 Wikimapia vous remercie de votre contribution!\\\\nPointe Pro: Ajout d'une cat\\u00e9gorie convenable donne une identit\\u00e9 et des lieux rend les recherches beaucoup plus facile! \",\"level-up-31\":\"Vous venez d'atteindre le niveau de l'utilisateur 4e en partageant vos connaissances et d'aider d'autres personnes. Grand, continuez votre bon travail!\\\\nPointe Pro: la distinction entre les b\\u00e2timents et les non-b\\u00e2timents avec la case \\u00e0 cocher du b\\u00e2timent vous fera distingu\\u00e9! \",\"level-up-41\":\"Vous avez encore une fois prouv\\u00e9 que vous-m\\u00eame un utilisateur averti et exp\\u00e9riment\\u00e9 en atteignant le niveau de l'utilisateur 5. Continuez!\\\\nPointe Pro: Vous obtenez plus de visibilit\\u00e9 et vos modifications sera plus int\\u00e9ressant si vous ajoutez une description de vos places! \",\"level-up-51\":\"Wow! Votre niveau d'utilisateur est maintenant 6. C'est un v\\u00e9ritable exploit! Les gens de partout dans le monde seront reconnaissants pour la connaissance et l'effort que vous avez mis dans Wikimapia pour eux.\\\\nPointe Pro: Les gens ont lu la qualit\\u00e9 de vos endroits sont, maintenant leur permettre de voir combien ils sont bons. Pour ce faire, en ajoutant des photos des endroits que vous marquez!\",\"level-up-61\":\"Vous venez d'atteindre le niveau de l'utilisateur 7. Un pas de plus et vous serez sur le sur le dessus!\",\"level-up-71\":\"Niveau de l'utilisateur 8! Vous \\u00eates maintenant au sommet, nous avons manqu\\u00e9 de niveaux! Mais ce n'est pas la fin - s'il vous pla\\u00eet continuer \\u00e0 apporter vos connaissances sur le monde et voir ce qu'il ya \\u00e0 c\\u00f4t\\u00e9. \",\"answer-how-know\":\"Merci de prendre quelques secondes pour r\\u00e9pondre \\u00e0 une question\",\"question-how-know\":\"Comment avez-vous entendu parler de nous ?\",\"answer-how-know-choose\":\"choisir\",\"answer-how-know-other-social\":\"Autre r\\u00e9seau social\",\"answer-how-know-other-search\":\"Autre moteur de recherche\",\"button-how-know-ok\":\"OK\",\"button-how-know-skip\":\"Passer\",\"answer-how-know-thank\":\"Merci !\",\"poly-click-to-start\":\"Cliquez sur la carte pour commencer \\u00e0 dessiner \",\"poly-finish-polygon\":\"Terminer polygone avant d'enregistrer \",\"experience-points-count\":\"%1 points d'exp\\u00e9rience\",\"switch-to-satellite\":\"S'il vous pla\\u00eet, passer \\u00e0 la vue satellite afin de modifier\",\"add-poly-describe\":\"D\\u00e9crire le lieu sur la carte puis le d\\u00e9crire \",\"edit-reset-sure\":\"Etes-vous s\\u00fbr de vouloir faire \\u00e7a? Votre contribution sera perdu!\",\"all-tools\":\"Tous les outils\",\"topmenu-donate\":\"Faire un don \\u00e0 Wikimapia\",\"cityguide-tab-map-meta-descr\":\"Plan de la ville %city% - Explorez la carte de la ville %city%, avec des h\\u00f4pitaux, h\\u00f4tels, a\\u00e9roports, routes, mus\\u00e9es etc.\",\"cityguide-tab-map-meta-keywords\":\"plan de %city%, plan de la ville %city%\",\"cityguide-tab-tagged-title\":\"%category% dans la ville %city%\",\"cityguide-tab-tagged-meta-keywords\":\"%city% %category% liste, %category% de %city%\",\"cityguide-page-num-title\":\"Page %num% \",\"cityguide-tab-streets-meta-descr\":\"Liste compl\\u00e8te des rues de la ville %city%. Toutes les rues de la ville %city%\",\"cityguide-tab-streets-meta-keywords\":\"rues de la ville %city%, rues de la ville %city%\",\"cityguide-photos-title\":\"%place% dans la ville de %city%\",\"cityguide-tab-photos-meta-descr\":\"Les meilleures photos de la ville  %city%. Photos r\\u00e9centes dans la ville %city%\",\"cityguide-tab-photos-meta-keywords\":\"photos de la ville %city%, photos de la ville %city%\",\"cityguide-tab-main-title-button\":\"Vue d'ensemble\",\"cityguide-tab-map-title-button\":\"Carte\",\"cityguide-tab-comments-title-button\":\"Commentaires\",\"cityguide-tab-photos-title-button\":\"Photos \",\"cityguide-tab-tags-title-button\":\"Balises \",\"cityguide-tab-streets-title-button\":\"Streets \",\"show-menu-promote\":\"Promouvoir ce lieu\",\"poly-rotate\":\"Tourner \",\"poly-rotate-stop\":\"Stop rotating \",\"done\":\"Fait \",\"cityguide-tag-objects-text\":\"Parcourir toutes les places de la ville %city% avec la cat\\u00e9gorie \\\\\\\"%category%\\\\\\\". Toutes ont \\u00e9t\\u00e9 ajout\\u00e9es par les b\\u00e9n\\u00e9voles et les habitants du monde entier.\",\"poly-scale\":\"\\u00c9chelle\",\"poly-scale-stop\":\"Arr\\u00eatez \\u00e9chelle \",\"search-for\":\"Rechercher %1 \",\"add-place-here\":\"Ajouter un nouveau lieu ici \",\"category-activity\":\"Activit\\u00e9 \",\"poly-edit\":\"Modifier\",\"no-objects-found\":\"Aucun objet trouv\\u00e9\",\"no-objects-selected\":\"Aucun objet s\\u00e9lectionn\\u00e9\",\"edit-bounds\":\"Modifier bornes \\u00e0 contenir des objets que vous souhaitez modifier \",\"select-edit-polygons\":\"S\\u00e9lectionnez les objets et \\u00e9ditez leurs contours \",\"show-objects\":\"montrer les objets\",\"something-wrong\":\"Quelque chose d'inattendu c'est pass\\u00e9, veuillez r\\u00e9p\\u00e9ter la derni\\u00e8re action\",\"poly-delete-outline\":\"Supprimer le contour\",\"poly-cancel-edit\":\"Annuler votre \\u00e9dition\",\"poly-continue-drawing\":\"Continuer le dessin\",\"poly-continue-editing\":\"Continuer l'\\u00e9dition\",\"ny-notification\":\"Gagnez un cadeau du nouvel an de la part de Wikimapia !\",\"show-menu-on-map\":\"Voir sur la carte\",\"distlistbut\":\"Retour \\u00e0 la liste\",\"linear-cancel-edit\":\"Annuler vos modifications\",\"linear-continue-editing\":\"Continuer \\u00e0 modifier\",\"h-map\":\"Here Map\",\"h-sat\":\"Here Satellite\",\"h-hyb\":\"Here Hybrid\",\"edit-unfinished-exit\":\"You haven't finished editing. Do you want to leave without saving?\",\"exit-editor\":\"You are going to exit editor\",\"show-menu-cancel-undeletion\":\"Cancel undeletion\",\"delete-select-reason\":\"Please, select a reason\",\"polygon-merge-points\":\"Merge points\",\"polygon-close-poly\":\"Close outline\",\"polygon-merge-leave\":\"Leave as is\",\"poly-ortho\":\"Square the corners\",\"poly-circularize\":\"Turn into circle\",\"poly-scale-cancel\":\"Cancel scaling\",\"poly-rotate-cancel\":\"Cancel rotation\",\"poly-click-to-complete\":\"Click first point to complete drawing\",\"category-no-objects-found\":\"No objects found, zoom out or drag the map\",\"awards-tell-friends\":\"Dites \\u00e0 vos amis:\",\"motto\":\"Wikimapia - d\\u00e9crivons le monde entier !\"}},\"name\":\"Fran\\u00e7ais\",\"lang\":\"fr\"},\n                langName : window.languagesNative[window.languageIso],\n                zoom : 12,\n                user: {\"newMessages\":0,\"id\":0,\"name\":\"\",\"level\":1}\n            }, ns.Control.URLHash.parseHash(window.location.hash, true));\n\tparams.base   = \"w\";\n        params.center = new ns.LatLng(params.lat, params.lon);\n        params.lang = ns.Lang.selectUserLanguage(params.lang, this.forceUserLanguage);\n        this.app = new ns.App(params);\n    })(window.Wikimapia);\n    </script>\n</body>\n</html>\n",
+      "url": "https://wikimapia.org/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://wikimapia.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html>\n    <head>\n            <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n        <title>404 - Page not found</title>\n        <meta name=\"description\" content=\"\"/>\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/404.css?660\">\n    <script type=\"text/javascript\"> \n\tfunction doSearch() {\n\t    window.location = 'http://wikimapia.org/#search=' + encodeURIComponent(document.getElementById(\"srchcardtxt\").value);\n\t    return false;\n\t}\n    </script>\n    </head>\n    <body>\n<div align=\"center\" class=\"content\"> <a href=\"http://wikimapia.org/\" title=\"wikimapia main page\"><img src=\"http://wikimapia.org/img/404.png\" width=\"606\" height=\"125\" alt=\"wikimapia 404 image\" /></a>\n  <h1>Oops! It's seems like this page doesn't exist...</h1>\n  <h2>Go to <a href=\"http://wikimapia.org/\" tabindex=\"1\" title=\"wikimapia main page\">Wikimapia main page</a><br />\n    or try and search for similar objects:</h2>\n  <form action=\"\" class=\"form-search\" id=\"search\" onsubmit=\"doSearch();return false;\">\n  \t<div class=\"input-append\">\n        <input id=\"srchcardtxt\" name=\"search\" type=\"text\" size=\"70\" maxlength=\"70\">\n        <input name=\"submit\" type=\"button\" value=\"Search\" class=\"btn btn-danger\" id=\"button\" onclick=\"doSearch(); return false;\">\n    </div>\n  </form>\n</div>\n<script type=\"text/javascript\"> \n\tvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");\n\tdocument.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n</script>\n<script type=\"text/javascript\"> \n\tvar pageTracker = _gat._getTracker(\"UA-6147425-1\");\n\tpageTracker._setCustomVar(4, \"404\", \"Yes\", 3 );\n\tpageTracker._trackPageview();\n\tpageTracker._setVar('jacktest404');\n</script>\n    </body>\n</html>",
+      "url": "https://wikimapia.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://wikimapia.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "wikimapia.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-17T03:28:57.051Z",
+    "score": 24,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 19.71,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 9.71,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 3.38/9 · hybrid 3.00/6 · training 3.33/10; strategy tag Middle-Path. Blocked examples: Claude-SearchBot, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, PerplexityBot, Googlebot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 122 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Wikimapia - Let's describe the whole wor\"; meta description 139 chars; no date signal; body text 122 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 9.71,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 0,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

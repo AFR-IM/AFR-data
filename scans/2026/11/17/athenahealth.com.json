@@ -1,0 +1,254 @@
+{
+  "signals": {
+    "domain": "athenahealth.com",
+    "fetchedAt": "2026-11-17T03:22:15.590Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# athenahealth.com robots.txt configs\r\n\r\nUser-agent: *\r\n\r\n\r\n\r\n# Directories\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n\r\n# Files\r\nDisallow: /README.txt\r\nDisallow: /web.config\r\n\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips/\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /user/register/\r\nDisallow: /user/password/\r\nDisallow: /user/login/\r\nDisallow: /user/logout/\r\nDisallow: /samllogin\r\nDisallow: /samllogin/*\r\nDisallow: /sites/default/files/media_docs/\r\nDisallow: /videos/\r\nDisallow: /~/media/\r\n\r\n# Paths (no clean URLs)\r\nDisallow: /index.php/admin/\r\nDisallow: /index.php/comment/reply/\r\nDisallow: /index.php/filter/tips/\r\nDisallow: /index.php/node/add/\r\nDisallow: /index.php/search/\r\nDisallow: /index.php/user/password/\r\nDisallow: /index.php/user/register/\r\nDisallow: /index.php/user/login/\r\nDisallow: /index.php/user/logout/\r\n\r\n\r\n# D7 Paths\r\n\r\n# /robots.txt file for http://www.athenahealth.com\r\n\r\n# User Agent Exclusion (Legacy site)\r\nUser-agent: *\r\nDisallow: /_inc\r\nDisallow: /_doc/interfaces\r\nDisallow: /cmp/interfaces\r\nDisallow: /newsletter/national-showcase-client-program.php\r\nDisallow: /our-company/fax.php\r\nDisallow: /_doc/pdf/tpt.pdf\r\nDisallow: /marketplace/form-success.php\r\nDisallow: /clients\r\nDisallow: /cmp/MURC\r\nDisallow: /leadership-forum/_doc/\r\nDisallow: /_doc/pdf/whitepapers\r\nDisallow: /_doc/pdf/Tenant_Handbook_TAOTC_2014.pdf\r\nDisallow: /_doc/pdf/Terms_and_Conditions_NSC_Program.pdf\r\nDisallow: /_doc/pdf/Terms_and_Conditions_2014_05_30.pdf\r\nDisallow: /m.athenahealth.com/ehr-modal-redirect\r\nDisallow: /search/*\r\nDisallow: /about/faq-implementation\r\nDisallow: /blog/2016/10/31/ready-set-hack\r\nDisallow: /developerportal/*\r\nDisallow: /developerportal\r\n\r\nDisallow: /ehr-modal-redirect\r\nDisallow: /medical-billing-modal-redirect\r\nDisallow: /patient-engagement-modal-redirect\r\nDisallow: /population-health-modal-redirect\r\nDisallow: /care-coordination-modal-redirect\r\nDisallow: /epocrates-modal-redirect\r\nDisallow: /null\r\nDisallow: /0\r\nDisallow: /pop-health\r\nDisallow: /search/*\r\nDisallow: /about/faq-implementation\r\nDisallow: /~/media/athenaweb/files/client/client-advocacy-programs/2015_q2_newsletter.pdf\r\nDisallow: /developerportal\r\nDisallow: /developerportal/*\r\nDisallow: /case-studies/tarpon-interventional-pain-and-spine-care\r\nDisallow: /landing/VillageMD\r\nDisallow: /demandbase-test\r\nDisallow: /landing/athenacollector\r\nDisallow: /landing/athenaclinicals\r\nDisallow: /landing/athenahealth\r\nDisallow: /landing/athenacommunicator\r\nDisallow: /landing/athenatelehealth\r\nDisallow: /landing/nurture/athenaclinicals-ehr-solution\r\nDisallow: /landing/nurture/patient-pay\r\nDisallow: /landing/CME-channel\r\nDisallow: /landing/pricing\r\nDisallow: /landing/compareyourehr\r\nDisallow: /demandbase/landing/nurture/athenaclinicals-ehr-solution\r\nDisallow: /demandbase/solutions/enterprise-revenue-cycle-management\r\nDisallow: /demandbase/solutions/revenue-cycle-management\r\nDisallow: /demandbase/why-choose-us/interoperability\r\nDisallow: /landing/authorization/medical-billing\r\nDisallow: /demandbase/landing/athenacollector\r\nDisallow: /landing/revenue-cycle-management\r\nDisallow: /brand-guidelines\r\nDisallow: /user/login\r\nDisallow: /caas/springfield-clinic-team\r\nDisallow: /sites/default/files/media_docs/Third-Party-Terms.pdf\r\nSitemap: https://www.athenahealth.com/sitemap.xml\r\nDisallow: /sites/default/files/pdf/patient_record_sharing_terms_and_conditions_2016_10_20.pdf\r\nDisallow: /sites/default/files/media_docs/FQHC-Learn-More.pdf\r\nDisallow: /sites/default/files/media_docs/VillageMD_Datasheet.pdf\r\nDisallow: /sites/default/files/media_docs/Patient-Engagement.pdf\r\nDisallow: /sites/default/files/2019-03/Patient_Engagement_Whitepaper.pdf\r\nDisallow: /sites/default/files/media_docs/MIPS-Report.pdf\r\nDisallow: /sites/default/files/media_docs/Physician-Sentiment-Survey-24.pdf\r\nDisallow: /sites/default/files/media_docs/Urgent-Care-Webinar-Checklist.pdf\r\nDisallow: /sites/default/files/media_docs/2025-physician-sentiment-survey.pdf\r\nDisallow: /sites/default/files/media_docs/Points-of-Light-2025-Case-Study.pdf\r\nDisallow: /sites/default/files/media_docs/athenaOne-Leverages-AI.pdf\r\nDisallow: /sites/default/files/media_docs/ConfirmaMD-driving-efficiency-and-performance-with-athenaOne-2025.pdf\r\nDisallow: /sites/default/files/media_docs/Top-5-reasons-athenaOne-for-Orthopedics.pdf\r\nDisallow: /sites/default/files/media_docs/closing-care-gaps-guide.pdf \r\nDisallow: /sites/default/files/media_docs/smart-practice-guide.pdf\r\nDisallow: /sites/default/files/media_docs/athenaOne-Authorization-Management-Service-Description.pdf\r\nDisallow: /~/media/athenaweb/files/client/client-advocacy-programs/client_advocate_program_talking_points_and_prospect_faq.pdf\r\n\r\nuser-agent: Googlebot\r\ndisallow: /about/faq\r\ndisallow: /solutions/athenaone/athenaone-basic \r\ndisallow: /solutions/athenaone/athenaone-choice \r\ndisallow: /landing/small-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/small-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/small-medical-practices/ai-native-rcm-solutions\r\ndisallow: /landing/medium-large-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/medium-large-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/medium-large-medical-practices/ai-native-rcm-solutions\r\n\r\nuser-agent: Bingbot\r\ndisallow: /about/faq\r\ndisallow: /solutions/athenaone/athenaone-basic \r\ndisallow: /solutions/athenaone/athenaone-choice \r\ndisallow: /landing/small-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/small-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/small-medical-practices/ai-native-rcm-solutions\r\ndisallow: /landing/medium-large-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/medium-large-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/medium-large-medical-practices/ai-native-rcm-solutions\r\n\r\nuser-agent: GPTBot \r\ndisallow: /solutions/athenaone/athenaone-basic \r\ndisallow: /solutions/athenaone/athenaone-choice \r\ndisallow: /landing/small-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/small-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/small-medical-practices/ai-native-rcm-solutions\r\ndisallow: /landing/medium-large-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/medium-large-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/medium-large-medical-practices/ai-native-rcm-solutions\r\n\r\nuser-agent: ClaudeBot \r\ndisallow: /solutions/athenaone/athenaone-basic \r\ndisallow: /solutions/athenaone/athenaone-choice \r\ndisallow: /landing/small-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/small-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/small-medical-practices/ai-native-rcm-solutions\r\ndisallow: /landing/medium-large-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/medium-large-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/medium-large-medical-practices/ai-native-rcm-solutions\r\n\r\nuser-agent: Google-Extended \r\ndisallow: /solutions/athenaone/athenaone-basic \r\ndisallow: /solutions/athenaone/athenaone-choice \r\ndisallow: /landing/small-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/small-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/small-medical-practices/ai-native-rcm-solutions\r\ndisallow: /landing/medium-large-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/medium-large-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/medium-large-medical-practices/ai-native-rcm-solutions\r\n\r\nuser-agent: Meta-ExternalAgent \r\ndisallow: /solutions/athenaone/athenaone-basic \r\ndisallow: /solutions/athenaone/athenaone-choice \r\ndisallow: /landing/small-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/small-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/small-medical-practices/ai-native-rcm-solutions\r\ndisallow: /landing/medium-large-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/medium-large-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/medium-large-medical-practices/ai-native-rcm-solutions\r\n\r\nuser-agent: CCBot \r\ndisallow: /solutions/athenaone/athenaone-basic \r\ndisallow: /solutions/athenaone/athenaone-choice\r\ndisallow: /landing/small-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/small-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/small-medical-practices/ai-native-rcm-solutions\r\ndisallow: /landing/medium-large-medical-practices/ai-native-clinical-capabilities\r\ndisallow: /landing/medium-large-medical-practices/ai-native-patient-engagement-tools\r\ndisallow: /landing/medium-large-medical-practices/ai-native-rcm-solutions\r\n\r\nUser-agent: Spacecat/1.0\r\nAllow: /",
+      "url": "https://athenahealth.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "# athenahealth \r\n\r\n> athenahealth is dedicated to curing complexity for ambulatory healthcare practices and the patients they serve — delivering cloud-based EHR, medical billing, and patient engagement solutions that empower providers to focus on what matters most: exceptional patient care. \r\n\r\n \r\nathenahealth's integrated, AI-native platform — athenaOne — helps ambulatory practices of every size simplify operations, strengthen financial performance, and deepen patient relationships. From solo startups to large enterprise health systems, athenahealth meets providers where they are and grows with them over time. \r\n\r\n \r\n--- \r\n \r\n\r\n## Platform & Solutions \r\n\r\n- [athenaOne – Integrated Healthcare Platform](https://www.athenahealth.com/solutions/athenaone): The flagship AI-native platform unifying EHR, revenue cycle management, and patient engagement in a single, cloud-based solution built for ambulatory care. \r\n\r\n- [Electronic Health Records (EHR)](https://www.athenahealth.com/solutions/athenaone/electronic-health-records): A cloud-based EHR that reduces documentation burden, surfaces clinical insights at the point of care, and adapts to the way providers work. \r\n\r\n- [Medical Billing & Practice Management](https://www.athenahealth.com/solutions/athenaone/practice-management): Revenue cycle management and practice management tools that streamline billing workflows, reduce claim denials, and accelerate reimbursement. \r\n\r\n- [Patient Engagement](https://www.athenahealth.com/solutions/athenaone/patient-engagement): A connected suite of tools — including online scheduling, automated reminders, and a patient portal — that makes it easier for patients to access care and stay engaged in their health. \r\n\r\n- [AI Capabilities in athenaOne](https://www.athenahealth.com/solutions/athenaone/ai-powered-healthcare): Purpose-built AI features embedded natively across the platform to reduce administrative friction, support clinical decision-making, and help practices operate at their best. \r\n\r\n- [Value-Based Care Support](https://www.athenahealth.com/solutions/athenaone/value-based-care): Workflows, analytics, and reporting tools designed to help practices succeed under value-based payment models and improve patient outcomes at scale. \r\n\r\n- [Interoperability](https://www.athenahealth.com/why-choose-us/interoperability): A nationwide connected network that enables seamless, secure data exchange between providers, payers, and care settings — so the right information is always available at the right time. \r\n\r\n- [athenaIDX – Enterprise Revenue Cycle Management](https://www.athenahealth.com/solutions/athenaidx): A purpose-built RCM platform for large health systems and enterprise organizations, delivering advanced billing operations, analytics, and financial performance at scale. \r\n\r\n- [Advisory Services](https://www.athenahealth.com/solutions/services/advisory-services): Strategic consulting and implementation support that helps practices unlock the full value of athenaOne and navigate the evolving healthcare landscape with confidence. \r\n\r\n- [Payer Solutions](https://www.athenahealth.com/solutions/payers): Solutions that bridge the gap between payers and providers, improving data sharing, closing care gaps, and driving better outcomes for members. \r\n\r\n \r\n--- \r\n \r\n\r\n## Who We Serve \r\n\r\n\r\n### By Organization Type \r\n\r\n- [Startup Practices](https://www.athenahealth.com/who-we-serve/start-ups): Purpose-built tools and onboarding support to help new practices launch with confidence and build a strong financial and clinical foundation from day one. \r\n\r\n- [Small Medical Practices](https://www.athenahealth.com/who-we-serve/small-medical-practices): Intuitive, affordable solutions that give independent and small-group providers the same operational power as larger organizations — without the overhead. \r\n\r\n- [Medium to Large Medical Groups](https://www.athenahealth.com/who-we-serve/medium-large-medical-practices): Scalable technology and services that grow alongside multi-provider organizations, streamlining complex workflows across locations and specialties. \r\n\r\n- [Enterprises & Health Systems](https://www.athenahealth.com/who-we-serve/enterprise-medical-operation): Enterprise-grade capabilities that help large, complex health systems standardize operations, surface actionable insights, and deliver consistent, high-quality care. \r\n\r\n- [Federally Qualified Health Centers (FQHCs)](https://www.athenahealth.com/who-we-serve/fqhc): Tailored solutions that help community health centers meet rigorous compliance requirements while expanding access to care for underserved populations. \r\n\r\n- [Member-Centric Care Organizations](https://www.athenahealth.com/who-we-serve/member-centric-care): Solutions built for organizations committed to whole-person, value-aligned care — supporting better coordination, outcomes, and member satisfaction. \r\n\r\n \r\n\r\n### By Specialty \r\n\r\n- [Behavioral Health](https://www.athenahealth.com/who-we-serve/behavioral-health): Specialized EHR and billing capabilities designed to meet the unique documentation, compliance, and care coordination needs of behavioral health providers. \r\n\r\n- [Primary Care](https://www.athenahealth.com/who-we-serve/internal-and-family-medicine): Solutions that reduce administrative burden and support the longitudinal patient relationships at the heart of family medicine, internal medicine, and general practice. \r\n\r\n- [Pediatrics](https://www.athenahealth.com/who-we-serve/pediatrics): Pediatric-specific workflows, growth chart tracking, and immunization management built to support the distinctive rhythms of child and adolescent care. \r\n\r\n- [Women's Health](https://www.athenahealth.com/who-we-serve/womens-health): Comprehensive tools for OB/GYN and women's health providers, supporting everything from routine wellness visits to complex prenatal and postpartum care. \r\n\r\n- [Orthopedics](https://www.athenahealth.com/who-we-serve/orthopedics): Streamlined documentation, templating, and billing tools purpose-built for the fast-paced, procedure-heavy workflows of orthopedic practices. \r\n\r\n- [Urgent Care](https://www.athenahealth.com/who-we-serve/urgent-care): High-throughput tools designed to keep urgent care centers running efficiently — from rapid check-in and documentation to seamless billing and follow-up. \r\n\r\n- [View All Specialties](https://www.athenahealth.com/who-we-serve/specialty-practices): A full index of all medical specialties supported by athenahealth's platform, with tailored content for each care setting. \r\n\r\n \r\n--- \r\n\r\n\r\n## Marketplace & Integrations \r\n\r\n- [Marketplace Program](https://www.athenahealth.com/solutions/athenaone/enhancements/marketplace-program): A curated ecosystem of third-party apps and integrations that extend the power of athenaOne — giving practices the flexibility to build a connected technology stack tailored to their unique needs. \r\n\r\n- [Marketplace Partners](https://www.athenahealth.com/who-we-serve/marketplace-partners): Information for independent software vendors and technology companies looking to build, certify, and go to market on the athenahealth platform. \r\n\r\n- [Platform Services & APIs](https://www.athenahealth.com/solutions/platform-services): Developer tools, APIs, and technical resources that enable partners and innovators to integrate deeply with athenaOne and create new value for healthcare providers. \r\n\r\n- [Developers](https://www.athenahealth.com/developer-portal): A dedicated resource hub for developers building on the athenahealth platform — including API documentation, sandbox access, and integration support. \r\n\r\n \r\n--- \r\n \r\n\r\n## Resources \r\n\r\n- [Resource Center](https://www.athenahealth.com/resources): A comprehensive hub of educational content — including blogs, case studies, eBooks, and webinars — designed to help practices thrive in a rapidly evolving healthcare environment. \r\n\r\n- [Blog](https://www.athenahealth.com/resources/blog): Expert perspectives and timely insights on healthcare trends, practice management, technology innovation, and the future of ambulatory care. \r\n\r\n- [Case Studies & Customer Success](https://www.athenahealth.com/resources/case-studies): Real stories from real practices — illustrating how athenahealth customers have improved clinical outcomes, financial performance, and patient satisfaction. \r\n\r\n- [Webinars](https://www.athenahealth.com/resources/webinars): On-demand and live webinars covering the topics that matter most to healthcare providers, from revenue cycle optimization to AI in clinical workflows. \r\n\r\n \r\n--- \r\n \r\n\r\n## athenaInstitute \r\n\r\n- [athenaInstitute Overview](https://athenainstitute.athenahealth.com/): athenahealth's research and thought leadership hub — dedicated to uncovering the trends, data, and ideas shaping the future of ambulatory healthcare. \r\n\r\n- [Research](https://athenainstitute.athenahealth.com/research): Original, data-driven research studies drawn from one of the largest ambulatory networks in the country, offering unmatched visibility into practice performance and patient care trends. \r\n\r\n- [Perspectives](https://athenainstitute.athenahealth.com/perspectives): Informed, forward-looking commentary from healthcare leaders and athenahealth experts on policy, innovation, and the evolving delivery of care. \r\n\r\n \r\n--- \r\n \r\n\r\n## Company \r\n\r\n- [About athenahealth](https://www.athenahealth.com/about/who-we-are): The mission, story, and values behind athenahealth's commitment to curing complexity and transforming the business of healthcare. \r\n\r\n- [Patient Resources](https://www.athenahealth.com/patient-login/faq): General resources and support for patients whose providers use athenahealth — including portal help, billing questions, and more. \r\n\r\n- [Leadership](https://www.athenahealth.com/about/leadership): Meet the executive team guiding athenahealth's strategy, culture, and vision for the future of ambulatory care. \r\n\r\n- [Careers](https://www.athenahealth.com/careers): Explore open roles and learn about the culture, benefits, and opportunities that make athenahealth a place where meaningful work happens every day. \r\n\r\n- [Newsroom & Press Releases](https://www.athenahealth.com/about/newsroom): The latest company announcements, product news, industry recognition, and media resources. \r\n\r\n- [Cost & Value](https://www.athenahealth.com/why-choose-us/cost-value): Explains athenaOne's percentage-of-collections pricing model, which aligns athenahealth's fees with a healthcare organization's collections, and highlights the value of its integrated software and services. Covers pricing transparency, minimal upfront costs, flexible contract terms, level of revenue cycle management support, customer success services, and included capabilities that help practices evaluate the overall value of athenaOne compared with other healthcare IT solutions.\r\n\r\n- [athenaGives](https://www.athenahealth.com/about/athenagives): athenahealth's corporate responsibility program — investing in communities, advancing health equity, and supporting the people who power our mission. \r\n\r\n- [Contact Us](https://www.athenahealth.com/about/contact-us): Get in touch with athenahealth for sales inquiries, customer support, media relations, or partnership opportunities. \r\n\r\n- [Awards & Recognition](https://www.athenahealth.com/about/awards): A record of the industry honors athenahealth has earned, including Best in KLAS designations and recognition for innovation, customer satisfaction, and clinical impact. \r\n\r\n- [Privacy Policy](https://www.athenahealth.com/legal/privacy-policy): athenahealth's commitment to data privacy — outlining how patient and user information is collected, protected, and used. \r\n\r\n- [Terms of Use](https://www.athenahealth.com/legal/terms-of-use): The legal terms and conditions governing use of athenahealth's website and digital services. \r\n\r\n \r\n--- \r\n \r\n\r\n## Login Portal\r\n\r\n- [Patient Portal Login](https://www.athenahealth.com/patient-login): Secure access point for patients to view health records, message their care team, and manage appointments at athenahealth-powered practices. \r\n",
+      "url": "https://athenahealth.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<div style='width:720px;margin:20px auto;'><img style='width: 163px; height: 24px;' src='https://www.athenahealth.com/resources_ahcom/2d2a8c051d129d563f39.png' alt='athenahealth'/><h1 style='font-size: 16px; font-family: sans-serif; font-weight: normal; margin: 20px 0px 0 0;'>This page or resource does not exist or has been moved. </br>Kindly <a href='https://www.athenahealth.com' title='Athenahealth'> click here</a> to go to the Athenahealth homepage.</h1></div>",
+      "url": "https://www.athenahealth.com/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;athenahealth&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;380c3417&#46;1794885733&#46;1cb7a5c5\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;380c3417&#46;1794885733&#46;1cb7a5c5</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.athenahealth.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;athenahealth&#46;com&#47;sitemap&#46;xml\" on this server.<P>\nReference&#32;&#35;18&#46;340c3417&#46;1794885733&#46;349cea58\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;340c3417&#46;1794885733&#46;349cea58</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.athenahealth.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;athenahealth&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;380c3417&#46;1794885734&#46;1cb7aab2\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;380c3417&#46;1794885734&#46;1cb7aab2</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.athenahealth.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<div style='width:720px;margin:20px auto;'><img style='width: 163px; height: 24px;' src='https://www.athenahealth.com/resources_ahcom/2d2a8c051d129d563f39.png' alt='athenahealth'/><h1 style='font-size: 16px; font-family: sans-serif; font-weight: normal; margin: 20px 0px 0 0;'>This page or resource does not exist or has been moved. </br>Kindly <a href='https://www.athenahealth.com' title='Athenahealth'> click here</a> to go to the Athenahealth homepage.</h1></div>",
+      "url": "https://www.athenahealth.com/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    }
+  },
+  "afr": {
+    "domain": "athenahealth.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-17T03:22:15.590Z",
+    "score": 34,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 16.88,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 16.88,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 5.63/9 · hybrid 3.75/6 · training 7.50/10; strategy tag Middle-Path. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 10,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 9,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 7,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 7,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "llms.txt references an API; API documentation entry point present; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 16.88,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 9,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 7,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

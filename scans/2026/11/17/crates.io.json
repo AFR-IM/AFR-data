@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "crates.io",
+    "fetchedAt": "2026-11-17T03:13:34.458Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# allow crawling everything by default\nUser-agent: *\nDisallow:\n",
+      "url": "https://crates.io/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" id=\"favicon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n    <meta name=\"apple-mobile-web-app-title\" content=\"crates.io: Rust Package Registry\" />\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\" />\n    <meta name=\"theme-color\" content=\"var(--header-bg-color)\" />\n    <link\n      rel=\"search\"\n      href=\"/opensearch.xml\"\n      type=\"application/opensearchdescription+xml\"\n      title=\"crates.io\"\n    />\n    <meta property=\"og:title\" content=\"crates.io: Rust Package Registry\" />\n    <meta\n      property=\"og:description\"\n      content=\"crates.io serves as a central registry for sharing crates, which are packages or libraries written in Rust that you can use to enhance your projects\"\n    />\n    <meta property=\"og:image\" content=\"https://crates.io/assets/og-image.png\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <title>crates.io: Rust Package Registry</title>\n    <meta http-equiv=\"content-security-policy\" content=\"default-src 'self'; connect-src 'self' https://docs.rs https://play.rust-lang.org https://rust-lang.github.io https://raw.githubusercontent.com https://rustsec.org https://blog.rust-lang.org https://static.crates.io https://static.staging.crates.io; img-src * data:; object-src 'none'; script-src 'self' 'unsafe-eval' 'sha256-5Cz6+Mc7r7EqumpZ/iP8Bxa/U8yPvwbiANROmonMceg=' 'sha256-MGOafJzYtEMnBH6w6X2TlQv8qW6cPHgjUHT/Y1iuoSU='; style-src 'self' 'unsafe-inline'\">\n\t\t<link href=\"/_app/immutable/entry/start.WmYClXbX.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/payload.DSmR2FwN.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DclECHGd.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DQ0sql7m.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Dj6tgOif.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bb0Hyb0B.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BmTrUk3y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/B-KlLog2.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CMW8w2Aa.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/2tslW9Vi.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/app.D4_KP50t.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/nodes/0.DndqL0iy.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/COiEfhsA.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DSLF85L_.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CTJw2Sp4.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/6m2jW3xj.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C7o-RPvL.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/TRkrKoXP.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BHp4J49Y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/tP9yB6p5.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DFX3O8ag.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CZFWZ3cU.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bv6wPiHu.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BPZIxFqo.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/jiuIvkJH.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BdLQDp6f.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/gaK8fV2L.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DEzDQNSD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D-8GiGGs.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C0K2VoiD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D9higydG.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/mHAgdeOF.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DIuhj4n7.js\" rel=\"modulepreload\">\n\t\t\n\t\t<link href=\"/_app/immutable/assets/Icon.BHOh2ZRl.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/dropdown.CNvp1mN5.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/LoadingSpinner.BhywG3dZ.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/0.DGnUneyj.css\" rel=\"stylesheet\">\n  </head>\n  <body data-sveltekit-preload-data=\"hover\">\n    <noscript>For full functionality of this site it is necessary to enable JavaScript.</noscript>\n    <script>window.onerror=window.onunhandledrejection=function(){document.body.innerHTML='<p style=\"width: 70%;background: var(--main-bg);padding: 10px;\">Sorry, it looks like we were not able to load the page. Please make sure your network connection works and you are using an up-to-date browser. If the issue persists, please visit our <a href=\"https://github.com/rust-lang/crates.io/issues/new/choose\">issue tracker</a> to report the problem.</p>'}</script>\n    <div style=\"display: contents\">\n\t\t\t<script>\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1eyzt6l = {\n\t\t\t\t\t\tbase: \"\",\n\t\t\t\t\t\tversion: \"1794663475116\"\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\timport(\"/_app/immutable/entry/start.WmYClXbX.js\").then(async (kit) => {\n\t\t\t\t\t\tkit.init(__sveltekit_1eyzt6l);\n\t\t\t\t\t\tconst app = await import(\"/_app/immutable/entry/app.D4_KP50t.js\");\n\t\t\t\t\t\tkit.start(app, element);\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t</script>\n\t\t</div>\n  </body>\n</html>",
+      "url": "https://crates.io/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" id=\"favicon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n    <meta name=\"apple-mobile-web-app-title\" content=\"crates.io: Rust Package Registry\" />\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\" />\n    <meta name=\"theme-color\" content=\"var(--header-bg-color)\" />\n    <link\n      rel=\"search\"\n      href=\"/opensearch.xml\"\n      type=\"application/opensearchdescription+xml\"\n      title=\"crates.io\"\n    />\n    <meta property=\"og:title\" content=\"crates.io: Rust Package Registry\" />\n    <meta\n      property=\"og:description\"\n      content=\"crates.io serves as a central registry for sharing crates, which are packages or libraries written in Rust that you can use to enhance your projects\"\n    />\n    <meta property=\"og:image\" content=\"https://crates.io/assets/og-image.png\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <title>crates.io: Rust Package Registry</title>\n    <meta http-equiv=\"content-security-policy\" content=\"default-src 'self'; connect-src 'self' https://docs.rs https://play.rust-lang.org https://rust-lang.github.io https://raw.githubusercontent.com https://rustsec.org https://blog.rust-lang.org https://static.crates.io https://static.staging.crates.io; img-src * data:; object-src 'none'; script-src 'self' 'unsafe-eval' 'sha256-5Cz6+Mc7r7EqumpZ/iP8Bxa/U8yPvwbiANROmonMceg=' 'sha256-MGOafJzYtEMnBH6w6X2TlQv8qW6cPHgjUHT/Y1iuoSU='; style-src 'self' 'unsafe-inline'\">\n\t\t<link href=\"/_app/immutable/entry/start.WmYClXbX.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/payload.DSmR2FwN.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DclECHGd.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DQ0sql7m.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Dj6tgOif.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bb0Hyb0B.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BmTrUk3y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/B-KlLog2.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CMW8w2Aa.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/2tslW9Vi.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/app.D4_KP50t.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/nodes/0.DndqL0iy.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/COiEfhsA.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DSLF85L_.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CTJw2Sp4.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/6m2jW3xj.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C7o-RPvL.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/TRkrKoXP.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BHp4J49Y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/tP9yB6p5.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DFX3O8ag.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CZFWZ3cU.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bv6wPiHu.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BPZIxFqo.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/jiuIvkJH.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BdLQDp6f.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/gaK8fV2L.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DEzDQNSD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D-8GiGGs.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C0K2VoiD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D9higydG.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/mHAgdeOF.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DIuhj4n7.js\" rel=\"modulepreload\">\n\t\t\n\t\t<link href=\"/_app/immutable/assets/Icon.BHOh2ZRl.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/dropdown.CNvp1mN5.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/LoadingSpinner.BhywG3dZ.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/0.DGnUneyj.css\" rel=\"stylesheet\">\n  </head>\n  <body data-sveltekit-preload-data=\"hover\">\n    <noscript>For full functionality of this site it is necessary to enable JavaScript.</noscript>\n    <script>window.onerror=window.onunhandledrejection=function(){document.body.innerHTML='<p style=\"width: 70%;background: var(--main-bg);padding: 10px;\">Sorry, it looks like we were not able to load the page. Please make sure your network connection works and you are using an up-to-date browser. If the issue persists, please visit our <a href=\"https://github.com/rust-lang/crates.io/issues/new/choose\">issue tracker</a> to report the problem.</p>'}</script>\n    <div style=\"display: contents\">\n\t\t\t<script>\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1eyzt6l = {\n\t\t\t\t\t\tbase: \"\",\n\t\t\t\t\t\tversion: \"1794663475116\"\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\timport(\"/_app/immutable/entry/start.WmYClXbX.js\").then(async (kit) => {\n\t\t\t\t\t\tkit.init(__sveltekit_1eyzt6l);\n\t\t\t\t\t\tconst app = await import(\"/_app/immutable/entry/app.D4_KP50t.js\");\n\t\t\t\t\t\tkit.start(app, element);\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t</script>\n\t\t</div>\n  </body>\n</html>",
+      "url": "https://crates.io/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" id=\"favicon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n    <meta name=\"apple-mobile-web-app-title\" content=\"crates.io: Rust Package Registry\" />\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\" />\n    <meta name=\"theme-color\" content=\"var(--header-bg-color)\" />\n    <link\n      rel=\"search\"\n      href=\"/opensearch.xml\"\n      type=\"application/opensearchdescription+xml\"\n      title=\"crates.io\"\n    />\n    <meta property=\"og:title\" content=\"crates.io: Rust Package Registry\" />\n    <meta\n      property=\"og:description\"\n      content=\"crates.io serves as a central registry for sharing crates, which are packages or libraries written in Rust that you can use to enhance your projects\"\n    />\n    <meta property=\"og:image\" content=\"https://crates.io/assets/og-image.png\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <title>crates.io: Rust Package Registry</title>\n    <meta http-equiv=\"content-security-policy\" content=\"default-src 'self'; connect-src 'self' https://docs.rs https://play.rust-lang.org https://rust-lang.github.io https://raw.githubusercontent.com https://rustsec.org https://blog.rust-lang.org https://static.crates.io https://static.staging.crates.io; img-src * data:; object-src 'none'; script-src 'self' 'unsafe-eval' 'sha256-5Cz6+Mc7r7EqumpZ/iP8Bxa/U8yPvwbiANROmonMceg=' 'sha256-MGOafJzYtEMnBH6w6X2TlQv8qW6cPHgjUHT/Y1iuoSU='; style-src 'self' 'unsafe-inline'\">\n\t\t<link href=\"/_app/immutable/entry/start.WmYClXbX.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/payload.DSmR2FwN.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DclECHGd.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DQ0sql7m.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Dj6tgOif.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bb0Hyb0B.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BmTrUk3y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/B-KlLog2.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CMW8w2Aa.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/2tslW9Vi.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/app.D4_KP50t.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/nodes/0.DndqL0iy.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/COiEfhsA.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DSLF85L_.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CTJw2Sp4.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/6m2jW3xj.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C7o-RPvL.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/TRkrKoXP.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BHp4J49Y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/tP9yB6p5.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DFX3O8ag.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CZFWZ3cU.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bv6wPiHu.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BPZIxFqo.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/jiuIvkJH.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BdLQDp6f.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/gaK8fV2L.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DEzDQNSD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D-8GiGGs.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C0K2VoiD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D9higydG.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/mHAgdeOF.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DIuhj4n7.js\" rel=\"modulepreload\">\n\t\t\n\t\t<link href=\"/_app/immutable/assets/Icon.BHOh2ZRl.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/dropdown.CNvp1mN5.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/LoadingSpinner.BhywG3dZ.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/0.DGnUneyj.css\" rel=\"stylesheet\">\n  </head>\n  <body data-sveltekit-preload-data=\"hover\">\n    <noscript>For full functionality of this site it is necessary to enable JavaScript.</noscript>\n    <script>window.onerror=window.onunhandledrejection=function(){document.body.innerHTML='<p style=\"width: 70%;background: var(--main-bg);padding: 10px;\">Sorry, it looks like we were not able to load the page. Please make sure your network connection works and you are using an up-to-date browser. If the issue persists, please visit our <a href=\"https://github.com/rust-lang/crates.io/issues/new/choose\">issue tracker</a> to report the problem.</p>'}</script>\n    <div style=\"display: contents\">\n\t\t\t<script>\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1eyzt6l = {\n\t\t\t\t\t\tbase: \"\",\n\t\t\t\t\t\tversion: \"1794663475116\"\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\timport(\"/_app/immutable/entry/start.WmYClXbX.js\").then(async (kit) => {\n\t\t\t\t\t\tkit.init(__sveltekit_1eyzt6l);\n\t\t\t\t\t\tconst app = await import(\"/_app/immutable/entry/app.D4_KP50t.js\");\n\t\t\t\t\t\tkit.start(app, element);\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t</script>\n\t\t</div>\n  </body>\n</html>",
+      "url": "https://crates.io/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" id=\"favicon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n    <meta name=\"apple-mobile-web-app-title\" content=\"crates.io: Rust Package Registry\" />\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\" />\n    <meta name=\"theme-color\" content=\"var(--header-bg-color)\" />\n    <link\n      rel=\"search\"\n      href=\"/opensearch.xml\"\n      type=\"application/opensearchdescription+xml\"\n      title=\"crates.io\"\n    />\n    <meta property=\"og:title\" content=\"crates.io: Rust Package Registry\" />\n    <meta\n      property=\"og:description\"\n      content=\"crates.io serves as a central registry for sharing crates, which are packages or libraries written in Rust that you can use to enhance your projects\"\n    />\n    <meta property=\"og:image\" content=\"https://crates.io/assets/og-image.png\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <title>crates.io: Rust Package Registry</title>\n    <meta http-equiv=\"content-security-policy\" content=\"default-src 'self'; connect-src 'self' https://docs.rs https://play.rust-lang.org https://rust-lang.github.io https://raw.githubusercontent.com https://rustsec.org https://blog.rust-lang.org https://static.crates.io https://static.staging.crates.io; img-src * data:; object-src 'none'; script-src 'self' 'unsafe-eval' 'sha256-5Cz6+Mc7r7EqumpZ/iP8Bxa/U8yPvwbiANROmonMceg=' 'sha256-MGOafJzYtEMnBH6w6X2TlQv8qW6cPHgjUHT/Y1iuoSU='; style-src 'self' 'unsafe-inline'\">\n\t\t<link href=\"/_app/immutable/entry/start.WmYClXbX.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/payload.DSmR2FwN.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DclECHGd.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DQ0sql7m.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Dj6tgOif.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bb0Hyb0B.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BmTrUk3y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/B-KlLog2.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CMW8w2Aa.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/2tslW9Vi.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/app.D4_KP50t.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/nodes/0.DndqL0iy.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/COiEfhsA.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DSLF85L_.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CTJw2Sp4.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/6m2jW3xj.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C7o-RPvL.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/TRkrKoXP.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BHp4J49Y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/tP9yB6p5.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DFX3O8ag.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CZFWZ3cU.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bv6wPiHu.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BPZIxFqo.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/jiuIvkJH.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BdLQDp6f.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/gaK8fV2L.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DEzDQNSD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D-8GiGGs.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C0K2VoiD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D9higydG.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/mHAgdeOF.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DIuhj4n7.js\" rel=\"modulepreload\">\n\t\t\n\t\t<link href=\"/_app/immutable/assets/Icon.BHOh2ZRl.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/dropdown.CNvp1mN5.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/LoadingSpinner.BhywG3dZ.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/0.DGnUneyj.css\" rel=\"stylesheet\">\n  </head>\n  <body data-sveltekit-preload-data=\"hover\">\n    <noscript>For full functionality of this site it is necessary to enable JavaScript.</noscript>\n    <script>window.onerror=window.onunhandledrejection=function(){document.body.innerHTML='<p style=\"width: 70%;background: var(--main-bg);padding: 10px;\">Sorry, it looks like we were not able to load the page. Please make sure your network connection works and you are using an up-to-date browser. If the issue persists, please visit our <a href=\"https://github.com/rust-lang/crates.io/issues/new/choose\">issue tracker</a> to report the problem.</p>'}</script>\n    <div style=\"display: contents\">\n\t\t\t<script>\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1eyzt6l = {\n\t\t\t\t\t\tbase: \"\",\n\t\t\t\t\t\tversion: \"1794663475116\"\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\timport(\"/_app/immutable/entry/start.WmYClXbX.js\").then(async (kit) => {\n\t\t\t\t\t\tkit.init(__sveltekit_1eyzt6l);\n\t\t\t\t\t\tconst app = await import(\"/_app/immutable/entry/app.D4_KP50t.js\");\n\t\t\t\t\t\tkit.start(app, element);\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t</script>\n\t\t</div>\n  </body>\n</html>",
+      "url": "https://crates.io/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" id=\"favicon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n    <meta name=\"apple-mobile-web-app-title\" content=\"crates.io: Rust Package Registry\" />\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\" />\n    <meta name=\"theme-color\" content=\"var(--header-bg-color)\" />\n    <link\n      rel=\"search\"\n      href=\"/opensearch.xml\"\n      type=\"application/opensearchdescription+xml\"\n      title=\"crates.io\"\n    />\n    <meta property=\"og:title\" content=\"crates.io: Rust Package Registry\" />\n    <meta\n      property=\"og:description\"\n      content=\"crates.io serves as a central registry for sharing crates, which are packages or libraries written in Rust that you can use to enhance your projects\"\n    />\n    <meta property=\"og:image\" content=\"https://crates.io/assets/og-image.png\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <title>crates.io: Rust Package Registry</title>\n    <meta http-equiv=\"content-security-policy\" content=\"default-src 'self'; connect-src 'self' https://docs.rs https://play.rust-lang.org https://rust-lang.github.io https://raw.githubusercontent.com https://rustsec.org https://blog.rust-lang.org https://static.crates.io https://static.staging.crates.io; img-src * data:; object-src 'none'; script-src 'self' 'unsafe-eval' 'sha256-5Cz6+Mc7r7EqumpZ/iP8Bxa/U8yPvwbiANROmonMceg=' 'sha256-MGOafJzYtEMnBH6w6X2TlQv8qW6cPHgjUHT/Y1iuoSU='; style-src 'self' 'unsafe-inline'\">\n\t\t<link href=\"/_app/immutable/entry/start.WmYClXbX.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/payload.DSmR2FwN.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DclECHGd.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DQ0sql7m.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Dj6tgOif.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bb0Hyb0B.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BmTrUk3y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/B-KlLog2.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CMW8w2Aa.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/2tslW9Vi.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/app.D4_KP50t.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/nodes/0.DndqL0iy.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/COiEfhsA.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DSLF85L_.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CTJw2Sp4.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/6m2jW3xj.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C7o-RPvL.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/TRkrKoXP.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BHp4J49Y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/tP9yB6p5.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DFX3O8ag.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CZFWZ3cU.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bv6wPiHu.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BPZIxFqo.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/jiuIvkJH.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BdLQDp6f.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/gaK8fV2L.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DEzDQNSD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D-8GiGGs.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C0K2VoiD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D9higydG.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/mHAgdeOF.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DIuhj4n7.js\" rel=\"modulepreload\">\n\t\t\n\t\t<link href=\"/_app/immutable/assets/Icon.BHOh2ZRl.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/dropdown.CNvp1mN5.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/LoadingSpinner.BhywG3dZ.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/0.DGnUneyj.css\" rel=\"stylesheet\">\n  </head>\n  <body data-sveltekit-preload-data=\"hover\">\n    <noscript>For full functionality of this site it is necessary to enable JavaScript.</noscript>\n    <script>window.onerror=window.onunhandledrejection=function(){document.body.innerHTML='<p style=\"width: 70%;background: var(--main-bg);padding: 10px;\">Sorry, it looks like we were not able to load the page. Please make sure your network connection works and you are using an up-to-date browser. If the issue persists, please visit our <a href=\"https://github.com/rust-lang/crates.io/issues/new/choose\">issue tracker</a> to report the problem.</p>'}</script>\n    <div style=\"display: contents\">\n\t\t\t<script>\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1eyzt6l = {\n\t\t\t\t\t\tbase: \"\",\n\t\t\t\t\t\tversion: \"1794663475116\"\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\timport(\"/_app/immutable/entry/start.WmYClXbX.js\").then(async (kit) => {\n\t\t\t\t\t\tkit.init(__sveltekit_1eyzt6l);\n\t\t\t\t\t\tconst app = await import(\"/_app/immutable/entry/app.D4_KP50t.js\");\n\t\t\t\t\t\tkit.start(app, element);\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t</script>\n\t\t</div>\n  </body>\n</html>",
+      "url": "https://crates.io/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://crates.io/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" id=\"favicon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n    <meta name=\"apple-mobile-web-app-title\" content=\"crates.io: Rust Package Registry\" />\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\" />\n    <meta name=\"theme-color\" content=\"var(--header-bg-color)\" />\n    <link\n      rel=\"search\"\n      href=\"/opensearch.xml\"\n      type=\"application/opensearchdescription+xml\"\n      title=\"crates.io\"\n    />\n    <meta property=\"og:title\" content=\"crates.io: Rust Package Registry\" />\n    <meta\n      property=\"og:description\"\n      content=\"crates.io serves as a central registry for sharing crates, which are packages or libraries written in Rust that you can use to enhance your projects\"\n    />\n    <meta property=\"og:image\" content=\"https://crates.io/assets/og-image.png\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <title>crates.io: Rust Package Registry</title>\n    <meta http-equiv=\"content-security-policy\" content=\"default-src 'self'; connect-src 'self' https://docs.rs https://play.rust-lang.org https://rust-lang.github.io https://raw.githubusercontent.com https://rustsec.org https://blog.rust-lang.org https://static.crates.io https://static.staging.crates.io; img-src * data:; object-src 'none'; script-src 'self' 'unsafe-eval' 'sha256-5Cz6+Mc7r7EqumpZ/iP8Bxa/U8yPvwbiANROmonMceg=' 'sha256-MGOafJzYtEMnBH6w6X2TlQv8qW6cPHgjUHT/Y1iuoSU='; style-src 'self' 'unsafe-inline'\">\n\t\t<link href=\"/_app/immutable/entry/start.WmYClXbX.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/payload.DSmR2FwN.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DclECHGd.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DQ0sql7m.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Dj6tgOif.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bb0Hyb0B.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BmTrUk3y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/B-KlLog2.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CMW8w2Aa.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/2tslW9Vi.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/entry/app.D4_KP50t.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/nodes/0.DndqL0iy.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/COiEfhsA.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DSLF85L_.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CTJw2Sp4.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/6m2jW3xj.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C7o-RPvL.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/TRkrKoXP.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BHp4J49Y.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/tP9yB6p5.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DFX3O8ag.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/CZFWZ3cU.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/Bv6wPiHu.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BPZIxFqo.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/jiuIvkJH.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/BdLQDp6f.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/gaK8fV2L.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DEzDQNSD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D-8GiGGs.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/C0K2VoiD.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/D9higydG.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/mHAgdeOF.js\" rel=\"modulepreload\">\n\t\t<link href=\"/_app/immutable/chunks/DIuhj4n7.js\" rel=\"modulepreload\">\n\t\t\n\t\t<link href=\"/_app/immutable/assets/Icon.BHOh2ZRl.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/dropdown.CNvp1mN5.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/LoadingSpinner.BhywG3dZ.css\" rel=\"stylesheet\">\n\t\t<link href=\"/_app/immutable/assets/0.DGnUneyj.css\" rel=\"stylesheet\">\n  </head>\n  <body data-sveltekit-preload-data=\"hover\">\n    <noscript>For full functionality of this site it is necessary to enable JavaScript.</noscript>\n    <script>window.onerror=window.onunhandledrejection=function(){document.body.innerHTML='<p style=\"width: 70%;background: var(--main-bg);padding: 10px;\">Sorry, it looks like we were not able to load the page. Please make sure your network connection works and you are using an up-to-date browser. If the issue persists, please visit our <a href=\"https://github.com/rust-lang/crates.io/issues/new/choose\">issue tracker</a> to report the problem.</p>'}</script>\n    <div style=\"display: contents\">\n\t\t\t<script>\n\t\t\t\t{\n\t\t\t\t\t__sveltekit_1eyzt6l = {\n\t\t\t\t\t\tbase: \"\",\n\t\t\t\t\t\tversion: \"1794663475116\"\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n\t\t\t\t\timport(\"/_app/immutable/entry/start.WmYClXbX.js\").then(async (kit) => {\n\t\t\t\t\t\tkit.init(__sveltekit_1eyzt6l);\n\t\t\t\t\t\tconst app = await import(\"/_app/immutable/entry/app.D4_KP50t.js\");\n\t\t\t\t\t\tkit.start(app, element);\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t</script>\n\t\t</div>\n  </body>\n</html>",
+      "url": "https://crates.io/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "crates.io",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-17T03:13:34.458Z",
+    "score": 50,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 16 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"crates.io: Rust Package Registry\"; missing/too-short meta description; no date signal; body text 16 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 10,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 2,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; API documentation entry point present; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://crates.io/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 3,
+      "l2.content-signals": 1,
+      "l3.public-api": 2,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}
