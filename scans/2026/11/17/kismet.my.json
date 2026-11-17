@@ -1,0 +1,259 @@
+{
+  "signals": {
+    "domain": "kismet.my",
+    "fetchedAt": "2026-11-17T09:49:50.868Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# MyKismet · 我的天命 — https://kismet.my\n# 通用策略 + AI 爬虫显式策略（AFR 2026-11-12 评级整改：AI strategy 显式化）\n# 分组：search = 搜索/答案引擎索引类；training = 训练抓取类；hybrid = 搜索+训练混合类。\n\n# ---- 通用 ----\nUser-agent: *\nAllow: /\nDisallow: /design-system\n\n# ---- AI 搜索 / 答案引擎（允许抓取，用于索引与引用展示）----\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: Claude-SearchBot\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Perplexity-User\nAllow: /\n\nUser-agent: Googlebot\nAllow: /\n\n# ---- AI 训练抓取（公开产品页，允许）----\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: CCBot\nAllow: /\n\nUser-agent: anthropic-ai\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nUser-agent: ClaudeBot\nAllow: /\n\n# ---- 混合用途（搜索 + 训练）----\nUser-agent: Bytespider\nAllow: /\n\nUser-agent: meta-externalagent\nAllow: /\n\nUser-agent: cohere-ai\nAllow: /\n\nUser-agent: Applebot-Extended\nAllow: /\n\nSitemap: https://kismet.my/sitemap.xml\n",
+      "url": "https://kismet.my/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "# MyKismet · 我的天命\n\n> AI 多术数占卜订阅平台：紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引。$9.9/月起订阅 + 星珀积分深度服务，Telegram Bot 每日双推送 + Web 报告。\n\n本站为**娱乐与自我反思**用途（For entertainment and reflection only），不构成医疗、法律、财务等专业建议；18+。\n\n## 主要页面\n\n- [首页](https://kismet.my/): 产品落地页、免费排盘演示、定价与人格测试\n- [排盘引导](https://kismet.my/onboarding): 5 步生辰信息向导，铸成个人命盘\n- [星珀积分](https://kismet.my/credits): 积分余额、获取渠道与消耗明细\n- [订阅](https://kismet.my/subscribe): 订阅与支付入口（规划中；当前定价见首页 `#pricing` 区）\n- [设置](https://kismet.my/settings): Telegram 绑定、每日推送时间、语言、城市时区\n- [管理后台](https://kismet.my/admin): 内部管理台（需管理员账号，不对公众开放）\n\n## 面向 AI / Agent 的文档\n\n- [llms.txt](https://kismet.my/llms.txt): 本文件（站点摘要）\n- [llms-full.txt](https://kismet.my/llms-full.txt): 完整版，含定价、API 与内容管线细节\n- [agents.md](https://kismet.my/agents.md): 面向编码 agent 的仓库结构与本地开发说明\n- [OpenAPI 规范](https://kismet.my/openapi.json): 公开 REST API（OpenAPI 3.1）\n\n## API 摘要\n\nREST 前缀 `https://api.kismet.my/api`，JSON；除注明外需 `Authorization: Bearer <JWT>`。\n\n- [GET /api/health](https://api.kismet.my/api/health): 健康检查，无需鉴权\n- [POST /api/auth/tg](https://api.kismet.my/api/auth/tg): Telegram initData 换取 JWT\n- [GET /api/me](https://api.kismet.my/api/me): 当前用户资料\n- [PATCH /api/me](https://api.kismet.my/api/me): 更新资料\n- [GET /api/me/tags](https://api.kismet.my/api/me/tags): 用户标签\n- [GET /api/billing/summary](https://api.kismet.my/api/billing/summary): 积分余额与订阅状态\n- [GET /api/billing/ledger](https://api.kismet.my/api/billing/ledger): 积分流水\n- [POST /api/billing/webhook](https://api.kismet.my/api/billing/webhook): 支付回调（签名校验）\n- [GET /api/admin/*](https://api.kismet.my/api/admin/): 管理台端点（管理员 JWT，概览见 openapi.json）\n\n## 内容与媒体\n\n- 每日双推送（晨光谕 / 夜星尘）+ 深度报告图片存放在 R2 对象存储，为**娱乐向配图**，不构成专业建议。\n- 免费排盘与公开页面可自由抓取引用；`/design-system` 为内部设计系统页，已在 robots.txt 中 Disallow。\n\n## 合规与联系\n\n- 定位：纯海外运营 · 娱乐与自我反思 · 18+ · 不做大陆市场\n- 联系：Telegram 内 `/start` 后即可与客服 Bot 对话；开源/技术问题请见仓库说明（[agents.md](https://kismet.my/agents.md)）\n- 仓库为私有 monorepo，不对外提供代码访问；文档以本站 llms.txt / agents.md / openapi.json 为准\n",
+      "url": "https://kismet.my/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "# MyKismet · 我的天命（完整版 llms-full.txt）\n\n> AI 多术数占卜订阅平台：紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引。Telegram Bot 每日双推送 + Web 报告；$9.9/月起订阅 + 星珀（credits）积分深度服务。\n\n**合规定位**：娱乐与自我反思用途（For entertainment and reflection only），不替代专业建议；18+；纯海外运营，不做大陆市场。\n\n**最后更新**：2026-11-16（MIG-01 积分汇率重锚：1 USD = 100 星珀）\n\n## 产品\n\n- 五大术数：紫微斗数、八字（四柱）、易经（卦象）、西方占星、塔罗。\n- 核心流程：[首页](https://kismet.my/) → [5 步排盘引导](https://kismet.my/onboarding) → 生成个人命盘 → 每日晨光谕（早）/ 夜星尘（晚）双推送 → 深度报告与追问（消耗星珀）。\n- 免费排盘演示在首页 `#demo`；定价在首页 `#pricing`。\n- 其他页面：[星珀积分](https://kismet.my/credits)、[设置](https://kismet.my/settings)、[订阅](https://kismet.my/subscribe)（规划中）、[管理后台](https://kismet.my/admin)（需管理员账号）。\n\n## 定价（USD，唯一取值来源 packages/shared/src/pricing.ts）\n\n### 订阅方案（含每月 400 星珀赠送）\n\n| 方案 | 周期 | 价格 | 月均 |\n| --- | --- | --- | --- |\n| 新月 New Moon | 1 月 | $9.9 | $9.90 |\n| 弦月 Crescent | 3 月 | $26.9 | $8.97 |\n| 盈月 Gibbous | 6 月 | $49.9 | $8.32 |\n| 满月 Full Moon（推荐） | 12 月 | $89.9 | $7.49 |\n\n- 首月体验价：$4.9（仅首次订阅一次性，之后恢复标准价）。\n\n### 星珀积分包\n\n| 积分包 | 价格 | 星珀 |\n| --- | --- | --- |\n| 小袋 Pouch | $4.9 | 490（基准） |\n| 布袋 Satchel | $9.9 | 1,050（990+60赠） |\n| 琥珀匣 Amber Box | $19.9 | 2,190（1990+200赠） |\n\n### 星珀消耗价目（示例）\n\n- 追问 followup 10 · 深度日运 dailyDeep 30 · 易经深解 ichingDeep 55\n- 塔罗单张 40 / 三张 65 · 梦境 dream 45 · 择时 timing 70\n- 合盘 synastry 180 · 八字年运 220 · 紫微报告 280 · 年度全景 370 · 补签 makeupCheckin 50\n\n### 赠送渠道（示例）\n\n- 每日签到 2、连续 7 天额外 15、30 天额外 60、100 天额外 250 星珀\n- 邀请好友每位 60、每月最多 20 位好友；回响应验每次 3（每月最多 10）\n\n## 路由表（Web SPA，https://kismet.my）\n\n| 路径 | 说明 |\n| --- | --- |\n| `/` | 落地页：hero、免费排盘 `#demo`、人格测试、定价 `#pricing` |\n| `/onboarding` | 5 步生辰向导，铸成命盘 |\n| `/credits` | 星珀余额、获取与流水 |\n| `/settings` | TG 绑定、推送时间、语言、城市时区 |\n| `/subscribe` | 订阅入口（规划中；当前见首页 `#pricing`） |\n| `/admin` | 管理后台（账号+密码，管理员 JWT） |\n| `/llms.txt` `/llms-full.txt` `/agents.md` `/openapi.json` | AI/Agent 文档（静态文件） |\n| `/sitemap.xml` `/robots.txt` | 抓取配置 |\n\n未知路径回退 index.html（SPA `not_found_handling`）。\n\n## REST API 摘要\n\nBase：`https://api.kismet.my/api`，JSON，UTF-8。除标注「公开」外需 `Authorization: Bearer <JWT>`（JWT 由 Telegram 登录签发，30 天有效）。\n\n| 方法 | 路径 | 说明 |\n| --- | --- | --- |\n| GET | `/api/health` | 健康检查（公开），返回 `status: ok\\|degraded` |\n| POST | `/api/auth/tg` | Telegram initData 验证 → 建号/更新 → 签发 JWT（公开） |\n| GET | `/api/me` | 当前用户资料 |\n| PATCH | `/api/me` | 更新昵称/语言/时区/城市/推送偏好等 |\n| GET | `/api/me/tags` | 用户标签列表 |\n| DELETE | `/api/me/tags/{id}` | 删除标签 |\n| POST | `/api/me/tg-bind` | 绑定 TG |\n| GET | `/api/billing/summary` | 星珀余额、订阅状态 |\n| GET | `/api/billing/ledger` | 星珀流水（游标分页） |\n| POST | `/api/billing/webhook` | 支付回调（公开，签名校验） |\n| GET | `/api/admin/*` | 管理台：`login`/`me`/`password`/`llm/models`/`llm/settings`/`llm/test`/`users`/`pushes`/`finance`（管理员 JWT） |\n\n完整规范见 [openapi.json](https://kismet.my/openapi.json)（OpenAPI 3.1）。错误统一为 `{ \"error\": { \"code\", \"message\" } }`。\n\n## 架构（一句话）\n\n- `apps/web`：Vite + React SPA，Cloudflare Workers 静态托管（kismet.my）。\n- `apps/worker`：Cloudflare Worker — `/api/*` REST、`/tg/webhook`、cron 调度与推送。\n- 数据：D1（用户/账务）+ KV（缓存/对话状态）+ R2（报告配图，娱乐向）。\n\n## 内容与媒体（R2）\n\n- 每日推送与深度报告的配图存放于 R2 对象存储，通过 CDN URL 访问；均为娱乐向插画/图表，不构成专业建议。\n- `/design-system` 为内部设计系统页，robots.txt 已 Disallow。\n\n## 联系与仓库\n\n- 用户支持：Telegram Bot 内 `/start` 后直接对话。\n- 技术/仓库：私有 monorepo，不对外提供代码；agent 请读 [agents.md](https://kismet.my/agents.md)。\n- 本站文档：[llms.txt](https://kismet.my/llms.txt) · [llms-full.txt](https://kismet.my/llms-full.txt) · [agents.md](https://kismet.my/agents.md) · [openapi.json](https://kismet.my/openapi.json)\n",
+      "url": "https://kismet.my/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content=\"MyKismet 我的天命 — 紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引（娱乐与自我反思定位）。\" />\n    <meta name=\"theme-color\" content=\"#131A3A\" />\n    <link rel=\"canonical\" href=\"https://kismet.my/\" />\n\n    <!-- AI/Agent 文档入口（llms.txt 家族 + OpenAPI，AFR 2026-11-12 整改） -->\n    <link rel=\"alternate\" type=\"text/plain\" title=\"llms.txt\" href=\"/llms.txt\" />\n    <link rel=\"alternate\" type=\"text/plain\" title=\"llms-full.txt\" href=\"/llms-full.txt\" />\n    <link rel=\"alternate\" type=\"text/markdown\" title=\"agents.md\" href=\"/agents.md\" />\n\n    <!-- 日期信号（AFR 内容信号项） -->\n    <meta property=\"article:modified_time\" content=\"2026-11-12T00:00:00+08:00\" />\n\n    <!-- 结构化数据 JSON-LD（AFR 结构化数据项） -->\n    <script type=\"application/ld+json\">\n      {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"WebSite\",\n        \"name\": \"MyKismet\",\n        \"alternateName\": \"我的天命\",\n        \"url\": \"https://kismet.my/\",\n        \"inLanguage\": \"zh-CN\",\n        \"dateModified\": \"2026-11-12\",\n        \"description\": \"MyKismet 我的天命 — 紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引（娱乐与自我反思定位）。\"\n      }\n    </script>\n    <script type=\"application/ld+json\">\n      {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"WebApplication\",\n        \"name\": \"MyKismet 我的天命\",\n        \"url\": \"https://kismet.my/\",\n        \"applicationCategory\": \"LifestyleApplication\",\n        \"inLanguage\": \"zh-CN\",\n        \"dateModified\": \"2026-11-12\",\n        \"operatingSystem\": \"Web\",\n        \"offers\": { \"@type\": \"Offer\", \"price\": \"9.9\", \"priceCurrency\": \"USD\" },\n        \"description\": \"AI 多术数占卜订阅平台：五大术数排盘 + Telegram 每日双推送 + 深度报告，$9.9/月起。娱乐与自我反思用途。\"\n      }\n    </script>\n\n    <!-- OG（O-1 分享图：19.1.2 矢量产出 /logo/og-1200x630.svg） -->\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"MyKismet · 我的天命\" />\n    <meta property=\"og:description\" content=\"你的天命，每天两次，为你点亮 —— 五大术数 × AI 每日指引。\" />\n    <meta property=\"og:url\" content=\"https://kismet.my/\" />\n    <meta property=\"og:locale\" content=\"zh_CN\" />\n    <meta property=\"og:image\" content=\"https://kismet.my/logo/og-1200x630.svg\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:type\" content=\"image/svg+xml\" />\n    <meta property=\"og:image:alt\" content=\"MyKismet · 我的天命 — 品牌分享图\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n\n    <!-- 矢量 logo favicon（19.1.2 B2.3：L1 新月+四芒星，SVG 主图标 32 + 备用 16） -->\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/logo/favicon-32.svg\" />\n    <link rel=\"alternate icon\" type=\"image/svg+xml\" href=\"/logo/favicon-16.svg\" />\n    <!-- 注：iOS apple-touch-icon 实际只认 PNG，SVG 仅为占位；PNG 待后续补（[D-05] 禁位图上产，本阶段不产出位图） -->\n    <link rel=\"apple-touch-icon\" href=\"/logo/avatar-512.svg\" />\n\n    <!-- 字体（19.2.2）：\n         ① KismetDisplay 全站子集 + Inter 主分片本地 preload（两个 woff2 主文件，\n            19.2.2）——首屏字体在 JS 渲染前就绪，避免晚到重绘拖 LCP；\n         ② Cormorant Garamond（拉丁展示体）按需懒加载；\n         ③ 不外链 Google Fonts（19.8 LCP ≤2.5s；实测外链时 LCP 5.4–10.5s）。 -->\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/kismet-display-subset.woff2\" crossorigin />\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/inter-var.woff2\" crossorigin />\n\n    <title>MyKismet · 我的天命</title>\n    <script type=\"module\" crossorigin src=\"/assets/index-CerMokyy.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/jsx-runtime-DEfLJY2d.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-CUVbIi1_.css\">\n  </head>\n  <body>\n    <!-- 语义化回退（no-JS / React 挂载前）：createRoot 挂载后整体替换；\n         唯一 h1 + 地标 + 正文词数的静态兜底，不外链字体、样式克制避免闪屏 -->\n    <div id=\"root\">\n      <header style=\"padding: 48px 24px 0; max-width: 760px; margin: 0 auto; font-family: var(--font-body, system-ui, sans-serif);\">\n        <h1 style=\"font-family: var(--font-display, var(--font-body, system-ui, sans-serif)); font-size: clamp(26px, 5vw, 40px); line-height: 1.3; margin: 0 0 12px; color: var(--text-primary, #131a3a);\">\n          MyKismet 我的天命 — 五大术数 × AI 每日运势指引\n        </h1>\n        <nav aria-label=\"站点信息\" style=\"font-size: 14px;\">\n          <a href=\"/llms.txt\" style=\"color: var(--ember-400, #c2622a); margin-right: 16px;\">llms.txt</a>\n          <a href=\"/agents.md\" style=\"color: var(--ember-400, #c2622a); margin-right: 16px;\">agents.md</a>\n          <a href=\"/openapi.json\" style=\"color: var(--ember-400, #c2622a);\">API 文档</a>\n        </nav>\n      </header>\n      <main style=\"max-width: 760px; margin: 0 auto; padding: 16px 24px 48px; font-family: var(--font-body, system-ui, sans-serif); color: var(--text-primary, #131a3a);\">\n        <p style=\"line-height: 1.8;\">\n          MyKismet 我的天命是一个 AI 多术数占卜订阅平台，融合紫微斗数、八字、易经、西方占星与塔罗五大体系，\n          为每位用户生成专属命盘，并通过 Telegram Bot 每天两次（晨光谕与夜星尘）推送个性化的运势指引。\n        </p>\n        <p style=\"line-height: 1.8;\">\n          用户完成五步生辰引导即可铸成命盘，免费查看基础解读；订阅会员（每月 $9.9 起）可解锁每日深度报告与无限追问，\n          也可使用星珀积分单独兑换合盘、年运、梦境与择时等深度服务。所有解读仅供娱乐与自我反思，不构成任何专业建议。\n        </p>\n        <p style=\"line-height: 1.8;\">\n          站点面向人类读者与 AI 助手同样友好：你可以通过 llms.txt 与 agents.md 快速了解产品结构，\n          通过 openapi.json 获取公开 REST API 规范。请即刻开始你的排盘旅程，点亮属于你的天命星轨。\n        </p>\n      </main>\n      <footer style=\"max-width: 760px; margin: 0 auto; padding: 16px 24px 48px; font-family: var(--font-body, system-ui, sans-serif); font-size: 13px; color: var(--ink-500, #8a8fb8);\">\n        <p style=\"margin: 0; line-height: 1.7;\">\n          MyKismet 我的天命 · 灵性指引 · 能量流转 · 守护隐私。本站内容仅供娱乐与自我反思，不构成医疗、法律、财务等专业建议；18+。\n        </p>\n      </footer>\n    </div>\n    <noscript>MyKismet 需要 JavaScript 才能绘制你的星图。</noscript>\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"162519a762da46a8872f763613ffeb37\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://kismet.my/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://kismet.my/</loc>\n    <lastmod>2026-11-11</lastmod>\n    <changefreq>weekly</changefreq>\n  </url>\n</urlset>\n",
+      "url": "https://kismet.my/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "# agents.md — MyKismet（kismet.my）仓库指南\n\n面向编码 agent / 开发者的仓库结构与本地开发说明。产品与技术的**唯一事实源（SSOT）**在仓库内，冲突以它为准。\n\n## 产品一句话\n\nMyKismet 我的天命：AI 多术数占卜订阅平台（紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗），Telegram Bot 每日双推送 + Web 报告，$9.9/月起订阅 + 星珀积分深度服务。合规定位：纯海外 · 娱乐与自我反思 · 18+。\n\n## 仓库结构（monorepo，npm workspaces）\n\n```\napps/web/         Vite + React SPA（Cloudflare Workers 静态托管，kismet.my）\n                  wrangler.toml not_found_handling=single-page-application（未知路径回退 index.html）\napps/worker/      Cloudflare Worker — /api/* REST + /tg/webhook + /internal/* + cron 调度与推送\npackages/engine/  术数引擎（iztro 紫微 + lunar-typescript 八字/黄历）\npackages/shared/  共享常量（定价/星珀/品牌 BRAND）+ zod schema\nmigrations/       D1 SQL 迁移（顺序编号目录）\ndocs/             SSOT 方案书、可行性分析、运维手册\n```\n\n- 关键文件：`packages/shared/src/pricing.ts`（**价格唯一取值来源**，改动需同步 `packages/shared/tests/pricing.test.ts` 的恒等式断言）。\n- 前端路由集中在 `apps/web/src/App.tsx`：`/`、`/onboarding`、`/settings`、`/credits`、`/admin/*`。\n- Worker 路由分发在 `apps/worker/src/index.ts`；子路由在 `apps/worker/src/routes/`。\n\n## SSOT 文档路径\n\n- 产品与技术方案（SSOT）：`docs/product/MyKismet我的天命-产品与落地方案v1.1.txt`\n- 可行性分析：`docs/feasibility-review.md`\n- 运维手册：`docs/ops-runbook.md`（架构入口、升级触发器、密钥清单、灰度对账、事故处理）\n- 静态站点 AI 文档（部署后可访问）：`/llms.txt`、`/llms-full.txt`、`/agents.md`、`/openapi.json`（源文件在 `apps/web/public/`）\n\n## 本地开发\n\n```bash\nnpm install\nnpm run dev:web    # 前端 Vite dev server\nnpm run dev:api    # wrangler dev（Worker 本地 API）\nnpm run db:migrate:local   # 本地 D1 迁移\n```\n\n## 测试与校验（提交前三绿）\n\n```bash\nnpm run typecheck  # 各 workspace tsc --noEmit\nnpm test           # vitest run（packages/*/tests + apps/*/tests）\nnpm run build      # web 构建，产物在 apps/web/dist\n```\n\n- 构建产物应包含 `llms.txt` / `llms-full.txt` / `agents.md` / `openapi.json` / `robots.txt` / `sitemap.xml`（来自 `apps/web/public/`）。\n\n## 约束与红线\n\n- **绝不**把密钥/token 写入代码、文档或提交（`.dev.vars`、`tmp/` 只在本机，勿读勿提交）。\n- 不动 `migrations/` 既有编号迁移（只增新目录）；`packages/shared/src/pricing.ts` 价格改动必须同步测试。\n- 设计红线：金色占比 ≤5%、暖橙为高优先配额、不外链字体（LCP ≤2.5s 预算）。\n- 站点内容为娱乐向，所有对外文案保留 R2 娱乐声明。\n\n## 联系\n\n- 用户支持：Telegram Bot 内 `/start`。\n- 仓库为私有 monorepo，不对外提供代码访问。\n",
+      "url": "https://kismet.my/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://kismet.my/openapi.json"
+      ]
+    },
+    "apiDocs": {
+      "found": true,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://kismet.my/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content=\"MyKismet 我的天命 — 紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引（娱乐与自我反思定位）。\" />\n    <meta name=\"theme-color\" content=\"#131A3A\" />\n    <link rel=\"canonical\" href=\"https://kismet.my/\" />\n\n    <!-- AI/Agent 文档入口（llms.txt 家族 + OpenAPI，AFR 2026-11-12 整改） -->\n    <link rel=\"alternate\" type=\"text/plain\" title=\"llms.txt\" href=\"/llms.txt\" />\n    <link rel=\"alternate\" type=\"text/plain\" title=\"llms-full.txt\" href=\"/llms-full.txt\" />\n    <link rel=\"alternate\" type=\"text/markdown\" title=\"agents.md\" href=\"/agents.md\" />\n\n    <!-- 日期信号（AFR 内容信号项） -->\n    <meta property=\"article:modified_time\" content=\"2026-11-12T00:00:00+08:00\" />\n\n    <!-- 结构化数据 JSON-LD（AFR 结构化数据项） -->\n    <script type=\"application/ld+json\">\n      {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"WebSite\",\n        \"name\": \"MyKismet\",\n        \"alternateName\": \"我的天命\",\n        \"url\": \"https://kismet.my/\",\n        \"inLanguage\": \"zh-CN\",\n        \"dateModified\": \"2026-11-12\",\n        \"description\": \"MyKismet 我的天命 — 紫微斗数 × 八字 × 易经 × 西方占星 × 塔罗，五大术数 × AI 的每日运势指引（娱乐与自我反思定位）。\"\n      }\n    </script>\n    <script type=\"application/ld+json\">\n      {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"WebApplication\",\n        \"name\": \"MyKismet 我的天命\",\n        \"url\": \"https://kismet.my/\",\n        \"applicationCategory\": \"LifestyleApplication\",\n        \"inLanguage\": \"zh-CN\",\n        \"dateModified\": \"2026-11-12\",\n        \"operatingSystem\": \"Web\",\n        \"offers\": { \"@type\": \"Offer\", \"price\": \"9.9\", \"priceCurrency\": \"USD\" },\n        \"description\": \"AI 多术数占卜订阅平台：五大术数排盘 + Telegram 每日双推送 + 深度报告，$9.9/月起。娱乐与自我反思用途。\"\n      }\n    </script>\n\n    <!-- OG（O-1 分享图：19.1.2 矢量产出 /logo/og-1200x630.svg） -->\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"MyKismet · 我的天命\" />\n    <meta property=\"og:description\" content=\"你的天命，每天两次，为你点亮 —— 五大术数 × AI 每日指引。\" />\n    <meta property=\"og:url\" content=\"https://kismet.my/\" />\n    <meta property=\"og:locale\" content=\"zh_CN\" />\n    <meta property=\"og:image\" content=\"https://kismet.my/logo/og-1200x630.svg\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:type\" content=\"image/svg+xml\" />\n    <meta property=\"og:image:alt\" content=\"MyKismet · 我的天命 — 品牌分享图\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n\n    <!-- 矢量 logo favicon（19.1.2 B2.3：L1 新月+四芒星，SVG 主图标 32 + 备用 16） -->\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/logo/favicon-32.svg\" />\n    <link rel=\"alternate icon\" type=\"image/svg+xml\" href=\"/logo/favicon-16.svg\" />\n    <!-- 注：iOS apple-touch-icon 实际只认 PNG，SVG 仅为占位；PNG 待后续补（[D-05] 禁位图上产，本阶段不产出位图） -->\n    <link rel=\"apple-touch-icon\" href=\"/logo/avatar-512.svg\" />\n\n    <!-- 字体（19.2.2）：\n         ① KismetDisplay 全站子集 + Inter 主分片本地 preload（两个 woff2 主文件，\n            19.2.2）——首屏字体在 JS 渲染前就绪，避免晚到重绘拖 LCP；\n         ② Cormorant Garamond（拉丁展示体）按需懒加载；\n         ③ 不外链 Google Fonts（19.8 LCP ≤2.5s；实测外链时 LCP 5.4–10.5s）。 -->\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/kismet-display-subset.woff2\" crossorigin />\n    <link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/fonts/inter-var.woff2\" crossorigin />\n\n    <title>MyKismet · 我的天命</title>\n    <script type=\"module\" crossorigin src=\"/assets/index-CerMokyy.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/jsx-runtime-DEfLJY2d.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-CUVbIi1_.css\">\n  </head>\n  <body>\n    <!-- 语义化回退（no-JS / React 挂载前）：createRoot 挂载后整体替换；\n         唯一 h1 + 地标 + 正文词数的静态兜底，不外链字体、样式克制避免闪屏 -->\n    <div id=\"root\">\n      <header style=\"padding: 48px 24px 0; max-width: 760px; margin: 0 auto; font-family: var(--font-body, system-ui, sans-serif);\">\n        <h1 style=\"font-family: var(--font-display, var(--font-body, system-ui, sans-serif)); font-size: clamp(26px, 5vw, 40px); line-height: 1.3; margin: 0 0 12px; color: var(--text-primary, #131a3a);\">\n          MyKismet 我的天命 — 五大术数 × AI 每日运势指引\n        </h1>\n        <nav aria-label=\"站点信息\" style=\"font-size: 14px;\">\n          <a href=\"/llms.txt\" style=\"color: var(--ember-400, #c2622a); margin-right: 16px;\">llms.txt</a>\n          <a href=\"/agents.md\" style=\"color: var(--ember-400, #c2622a); margin-right: 16px;\">agents.md</a>\n          <a href=\"/openapi.json\" style=\"color: var(--ember-400, #c2622a);\">API 文档</a>\n        </nav>\n      </header>\n      <main style=\"max-width: 760px; margin: 0 auto; padding: 16px 24px 48px; font-family: var(--font-body, system-ui, sans-serif); color: var(--text-primary, #131a3a);\">\n        <p style=\"line-height: 1.8;\">\n          MyKismet 我的天命是一个 AI 多术数占卜订阅平台，融合紫微斗数、八字、易经、西方占星与塔罗五大体系，\n          为每位用户生成专属命盘，并通过 Telegram Bot 每天两次（晨光谕与夜星尘）推送个性化的运势指引。\n        </p>\n        <p style=\"line-height: 1.8;\">\n          用户完成五步生辰引导即可铸成命盘，免费查看基础解读；订阅会员（每月 $9.9 起）可解锁每日深度报告与无限追问，\n          也可使用星珀积分单独兑换合盘、年运、梦境与择时等深度服务。所有解读仅供娱乐与自我反思，不构成任何专业建议。\n        </p>\n        <p style=\"line-height: 1.8;\">\n          站点面向人类读者与 AI 助手同样友好：你可以通过 llms.txt 与 agents.md 快速了解产品结构，\n          通过 openapi.json 获取公开 REST API 规范。请即刻开始你的排盘旅程，点亮属于你的天命星轨。\n        </p>\n      </main>\n      <footer style=\"max-width: 760px; margin: 0 auto; padding: 16px 24px 48px; font-family: var(--font-body, system-ui, sans-serif); font-size: 13px; color: var(--ink-500, #8a8fb8);\">\n        <p style=\"margin: 0; line-height: 1.7;\">\n          MyKismet 我的天命 · 灵性指引 · 能量流转 · 守护隐私。本站内容仅供娱乐与自我反思，不构成医疗、法律、财务等专业建议；18+。\n        </p>\n      </footer>\n    </div>\n    <noscript>MyKismet 需要 JavaScript 才能绘制你的星图。</noscript>\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"162519a762da46a8872f763613ffeb37\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://kismet.my/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "kismet.my",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-17T09:49:50.868Z",
+    "score": 86,
+    "grade": "A",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 32.67,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 22.67,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 4.50/6 · training 9.17/10; strategy tag Middle-Path. Unconfigured examples: ChatGPT-User, Claude-User, Amazonbot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 37,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 14,
+            "max": 14,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage links to llms.txt"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 8,
+            "max": 8,
+            "status": "pass",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "JSON-LD blocks ×2; contains key schema.org type; JSON-LD parsable"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 7,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 4/4; single h1; html[lang] present; body text 51 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 4,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"MyKismet · 我的天命\"; meta description 72 chars; date signal present; body text 51 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 16,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 8,
+            "max": 8,
+            "status": "pass",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "llms.txt references an API; homepage links API/docs paths; OpenAPI document discovered; API documentation entry point present; OpenAPI: https://kismet.my/openapi.json"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://kismet.my/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 22.67,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 14,
+      "l2.structured-data": 8,
+      "l2.semantic-html": 7,
+      "l2.sitemap": 4,
+      "l2.content-signals": 4,
+      "l3.public-api": 8,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}
