@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "snaptube.com",
+    "fetchedAt": "2026-11-18T03:05:18.448Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n<head>\n<title>Service Availability</title>\n<meta charset=UTF-8>\n<meta name=viewport content=\"width=device-width,initial-scale=1\">\n<link rel=icon type=image/x-icon href=/favicon.ico>\n</head>\n<body>\n<div id=message style=color:#000;text-align:center;margin-top:25%;padding:20px>\nSorry, our services are not available in Your region due to legal and regulatory restrictions.\n</div>\n<script>const countryCodeMap=new Map([[\"AT\",\"Austria\"],[\"AU\",\"Australia\"],[\"BE\",\"Belgium\"],[\"BG\",\"Bulgaria\"],[\"CA\",\"Canada\"],[\"CN\",\"China\"],[\"CY\",\"Cyprus\"],[\"DE\",\"Germany\"],[\"DK\",\"Denmark\"],[\"EE\",\"Estonia\"],[\"ES\",\"Spain\"],[\"FI\",\"Finland\"],[\"FR\",\"France\"],[\"GB\",\"United Kingdom\"],[\"GR\",\"Greece\"],[\"HK\",\"Hong Kong\"],[\"HR\",\"Croatia\"],[\"HU\",\"Hungary\"],[\"IE\",\"Ireland\"],[\"IT\",\"Italy\"],[\"JP\",\"Japan\"],[\"KR\",\"South Korea\"],[\"LT\",\"Lithuania\"],[\"LU\",\"Luxembourg\"],[\"LV\",\"Latvia\"],[\"MO\",\"Macau\"],[\"MT\",\"Malta\"],[\"NL\",\"Netherlands\"],[\"NZ\",\"New Zealand\"],[\"PL\",\"Poland\"],[\"PT\",\"Portugal\"],[\"RO\",\"Romania\"],[\"SE\",\"Sweden\"],[\"SI\",\"Slovenia\"],[\"SK\",\"Slovakia\"],[\"US\",\"United States\"]]),countriesNeedingThe=new Set([\"GB\",\"NL\",\"US\"]);document.addEventListener(\"DOMContentLoaded\",(async()=>{const e=document.getElementById(\"message\");try{const a=(await fetch(\"https://ad-static.nxtsun.com/geo/c.js\")).headers.get(\"countrycode\");if(a){const n=a.toUpperCase(),t=countryCodeMap.get(n)||n;let o;o=countriesNeedingThe.has(n)?`Sorry, our services are not available in the <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`:`Sorry, our services are not available in <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`,e.innerHTML=o}}catch(e){console.error(\"Error fetching or processing country code:\",e)}}))</script>\n</body>\n</html>",
+      "url": "https://www.snaptube.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n<head>\n<title>Service Availability</title>\n<meta charset=UTF-8>\n<meta name=viewport content=\"width=device-width,initial-scale=1\">\n<link rel=icon type=image/x-icon href=/favicon.ico>\n</head>\n<body>\n<div id=message style=color:#000;text-align:center;margin-top:25%;padding:20px>\nSorry, our services are not available in Your region due to legal and regulatory restrictions.\n</div>\n<script>const countryCodeMap=new Map([[\"AT\",\"Austria\"],[\"AU\",\"Australia\"],[\"BE\",\"Belgium\"],[\"BG\",\"Bulgaria\"],[\"CA\",\"Canada\"],[\"CN\",\"China\"],[\"CY\",\"Cyprus\"],[\"DE\",\"Germany\"],[\"DK\",\"Denmark\"],[\"EE\",\"Estonia\"],[\"ES\",\"Spain\"],[\"FI\",\"Finland\"],[\"FR\",\"France\"],[\"GB\",\"United Kingdom\"],[\"GR\",\"Greece\"],[\"HK\",\"Hong Kong\"],[\"HR\",\"Croatia\"],[\"HU\",\"Hungary\"],[\"IE\",\"Ireland\"],[\"IT\",\"Italy\"],[\"JP\",\"Japan\"],[\"KR\",\"South Korea\"],[\"LT\",\"Lithuania\"],[\"LU\",\"Luxembourg\"],[\"LV\",\"Latvia\"],[\"MO\",\"Macau\"],[\"MT\",\"Malta\"],[\"NL\",\"Netherlands\"],[\"NZ\",\"New Zealand\"],[\"PL\",\"Poland\"],[\"PT\",\"Portugal\"],[\"RO\",\"Romania\"],[\"SE\",\"Sweden\"],[\"SI\",\"Slovenia\"],[\"SK\",\"Slovakia\"],[\"US\",\"United States\"]]),countriesNeedingThe=new Set([\"GB\",\"NL\",\"US\"]);document.addEventListener(\"DOMContentLoaded\",(async()=>{const e=document.getElementById(\"message\");try{const a=(await fetch(\"https://ad-static.nxtsun.com/geo/c.js\")).headers.get(\"countrycode\");if(a){const n=a.toUpperCase(),t=countryCodeMap.get(n)||n;let o;o=countriesNeedingThe.has(n)?`Sorry, our services are not available in the <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`:`Sorry, our services are not available in <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`,e.innerHTML=o}}catch(e){console.error(\"Error fetching or processing country code:\",e)}}))</script>\n</body>\n</html>",
+      "url": "https://www.snaptube.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n<head>\n<title>Service Availability</title>\n<meta charset=UTF-8>\n<meta name=viewport content=\"width=device-width,initial-scale=1\">\n<link rel=icon type=image/x-icon href=/favicon.ico>\n</head>\n<body>\n<div id=message style=color:#000;text-align:center;margin-top:25%;padding:20px>\nSorry, our services are not available in Your region due to legal and regulatory restrictions.\n</div>\n<script>const countryCodeMap=new Map([[\"AT\",\"Austria\"],[\"AU\",\"Australia\"],[\"BE\",\"Belgium\"],[\"BG\",\"Bulgaria\"],[\"CA\",\"Canada\"],[\"CN\",\"China\"],[\"CY\",\"Cyprus\"],[\"DE\",\"Germany\"],[\"DK\",\"Denmark\"],[\"EE\",\"Estonia\"],[\"ES\",\"Spain\"],[\"FI\",\"Finland\"],[\"FR\",\"France\"],[\"GB\",\"United Kingdom\"],[\"GR\",\"Greece\"],[\"HK\",\"Hong Kong\"],[\"HR\",\"Croatia\"],[\"HU\",\"Hungary\"],[\"IE\",\"Ireland\"],[\"IT\",\"Italy\"],[\"JP\",\"Japan\"],[\"KR\",\"South Korea\"],[\"LT\",\"Lithuania\"],[\"LU\",\"Luxembourg\"],[\"LV\",\"Latvia\"],[\"MO\",\"Macau\"],[\"MT\",\"Malta\"],[\"NL\",\"Netherlands\"],[\"NZ\",\"New Zealand\"],[\"PL\",\"Poland\"],[\"PT\",\"Portugal\"],[\"RO\",\"Romania\"],[\"SE\",\"Sweden\"],[\"SI\",\"Slovenia\"],[\"SK\",\"Slovakia\"],[\"US\",\"United States\"]]),countriesNeedingThe=new Set([\"GB\",\"NL\",\"US\"]);document.addEventListener(\"DOMContentLoaded\",(async()=>{const e=document.getElementById(\"message\");try{const a=(await fetch(\"https://ad-static.nxtsun.com/geo/c.js\")).headers.get(\"countrycode\");if(a){const n=a.toUpperCase(),t=countryCodeMap.get(n)||n;let o;o=countriesNeedingThe.has(n)?`Sorry, our services are not available in the <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`:`Sorry, our services are not available in <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`,e.innerHTML=o}}catch(e){console.error(\"Error fetching or processing country code:\",e)}}))</script>\n</body>\n</html>",
+      "url": "https://www.snaptube.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n<head>\n<title>Service Availability</title>\n<meta charset=UTF-8>\n<meta name=viewport content=\"width=device-width,initial-scale=1\">\n<link rel=icon type=image/x-icon href=/favicon.ico>\n</head>\n<body>\n<div id=message style=color:#000;text-align:center;margin-top:25%;padding:20px>\nSorry, our services are not available in Your region due to legal and regulatory restrictions.\n</div>\n<script>const countryCodeMap=new Map([[\"AT\",\"Austria\"],[\"AU\",\"Australia\"],[\"BE\",\"Belgium\"],[\"BG\",\"Bulgaria\"],[\"CA\",\"Canada\"],[\"CN\",\"China\"],[\"CY\",\"Cyprus\"],[\"DE\",\"Germany\"],[\"DK\",\"Denmark\"],[\"EE\",\"Estonia\"],[\"ES\",\"Spain\"],[\"FI\",\"Finland\"],[\"FR\",\"France\"],[\"GB\",\"United Kingdom\"],[\"GR\",\"Greece\"],[\"HK\",\"Hong Kong\"],[\"HR\",\"Croatia\"],[\"HU\",\"Hungary\"],[\"IE\",\"Ireland\"],[\"IT\",\"Italy\"],[\"JP\",\"Japan\"],[\"KR\",\"South Korea\"],[\"LT\",\"Lithuania\"],[\"LU\",\"Luxembourg\"],[\"LV\",\"Latvia\"],[\"MO\",\"Macau\"],[\"MT\",\"Malta\"],[\"NL\",\"Netherlands\"],[\"NZ\",\"New Zealand\"],[\"PL\",\"Poland\"],[\"PT\",\"Portugal\"],[\"RO\",\"Romania\"],[\"SE\",\"Sweden\"],[\"SI\",\"Slovenia\"],[\"SK\",\"Slovakia\"],[\"US\",\"United States\"]]),countriesNeedingThe=new Set([\"GB\",\"NL\",\"US\"]);document.addEventListener(\"DOMContentLoaded\",(async()=>{const e=document.getElementById(\"message\");try{const a=(await fetch(\"https://ad-static.nxtsun.com/geo/c.js\")).headers.get(\"countrycode\");if(a){const n=a.toUpperCase(),t=countryCodeMap.get(n)||n;let o;o=countriesNeedingThe.has(n)?`Sorry, our services are not available in the <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`:`Sorry, our services are not available in <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`,e.innerHTML=o}}catch(e){console.error(\"Error fetching or processing country code:\",e)}}))</script>\n</body>\n</html>",
+      "url": "https://www.snaptube.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n<head>\n<title>Service Availability</title>\n<meta charset=UTF-8>\n<meta name=viewport content=\"width=device-width,initial-scale=1\">\n<link rel=icon type=image/x-icon href=/favicon.ico>\n</head>\n<body>\n<div id=message style=color:#000;text-align:center;margin-top:25%;padding:20px>\nSorry, our services are not available in Your region due to legal and regulatory restrictions.\n</div>\n<script>const countryCodeMap=new Map([[\"AT\",\"Austria\"],[\"AU\",\"Australia\"],[\"BE\",\"Belgium\"],[\"BG\",\"Bulgaria\"],[\"CA\",\"Canada\"],[\"CN\",\"China\"],[\"CY\",\"Cyprus\"],[\"DE\",\"Germany\"],[\"DK\",\"Denmark\"],[\"EE\",\"Estonia\"],[\"ES\",\"Spain\"],[\"FI\",\"Finland\"],[\"FR\",\"France\"],[\"GB\",\"United Kingdom\"],[\"GR\",\"Greece\"],[\"HK\",\"Hong Kong\"],[\"HR\",\"Croatia\"],[\"HU\",\"Hungary\"],[\"IE\",\"Ireland\"],[\"IT\",\"Italy\"],[\"JP\",\"Japan\"],[\"KR\",\"South Korea\"],[\"LT\",\"Lithuania\"],[\"LU\",\"Luxembourg\"],[\"LV\",\"Latvia\"],[\"MO\",\"Macau\"],[\"MT\",\"Malta\"],[\"NL\",\"Netherlands\"],[\"NZ\",\"New Zealand\"],[\"PL\",\"Poland\"],[\"PT\",\"Portugal\"],[\"RO\",\"Romania\"],[\"SE\",\"Sweden\"],[\"SI\",\"Slovenia\"],[\"SK\",\"Slovakia\"],[\"US\",\"United States\"]]),countriesNeedingThe=new Set([\"GB\",\"NL\",\"US\"]);document.addEventListener(\"DOMContentLoaded\",(async()=>{const e=document.getElementById(\"message\");try{const a=(await fetch(\"https://ad-static.nxtsun.com/geo/c.js\")).headers.get(\"countrycode\");if(a){const n=a.toUpperCase(),t=countryCodeMap.get(n)||n;let o;o=countriesNeedingThe.has(n)?`Sorry, our services are not available in the <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`:`Sorry, our services are not available in <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`,e.innerHTML=o}}catch(e){console.error(\"Error fetching or processing country code:\",e)}}))</script>\n</body>\n</html>",
+      "url": "https://www.snaptube.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n<head>\n<title>Service Availability</title>\n<meta charset=UTF-8>\n<meta name=viewport content=\"width=device-width,initial-scale=1\">\n<link rel=icon type=image/x-icon href=/favicon.ico>\n</head>\n<body>\n<div id=message style=color:#000;text-align:center;margin-top:25%;padding:20px>\nSorry, our services are not available in Your region due to legal and regulatory restrictions.\n</div>\n<script>const countryCodeMap=new Map([[\"AT\",\"Austria\"],[\"AU\",\"Australia\"],[\"BE\",\"Belgium\"],[\"BG\",\"Bulgaria\"],[\"CA\",\"Canada\"],[\"CN\",\"China\"],[\"CY\",\"Cyprus\"],[\"DE\",\"Germany\"],[\"DK\",\"Denmark\"],[\"EE\",\"Estonia\"],[\"ES\",\"Spain\"],[\"FI\",\"Finland\"],[\"FR\",\"France\"],[\"GB\",\"United Kingdom\"],[\"GR\",\"Greece\"],[\"HK\",\"Hong Kong\"],[\"HR\",\"Croatia\"],[\"HU\",\"Hungary\"],[\"IE\",\"Ireland\"],[\"IT\",\"Italy\"],[\"JP\",\"Japan\"],[\"KR\",\"South Korea\"],[\"LT\",\"Lithuania\"],[\"LU\",\"Luxembourg\"],[\"LV\",\"Latvia\"],[\"MO\",\"Macau\"],[\"MT\",\"Malta\"],[\"NL\",\"Netherlands\"],[\"NZ\",\"New Zealand\"],[\"PL\",\"Poland\"],[\"PT\",\"Portugal\"],[\"RO\",\"Romania\"],[\"SE\",\"Sweden\"],[\"SI\",\"Slovenia\"],[\"SK\",\"Slovakia\"],[\"US\",\"United States\"]]),countriesNeedingThe=new Set([\"GB\",\"NL\",\"US\"]);document.addEventListener(\"DOMContentLoaded\",(async()=>{const e=document.getElementById(\"message\");try{const a=(await fetch(\"https://ad-static.nxtsun.com/geo/c.js\")).headers.get(\"countrycode\");if(a){const n=a.toUpperCase(),t=countryCodeMap.get(n)||n;let o;o=countriesNeedingThe.has(n)?`Sorry, our services are not available in the <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`:`Sorry, our services are not available in <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`,e.innerHTML=o}}catch(e){console.error(\"Error fetching or processing country code:\",e)}}))</script>\n</body>\n</html>",
+      "url": "https://www.snaptube.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://snaptube.com/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n<head>\n<title>Service Availability</title>\n<meta charset=UTF-8>\n<meta name=viewport content=\"width=device-width,initial-scale=1\">\n<link rel=icon type=image/x-icon href=/favicon.ico>\n</head>\n<body>\n<div id=message style=color:#000;text-align:center;margin-top:25%;padding:20px>\nSorry, our services are not available in Your region due to legal and regulatory restrictions.\n</div>\n<script>const countryCodeMap=new Map([[\"AT\",\"Austria\"],[\"AU\",\"Australia\"],[\"BE\",\"Belgium\"],[\"BG\",\"Bulgaria\"],[\"CA\",\"Canada\"],[\"CN\",\"China\"],[\"CY\",\"Cyprus\"],[\"DE\",\"Germany\"],[\"DK\",\"Denmark\"],[\"EE\",\"Estonia\"],[\"ES\",\"Spain\"],[\"FI\",\"Finland\"],[\"FR\",\"France\"],[\"GB\",\"United Kingdom\"],[\"GR\",\"Greece\"],[\"HK\",\"Hong Kong\"],[\"HR\",\"Croatia\"],[\"HU\",\"Hungary\"],[\"IE\",\"Ireland\"],[\"IT\",\"Italy\"],[\"JP\",\"Japan\"],[\"KR\",\"South Korea\"],[\"LT\",\"Lithuania\"],[\"LU\",\"Luxembourg\"],[\"LV\",\"Latvia\"],[\"MO\",\"Macau\"],[\"MT\",\"Malta\"],[\"NL\",\"Netherlands\"],[\"NZ\",\"New Zealand\"],[\"PL\",\"Poland\"],[\"PT\",\"Portugal\"],[\"RO\",\"Romania\"],[\"SE\",\"Sweden\"],[\"SI\",\"Slovenia\"],[\"SK\",\"Slovakia\"],[\"US\",\"United States\"]]),countriesNeedingThe=new Set([\"GB\",\"NL\",\"US\"]);document.addEventListener(\"DOMContentLoaded\",(async()=>{const e=document.getElementById(\"message\");try{const a=(await fetch(\"https://ad-static.nxtsun.com/geo/c.js\")).headers.get(\"countrycode\");if(a){const n=a.toUpperCase(),t=countryCodeMap.get(n)||n;let o;o=countriesNeedingThe.has(n)?`Sorry, our services are not available in the <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`:`Sorry, our services are not available in <span style=\"color: #e74b3c;\">${t}</span> due to legal and regulatory restrictions.`,e.innerHTML=o}}catch(e){console.error(\"Error fetching or processing country code:\",e)}}))</script>\n</body>\n</html>",
+      "url": "https://www.snaptube.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "snaptube.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-18T03:05:18.448Z",
+    "score": 46,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 15,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 17 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Service Availability\"; missing/too-short meta description; no date signal; body text 17 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://snaptube.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 2,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "ninogaming.com",
+    "fetchedAt": "2026-11-18T03:18:51.818Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# ========================================================\n# NinoGaming Official robots.txt\n# Domain: https://ninogaming.com/\n# Updated: 2026-10-21\n# ========================================================\n\n# --------------------------------------------------------\n# 1. Global Crawler Policy (baseline rules for all crawlers)\n# --------------------------------------------------------\nUser-agent: *\nAllow: /\n\n# Explicitly allow the site protocol files and the AI knowledge base\nAllow: /llms.txt\nAllow: /sitemap.xml\n\n# Block the admin area, internal APIs, and private directories\nDisallow: /admin/\nDisallow: /private/\nDisallow: /api/\n\n# Block profile, account, and login endpoints (exact-end match to avoid blocking legitimate content paths)\nDisallow: /me$\nDisallow: /me/\nDisallow: /me?\nDisallow: /account$\nDisallow: /account/\nDisallow: /account?\nDisallow: /login$\nDisallow: /login/\nDisallow: /login?\nDisallow: /deposit$\nDisallow: /deposit/\nDisallow: /deposit?\nDisallow: /withdraw$\nDisallow: /withdraw/\nDisallow: /withdraw?\nDisallow: /withdrawal-account$\nDisallow: /withdrawal-account/\nDisallow: /withdrawal-account?\nDisallow: /transactions$\nDisallow: /transactions/\nDisallow: /transactions?\nDisallow: /backpack$\nDisallow: /backpack/\nDisallow: /backpack?\n\n# Block on-site search results and low-value interaction paths\nDisallow: /search$\nDisallow: /search/\nDisallow: /search?\nDisallow: /play-game$\nDisallow: /play-game/\nDisallow: /play-game?\n\n# Block affiliate and referral loop parameters (utm and fbclid are left to the page canonical)\nDisallow: /*?ref=\nDisallow: /*&ref=\n\n# --------------------------------------------------------\n# 2. XML Sitemap Index (sitemap entry)\n# --------------------------------------------------------\nSitemap: https://ninogaming.com/sitemap.xml\n",
+      "url": "https://ninogaming.com/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" /><meta name=\"format-detection\" content=\"telephone=no\" /><title>NinoGaming Access Restricted</title><link rel=\"stylesheet\" href=\"https://static.fffplay.com/general/common_asset/restriction/nino/styles.css\" /></head><body><main class=\"access-page\" aria-labelledby=\"access-title\"><div class=\"access-scene\"><img class=\"hero-image\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/hero-casino.png\" alt=\"\" aria-hidden=\"true\" /><div class=\"top-shade\" aria-hidden=\"true\"></div><div class=\"brand-logo\" aria-label=\"NinoGaming\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/nino-mark.png\" alt=\"\" /><span>NinoGaming</span></div><section class=\"access-card\"><img class=\"access-icon\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/restricted-icon.png\" alt=\"\" aria-hidden=\"true\" /><h1 id=\"access-title\" class=\"access-title\">Access Restricted</h1><p class=\"access-description\"> Our website can be only access in Philippine IP address. Sorry for the inconvenience. For any concern, please contact us in our Email: </p><a class=\"support-email\" href=\"/cdn-cgi/l/email-protection#a2d1d7d2d2cdd0d6e2cccbcccdc5c3cfcbccc58cc1cdcf\"> <span class=\"__cf_email__\" data-cfemail=\"23505653534c5157634d4a4d4c44424e4a4d440d404c4e\">[email&#160;protected]</span> </a><div class=\"compliance-logos\" aria-label=\"Compliance logos\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/pagcor.png\" alt=\"PAGCOR\" /><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/responsible-gaming.png\" alt=\"Responsible Gaming\" /></div><p class=\"responsible-copy\"> Gaming for 21 years old and above only.<br /> Game Responsibly keep it Fun. </p></section></div></main><script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"0353e5662ac349a3aa3b8b2a8d5dfe9f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://ninogaming.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" /><meta name=\"format-detection\" content=\"telephone=no\" /><title>NinoGaming Access Restricted</title><link rel=\"stylesheet\" href=\"https://static.fffplay.com/general/common_asset/restriction/nino/styles.css\" /></head><body><main class=\"access-page\" aria-labelledby=\"access-title\"><div class=\"access-scene\"><img class=\"hero-image\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/hero-casino.png\" alt=\"\" aria-hidden=\"true\" /><div class=\"top-shade\" aria-hidden=\"true\"></div><div class=\"brand-logo\" aria-label=\"NinoGaming\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/nino-mark.png\" alt=\"\" /><span>NinoGaming</span></div><section class=\"access-card\"><img class=\"access-icon\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/restricted-icon.png\" alt=\"\" aria-hidden=\"true\" /><h1 id=\"access-title\" class=\"access-title\">Access Restricted</h1><p class=\"access-description\"> Our website can be only access in Philippine IP address. Sorry for the inconvenience. For any concern, please contact us in our Email: </p><a class=\"support-email\" href=\"/cdn-cgi/l/email-protection#cfbcbabfbfa0bdbb8fa1a6a1a0a8aea2a6a1a8e1aca0a2\"> <span class=\"__cf_email__\" data-cfemail=\"e2919792928d9096a28c8b8c8d85838f8b8c85cc818d8f\">[email&#160;protected]</span> </a><div class=\"compliance-logos\" aria-label=\"Compliance logos\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/pagcor.png\" alt=\"PAGCOR\" /><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/responsible-gaming.png\" alt=\"Responsible Gaming\" /></div><p class=\"responsible-copy\"> Gaming for 21 years old and above only.<br /> Game Responsibly keep it Fun. </p></section></div></main><script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"0353e5662ac349a3aa3b8b2a8d5dfe9f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://ninogaming.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" /><meta name=\"format-detection\" content=\"telephone=no\" /><title>NinoGaming Access Restricted</title><link rel=\"stylesheet\" href=\"https://static.fffplay.com/general/common_asset/restriction/nino/styles.css\" /></head><body><main class=\"access-page\" aria-labelledby=\"access-title\"><div class=\"access-scene\"><img class=\"hero-image\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/hero-casino.png\" alt=\"\" aria-hidden=\"true\" /><div class=\"top-shade\" aria-hidden=\"true\"></div><div class=\"brand-logo\" aria-label=\"NinoGaming\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/nino-mark.png\" alt=\"\" /><span>NinoGaming</span></div><section class=\"access-card\"><img class=\"access-icon\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/restricted-icon.png\" alt=\"\" aria-hidden=\"true\" /><h1 id=\"access-title\" class=\"access-title\">Access Restricted</h1><p class=\"access-description\"> Our website can be only access in Philippine IP address. Sorry for the inconvenience. For any concern, please contact us in our Email: </p><a class=\"support-email\" href=\"/cdn-cgi/l/email-protection#473432373728353307292e292820262a2e29206924282a\"> <span class=\"__cf_email__\" data-cfemail=\"5a292f2a2a35282e1a343334353d3b3733343d74393537\">[email&#160;protected]</span> </a><div class=\"compliance-logos\" aria-label=\"Compliance logos\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/pagcor.png\" alt=\"PAGCOR\" /><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/responsible-gaming.png\" alt=\"Responsible Gaming\" /></div><p class=\"responsible-copy\"> Gaming for 21 years old and above only.<br /> Game Responsibly keep it Fun. </p></section></div></main><script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"0353e5662ac349a3aa3b8b2a8d5dfe9f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://ninogaming.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" /><meta name=\"format-detection\" content=\"telephone=no\" /><title>NinoGaming Access Restricted</title><link rel=\"stylesheet\" href=\"https://static.fffplay.com/general/common_asset/restriction/nino/styles.css\" /></head><body><main class=\"access-page\" aria-labelledby=\"access-title\"><div class=\"access-scene\"><img class=\"hero-image\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/hero-casino.png\" alt=\"\" aria-hidden=\"true\" /><div class=\"top-shade\" aria-hidden=\"true\"></div><div class=\"brand-logo\" aria-label=\"NinoGaming\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/nino-mark.png\" alt=\"\" /><span>NinoGaming</span></div><section class=\"access-card\"><img class=\"access-icon\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/restricted-icon.png\" alt=\"\" aria-hidden=\"true\" /><h1 id=\"access-title\" class=\"access-title\">Access Restricted</h1><p class=\"access-description\"> Our website can be only access in Philippine IP address. Sorry for the inconvenience. For any concern, please contact us in our Email: </p><a class=\"support-email\" href=\"/cdn-cgi/l/email-protection#8ffcfaffffe0fdfbcfe1e6e1e0e8eee2e6e1e8a1ece0e2\"> <span class=\"__cf_email__\" data-cfemail=\"077472777768757347696e696860666a6e69602964686a\">[email&#160;protected]</span> </a><div class=\"compliance-logos\" aria-label=\"Compliance logos\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/pagcor.png\" alt=\"PAGCOR\" /><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/responsible-gaming.png\" alt=\"Responsible Gaming\" /></div><p class=\"responsible-copy\"> Gaming for 21 years old and above only.<br /> Game Responsibly keep it Fun. </p></section></div></main><script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"0353e5662ac349a3aa3b8b2a8d5dfe9f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://ninogaming.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" /><meta name=\"format-detection\" content=\"telephone=no\" /><title>NinoGaming Access Restricted</title><link rel=\"stylesheet\" href=\"https://static.fffplay.com/general/common_asset/restriction/nino/styles.css\" /></head><body><main class=\"access-page\" aria-labelledby=\"access-title\"><div class=\"access-scene\"><img class=\"hero-image\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/hero-casino.png\" alt=\"\" aria-hidden=\"true\" /><div class=\"top-shade\" aria-hidden=\"true\"></div><div class=\"brand-logo\" aria-label=\"NinoGaming\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/nino-mark.png\" alt=\"\" /><span>NinoGaming</span></div><section class=\"access-card\"><img class=\"access-icon\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/restricted-icon.png\" alt=\"\" aria-hidden=\"true\" /><h1 id=\"access-title\" class=\"access-title\">Access Restricted</h1><p class=\"access-description\"> Our website can be only access in Philippine IP address. Sorry for the inconvenience. For any concern, please contact us in our Email: </p><a class=\"support-email\" href=\"/cdn-cgi/l/email-protection#55262025253a2721153b3c3b3a3234383c3b327b363a38\"> <span class=\"__cf_email__\" data-cfemail=\"2d5e585d5d425f596d434443424a4c4044434a034e4240\">[email&#160;protected]</span> </a><div class=\"compliance-logos\" aria-label=\"Compliance logos\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/pagcor.png\" alt=\"PAGCOR\" /><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/responsible-gaming.png\" alt=\"Responsible Gaming\" /></div><p class=\"responsible-copy\"> Gaming for 21 years old and above only.<br /> Game Responsibly keep it Fun. </p></section></div></main><script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"0353e5662ac349a3aa3b8b2a8d5dfe9f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://ninogaming.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" /><meta name=\"format-detection\" content=\"telephone=no\" /><title>NinoGaming Access Restricted</title><link rel=\"stylesheet\" href=\"https://static.fffplay.com/general/common_asset/restriction/nino/styles.css\" /></head><body><main class=\"access-page\" aria-labelledby=\"access-title\"><div class=\"access-scene\"><img class=\"hero-image\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/hero-casino.png\" alt=\"\" aria-hidden=\"true\" /><div class=\"top-shade\" aria-hidden=\"true\"></div><div class=\"brand-logo\" aria-label=\"NinoGaming\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/nino-mark.png\" alt=\"\" /><span>NinoGaming</span></div><section class=\"access-card\"><img class=\"access-icon\" src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/restricted-icon.png\" alt=\"\" aria-hidden=\"true\" /><h1 id=\"access-title\" class=\"access-title\">Access Restricted</h1><p class=\"access-description\"> Our website can be only access in Philippine IP address. Sorry for the inconvenience. For any concern, please contact us in our Email: </p><a class=\"support-email\" href=\"/cdn-cgi/l/email-protection#2e5d5b5e5e415c5a6e40474041494f43474049004d4143\"> <span class=\"__cf_email__\" data-cfemail=\"186b6d6868776a6c58767176777f797571767f367b7775\">[email&#160;protected]</span> </a><div class=\"compliance-logos\" aria-label=\"Compliance logos\"><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/pagcor.png\" alt=\"PAGCOR\" /><img src=\"https://static.fffplay.com/general/common_asset/restriction/nino/assets/responsible-gaming.png\" alt=\"Responsible Gaming\" /></div><p class=\"responsible-copy\"> Gaming for 21 years old and above only.<br /> Game Responsibly keep it Fun. </p></section></div></main><script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"0353e5662ac349a3aa3b8b2a8d5dfe9f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://ninogaming.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "ninogaming.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-18T03:18:51.818Z",
+    "score": 14,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

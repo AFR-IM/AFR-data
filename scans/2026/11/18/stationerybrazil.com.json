@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "stationerybrazil.com",
+    "fetchedAt": "2026-11-18T03:04:14.001Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://stationerybrazil.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://stationerybrazil.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://stationerybrazil.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"zxx\">\n\n<head>\n\t<!-- metas -->\n\t<meta charset=\"utf-8\">\n\t<meta name=\"author\" content=\"pxdraft\" />\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\t<meta name=\"keywords\" content=\"ShopApp - eCommerce Bootstrap 5 Template\" />\n\t<meta name=\"description\" content=\"ShopApp - eCommerce Bootstrap 5 Template\" />\n\t<!-- title -->\n\t<title>Template</title>\n\t<!-- Favicon -->\n\t<link rel=\"shortcut icon\" href=\"/assets/img/icon.jpg\">\n\t<!-- CSS Template -->\n\t<link href=\"/assets/css/style.css\" rel=\"stylesheet\">\n\t<script src=\"/assets/js/main.js\" type=\"module\"></script>\n\t<script src=\"/assets/js/demo-1.js\" type=\"module\"></script>\n\t<script src=\"/components/goods.js\" type=\"module\"></script>\n\t<script src=\"/components/footer.js\" type=\"module\"></script>\n\t<script src=\"/components/header.js\" type=\"module\"></script>\n\t<script src=\"/components/detail-modal.js\" type=\"module\"></script>\n\t<script src=\"/components/mini-car.js\" type=\"module\"></script>\n\t<script src=\"/components/message.js\" type=\"module\"></script>\n\n</head>\n\n<body>\n\t<msg-component message=\"This is an error message!\" id=\"msg-box\" type=\"success\" style=\"opacity: 0\"></msg-component>\n\t<a id=\"skippy\" class=\"skippy visually-hidden-focusable overflow-hidden\" href=\"#content\">\n\t\t<div class=\"container\">\n\t\t\t<span class=\"u-skiplink-text\">Skip to main content</span>\n\t\t</div>\n\t</a>\n\t<!-- End skippy -->\n\t<!-- Preload -->\n\t<div id=\"loading\" class=\"loading-preloader\">\n\t\t<div class=\"spinner-border text-primary\" role=\"status\">\n\t\t\t<span class=\"visually-hidden\">Loading...</span>\n\t\t</div>\n\t</div>\n\n\t<!-- Mini Cart  -->\n\t<minicar-component></minicar-component>\n\t<!-- End Mini Cart  -->\n\n\t<!-- Quick View  -->\n\t<detail-modal-component></detail-modal-component>\n\t</div>\n\t<!-- End Quick View  -->\n\n\t<div class=\"wrapper\">\n\t\t<!-- heder height -->\n\t\t<div class=\"header-height-bar\"></div>\n\t\t<!-- Header -->\n\t\t<header-component></header-component>\n\t\t<!-- Header End -->\n\n\t\t<!-- Main -->\n\t\t<main>\n\t\t\t<!-- Home Slider -->\n\t\t\t<div class=\"swiper swiper-container\" data-swiper-options='{\n                  \"slidesPerView\": 1,\n                  \"spaceBetween\": 0,\n                  \"loop\": true,\n                  \"pagination\": {\n                    \"el\": \".swiper-pagination\",\n                    \"clickable\": true\n                  },\n                  \"navigation\": {\n                    \"nextEl\": \".swiper-next-01\",\n                    \"prevEl\": \".swiper-prev-01\"\n                  }\n                }'>\n\t\t\t\t<div class=\"swiper-wrapper\">\n\t\t\t\t\t<div class=\"swiper-slide\">\n\t\t\t\t\t\t<div class=\"bg-no-repeat bg-cover bg-center px-8\" onclick=\"window.location.href='/other-html/shop.html'\"\n\t\t\t\t\t\t\tstyle=\"background-image: url('/assets/img/goggles/banner1.jpg'); aspect-ratio: 192/80;\">\n\t\t\t\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t\t\t<div class=\"row align-items-center py-12 justify-content-lg-end\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-lg-6\">\n\t\t\t\t\t\t\t\t\t\t<!-- <h6 class=\"fw-500 text-primary mb-3 letter-spacing-2 text-white\" data-i18nText=\"banner1_1\">TRENDING NOW\n\t\t\t\t\t\t\t\t\t\t</h6>\n\t\t\t\t\t\t\t\t\t\t<h1 class=\"display-4 fw-600 mb-4 text-white\" data-i18nText=\"banner1_2\">New Trending<br /> Goggles For\n\t\t\t\t\t\t\t\t\t\t\tWomen</h1>\n\t\t\t\t\t\t\t\t\t\t<div class=\"h4 fw-400 text-white text-opacity-85\" data-i18nText=\"banner1_3\">Up To 50% Off Best Selling At\n\t\t\t\t\t\t\t\t\t\t\t$151.00</div> -->\n\t\t\t\t\t\t\t\t\t\t<!-- <div class=\"pt-3\">\n\t\t\t\t\t\t\t\t\t\t\t<a class=\"btn btn-outline-light\" href=\"/other-html/shop.html\" data-i18nText=\"banner1_btn\">Discover More</a>\n\t\t\t\t\t\t\t\t\t\t</div> -->\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<!-- <div class=\"swiper-slide\">\n\t\t\t\t\t\t<div class=\"bg-no-repeat bg-cover bg-center px-8\"\n\t\t\t\t\t\t\tstyle=\"background-image: url('/assets/img/goggles/banner2.jpg');\">\n\t\t\t\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t\t\t<div class=\"row min-vh-75 align-items-center py-12\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-lg-6\">\n\t\t\t\t\t\t\t\t\t\t<h6 class=\"fw-500 text-primary mb-3 letter-spacing-2 text-white\" data-i18nText=\"banner2_1\">TRENDING NOW\n\t\t\t\t\t\t\t\t\t\t</h6>\n\t\t\t\t\t\t\t\t\t\t<h1 class=\"display-4 fw-600 mb-4 text-white\" data-i18nText=\"banner2_2\">New Trending<br /> Goggles For\n\t\t\t\t\t\t\t\t\t\t\tWomen</h1>\n\t\t\t\t\t\t\t\t\t\t<div class=\"h4 fw-400 text-white text-opacity-85\" data-i18nText=\"banner2_3\">Up To 50% Off Best Selling At\n\t\t\t\t\t\t\t\t\t\t\t$151.00</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"pt-3\">\n\t\t\t\t\t\t\t\t\t\t\t<a class=\"btn btn-outline-light\" href=\"/other-html/shop.html\" data-i18nText=\"banner2_btn\">Discover More</a>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div> -->\n\t\t\t\t</div>\n\t\t\t\t<div class=\"swiper-arrow-style-01 swiper-next swiper-next-01\"><i class=\"bi bi-chevron-right\"></i> </div>\n\t\t\t\t<div class=\"swiper-arrow-style-01 swiper-prev swiper-prev-01\"><i class=\"bi bi-chevron-left\"></i></div>\n\t\t\t\t<div class=\"swiper-pagination swiper-pagination-white\"></div>\n\t\t\t</div>\n\t\t\t<!-- End Home Slider -->\n\t\t\t<!-- section -->\n\t\t\t\n\t\t\t<!-- End section -->\n\t\t\t<!-- Product section -->\n\t\t\t<section class=\"section\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row justify-content-center section-heading\">\n\t\t\t\t\t\t<div class=\"col-lg-6 text-center\">\n\t\t\t\t\t\t\t<p class=\"fs-6 m-0\" data-i18nText=\"index_title_1\">Read Today’s News.</p>\n\t\t\t\t\t\t\t<h3 class=\"h2 mt-2\" data-i18nText=\"index_title_2\">Latest Arrivals</h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"row g-3 g-lg-4\" id=\"index-goods-box\">\n\t\t\t\t\t\t<!-- Product Box -->\n\t\t\t\t\t\t<!-- End Product Box -->\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t\t<!-- End Product section -->\n\t\t\t<!-- Product section -->\n\t\t\t<section class=\"section\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row justify-content-center section-heading\">\n\t\t\t\t\t\t<div class=\"col-lg-6 text-center\">\n\t\t\t\t\t\t\t<p class=\"fs-6 m-0\" data-i18nText=\"index_title_3\">Read Today’s News.</p>\n\t\t\t\t\t\t\t<h3 class=\"h2 mt-2\" data-i18nText=\"index_title_4\">Latest Arrivals</h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"row justify-content-center section-heading\">\n\t\t\t\t\t<div class=\"row g-3 g-lg-4\" id=\"index-goods-swipe\">\n\t\t\t\t\t\t<!-- Product Box -->\n\t\t\t\t\t\t<!-- End Product Box -->\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t</main>\n\t\t<!-- End Main -->\n\t\t<!-- Footer -->\n\t\t<footer-component></footer-component>\n\t\t<!-- End Footer -->\n\t</div>\n\t<!-- \n    ========================\n       End Wrapper \n    ========================\n    -->\n\t<!-- script start -->\n\t<!-- jquery -->\n\t<script src=\"/assets/js/jquery-3.5.1.min.js\"></script>\n\t<!--bootstrap-->\n\t<script src=\"/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\t<!-- swiper carousel -->\n\t<script src=\"/assets/vendor/swiper/swiper-bundle.min.js\"></script>\n\t<!-- magnific -->\n\t<script src=\"/assets/vendor/magnific/jquery.magnific-popup.min.js\"></script>\n\t<!-- isotope -->\n\t<script src=\"/assets/vendor/isotope/isotope.pkgd.min.js\"></script>\n\t<!-- count-down -->\n\t<script src=\"/assets/vendor/count-down/jquery.countdown.min.js\"></script>\n\t<!-- count-down -->\n\t<script src=\"/assets/vendor/jarallax/jarallax-all.js\"></script>\n\t<!-- Theme Js -->\n\t<script src=\"/assets/js/custom.js\"></script>\n\t<script src=\"/assets/js/theme.js\"></script>\n\t<script src=\"/assets/js/color-modes.js\"></script>\n\t<!-- End script start -->\n</body>\n\n</html>",
+      "url": "https://stationerybrazil.com/"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://stationerybrazil.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://stationerybrazil.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://stationerybrazil.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "stationerybrazil.com",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-18T03:04:14.001Z",
+    "score": 40,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 35,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 25,
+            "max": 25,
+            "status": "pass",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4.75,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 2.75,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 1/4; h1 ×2 (multiple); html[lang] present; body text 16 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Template\"; meta description 40 chars (short); no date signal; body text 16 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 25,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 2.75,
+      "l2.sitemap": 0,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

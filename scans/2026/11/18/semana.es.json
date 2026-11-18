@@ -1,0 +1,258 @@
+{
+  "signals": {
+    "domain": "semana.es",
+    "fetchedAt": "2026-11-18T02:50:39.092Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\r\nDisallow: /usuarios/\r\nDisallow: /club/\r\nDisallow: /comunes/\r\nDisallow: /login.html\r\nDisallow: /1001866/\r\nDisallow: /galleryad.html\r\nDisallow: /etiqueta/\r\nDisallow: /lo-ultimo/\r\nDisallow: /revista\r\nDisallow: /boletin\r\nDisallow: /feeds\r\nDisallow: /buscador\r\n\r\nDisallow: /*PageSpeed*\r\nDisallow: /*ModPagespeed*\r\n\r\nDisallow: /temas/*_page=*\r\n\r\nUser-agent: GPTBot\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: Amazonbot\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: Bytespider\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: ClaudeBot\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: Perplexity-User\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: PerplexityBot\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\nUser-agent: Claude-SearchBot\r\nAllow: /buenas-compras\r\nAllow: /*-prbr*\r\nDisallow: /\r\n\r\n\r\nUser-agent: AmazonAdBot\r\nAllow: /\r\n",
+      "url": "https://www.semana.es/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 404,
+      "body": "",
+      "url": "https://www.semana.es/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "",
+      "url": "https://www.semana.es/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;semana&#46;es&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;b1c83017&#46;1794970236&#46;a0587943\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;b1c83017&#46;1794970236&#46;a0587943</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.semana.es/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;semana&#46;es&#47;sitemap&#46;xml\" on this server.<P>\nReference&#32;&#35;18&#46;a7c83017&#46;1794970237&#46;ed7f5039\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;a7c83017&#46;1794970237&#46;ed7f5039</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.semana.es/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;semana&#46;es&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;a7c83017&#46;1794970237&#46;ed7f5b85\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;a7c83017&#46;1794970237&#46;ed7f5b85</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.semana.es/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "",
+      "url": "https://www.semana.es/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    }
+  },
+  "afr": {
+    "domain": "semana.es",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-18T02:50:39.092Z",
+    "score": 3,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "AI-Closed",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 3.46,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 3.46,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 1.13/9 · hybrid 1.50/6 · training 0.83/10; strategy tag AI-Closed. Blocked examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot. Unconfigured examples: Googlebot, Claude-User, Google-Extended."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 3.46,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

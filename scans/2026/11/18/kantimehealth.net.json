@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "kantimehealth.net",
+    "fetchedAt": "2026-11-18T02:56:29.655Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 404,
+      "body": "",
+      "url": "https://kantimehealth.net/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "",
+      "url": "https://kantimehealth.net/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "",
+      "url": "https://kantimehealth.net/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>KanTime-Login</title>\n\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/identity/v2/accounts/favicon.ico\" />\n    <link rel=\"stylesheet\" href=\"/identity/v2/accounts/lib/bootstrap/dist/css/bootstrap.min.css\" />\n    <link rel=\"stylesheet\" href=\"/identity/v2/accounts/lib/fontawesome/css/all.min.css\" />\n    <link rel=\"stylesheet\" href=\"/identity/v2/accounts/lib/Fonts/stylesheet.css\" />\n    <link rel=\"stylesheet\" href=\"/identity/v2/accounts/css/site.css?version=811267\" />\n    <script src=\"/identity/v2/accounts/js/site.js?version=811267\"></script>\n    <script src=\"/identity/v2/accounts/lib/jquery/dist/jquery.js\"></script>\n    <script src=\"https://accounts.google.com/gsi/client\" async defer></script>\n\n    <script type=\"text/javascript\">\n        var InstanceCode = \"Production\";\n        var ErrorMessage = \"\";\n        var isCaptchaValidated = false;\n        var enable_captcha = (\"False\" === \"False\") ? false : true;\n\n        document.addEventListener(\"DOMContentLoaded\", function (event) {\n\n            //localStorage.clear();\n            sessionStorage.clear();\n\n            var username = document.getElementById(\"txt_username\").value\n\n            if (username.trim() == '') {\n                document.getElementById('txt_username').focus();\n            }\n            else {\n                document.getElementById('txt_password').focus();\n            }\n\n            document.getElementById('lbl_errormessage').style.display = \"none\";\n            document.getElementById('lbl_errorusername').style.display = \"none\";\n\n            if (ErrorMessage != \"\") {\n                document.getElementById('lbl_errormessage').innerHTML = '<i class=\"fa fa-info-circle crederror\" aria-hidden=\"true\"></i>&nbsp;' + ErrorMessage;\n                document.getElementById('lbl_errormessage').style.display = \"inline-block\";\n            }\n\n            if ('false' == 'true')\n                document.getElementById(\"txt_username\").readOnly = true;\n            else\n                document.getElementById(\"txt_username\").readOnly = false;\n\n            if (enable_captcha) {\n                document.getElementById(\"txt_username\").addEventListener(\"keydown\", function (e) {\n                    if ((e.code === \"Enter\" || e.keyCode == 13) && !document.getElementById(\"btn_login\").disabled) {\n                        OnLoginClick();\n                    }\n                });\n\n                document.getElementById(\"txt_password\").addEventListener(\"keydown\", function (e) {\n                    if ((e.code === \"Enter\" || e.keyCode == 13) && !document.getElementById(\"btn_login\").disabled) {\n                        OnLoginClick();\n                    }\n                });\n\n                document.getElementById(\"btn_login\").addEventListener(\"click\", function (e) {\n                    if (!document.getElementById(\"btn_login\").disabled)\n                        OnLoginClick();\n                });\n            }\n            else {\n                document.getElementById(\"txt_username\").addEventListener(\"keydown\", function (e) {\n                    if (e.code === \"Enter\" || e.keyCode == 13) {\n                        OnLoginClick();\n                    }\n                });\n\n                document.getElementById(\"txt_password\").addEventListener(\"keydown\", function (e) {\n                    if (e.code === \"Enter\" || e.keyCode == 13) {\n                        OnLoginClick();\n                    }\n                });\n\n                document.getElementById(\"btn_login\").addEventListener(\"click\", function (e) {\n                    OnLoginClick();\n                });\n            }\n\n        });\n\n        async function OnLoginClick() {\n            if (enable_captcha) {\n                disableButtons();\n            }\n            ResetErrors();\n\n            var username = document.getElementById(\"txt_username\").value\n\n            if (username.trim() == '') {\n                document.getElementById('lbl_errorusername').style.display = \"inline-block\";\n                document.getElementById('lbl_errorusername').innerHTML = '<i class=\"fa fa-info-circle crederror\" aria-hidden=\"true\"></i>&nbsp; Enter User Name';\n                if (enable_captcha) {\n                    enableButtons();\n                }\n                return;\n            };\n\n\n            document.getElementById('LoginContext').value = 'PWD';\n\n            if (enable_captcha) {\n                var ret = await captchaValidation();\n            }\n\n            AuthorizeForm.submit();\n        }\n\n        function onForgotPasswordClick() {\n\n            var loginId = document.getElementById(\"txt_username\").value.trim();\n            var redirectUrl = \"https://www.kantimehealth.net/phx/idagency_portal/forgot-password\";\n\n            //var loginHint = \"\";\n\n            // ⭐ If login_hint is null/blank → use login_id\n            // if (!loginHint || loginHint.trim() === \"\") {\n            //     loginHint = loginId;\n            // }\n\n\n            // Collect parameters\n            var params = {\n                login_id: loginId,\n                login_hint: \"\",\n                state: \"\",\n                nonce: \"\",\n                response_type: \"\",\n                redirect_uri: \"\",\n                scope: \"\"\n            };\n\n            var clientId = \"kantimeclient\";\n\n            // ⭐ Include client_id ONLY if not equal to 'kantimeclient'\n            if (clientId && clientId.trim().toLowerCase() !== \"kantimeclient\") {\n                params.client_id = clientId;\n            }\n\n            // Build final query string (only non-null values)\n            var queryParts = [];\n\n            for (var key in params) {\n                if (params[key] && params[key].trim() !== \"\") {\n                    queryParts.push(key + \"=\" + encodeURIComponent(params[key]));\n                }\n            }\n\n            // Join parameters\n            var finalUrl = redirectUrl + \"?\" + queryParts.join(\"&\");\n\n            // Redirect\n            window.location.href = finalUrl;\n        }\n\n\n        async function onSSOProviderClick(providerId) {\n            if (enable_captcha) {\n                disableButtons();\n            }\n            ResetErrors();\n\n            var username = document.getElementById(\"txt_username\").value\n\n            if (username.trim() == '') {\n                document.getElementById('lbl_errorusername').innerHTML = '<i class=\"fa fa-info-circle crederror\" aria-hidden=\"true\"></i>&nbsp; Enter User Name to Continue';\n                document.getElementById('lbl_errorusername').style.display = \"inline-block\";\n                if (enable_captcha) {\n                    enableButtons();\n                }\n                return;\n            }\n\n            document.getElementById('SSOProviderId').value = providerId;\n            document.getElementById('LoginContext').value = 'SSO';\n\n            if (enable_captcha) {\n                var ret = await captchaValidation();\n            }\n\n            AuthorizeForm.submit();\n        }\n\n        function ResetErrors() {\n            ErrorMessage = \"\";\n\n            document.getElementById('lbl_errormessage').style.display = \"none\";\n            document.getElementById('lbl_errorusername').style.display = \"none\";\n        }\n\n        function enableButtons() {\n            document.getElementById('btn_login').disabled = false;\n\n            var items = document.getElementsByClassName(\"ssoicon\");\n\n            for (var i = 0; i < items.length; i++) {\n                var item = items[i];\n                item.classList.remove(\"disable_img\");\n            }\n        }\n\n        function disableButtons() {\n            document.getElementById('btn_login').disabled = true;\n\n            var items = document.getElementsByClassName(\"ssoicon\");\n\n            for (var i = 0; i < items.length; i++) {\n                var item = items[i];\n                item.classList.add(\"disable_img\");\n            }\n        }\n\n        function captchaValidation() {\n            return new Promise((resolve, reject) => {\n                try {\n                    grecaptcha.enterprise.ready(async () => {\n                        const token = await grecaptcha.enterprise.execute(\"6LcUr9UpAAAAAIKhsWYyXtG_EIQLXXlyhYC-AzKV\", { action: 'LOGINPAGE' });\n                        document.getElementById('CaptchaToken').value = token;\n                        resolve(true);\n                    });\n                } catch (ex) {\n                    resolve(true);\n                }\n            })\n        }\n\n        function closearrow() {\n            let notification_sec = document.querySelector(\".notification_sec\");\n            let arrow_sec = document.getElementById(\"upArrow\");\n            notification_sec.classList.toggle(\"expand_notf\");\n\n            if (arrow_sec.classList.contains('rotate180')) {\n                arrow_sec.classList.remove(\"rotate180\");\n            } else {\n                arrow_sec.classList.add(\"rotate180\");\n            }\n        }\n    </script>\n</head>\n\n<body>\n    <form method=\"post\" name=\"AuthorizeForm\" action=\"/identity/v2/Accounts/Authorize\">\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The SSOProviderId field is required.\" id=\"SSOProviderId\" name=\"SSOProviderId\" value=\"0\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The LoginContext field is required.\" id=\"LoginContext\" name=\"LoginContext\" value=\"\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The InstanceCode field is required.\" id=\"InstanceCode\" name=\"InstanceCode\" value=\"Production\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The ssoProviders field is required.\" id=\"ssoProviders\" name=\"ssoProviders\" value=\"[{&quot;sso_provider_master_id&quot;:1,&quot;provider_name&quot;:&quot;google&quot;,&quot;logo&quot;:&quot;&lt;svg data-name=\\&quot;Component 4 - 1\\&quot; xmlns=\\&quot;http://www.w3.org/2000/svg\\&quot; width=\\&quot;33\\&quot; height=\\&quot;33\\&quot; viewBox=\\&quot;0 0 33 33.8\\&quot;&gt;&lt;defs&gt;&lt;clipPath id=\\&quot;a\\&quot;&gt;&lt;path data-name=\\&quot;Rectangle 71\\&quot; fill=\\&quot;none\\&quot; d=\\&quot;M0 0H33V33.8H0z\\&quot;/&gt;&lt;/clipPath&gt;&lt;/defs&gt;&lt;g data-name=\\&quot;Group 154\\&quot; clip-path=\\&quot;url(#a)\\&quot;&gt;&lt;path data-name=\\&quot;Path 70\\&quot; d=\\&quot;M33 17.3a19.5 19.5 0 0 0-.2-3.2h-16v6.3H26a7.8 7.8 0 0 1-3.4 5v4.3H28a16.5 16.5 0 0 0 5-12.4\\&quot; fill=\\&quot;#4285f4\\&quot;/&gt;&lt;path data-name=\\&quot;Path 71\\&quot; d=\\&quot;M16.9 33.8A16 16 0 0 0 28 29.7l-5.4-4.3a10.2 10.2 0 0 1-15.2-5.3H1.8v4.3a16.9 16.9 0 0 0 15 9.4\\&quot; fill=\\&quot;#34a853\\&quot;/&gt;&lt;path data-name=\\&quot;Path 72\\&quot; d=\\&quot;M7.4 20.1a9.8 9.8 0 0 1-.5-3.2 10.2 10.2 0 0 1 .5-3.2V9.3H1.8a16.7 16.7 0 0 0 0 15.1Z\\&quot; fill=\\&quot;#fbbc05\\&quot;/&gt;&lt;path data-name=\\&quot;Path 73\\&quot; d=\\&quot;M16.9 6.7a9.2 9.2 0 0 1 6.4 2.5l4.9-4.8A16.1 16.1 0 0 0 16.9 0a16.9 16.9 0 0 0-15 9.3l5.5 4.4a10 10 0 0 1 9.5-7\\&quot; fill=\\&quot;#ea4335\\&quot;/&gt;&lt;/g&gt;&lt;/svg&gt;&quot;},{&quot;sso_provider_master_id&quot;:2,&quot;provider_name&quot;:&quot;microsoft&quot;,&quot;logo&quot;:&quot;&lt;svg xmlns=\\&quot;http://www.w3.org/2000/svg\\&quot; version=\\&quot;1.1\\&quot; id=\\&quot;prefix__Layer_1\\&quot; x=\\&quot;0\\&quot; y=\\&quot;0\\&quot; width=\\&quot;33\\&quot; height=\\&quot;33\\&quot; viewBox=\\&quot;0 0 560 600\\&quot; xml:space=\\&quot;preserve\\&quot; enable-background=\\&quot;new 0 0 560 600\\&quot;&gt;&lt;style&gt;.prefix__st0{fill:#5868be}.prefix__st1{fill:#4bb3ea}.prefix__st2{fill:#9475d1}.prefix__st3{fill:#c18eec}&lt;/style&gt;&lt;path class=\\&quot;prefix__st0\\&quot; d=\\&quot;M183.1 236c18.7-3.3 36.6-19 54.3-26 4.7-1.9 17.4-3.5 19.8-8.4 3.9-8 2.4-23.6 3.7-32.5 2.3-16.3 5.7-32.3 8.3-48.5 2.1-12.6 3.4-28.2 9.1-39.7 12-24.3 45.3-35.7 61.3-56.5a119.3 119.3 0 0 0-52.7-15.2c-15 0-29.2.4-43.6 5.2-25.8 8.6-44.8 36-53.6 60.7-7.8 21.8-6.5 44.1-6.5 66.9v94z\\&quot;/&gt;&lt;path class=\\&quot;prefix__st2\\&quot; d=\\&quot;m230.6 19 1 1-1-1m-28.1 340.1c-3.8-12-11.2-22.6-14.8-34.9-5.2-17.8-4.6-36.9-4.6-55.2 0-11.1-.9-22.2 1.9-32.9-3.3-4.3-1.9-13-1.9-18.2l.8-53.6c0-40.1-4.7-71.5 13.6-105.5 8.8-15.8 22.1-25.2 33.1-38.8-8.2 2.4-15.7 7.9-23.3 11.8-15.9 8.4-31.7 17.1-47.5 25.7C101.5 89 23.3 114.9 10 188.6c-2.1 11.6-4.5 31.3-.7 42.6 4.4 13.1 19.8 27.2 29.4 36.8a364 364 0 0 0 96.9 70.5c17 8.5 47.7 27.1 66.9 20.6z\\&quot;/&gt;&lt;path class=\\&quot;prefix__st1\\&quot; d=\\&quot;m330.4 19.9 1 1-1-1m1.9 1 1 1-1-1m-76.5 182.2v1c14.7-1.2 28.8-3.2 43.6-.6 23.1 4.2 43.5 16.1 64 26.9 20.3 10.7 41.5 20.3 62 30.6 28.7 14.3 61.9 26.7 86.3 48 21.4 18.8 38.2 48.2 38.8 77.3 3.1-7.4 1-19.1 1-27.1V299c0-54.9 11.2-120.7-27.4-165.7-25.4-29.6-68.4-46.6-102.4-64.2-21.2-11-42-22.7-63-34-5.4-2.9-17-12.4-23.3-10.9a77.2 77.2 0 0 0-30 18.5c-9.4 9.4-21 25.2-27 37.3-9.2 18.7-11.6 46.4-14.5 66.9-1.7 11.7-4.3 24.1-5 35.9-1 9.6-.3 8.4-3.1 20.3z\\&quot;/&gt;&lt;path class=\\&quot;prefix__st0\\&quot; d=\\&quot;M8.7 231.2v119.2c0 24.8-1.8 51.1 3.9 73.7a108.6 108.6 0 0 0 50.5 65.8c16.5 4.9 26.8 5.5 35.2 6.8 15.5 2.4 21.2.1 36.4-3.7 16.8-4.2 31.5-13 46.5-21.1 32.7-17.7 65.5-39.2 99.8-53.6l2.9-2.9c-25.5-15-68.7-27.6-81.6-56.7-16.7 7.2-39.7-8.3-55.1-15a343 343 0 0 1-110.4-78.5c-10.2-10.7-18-23.5-28.1-34M424.3 425a204.2 204.2 0 0 1-18.7 97.9c-2.9 6.3-9.3 14.2-8.4 21.3 25-13.2 49.7-26.9 74.6-40.4 20.6-11.1 40.8-21.9 55.3-41a113.8 113.8 0 0 0-12.7-152.1c-23.2-21.7-56.2-33.8-84.3-47.8-17.4-8.7-35.5-21.5-54.3-26.9v55.2c0 11.4 1.3 24.6-3.2 35.2 0 0 24.3 25.7 29.4 26.8l-1 2.9 3.9 3.9h1l-1-2.9h1v4.9l1.9 1.9\\&quot;/&gt;&lt;path class=\\&quot;prefix__st2\\&quot; d=\\&quot;M373.6 324.1c-3 7.9-6 16.6-10.1 24.4-7.8 15-19 28.4-32.2 39-10 8-21.7 13.8-32.9 19.9-3.5 1.9-9.7 5.1-14.5 8.1-1.5 3.8 4 10.8 5 14.5a89.8 89.8 0 0 1 3.6 30c-4.4 46.5-34.8 88.8-75.4 111.4v2.9c15.9 6.6 30.1 14.1 47.5 16.2 51.3 6.3 89.4-25.1 132.8-46.2.4-7.5 5.8-14.5 8.9-21.3a286 286 0 0 0 15.2-44.6c24.2-141.9-47.3-154-47.3-154m1.7.8 1 1-1-1z\\&quot;/&gt;&lt;path class=\\&quot;prefix__st3\\&quot; d=\\&quot;M283.9 415.3c-20.4 7.3-40 12.6-64.9 32.9-33.7 18.2-66.4 45.7-105.6 48.4a128 128 0 0 1-49.4-7.7l-2.9-.3 157.1 85.7-1.1-1.1c9.9-10.8 21.1-11.6 34.9-28.1 30.6-31.3 55.8-87.1 31.9-129.8z\\&quot;/&gt;&lt;/svg&gt;&quot;},{&quot;sso_provider_master_id&quot;:3,&quot;provider_name&quot;:&quot;okta&quot;,&quot;logo&quot;:&quot;&lt;svg xmlns=\\&quot;http://www.w3.org/2000/svg\\&quot; width=\\&quot;90\\&quot; height=\\&quot;33\\&quot; xmlns:v=\\&quot;https://vecta.io/nano\\&quot;&gt;&lt;defs&gt;&lt;clipPath id=\\&quot;A\\&quot;&gt;&lt;path fill=\\&quot;none\\&quot; d=\\&quot;M0 0h84.857v28.575H0z\\&quot;/&gt;&lt;/clipPath&gt;&lt;/defs&gt;&lt;g clip-path=\\&quot;url(#A)\\&quot; fill=\\&quot;#007dc1\\&quot;&gt;&lt;path d=\\&quot;M10.671 7.17a10.671 10.671 0 1 0 10.671 10.671A10.665 10.665 0 0 0 10.671 7.17m0 16.017a5.346 5.346 0 1 1 5.346-5.346 5.351 5.351 0 0 1-5.346 5.346m18.753-1.761a.94.94 0 0 1 1.612-.658l7.107 7.4a.752.752 0 0 0 .382.255 1.467 1.467 0 0 0 .467.042h4.815a.935.935 0 0 0 .721-1.506L36.552 18.8l-.424-.424c-.913-1.082-.806-1.506.233-2.609L42.683 8.7a.922.922 0 0 0-.743-1.484h-4.37a1.32 1.32 0 0 0-.424.042.794.794 0 0 0-.424.255c-.022.021-3.522 3.8-5.686 6.109a.956.956 0 0 1-1.654-.657V.848A.847.847 0 0 0 28.469 0h-3.564a.817.817 0 0 0-.912.763v26.858c0 .615.509.784.934.784h3.564a.861.861 0 0 0 .909-.805v-6.174zm29.106 6.068l-.382-3.564a.845.845 0 0 0-1-.742 5.483 5.483 0 0 1-.827.063A5.347 5.347 0 0 1 51 18.2v-4.665a1 1 0 0 1 1-1.035h4.773a.891.891 0 0 0 .849-.913V8.21a.891.891 0 0 0-.806-1H52a.991.991 0 0 1-1.018-.954V.849A.863.863 0 0 0 50.066 0h-3.543a.812.812 0 0 0-.87.828V18.2a10.661 10.661 0 0 0 10.671 10.376 10.523 10.523 0 0 0 1.421-.106.868.868 0 0 0 .785-.976m25.712-4.477c-3.013 0-3.479-1.082-3.479-5.134V8.1a.915.915 0 0 0-.934-.912h-3.564a.935.935 0 0 0-.933.912v.445a10.536 10.536 0 0 0-5.261-1.4 10.671 10.671 0 1 0 6.937 18.775 5.753 5.753 0 0 0 5.134 2.567c.424 0 2.715.084 2.715-1V23.7a.673.673 0 0 0-.615-.679m-14.15.17a5.346 5.346 0 1 1 5.346-5.346 5.351 5.351 0 0 1-5.346 5.346\\&quot;/&gt;&lt;/g&gt;&lt;/svg&gt;&quot;}]\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The title field is required.\" id=\"title\" name=\"title\" value=\"&lt;strong&gt;Saddle Up for Success | 9th Annual KanTime Experience 2027&lt;/strong&gt;\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The message field is required.\" id=\"message\" name=\"message\" value=\"&lt;p&gt;&lt;strong&gt;More Information Coming Soon!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;Saddle up for KanTime&#x2019;s 9th Annual Experience, where innovation meets the open range. In 2027, we&#x2019;re bringing together industry leaders, partners, and providers for an event focused on spurring innovation and driving success. Join the KanTime community to connect, collaborate, and explore new opportunities to advance home-based care.&lt;/p&gt;&lt;p&gt;Rooms:&lt;br&gt;https://bookings.omnihotels.com/event/fort-worth/2027-kantime-experience&lt;/p&gt;&lt;p&gt;Registration:&lt;br&gt;https://whova.com/portal/registration/SXxd7N90F2mIMJqaH9rs/&lt;/p&gt;\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The login_uri field is required.\" id=\"login_uri\" name=\"login_uri\" value=\"https://www.kantimehealth.net/identity/v2/Accounts/ExternalLoginCallBackOneTap\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The ClientKey field is required.\" id=\"ClientKey\" name=\"ClientKey\" value=\"622095663788-dcr1qbp0hugjr3qia686k286qem90lrf.apps.googleusercontent.com\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The RestrictedKey field is required.\" id=\"RestrictedKey\" name=\"RestrictedKey\" value=\"6LcUr9UpAAAAAIKhsWYyXtG_EIQLXXlyhYC-AzKV\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The CaptchaToken field is required.\" id=\"CaptchaToken\" name=\"CaptchaToken\" value=\"\" />\n\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The ClientID field is required.\" id=\"ClientID\" name=\"ClientID\" value=\"kantimeclient\" />\n        <input type=\"hidden\" class=\"input-validation-error\" data-val=\"true\" data-val-required=\"The Product field is required.\" id=\"Product\" name=\"Product\" value=\"\" />\n        <input type=\"hidden\" class=\"input-validation-error\" data-val=\"true\" data-val-required=\"The State field is required.\" id=\"State\" name=\"State\" value=\"\" />\n        <input type=\"hidden\" class=\"input-validation-error\" data-val=\"true\" data-val-required=\"The Nonce field is required.\" id=\"Nonce\" name=\"Nonce\" value=\"\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The ResponseType field is required.\" id=\"ResponseType\" name=\"ResponseType\" value=\"\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The RedirectURI field is required.\" id=\"RedirectURI\" name=\"RedirectURI\" value=\"\" />\n        <input type=\"hidden\" class=\"input-validation-error\" data-val=\"true\" data-val-required=\"The Scope field is required.\" id=\"Scope\" name=\"Scope\" value=\"\" />\n        <input type=\"hidden\" data-val=\"true\" data-val-required=\"The isRelogin field is required.\" id=\"isRelogin\" name=\"isRelogin\" value=\"false\" />\n\n\n        <div class=\"container-fluid\">\n            <div class=\"row h-100vh\">\n                    <div class=\"col-lg-7 col-md-6 col-sm-12 left_sec d-flex justify-content-center align-items-center\">\n                        <div id=\"notification_sec\" class=\"notification_sec\">\n                                <span style=\"float:right;\" onclick=\"javascript:return closearrow()\" id=\"notsec_tog\" class=\"notsec_tog\">\n                                    <em id=\"down\" class=\"fa fa-arrow-down arrow \" style=\"display:none\"></em>\n                                    <em id=\"upArrow\" class=\"fa fa-arrow-up arrow\"></em>\n                                </span>\n                                    <div class=\"headerstyle\"><strong>Saddle Up for Success | 9th Annual KanTime Experience 2027</strong></div>\n                                    <div class=\"notification_Sub\">\n                                        <div class=\"lblmessage\">\n\n                                            <p>\n                                                <p><strong>More Information Coming Soon!</strong></p><p><br>Saddle up for KanTime’s 9th Annual Experience, where innovation meets the open range. In 2027, we’re bringing together industry leaders, partners, and providers for an event focused on spurring innovation and driving success. Join the KanTime community to connect, collaborate, and explore new opportunities to advance home-based care.</p><p>Rooms:<br>https://bookings.omnihotels.com/event/fort-worth/2027-kantime-experience</p><p>Registration:<br>https://whova.com/portal/registration/SXxd7N90F2mIMJqaH9rs/</p>\n                                            </p>\n\n                                        </div>\n                                    </div>\n                        </div>\n                    </div>\n                <div class=\"col-lg-5 col-md-6 col-sm-12 right_sec d-flex justify-content-center align-items-center flex-column\">\n                    <div class=\"login_form_outer\">\n                        <div class=\"login_form\">\n                            <img class=\"KanTimeLogo mb-4 mt-5px\" alt=\"KanTime Healthcare\" src=\"/identity/v2/accounts/images/KanTime-HealthcareSoftware_logo.svg\" />\n                            <table class=\"login_table\">\n                                <tr>\n                                    <td>\n                                        <img src=\"/identity/v2/accounts/images/user_lg.svg\" alt=\"\" class=\"text_ico\">\n                                    </td>\n                                    <td>\n                                        <div>\n                                            <input id=\"txt_username\" type=\"text\" class=\"login_txt\" placeholder=\"User Name\" oninput=\"ResetErrors()\" tabindex=\"1\" data-val=\"true\" data-val-required=\"The LoginId field is required.\" name=\"LoginId\" value=\"\">\n                                        </div>\n                                    </td>\n                                </tr>\n                                <tr>\n                                    <td colspan=\"2\" class=\"h-20px\">\n                                        <label id=\"lbl_errorusername\" class=\"incorrect_cred\"></label>\n                                    </td>\n                                </tr>\n                                <tr>\n                                    <td class=\"h-10px\">\n                                    </td>\n                                </tr>\n                                <tr>\n                                    <td>\n                                        <img src=\"/identity/v2/accounts/images/password_lg.svg\" alt=\"\" class=\"text_ico\">\n                                    </td>\n                                    <td>\n                                        <div>\n                                            <input id=\"txt_password\" type=\"password\" class=\"login_txt\" placeholder=\"Password\" oninput=\"ResetErrors()\" tabindex=\"2\" data-val=\"true\" data-val-required=\"The Password field is required.\" name=\"Password\">\n                                        </div>\n                                    </td>\n                                </tr>\n                                <tr>\n                                    <td colspan=2>\n                                        <span class=\"bluelink_div forgot_password\" onclick=\"javascript:return onForgotPasswordClick()\">Forgot Password?</span>\n                                    </td>\n                                </tr>\n                                <tr>\n                                    <td colspan=2 class=\"h-50px\">\n                                        <label class=\"incorrect_cred\" id=\"lbl_errormessage\"></label>\n                                        <div id=\"load_captcha\" style=\"display: none; text-align: center;\">\n                                            <img src=\"/identity/v2/accounts/images/Loading.gif\" alt=\"\" class=\"w20\" />\n                                            <span class=\"load_message\" id=\"lbl_loaderrormessage\">\n                                                Verifying that you are not a robot\n                                            </span>\n                                        </div>\n                                    </td>\n                                </tr>\n                            </table>\n                            <button type=\"button\" id=\"btn_login\" class=\"login_btn bg-color\" tabindex=\"3\">Login</button>\n                            <div class=\"login_with mt-3 mb-3\">or Login with</div>\n                            <table align=\"center\">\n                                <tr>\n                                        <td>\n                                            <span class=\"pointer pr-20px ssoicon\" title=\"Google\" onclick=\"javascript: return onSSOProviderClick(1)\" tabindex=\"4\"><svg data-name=\"Component 4 - 1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"33\" height=\"33\" viewBox=\"0 0 33 33.8\"><defs><clipPath id=\"a\"><path data-name=\"Rectangle 71\" fill=\"none\" d=\"M0 0H33V33.8H0z\"/></clipPath></defs><g data-name=\"Group 154\" clip-path=\"url(#a)\"><path data-name=\"Path 70\" d=\"M33 17.3a19.5 19.5 0 0 0-.2-3.2h-16v6.3H26a7.8 7.8 0 0 1-3.4 5v4.3H28a16.5 16.5 0 0 0 5-12.4\" fill=\"#4285f4\"/><path data-name=\"Path 71\" d=\"M16.9 33.8A16 16 0 0 0 28 29.7l-5.4-4.3a10.2 10.2 0 0 1-15.2-5.3H1.8v4.3a16.9 16.9 0 0 0 15 9.4\" fill=\"#34a853\"/><path data-name=\"Path 72\" d=\"M7.4 20.1a9.8 9.8 0 0 1-.5-3.2 10.2 10.2 0 0 1 .5-3.2V9.3H1.8a16.7 16.7 0 0 0 0 15.1Z\" fill=\"#fbbc05\"/><path data-name=\"Path 73\" d=\"M16.9 6.7a9.2 9.2 0 0 1 6.4 2.5l4.9-4.8A16.1 16.1 0 0 0 16.9 0a16.9 16.9 0 0 0-15 9.3l5.5 4.4a10 10 0 0 1 9.5-7\" fill=\"#ea4335\"/></g></svg></span>\n                                        </td>\n                                        <td>\n                                            <span class=\"pointer pr-20px ssoicon\" title=\"Microsoft\" onclick=\"javascript: return onSSOProviderClick(2)\" tabindex=\"4\"><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" id=\"prefix__Layer_1\" x=\"0\" y=\"0\" width=\"33\" height=\"33\" viewBox=\"0 0 560 600\" xml:space=\"preserve\" enable-background=\"new 0 0 560 600\"><style>.prefix__st0{fill:#5868be}.prefix__st1{fill:#4bb3ea}.prefix__st2{fill:#9475d1}.prefix__st3{fill:#c18eec}</style><path class=\"prefix__st0\" d=\"M183.1 236c18.7-3.3 36.6-19 54.3-26 4.7-1.9 17.4-3.5 19.8-8.4 3.9-8 2.4-23.6 3.7-32.5 2.3-16.3 5.7-32.3 8.3-48.5 2.1-12.6 3.4-28.2 9.1-39.7 12-24.3 45.3-35.7 61.3-56.5a119.3 119.3 0 0 0-52.7-15.2c-15 0-29.2.4-43.6 5.2-25.8 8.6-44.8 36-53.6 60.7-7.8 21.8-6.5 44.1-6.5 66.9v94z\"/><path class=\"prefix__st2\" d=\"m230.6 19 1 1-1-1m-28.1 340.1c-3.8-12-11.2-22.6-14.8-34.9-5.2-17.8-4.6-36.9-4.6-55.2 0-11.1-.9-22.2 1.9-32.9-3.3-4.3-1.9-13-1.9-18.2l.8-53.6c0-40.1-4.7-71.5 13.6-105.5 8.8-15.8 22.1-25.2 33.1-38.8-8.2 2.4-15.7 7.9-23.3 11.8-15.9 8.4-31.7 17.1-47.5 25.7C101.5 89 23.3 114.9 10 188.6c-2.1 11.6-4.5 31.3-.7 42.6 4.4 13.1 19.8 27.2 29.4 36.8a364 364 0 0 0 96.9 70.5c17 8.5 47.7 27.1 66.9 20.6z\"/><path class=\"prefix__st1\" d=\"m330.4 19.9 1 1-1-1m1.9 1 1 1-1-1m-76.5 182.2v1c14.7-1.2 28.8-3.2 43.6-.6 23.1 4.2 43.5 16.1 64 26.9 20.3 10.7 41.5 20.3 62 30.6 28.7 14.3 61.9 26.7 86.3 48 21.4 18.8 38.2 48.2 38.8 77.3 3.1-7.4 1-19.1 1-27.1V299c0-54.9 11.2-120.7-27.4-165.7-25.4-29.6-68.4-46.6-102.4-64.2-21.2-11-42-22.7-63-34-5.4-2.9-17-12.4-23.3-10.9a77.2 77.2 0 0 0-30 18.5c-9.4 9.4-21 25.2-27 37.3-9.2 18.7-11.6 46.4-14.5 66.9-1.7 11.7-4.3 24.1-5 35.9-1 9.6-.3 8.4-3.1 20.3z\"/><path class=\"prefix__st0\" d=\"M8.7 231.2v119.2c0 24.8-1.8 51.1 3.9 73.7a108.6 108.6 0 0 0 50.5 65.8c16.5 4.9 26.8 5.5 35.2 6.8 15.5 2.4 21.2.1 36.4-3.7 16.8-4.2 31.5-13 46.5-21.1 32.7-17.7 65.5-39.2 99.8-53.6l2.9-2.9c-25.5-15-68.7-27.6-81.6-56.7-16.7 7.2-39.7-8.3-55.1-15a343 343 0 0 1-110.4-78.5c-10.2-10.7-18-23.5-28.1-34M424.3 425a204.2 204.2 0 0 1-18.7 97.9c-2.9 6.3-9.3 14.2-8.4 21.3 25-13.2 49.7-26.9 74.6-40.4 20.6-11.1 40.8-21.9 55.3-41a113.8 113.8 0 0 0-12.7-152.1c-23.2-21.7-56.2-33.8-84.3-47.8-17.4-8.7-35.5-21.5-54.3-26.9v55.2c0 11.4 1.3 24.6-3.2 35.2 0 0 24.3 25.7 29.4 26.8l-1 2.9 3.9 3.9h1l-1-2.9h1v4.9l1.9 1.9\"/><path class=\"prefix__st2\" d=\"M373.6 324.1c-3 7.9-6 16.6-10.1 24.4-7.8 15-19 28.4-32.2 39-10 8-21.7 13.8-32.9 19.9-3.5 1.9-9.7 5.1-14.5 8.1-1.5 3.8 4 10.8 5 14.5a89.8 89.8 0 0 1 3.6 30c-4.4 46.5-34.8 88.8-75.4 111.4v2.9c15.9 6.6 30.1 14.1 47.5 16.2 51.3 6.3 89.4-25.1 132.8-46.2.4-7.5 5.8-14.5 8.9-21.3a286 286 0 0 0 15.2-44.6c24.2-141.9-47.3-154-47.3-154m1.7.8 1 1-1-1z\"/><path class=\"prefix__st3\" d=\"M283.9 415.3c-20.4 7.3-40 12.6-64.9 32.9-33.7 18.2-66.4 45.7-105.6 48.4a128 128 0 0 1-49.4-7.7l-2.9-.3 157.1 85.7-1.1-1.1c9.9-10.8 21.1-11.6 34.9-28.1 30.6-31.3 55.8-87.1 31.9-129.8z\"/></svg></span>\n                                        </td>\n                                        <td>\n                                            <span class=\"pointer pr-20px ssoicon\" title=\"Okta\" onclick=\"javascript: return onSSOProviderClick(3)\" tabindex=\"4\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"90\" height=\"33\" xmlns:v=\"https://vecta.io/nano\"><defs><clipPath id=\"A\"><path fill=\"none\" d=\"M0 0h84.857v28.575H0z\"/></clipPath></defs><g clip-path=\"url(#A)\" fill=\"#007dc1\"><path d=\"M10.671 7.17a10.671 10.671 0 1 0 10.671 10.671A10.665 10.665 0 0 0 10.671 7.17m0 16.017a5.346 5.346 0 1 1 5.346-5.346 5.351 5.351 0 0 1-5.346 5.346m18.753-1.761a.94.94 0 0 1 1.612-.658l7.107 7.4a.752.752 0 0 0 .382.255 1.467 1.467 0 0 0 .467.042h4.815a.935.935 0 0 0 .721-1.506L36.552 18.8l-.424-.424c-.913-1.082-.806-1.506.233-2.609L42.683 8.7a.922.922 0 0 0-.743-1.484h-4.37a1.32 1.32 0 0 0-.424.042.794.794 0 0 0-.424.255c-.022.021-3.522 3.8-5.686 6.109a.956.956 0 0 1-1.654-.657V.848A.847.847 0 0 0 28.469 0h-3.564a.817.817 0 0 0-.912.763v26.858c0 .615.509.784.934.784h3.564a.861.861 0 0 0 .909-.805v-6.174zm29.106 6.068l-.382-3.564a.845.845 0 0 0-1-.742 5.483 5.483 0 0 1-.827.063A5.347 5.347 0 0 1 51 18.2v-4.665a1 1 0 0 1 1-1.035h4.773a.891.891 0 0 0 .849-.913V8.21a.891.891 0 0 0-.806-1H52a.991.991 0 0 1-1.018-.954V.849A.863.863 0 0 0 50.066 0h-3.543a.812.812 0 0 0-.87.828V18.2a10.661 10.661 0 0 0 10.671 10.376 10.523 10.523 0 0 0 1.421-.106.868.868 0 0 0 .785-.976m25.712-4.477c-3.013 0-3.479-1.082-3.479-5.134V8.1a.915.915 0 0 0-.934-.912h-3.564a.935.935 0 0 0-.933.912v.445a10.536 10.536 0 0 0-5.261-1.4 10.671 10.671 0 1 0 6.937 18.775 5.753 5.753 0 0 0 5.134 2.567c.424 0 2.715.084 2.715-1V23.7a.673.673 0 0 0-.615-.679m-14.15.17a5.346 5.346 0 1 1 5.346-5.346 5.351 5.351 0 0 1-5.346 5.346\"/></g></svg></span>\n                                        </td>\n                                </tr>\n                            </table>\n                        </div>\n                        <div class=\"col-12 text-center copyright-wraper\">\n                            © Copyright <script>document.write(new Date().getFullYear());</script> KanTime | All Rights Reserved. | \n                            <a class=\"copyright-wraper\" href=\"https://kantime.com/privacy-policy\">Privacy Policy</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8KuY0hbbzoNMvKXRdzQOafZThmetXvkaGVxSiUM7VNmx5CyNPUEWAVpAltfkln9QVEbsMQ6eVRmaBw0J5XyJo3b6Domef2JcNSffARXjKfKUVG9B1IBiLGx7iZEiKFjFvwh1UoE1V_EHbR0djy8Usp4\" /></form>\n</body>",
+      "url": "https://www.kantimehealth.net/identity/v2/Accounts/Authorize"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "",
+      "url": "https://kantimehealth.net/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "",
+      "url": "https://kantimehealth.net/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "",
+      "url": "https://kantimehealth.net/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "kantimehealth.net",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-18T02:56:29.655Z",
+    "score": 35,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 33,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 25,
+            "max": 25,
+            "status": "pass",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 3,
+            "max": 5,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, not a full HTML document or unconverged redirect"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 2,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 90 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"KanTime-Login\"; missing/too-short meta description; no date signal; body text 90 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 25,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 3,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

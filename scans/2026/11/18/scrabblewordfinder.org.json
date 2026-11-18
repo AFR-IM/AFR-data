@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "scrabblewordfinder.org",
+    "fetchedAt": "2026-11-18T03:04:27.826Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /privacy-policy\n\nSitemap: https://scrabblewordfinder.org/sitemap.xml",
+      "url": "https://scrabblewordfinder.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!doctype html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>404 - Page Not Found!</title>\n      <!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SGHJCY70P0\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-SGHJCY70P0');\n  </script>\n  </head>\n  \n  <body style=\"max-width: 800px; margin: 50px auto; font-size: 130%; text-align: center;\">\n\t<h1>404 - Page Not Found</h1>\n  <br>\n  <p>The page you're looking for doesn't exist. It's very likely that the URL is misspelled.</p>\n  <br>\n\t<a href=\"/\" style=\"border: 2px solid #aaa;padding:0.4em;text-decoration: none; background-color: orange; color: #333;\">Back to Home Page</a>\n  </body>\n</html>\n",
+      "url": "https://scrabblewordfinder.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!doctype html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>404 - Page Not Found!</title>\n      <!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SGHJCY70P0\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-SGHJCY70P0');\n  </script>\n  </head>\n  \n  <body style=\"max-width: 800px; margin: 50px auto; font-size: 130%; text-align: center;\">\n\t<h1>404 - Page Not Found</h1>\n  <br>\n  <p>The page you're looking for doesn't exist. It's very likely that the URL is misspelled.</p>\n  <br>\n\t<a href=\"/\" style=\"border: 2px solid #aaa;padding:0.4em;text-decoration: none; background-color: orange; color: #333;\">Back to Home Page</a>\n  </body>\n</html>\n",
+      "url": "https://scrabblewordfinder.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Scrabble Word Finder - Online Scrabble Solver and Cheat Site</title>\n    <!-- other meta tags -->\n    \n<meta name=\"description\" content=\"Scrabble Word Finder helps you find words and cheat in Scrabble\n    and solve word game puzzles like Words with Friends, Wordfeud, Jumble, Wordle, Spelling Bee etc.\" />\n\n\n    <!-- <link href=\"/stylesheets/style.css?v=abc\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" /> -->\n    <link href=\"https://dd3sxcrxfx21f.cloudfront.net/swf/style-v11.css\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n    <link rel=\"shortcut icon\" type=\"image/png\" href=\"https://dd3sxcrxfx21f.cloudfront.net/swf/favicon-v1.png\"/>\n    <!-- skip ad block recovery on landing page -->\n    <!-- google dfp ad tag for header -->\n    <script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\" crossorigin=\"anonymous\"></script>\n  </head>\n  <body>\n    <!-- header starts here -->\n    <!-- Navigation -->\n\n  <nav class=\"top-bar row\">\n    <ul class=\"title-area\">\n      <!-- Title Area -->\n      <li class=\"name\">\n          <a href=\"/\">\n            <!-- <img src=\"/images/logo.png\" alt=\"logo\" class=\"logo\"> -->\n            <img src=\"https://dd3sxcrxfx21f.cloudfront.net/swf/logo-v1.png\" alt=\"logo\" class=\"logo\">\n          </a>\n      </li>\n      <li class=\"toggle-topbar menu-icon\"><a href=\"#\"><span></span></a></li>\n    </ul>\n\n    <section class=\"top-bar-section\">\n      <ul class=\"right\">\n        <li class=\"divider\"></li>\n        <li><a href=\"/dictionary-checker\">Dictionary</a></li>\n        <li class=\"divider\"></li>\n        <li><a href=\"/two-letter-scrabble-words\">Two Letter Words</a></li>\n        <li class=\"divider\"></li>\n        <li><a href=\"/word-list\">Word List</a></li>\n        <li class=\"divider\"></li>\n        <li><a href=\"/words-with-friends-cheat\">Words with Friends Finder</a></li>\n      </ul>\n    </section>\n  </nav>\n\n  <!-- End Top Bar -->\n\n    <!-- end of header -->\n    <!-- main content -->\n    <div class=\"row\">\n  <div class=\"large-12 columns\">\n    <!-- content starts here -->\n    <div class=\"content\">\n      <!-- title -->\n      <div class=\"title\">\n        <h1>Scrabble Word Finder</h1>\n        <p class=\"subtitle\">Find the high scoring words for Scrabble.</p>\n      </div>\n\n      <!-- main content starts here -->\n      <div class=\"main\">\n        <div class=\"form-wrapper\">\n          <form class=\"row form\" id=\"mainForm\" action=\"/solver\" method=\"post\" autocomplete=\"off\">\n            <div class=\"large-6 columns\">\n              <label>Enter up to 15 letters, use <strong>?</strong> as wildcards (max 2).</label>\n              <div class=\"input-wrapper\">\n                <input type=\"text\" name=\"letters\" id=\"ltr\" placeholder=\"ayqr?\" maxlength=\"15\"  spellcheck=\"false\" autocomplete=\"off\" autocorrect=\"off\" onkeyup=\"handleSpaces(this);\" autofocus required>\n                <span id=\"clear-text\">&#x2718; Clear</span>\n              </div>\n\n              <div class=\"row\">\n                <div class=\"small-7 columns\">\n                  <label class=\"\">Select Dictionary</label>\n                  <select name=\"dictionary\" id=\"dictCode\">\n                    <option value=\"twl\">Scrabble US (TWL)</option>\n                    <option value=\"sowpods\">Scrabble UK (SOWPODS)</option>\n                    <option value=\"enable\">Words with Friends (ENABLE)</option>\n                  </select>\n                </div>\n                <div class=\"small-5 columns\">\n                  <a href=\"javascript:void(0)\" id=\"triggerAdvancedOptions\" class=\"button tiny secondary adv-options-button\">Advanced Options</a>\n                </div>\n              </div>\n\n              <!-- advanced options -->\n              <div class=\"row hide\" id=\"advancedOptions\">\n                <div class=\"small-4 columns\">\n                  <label>Must include </label>\n                  <input type=\"text\" name=\"substr\" id=\"subStr\" placeholder=\"y\" spellcheck=\"false\" autocomplete=\"off\" autocorrect=\"off\">\n                </div>\n\n                <div class=\"small-4 columns\">\n                  <label>Starts with </label>\n                  <input type=\"text\" name=\"prefix\" id=\"prefixLtr\" placeholder=\"prefix\" spellcheck=\"false\" autocomplete=\"off\" autocorrect=\"off\">\n                </div>\n                <div class=\"small-4 columns\">\n                  <label>Ends with </label>\n                  <input type=\"text\" name=\"suffix\" id=\"suffixLtr\" placeholder=\"suffix\" spellcheck=\"false\" autocomplete=\"off\" autocorrect=\"off\">\n                </div>\n              </div> <!-- end of advanced options -->\n            </div>\n            <div class=\"large-6 columns btn-wrapper\">\n              <input type=\"hidden\" name=\"repeat\" value=\"no\">\n              <input type=\"submit\" id=\"hidden-form-field\">\n              <button type=\"submit\" class=\"button\" id=\"finderBtn\">Find Words</button>\n            </div>\n          </form>\n          <div id=\"loadingIcon\"><i class=\"icon-spinner icon-spin icon-4x\"></i></div>\n        </div>\n        \n        <div class=\"details\">\n          <p><strong>Scrabble&reg; Word Finder</strong> is a simple and easy to use <em>Scrabble solver and helper</em> website :-)\n          It helps you find the top scoring words for Scrabble, Words with Friends and other similar word game puzzles such as \n          Jumble, Scrabble Go, Wordscapes, Wordfeud, Wordle etc.\n         </p>\n\n\n         <p>In short, the goal of this site is to help you cheat/win in Scrabble&reg; word game,\n           especially if you're stuck for long and need some external help or just a little hint to move forward.\n           However, you may also find this useful for learning/exploring new words and settling disputes with your opponents, with our handy\n           <a href=\"https://scrabblewordfinder.org/dictionary-checker\">dictionary checker</a>. You may also want to check out : <a href=\"https://scrabblewordfinder.org/words-with-friends-cheat\">Words with Friends Cheat</a> that uses Enable dictionary for solving \n         words for the another popular word game called Words with Friends.</p>\n\n\n           <h2 class=\"subhead-small\">How To Use This Word Finder</h2>\n           <p>Some tips on how to use this word finder site and what kind of features are available.\n             We constantly make some changes or improvements to this website and those are also listed below.</p>\n           <div class=\"row\">\n             <div class=\"large-8 columns\">\n               <ul>\n                 <li><em>Supports multiple Dictionaries</em> - Currently, it supports three dictionaries (more dictionaries will be added later based on users request)\n                  - <strong>TWL</strong> (The official Scrabble&reg; dictionary for US, Canada and Thailand) which is selected by default,\n                  <strong>SOWPODS</strong> (UK and rest of the world) and <strong>Enable</strong> - for Words with Friends solver.</li>\n\n                  <li>You can enter up to 15 letters.\n              And you can also use ? or space for blank tiles (please keep the maximum number of blank tiles to 2).</li>\n              <li>Using advanced options you can also specify any prefix or suffix for your target word.\n              It would help you filter the more accurate results for your need and save your time.</li>\n              <li>On the result page, click on the word to find the meaning (it will perform a dictionary lookup on a standard WordNet dictionary)</li>\n              <li>Fast lookup and a mobile/tablet friendly design (responsive).</li>\n              <li><strong>New!</strong> It also display the scores for each word</li>\n              <li><strong>New!</strong> The blank tiles are highlighted in different color (light blue)</li>\n              <li><strong>Update!</strong> We've fixed score calculation error when blank tiles are present.</li>\n              <li><strong>Dictionary Update!</strong> We've updated the TWL to use the latest word list from NASPA.\n                For SOWPODS, we now use all words from CSW (Collins Scrabble Words).</li>\n               </ul>\n             </div>\n           </div>\n\n           <h3> What is Scrabble? </h3>\n          \n          <p>If you love <a href=\"https://scrabblewordfinder.org/most-popular-word-games\" target=\"_blank\">word games</a> and enjoy brainstorming and using your smarts to win in a game, then you’ve definitely played scrabble at least once or twice before. Scrabble is a popular word game that dates back to the 1930s. It was created in an attempt to uplift people during the great depression in America which was a time when the world was facing economic instability and people needed a little cheering up.</p>\n\n        <p>A former New York architect, Alfred Mosher Butts, is the genius who invented scrabble while trying to introduce scoring to word games; something that was still very uncommon at the time. He wanted to make word games fun and enjoyable for all. To make it the wonderful game it is today, scrabble underwent minor name and quality adjustments over the years. It was first called Lexiko, which was later changed to Criss Cross Words then to its present name.</p>\n\n        <p>Currently, the main producers of <a href=\"https://scrabblewordfinder.org/scrabble-vs-scrabble-deluxe\">scrabble and scrabble deluxe</a> are the Parker Brothers division of the multinational toy and board game company, Hasbro games.</p>\n\n           <h3>Some Tips for Scrabble</h3>\n           <p>Scrabble is a popular word game, it's very easy to play and enjoyed by people from every corner of the world. The game play is simple and straightforward, however it’s extremely difficult to master. If you’ve just started and need some tips then you’ve come to the right place. We’ve curated some tips here specifically for the absolute beginners. Try to incorporate at least one of the tips written below in your next game.</p>\n\n           <ul>\n            <li><strong>Set up the board carefully</strong> - The first step to getting the most out of the game is to set up the board carefully. It is necessary to ensure that the board is level and that all the pieces are in their proper positions. If the board is not level, it can be difficult to make plays, and it can be easy for the tiles to fall off.</li>\n             <li><strong>Use your advantages</strong> - Once the board is set up, it's time to start playing your strengths. For example, if you're good at making long words, then focus on that. If you're good at finding high-scoring words, then focus on that. The key is to use your strengths to your advantage.</li>\n             <li><strong>Learn new words </strong> - specifically the shorter words containing less common letters such as <a href=\"https://scrabblewordfinder.org/3-letter-words-with/q\">q</a> and <a href=\"https://scrabblewordfinder.org/3-letter-words-with/z\">z</a>. You get 10 points for each tile. Here is the <a href=\"https://scrabblewordfinder.org/two-letter-scrabble-words\">list of two letter words</a> and <a href=\"https://scrabblewordfinder.org/3-letter-words\">three letter words</a> that you need to learn.</li>\n             <li> Use prefixes and suffixes to make new words.</li>\n             <li><strong>Bingos</strong> are great, it helps you score extra points. (50 additional points)</li>\n             <li>Learning some <a href=\"https://scrabblewordfinder.org/words-without-vowels\">words without any vowels or y</a> is also quite useful sometimes. </li>   \n             <li><strong>Practice </strong> - there is no substitute for this. The game is bound to get better in your favor if you simply play it more often.</li>   \n             <li><strong>Have fun</strong> - Last but not least, remember to have fun! Scrabble and Scrabble Junior are great games that people of all ages can enjoy. So relax, have fun, and see if you can come out victorious!</li>\n             <li>Also read the our recent article - <a href=\"https://scrabblewordfinder.org/tips-to-win-at-scrabble\">Tips to win at Scrabble</a>.</li>\n           </ul>\n\n           <br><br>\n\n        <div class=\"other-pages\">\n  <h3>Top Word List</h3>\n  <div class=\"row\">\n    <div class=\"large-6 columns\">\n      <ul class=\"link\">\n        <li><a href=\"/tips-to-win-at-scrabble\">Tips to Win at Scrabble</a></li>\n        <li><a href=\"/two-letter-scrabble-words\">List of all two letter words</a></li>\n        <li><a href=\"/3-letter-words\">Three Letter Words</a></li>\n        <li><a href=\"/scrabble-vowel-words\">Scrabble Vowel Words List</a></li>\n        <li><a href=\"/words-without-vowels\">Words Without Vowels</a></li>\n        <li><a href=\"/words-that-starts-and-ends-with-the-same-letter\">Words that start and end with same letter</a></li>\n        <li><a href=\"/2-letter-words-with/z\">2 letter words with Z</a></li>\n        <li><a href=\"/2-letter-words-with/x\">2 letter words with X</a></li>\n        <li><a href=\"/2-letter-words-with/q\">2 letter words with Q</a></li>\n        <li><a href=\"/2-letter-words-with/c\">2 letter words with C</a></li>\n        <li><a href=\"/2-letter-words-with/J\">2 letter words with J</a></li>\n        <li><a href=\"/two-letter-words-that-end-in/y\">2 letter words that end in Y</a></li>\n        <li><a href=\"/two-letter-words-that-end-in/u\">2 letter words that end in U</a></li>\n        <li><a href=\"/3-letter-words-with/x\">3 letter words with X</a></li>\n        <li><a href=\"/3-letter-words-with/z\">3 letter words with Z</a></li>\n        <li><a href=\"/3-letter-words-with/E\">3 letter words with E</a></li>\n        <li><a href=\"/3-letter-words-with/u\">3 letter words with U</a></li>\n        <li><a href=\"/3-letter-words-with/q\">3 letter words with Q</a></li>\n        <li><a href=\"/3-letter-words-with/v\">3 letter words with V</a></li>\n        <li><a href=\"/3-letter-words-with/j\">3 letter words with J</a></li>\n        <li><a href=\"/4-letter-words-starting-with/a\">4 letter words starting with A</a></li>\n        <li><a href=\"/4-letter-words-starting-with/e\">4 letter words starting with E</a></li>\n        <li><a href=\"/4-letter-words-starting-with/o\">4 letter words starting with O</a></li>\n        <li><a href=\"/4-letter-words-starting-with/r\">4 letter words starting with R</a></li>\n        <li><a href=\"/5-letter-words-starting-with/c\">5 letter words starting with C</a></li>\n        <li><a href=\"/5-letter-words-starting-with/s\">5 letter words starting with S</a></li>\n        <li><a href=\"/5-letter-words-starting-with/a\">5 letter words starting with A</a></li>\n        <li><a href=\"https://wordunscrambler.me/6-letter-words-starting-with/s\" target=\"_blank\">6 letter words starting with S</a></li>\n        <li><a href=\"https://wordunscrambler.me/6-letter-words-starting-with/a\" target=\"_blank\">6 letter words starting with A</a></li>\n        <li><a href=\"https://wordunscrambler.me/6-letter-words-starting-with/p\" target=\"_blank\">6 letter words starting with P</a></li>\n        <li><a href=\"https://wordunscrambler.me/6-letter-words-starting-with/e\" target=\"_blank\">6 letter words starting with E</a></li>\n        <li><a href=\"https://wordunscrambler.me/7-letter-words-starting-with/s\" target=\"_blank\">7 letter words starting with S</a></li>\n        <li><a href=\"https://wordunscrambler.me/7-letter-words-starting-with/a\" target=\"_blank\">7 letter words starting with A</a></li>\n        <li><a href=\"https://wordunscrambler.me/7-letter-words-starting-with/c\" target=\"_blank\">7 letter words starting with C</a></li>\n        <li><a href=\"https://wordunscrambler.me/7-letter-words-starting-with/t\" target=\"_blank\">7 letter words starting with T</a></li>\n      </ul>\n    </div>\n    \n\n    <div class=\"large-6 columns\">\n      <ul class=\"link\">\n        <li><a href=\"/scrabble-words-with/q/and-no/u\">Words with Q but no U</a></li>\n        <li><a href=\"/scrabble-words-with/z/and/x\">Words with Z and X</a></li>\n        <li><a href=\"/scrabble-words-with/z/and/q\">Words with Z and Q</a></li>\n        <li><a href=\"/scrabble-words-with/z/and/v\">Words with Z and V</a></li>\n        <li><a href=\"/scrabble-words-with/z/and/j\">Words with Z and J</a></li>\n        <li><a href=\"/scrabble-words-with/q/and/x\">Words with Q and X</a></li>\n        <li><a href=\"/scrabble-words-with/q/and/j\">Words with Q and j</a></li>\n        <li><a href=\"/words-ending-in/w\">Words ending in W</a></li>\n        <li><a href=\"/words-ending-in/z\">Words ending in Z</a></li>\n        <li><a href=\"/words-ending-in/q\">Words ending in Q</a></li>\n        <li><a href=\"/words-ending-in/j\">Words ending in J</a></li>\n        <li><a href=\"/words-ending-in/v\">Words ending in V</a></li>\n        <li><a href=\"/words-ending-in/c\">Words ending in C</a></li>\n        <li><a href=\"/words-that-end-in/que\">words that end with QUE</a></li>\n        <li><a href=\"/words-that-end-in/er\">words that end with ER</a></li>\n        <li><a href=\"/words-that-end-in/ty\">words that end with TY</a></li>\n        <li><a href=\"/words-that-end-in/un\">words that end with UN</a></li>\n        <li><a href=\"/words-that-end-in/xe\">words that end with XE</a></li>\n        <li><a href=\"/words-that-end-in/xi\">words that end with XI</a></li>\n        <li><a href=\"/words-that-end-in/ay\">words that end with AY</a></li>\n        <li><a href=\"/words-that-end-in/net\">words that end with NET</a></li>\n        <li><a href=\"/words-that-end-in/ware\">words that end with WARE</a></li>\n        <li><a href=\"/words-that-end-in/zig\">words that end with ZIG</a></li>\n        <li><a href=\"/5-letter-words-ending-in/x\">5 letter words ending with X</a></li>\n        <li><a href=\"/5-letter-words-ending-in/c\">5 letter words ending with C</a></li>\n        <li><a href=\"/5-letter-words-ending-in/t\">5 letter words ending with T</a></li>\n        <li><a href=\"/5-letter-words-ending-in/e\">5 letter words ending with E</a></li>\n        <li><a href=\"https://wordunscrambler.me/6-letter-words-ending-with/t\" target=\"_blank\">6 letter words ending with T</a></li>\n        <li><a href=\"https://wordunscrambler.me/6-letter-words-ending-with/e\" target=\"_blank\">6 letter words ending with E</a></li>\n        <li><a href=\"https://wordunscrambler.me/6-letter-words-ending-with/y\" target=\"_blank\">6 letter words ending with Y</a></li>\n        <li><a href=\"https://wordunscrambler.me/6-letter-words-ending-with/n\" target=\"_blank\">6 letter words ending with N</a></li>\n        <li><a href=\"https://wordunscrambler.me/7-letter-words-ending-with/t\" target=\"_blank\">7 letter words ending with T</a></li>\n        <li><a href=\"https://wordunscrambler.me/7-letter-words-ending-with/e\" target=\"_blank\">7 letter words ending with E</a></li>\n        <li><a href=\"https://wordunscrambler.me/7-letter-words-ending-with/y\" target=\"_blank\">7 letter words ending with Y</a></li>\n        <li><a href=\"https://wordunscrambler.me/7-letter-words-ending-with/s\" target=\"_blank\">7 letter words ending with S</a></li>\n      </ul>\n    </div>\n  </div>\n\n  <p><a href=\"/word-list\" class=\"button tiny muted\">List of words</a></p>\n\n</div>\n\n\n        <div class=\"social-share-buttons\">\n  <span class=\"social-btn share-text\"><strong>Share on</strong></span>\n  <span class=\"social-btn twitter-btn\">\n    <a href=\"https://twitter.com/share?url=https://scrabblewordfinder.org&text=Scrabble Word Finder\" target=\"_blank\">Twitter</a>\n  </span>\n  <span class=\"social-btn facebook-btn\">\n    <a href=\"http://www.facebook.com/sharer.php?u=https://scrabblewordfinder.org\" target=\"_blank\">Facebook</a>\n  </span>\n</div>\n\n        </div>\n      </div> <!-- end of main -->\n    </div>\n    <!-- end of content -->\n  </div>\n</div>\n\n\n\n    <!-- footer starts here -->\n    <!-- Footer -->\n<footer>\n  <div class=\"row\">\n    <div class=\"large-12 columns text-light disclaimer-block\">\n          <strong>Disclaimer</strong> <br><br>\n          <p>\n            SCRABBLE&reg; is a registered trademark. All intellectual property\n            rights in and to the game are owned in the U.S.A and Canada by\n            Hasbro Inc., and throughout the rest of the world by J.W. Spear\n            & Sons Limited of Maidenhead, Berkshire, England, a subsidiary\n            of Mattel Inc. Mattel and Spear are not affiliated with Hasbro.\n            Words with Friends is a trademark of Zynga with Friends.\n          </p>\n          <p>ScrabbleWordFinder.org is not affiliated with SCRABBLE&reg;,\n          Mattel Inc, Hasbro Inc, Zynga with Friends or Zynga Inc in any way.\n          This site is for entertainment purposes only.\n          </p>\n    </div>\n    <div class=\"large-12 columns\">\n      <div class=\"row\">\n        <div class=\"large-8 columns\">\n          <p class=\"\">&copy; 2013-2025 <a href=\"https://scrabblewordfinder.org\">ScrabbleWordFinder.org</a> | <a href=\"/privacy-policy\">Privacy Policy</a>\n          </p>\n        </div>\n\n        <div class=\"large-4 columns\">\n          <ul class=\"inline-list right\">\n            <li><a href=\"/about\">About</a></li>\n            <li><a href=\"/contact\">Feedback</a></li>\n            <li><a href=\"/contact\">Advertise</a></li>\n            <li><a href=\"/contact\">Contact</a></li>\n\n          </ul>\n        </div>\n      </div>\n    </div>\n\n  </div>\n</footer>\n\n    <!-- footer ends here -->\n    <!-- all javascripts are loaded in last -->\n    <script type=\"text/javascript\">\n      function handleSpaces(t){\n        if(t.value.match(/\\s/g)){\n          t.value = t.value.replace(/\\s/g,'?');\n        }\n      }\n    </script>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\" type=\"text/javascript\"></script>\n    <script src=\"https://dd3sxcrxfx21f.cloudfront.net/swf/script-v2.js\" type=\"text/javascript\"></script>\n      <!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SGHJCY70P0\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-SGHJCY70P0');\n  </script>\n  </body>\n</html>\n",
+      "url": "https://scrabblewordfinder.org/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/pages.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-2-letters.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-3-letters.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-4-letters.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-5-letters.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-ending-in-3L.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-ending-in-4L-1.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-ending-in-4L-2.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-ending-in-letter.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-x-and-no-y.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://scrabblewordfinder.org/sitemaps/wl-x-and-y.xml</loc>\n  </sitemap>\n</sitemapindex>\n\n",
+      "url": "https://scrabblewordfinder.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!doctype html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>404 - Page Not Found!</title>\n      <!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SGHJCY70P0\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-SGHJCY70P0');\n  </script>\n  </head>\n  \n  <body style=\"max-width: 800px; margin: 50px auto; font-size: 130%; text-align: center;\">\n\t<h1>404 - Page Not Found</h1>\n  <br>\n  <p>The page you're looking for doesn't exist. It's very likely that the URL is misspelled.</p>\n  <br>\n\t<a href=\"/\" style=\"border: 2px solid #aaa;padding:0.4em;text-decoration: none; background-color: orange; color: #333;\">Back to Home Page</a>\n  </body>\n</html>\n",
+      "url": "https://scrabblewordfinder.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!doctype html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>404 - Page Not Found!</title>\n      <!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SGHJCY70P0\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-SGHJCY70P0');\n  </script>\n  </head>\n  \n  <body style=\"max-width: 800px; margin: 50px auto; font-size: 130%; text-align: center;\">\n\t<h1>404 - Page Not Found</h1>\n  <br>\n  <p>The page you're looking for doesn't exist. It's very likely that the URL is misspelled.</p>\n  <br>\n\t<a href=\"/\" style=\"border: 2px solid #aaa;padding:0.4em;text-decoration: none; background-color: orange; color: #333;\">Back to Home Page</a>\n  </body>\n</html>\n",
+      "url": "https://scrabblewordfinder.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "scrabblewordfinder.org",
+    "engineVersion": "afr-1.2.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-18T03:04:27.826Z",
+    "score": 38,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 15.5,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 6.5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 2/4; single h1; html[lang] present; body text 1444 words"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 5,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Scrabble Word Finder - Online Scrabble S\"; meta description 164 chars; no date signal; body text 1444 words"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 6.5,
+      "l2.sitemap": 4,
+      "l2.content-signals": 5,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
