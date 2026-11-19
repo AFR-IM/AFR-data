@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "sportskeeda.com",
+    "fetchedAt": "2026-11-19T12:32:10.350Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['deltiasgaming.com','primetimer.com','sportskeeda.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHwZcTEz4N85mU0NizTHGjlAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMyhIl4oGGkm9XKhpQAgEQgDsaZkNZAJNQwnvcuQNBF6QSSTLYJvNHH/UuKG8+5UzvIXycoqFlPd0/16XnIpZvsYFMQbmx5ccq/YpeXA==\",\n          \"iv\":\"D542swB+gwAABqAJ\",\n          \"context\":\"ECPaktTGcDYJYBsLV6mBvaHBNchYg76qbAiUPqZQVw9K67yOjhBc27caJcEKKnY7qEAy1bLXK4o6hMd9w2x/NJ3ZYGOBjLZQnfbmORZV4XBk8HIEhe7uu18Mp7mZWNZnZu63rWxdWPZhM+tS0hmVtfMNJjgPNnqRuk9fK0hx3q5nY8uLYFieo+kib/NGuaaSb6b5F0+7Vnck4Kbp7bl1zl0uxwKB6QV53Al9sVtwJ2BHg9AZax0xB7+v3DiKmm6haOtg6en282JzI3a5wBZqXeL3PmILm1DQtVlbWWt1f6MeukBGfoMPUbvYCKWE+jsM744lsA7lkReRu685lguvdbthFqHwxi3hf7d+MCfCbrTIiALKh78CfLwxHL76jhJhIp7cVf5meQmgCj4kbwaUFlf2nZoRd9Nxjk26eAyK5pAI1zkD\"\n};\n    </script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.token.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/challenge.js\"></script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.captcha.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sportskeeda.com/robots.txt"
+    },
+    "llms": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['deltiasgaming.com','primetimer.com','sportskeeda.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHwZcTEz4N85mU0NizTHGjlAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMyhIl4oGGkm9XKhpQAgEQgDsaZkNZAJNQwnvcuQNBF6QSSTLYJvNHH/UuKG8+5UzvIXycoqFlPd0/16XnIpZvsYFMQbmx5ccq/YpeXA==\",\n          \"iv\":\"D542lwCA3wAABtZz\",\n          \"context\":\"SC3744zNNwQqYwPM/tejU2AnSCysY5J6yBS8BIsDM8mM9qojm7Ik1UM5c3Q1AkR4rvKu7oyZVDKJvrdXCWs0hDf7w+no4PEei9+KFcdX3ED6RW5TzYR4vwm2kiZ84md1Uc2cuxUA5hmngq3TphynGkYKSLR4BKU7n2KLjq4UNFI3X+IoFBnr7HN2JTFf11pTXhinsOtZSUBeoDK8chZQcXgQJ4a+M9pH+HUBEoaFegVU8S9YrsPAl6R4AW7C3ekhCLzSXEO9xDSCn5tPJrBxw79PgmSTlbVuvFz9u2GLwAZcsCWPlvJHJ2aXwAAzgdEHbOLEM+mryQx9bN5HnIDk2ks3yynyvcUN+5AJsaSdJrOKE9pJpxasaxdZP0wUxeJt+eipZuwhoaYHlAXFk/GsGHZ54EabO5PWRygNe7ACUG/+n+Zy\"\n};\n    </script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.token.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/challenge.js\"></script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.captcha.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sportskeeda.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['deltiasgaming.com','primetimer.com','sportskeeda.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHwZcTEz4N85mU0NizTHGjlAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMyhIl4oGGkm9XKhpQAgEQgDsaZkNZAJNQwnvcuQNBF6QSSTLYJvNHH/UuKG8+5UzvIXycoqFlPd0/16XnIpZvsYFMQbmx5ccq/YpeXA==\",\n          \"iv\":\"D542lQCBSQAABtPB\",\n          \"context\":\"KCeaCKUgigGAzDT5PpE3WjJLDQadCm1ydDkpdMCjtpi8DBuGTGvVYZdcnutU1ZMimyiF+CNLQkX6MklZk4EcJRqizzt77yrgDL91oCdT6J7AmitXwtT7XXIPrGjXGbk/jDMX3ELGQC02xrhJ9IGw940CnG1ZXzsey7LnjPTmJQjFyUSSV28GY+wI/xtRiA/vVHRDSirRU8LBtv6bmgE7TEOhwolIMo5oaC/qAF4xU1mD2kQp73Y5SBNlJVYnEytpZcv4wb91EYz/NbhOZul8kLdnmJ28uWXdZoBK2Z+hp1aOzxNFYwysZZcxFPcKdmPX3kD9SBUwLVh+hY76q0F1meMX/CC1M/rmplIk1uHCSZpyXbJAlGa65zMV8hu3w8lfxWDv6VX2mdiB6ypb2xfBjdNBlSMUoiPEgWsHGyuhfFLTL1Q/\"\n};\n    </script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.token.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/challenge.js\"></script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.captcha.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sportskeeda.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['deltiasgaming.com','primetimer.com','sportskeeda.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHwZcTEz4N85mU0NizTHGjlAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMyhIl4oGGkm9XKhpQAgEQgDsaZkNZAJNQwnvcuQNBF6QSSTLYJvNHH/UuKG8+5UzvIXycoqFlPd0/16XnIpZvsYFMQbmx5ccq/YpeXA==\",\n          \"iv\":\"D542hACCZQAABnBO\",\n          \"context\":\"HmbE8ZIyTvy+ts+nErkSDWkF36mrALglGyeU0rLhYxaCzE5M1ntXRC4q4DBwkBNdKHo+60Yr52zBQZ/VfXD18Xq6FbjSYiM8A/KDpXMF/kVIrDWRJR72lwx1tc4/6n0BhV23z4mQ4qhqwuGIg9LWFDPlOEQuJfCb+B4WWqRWCWOvYQGjeSRlcxsS4Ae+5mNht6wV2PK9v2z2lI1KL18c1scwRiD1KmE52DeeX3kO2JdvDKVdCOVGRoqbtVWGsZ9ZYEbstc8XQ0uQQh+y5QM+t1O4xhJYfbjJd4ygqMENoV38+vMFtJFwkzLJOjbkvuZxla/dMUK67pTulXm5nIjfBBCNJm57h68Jifm8XXFndTVT8ptSz1BGWJDiUftrOFWx2mgoeBghe68saZtk9WnsT0QpCfFBjxq2QbJ8QWobJw41k3Mp\"\n};\n    </script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.token.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/challenge.js\"></script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.captcha.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sportskeeda.com/"
+    },
+    "sitemap": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['deltiasgaming.com','primetimer.com','sportskeeda.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHwZcTEz4N85mU0NizTHGjlAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMyhIl4oGGkm9XKhpQAgEQgDsaZkNZAJNQwnvcuQNBF6QSSTLYJvNHH/UuKG8+5UzvIXycoqFlPd0/16XnIpZvsYFMQbmx5ccq/YpeXA==\",\n          \"iv\":\"D542jAB/uQAABmuV\",\n          \"context\":\"imeL5XaWhQj+lCQh7TE4c1VV3Ozhsb56tCqV7adAMFZ9jB69czCDXcQINTBQancWBwPPqscX4dZOvXQ0V1yt6gpKcByggoIfZNdkAMSJJ3xK26JI1fXuny2fsV2lv+VJ13z94bBLwbesdy4JoNFDePECTf67dkXNF5jncARToAM/GhbzB0QY5QbXfHsETw8UN0u9pJdUe6nk1vfWaiq1orsuPREKxgc4MLTMDwQgFQSBzndhRJhfy+jXC++oErTKSd3oL6hx8VXA68Bgw0EANd37UhLgDFAiVzy04xRbOqjTsTjTzmU/Y2pWDfBAURuLJpkb8J/5uuAyrsLdSLwLLPnSmFCQTqm8m0ZwwTh6igmTjOFedPe6A0Wh8c4MmMfNA7RxGSmWeBdgzFMgEfWVMORYYy1XHfUP/KpQOyOC5TU+En0o\"\n};\n    </script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.token.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/challenge.js\"></script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.captcha.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sportskeeda.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['deltiasgaming.com','primetimer.com','sportskeeda.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHwZcTEz4N85mU0NizTHGjlAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMyhIl4oGGkm9XKhpQAgEQgDsaZkNZAJNQwnvcuQNBF6QSSTLYJvNHH/UuKG8+5UzvIXycoqFlPd0/16XnIpZvsYFMQbmx5ccq/YpeXA==\",\n          \"iv\":\"D542iQB9+QAABvhu\",\n          \"context\":\"461iOrZcwFVPwQFp5IqEPWBMyxiWaH8ShCzU9YIx/lzS67ffxBe0ZAT6b0G/r1/IruP/rxwGhmfRqeK1t8/AVM88F3JpQqvaPQKOTLl985Giv17sv5XuEgIBYoXfcfVyS+sILc1xYiIplso428iad9EJTn9IsludX7Db8Iz23v39g4eX2nPZfDcWnUsPDZtQsFgaxzN1aLu5X0tCXJgpZizZlXNsZd1QRWjZRyFfEyeLoX55F1SaIlRHKThCdBMsbUBXtYm/g5oYypXBo12GUzyw0wb08D1IE6GBbcx9DvOswji6lLYGkrwfeURZJASR+JQ7FSKBOk1RvXpjuop9szXqqqcS/Yx+0z2j3wPGeTEqO3Mhe/zk9ipEGO6ezw9rlDW/AL+8a7ZV8KFdJvwgFVJiOYHlUzqleIMrx+09Ko/n5tCC\"\n};\n    </script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.token.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/challenge.js\"></script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.captcha.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sportskeeda.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['deltiasgaming.com','primetimer.com','sportskeeda.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHwZcTEz4N85mU0NizTHGjlAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMyhIl4oGGkm9XKhpQAgEQgDsaZkNZAJNQwnvcuQNBF6QSSTLYJvNHH/UuKG8+5UzvIXycoqFlPd0/16XnIpZvsYFMQbmx5ccq/YpeXA==\",\n          \"iv\":\"D542rQCCXQAABnxx\",\n          \"context\":\"MhxqW9G0/PUmxRgNDQMr3jeGL6EmuvpDuAWmEaivs46yYm2656YbAeDMr4B3SQyjoFNVm6n4k/ZsSgQT9heDt89XbyHK7UdM9m6Fy4nIxhM9QEVcpOUNdfpCiiQIaiRXWtUQht7bKRyZNHXSdm04BPyNNbb7j3imfms6XZXD0JJ04CsKN9qK2tjVI3oq7G4VPJTjrJLTmsjJegR1wWbY9ez0mWqD+f1OwhEzP1cF2/NkQZvfnfv5LylMCL0oMG7tnhsaewagC+XKxgF2/uwT/QXwtRPtOWLTquAcMnVu9niM8hZyG42MwsCTmbc6uxMYeSjF7jz445bFsSGTXgMW2bmGeufWyOv9VMg4RCFhANr9QXFIq//BHIqIwpTFnxJn2B2yTX/YwoWHxbQZfFQxmupMzY4TCzvyYh480TK45TsKsXyj\"\n};\n    </script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.token.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/challenge.js\"></script>\n    <script src=\"https://183999ab5829.672da2e8.us-west-2.captcha.awswaf.com/183999ab5829/993f75f32c4f/ce2a2670e1ad/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sportskeeda.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "sportskeeda.com",
+    "engineVersion": "afr-1.3.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-19T12:32:10.350Z",
+    "score": 0,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 0,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "unknown",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "Failed to fetch robots.txt: HTTP 405"
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 405 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 405, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 405; GET /llms-full.txt → HTTP 405; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 405; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 405; llms.txt HTTP 405"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
