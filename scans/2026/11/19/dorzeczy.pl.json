@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "dorzeczy.pl",
+    "fetchedAt": "2026-11-19T11:58:53.919Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "    #disable at search level\r\n    User-agent: *\r\n    Disallow: /szukaj/\r\n\r\n    # for dorzeczy.pl\r\n\r\n    # Allowed search engines directives\r\n    User-agent: Mediapartners-Google\r\n    Disallow:\r\n\r\n    User-agent: Googlebot\r\n    Disallow:\r\n\r\n    User-agent: Googlebot-Image\r\n    Disallow:\r\n\r\n    User-agent: Googlebot-Mobile\r\n    Disallow:\r\n\r\n    User-agent: Googlebot-News\r\n    Disallow:\r\n\r\n    User-agent: Googlebot-Video\r\n    Disallow:\r\n\r\n    User-agent: Adsbot-Google\r\n    Disallow:\r\n\r\n    User-Agent: Googlebot_Nauxeo\r\n    Disallow:\r\n\r\n    User-agent: Twitterbot\r\n    Disallow:\r\n\r\n    User-agent: Applebot\r\n    Disallow:\r\n\r\n    User-agent: Ouestfrancebot\r\n    Disallow:\r\n\r\n    User-agent: Taboolabot\r\n    Disallow:\r\n\r\n    User-agent: Proximic\r\n    Disallow:\r\n\r\n    User-agent: upday\r\n    Disallow:\r\n\r\n    User-agent: Bingbot\r\n    Disallow:\r\n    \r\n    # Crawlers that are kind enough to obey, but which we'd rather not have\r\n    # unless they're feeding search engines.\r\n    User-agent: UbiCrawler\r\n    Disallow: /\r\n\r\n    User-agent: DOC\r\n    Disallow: /\r\n\r\n    User-agent: Zao\r\n    Disallow: /\r\n\r\n    # Some bots are known to be trouble, particularly those designed to copy\r\n    # entire sites. Please obey robots.txt.\r\n    User-agent: sitecheck.internetseer.com\r\n    Disallow: /\r\n\r\n    User-agent: Zealbot\r\n    Disallow: /\r\n\r\n    User-agent: MSIECrawler\r\n    Disallow: /\r\n\r\n    User-agent: SiteSnagger\r\n    Disallow: /\r\n\r\n    User-agent: WebStripper\r\n    Disallow: /\r\n\r\n    User-agent: WebCopier\r\n    Disallow: /\r\n\r\n    User-agent: Fetch\r\n    Disallow: /\r\n\r\n    User-agent: Offline Explorer\r\n    Disallow: /\r\n\r\n    User-agent: Teleport\r\n    Disallow: /\r\n\r\n    User-agent: TeleportPro\r\n    Disallow: /\r\n\r\n    User-agent: WebZIP\r\n    Disallow: /\r\n\r\n    User-agent: linko\r\n    Disallow: /\r\n\r\n    User-agent: HTTrack\r\n    Disallow: /\r\n\r\n    User-agent: Microsoft.URL.Control\r\n    Disallow: /\r\n\r\n    User-agent: Xenu\r\n    Disallow: /\r\n\r\n    User-agent: larbin\r\n    Disallow: /\r\n\r\n    User-agent: libwww\r\n    Disallow: /\r\n\r\n    User-agent: ZyBORG\r\n    Disallow: /\r\n\r\n    User-agent: Download Ninja\r\n    Disallow: /\r\n\r\n    # Misbehaving: requests much too fast:\r\n    User-agent: fast\r\n    Disallow: /\r\n\r\n    #\r\n    # Sorry, wget in its recursive mode is a frequent problem.\r\n    # Please read the man page and use it properly; there is a\r\n    # --wait option you can use to set the delay between hits,\r\n    # for instance.\r\n    #\r\n    User-agent: wget\r\n    Disallow: /\r\n\r\n    #\r\n    # The 'grub' distributed client has been *very* poorly behaved.\r\n    #\r\n    User-agent: grub-client\r\n    Disallow: /\r\n\r\n    #\r\n    # Doesn't follow robots.txt anyway, but...\r\n    #\r\n    User-agent: k2spider\r\n    Disallow: /\r\n\r\n    #\r\n    # Hits many times per second, not acceptable\r\n    # http://www.nameprotect.com/botinfo.html\r\n    User-agent: NPBot\r\n    Disallow: /\r\n\r\n    # A capture bot, downloads gazillions of pages with no public benefit\r\n    # http://www.webreaper.net/\r\n    User-agent: WebReaper\r\n    Disallow: /\r\n\r\n\r\n    User-agent: *\r\n    Crawl-delay: 2\r\n\r\n    User-agent: *\r\n    Disallow:       \r\n    \r\n    Sitemap: https://dorzeczy.pl/sitemap/articles/today\r\n    Sitemap: https://dorzeczy.pl/sitemap/sections\r\n    Sitemap: https://dorzeczy.pl/sitemap/news\r\n",
+      "url": "https://dorzeczy.pl/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "# dorzeczy.pl\n> Do Rzeczy – jeden z wiodących polskich, prawicowych portali informacyjnych. Wiadomości z Polski i ze świata, opinie, komentarze, polityka, historia, religia, rozrywka, jeden z najbardziej opiniotwórczych polskich tygodników.\n\n[Strona główna](https://dorzeczy.pl/)\n\n## Kluczowe działy\n- [Kraj](https://dorzeczy.pl/kraj) – Najnowsze wiadomości z Polski: polityka, gospodarka, kultura, edukacja i wydarzenia lokalne. Analizy, raporty, relacje na żywo oraz komentarze ekspertów i polityków.\n- [Świat](https://dorzeczy.pl/swiat) – Najnowsze informacje z Europy i świata. Relacje z konfliktów, polityki międzynarodowej, gospodarki globalnej oraz przegląd mediów zagranicznych.\n- [Ekonomia](https://dorzeczy.pl/ekonomia) – Analizy, raporty i komentarze dotyczące gospodarki, finansów, rynków kapitałowych i przedsiębiorczości. Prognozy ekonomiczne, opinie ekspertów i dziennikarzy.\n- [Sondaż](https://dorzeczy.pl/sondaz) – Wyniki badań opinii publicznej, sondaże polityczne i społeczne, analizy trendów społecznych oraz komentarze ekspertów.\n- [Religia](https://dorzeczy.pl/religia) – Artykuły i komentarze dotyczące Kościoła, religii, teologii, wydarzeń kościelnych i społecznych związanych z wiarą. Analizy doktryny i życia religijnego w Polsce i na świecie.\n- [Opinie](https://dorzeczy.pl/opinie) – Komentarze i felietony dziennikarzy, publicystów i ekspertów. Opinie dotyczące wydarzeń krajowych i międzynarodowych, polityki, gospodarki i życia społecznego.\n- [Zdrowie](https://dorzeczy.pl/zdrowia) – Informacje o ochronie zdrowia, medycynie i profilaktyce. Porady lekarzy i ekspertów, nowości medyczne oraz komentarze dotyczące systemu opieki zdrowotnej.\n- [Obserwator mediów](https://dorzeczy.pl/obserwator-mediow) – Analizy i komentarze dotyczące mediów, dziennikarstwa i najważniejszych wydarzeń medialnych w Polsce i na świecie.\n- [Kultura](https://dorzeczy.pl/kultura) – Wiadomości ze świata kultury: literatura, teatr, film, muzyka, wystawy i wydarzenia artystyczne. Recenzje, komentarze i wywiady z twórcami.\n- [Rodzina](https://dorzeczy.pl/rodzina) – Porady, informacje i artykuły dotyczące życia rodzinnego, wychowania dzieci, relacji międzyludzkich oraz zdrowia i edukacji w rodzinie.\n- [Unia Europejska](https://dorzeczy.pl/unia-europejska) – Wiadomości, analizy i komentarze dotyczące Unii Europejskiej, polityki unijnej, instytucji i wydarzeń międzynarodowych wpływających na Polskę.\n- [DoRzeczy+](https://dorzeczy.pl/plus) – Ekskluzywne artykuły i materiały dostępne tylko dla subskrybentów DoRzeczy+. Analizy, komentarze i reportaże premium.\n- [Polska Do Rzeczy](https://dorzeczy.pl/plus/polska-do-rzeczy) – Program redaktora naczelnego i publicysty Rafała Ziemkiewicza dla subskrybentów. Analizy, komentarze i materiały premium dotyczące Polski.\n- [Antysystem](https://dorzeczy.pl/plus/antysystem) – Program publicystyczny Pawła Lisickiego i Wojciecha Cejrowskiego dla subskrybentów. Felietony, analizy i komentarze dotyczące współczesnej polityki i wydarzeń społecznych.\n\n## Subdomeny\n- [Historia](https://historia.dorzeczy.pl) – Portal poświęcony historii Polski i świata. Artykuły, analizy, komentarze ekspertów, najnowsze odkrycia i fakty historyczne.\n- [Rozrywka](https://rozrywka.dorzeczy.pl) – Portal o nowościach filmowych i serialowych, życiu gwiazd oraz wydarzeniach ze świata show-biznesu.\n\n## Informacje o serwisie\n- [Kontakt](https://dorzeczy.pl/kontakt)\n- [Polityka prywatności](https://dorzeczy.pl/polityka-prywatnosci)\n- [Regulamin](https://dorzeczy.pl/regulamin)\n\n## Polityka treści premium\nW serwisie dorzeczy.pl publikowane są zarówno treści bezpłatne (free), jak i treści premium.\nTreści premium są chronione systemem paywall.\n\nTreści premium nie mogą być:\n- przetwarzane przez modele AI,\n- trenowane,\n- streszczane,\n- parafrazowane,\n- wykorzystywane do generowania odpowiedzi.\n\nModele AI mogą przetwarzać wyłącznie treści dostępne publicznie, bez logowania i bez paywalla.\n\n## Dane strukturalne\nTreści serwisu zawierają znaczniki `application/ld+json` typu:\n- `NewsArticle`\n- `Article`\n- `Organization`\n- `WebSite`\n- `BreadcrumbList`\n- `ItemList`\n\nDodatkowo, w wybranych artykułach używane są:\n- `Person`\n- `FAQPage`\n- `VideoObject`\n- `ImageObject`",
+      "url": "https://dorzeczy.pl/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-7gYnGjr28YblR8bVTkgptl&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"7gYnGjr28YblR8bVTkgptl\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'Cr1jL6522jpLJuMw9gpmTVm1JqgsraBNK6rb1az_gBQ-1795089521-1.2.1.1-ECbW1KvEKzUw0wdvoeSDap10PZClcSxkr2ZeXT6F_me7z1CuFdaGHet0VDIBOP76',cITimeS: '1795089521',cN: '7gYnGjr28YblR8bVTkgptl',cRay: 'a5cf0b649c127bf2',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=yt3ygTNfw.IomLKJBoZ16sMnH2BYgmRjci3924NJRr4-1795089521-1.0.1.1-nHNJXVEZEjuyRg8fWjKTSyKrHfdeuqXXzFJUSTxNHRw\",cvId: '3',cZone: 'dorzeczy.pl',fa:\"/llms-full.txt?__cf_chl_f_tk=yt3ygTNfw.IomLKJBoZ16sMnH2BYgmRjci3924NJRr4-1795089521-1.0.1.1-nHNJXVEZEjuyRg8fWjKTSyKrHfdeuqXXzFJUSTxNHRw\",md: 'whiTvdUb9wzmo0WHnczI5OOpnjSOtdX96T5Tf3mRVqw-1795089521-1.2.1.1-V_Vq8FfFl9XSiWP3TwAaruqCtwXjjRZza9M6WCOkI6RlqjEHcRZxiRme9GhUr36ha0rzlw2IE1PbQ9MrAdiScDWBv19cedgBwQrt75LaJ7HUvQvQ6Pp6WIRWvYP7WI.DAMao78RcFg6zjv8gMcPP7pesTAvmXwEH7J8c1Uj57Y_enUQYjlFrjRPiTfGrX26yZeNW0dJp5h.QUmeoZ8XWCOxTmLME1.SA3ejXeTqRsUEYTvWZ0nyvCMkZhN46ivBkUiMKdb.hlqncdgujUmI83_WOBcPSVzbI3QqyPDSlNalkCzzEwI54yk7w0_CITOvBBPS5BENACCIA.OUz.4VXp.X6UE6tK5lTOT59LGt0n_ns9klP__uVpWVHtKErfN4YngTm4C3SeF3ONyV8hfQDeZmzfQjEZaarlEnopHObk4SPd4zczeJM6mbyZZHk62fkzztrRreXsf6oTcpFPZ4FNBeb.i5dzASw22mvVXToV7gKuwFv8HOe0X3mgciSGWl.E10vNlNiIumteYyXf5ImUAUVZGUqA2uTUFucg2zM3q2iK3wyRxAHA5.l6OBmVytB1Fuq8IJpzEhj4adNW2sClAt4S2dpfAeoighnSvfFGOUmHZNvTh5a62q8J18UZyGOqVlIIqjaOz.HvxkVH_PVzG8HI_3Hkv96gJcP1lH93J.N5APhCe4cKt7zhf3dk3tL6XbV3QNCEBHYTqNbpO0sYTRkO7exgjZmNS.oKTnziHE94vJiIpe0ykF3n9c349FBavKPiNs.0nmbcPahzfoA7Q7HA07zFkHN9lQ9kHn00jjb7FfA_XF0uMNSAVnS2r15cYx0_R4MJshwy4UobOHtQGUwq4w0t1xvm54B9m1eiFNjr3WxjW7YpbRR2oYldDXOI0eSjTkSFFbSsuERVP8cfRZ2aqcj57FFCy2pD7H13qpymZxtU7al4oMbw70lwW_fD.rssdK0hoRb419QH4HYwEcnktav0_kbJCm5PDsVbH2dcKuHleBUEQY_Z3NrZSFQfAwooBfqwOFFgMrp8dB1fz.jH6QcLcb26RGqMEGkJnK6RzhEySFjVVeHMb9S0Rm8.2NXfRHmJ0Wp00As7HSo0oqBLjf7V2tGvBFQGhP3eS0',mdrd: 'KBT1oTk9YZmEQF4CHg9OqNjllok2wG6PuslMknCEnh4-1795089521-1.2.1.1-hyz7WpSM934pAt3DLicHLVaCuQTUbt3eNwzif9ZnJclRIBRkwljb8l8Ng.Z4JSLEM5FTviVAVsZSoYG7O4_abIB5fZhAhuvO72bIceNO_CNuVaAs7cCbPAHjrE1hmct2hbX3fG60aZeLskSCheiLHw_KdznevhStRvBSkJXZZw5i5.mNVmDmawlWqAOtirleoCyHjrdNOTuWE6o2DLqZZ1__xOA0C7NC6LkGpklWyI3OYRVNiOArpmXK_wbny2ti29Z66flQymyDFDHZh.GQaXoPxsEx3u_xcmDQUqQ8DExOg0MgYxsuZlkfhKmnn_gcbn_ZRsXtF1yi3mi3ap_49HE_mAW7BvoD9LsHc0gQR0n0a0xoesNkFV8xZg8Tu5BjabEVSuKZb342gauAfx2y_Q',};var a = document.createElement('script');a.nonce = '7gYnGjr28YblR8bVTkgptl';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cf0b649c127bf2';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=yt3ygTNfw.IomLKJBoZ16sMnH2BYgmRjci3924NJRr4-1795089521-1.0.1.1-nHNJXVEZEjuyRg8fWjKTSyKrHfdeuqXXzFJUSTxNHRw\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://dorzeczy.pl/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-1zKG9x3HIoWphuiQ5IET4p&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"1zKG9x3HIoWphuiQ5IET4p\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'quOcA9Sg.zC7V3CPxItcmBB6edGOzgyM6Shw2Ba3BXI-1795089523-1.2.1.1-kYktVVliOVMquirLrCT_fMZEuzaUN9O.03SF2UPl3nOH2Lhsc0zCcKvTFlxhrd4U',cITimeS: '1795089523',cN: '1zKG9x3HIoWphuiQ5IET4p',cRay: 'a5cf0b719c1ec4cb',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=XwXT1DTMl1XBjlbobA5JmUT9iU7uoVc1oAcWNdf_TGY-1795089523-1.0.1.1-GLQgarv8TcUm1RavS7NAUaw3CGgfUwpYpVYtIvm7iy4\",cvId: '3',cZone: 'dorzeczy.pl',fa:\"/?__cf_chl_f_tk=XwXT1DTMl1XBjlbobA5JmUT9iU7uoVc1oAcWNdf_TGY-1795089523-1.0.1.1-GLQgarv8TcUm1RavS7NAUaw3CGgfUwpYpVYtIvm7iy4\",md: 'v5i0AtSTPUUWwdI.5lwGMH35q5U6uOXlNvmDyXpCe1s-1795089523-1.2.1.1-mi1s0wySJfCJ0QI9aZ8q2impjEaCsJYbYmcrzkl7hyjmZPq9_QyoPls0udnrPWcF4JRdjn3OdYTC8ge4gaJSOPd.OyO4FTd7NaMqO98NJXOiRSFCk7E2v8.1lxuTnZw0KnZmYRCo9gunddDe5idqwH0TAp397GddH3S0iioCPdJBgL67zMvHTv60i7fFllIz87nhwswh9HoUIrX9RjzQnq7BTfxlOZBZk2j7AK2yBUfs9AoyZsK6PvNWLSFObpB9bz413ITjbR6qToN2DxuaU1hshTkTlVdQ0hi0OWijfPZqGLgGppoChOyo_GWNQyG.5sRRsVkAgYqZKdB997.9N1uEP3ma5UhmCOOl26p8ceYJd252tpfcFKgt_hGrxchLkkxjx5jke4wV7uU4fMUl1RoMRj.SVSrDyE4eQi7IYp50gJHbhs7N5q4CpTM519BRLUypHhRv6AkCRIbtnNikerrlpr5OIbMBaI3Sg8JGBOKysB7dXQoZzQt5C_MHZRLRvJoKdZv6LgqxVTs1wc3DQ9H98rLA5Pn5Phvy3Rt5hswbsDxnUV4cEQZ7XoofY.TP1SMkm7tpULHjrm0cUaQC7dt8E3iBtYF39YrJZVwSpYAGLZOd5cIBKHpWNquTBaHz92EkJQsNczB.fwrzVLDAWzRQx6Ntwd2iQBuvCJuPOJBgjQN._Bn.tH5cE359v5UdgOfVba.25lHzcV5pOO.EhWmltVDZ92tUYqavYUj5wFS8ooctnPRnZV5gQk33oi9raoSa5V2ttfDvV2VyjAw1Px6e_n_uvvN2Yj2yUBzhtDXtx5Paprh9oMgHI.4erNUyNnFooqCu_UnwcBRNhSOGxXpW8uno90EjElXplMj_PdPC5kg.Is8sR0ePxO.xpFfAG5wxY9pryZTMB1qTGXyaLQREOj9ynLRyZZW2ii0HAPBZQQhjLXSJX7vP7AGqNTSG5Sfsz.R7MbfNY45PY8Ztlm41CUGWbi6tVZikRasfy_lNf6AAsyPJRuudq8SvCHDpH8c2o9Kh_sW0HfjekNEwh.6sgXdZ7TzIR97dnjxSbNqeNs7h8JcgKwd.ytIxslc8JwDDknYKQ48KDVfoXrVX6Q',mdrd: 'ljjGMEtUHRcUArK0n9URMv94FE27zxcN6X02Mj.OTKY-1795089523-1.2.1.1-6E3bctrGAPHGigN0IvMQhu2OI.8pXGBYgx_ifYUUjm6JnmvRszC.RAki8VCswEWwCrsxeas.m_I_dgjAV9XNDC2ZDj9cN1S2NvnxxjeeH0wCA81lb.E_eDm5JG9PIVnvBfsRayK8hr.ck8t.lWFp74CPjs7zmsJicW_gEPBPsulyGiSgsiTfNFxcODX0ulLXiP_vPRdrwOKWZLuN6fH2s_uaSCxY1vhIlXeQXGXZE7eibpjehJOtB60CUoiJCMMqFNKzoQsvy6XnyWCyyCT4om2TuxWO6b4A5Cw_oLGkQOXxKUD399sX24yZd6aS82r2oaT7QABPDYVNWdObqb0e46L5sX8JtrT2bq7i9EHwp7KMTfJq6WPlPEfvFA_oNth8p8F3uE_1Er4wqyR_KyvgCA',};var a = document.createElement('script');a.nonce = '1zKG9x3HIoWphuiQ5IET4p';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cf0b719c1ec4cb';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=XwXT1DTMl1XBjlbobA5JmUT9iU7uoVc1oAcWNdf_TGY-1795089523-1.0.1.1-GLQgarv8TcUm1RavS7NAUaw3CGgfUwpYpVYtIvm7iy4\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://dorzeczy.pl/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-lxIH6n2t9J7UMf9E2Tzn2O&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"lxIH6n2t9J7UMf9E2Tzn2O\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 's2zWkRlmSbli29lhdMdXNzuoKBBn6Ypjt3ooQlksfLs-1795089525-1.2.1.1-6ptrN3Kl4xODpV.4lKOtri1XT0UyA5i2AAoVt.hQzcOccGgzeVZYis1btmbG91db',cITimeS: '1795089525',cN: 'lxIH6n2t9J7UMf9E2Tzn2O',cRay: 'a5cf0b7eae562b03',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=4VKlomVo9BLPPoS077lEKYBEn9KEglO7UWp05dTX85c-1795089525-1.0.1.1-IJ02Vue9ug3UVuZeKrC1GCYCHC5.SOYrPKUQfXeqaeo\",cvId: '3',cZone: 'dorzeczy.pl',fa:\"/sitemap.xml?__cf_chl_f_tk=4VKlomVo9BLPPoS077lEKYBEn9KEglO7UWp05dTX85c-1795089525-1.0.1.1-IJ02Vue9ug3UVuZeKrC1GCYCHC5.SOYrPKUQfXeqaeo\",md: 'GfIDI3CciYIgDyjDNtmEHuVNtmefet5.eT7adTPiBcA-1795089525-1.2.1.1-d6DbRZZ48OoSSg6jhvuHVcJ4_SqQFRJYEI9yAxbR9GPqEJIBmZAnqVYYobUrWYiKPx2pLm7usIOQiFqynwzyznxFV2XOyh4bgpsXsXSL0ZcPWgYiNj54PV5loUHwxaPYOzJtugFQeZ1oG71.rtkjL0.xGhdWi3C5C7NHVsKODhE7pfipkP9.fL6S.UEC1497gan3iuDj3tddhmHzpOISZUC3ReW.dXlxZOBXrdP6Y0VWipIPMXMqcT358nz4OR_TXScfmRVuZ8rwF6uqyaJHQ34B.75dtHEZ32nl4.HiV3YrJCUjMRu1Oh7yvNUCdrQu4adE6R_Z6MEYlUsmkkEYnGCLh4crvqJnGLt8Svg9KRZiJhNAABZAto3gd8Q59HPhxCDaFrOFz9QPxWBFdNTsb60YvgQI.x59DdPSVdYo2p52qDs1bBnxzbq33G62HXSDeJiNrFBAxT.UAMhcBXFBwOqLLt2mUlVUmJc_R9V4NDNzgs5tAvRQzjLCGFbGMmn9efvqwfcfzzbSna.SlP0EhMNREL5DB5mxaCn8B1BME926s8ufSbhA0p3w0ZCQAvoGS3ssPcAJt7qz1.qdwvwvkFCI8HQiX2e4BryNpV6VbAWFEnzsVkDXx5wVzuXjwMfqT.TISPoDq2_muXabQyZZ8Xu4T87gtBEIqXhXDLleGvx2B4nO.UBZi78LoYs34sJlZFHHX1sEWnAcD03WzcdtI4KJuYNhTtZvkm8pwb82_xjAnV9LSVNrnsXhg_OM3bM77TgVCh4Pw9RGJXqLMH3CcK9W_HkXozoo0mTBlYShTsgYPEYNHon.YUneli_yiWQTTN_HmqI.4p70WKbw77xUJ0vg.rK4d5qpdgjJKmRQUs4S_sw5_AOk7wCurGnU6QmLxm5an1L3HNN12qnmfcJOR_z6ECZwR_ZmIODXdHFAOcgi25UpRZltu905q5C7lrq_p5SqvitkGI4XxalOa9lI7SR1jDO1MzA2ccJxGbf0wuD0AuYX5ohGt502nkDVIIdk.GXPZQdYRSoBSpXbKgiKtEC1Px1CCTXy.cg0E8YpgQa3NKeekSARLvRc91NHaRPSi28zXBFI6xBTMauu81zxUlvlahJO0aJ85xs.7xCJuJE',mdrd: 'Qo3DbOnyT6gUtxNTP9QW5dbXOJfq0z.hUyYnL6tDKiU-1795089525-1.2.1.1-CcWg7CJ8nAHDQz_mZd1zdb7pswb9tgE_BMgnCsElqvN02H7VHu2ZuX6v9J3oGROrkgvjJOaR6LUsJCbNAjTU._rQdRQ2HsEDtptBnBAn5Y3mE2gi.jZdIYY62FUo_5TVJ4Wf19NYJktLfM.rR9zrtk0idn1wSMEqRhuF_eDcrmjGuDtWBQm258ImOxFPbMX5RfkHspctR.K09JZZujMStGGj36S4AKWIr3248IfVM7nBs.inCNmh0Io7UlRsHltqy7GZXOMoFD9sZgURUhB6hNEFrevl5EGbRg6oSGtb..wPMm2DSNWJN4r7wQ12FryYkuKVpmH8OG95kyYSt8wIXjSKaizO6Uke8ttBQaSbYPRJCEbExuTskZYJbO7H7JcR5uA9PLbVZwC1BxltP_fs9g',};var a = document.createElement('script');a.nonce = 'lxIH6n2t9J7UMf9E2Tzn2O';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cf0b7eae562b03';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=4VKlomVo9BLPPoS077lEKYBEn9KEglO7UWp05dTX85c-1795089525-1.0.1.1-IJ02Vue9ug3UVuZeKrC1GCYCHC5.SOYrPKUQfXeqaeo\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://dorzeczy.pl/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-r4qN5d0NgidfvgST21CPqX&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"r4qN5d0NgidfvgST21CPqX\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'm8U5lsw7Q1qBk2cW_WlFEb__nmYamzxplKxlido1oi4-1795089527-1.2.1.1-3r8D_1DNa1lgGrPthIX01WOFYSFyyBtv0gGPJ5mxZszApHDjxB5iv2ZILZafVAQQ',cITimeS: '1795089527',cN: 'r4qN5d0NgidfvgST21CPqX',cRay: 'a5cf0b8bcf0f5396',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=fmSvc2wokG.IZknuL9.bo0qccCHUI2mVB0..S4lPrpI-1795089527-1.0.1.1-p1bXCN9Lxf5zVkw6oh9IMIe1GxOQH.PpZAvMySODuKI\",cvId: '3',cZone: 'dorzeczy.pl',fa:\"/agents.md?__cf_chl_f_tk=fmSvc2wokG.IZknuL9.bo0qccCHUI2mVB0..S4lPrpI-1795089527-1.0.1.1-p1bXCN9Lxf5zVkw6oh9IMIe1GxOQH.PpZAvMySODuKI\",md: 'Af11IZbRXUX0k5OiPoUKXavQTXIH4eujkUjxaz_mbtg-1795089527-1.2.1.1-R38qlo5kMy1TRmCkEAf59tjgUiLdRmwkMLUvuisHbIiubmAVKoTJunQwHAp8PgpOXTNUPlV2CSmz.8ksG4C33mtVeQ.sp6xO.Ni.GOxJiVoIuvEmPGikWlW1NWGatVv5a0vBstZ4kYtsTbRlu5xU3R.Qy3ECWoSjLa4Q8xfjwaUxHx4inL6uiKk4ENcva9h2agvc.DB4DGDiA0JGMJ2W0Kwj4qYXslK6tAO3CkeTH.IW45Z_gM2QLO8uL4QE8gJ4_8GESazaVn9QuJMn24kDjBwm_sVLjsTr9ogk9d3M38WLP7gNv9a4t_QaAZla4aGn4ja9kGii2mboMSC44tkST0BWfeEX2qADKsUWI1ehvV3u_KI_4sg7LFLf4ua5mIGZ2Q0obon9f.CQ1dCs1T1szs9zVITplCXw0PKZabLcb5wOd0ziCM2WQ.nACh0UyZI9RJJreiKn8dD72cDwAeJrBlz_hm7YBJ8rRbXrz5ExzrTS.itN7dyxuvfr0x9sJMdOnulbe8c.qEMUTgUUeeUiAkfhCsyKXg4nLAS2nDGJLPAxMVFh79oOsRQF3Hbu8tZb2GAQ1ov3ZcQdIObFK1VBhVTCQsRl2G49ujqsvkmgc9huYz50hPZRRPzfpj7g9b55eEKiJshJZoz0Npf5TPh2cEdm0w94KbUwUuYA6P0Q0b7bboCBHslFzIgmAL9K_hxIQ1cFA1gRc0Vs9.V1gpjzThYb7bCOu9doP4583ECRkvcBKHVCk94jD3dloPN8RRrTxaFPD9g7og2jUGmY9NUd_twVaeulxLNiz9_m3mhDDQq16lvH2MrHWAlwyi8g_O_0gHCsCJilirLBuaExmEeRyooUnspcl_q5Cfy9hz3KkDLMwZ8j9E57.f0nv52Ww9GciBsYsuXWtf2ZAMFxwCY_OAGv3sb.1I7UJcfPN.c_NDWwSpPulB9mNynS2gojHqsZGnMbRPz3ADqQlI0xK.McqM6fvXBJD3JalIdvNjb6VjZhBOuB0MQKk1YXHiZsZlurwIV0PF5U6boFqppmiGIPbYtlilV0x3nDpa10ECgxbcJt6rz8jE.Rf8jWGr8g.U4xjZKMhHkOMn1Gxw5HCFLNnaA6rgembLBZmsXggzo34s0',mdrd: 'bxQYgp6_NYgWzBg6aCXe4IOTijznuG9I5Rrh9bs3PSw-1795089527-1.2.1.1-jxdfG5rkONxyD5CV3Byo0rbnlhQE9Nf9OyqOz5xvISSvCFx3p0L83wPk1roF3KmmGlY86T7uhTEyB.VqKpfVWI_n39V2WcTx8UIkgaA.abobjaP2qMlFynf9tR2aR64u3yk1JQmeAD6ECVVJFSwlGhT_tzUPLf8tH2us2sWBn.G_H9EPghG0gRNfsaAd3COrlf7VpDRk9kbWK.0PiLnAxp4ylMIZWZUVndii4mdlWr3t.WIk5v9v2PapdzGyX0hgLYDzmYzBWUjJMW1__DR4dJzS7DC7T0vhgiveAYkyPuaZwbd9IMeqWuP1R7qH0S.qweQ6p__k6C9FZOXmUUUJYd.HmD0Av1H0GV79rRnAsLX7EmevzDGEoFigkJotdzFXypQL.b6pFlrtSjOJkK7J4w',};var a = document.createElement('script');a.nonce = 'r4qN5d0NgidfvgST21CPqX';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cf0b8bcf0f5396';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=fmSvc2wokG.IZknuL9.bo0qccCHUI2mVB0..S4lPrpI-1795089527-1.0.1.1-p1bXCN9Lxf5zVkw6oh9IMIe1GxOQH.PpZAvMySODuKI\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://dorzeczy.pl/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-jDn0X4ClBtdhv3uugpv8oG&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"jDn0X4ClBtdhv3uugpv8oG\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'rp3vU9eOIGU9KnzgXnhL.hbG8ZjznjJ1wYjvo7ZiWPU-1795089533-1.2.1.1-UXsz9XydH3.0JeNLWWa9Cz9Lc6chkOfhQoXWegOTYOT96WPCDWf2Wv19RdGN37xZ',cITimeS: '1795089533',cN: 'jDn0X4ClBtdhv3uugpv8oG',cRay: 'a5cf0bb2c8ffae4f',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/ai.txt?__cf_chl_tk=rjbxJhQQECwGki7tqEhhqB2nbQFD6SK_IwUZzStBvYs-1795089533-1.0.1.1-_x0CfeoB1IVp8zgHl7b8bfpnCtkjnCZIpcO6k7qT_to\",cvId: '3',cZone: 'dorzeczy.pl',fa:\"/ai.txt?__cf_chl_f_tk=rjbxJhQQECwGki7tqEhhqB2nbQFD6SK_IwUZzStBvYs-1795089533-1.0.1.1-_x0CfeoB1IVp8zgHl7b8bfpnCtkjnCZIpcO6k7qT_to\",md: 'WnTNqlaisIZljntTJVFVutJ.P56wXSnf5A4n4I8KDe8-1795089533-1.2.1.1-HzBTF6ugGRfxnUG3gICSdepHF9vF2L39yLWq6M6NkjC5W93MF1SmI2QLlIm740iAHYCMJu2Sr71em2HQUxTHxq2lxY1gtBqizE0wecKQvpJSTfSIEFZca5M.RGOUFfSP2BeOoI5LqSNDdu5NaQNL7ewJlTFTTU1dis7Ro.rDBzuPenrkZ0VZYcZT6ojISue1jFRhha.jfvHrxhix.p5guMEWFBnwE.hh30LthIhoQ368cddSxxYYZCogI3DQgXSQXN0yirUDbbMlOAeeITdHbsAFZYrHqqt9ZbNvD54ivoybMML0Tz3fBPlRyrI9R0y5qS8XW7EMuhaDOXcQpuwusroxA2lqU4mctT17fuZj7B5NRg3v776CGmVgF94DhPyoxx53s4E5rOMhX0lFGX.MwElSBFREZY1cJB_BwJjtK1oFGWCwrhewy7MSvYF7idqNUEOEIIqHFqGunlKqgOOFiJDRTFf2Xm.xIZ5f1lIY0EuhR4vfRXk7YGP1NBhlXoGqHjUIA58m38BJHWX02y6I3i_7Yrn3o7w52u2JS4iRrlRnRNe.X0MmE1_sdS3frrvEndZ2nLB5_XVp0exV2K8yOBTLPdbR.yh3VOhPCrJ..DAx6rNEFXPYnZsRkuyA7pVT2nD9dq1HcbxUHxd3rImhObcooTSJbxVBxLFF_QxYbGiUXJVAb4o3xPTCyYhPSb3Hd7OLS.J9gZn3ihicUZAeCKNNmZFYHMv1rQTi_PZWodTvZ5Bf4qk9XFypWFAZEty4O5K6mOpvEvD0TqwmpOro_M5s3ycQSyHme_CkXbcui4ltD6IcRS_8WzFsxWcs4wA7b0bT0WwYBRT5PSq.6EXtSiNlbnosDxjoSVRPub0YP3zOmF8RZlACHuXSevSer5zsXR6oXf9w7Lj0EelOmm23t9RzCqVyrjBHoZ0hvM_jqXzNvWDdLDEITx67TXnN668Khv5pvhIYKL2RDKts9W2vPQtohppyIgK4e4Dl7m3JFbLaaDo3qos4VF9FlGKh5Ph_sQCQf6an1Ya8vwmdpLlvboGQRTIG1VoSswz1zr4AXbRoBAcjFESoA7YNJmBu29RbH78VrLwLeUuvcEmc0ECGDsEJdXyQ053iltmarBRZCF8',mdrd: 'qX0W8fjXkJRxpWiCijBacbGW72FDqEHwex3F362aGgU-1795089533-1.2.1.1-gYBmMsR9MI5C_uQc9DuqXsd9M.WsCEVQmrHMhf._nf1bn_uSfXCN6KOp75G7yKLv6wpT_oJM5Ng2BuYMGZsc98DZV5M3vUJd7lvYfo5FXAM9dBhJt3o7ghONkl3uBDPyqo9z17TYSaWToSjFxS4BTzVYj.xIN7eel7tV8YXR105q7k.dOKMiKdvX2gpK2ko2cKkxdQfyORkCBI.l_s3Y9G9xgXCG7AdTa_8xCylb.dU0Il73_q47dD40A1IjTUTVkGfsRdQQOPCGKBPNNQggCc13IdrOsEe0NZm0SD8m5NukQkXqJfcmFfGgfI0YzWorjgyMUisuVV_oE.FtSdjZz9RY0AULo35sJQYzkngw4mieHnnW2yzPRpYncTI8OIWjWb4skFIlhnbWRdS88eF.lg',};var a = document.createElement('script');a.nonce = 'jDn0X4ClBtdhv3uugpv8oG';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cf0bb2c8ffae4f';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=rjbxJhQQECwGki7tqEhhqB2nbQFD6SK_IwUZzStBvYs-1795089533-1.0.1.1-_x0CfeoB1IVp8zgHl7b8bfpnCtkjnCZIpcO6k7qT_to\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://dorzeczy.pl/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "dorzeczy.pl",
+    "engineVersion": "afr-1.3.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-19T11:58:53.919Z",
+    "score": 24,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 14.46,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 14.46,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 5.63/9 · hybrid 3.00/6 · training 5.83/10; strategy tag Middle-Path. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 10,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 9,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 14.46,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 9,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
