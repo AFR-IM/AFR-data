@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "traveloka.com",
+    "fetchedAt": "2026-11-19T12:40:06.123Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['www.traveloka.com','m.traveloka.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFkYWmgSGyD5m32aFKIl5QCAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhVWqQacSLaONYclTAgEQgDvYB/MmN1ovdpyN6CnYPuwC/tPHBJWL8lIHbjjmqLSAHovyNTq3xrT7hTp9J1/j/1x7bNjayw4BCEFF6w==\",\n          \"iv\":\"grAWZwB/jQAABG12\",\n          \"context\":\"XjeTV6n4NbEsWiWWGp4BaepXKgEzf7JzWqeWX3Nn5kuvTg37BOAC5EfiiTiXD4ZDZANJmdHM1pNZ2uAjgky1B5BzOWeghhGzmHaT0SqgVwaZOWNrdNbqFkyWNw2agIXzYTgn8itjcMp/30BHGx12Tcxhu9Zj7ysH2heyIlilx97V3xAwdA7PGDhLcr9aWI70NHpynfp0sAHu68ETyf/Cp+gjjsFMcRVuPw76RV159cdcHcrr+XJms5zZiRtlVT0zLQlHzlxg6yaMUWe32PJfkus+Hp22E80o1EX6wzMnud/i3F5tnhfpHxevdQqs9I/JUofwMzEyYtK/qQkqPJquP7vPZSzZJGgnx6C6C14rii8asTyjfApRis+ulZttfUwdVvhXAOSL4akXFY2vO8vHJonlKMwL7WRv5H5iTQA160EcjBbh+Pdb0ToQ0w9LiOmAglKb51e2BJsaKHdoB6QKl53/s4wrByZmTd51fgdQ35b5N5jcGf0KhgC0A11F4wEka7wJ10Uss3lcVobeMiRDjDNTynW6zuiLz28LpUEjiq2kqpeVz1i3VfdQA0j39E4TleNTAxBPYhRvxLrip3ksI08f1Yr8WEsE0WJ7YZo56qsgaW3y9CcgaNatp8jWjDXc1rTL0FmZ4bDiy6grt6/Yk5a0dsSYIEEOp/6Ds3M+IkG1l9KE6BwEZ53mOw/XnA==\"\n};\n    </script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.token.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/challenge.js\"></script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.captcha.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.traveloka.com/robots.txt"
+    },
+    "llms": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['www.traveloka.com','m.traveloka.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFkYWmgSGyD5m32aFKIl5QCAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhVWqQacSLaONYclTAgEQgDvYB/MmN1ovdpyN6CnYPuwC/tPHBJWL8lIHbjjmqLSAHovyNTq3xrT7hTp9J1/j/1x7bNjayw4BCEFF6w==\",\n          \"iv\":\"grAWawB+dgAABNQg\",\n          \"context\":\"ZCPu4HAe4hSkBDiRC7ZC65WEpg+QX+NswlfNWapU+8kYugJVjPC4uc7+H/MRqSBRxuFLRz/MVtNcRzNPIhoUsMWtMaGiU+JTWJQ0xMDz/uyZPpmFS/5T50XAsKo6YQhv2yXtKIN1LwcmTFpxGMzoe7MqAZqrS4nUTb+dQiADf3KGEFFfhvp0Z22hIcgwmU66BvdTlO3VliPNU3eo3Qj2o/KisDbqThWMFKxQy7Tt0DMNv6FwrSt4f7fMfHwDc6KFXQCQ6tQkd1LeczRRVeBqaAGwDiVoz5/aq9kFSx7teVrVIrOmsaDRPCHN3vavUIPEuOiBBqE4oFWKC8GirAAkr5WERrycCRZKVj4NV2yH1mt1qXg3fsvzatQ3yy73mCYbUxkG8rSctzWJPV3EVs43i9clw0lPyuZKNq1amOmJPKFXZ+XAX+g7P+xnqYWmJIc73ZKfN2ZPy4MLKlX3xrmi5IBXfm3eBjydDBkjd6f/x0EIB+cKh+YQqPBSbbpLFfRf8lvyh01XMxDDKOOZSmDYZlJDnG+X0H1DVCwlynnq9d2nNdesSqavZH6xYoB03NK4M4Jo/hcSBAX3qc9ADgJyHqlArBHIfwz4DmAKZtmxhO06ynhiQHVKQJDftrtUL/GdU1quDi26V7/xKImO83RqIlmKheXWU2lInM5yUglt4DdUBvPvbWeHFCd2Xu37tg==\"\n};\n    </script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.token.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/challenge.js\"></script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.captcha.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.traveloka.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['www.traveloka.com','m.traveloka.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFkYWmgSGyD5m32aFKIl5QCAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhVWqQacSLaONYclTAgEQgDvYB/MmN1ovdpyN6CnYPuwC/tPHBJWL8lIHbjjmqLSAHovyNTq3xrT7hTp9J1/j/1x7bNjayw4BCEFF6w==\",\n          \"iv\":\"grAWaQB/mwAABGqz\",\n          \"context\":\"nrGS/dYcLdXnO6oFVjRaaOsUde2BpmDMozkDjdLjDM/qPmUCqS0vcPfNNNWXgK/AnhKwDyqjRc/AdNRSBkVgqIIi5ly8rMbhuZRrnozVUNRPRTtl54e+9p2eX/wf81WmmRcZvnn/UxbToiZN5i+O46dxHoPNzm0pgGsSRdY5C/5PkWC+eJC2o4fPCaS/x6QFt8udNF1Ex5cFsdZ75+KtfC1pdyPj0zmdKq7AjVdpiuSz8ewQUj65e2EFDPo407/0Yjjy2R81D7Um1OxB0eJybObHFXvFL6xxoMXMW0x/wrj8n/WxIsprqZ7ZmWA8XYQghuvMoMBEwg3LxaiaRT46/YRCsuPM0lhspJ799mDaoX0exmBXCUbl3VYCoExvdAjBHN5G2xMTTrCwgZo08nkP4T4FesuauMCVn4ukVJ6ZsaWdJuhTrku48PdNmHj8SJq6LRi0CvtjsXz8p5Z3QlU2f5/nuiErlFeONq6U34Y+ZSnytFRhvAXeAjKVzsyjwmXUHl1UuBD9me7r3Ooe9JQMeZV6HKC481g6oLv/0M4zRJAQKA8mYmxNNL+xux1F0MSGIexuxERvC3BlS8ICE+VAiJ/OLeVPzkylqcxVTHgS+bWrDYv1Lh27XXJ9X+hgpitG0+2+nBc3nZMgrZqx8SokVOQ9fyDeIbbukpaXJDWE0BfcIfh9AzV/yDdU5PpvjA==\"\n};\n    </script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.token.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/challenge.js\"></script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.captcha.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.traveloka.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['www.traveloka.com','m.traveloka.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFkYWmgSGyD5m32aFKIl5QCAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhVWqQacSLaONYclTAgEQgDvYB/MmN1ovdpyN6CnYPuwC/tPHBJWL8lIHbjjmqLSAHovyNTq3xrT7hTp9J1/j/1x7bNjayw4BCEFF6w==\",\n          \"iv\":\"grAWSAB+cQAABJNV\",\n          \"context\":\"c4cK12XicAexu4pRxmDN/c+tm5LsAb6NX8ZL79aqoEAjNQ72neFOAviOlEmLm8sadHHV5/6+6Brvx95XfG4P/qO1y4dlgKjxgoJY7K0Fld6lEEw51M7668yfJY7QZKh7gJ1oid8DxFLL3LwFeDlv20BPP3W9S4xS2JDbYkHMl9mrCvc3dz5aB5/lZHhwqvui0pawTe1lRqnEaSbw9mOPdQIF6pxYXLqFp2TnJM9tNcGWXvJvPMQN7PV//aa2fw4QEE9pG81OPMSJJPRfVgpFwOCD92qbyPxAsdsZ50NKoFmDo1utR9oYhSTbuCtdpCyS6R+QcumpRlhS1TeH0+lWShxcrbqiVwhNMckum5zWp/b10PRPeMNstGQIGCOkbX1S6KSMaKw35qWCKy9poJnvu4i2pHtJwiaLKU5RWiFkyDt166zoh8JBQc23gdbUufdeRVl+RgP+iWBbm1rhpRdYR5O1rPK2UX1ee8dcBbVURT//befq9kbiCyMpQAow3MYPmB9IlGPnoHdSO9C/jP0WmsJjSS3HxY1A9LsucMXkcnXhBOljpQlI2PCTG7zN3lSd2WExExXqLDPczY7z0mHySfjmL86e4M56i6e+LikUZ87JVtwUcn9I79bOYHNWDTOJgGzooayZM4Jp/gWGMDNQ8ILYKM/UBZTFpL1miMduSzfoLfrenZuIc+ZC03WjJw==\"\n};\n    </script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.token.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/challenge.js\"></script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.captcha.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.traveloka.com/"
+    },
+    "sitemap": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['www.traveloka.com','m.traveloka.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFkYWmgSGyD5m32aFKIl5QCAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhVWqQacSLaONYclTAgEQgDvYB/MmN1ovdpyN6CnYPuwC/tPHBJWL8lIHbjjmqLSAHovyNTq3xrT7hTp9J1/j/1x7bNjayw4BCEFF6w==\",\n          \"iv\":\"grAWawB+dgAABNQh\",\n          \"context\":\"8RvU7qAKfivyT/uzHDN1um8KTX5ueV/JwzG1W+9AOrUOiZRJFbJYByFvg2cvIXLq3dd7pswP9L+5nqSzu00nvDmpSl+7WaH2jSRUNcSoNeCzfp4R6JJZyPjV/bXgQxpWC/CJ4msL4L8DUxlPtVhH9pKnA+atDrjSe7BaSFqW6b5ONoHcehOXAhkRYtTZtznQXRarH3IMB1yAD/rXzQzYjDznavuZmYpF+dy0krAaQUqneXD+7nR5KqQJAPVLTsQwBwnDT8sDHc4spzojfGVBWmP1WOyNeSNhnUwbErQ1RLyfhP4xzmYl7ULRnw2qHu0IveJ2K2byj1B9UkDJ3VicoeY8vY269MkAFjbU5tpDZ99L3VF5viZvR99DtqXjpuWkJitTC0KDG624cNtmMTAmy8S46wCxP1DZPkc4Llpwtu1e0l1t0Di4gCG83HVkp4XQc5h5M1wo6hnanQlp8YcaulpVeveFMJZi7IfTm7ItGIKZG9mdO/giUnqJAMrc0Q03TH+qA2XZ7BRpWaGXBEt8k4VgsEzPIP1J7LoAfw99xSlwqNp6vHvoCDPySuWV4VXLQMeCSSJ9BjBS/QMwUrRG8qDvbkWXDmK77vH4jOIA/MAeBQVc3Ju09F8ku13w1Pm7SkbIwl3zMIfXIanYHmSy2W2l59mRg22vEewZqKCPEwZtaWN/YZHQ5S9YAJ6urg==\"\n};\n    </script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.token.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/challenge.js\"></script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.captcha.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.traveloka.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['www.traveloka.com','m.traveloka.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFkYWmgSGyD5m32aFKIl5QCAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhVWqQacSLaONYclTAgEQgDvYB/MmN1ovdpyN6CnYPuwC/tPHBJWL8lIHbjjmqLSAHovyNTq3xrT7hTp9J1/j/1x7bNjayw4BCEFF6w==\",\n          \"iv\":\"grAWTgCC7wAABNT2\",\n          \"context\":\"SwyCQttzfP+uVbMn6xHEmaqYjf6OMpeFocxxuNOV6Uuj7SjOXcYI3EQYOO/ZxKY7wONzrXuqsIJGacUvJt5BNeL8fCGMc7eG/AXchJhzZQWRO7NeptP277RXM9cLXRApzD3oIJtO+SSBemvqN0U4owNNSXp6jXl6N9OYGRR1cLuU2UMPNck8FA07IvAUxM2CkXAWKaX06Clnf6mC3HZnu9iiH+/KuLaSPgOmxHtz5xupGjI/EF20T0VZA9gOg9jL7Z9zQY40WpfcZFWnU4bh2OaiOT0ZVaSUoB00Q1bRYo71sq1PnkFeS9+LfjmUctEmCQlkDmd8AkaxIJfJMJ/DGmD1P3BN0JWP6Dy8A/fTTeFY3uv5pI4TdzVBeMJV+JTEH1h+GoqXUtxT9v5kwcuwrff+tEytVbb2O8mV3aqMeHSOokrTa6nweoOqdUM8ya5mkh7DLTw+ZXn6nbi89UlyzvYOf0WMwqKHRrTsLIFT2cV9zfTt8cGmN9/fX9mMc0gxONkgpARV3YxHnVeocus7n+USKtGMbx76lvhq3PRVZn2yY0yV4YF36A3hCL9/Zdhv/wVuvcMQiizejVUQuMd0gAjm7bkcHTHwEYvSnSmFX/ZAuFyiZM0Jab3UDqr1ATx4wb63aXusYq8WlxnKc+d9U7wi2X51XQlMmgzciiaB0lsipjSFg7feoUx3vjjdZw==\"\n};\n    </script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.token.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/challenge.js\"></script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.captcha.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.traveloka.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 405,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Human Verification</title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['www.traveloka.com','m.traveloka.com'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AFkYWmgSGyD5m32aFKIl5QCAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhVWqQacSLaONYclTAgEQgDvYB/MmN1ovdpyN6CnYPuwC/tPHBJWL8lIHbjjmqLSAHovyNTq3xrT7hTp9J1/j/1x7bNjayw4BCEFF6w==\",\n          \"iv\":\"grAWawB+dgAABNQj\",\n          \"context\":\"4m+5t1Zq7nVd41DDk3nnPy2ohWfRR6c8DMPD8Dea9CyYQggjG35RcFnFAypFtMphSRGD0QfH7gxOzD8win3hUAHxP7UWJqvV0utpqS/6HWHiVR595zAKqWOxbV8cm59bI9XWvZoGY1TiLfg9FItSltn7GPKk4dzaffl4gl0+0XUkBBqc0Yl5T7UsePKyEpCRpelmICyNLlKuK1ppe91mH9TX4yxEOIDp+vftGX1j1ER2uTrw9j2a5UklMWrd7rauD0Wqc+Hf5tRhlPzz7hmS8FcLJwRNxxrhNet07NTf/LEiE4woS377kt2evM00vD/WfL31FrTSzV5Bd07x8iiBpS9jH0r1ArhI/dPOstA/RJJzPKwOWI4MU0TeIM6iOQ/kkvAmYPLkN9rbrlVCpPrxgf0uY3sKKMSpn6Si2xUzA4+Ie2rUwa1j4o32D9uZUeDEN78SUs7FpiyOmYlAdfHdAiKOtDrz4Bivs903OE8PG01qNIC8UlQm6YDDcvxMiCjhl58PbsUmDwE+EvrQ1W5hw0qdvSWLoJ95cSlTcJUwDDOro82uybk7AuJ86Rf3c1WCLdH1C6mqLRFfUf4uq7QcLGqlmEnxz+3aVmXkEsyVPERG4kdjGWjvgCr3NgN4H7af5ymmPzPtlKqa5BBLy7Derqm+RXnOawjVf25WFpkbnS6lkJpQ9nP1fbfAvqeD7g==\"\n};\n    </script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.token.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/challenge.js\"></script>\n    <script src=\"https://d9253bf4bdfd.fbec8301.us-west-1.captcha.awswaf.com/d9253bf4bdfd/1fcfec27aa97/6aa277b79c26/captcha.js\"></script>\n</head>\n<body>\n    <div id=\"captcha-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        window.addEventListener(\"load\", function() {\n          const container = document.querySelector(\"#captcha-container\");\n          CaptchaScript.renderCaptcha(container, async (voucher) => {\n              await ChallengeScript.submitCaptcha(voucher);\n              window.location.reload(true);\n          }\n      );\n    });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, you need to verify that you're not a robot by solving a CAPTCHA puzzle.\n         The CAPTCHA puzzle requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.traveloka.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "traveloka.com",
+    "engineVersion": "afr-1.3.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-19T12:40:06.123Z",
+    "score": 0,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 0,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "unknown",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "Failed to fetch robots.txt: HTTP 405"
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 405 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 405, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 405; GET /llms-full.txt → HTTP 405; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 405; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 405; llms.txt HTTP 405"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
