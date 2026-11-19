@@ -1,0 +1,258 @@
+{
+  "signals": {
+    "domain": "netapp.com",
+    "fetchedAt": "2026-11-19T03:07:33.045Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "# ============================================\n# robots.txt - NetApp.com\n# Last Updated: June 2026\n# ============================================\n\n# ------------------------------------\n# General Crawlers\n# ------------------------------------\nUser-agent: *\nDisallow: /api/\nDisallow: /secure_document_area/\nDisallow: /welcome/\nDisallow: /de/welcome/\nDisallow: /es/welcome/\nDisallow: /fr/welcome/\nDisallow: /it/welcome/\nDisallow: /ja/welcome/\nDisallow: /ko/welcome/\nDisallow: /nl/welcome/\nDisallow: /pt/welcome/\nDisallow: /ru/welcome/\nDisallow: /zh-hans/welcome/\nDisallow: /zh-hant/welcome/\n\n# ------------------------------------\n# AI / LLM Crawlers - Explicitly Allowed\n# ------------------------------------\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: Claude-Web\nAllow: /\n\nUser-agent: ClaudeBot\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Amazonbot\nAllow: /\n\nUser-agent: cohere-ai\nAllow: /\n\nUser-agent: anthropic-ai\nAllow: /\n\nUser-agent: CCBot\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\n# ------------------------------------\n# Crawl Rate Management\n# ------------------------------------\nCrawl-delay: 2\n\n# ------------------------------------\n# Sitemaps\n# ------------------------------------\n\n# Primary Sitemaps\nSitemap: https://www.netapp.com/sitemap.xml\nSitemap: https://www.netapp.com/de/sitemap.xml\nSitemap: https://www.netapp.com/es/sitemap.xml\nSitemap: https://www.netapp.com/fr/sitemap.xml\nSitemap: https://www.netapp.com/it/sitemap.xml\nSitemap: https://www.netapp.com/ja/sitemap.xml\nSitemap: https://www.netapp.com/ko/sitemap.xml\nSitemap: https://www.netapp.com/pt/sitemap.xml\nSitemap: https://www.netapp.com/zh-hans/sitemap.xml\nSitemap: https://www.netapp.com/zh-hant/sitemap.xml\n\n# Video Sitemap (EN only)\nSitemap: https://www.netapp.com/sitemap-video.xml\n\n# PDF Sitemaps\nSitemap: https://www.netapp.com/pdfsitemap.xml\nSitemap: https://www.netapp.com/de/pdfsitemap.xml\nSitemap: https://www.netapp.com/es/pdfsitemap.xml\nSitemap: https://www.netapp.com/fr/pdfsitemap.xml\nSitemap: https://www.netapp.com/it/pdfsitemap.xml\nSitemap: https://www.netapp.com/pt/pdfsitemap.xml\nSitemap: https://www.netapp.com/ja/pdfsitemap.xml\nSitemap: https://www.netapp.com/ko/pdfsitemap.xml\nSitemap: https://www.netapp.com/zh-hans/pdfsitemap.xml\nSitemap: https://www.netapp.com/zh-hant/pdfsitemap.xml\n\n# ------------------------------------\n# LLM Content Reference\n# ------------------------------------\n# For AI/LLM structured content, see: https://www.netapp.com/llms.txt",
+      "url": "https://www.netapp.com/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 200,
+      "body": "about: Authoritative resources and guides about data management and AI infrastructure.\nsite: https://www.netapp.com\n\n# Core Pages\nhttps://www.netapp.com/\nhttps://www.netapp.com/products/\nhttps://www.netapp.com/solutions/\nhttps://www.netapp.com/documentation/\nhttps://www.netapp.com/privacy-policy/\n\n# Storage\nhttps://www.netapp.com/aff-a-series/\nhttps://www.netapp.com/aff-c-series/\nhttps://www.netapp.com/asa/\nhttps://www.netapp.com/cloud-storage/\nhttps://www.netapp.com/data-storage/\nhttps://www.netapp.com/fas/\nhttps://www.netapp.com/flexpod/\nhttps://www.netapp.com/ontap-cloud/\nhttps://www.netapp.com/ontap-data-management-software/\nhttps://www.netapp.com/storagegrid/\n\n# Data Services\nhttps://www.netapp.com/data-services/\nhttps://www.netapp.com/data-services/ai-data-engine/\nhttps://www.netapp.com/data-services/backup-and-recovery/\nhttps://www.netapp.com/data-services/classification/\nhttps://www.netapp.com/data-services/copy-and-sync/\nhttps://www.netapp.com/data-services/disaster-recovery/\nhttps://www.netapp.com/data-services/ransomware-resilience/\nhttps://www.netapp.com/data-services/replication/\nhttps://www.netapp.com/data-services/tiering/\nhttps://www.netapp.com/data-services/workload-factory/\n\n# Solutions\nhttps://www.netapp.com/artificial-intelligence/\nhttps://www.netapp.com/cloud-services/\nhttps://www.netapp.com/cyber-resilience/\nhttps://www.netapp.com/industries/\nhttps://www.netapp.com/industries/automotive/\nhttps://www.netapp.com/industries/electronic-design-automation-eda/\nhttps://www.netapp.com/industries/financial-services/\nhttps://www.netapp.com/industries/game-development/\nhttps://www.netapp.com/industries/government/\nhttps://www.netapp.com/industries/healthcare/\nhttps://www.netapp.com/industries/life-sciences-data-management/\nhttps://www.netapp.com/industries/manufacturing/\nhttps://www.netapp.com/industries/media-entertainment/\nhttps://www.netapp.com/industries/oil-gas/\nhttps://www.netapp.com/intelligent-data-infrastructure/\n\n# Support and Services\nhttps://www.netapp.com/netapp-services/professional-services/\nhttps://www.netapp.com/services/\nhttps://www.netapp.com/support-and-training/netapp-learning-services/\nhttps://www.netapp.com/support-and-training/netapp-learning-services/certifications/\nhttps://www.netapp.com/support-and-training/netapp-learning-services/course-catalog/\nhttps://www.netapp.com/support-and-training/netapp-learning-services/learning-paths/\n\n# Resources\nhttps://www.netapp.com/customer-experience/\nhttps://www.netapp.com/learn/\nhttps://www.netapp.com/product-updates/\nhttps://www.netapp.com/thought-leadership/\n\n# Company\nhttps://www.netapp.com/blog/\nhttps://www.netapp.com/company/\nhttps://www.netapp.com/company/branch-office-locations/\nhttps://www.netapp.com/company/contact-us/\nhttps://www.netapp.com/company/events/\nhttps://www.netapp.com/company/executive-briefing-center/\nhttps://www.netapp.com/newsroom/\n\n# Other\nhttps://www.netapp.com/afx/\nhttps://www.netapp.com/alliances/\nhttps://www.netapp.com/aws/\nhttps://www.netapp.com/azure/\nhttps://www.netapp.com/console/\nhttps://www.netapp.com/customers/\nhttps://www.netapp.com/data-infrastructure-insights/\nhttps://www.netapp.com/data-infrastructure-modernization/\nhttps://www.netapp.com/developer/\nhttps://www.netapp.com/e-series/\nhttps://www.netapp.com/ef-series/\nhttps://www.netapp.com/forms/sales-contact/\nhttps://www.netapp.com/google-cloud/\nhttps://www.netapp.com/how-to-buy/\nhttps://www.netapp.com/hybrid-cloud/\nhttps://www.netapp.com/insight/\nhttps://www.netapp.com/keystone/\nhttps://www.netapp.com/partners/become-a-partner/\nhttps://www.netapp.com/partners/partner-connect/\nhttps://www.netapp.com/partnerships/\nhttps://www.netapp.com/products-a-z/\nhttps://www.netapp.com/test-drives/\nhttps://www.netapp.com/video/\n\n",
+      "url": "https://www.netapp.com/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/283536f2f9054fb3.js\" crossorigin=\"\"/><script src=\"/_next/static/chunks/ee20cf21744b560b.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/fbed5a8041c13e6c.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/e9db456e6febb5bf.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/turbopack-9f4671802aab84e1.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/ff1a16fafef87110.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/d2be314c3ece3fbe.js\" async=\"\" crossorigin=\"\"></script><meta name=\"robots\" content=\"noindex\"/><meta name=\"format-detection\" content=\"telephone=no\"/><link rel=\"icon\" href=\"/favicon.ico?favicon.5ee930d4.ico\" sizes=\"32x32\" type=\"image/x-icon\"/><script src=\"/_next/static/chunks/a6dad97d9634a72d.js\" crossorigin=\"anonymous\" noModule=\"\"></script></head><body><div hidden=\"\"><!--$--><!--/$--></div><script src=\"/_next/static/chunks/283536f2f9054fb3.js\" crossorigin=\"\" id=\"_R_\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[39756,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"default\\\"]\\n3:I[37457,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"default\\\"]\\n6:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"OutletBoundary\\\"]\\n7:\\\"$Sreact.suspense\\\"\\n9:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"ViewportBoundary\\\"]\\nb:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"MetadataBoundary\\\"]\\nd:I[68027,[],\\\"default\\\"]\\ne:I[27201,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"IconMark\\\"]\\n:HL[\\\"/_next/static/chunks/2a24702b0c6a0ac5.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n:HL[\\\"/_next/static/chunks/4a9d9b3b3190e11e.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n:HL[\\\"/_next/static/chunks/c76530121f261559.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n:HL[\\\"/_next/static/chunks/afe11c46f7dbb667.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n:HL[\\\"/_next/static/media/F37Judge_BoldCondensed-s.p.daecefb0.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/F37Judge_MediumExtended-s.p.9d9c32f8.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/F37Judge_RegularExtended-s.p.31c64d5f.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/F37Judge_RegularExtendedItalic-s.p.6ead63c6.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/chunks/508bb1ef72ebb690.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n\"])</script><script>self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"YezXpvoYh9Eyb5q3iN8wf\\\",\\\"c\\\":[\\\"\\\",\\\"llms-full.txt\\\"],\\\"q\\\":\\\"\\\",\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[[\\\"locale\\\",\\\"llms-full.txt\\\",\\\"d\\\"],{\\\"children\\\":[[\\\"slug\\\",\\\"\\\",\\\"oc\\\"],{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]}]},\\\"$undefined\\\",\\\"$undefined\\\",true],[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L2\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L3\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]],[]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],{\\\"children\\\":[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/2a24702b0c6a0ac5.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"1\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/4a9d9b3b3190e11e.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"2\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/c76530121f261559.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"3\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/afe11c46f7dbb667.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-0\\\",{\\\"src\\\":\\\"/_next/static/chunks/d860dcab2a8ae425.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-1\\\",{\\\"src\\\":\\\"/_next/static/chunks/e7a4ee7fa3ae200d.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-2\\\",{\\\"src\\\":\\\"/_next/static/chunks/6ded9e32aed8bfda.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-3\\\",{\\\"src\\\":\\\"/_next/static/chunks/676b0ee7f668ae77.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-4\\\",{\\\"src\\\":\\\"/_next/static/chunks/d5b09c40b0411560.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-5\\\",{\\\"src\\\":\\\"/_next/static/chunks/5e7e4f692b0cfb8b.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}]],\\\"$L4\\\"]}],{\\\"children\\\":[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L2\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L3\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],{\\\"children\\\":[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[\\\"$L5\\\",[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/508bb1ef72ebb690.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-0\\\",{\\\"src\\\":\\\"/_next/static/chunks/a94603ce99d7ab80.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}]],[\\\"$\\\",\\\"$L6\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$7\\\",null,{\\\"name\\\":\\\"Next.MetadataOutlet\\\",\\\"children\\\":\\\"$@8\\\"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],[\\\"$\\\",\\\"$1\\\",\\\"h\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L9\\\",null,{\\\"children\\\":\\\"$La\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$Lb\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$7\\\",null,{\\\"name\\\":\\\"Next.Metadata\\\",\\\"children\\\":\\\"$Lc\\\"}]}]}],[\\\"$\\\",\\\"meta\\\",null,{\\\"name\\\":\\\"next-size-adjust\\\",\\\"content\\\":\\\"\\\"}]]}],false]],\\\"m\\\":\\\"$undefined\\\",\\\"G\\\":[\\\"$d\\\",[]],\\\"S\\\":false}\\n\"])</script><script>self.__next_f.push([1,\"a:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\n8:null\\nc:[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"NetApp - NetApp - 404 Error | NetApp\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"The requested page could not be found.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"2\\\",{\\\"name\\\":\\\"format-detection\\\",\\\"content\\\":\\\"telephone=no\\\"}],[\\\"$\\\",\\\"link\\\",\\\"3\\\",{\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"/favicon.ico?favicon.5ee930d4.ico\\\",\\\"sizes\\\":\\\"32x32\\\",\\\"type\\\":\\\"image/x-icon\\\"}],[\\\"$\\\",\\\"$Le\\\",\\\"4\\\",{}]]\\n4:E{\\\"digest\\\":\\\"NEXT_HTTP_ERROR_FALLBACK;404\\\"}\\n5:E{\\\"digest\\\":\\\"NEXT_HTTP_ERROR_FALLBACK;404\\\"}\\n\"])</script></body></html>",
+      "url": "https://www.netapp.com/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;netapp&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;d8ab3717&#46;1795057642&#46;9d47010b\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;d8ab3717&#46;1795057642&#46;9d47010b</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.netapp.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;netapp&#46;com&#47;sitemap&#46;xml\" on this server.<P>\nReference&#32;&#35;18&#46;e3ab3717&#46;1795057644&#46;7aad2438\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;e3ab3717&#46;1795057644&#46;7aad2438</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.netapp.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;netapp&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;d8ab3717&#46;1795057646&#46;9d478a7c\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;d8ab3717&#46;1795057646&#46;9d478a7c</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.netapp.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/283536f2f9054fb3.js\" crossorigin=\"\"/><script src=\"/_next/static/chunks/ee20cf21744b560b.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/fbed5a8041c13e6c.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/e9db456e6febb5bf.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/turbopack-9f4671802aab84e1.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/ff1a16fafef87110.js\" async=\"\" crossorigin=\"\"></script><script src=\"/_next/static/chunks/d2be314c3ece3fbe.js\" async=\"\" crossorigin=\"\"></script><meta name=\"robots\" content=\"noindex\"/><meta name=\"format-detection\" content=\"telephone=no\"/><link rel=\"icon\" href=\"/favicon.ico?favicon.5ee930d4.ico\" sizes=\"32x32\" type=\"image/x-icon\"/><script src=\"/_next/static/chunks/a6dad97d9634a72d.js\" crossorigin=\"anonymous\" noModule=\"\"></script></head><body><div hidden=\"\"><!--$--><!--/$--></div><script src=\"/_next/static/chunks/283536f2f9054fb3.js\" crossorigin=\"\" id=\"_R_\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[39756,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"default\\\"]\\n3:I[37457,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"default\\\"]\\n6:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"OutletBoundary\\\"]\\n7:\\\"$Sreact.suspense\\\"\\n9:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"ViewportBoundary\\\"]\\nb:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"MetadataBoundary\\\"]\\nd:I[68027,[],\\\"default\\\"]\\ne:I[27201,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/d2be314c3ece3fbe.js\\\"],\\\"IconMark\\\"]\\n:HL[\\\"/_next/static/chunks/2a24702b0c6a0ac5.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n:HL[\\\"/_next/static/chunks/4a9d9b3b3190e11e.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n:HL[\\\"/_next/static/chunks/c76530121f261559.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n:HL[\\\"/_next/static/chunks/afe11c46f7dbb667.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n:HL[\\\"/_next/static/media/F37Judge_BoldCondensed-s.p.daecefb0.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/F37Judge_MediumExtended-s.p.9d9c32f8.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/F37Judge_RegularExtended-s.p.31c64d5f.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/F37Judge_RegularExtendedItalic-s.p.6ead63c6.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/chunks/508bb1ef72ebb690.css\\\",\\\"style\\\",{\\\"crossOrigin\\\":\\\"\\\"}]\\n\"])</script><script>self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"YezXpvoYh9Eyb5q3iN8wf\\\",\\\"c\\\":[\\\"\\\",\\\"ai.txt\\\"],\\\"q\\\":\\\"\\\",\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[[\\\"locale\\\",\\\"ai.txt\\\",\\\"d\\\"],{\\\"children\\\":[[\\\"slug\\\",\\\"\\\",\\\"oc\\\"],{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]}]},\\\"$undefined\\\",\\\"$undefined\\\",true],[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L2\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L3\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]],[]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],{\\\"children\\\":[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/2a24702b0c6a0ac5.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"1\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/4a9d9b3b3190e11e.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"2\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/c76530121f261559.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"3\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/afe11c46f7dbb667.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-0\\\",{\\\"src\\\":\\\"/_next/static/chunks/d860dcab2a8ae425.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-1\\\",{\\\"src\\\":\\\"/_next/static/chunks/e7a4ee7fa3ae200d.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-2\\\",{\\\"src\\\":\\\"/_next/static/chunks/6ded9e32aed8bfda.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-3\\\",{\\\"src\\\":\\\"/_next/static/chunks/676b0ee7f668ae77.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-4\\\",{\\\"src\\\":\\\"/_next/static/chunks/d5b09c40b0411560.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-5\\\",{\\\"src\\\":\\\"/_next/static/chunks/5e7e4f692b0cfb8b.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}]],\\\"$L4\\\"]}],{\\\"children\\\":[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L2\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L3\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],{\\\"children\\\":[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[\\\"$L5\\\",[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/508bb1ef72ebb690.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"anonymous\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-0\\\",{\\\"src\\\":\\\"/_next/static/chunks/a94603ce99d7ab80.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}]],[\\\"$\\\",\\\"$L6\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$7\\\",null,{\\\"name\\\":\\\"Next.MetadataOutlet\\\",\\\"children\\\":\\\"$@8\\\"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],[\\\"$\\\",\\\"$1\\\",\\\"h\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L9\\\",null,{\\\"children\\\":\\\"$La\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$Lb\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$7\\\",null,{\\\"name\\\":\\\"Next.Metadata\\\",\\\"children\\\":\\\"$Lc\\\"}]}]}],[\\\"$\\\",\\\"meta\\\",null,{\\\"name\\\":\\\"next-size-adjust\\\",\\\"content\\\":\\\"\\\"}]]}],false]],\\\"m\\\":\\\"$undefined\\\",\\\"G\\\":[\\\"$d\\\",[]],\\\"S\\\":false}\\n\"])</script><script>self.__next_f.push([1,\"a:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\n8:null\\nc:[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"NetApp - NetApp - 404 Error | NetApp\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"The requested page could not be found.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"2\\\",{\\\"name\\\":\\\"format-detection\\\",\\\"content\\\":\\\"telephone=no\\\"}],[\\\"$\\\",\\\"link\\\",\\\"3\\\",{\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"/favicon.ico?favicon.5ee930d4.ico\\\",\\\"sizes\\\":\\\"32x32\\\",\\\"type\\\":\\\"image/x-icon\\\"}],[\\\"$\\\",\\\"$Le\\\",\\\"4\\\",{}]]\\n4:E{\\\"digest\\\":\\\"NEXT_HTTP_ERROR_FALLBACK;404\\\"}\\n5:E{\\\"digest\\\":\\\"NEXT_HTTP_ERROR_FALLBACK;404\\\"}\\n\"])</script></body></html>",
+      "url": "https://www.netapp.com/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    }
+  },
+  "afr": {
+    "domain": "netapp.com",
+    "engineVersion": "afr-1.3.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-19T03:07:33.045Z",
+    "score": 35,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 18.46,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 18.46,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 5.63/9 · hybrid 4.50/6 · training 8.33/10; strategy tag Middle-Path. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, Googlebot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 10,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 9,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 7,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 7,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "llms.txt references an API; API documentation entry point present; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 18.46,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 9,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 7,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

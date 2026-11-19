@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "hermes.com",
+    "fetchedAt": "2026-11-19T03:34:31.041Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "#\n# prod_hermes_com_robots.txt\n#\n# For Drupal folders and files, wildcards used for directories 1) country 2) language\nUser-agent: *\n# Directories\nDisallow: /*/config/\nDisallow: /*/*/includes/\nDisallow: /*/*/misc/\nDisallow: /*/*/modules/\nDisallow: /*/*/profiles/\nDisallow: /*/*/scripts/\nDisallow: /*/*/themes/\nAllow: /*/*/themes/custom/hermes/img/\n# Files\nDisallow: /*/*/CHANGELOG.txt\nDisallow: /*/*/cron.php\nDisallow: /*/*/INSTALL.mysql.txt\nDisallow: /*/*/INSTALL.pgsql.txt\nDisallow: /*/*/install.php\nDisallow: /*/*/INSTALL.txt\nDisallow: /*/*/LICENSE.txt\nDisallow: /*/*/MAINTAINERS.txt\nDisallow: /*/*/update.php\nDisallow: /*/*/UPGRADE.txt\nDisallow: /*/*/xmlrpc.php\n# Paths (clean URLs)\nDisallow: /admin/commerce/\nDisallow: /*/*/admin/\nDisallow: /*/*/comment/reply/\nDisallow: /*/*/node/add/\nDisallow: /*/*/node/*\nDisallow: */node?page=*\nDisallow: /*/*/preview-cms/*\n# Disallow: /*/*/search/\nDisallow: /*/*/editorial/*\nDisallow: /*/*/environment/*\nDisallow: /*/*/taxonomy/*\nDisallow: /*/*/user/register/\nDisallow: /*/*/user/password/\nDisallow: /*/*/user/login/\nDisallow: /*/*/user/logout/\nAllow: /*/*/care-and-use/$\nDisallow: /*/*/care-and-use/*\nDisallow: /api/*\n# Paths (no clean URLs)\nDisallow: /*/*/?q=admin/\nDisallow: /*/*/?q=comment/reply/\nDisallow: /*/*/?q=node/add/\nDisallow: /*/*/?q=search/\nDisallow: /*/*/?q=user/password/\nDisallow: /*/*/?q=user/register/\nDisallow: /*/*/?q=user/login/\nDisallow: /*/*/?q=user/logout/\n\n# added regarding the actual site structure\n# disallow search URL to be indexed\n# Disallow: /*/*/search?s=*\n# Disallow: /*/*/search/?s=*\n\n# For Magento folders and files, wildcards used for directories 1) country 2) language\n# Directories\nDisallow: /*/*/404/\nDisallow: /*/*/app/\nDisallow: /*/*/cgi-bin/\nDisallow: /*/*/downloader/\nDisallow: /*/*/errors/\nDisallow: /*/*/includes/\nDisallow: /*/*/lib/\nDisallow: /*/*/magento/\nDisallow: /*/*/pkginfo/\nDisallow: /*/*/report/\nDisallow: /*/*/scripts/\nDisallow: /*/*/shell/\nDisallow: /*/*/skin/\nDisallow: /*/*/stats/\nDisallow: /*/*/var/\n# Paths (clean URLs)\nDisallow: /*/*/catalogsearch/result/\nDisallow: /*/*/catalog/product_compare/\nDisallow: /*/*/catalog/category/view/\nDisallow: /*/*/catalog/product/view/\nDisallow: /*/*/catalogsearch/\nDisallow: /*/*/checkout/\nDisallow: /*/*/control/\nDisallow: /*/*/contacts/\nDisallow: /*/*/customer/\nDisallow: /*/*/customize/\nDisallow: /*/*/newsletter/\nDisallow: /*/*/poll/\nDisallow: /*/*/review/\nDisallow: /*/*/sendfriend/\nDisallow: /*/*/tag/\nDisallow: /*/*/wishlist/\nDisallow: /*/*/index.php/catalogsearch/result/\nDisallow: /*/*/index.php/catalog/product_compare/\nDisallow: /*/*/index.php/catalog/category/view/\nDisallow: /*/*/index.php/catalog/product/view/\nDisallow: /*/*/index.php/catalogsearch/\nDisallow: /*/*/index.php/checkout/\nDisallow: /*/*/index.php/control/\nDisallow: /*/*/index.php/contacts/\nDisallow: /*/*/index.php/customer/\nDisallow: /*/*/index.php/customize/\nDisallow: /*/*/index.php/newsletter/\nDisallow: /*/*/index.php/poll/\nDisallow: /*/*/index.php/review/\nDisallow: /*/*/index.php/sendfriend/\nDisallow: /*/*/index.php/tag/\nDisallow: /*/*/index.php/wishlist/\n# Files\nDisallow: /*/*/cron.php\nDisallow: /*/*/cron.sh\nDisallow: /*/*/error_log\nDisallow: /*/*/install.php\nDisallow: /*/*/LICENSE.html\nDisallow: /*/*/LICENSE.txt\nDisallow: /*/*/LICENSE_AFL.txt\nDisallow: /*/*/STATUS.txt\n# Paths (no clean URLs)\nDisallow: /*/*/*.php$\nDisallow: /*/*/*?p=*&\nDisallow: /*/*/*?SID=\nDisallow: /*/*/*?sid=\nDisallow: /*/*/*?limit=all\n# Waiting bugfix\nDisallow: /*/story/test*\nDisallow: /*/story/*-test*\nDisallow: /apps/\nDisallow: /geoloc/\nDisallow: /cookie/\nDisallow: /autodiscover/\nDisallow: /ACQUIA_MONITOR\nDisallow: /modules/user/\nDisallow: /do_not_delete/\nDisallow: /extension/\nDisallow: /*/*/get/ajax/notifications/\nDisallow: /*/*/validatewechatpay/\nDisallow: */back-in-stock/*\nDisallow: /ae/en/*\nDisallow: /sa/en/*\n\n#Params\nDisallow: *?cachebuster=*\nDisallow: *?nuance=*\nDisallow: *?color_hermes__nuance=*\nDisallow: *?size_leather=*\nDisallow: *?xtor=*\nDisallow: *sortby=*\nDisallow: *?site=*\nDisallow: *?engineid=*\nDisallow: *?&engineid=*\nDisallow: *?a=*\nDisallow: *?c=*\nDisallow: *?e=*\nDisallow: *?p=*\nDisallow: *?q=*\nDisallow: *?v=*\nDisallow: *?x=*\nDisallow: *?cid=*\nDisallow: *?mid=*\nDisallow: *?ladh=*\nDisallow: *?fbclid=*\nDisallow: *?storeId=*\nDIsallow: *langId=*\nDisallow: *catalogId=*\nDisallow: *sketch-id=*\nDisallow: *_gac=*\nDisallow: *callback=*\nDisallow: *CFID=*\nDisallow: *CHKeyword=*\nDisallow: *city=*\nDisallow: *combination=*\nDisallow: *country=*\nDisallow: *embedded=*\nDisallow: *event=*\nDisallow: *fit=*\nDisallow: *from=*\nDisallow: *gamme=*\nDisallow: *generic_color_*\nDisallow: *hc_location=*\nDisallow: *insvid=*\nDisallow: *keyfrom=*\nDisallow: *lang=*\nDisallow: *locale=*\nDisallow: *mod=*\nDisallow: *MRK_CMPG_SOURCE=*\nDisallow: *NBVCCX=*\nDisallow: *openExternalBrowser=*\nDisallow: *orderby=*\nDisallow: *phint=*\nDisallow: *productId=*\nDisallow: *ref=*\nDisallow: *selected=*\nDisallow: *snowdome_id=*\nDisallow: *tc=*\nDisallow: *theme=*\nDisallow: *tkb=*\nDisallow: *url_from=*\nDisallow: *wid=*\nDisallow: *xtcr=*\nDisallow: *xtmc=*\nDisallow: *yclid=*\nDisallow: *zoneId=*\n#Disallow: *aggregate\nDisallow: *hash=*\nDisallow: *filters_param=*\n\n# For China only\nUser-agent: *\nDisallow: /cn/\n\nUser-agent: 360Spider\nDisallow: /\n\nUser-agent: HaosouSpider\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: Baiduspider-mobile\nDisallow: /\n\nUser-agent: Sogou+inst+spider\nDisallow: /\n\nUser-agent: Sogou+spider2\nDisallow: /\n\nUser-agent: Sogou+web+spider/4.0\nDisallow: /\n\nUser-agent: YisouSpider  \nDisallow: /\n\n# All sitemaps listed below :\nSitemap: https://www.hermes.com/at/de/sitemap_index.xml\nSitemap: https://www.hermes.com/au/en/sitemap_index.xml\nSitemap: https://www.hermes.com/be/en/sitemap_index.xml\nSitemap: https://www.hermes.com/be/fr/sitemap_index.xml\nSitemap: https://www.hermes.com/br/pt/sitemap_index.xml\nSitemap: https://www.hermes.com/ca/en/sitemap_index.xml\nSitemap: https://www.hermes.com/ca/fr/sitemap_index.xml\nSitemap: https://www.hermes.com/ch/de/sitemap_index.xml\nSitemap: https://www.hermes.com/ch/fr/sitemap_index.xml\nSitemap: https://www.hermes.com/cz/en/sitemap_index.xml\nSitemap: https://www.hermes.com/de/de/sitemap_index.xml\nSitemap: https://www.hermes.com/dh/en/sitemap_index.xml\nSitemap: https://www.hermes.com/dk/en/sitemap_index.xml\nSitemap: https://www.hermes.com/es/es/sitemap_index.xml\nSitemap: https://www.hermes.com/fi/en/sitemap_index.xml\nSitemap: https://www.hermes.com/fr/fr/sitemap_index.xml\nSitemap: https://www.hermes.com/gr/en/sitemap_index.xml\nSitemap: https://www.hermes.com/hk/en/sitemap_index.xml\nSitemap: https://www.hermes.com/ie/en/sitemap_index.xml\nSitemap: https://www.hermes.com/it/it/sitemap_index.xml\nSitemap: https://www.hermes.com/jp/ja/sitemap_index.xml\nSitemap: https://www.hermes.com/kr/ko/sitemap_index.xml\nSitemap: https://www.hermes.com/lu/fr/sitemap_index.xml\nSitemap: https://www.hermes.com/mo/en/sitemap_index.xml\nSitemap: https://www.hermes.com/mx/es/sitemap_index.xml\nSitemap: https://www.hermes.com/my/en/sitemap_index.xml\nSitemap: https://www.hermes.com/nl/en/sitemap_index.xml\nSitemap: https://www.hermes.com/no/en/sitemap_index.xml\nSitemap: https://www.hermes.com/pl/en/sitemap_index.xml\nSitemap: https://www.hermes.com/pt/en/sitemap_index.xml\nSitemap: https://www.hermes.com/ri/en/sitemap_index.xml\nSitemap: https://www.hermes.com/se/en/sitemap_index.xml\nSitemap: https://www.hermes.com/sg/en/sitemap_index.xml\nSitemap: https://www.hermes.com/th/en/sitemap_index.xml\nSitemap: https://www.hermes.com/tw/zh/sitemap_index.xml\nSitemap: https://www.hermes.com/uk/en/sitemap_index.xml\nSitemap: https://www.hermes.com/us/en/sitemap_index.xml\n",
+      "url": "https://www.hermes.com/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<html lang=\"en\"><head><title>hermes.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAKn-Zsjtx4TkArNYh6A==','hsh':'2211F522B61E269B869FA6EAFFB5E1','t':'bv','qp':'','s':13461,'e':'8efd6e3ad543898ebc63e8c99c1122fd395b0295f3ada34b3d0eba8b809db79c665154c5faa9c6f527bf8bfc1567b6dd','host':'geo.captcha-delivery.com','cookie':'H1psxwSI3rmyg70X5QraOvehj8uKuoPIHOehfpfKCRpxX73UBxtHJsaWJCsIAHwzpqb1f_uZGiV6Fxo2J~GVTESHyw0o6Y0PtUw1uWRAbBPaH3YAWD0ysbguovTzOq7B'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"feb08a42c61740979a9ea5a3b5cd9196\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://www.hermes.com/us/en"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<html lang=\"en\"><head><title>hermes.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMA2oh2mp6lvBsArNYh6A==','hsh':'2211F522B61E269B869FA6EAFFB5E1','t':'bv','qp':'','s':13461,'e':'38ced40d3220f16c45b67c7dd635cea769e6a49aebfebd663ad4d6b788f5963cc81dd1c5a8a9da703772c0fea314f3a1','host':'geo.captcha-delivery.com','cookie':'HqjyMLUN5T28XE2gU1Hr_addfhyNKkSLQnDeVHnz58gFbj7qqErbpF6FZE_VFNSOtdYxgCDJjuSHDmz6gLGDxO2NqyLvikvcbCB2OAut~vfjZg74lCU5lS73ZfHPUYdA'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"feb08a42c61740979a9ea5a3b5cd9196\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://www.hermes.com/us/en"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<html lang=\"en\"><head><title>hermes.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMA6wkZBNUtTuMArNYh6A==','hsh':'2211F522B61E269B869FA6EAFFB5E1','t':'bv','qp':'','s':13461,'e':'c9ac07bfb7d17db56b7eab93ffb628f1b671d8be76ffb6138c1772f3568f41c085b9d02dbebe0ec96e33656bfc654043','host':'geo.captcha-delivery.com','cookie':'Uer7C~LdVyLAoCdHVsF699HPHx8HazLBJhh5g_asbeQetUlxfG4nPDEY1EAwxsqEAELOMrvE1MEQmpDcgLJn2z1HSgTEmzciUYDWDc1Z8XmuaNTqGSaX9uERWksOLbS5'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"feb08a42c61740979a9ea5a3b5cd9196\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://www.hermes.com/"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    <sitemap>\n        <loc>https://www.hermes.com/be/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/be/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/be/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/be/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/be/fr/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/be/fr/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/be/fr/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/be/fr/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/cz/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/cz/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/cz/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/cz/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/dk/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/dk/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/dk/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/dk/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/de/de/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/de/de/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/de/de/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/de/de/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/es/es/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/es/es/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/es/es/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/es/es/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/fi/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/fi/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/fi/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/fi/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/gr/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/gr/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/gr/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/gr/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/fr/fr/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/fr/fr/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/fr/fr/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/fr/fr/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ie/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ie/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ie/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ie/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/it/it/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/it/it/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/it/it/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/it/it/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/lu/fr/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/lu/fr/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/lu/fr/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/lu/fr/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/nl/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/nl/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/nl/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/nl/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/no/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/no/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/no/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/no/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/at/de/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/at/de/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/at/de/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/at/de/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/pl/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/pl/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/pl/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/pl/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/pt/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/pt/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/pt/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/pt/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ch/fr/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ch/fr/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ch/fr/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ch/fr/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ch/de/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ch/de/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ch/de/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ch/de/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/se/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/se/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/se/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/se/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/uk/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/uk/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/uk/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/uk/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ri/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ri/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ri/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ri/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/dh/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/dh/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/dh/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/dh/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/us/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/us/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/us/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/us/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ca/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ca/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ca/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ca/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ca/fr/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ca/fr/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ca/fr/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/ca/fr/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/br/pt/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/br/pt/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/br/pt/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.cn/cn/zh/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.cn/cn/zh/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.cn/cn/zh/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.cn/cn/zh/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.cn/cn/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.cn/cn/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.cn/cn/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.cn/cn/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/hk/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/hk/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/hk/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/hk/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/mo/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/mo/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/mo/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/mo/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/tw/zh/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/tw/zh/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/tw/zh/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/tw/zh/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/jp/ja/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/jp/ja/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/jp/ja/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/jp/ja/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/kr/ko/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/kr/ko/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/kr/ko/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/kr/ko/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/sg/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/sg/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/sg/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/sg/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/my/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/my/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/my/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/my/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/th/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/th/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/th/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/th/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/au/en/sitemaps/discovery.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/au/en/sitemaps/products.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/au/en/sitemaps/stores.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n    <sitemap>\n        <loc>https://www.hermes.com/au/en/sitemaps/storelocators.xml</loc>\n        <changefreq>daily</changefreq>\n    </sitemap>\n</sitemapindex>",
+      "url": "https://www.hermes.com/at/de/sitemap_index.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<html lang=\"en\"><head><title>hermes.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAmPXSCFif3MMArNYh6A==','hsh':'2211F522B61E269B869FA6EAFFB5E1','t':'bv','qp':'','s':13461,'e':'56081418aa764d858fa18e5bb103738f80475d55cd767a0cc2c84c926b1a9eeec90936f9e57e8f261311cb831fbbbaf8','host':'geo.captcha-delivery.com','cookie':'UjZht84uzLWOwVpBwYkobo1DwdsPvzWAOK2dmRxntGkRDFJJaRdKNx1sQ4qVg_1aS1SBrkU39FFp495Jkyf8prLtglQDrr_FXgL3H0QB8xJavwoLBhuVTQOrBcZo9hPX'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"feb08a42c61740979a9ea5a3b5cd9196\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://www.hermes.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<html lang=\"en\"><head><title>hermes.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAx2h4vBrcSPoArNYh6A==','hsh':'2211F522B61E269B869FA6EAFFB5E1','t':'bv','qp':'','s':13461,'e':'7664b274d954be916ec030e63c314d5a5fbc89f6d264dbf6b614fac891979344ae2f644dbf455fb057f84f9695f0a4d3','host':'geo.captcha-delivery.com','cookie':'vhEtR6lJWkRDoyen8SePT9bkpGsN4VuLBGedbQd5c33rVcrCTplI_BYOuy~IBrzzGRmYv0aW47vjfboMCoc2BWwMkXvzvDXRFbcaqts8vOoxySFehdkKkX47Mnvir8nS'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"feb08a42c61740979a9ea5a3b5cd9196\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://www.hermes.com/us/en"
+    }
+  },
+  "afr": {
+    "domain": "hermes.com",
+    "engineVersion": "afr-1.3.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-19T03:34:31.041Z",
+    "score": 17,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 4,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

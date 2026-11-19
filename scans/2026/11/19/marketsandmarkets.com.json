@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "marketsandmarkets.com",
+    "fetchedAt": "2026-11-19T03:11:20.501Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<title>Security Verification - MarketsandMarkets</title>\r\n \r\n  <script>\r\n    (function () {\r\n      try {\r\n        var referrer = document.referrer;\r\n \r\n        if (!referrer) return;\r\n \r\n        var referrerUrl = new URL(referrer);\r\n        var currentHost = location.hostname.toLowerCase();\r\n        var referrerHost = referrerUrl.hostname.toLowerCase();\r\n \r\n        if (referrerHost === currentHost) return;\r\n \r\n        if (document.cookie.indexOf(\"mnm_original_referrer=\") !== -1) {\r\n          return;\r\n        }\r\n \r\n        document.cookie =\r\n          \"mnm_original_referrer=\" +\r\n          encodeURIComponent(referrer) +\r\n          \"; path=/; max-age=1800; SameSite=Lax; Secure\";\r\n \r\n      } catch (error) {\r\n        // Ignore errors\r\n      }\r\n    })();\r\n</script>\r\n<meta http-equiv=\"refresh\" content=\"360\"></head>\r\n \r\n<body>\r\n \r\n  <div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'agmGXv3xm9Nw4DyI81aeJt.viIbnPiAe1S4yGZGPj7k-1795057878-1.2.1.1-zMmiU68_SHivsz.wNObb9TXrcZ5JdFCmHPKiu2UN9.4RiRxPK5w3T.Nv_Rlvx6T8',cITimeS: '1795057878',cRay: 'a5cc06decd0a32f0',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/robots.txt?__cf_chl_tk=L0HyBGxttJwDx0NsDB0u9qw6w19rr3415TvvdoBU9us-1795057878-1.0.1.1-3DbHmhz_U7ea31fLjiqd2M1GPJVKvoHtR4tcZjKH_As\",cvId: '3',cZone: 'marketsandmarkets.com',fa:\"/robots.txt?__cf_chl_f_tk=L0HyBGxttJwDx0NsDB0u9qw6w19rr3415TvvdoBU9us-1795057878-1.0.1.1-3DbHmhz_U7ea31fLjiqd2M1GPJVKvoHtR4tcZjKH_As\",md: 'OAj8nV9PDn4YRiyEibMbHgecMDUGJiPX7ebcf32NGk0-1795057878-1.2.1.1-PoO2OZ1da_l7zwL333qFIwcplSpQhif9uqBaP8jQso54Sd7O2h_fWDjPyzC6ZbrWl3HLgfNo67SsGoJfc8lQCbFuRTa7ny1tMZf8fMeE_KzXalUm9W.KJh0xNv67RfMBAYOgXOcoFDR8ZMRKzbNLGc8I0ZRk_98q4ZuZVns1VAAOBm0P2bnNXTResoFqFztkhaFo1ldtUInDCmjNTR9Pot8bQS4dS3kuBBRU.Sdk6T1qtgJQF.eMaetaxV0ci36sL7VG.EVGA5.bgH.Mgjc9EukiZVxDpzLbQ2cddYeS2tdOzXqOSh2x88WYqu6lyGOKhO5ANS6wEvvWbVVjENS2qv1S0NOnsxMuqhfAR9ScAPK2_Mm_432sSr5X7VEGIj_4KCR8yWr2zQpm6.pjH9738epU5NfeAst9lmFsGBFyyoVWgQm1Zsq0hypFWYstzb6GK9xyAnozUzzChF2eEXOFsegWCqoIT3hk__j.PxWAmrdT0IU6pM0_W6omwaHCtDxJ7FDw0RRG1dRt5xtQnt86dXiDVAceKS.fhVLkjpOpzMDkouREJOaqkp2yxMXWyXZfxsUVMEtfnM775FUXoOWy17B0qbG6z3ObY_eY7jKZqpJt4TBk.sMRVMEFNpRdbAO.PlNzWufx8fQK9Y2f8H8oRLtIdjA6g7XkvhhOC1KmhpYlexfepM_MP2GLnIeEvMJCejxiS1.932CyiBbWPBdgQG5fSPsqxyRaqvVkaSSkbkQnksAbIAGPkNB7Wnt4jCaps7JuLfc5SY70uRfZ0oephmVK2oQxOO1rA0_89TZEivzYpxCdTrTLKlCk1oDPt5o_0i97qCaBzPK0OpmUzZiUDT4uygwRQkMz4FkNoQr03EO4fzXOb22NvEsSOZe_W2yD5U2I5vrJwSjPXV2E9J2qTLPF1qjDVesGrwDOS9QoD6GRVn5JKh9DqbR_sI7dXNwZSIg5XVdTd8X8JVt3kbKBrKmvSTLx2pOK.Gyf2iY9gtH.iFEJzxnWYO.MRXbFbiKK7_mwXLXpewZaCzsKPR0gQadaIJkhjW_BiH9iDHc_FyVJQW1nrKLNdTWpmSobD_boDsHMAxDl9..4sWmVLKCQZIY6OmlkzfNy3ES5uURmqTtD9uBk1dhZSh3i481hWl4f',mdrd: 'Df0Kq_Y4GXNPPU.xDaG2Q9Z2iAPWKe_UXUJt0gNthxI-1795057878-1.2.1.1-WAwtglZo3agTOaehrrX07PHxrK1GKoYzqP93KGo.EOuJQOkoZM1gEQHqDXtst2Ygv6fXykI4Om0RtZXehda00q1bnsdAR9huw3Ldr2pGYpONJjBoLb1GkTqDYtbHP1MJ9G8k81A4Ac1mHJLbeiggMjTnO3pehPhXsJMgdxwlgfYlcfmnjObdUaia4mL6DRFUzVti7zqJShCbyG6xMCH95NOM0gpjZ.OmaVS2COJU4HTlNaIIv56tBjfWKn3cqiSj3chCk7qGzi2jMg5y4wdLRAEPNDkej1XuxqTxKmb.JutMDKdGlsY2ozcsJGrBdoJqLasbRcyW0nrcZOMxA8.v6POBIyLcjSCMKNL7Dab9XUetKI6s8bJqxVdi3O1N_ljt.HZLqyoyZO3xB6I.fgxdqvzzruoYdz9SJRP1KC5rRWc',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc06decd0a32f0';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/robots.txt?__cf_chl_rt_tk=L0HyBGxttJwDx0NsDB0u9qw6w19rr3415TvvdoBU9us-1795057878-1.0.1.1-3DbHmhz_U7ea31fLjiqd2M1GPJVKvoHtR4tcZjKH_As\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>\r\n \r\n</body>\r\n</html>",
+      "url": "https://marketsandmarkets.com/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<title>Security Verification - MarketsandMarkets</title>\r\n \r\n  <script>\r\n    (function () {\r\n      try {\r\n        var referrer = document.referrer;\r\n \r\n        if (!referrer) return;\r\n \r\n        var referrerUrl = new URL(referrer);\r\n        var currentHost = location.hostname.toLowerCase();\r\n        var referrerHost = referrerUrl.hostname.toLowerCase();\r\n \r\n        if (referrerHost === currentHost) return;\r\n \r\n        if (document.cookie.indexOf(\"mnm_original_referrer=\") !== -1) {\r\n          return;\r\n        }\r\n \r\n        document.cookie =\r\n          \"mnm_original_referrer=\" +\r\n          encodeURIComponent(referrer) +\r\n          \"; path=/; max-age=1800; SameSite=Lax; Secure\";\r\n \r\n      } catch (error) {\r\n        // Ignore errors\r\n      }\r\n    })();\r\n</script>\r\n<meta http-equiv=\"refresh\" content=\"360\"></head>\r\n \r\n<body>\r\n \r\n  <div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'K2uZrxgzXPLwg52YEKXm6k1HQ.bps1z..iifFsLNrn8-1795057879-1.2.1.1-XDqnoSxkMYBmX9tXrSIPfJHIkge5egRG1zV_86yIAEEbhqHgHxHkeDT.TZC.ddD6',cITimeS: '1795057879',cRay: 'a5cc06e00dc01ee7',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms.txt?__cf_chl_tk=72h2JsxDaV9G7UeBAaAc7MkV9v7AW5o9o3A.O7vKjTI-1795057879-1.0.1.1-Sb.RlBvwutoz4U8VU8sHvHAY_yA.nt1Yo_q_SV0_8ic\",cvId: '3',cZone: 'marketsandmarkets.com',fa:\"/llms.txt?__cf_chl_f_tk=72h2JsxDaV9G7UeBAaAc7MkV9v7AW5o9o3A.O7vKjTI-1795057879-1.0.1.1-Sb.RlBvwutoz4U8VU8sHvHAY_yA.nt1Yo_q_SV0_8ic\",md: 'FWBN_WnruPJW8KVCqJZG8oj.ApKEbk79oEdQt3inqS8-1795057879-1.2.1.1-jLnezv59u4JoPGRH4ppJie1dJv5BmOe5hdWaY8970E.BZcGs.xO4Pp4ZjB_4WZ6VWIcJ1gX2CVryoYEj3J6rsLDhS2W8M0je3oh6Jt8.LZPd5CQChrQ4NFMgZ6NEZ0HBiyzgFegGokP2UxRvbXtloqHGMmZ0grRCacPjjKPVYxVPgMFrPquZxZUfi66ZZ1W2h9LlLvUQyAxQtFm2Wu_HNkz9yh465a_U_I.pilfLmp3T.g.vvHXnPgR7.qbl7mWu34zZhaGCEfF5tQSNkW_SnZWwTneY__4zx1Vrf5TKc.4bq_2IXtetLxjXbqZdqrK0EoNmDo3jXG7RreNovpTNDh5dxyXUBWi.Q4SdFSRnkNKDIR0em91aag6XDiByZnJ9oxjb3_AFEkj3bAMP4y_sTV5FQhu2pFRHK_vAhSLTsNoDhli7CVtcpEuTJ6ntLIvg_bm_MxFlONEjWMcyrIRdljw79QmqFZYygv4iZjawKbHD8iu_L8fzPHFFFSxTW.LDlfWrj_uOkWGXLs8oPq2Frc1PhiPoy2RLw5EwnTOuSjTcGTpt4CsLZf7QQVX6kPlz5Mvk4nyAKc7N7Kb4C.NkEGHi7Nl7hvblsOESMiJmzF4PDetQuml0mW6ylT9uFQvspTmX7LonnavSaVXk_1Likz5fWAZm8oNc3ZjNBUUTuJPwqiBXf59l6TLKUIGv_OmFB0SPCT2F8VyxJ9YikUut69IW60Hw0_iWhckF2wVgDtoU2blXKmrL.7erDTku89Z3tg8OEc7DejHYvSc_liHBL.o4itAnwhKNOlQTuMZEvqyZ9fT618MKBHehBzf8.JTZ32UZqwlZ9xw8sjPbQ1X86Schdibq03hw3o7aO6wHjD9GUHPBEQY32ssgIZo7pQ.bi_zqRwYmb2yE68Zp35WRrqm1XlbbKkXWxvswm1EHffLR15dJJ.yGyvCeBD_MT.F19Svi0FFtiFzAX2bWOtnTieooq96pM7p7yvh9MZqiBorH9.QCm0Iz6PRvJ0ue99LX0WgJd.HR3N5inKz3hRmII95c0E8_s47sV.JsC_coCRVSDZQkyl1chxL8nI6OcXesEqUAjhk4Ubdi1X4zokmD3y.gZ0_Hk7N6iAgwGDpSspZGlKkP1wlN0cF68DsrYp8Y',mdrd: 'Uh8FzGHseHu6tfPNXypyuuB2_8gvL_CI3sOJyYoa4kU-1795057879-1.2.1.1-C_oUWXrruepKHd8W_k_Znb7uxDL20MRwZaSlIJg2Dg3v1GpEJlsnCEJLLJSsUosIEwfuyQ4gbbj3pm8xh6RFZXeoElpClij7ICBVZFSY78HZxecFRRTXmA40iuWvh3Q.5cDGAP32zwHQ70C99r6WRsYA7cm2cr1aU9UXDOrtMcXnfjCItP6thhS7ZmUQ6zddJYmyPfI.zzkMXZMVZcJ6wurqToQG4l_mGuPrPl3j3QYlTVz6gZaBxMQMoCUdeFmIdVUR3N20ZqCMW1GFSGNxMzOjJB5_ysfEKRemXiw3v8koEfla9zHMQgJns9oSjjF7v55gWjWdX0.ZWEtm.Pj37d4h8CHbv__58223SdNQ48vBjZAjnZh1BFx0YB42LldaqIHwJ0gT1OHJUUh2ZsFZ8SoxdgGv5uSPSWnCGXq8Vxk',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc06e00dc01ee7';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=72h2JsxDaV9G7UeBAaAc7MkV9v7AW5o9o3A.O7vKjTI-1795057879-1.0.1.1-Sb.RlBvwutoz4U8VU8sHvHAY_yA.nt1Yo_q_SV0_8ic\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>\r\n \r\n</body>\r\n</html>",
+      "url": "https://marketsandmarkets.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<title>Security Verification - MarketsandMarkets</title>\r\n \r\n  <script>\r\n    (function () {\r\n      try {\r\n        var referrer = document.referrer;\r\n \r\n        if (!referrer) return;\r\n \r\n        var referrerUrl = new URL(referrer);\r\n        var currentHost = location.hostname.toLowerCase();\r\n        var referrerHost = referrerUrl.hostname.toLowerCase();\r\n \r\n        if (referrerHost === currentHost) return;\r\n \r\n        if (document.cookie.indexOf(\"mnm_original_referrer=\") !== -1) {\r\n          return;\r\n        }\r\n \r\n        document.cookie =\r\n          \"mnm_original_referrer=\" +\r\n          encodeURIComponent(referrer) +\r\n          \"; path=/; max-age=1800; SameSite=Lax; Secure\";\r\n \r\n      } catch (error) {\r\n        // Ignore errors\r\n      }\r\n    })();\r\n</script>\r\n<meta http-equiv=\"refresh\" content=\"360\"></head>\r\n \r\n<body>\r\n \r\n  <div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '8p2XIiirmV0a.6sevOK8KdJgGeys4fds7aqC1x_jU4Y-1795057879-1.2.1.1-PIw92J8qPOgvYtymEn7YM70z9WwwE6tMJf3dGsknHiBwt_HG4i3Y23mkVcbdRAaJ',cITimeS: '1795057879',cRay: 'a5cc06e14c7639a6',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=yZ3A3lfj24skITqER5rnfHcuyIVnYAW9kRKzyIfLHc4-1795057879-1.0.1.1-amwr0oVSz4BrfayJB10iOPt.4lV8MjpxiUaTONPPzVM\",cvId: '3',cZone: 'marketsandmarkets.com',fa:\"/llms-full.txt?__cf_chl_f_tk=yZ3A3lfj24skITqER5rnfHcuyIVnYAW9kRKzyIfLHc4-1795057879-1.0.1.1-amwr0oVSz4BrfayJB10iOPt.4lV8MjpxiUaTONPPzVM\",md: '4y6lYwhPtwZNjbZZK8sZd2N4HEORCPujKQ6Bwtnq634-1795057879-1.2.1.1-L4KWRCqi0fK9Yj4aOetdHOiZGOhNdCiLNdKsc81hFX9fQOyBpTyC5167NB7x30LwAkYj.pT7c.8wECSsegTUC4IijGCQd31Ios1naMzAZcgAfauz9ktq4dR2E35h7Yu546S1p.qUPzYgtMySsTvbgwaZR3zllPH5NwaW7d.uJx8RCj5z6VWGT19kd4MLvk8BI01boyWSnNJuHsogfS0WU5gzmkx7BWrbXtA5E3e.E.k0I8k8NZ5hvYf7D__nWt8pz7OZlw1cpZtASFIVsgpnnmds3KP_bQU3F8rHTZ1S1iLJnrs1BEC5hQd5iVKB5JrN1HUNjhLRWfAn29GRL4psnHYFMBNFbVlN4W6VrAbEzAnXVjG71LnarEkmcN6wMqfopgEeRom_FnnJaFf94Kvcuq.aFp45GexiuzyAp6zNNsOdUO30ahXRRgDrIjg_NKuVMlxWfTQ1Dd9d_wcrX7Yx9bfUlE3lvQXmsxbsAdL8SCXQs6Cow9LR6Y_gJwqNfp1vKJs48qkUciz3ChNeGvdS_Rp1maF7eFISdKUEv3YLw_r31YgAE9j._EZEE6YDx8.Pi2tQB1R2BqJBn6tomcXtytkN3Gwr58a6RNJWdWOdLpaau5zceUAArVqd1ld.y8z8KdfCMHWb1keEMLMMsk7ulL2Q.1xrDUTLvhc3snRKXcgGUuzOhNbZRI_GMg61Q3Kmdd4X9jfV5p0nIJpEKPYPxTzteG7ab91g__MnnVD1TIFcaIsFw8nrlJvZrLEfOUwsgqX18o6Oq2IMAy5Pumm1Z5pdP7mCJEKGGw0U1_0iOplmltQ3UtyKyzvzEsO_frkDqCjfa0lUuFSrqcl0sVEnWFCakWlZGrJpt0TATHtgcdJaTFGifwkK1hFz0_5YvYySma_1aqX8BaPnmWRVJnckYG_lNC2eY1_pdx.DmRNQ4VAswFFkTn6t0.SU1UR7SCUReGIS88mhENXP9WhpNbq_17L6OylClr82pZpcUbb9uoceiK46TjSmCsueZ.34lTi84hwkeuqM3XGbdSXjoFXj7Zqde32vqhkLh35RMjG3gKh1tSEo.akITG17FHm20WcmXFvHoF06rCs9DOzzHhXQaiV70dljP7pgWklfcj79oTX.B30Kguic6gEz4YBW3TTFM7MiPvFnctlgU0u7AVXdNw',mdrd: 'absruGa2Q.jOyxp6sb5rsfJjE.29ThLfhlJHf2rJq8Q-1795057879-1.2.1.1-v_Ir4e_XiNDDbgF1jupGIYcX.6YNRjnqTfnOf9quEaJDsGtFb8RVNEr_N68VMpA80xUKCJcgA0DCiNX3qC9b7W6EE81UeiOdHLoKaJCY9bjTb3jO9YuLglgcLjtfUJktP0u7Z8Cc4MTSzd0ODQgydN_QwdUZtL92MbZJEDKtRQ4aHka5GWm5FIxLO3AjA1bAduhup2hPVFReC2Y2BqPjdfDW.4I23dbeROHRjeYJS8Ybr21ENeDsMQxdm.xlGfFH9GI3Y9HKySMS2rhwWGDL_o7QHDXHuWm920NDqUCAkd.g0dTsuI0o2WDG9a2vXtkVa_XG.BImrafQNwToa8SAzlIVFP93wuHSTSmgIZzaa1gwDca7PMhzzkQ2Y.0H7w7xvZYtZF4olQoH7lFWVWg4_p3za_Zigb1osH4UqTjo98k',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc06e14c7639a6';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=yZ3A3lfj24skITqER5rnfHcuyIVnYAW9kRKzyIfLHc4-1795057879-1.0.1.1-amwr0oVSz4BrfayJB10iOPt.4lV8MjpxiUaTONPPzVM\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>\r\n \r\n</body>\r\n</html>",
+      "url": "https://marketsandmarkets.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<title>Security Verification - MarketsandMarkets</title>\r\n \r\n  <script>\r\n    (function () {\r\n      try {\r\n        var referrer = document.referrer;\r\n \r\n        if (!referrer) return;\r\n \r\n        var referrerUrl = new URL(referrer);\r\n        var currentHost = location.hostname.toLowerCase();\r\n        var referrerHost = referrerUrl.hostname.toLowerCase();\r\n \r\n        if (referrerHost === currentHost) return;\r\n \r\n        if (document.cookie.indexOf(\"mnm_original_referrer=\") !== -1) {\r\n          return;\r\n        }\r\n \r\n        document.cookie =\r\n          \"mnm_original_referrer=\" +\r\n          encodeURIComponent(referrer) +\r\n          \"; path=/; max-age=1800; SameSite=Lax; Secure\";\r\n \r\n      } catch (error) {\r\n        // Ignore errors\r\n      }\r\n    })();\r\n</script>\r\n<meta http-equiv=\"refresh\" content=\"360\"></head>\r\n \r\n<body>\r\n \r\n  <div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'MmUt8dwaIY5QMdgf1m7hlA.fKKnplIRjI4eGBT569ps-1795057879-1.2.1.1-7rb2DOdRRnr10zH8ATXVkNQTHdgOBKYrtYlXgar4SBvc9NSeXNekX9bA2iKq8bUv',cITimeS: '1795057879',cRay: 'a5cc06e299b31100',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=JpHxnHSXahKtxe7smYtLB0E9MKLPIsUZOJbAq3BMnII-1795057879-1.0.1.1-tiQ_6guHMmWMntklHQ26nNSPZk4Y1MpHK1inrmZgorE\",cvId: '3',cZone: 'marketsandmarkets.com',fa:\"/?__cf_chl_f_tk=JpHxnHSXahKtxe7smYtLB0E9MKLPIsUZOJbAq3BMnII-1795057879-1.0.1.1-tiQ_6guHMmWMntklHQ26nNSPZk4Y1MpHK1inrmZgorE\",md: 'lRio6SYEELGtd44LMKKYeRAOty_Q3P71txztQFdA08I-1795057879-1.2.1.1-ObXaMAmt39Pi9ZDJLvLVXc9.JPu8Cz0pyYiNqbz8G.j7yt7Kih0TZAOv_en9hLRhLDHq.q_nyV4noqbjarnxK0GD_urVGdnUjAIweZ.nHUTj0zTLtXWPwnSo8cWoXFOLh3.hE_EPp5LQEhMipxLFRK85g1bum2VzhWTHMRp6QCYg8iBe.t3XUXTysjFQgQwkNf6y7f_4a4xPBZwPYtiTwZhI6x7a8LQdPYv1xRp5DV93rDJ0VPeGUmDHdjc1v9IMXQ.l.cSE2UXUGHebmfGRZvZ0HY4U6IKkEyX7c.wxOBVGma5XGx7UYhSzpEoTKqkxDwmjPYYVCXMFjWH_ht9DgJ9XV2f5Je4XdIp97KVgEiO6XZD0sHnDHIMuHVztAMeT6dWiY5Omr1KTDTBurLF5H5PlRbLefE7kgDwqnSc9L6JJKAIiBC_D14A8XkhCKG4MVWEg7ZK0317FJhd38cKsylBF3tyi20EaSTmZAU1VITYyRspa.iCGAxxRYdpzdz0ywCaZe1_rVmQqdaRlHq2Z5StT_JwXbPDUeAvlpHqN8te0vLaYSEu6Nz6aJX6JLd_vUfo6UsTJPSB36eKp9mkrpUprNYXm6QqDYg7yUW2JDvvHvVRC9hqirRbnqaN4Q_OyiJAc7zHRprXGIXGUJgHkYxzfMDH_z4Azpf00v8fKrK7tvxbMj6CFYQMDytgn7kc8qlqVwd26GzEcL8NeQdGm8MQu.4QBCxK5qlvMc2usSk.hwBouy_460Y1ymkMuUvmr_bJbyMRFck5rN_M217_zS9AJlQhC937g7cWV0W_.DLdmX6zmb7SQbB_JyN6u5TEmMp3w91yrHsJkBNL7zTnLwqPNLqSTeXMlq0gDSdOsrwp5LduMgZMQ09K0dsOjv_Kii2SthKzZrvOowhPN9zcBmwI4BzS50DSYXm5n7J5IKjqFeln6TeXqXAcvf5OrJ0Wuw5ERnsTFXQHWxps5s6XrDzlVZJnPCAB1ueWOWa79sJEJ7fytOPEwQryPI4sYlLne7.BirtjIcmB0BDXWdGXIeohfU9eVrw0o.aPFxA5KSNRRD4gduma6ot4ig9fEg.7Bbdgqy3HNNxfkX5BSl1oNzHXilr4tyaJhvRZ6jH30uvdVUU_PtmsWFMezFYNibvYG',mdrd: 'bPtUkwBgXDaO4Xmm5K3ia1jID4DcQ1qisPHZu1HBEdU-1795057879-1.2.1.1-mS7xQ7wE3W9b.hgGk.aq_kReix480ro.hsGzaZOmNn7BRXxULZVoJ7CLHNdchRL53IDDnrim6tXBLAaAz6hZFD.l4iX_fNc96NRSfHPhOC5y3.5Ve.3ivGqJyqhV40AXR4B8siW1moD3f7Djvrp30CeSk4fKdNycsKCiHQPCGfuQpHoiuH0N9xpKyY9CYsO_qVJtewjRg8MoJawyWBcDh.w8jL8cqkEAiwSky2iWcWuH1TC9nuyYyRnSz1wn2hVVIELoNFPD1Tu68xBpvq6QOy_bqSxYlEd2AM_4zMPaUMxcSjQJ2C.y5IITF9VsOcQ9.2insg65JdSLEpwGBk7i2Z3G6I.0PZCcCP6Ms90bFTbyHuEkhMhA5nug.tzKW_AVs7a_Nq0QTpNT3LzSJY0wF1r3PlmLTw1RdL3whZRBTPI',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc06e299b31100';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=JpHxnHSXahKtxe7smYtLB0E9MKLPIsUZOJbAq3BMnII-1795057879-1.0.1.1-tiQ_6guHMmWMntklHQ26nNSPZk4Y1MpHK1inrmZgorE\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>\r\n \r\n</body>\r\n</html>",
+      "url": "https://marketsandmarkets.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<title>Security Verification - MarketsandMarkets</title>\r\n \r\n  <script>\r\n    (function () {\r\n      try {\r\n        var referrer = document.referrer;\r\n \r\n        if (!referrer) return;\r\n \r\n        var referrerUrl = new URL(referrer);\r\n        var currentHost = location.hostname.toLowerCase();\r\n        var referrerHost = referrerUrl.hostname.toLowerCase();\r\n \r\n        if (referrerHost === currentHost) return;\r\n \r\n        if (document.cookie.indexOf(\"mnm_original_referrer=\") !== -1) {\r\n          return;\r\n        }\r\n \r\n        document.cookie =\r\n          \"mnm_original_referrer=\" +\r\n          encodeURIComponent(referrer) +\r\n          \"; path=/; max-age=1800; SameSite=Lax; Secure\";\r\n \r\n      } catch (error) {\r\n        // Ignore errors\r\n      }\r\n    })();\r\n</script>\r\n<meta http-equiv=\"refresh\" content=\"360\"></head>\r\n \r\n<body>\r\n \r\n  <div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '8Mhv9eimidZUyd28VWY3Jj0jGcVlwXZiR5xpiq0K1R0-1795057879-1.2.1.1-kVlv9Y8b_HU324zokpHYRuKnPkYMEJqFq5wbaGsLO4Lc19V_GpiLdggKjUjK._aU',cITimeS: '1795057879',cRay: 'a5cc06e3c90fd637',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=YbPyqI6qG1nye9R2vR.FCA6VXGTbwHT1mZZH8C.tDYc-1795057879-1.0.1.1-k4AfBQURUNgVDmI57.DlWaeUeOUbpS84ktgloQIWgqA\",cvId: '3',cZone: 'marketsandmarkets.com',fa:\"/sitemap.xml?__cf_chl_f_tk=YbPyqI6qG1nye9R2vR.FCA6VXGTbwHT1mZZH8C.tDYc-1795057879-1.0.1.1-k4AfBQURUNgVDmI57.DlWaeUeOUbpS84ktgloQIWgqA\",md: 'IhfKYHSScNTEsYU4F2iUYuTwn1saFcSqi5xRDuJOBGY-1795057879-1.2.1.1-m.J9Khbe5KJ27zIenvYlT4taFXLZp4u.9U69vR36ZbB7bXOVgadL_lyIT2T9mBxMEmPyqoUKKgmJpMiYyv_8O_mzJK0.8BHLYsBdb9X9deLTn76Le_9RLwQFft2YjkaL6HV_5B2xmWTShEULGCrFLk67dwBy2JCm0FJapDEfObSo5EBFW5GxMFQquaUHS_oirHD9PnZtSC8hZzWntQbbLAsUWhbhJT22CnnEYdf13aNo2Vrnm6U2Md_0f4zGNyNroUlXLFaSkiCdnM4zHyNFmGMQqD.VWW4DdMqfm_Rs5MvztO4YBT.FNVvG6zIV0OEnVrTda7KI.zLplWzOMGdXqR4hEKpEclLBEog6MQT90izxo1LqY3R.xc0WGxxqU4bVzgNOuVEsxfHK6BirnPFQe42_pgN_nFNqYA6JG0jS6_ZtBzxnQOuiZYqerq3Gn7TeAVOUCIrVvhmkC2mnJZ5EQHZZfU0oTvZEwux1X29aIAbdq9RCjGXttlPwDO1Oe8VEiUdjKRv_WqeHp_6PsqrmUXYlS4jYFaV3tmMvUBKM95k0cYWTkXoJvI3539iWhJEb5pQwWJFlcYWkWE_467uX1rRf.DHcUOyUtk6LB9nlg26j6x89YniIBJ1m5jTQnMQ4BxlnK6PZyeTuykaZgfSVj1vWzYztJq4PuNFZr37Jgk5LnNUvSe6en1IxybxhCwwY.8VvDQCFwtjAw.D4j2XZ6Qj3yvrO20jQjEhigua4dXvRTdWxPRk.iCh7cflm5UeV.MPg6KQwx_b9tM7Xd2E5WJ7l2jtpIMA3tbGnh3eAp0pScOk9n_ZKHynAB6U0WV56YV8ds20NsuzINMa3QM.Kj8LfxJxKy0uj0VLBDji4HUAb.OvlXiMtMBprEhjGxP0jYzWDS5OmNf6A6nH6Hj3KWhbxNihmjgze1prlF1cKuCDIIK9Zm69QIWoeA7ebWhor9oUogPR4CYF0KUTWFoTlhi75hUOXjAg5.Dq01R2HHgDp71RZss9H0MUE6Kkb7kCschiOQY_CnYmXhj4A0GC40aAYwCWBJ4IrPCCdyba4CTm3BWvYmptI8JAm87NVP9vKXArVnu0DpG8gEpMDWtrhoHq04SejxrnW.Ija49qrBYDH1MUZ_ge153L2Hj_ecMuiA5NKNgAYmVm7OlL7TeDB9A',mdrd: 'UEXoe94tmLSDVEHnmPML4RGzc4B0U4VULYYGtK4aFhk-1795057879-1.2.1.1-1Rngf9oxJrw73WyWBcdUcLQzEY0_XbbeWbnr1iXTl6HuM4n3yDlsCxGTbFagZ8xwjlpbfTlKvV3GXVnqzs1Hpilwnxvq4Im2nXhNO8Nh2XSh1ad.eePpizp13p.EoAgT8Yd4_FyhNJluXF5hMjNEuh41ENWyDEmDQA7W5EMw5myKkphfYsAR.j_3kW6uvYj5qXIZYsb0iwZWPixqQ0Jsu3M9fGc0F_agtm_H0JgBbkKQdHLcri2CxJrTSii07XxZJeyH4hzcFIy7lnZpJB8ahhRRp1gIB7Qf3C5on7lUxVCO2Wo7CPhZ7gYk9dj2vjY7pzcUw8CYyiJ2JYvyPkzR7r.GsrohLpvxRv_zKbn4EisOrWuxOCsPNjPttCI7VARqNv46isoP5tQAy4tDZWSnO7tBTe3cX86xPaOfq5C94FI',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc06e3c90fd637';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=YbPyqI6qG1nye9R2vR.FCA6VXGTbwHT1mZZH8C.tDYc-1795057879-1.0.1.1-k4AfBQURUNgVDmI57.DlWaeUeOUbpS84ktgloQIWgqA\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>\r\n \r\n</body>\r\n</html>",
+      "url": "https://marketsandmarkets.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<title>Security Verification - MarketsandMarkets</title>\r\n \r\n  <script>\r\n    (function () {\r\n      try {\r\n        var referrer = document.referrer;\r\n \r\n        if (!referrer) return;\r\n \r\n        var referrerUrl = new URL(referrer);\r\n        var currentHost = location.hostname.toLowerCase();\r\n        var referrerHost = referrerUrl.hostname.toLowerCase();\r\n \r\n        if (referrerHost === currentHost) return;\r\n \r\n        if (document.cookie.indexOf(\"mnm_original_referrer=\") !== -1) {\r\n          return;\r\n        }\r\n \r\n        document.cookie =\r\n          \"mnm_original_referrer=\" +\r\n          encodeURIComponent(referrer) +\r\n          \"; path=/; max-age=1800; SameSite=Lax; Secure\";\r\n \r\n      } catch (error) {\r\n        // Ignore errors\r\n      }\r\n    })();\r\n</script>\r\n<meta http-equiv=\"refresh\" content=\"360\"></head>\r\n \r\n<body>\r\n \r\n  <div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'E1d7K3kvm2kiJzN6e6SpCXWsLi6OjWoELJhQP.aq668-1795057879-1.2.1.1-w09L.O2HI1NziiKHdtlCGRjj4PxBjBBu6xftC_RtsDdwpx_XieJ7eTVIQh18HIFT',cITimeS: '1795057879',cRay: 'a5cc06e50b7826d7',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=Fa8od3TbSM8lCJDv2cnTKLaDFyAgtyms5aWdzGtB.tM-1795057879-1.0.1.1-m03Z1pHcM5kw1KHjXzUNnsFZdE0sTf0eINTzUQ7gzRA\",cvId: '3',cZone: 'marketsandmarkets.com',fa:\"/agents.md?__cf_chl_f_tk=Fa8od3TbSM8lCJDv2cnTKLaDFyAgtyms5aWdzGtB.tM-1795057879-1.0.1.1-m03Z1pHcM5kw1KHjXzUNnsFZdE0sTf0eINTzUQ7gzRA\",md: 'QLEH7f9mQEjK8ViAwww8a2LKoVrlawhZKLhlmOeYoYo-1795057879-1.2.1.1-vdM_4txxxpc8Hk5uMbfwFSbCcKhBBY_JXDw_re6fTDVwvkbZRtJ22.nnE4GtgKdI1Prx.D38EIEOkRWIhH6qcTIOYLIJf.4Y95VSWXuY_drY9p4z.sW.9ZM4BjbXDNsd9kdkta.0jCzRHQV3xh2cT0ABT9CUmuhf_pH5JAiGQ.9k9K35nAjOz.GK1c8ABhnqeCeJWgr2sePDcyKsESfIu6j2nc7RfAPmvJgMF13d3hBJH8..8yDXVL7jNVQlajYXPgOnCRZAXRn_AIVhywuIHuCJ3O2VgUbdg_2KzJIUREoJ3eIq3QMOmlAdAF91f_TNUuV1vg7GfT_VM7JNayYsLOIC04P3dtKJhQiAJhqcE8kJrX22O4fApMSjwj1KGNy8gApE6AxZWTMDrj.9vNsmz5z0s04oNUAJhlmdxPWzfRzqCrsYRs9LgBZV35znzP4V56zHWqiOxfYTgkALpcypwjY1XK.0qVvhcD6TXpyPMkBU5yG.2G95FNhiS_WbhwZXjlTHSkgcZiyO8BEbAdj2F_9GdgOQADQUa_pPxEa5IAGgF7aVFICp5sgrmrBeh92qxlXm1sCuQp_jTfMANZkHQ8fAOZBnrd2SGMPMIg8QXDAHyw2bn0QK.92.8wNDWW6DSP5xbeQaC8bN2veAXSnaFX.KCCAD763Or6qI34DUyo8G8n4Jaj77earaV3xyEOLE.wCsUgag_Z.qHryhd5PS7beC_dM3lJ7aQy.IokvIQUhUJUV6eZWFfq9kSdVrfIooHQKmn9MMOT8AKeD2j06.b.ST0gggEEVz758byWZ9tMmeaTuWmYbDiOb7QTvCAGcoMShSpHNKwOrIgeQkO6Ui51FHfgVbLNl1e2ZuQoyvq.AwSqWhVrnXUgFAxG1_ezX8M0S1_7giBj7iKD3Omr7cxYO9Nadf_Bkli77VeomX.OySoQKEY0ICDQDRKCKlpEq9cvMgzjU.wdk_MdjDObDE9UimUvnULr1rXjNyu_l8jwzayd5n1yzN9ElSE2xXjnufoI.WbgJgsx0qcDbxK34zEjiZ8VnzUlOmZ41_t3e0OE3hJx78ANqtAozISr.GQyrfgy.5Rh.5lyq5RtEyj_TgLRuKQ50W.BQrqN3ohqKbTvw9MGG.TExf9_O0bcD4mn59',mdrd: 'FUX7svL8Aw3mXSq3y0_mfcyWgM_ijriRSh.w5k23SFM-1795057879-1.2.1.1-Q3f_gt3bL_64XfFdSneTn32dPMazeJZFymnhPM6nCaLHpLGcm1NGWpwqgQ5RPU7nHjvKk.KUN783fAWE94SNeo2U6bvAGguXSPU0A0nInxt5c7Amo9bOOPz3ZNO25zAE4nCPUBQ6kTIvnu.oF7Ymq75_IEYztoIXMC44cpckhYSXX6wQRkLhjH1AuAhiuPOi2Jm9L_q2KWSbTP4wvRS6Hi2iI7mZSzutl2St0X7DhX4cv9qDWIZm7nb0Q7e06Ds2_31inDdKjiO31t38wyumdJ5US6bKHgXDse7yPJHolCuZiJrkmgMtMjmINGtW.HlAyHIrHyoAMFfNmUXX65vCsbI9HTFrNFnpzZlyhwjrdTYfFZ6mw.k0QukkGV0w.VGNrQHjfbNynQjHXCy0svFlzwmk.AaPZoBCWWPqqu7A6PA',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc06e50b7826d7';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=Fa8od3TbSM8lCJDv2cnTKLaDFyAgtyms5aWdzGtB.tM-1795057879-1.0.1.1-m03Z1pHcM5kw1KHjXzUNnsFZdE0sTf0eINTzUQ7gzRA\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>\r\n \r\n</body>\r\n</html>",
+      "url": "https://marketsandmarkets.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<title>Security Verification - MarketsandMarkets</title>\r\n \r\n  <script>\r\n    (function () {\r\n      try {\r\n        var referrer = document.referrer;\r\n \r\n        if (!referrer) return;\r\n \r\n        var referrerUrl = new URL(referrer);\r\n        var currentHost = location.hostname.toLowerCase();\r\n        var referrerHost = referrerUrl.hostname.toLowerCase();\r\n \r\n        if (referrerHost === currentHost) return;\r\n \r\n        if (document.cookie.indexOf(\"mnm_original_referrer=\") !== -1) {\r\n          return;\r\n        }\r\n \r\n        document.cookie =\r\n          \"mnm_original_referrer=\" +\r\n          encodeURIComponent(referrer) +\r\n          \"; path=/; max-age=1800; SameSite=Lax; Secure\";\r\n \r\n      } catch (error) {\r\n        // Ignore errors\r\n      }\r\n    })();\r\n</script>\r\n<meta http-equiv=\"refresh\" content=\"360\"></head>\r\n \r\n<body>\r\n \r\n  <div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '47O1JjJ0Qc2vsHW9jgBHbX6faBiPpaNpxajyrCaw75Y-1795057880-1.2.1.1-PXQHZz1Y8a0lSALjfps2O.V0Mt96TSwAO74CAcacU8m70CUNYkvp5cDH.i.MvR1O',cITimeS: '1795057880',cRay: 'a5cc06e8ecc66aed',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/ai.txt?__cf_chl_tk=mkn4ykb4DnJ22lPvXAjrGumU0eMCrWbptknLdOfYo5M-1795057880-1.0.1.1-TRjLSI77JxXJ3QHp8uxDVWRcUS84KUbSIHCnE9s6wIs\",cvId: '3',cZone: 'marketsandmarkets.com',fa:\"/ai.txt?__cf_chl_f_tk=mkn4ykb4DnJ22lPvXAjrGumU0eMCrWbptknLdOfYo5M-1795057880-1.0.1.1-TRjLSI77JxXJ3QHp8uxDVWRcUS84KUbSIHCnE9s6wIs\",md: 'OW8eR7GenAPCXJrwOpd15XIyYgCTgDZJ09R_zOv1SpI-1795057880-1.2.1.1-fkZLA5xtr.8u6u534JNbXrwZibK7zq1P2L0_8ijPC9U.Zo73MB2HbFn7LBzSNm_6ajv8ZhPrcPXnVf1aiEUn7LlKapzzYRrZUQjPQYJZqP9ClcpgqamO3YzexUWySnZcC2f29xA.OQJVaCW95b4yGxvrmmSDyXXYG13eSwI9MxDso1JJHZZ6qZt70C2LQ.1CS8Kj2Uik09w8y2FMtVDCu7yqvhfHouqETPiLMlI0KnAe57RdV35d889v0fTtUd6J3U9EjfSi7NaGko3QDvTDQcTIplui6NW1Xl7.K0SPgg5LnHJJI.oiClFXGDQFm6S5IX6uEhTXSv_NJDdlgl1yxdg76ErdgQZmo9QqocZM.R0wbPxlHZ55G6o4FI3UlZHFgjpL8rMFZMe9FF4bJsFaMgmktYkXvc3eDZzKUVq_o4oZJ0mWjOncAYp2HD3PgkFAimxm3kS7IDaxKuGSuVMIl4ps2sDkO2u1ZcDvfv6AsbI2LpW2eZeSKUVGq.b8qNj9gQRLuiwKbo2Hcl5UWEYX1xS.vx4QGojG360TkNugLvp6qqqfmULtjXdDk3d5ZXjAfkyTENSrpyhzcqRA2XuL_bJI81XJ1.h0ZsJlzeKYU_ystoqRDGTZJ1idV52eHs29ZBGuWvws2eKuxAvt2_x0gyT390ryNp6JfCfNz06tumIOgo69n30Z61hZDaHvr4BarbMZB.qBFJ3Kynz_nndogD3pgUskd1d5krW6c.y_AQAb3Wuf0bgVi53Y4PgSvponUf_68eCOs1dZBR3dBf_681l65aj3ZEVCx_l51XDZriRGFs0RjILZylkw_wKIqRxX8OEQXTfnI4Trz6ASKS669yLd.fB4pErXADZDtuTo_PAOZHccE9aA.V3rhgeh0ipgevH4B8xLY6q1cvzTJrmLODsBJ_I7TguruVOgHz7csNWdzQRFkY1K7Qzt2BaVBwrYcU0R7zzbAA728V6fgz9A_BPdaKd_BLXgE9uSJVoT.YuN5.CFeukswPwmNoIc9IxZL1Rat4eEyK8e6zVGo3mIbw206VJmMtJ9.ehZhFwZovpdvSxPNhe3NaGdBh.RpK1p9gXxyNHSWHs.mM0WEvujECjs4Lo6_4qlGEN_f.b2AJ3rbQDgGt3RnF9OvxQWee0G',mdrd: 'ZgVc4098HWpfB305BZxDoLseFaIqxq5bMW2ZrqVX9Wg-1795057880-1.2.1.1-Bo1GAcxI1E1m3l94YKNGGkQT5PX4l4FXe7tbpis1UnKP3nE0u7YX7Zwr1mV7a4.sQiqkuFn0RFNzB0mT50XTrGdiCuyslAB93jRoOxw0gRxwrrzJHpeTWKCawhhLY4vpgd4Q8prVxaw5Oh1QR5NJtcytAWWzdANKzcie0OsbixanVKxulXok.u4DKz8.SFBRsY3R0ZewQg.HW4oQ4wdtX_KI33kFWIekwrclJHybjttybe09qbs41nHZgoozgQGYLeuknjWkU2llsG08A.tolaDLRaGis0I34Tjpsw5v6W7nJbj1Zc4Y3wurFusnKC5FSTjNekCnLWp9I9UHtmYaiMVmpzbI6lVbF_dEpMUvQH_j_yeucIp7HqhG0GK3VeexMVzgPoGoTo0oUywWfD6j2cDRmvvV2dhfKPeQSVQ0eoo',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc06e8ecc66aed';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=mkn4ykb4DnJ22lPvXAjrGumU0eMCrWbptknLdOfYo5M-1795057880-1.0.1.1-TRjLSI77JxXJ3QHp8uxDVWRcUS84KUbSIHCnE9s6wIs\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>\r\n \r\n</body>\r\n</html>",
+      "url": "https://marketsandmarkets.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "marketsandmarkets.com",
+    "engineVersion": "afr-1.3.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-19T03:11:20.501Z",
+    "score": 0,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 0,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "unknown",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "Failed to fetch robots.txt: HTTP 403"
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

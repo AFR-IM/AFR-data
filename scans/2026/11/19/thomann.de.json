@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "thomann.de",
+    "fetchedAt": "2026-11-19T03:22:57.832Z",
+    "scannerVersion": "scanner-0.1.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: */classified_category*?wghky\nDisallow: */classified_category*&wghky\nDisallow: */classified_search.html\nDisallow: /pics/classified/\nDisallow: /thumb/*/pics/classified/\nDisallow: */basket_add.html\nDisallow: */basket_edit.html\nDisallow: */basket_del.html\nDisallow: /intl/\nDisallow: */cableguy.html\nDisallow: */woodpicker.html\nDisallow: */wishlist.html\nDisallow: /static/wa/*\nDisallow: *?filter=\nDisallow: *&filter=\nDisallow: /casefactory*?*cid=\nDisallow: */prod_cbundle_*.html\nDisallow: */cat_rank.html\nAllow: */classified_category*?pg=\n\nUser-agent: Storebot-Google\nUser-agent: Mediapartners-Google\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile-Apps\nAllow: /intl/\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nSitemap: https://www.thomann.de/sitemap.xml",
+      "url": "https://www.thomann.de/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Thomann Cyberstore - 404 Not Found</title>\n<style>\nbody { background-color: black; color: white; font-family: Tahoma,Arial,Helvetica,sans-serif; }\na { color: white; }\n</style>\n</head>\n\n<body>\n<a href=\"https://www.thomann.de/\"><img src=\"//www.thomann.de/pics/logo-landingpage.png\" alt=\"Thomann\" style=\"border:0\"></a>\n\n<hr>\n\n<h1>404 Not Found</h1>\n\nDie Datei, die Sie angefordert haben, existiert leider nicht (mehr).<p>\n<a href=\"https://www.thomann.de/\">Zur Thomann-Startseite</a>\n\n<p><hr><p>\n\nThe file you have requested does not exist (anymore).\n<p>\n<a href=\"https://www.thomann.de/\">Thomann start page</a>\n\n</body>\n</html>\n",
+      "url": "https://www.thomann.de/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Thomann Cyberstore - 404 Not Found</title>\n<style>\nbody { background-color: black; color: white; font-family: Tahoma,Arial,Helvetica,sans-serif; }\na { color: white; }\n</style>\n</head>\n\n<body>\n<a href=\"https://www.thomann.de/\"><img src=\"//www.thomann.de/pics/logo-landingpage.png\" alt=\"Thomann\" style=\"border:0\"></a>\n\n<hr>\n\n<h1>404 Not Found</h1>\n\nDie Datei, die Sie angefordert haben, existiert leider nicht (mehr).<p>\n<a href=\"https://www.thomann.de/\">Zur Thomann-Startseite</a>\n\n<p><hr><p>\n\nThe file you have requested does not exist (anymore).\n<p>\n<a href=\"https://www.thomann.de/\">Thomann start page</a>\n\n</body>\n</html>\n",
+      "url": "https://www.thomann.de/llms-full.txt"
+    },
+    "homepage": {
+      "status": 429,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-vGWiBDcIk6IPrzBg6UbxzV&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"vGWiBDcIk6IPrzBg6UbxzV\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'Sk3J1xAL79E7s47BTzVFea6urjbmL5YgSwk1Mwj8Aao-1795058575-1.2.1.1-z7ceivzoS_VavTQSQOLvVGl4UYsSz4tYjw6mrVfIRn.44b83yo2sz72oF8zSOZFe',cITimeS: '1795058575',cN: 'vGWiBDcIk6IPrzBg6UbxzV',cRay: 'a5cc17e0ee49f290',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=zI4Ei67C9ZNDxGyrKgV3lFWKih37W_Y09InJgZpQARw-1795058575-1.0.1.1-pFM.1W8KKigEnC2t_QO4NXxF..xq.CJP9oHa_bd2ZRA\",cvId: '3',cZone: 'www.thomann.de',fa:\"/?__cf_chl_f_tk=zI4Ei67C9ZNDxGyrKgV3lFWKih37W_Y09InJgZpQARw-1795058575-1.0.1.1-pFM.1W8KKigEnC2t_QO4NXxF..xq.CJP9oHa_bd2ZRA\",md: 'bNQ8UnY2Wr.CDX6PRR2NCyXjw4HukxiEabzgn23kvdg-1795058575-1.2.1.1-jmLhhLnkp34vgsyifL3S7I9vUxX_5EMv0jtqQ5Lw9gHTxAkjC1xyfeLtI5JqvPeEeMJ6LJnibGLmO9XyodK2NjGreGSvJEShuo_TbxdajjUJ86DMG_WrREIULiHoCw2adcGNm3TvNMjEpYixg500zpleMxDzcrTsd5sy5R7VkfEVJtbZ71s8Nm1CN192fOZZ4TCWgUUZKl5DjgzFki2ExuUvO1qIZuVUIBwyIPuqPPi2ust99y2UPtADnUrL29xpwX1nNpRLMRl.hmYpidpSCwi8Isugcl0aKNIcwOxRDsQo1hz8f_tcTbHba6LIRn8tNqGWwb0IfwZjky4ZEpWOgSGeJCl53RNQ8NHXxsICq2Bnf_ddjSobmQvrCDJnUFtPI5fdzbHnWX9PV0sodUU3gYFXlnS3eF5aeRfSp1qDLbNKjZ8G4Zjtz9MbJxUIHZv4hucdtJj.lZJEWetKFD6Qa67186iVAnW7yleJuHMPslfbjTMvGxBpnH.zR1yhJ298fySqhMIE4eRQQ4.aWuAOf5whjE7YDg8ncrvCbEFTVWkbkGtCvUjouqGmjPySpuc53GKpxBzDoZ5UXXypEn8Q6G8lm6pqtiQYKKOlwwL6aL0V3RO1kaj__IFBrxGaHIz8yRvvEHjhox8OapKilCBj7WGwhcRTdjGskdaABYwd7iZ8p1vXKpj5sSDhv.vtaLNSYFsINuv56rWOQgGUj9OrOs8wmYzoZcbRjyBtlhLkbULbBBcCsLddVagf3VYB1gZL.ZZcIRsIxjvfz8KgpHPdNZE.1X2BcQMT5p2deNiMCqxrMUN0bhasAkksxjOh4hvq1G.uM_byFEKJu_4HVi_eoXKNi5.vKwP39Y_2t8RopJAR6khLyJ39nkQy4PtjzRPsB6s49UsSIVSNC7n.OMFcgRcVsaQ3YEFBXQo6wnQLoHlGZgVpWO6TUw95FgO8ImToivPPxyQ4bJ2.hA7ad_ISmLAquCAIlj3XfSJF_D93kiHWYVQQBsIklLyHYXNvWvCk.Q9zHzA9_uyZ.nWxoLnx5s2UCAFB8Xsf.KjHXg8geDu8CZ69oEgZez4dB7VdddUGSWMZ8SBE4Svk.BBDxhK_FkzRnnObVYHhjb_Wklr2lGWqDeycc9AKnjOKmFxMS5xd',mdrd: '0MBG1GnB7hExwKEE9DTEKIO39owGYL0RMubzUWMZjl4-1795058575-1.2.1.1-m4q3Xy84VXO1gv4GQMq6LB4eAKXP1w08rcnpSH7hgxuWhb1D4Ypd.fb_GkYyGqmvHdctGmheqWRcYAcn8gUOKeuYOSFHfajizR7GdL7d.VQHwLBWm62np2wxuirOs8Pr9slvMrCHLf8O6ZXAsJApj1fxM2o5noBaEtaOMb7LtCujRiaBGlmWJwuo2O_eXsyl.qKE0dlJoZhl9t1lLRSwQryCxnaZ6d85Ja.AVVnvEN7DKyobDaDlzqXX3ytRXMuDX72n4lTxDldswxZikGfPYK5.ylrNV4F4jk3Ik2zogUufNp2tiZs0yIDuN0Y7hchca7OI_NJJnA7DTTk1m2qqtCFO9jm_HcoLdUWRbygZ3JBwLNlc72E.AuBgWiW3kYJVHOL0.CClX__EBSMIQTjSLw',};var a = document.createElement('script');a.nonce = 'vGWiBDcIk6IPrzBg6UbxzV';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc17e0ee49f290';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=zI4Ei67C9ZNDxGyrKgV3lFWKih37W_Y09InJgZpQARw-1795058575-1.0.1.1-pFM.1W8KKigEnC2t_QO4NXxF..xq.CJP9oHa_bd2ZRA\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.thomann.de/"
+    },
+    "sitemap": {
+      "status": 429,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-m9OR3InAnhtp4CMd5gEQOL&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"m9OR3InAnhtp4CMd5gEQOL\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'czHFx152ywd9V1NH1uqazYkEjGAQQk9jpY49vF_fBn4-1795058575-1.2.1.1-3nnSy6tuVnBpTnofJuOiPvmpGQYHdx12LDl7cyGt9Loi_RiqVUYFgY8GO18upoBR',cITimeS: '1795058575',cN: 'm9OR3InAnhtp4CMd5gEQOL',cRay: 'a5cc17e2be3ec95f',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=wkpkMY1peXIRkJSL2feZFmZk3Vp8t9xfXkX_SlOGbps-1795058575-1.0.1.1-7w.HTSQocH0SRh0T05Bx8.M_OPWzzuDDvIogaAI8baA\",cvId: '3',cZone: 'www.thomann.de',fa:\"/sitemap.xml?__cf_chl_f_tk=wkpkMY1peXIRkJSL2feZFmZk3Vp8t9xfXkX_SlOGbps-1795058575-1.0.1.1-7w.HTSQocH0SRh0T05Bx8.M_OPWzzuDDvIogaAI8baA\",md: 'g.FfLvYiQN.XoYWlRyXNJ0RfdRRcsGj6tXpOG59cIZ8-1795058575-1.2.1.1-HiXF3NwG5fZLc.5jBC4zikafP1WY7QcNCNQjKEOSBfNVkRLgePBDEkzS5o.PJBmfCQoAt52ZWpkp8n7HmtlsLy9kHASlJLG.Mrrc9iR4NnDGWicghA2J9ggY7mWb7dDR9m.xj1qgKbcQUMJjSlvmlm7W0z2wZNw880AOo8m9l9I5Cee4HS00CvKbnFCAS10nFN4GKjMlNoik_a1tliiOWqg67PASMEXHWie4qPWNseWC92_EMylPvUfK_ln3ZC.6JBUWygeaRX4R.V5jdfjlz5JnwS7.C6KkMS_WDqqpalvD6_OmYjfJH49AmWUdC6fSazSHn6d7r906hiDUrlI84hvOjqjxvz__JnmOT364xPMAaXuaYAMvHgoxvVequAcGccfT2SBWIE.2rpLpn6zVWGS6BELW9F0V_xDBBf3ljJd2x9HGUAWM2u1mECfc7fEz3bC2iNeRo77yDWYO_6h6z4iH9qFG73_ZkcpSWyid0.Xrs6RHvx336OlJiIr95mifIZURs61E7RvTSCdgp5y5Tc3VwNr1EfouRHeRQX6z4aIHMCO6N588y7OyDw3qgIXLKBmgYeBtNvVH7YFMx7wb.x6S_hg5sax3oBn3KFPihEv8qLAFXUorcdhNhej5kckgRbZGtbX76RGIyJ5AvgDiY5eRUnl1QXc2MBz7q_nFBHJSRtV9tKHNGgJwONfVxKCT5WOKBuGpm6tcB.xAmxwFS9h7tBCVQSEtt86y4cOq0U316_pSqFQO71xMcF.fgqx8sOuBCL2X.Q12Xa35ticCIgYwwSJdQbKbGzD_OqYngJ7N4YJ6tacq0Ji1ms_dA3vIkX45BhdFdbqeeLmoE4R6h6o1Z1ZHfJlfRjuecGbXBh3aMM._UduL_45YJ5Qs3P2tCwMqmQ5SuA3vnG80vIIUFy4ExmUln1kqXedfBsdKSZYdPqxJZs1Img_x8FjWWqoKtsrnIjE3OWVDmOFYDQmH4YXg5KXHt0f6AkPNJRow79Y4ypzhrnMCZvRxpJHAAMVD_jqMAZTlEalWShRom0qhFAT7MVcvPI771Byc44IWmhPQ3TSZ_VbVjqm79bik2Kur073uQ76MlOOgPeHJDZtCVRagHb1_xUUNgQkxQTz.1nxEQ9egtChTlaRCCU5xLfmKy5Vx5p8ViKVsiXYmH8l18g',mdrd: 'ChXOMfXMQlP.DY2fjxVMOQEzdVl4R.Z3AfMHuLN2t9M-1795058575-1.2.1.1-UKezspCmqeyhykdGpAT3ad37V2XpR8IYP6BlNLQb7NteYoB7BzxH4qXNY5rvShAMl1ijn746RDcwKvflJPSlnbZdwtvk3U1lv0itlJzdBZ7MAZk_PK53hQitMK5wZiTA8JeUqeo0WXjbaRBjN6Avn4f_pMwBA7_cMAr7D.a33xbHduMCI5uWW.JBSUb_BTCUV5WuKj_bpmUgAD0Zmtr0Wo2xlXcA8vnoK6CITJzxv2e1HBAKRjJj.bj5oKcoXi0UMiMko8Y947DT43F4xfeAT3uDDmm.XsN9EdA2Maf9109mt.KdDu5ysF3ItgVTWc4DEh.rekrJVIoi8wDgz5a5mhmKFE.9vqhkSW.EgDKtXf.Tp16VlGPtBQNcgSnKjgU4MCkvUtrZJkNWyrCA2vXrXC1_drPX6vZ6h5p9BUXxTOk',};var a = document.createElement('script');a.nonce = 'm9OR3InAnhtp4CMd5gEQOL';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc17e2be3ec95f';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=wkpkMY1peXIRkJSL2feZFmZk3Vp8t9xfXkX_SlOGbps-1795058575-1.0.1.1-7w.HTSQocH0SRh0T05Bx8.M_OPWzzuDDvIogaAI8baA\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.thomann.de/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 429,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-QUxH4Mr5sdRWGPUcha8poo&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"QUxH4Mr5sdRWGPUcha8poo\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'pN55y3V4duNv82x7gYIWsg60nO0JChaJhmF2aMFD3JQ-1795058576-1.2.1.1-UB_6HqMGzWEec7f.qatu.mtyJSQBxtzebXDSmO9ienK07hBXHaySjLTJ0AHpDYBB',cITimeS: '1795058576',cN: 'QUxH4Mr5sdRWGPUcha8poo',cRay: 'a5cc17e49b96c590',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=uCKcsTU9yj8EBjB1meqkwn.I9D62NX9KeWS0hff_xPQ-1795058576-1.0.1.1-310tox1rMmcI8to5UZVdWYidR9i8pwWr5VWABBmSiCk\",cvId: '3',cZone: 'www.thomann.de',fa:\"/agents.md?__cf_chl_f_tk=uCKcsTU9yj8EBjB1meqkwn.I9D62NX9KeWS0hff_xPQ-1795058576-1.0.1.1-310tox1rMmcI8to5UZVdWYidR9i8pwWr5VWABBmSiCk\",md: '.trDkuGqTlgIOO70o8nOPxS5fnF4f_iDSHZE38J7Vvs-1795058576-1.2.1.1-bXfKdyAEVzYtulRtOAUZF7Nf0s1pjvu3wHjrU0JND2TtZcARLxE4A84rJ2WEGg8Xex7nbaYcRSD_AdoSwmttp1_JRCIXenNhHVTEaN1p3cBycrGEyDModVzZSPkcITBPorBazI1XgNdd3xQDY0_NKdBeHZRm6GHSe4o1pDgZa23THK9bWoTSzd_5vbx3_hMMGWJlC7.4p2AmvPXd9_umrTfV6BAsdOqaZ9x09Xz_aNjlywk5N8NRM4Qa2OfdFZa3EXvLW9XtT_O_VjQXg70nR7xwai945SU_9fmCbvAY72Qvf4m6wIn34gAs1UguogvnRMP6eN38ooP4nl0FVeo8z7htBp93FAjV59xXd11v47zOhJUbwHNeVPxn7V4m61ElJ9wLBk8u7GINC4olSqTeV5xta4oh8A3yCet4uriE2qiAlvAYINjEpXAOZUOZCVs88c8jxg.9OT3.52vrjJ5mCnO_SqspMmzpXjCwYSi_DeWXisToFc.Q6DZKQyYj_hue4pusDRWWqfOPEayVhhojBpDMXFDph4HDO_fEKGd7YzA1HqnWcuvkokuTnD1zSiGsFXe6LIHY01dv1XrmRjY0iIDzwChKaeSSTAG4WVzLeP1JetOr9HmpqlBAXqwGX4XaL3wO63bVxJomfR1eSSNiSASMGKwozfEyj0Oc2B63g3beZREB4MXVpJYutRf1I21.8gOdY3nAVDpfNzyD0QcDVmpijy6QACtmaa7V_eI55Wpo1A7YILLZXSspQn3uslFY6lxBVLCntyiuLvNVj5lWqqZ1sKKrSGsFQksciUmo3ee8FYCQq.hFB0IGgOpp_4P0hhX0XfBfuuId_D45BhKkMtUF5QCVJLPFVae5lKMqwGECLdx_n8eXlRVwai9P7rr9jIBUemtifCeLDZFnHLvQC_23sZ6sT_bKNWOscL5j0XeuciZrdTn4D9F4O0BJ246Qdl_ENp.HM3c5wfl.MmNbixGqeeKhvWSaR1ixncfbbUWyb4gXLQewBaJD9cj.p7RfQU95MD17maWsOh.Fu1lsylEX7x1IlcmmD1F_thtXbueSBfN5ev8_N_C89m768H6XJ5LOlvqxDRlzJ1fqrgm0eiuF5CCW.PFNK8rWaWLuhHb9gw5RfPJPp3eiVwypZIgdBo.1V33JRVbieMhxKvuA1g',mdrd: 'yXO6zJe6Y_1.W7HCDzh1xNJES7whM0PoJAAZa98KeEk-1795058576-1.2.1.1-SRZuVIBX9A6cPq6ihcwaeI4VBRN4w93LPitGnGK6X8PJohw98fOQsbYwEe061Zn7sAQtE67PTvl98l23GUC1Pc2UO3H.V_Pvzfs_v4AEP_ZngobQ7TdZbJaeyCPEH6_4TjaqydXbbWPmeBx7Idqnz4HSTdJ_hR2cHLGGBcQUVw5NAcYvLA_P6DKJjw6tbxyq1cHuis5KsWkEmSlQvLlXlhHFOiNEZysXe0sATfHUoGRSx_qC6ZeZCnGwb45jif2sL27zKQ4..HSgvkBCFPDNZ1UNg6QkR5hR2U.Dil6rs1krZxZYaWmahYZzyI._fetq4NUpNboNVBKPC.fCsPZyYVL8TvUlL.EeQoRZDnOtznQ.2KTYRBOf26EpP_.bZMpbdpFy85aXgRAxuTp00sJg1A',};var a = document.createElement('script');a.nonce = 'QUxH4Mr5sdRWGPUcha8poo';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc17e49b96c590';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=uCKcsTU9yj8EBjB1meqkwn.I9D62NX9KeWS0hff_xPQ-1795058576-1.0.1.1-310tox1rMmcI8to5UZVdWYidR9i8pwWr5VWABBmSiCk\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.thomann.de/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 429,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-M1kgoKvtQB27LCNhLQ6XaV&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"M1kgoKvtQB27LCNhLQ6XaV\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'vWHj04b2f3PzMNmnW67271Bg39.95XFzvH_LSNMbaVs-1795058577-1.2.1.1-.HleJQJWCvZ0TPZHNiMOZfPzrI6TVTO3M1mRCgkJ.pWlgKQF4FimLBIBeQT9t07A',cITimeS: '1795058577',cN: 'M1kgoKvtQB27LCNhLQ6XaV',cRay: 'a5cc17eeaf1e82f6',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/ai.txt?__cf_chl_tk=I1So9eIu0lcD6lqLbfHkIikI5WBRws9AqvO0rstviUM-1795058577-1.0.1.1-IlciyZizfQMeEnpoj4lKv4bkZT9Ww21dGdhGVnuY0b0\",cvId: '3',cZone: 'www.thomann.de',fa:\"/ai.txt?__cf_chl_f_tk=I1So9eIu0lcD6lqLbfHkIikI5WBRws9AqvO0rstviUM-1795058577-1.0.1.1-IlciyZizfQMeEnpoj4lKv4bkZT9Ww21dGdhGVnuY0b0\",md: '3k7hpd7Hox1PY26.cCwloVrtYuP7R_qAxAgAsx0ubdM-1795058577-1.2.1.1-BqCrz6q4BLXcz_gRHcp.NEzqQHIjpukdDEAiCN5agMkjTfkTkhB5cYLCtL72vD0yUiRc.lUxgT82rrQEcOb4GXXyKYeTj12oQ4CXhmU3yu_JXtbZFBuBi0K1UX6TEvAULAlWCT18sMRjiFevlqzIKBBPcx5JJWCUL8STdqDXy.bhMvBOumWoUr8yvBuv6kbsVvtoOY_ADtikpoUaxQpZcX2O7vZDwlBjXQCsD_zj71DhJQeiRSwqiSE59UnRJAfdfA3u9nM5j8egdSYr_f8NmL2tK4CsZiaihEmeH6xuyIK7qClfoYcMGQGN4XZojxlOcKWeQQDq8b0zKiHFqgq6_YUjUM0EU6jnz0jhreiIFbtjpD1kOXBu14Ndf4eYkazpC_.3DSUFupptsTxHcDaAyFj1jfUZq2XLUw3o_y9ZlK2paV3UjZdjIntlfHRuC6Jn2jlb7WSesOl1PwvTsasfcLc7IxC9pBB7LgsTcjs2rv51xofaKgHiopJw60IeQPJusiZvluQaxTy5EkndhtrgZXwwBL_oULRZqq4GuQG0XRSQNpiqLJdz0WesRcrDoICDPAWQEnUOUOhkvXzcY0o4PQGDXqB6.w5hcbF7ozkUrK0M8Q_vuHxFeBOFX9czEcUR1R8PR44piYcy_9bl_dGlfuRjnQp_z_jbigGg_LaR76sqkBUs710kI8UaPNeZEwIKfgRFOuopPTd03pDlek9EyajjFuoKwNslwc7iY6zPPqba24rFH_4732oYPWEYf8eRlOZCGgluefeO073.ESh5x_14jcb1730mXFJj9JDqoQmNUeHadMMTs4yMixsrVY3twSQIpnOhYXdn60i376D3Rdqu8IwU5iy0HZTUs9Vm4zrYxGPbsAQ1PH8Pbtkemp6IVETBeWFLAb9JI1TWLWlNwrd25XiF9uuNp4s3MChJE28MKSGfIAq6XbL2fXKCwnk3bv1picaEKAhfk010Y99xJ5EqXhjAnozaGepxs3Bj1CY8SssmNXIc6Wf1UTcLJKyifxYiDbqErp6gOjljNzVPhVrDcZhInkUZdQOr9msdFZmVcu3vF5qjb4SprQVM0nBXQYdNjjMy9.4hm6xlI5KQZ59CCbc7rLRVcYHMSCpOK12TGbxKieo01quWMWrBuQJi79dgFRtjhctFDnKXvqZqDQ',mdrd: '59o3QYHupX5eKT3p.ampHRrErEo3UgueJ8KNYzN0PME-1795058577-1.2.1.1-qZ7jhjnGAFdxsx2R6AvnmeRIPWfF8h4ny6IKn7pv2M2nT_zjxpkfi0kQHr6KH85PPoVFxz3C90SKD8uT9AYqwnKM1O1YKScXNcP5z3G0xuUCsgrr.hybKd5YlvJe7waANdnLDuN2IPsCTcsX12eTPUO3MI4UNQcIoEjvImmvvF2kSbC3N1mzu9wZ9ZG4MLHF2wNh._QTexGjxvUQLqeAuJZFpyA6MnL0Xt7_iEuApGbLF8b4.5OoNb.rlZbtxsos5SVwGWd7byL4sws7hRi1yeYD88ScEcv9I8lE872.bUHEuD_TnOIlB8vuDxL93qzxYpaNNestYCov2KrWRNzu9hIAY.DC3EquqXqEhUSCO4ljOeulwo1cRzm896UHO3NfWyVFun63VAeshsMbWZvD3A',};var a = document.createElement('script');a.nonce = 'M1kgoKvtQB27LCNhLQ6XaV';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5cc17eeaf1e82f6';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=I1So9eIu0lcD6lqLbfHkIikI5WBRws9AqvO0rstviUM-1795058577-1.0.1.1-IlciyZizfQMeEnpoj4lKv4bkZT9Ww21dGdhGVnuY0b0\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.thomann.de/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "thomann.de",
+    "engineVersion": "afr-1.3.0",
+    "scannerVersion": "scanner-0.1.0",
+    "scannedAt": "2026-11-19T03:22:57.832Z",
+    "score": 13,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 11.67,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 11.67,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 4.17/10; strategy tag Middle-Path. Blocked examples: GPTBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 429 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 429, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 429; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 429; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 11.67,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
