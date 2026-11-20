@@ -55,10 +55,10 @@
   },
   "afr": {
     "domain": "cdn-net.com",
-    "engineVersion": "afr-1.2.0",
+    "engineVersion": "afr-1.5.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-17T03:11:32.397Z",
-    "score": 25,
+    "score": 0,
     "grade": "Pending",
     "state": "pending",
     "strategyTag": "Unconfigured",
@@ -66,19 +66,19 @@
       {
         "layer": "L1",
         "name": "Reachability",
-        "awarded": 25,
+        "awarded": 0,
         "max": 35,
         "checks": [
           {
             "id": "l1.robots.ai-policy",
             "layer": "L1",
             "name": "robots.txt AI crawler policy (14 UA families)",
-            "awarded": 25,
+            "awarded": 0,
             "max": 25,
-            "status": "pass",
+            "status": "unknown",
             "evidence": {
               "source": "robots.txt",
-              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+              "detail": "Failed to fetch robots.txt: HTTP 403"
             }
           },
           {
@@ -158,7 +158,7 @@
             "status": "unknown",
             "evidence": {
               "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt unavailable or non-2xx; cannot check Sitemap reference"
             }
           },
           {
@@ -233,7 +233,7 @@
       }
     ],
     "breakdown": {
-      "l1.robots.ai-policy": 25,
+      "l1.robots.ai-policy": 0,
       "l1.no-tech-wall": 0,
       "l1.basic-availability": 0,
       "l2.llms-family": 0,
