@@ -50,17 +50,17 @@
    ]
   },
   "aiFeatures": {
-   "chatWidget": false,
+   "chatWidget": true,
    "aiSearch": false,
    "developerConsole": false
   }
  },
  "afr": {
   "domain": "yahoo.co.jp",
-  "engineVersion": "afr-1.2.0",
+  "engineVersion": "afr-1.5.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T03:07:01.333Z",
-  "score": 53,
+  "score": 57,
   "grade": "C",
   "state": "scored",
   "strategyTag": "Middle-Path",
@@ -180,7 +180,7 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 8,
+    "awarded": 12,
     "max": 25,
     "checks": [
      {
@@ -223,12 +223,12 @@
       "id": "l3.site-ai-features",
       "layer": "L3",
       "name": "In-site AI features",
-      "awarded": 0,
+      "awarded": 4,
       "max": 7,
-      "status": "fail",
+      "status": "partial",
       "evidence": {
        "source": "homepage HTML heuristics",
-       "detail": "no in-site chat/assistant; no AI search; no developer console"
+       "detail": "in-site chat/assistant ✓; no AI search; no developer console"
       }
      }
     ]
@@ -246,7 +246,7 @@
    "l3.public-api": 0,
    "l3.agent-instructions": 2,
    "l3.mcp": 6,
-   "l3.site-ai-features": 0
+   "l3.site-ai-features": 4
   }
  }
 }

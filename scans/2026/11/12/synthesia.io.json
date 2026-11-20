@@ -52,18 +52,18 @@
    "urls": []
   },
   "aiFeatures": {
-   "chatWidget": true,
+   "chatWidget": false,
    "aiSearch": false,
    "developerConsole": true
   }
  },
  "afr": {
   "domain": "synthesia.io",
-  "engineVersion": "afr-1.2.0",
+  "engineVersion": "afr-1.5.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-12T07:41:06.595Z",
-  "score": 60,
-  "grade": "B",
+  "score": 56,
+  "grade": "C",
   "state": "scored",
   "strategyTag": "Unconfigured",
   "layers": [
@@ -182,7 +182,7 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 12,
+    "awarded": 8,
     "max": 25,
     "checks": [
      {
@@ -225,12 +225,12 @@
       "id": "l3.site-ai-features",
       "layer": "L3",
       "name": "In-site AI features",
-      "awarded": 5,
+      "awarded": 1,
       "max": 7,
       "status": "partial",
       "evidence": {
        "source": "homepage HTML heuristics",
-       "detail": "in-site chat/assistant ✓; no AI search; developer console ✓"
+       "detail": "no in-site chat/assistant; no AI search; developer console ✓"
       }
      }
     ]
@@ -248,7 +248,7 @@
    "l3.public-api": 7,
    "l3.agent-instructions": 0,
    "l3.mcp": 0,
-   "l3.site-ai-features": 5
+   "l3.site-ai-features": 1
   }
  }
 }

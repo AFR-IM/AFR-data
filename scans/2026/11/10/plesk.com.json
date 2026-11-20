@@ -51,17 +51,17 @@
    "urls": []
   },
   "aiFeatures": {
-   "chatWidget": true,
+   "chatWidget": false,
    "aiSearch": false,
    "developerConsole": true
   }
  },
  "afr": {
   "domain": "plesk.com",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.5.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-10T11:22:53.545Z",
-  "score": 65,
+  "score": 66,
   "grade": "B",
   "state": "scored",
   "strategyTag": "Unconfigured",
@@ -181,19 +181,19 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 7,
+    "awarded": 8,
     "max": 25,
     "checks": [
      {
       "id": "l3.public-api",
       "layer": "L3",
       "name": "Public API",
-      "awarded": 2,
+      "awarded": 7,
       "max": 8,
       "status": "partial",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs present; homepage has no docs link"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "llms.txt references an API; homepage links API/docs paths; API documentation entry point present; OpenAPI not found"
       }
      },
      {
@@ -202,10 +202,10 @@
       "name": "Agent instructions",
       "awarded": 0,
       "max": 4,
-      "status": "unknown",
+      "status": "fail",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md HTTP 404; ai.txt not probed; homepage has no AI info page link"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md HTTP 404; llms.txt has no agent policy section"
       }
      },
      {
@@ -224,12 +224,12 @@
       "id": "l3.site-ai-features",
       "layer": "L3",
       "name": "In-site AI features",
-      "awarded": 5,
+      "awarded": 1,
       "max": 7,
       "status": "partial",
       "evidence": {
        "source": "homepage HTML heuristics",
-       "detail": "in-site chat/assistant ✓; no AI search; developer console ✓"
+       "detail": "no in-site chat/assistant; no AI search; developer console ✓"
       }
      }
     ]
@@ -244,10 +244,10 @@
    "l2.semantic-html": 8,
    "l2.sitemap": 4,
    "l2.content-signals": 6,
-   "l3.public-api": 2,
+   "l3.public-api": 7,
    "l3.agent-instructions": 0,
    "l3.mcp": 0,
-   "l3.site-ai-features": 5
+   "l3.site-ai-features": 1
   }
  }
 }

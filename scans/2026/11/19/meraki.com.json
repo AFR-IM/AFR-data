@@ -45,18 +45,18 @@
       "error": "timeout: This operation was aborted"
     },
     "aiFeatures": {
-      "chatWidget": false,
+      "chatWidget": true,
       "aiSearch": false,
       "developerConsole": true
     }
   },
   "afr": {
     "domain": "meraki.com",
-    "engineVersion": "afr-1.3.0",
+    "engineVersion": "afr-1.5.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-19T07:44:46.883Z",
-    "score": 22,
-    "grade": "F",
+    "score": 26,
+    "grade": "D",
     "state": "scored",
     "strategyTag": "Unconfigured",
     "layers": [
@@ -155,7 +155,7 @@
             "status": "unknown",
             "evidence": {
               "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 401; robots.txt does not reference a Sitemap"
+              "detail": "GET /sitemap.xml → HTTP 401; robots.txt unavailable or non-2xx; cannot check Sitemap reference"
             }
           },
           {
@@ -175,7 +175,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 1,
+        "awarded": 5,
         "max": 25,
         "checks": [
           {
@@ -218,12 +218,12 @@
             "id": "l3.site-ai-features",
             "layer": "L3",
             "name": "In-site AI features",
-            "awarded": 1,
+            "awarded": 5,
             "max": 7,
             "status": "partial",
             "evidence": {
               "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; developer console ✓"
+              "detail": "in-site chat/assistant ✓; no AI search; developer console ✓"
             }
           }
         ]
@@ -241,7 +241,7 @@
       "l3.public-api": 0,
       "l3.agent-instructions": 0,
       "l3.mcp": 0,
-      "l3.site-ai-features": 1
+      "l3.site-ai-features": 5
     }
   }
 }

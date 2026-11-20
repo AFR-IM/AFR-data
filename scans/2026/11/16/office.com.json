@@ -55,18 +55,18 @@
       "url": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=639304019792950543.ODIyNzZhNmQtNTY5My00ODdmLWE4ODgtNzE2ZGE0Y2Q2NThiMmY0Njk4OTItZTg3ZS00MTYyLWE4OGMtN2M5Nzg0ZGYxYTY1&ui_locales=en&mkt=en&client-request-id=46f27aa9-8581-41b2-bdac-c67db76dd15e&siwa=1&siwg=1&state=GNebVB3JBmsorAzSb_Phk5VuciejyyBUN2Mi8zbK730h-Lxy6Xc5OP9xRdAhBfWrUKUMg9DH9TJUP4w5GAf6qTWTP1yWgCXi8rZMIArroVOQdw-udjpmXMj8RSCgASnfbSsQMm4E5s06IvLie7SiE24ZOyvurUaa1Acj_dyECBCgAYiDwt6E4EPxlCKD8kf1Jk6VU0c7iFqjZv2nI9mV_QsSt9mE9BH0J_ptqxKxyhrRbQTKj4Ng7S2SYOuuqqNSwdaD9yNc7jNjFvtWK5V74Mp4mriOm4_i0xjXO8MkTBcdZe61fVHskpPC_NRS_dpBenJ4Ksxspzz4oWt17k00QchqB0YuVM2rY8_LWCl5rcpNndrNjjvgxvSaqvsogJ36lOoohKhkYN1BZcypDNARGD3-k4lWznJt_wODYyRucTFUg9EevB-NK_lwNlaHMcoglmpISq3ukLa90QLR06YVePVo81X_EPNBwfZzB7H4g4x8LKBUxNyZ8Ga0LJfxB0NE33Zi1883_tgA2do66-WN0Q&x-client-SKU=ID_NET8_0&x-client-ver=8.16.0.0"
     },
     "aiFeatures": {
-      "chatWidget": false,
+      "chatWidget": true,
       "aiSearch": false,
       "developerConsole": false
     }
   },
   "afr": {
     "domain": "office.com",
-    "engineVersion": "afr-1.2.0",
+    "engineVersion": "afr-1.5.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-16T04:59:39.374Z",
-    "score": 72,
-    "grade": "B",
+    "score": 76,
+    "grade": "A",
     "state": "scored",
     "strategyTag": "Unconfigured",
     "layers": [
@@ -185,7 +185,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 13,
+        "awarded": 17,
         "max": 25,
         "checks": [
           {
@@ -228,12 +228,12 @@
             "id": "l3.site-ai-features",
             "layer": "L3",
             "name": "In-site AI features",
-            "awarded": 0,
+            "awarded": 4,
             "max": 7,
-            "status": "fail",
+            "status": "partial",
             "evidence": {
               "source": "homepage HTML heuristics",
-              "detail": "no in-site chat/assistant; no AI search; no developer console"
+              "detail": "in-site chat/assistant ✓; no AI search; no developer console"
             }
           }
         ]
@@ -251,7 +251,7 @@
       "l3.public-api": 5,
       "l3.agent-instructions": 2,
       "l3.mcp": 6,
-      "l3.site-ai-features": 0
+      "l3.site-ai-features": 4
     }
   }
 }

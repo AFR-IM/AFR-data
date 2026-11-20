@@ -51,17 +51,17 @@
       "url": "https://mponline.gov.in/ai.txt"
     },
     "aiFeatures": {
-      "chatWidget": true,
+      "chatWidget": false,
       "aiSearch": false,
       "developerConsole": false
     }
   },
   "afr": {
     "domain": "mponline.gov.in",
-    "engineVersion": "afr-1.2.0",
+    "engineVersion": "afr-1.5.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-17T03:00:11.504Z",
-    "score": 21,
+    "score": 17,
     "grade": "F",
     "state": "scored",
     "strategyTag": "Unconfigured",
@@ -161,7 +161,7 @@
             "status": "unknown",
             "evidence": {
               "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 403; robots.txt unavailable; cannot check Sitemap reference"
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt unavailable or non-2xx; cannot check Sitemap reference"
             }
           },
           {
@@ -181,7 +181,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 4,
+        "awarded": 0,
         "max": 25,
         "checks": [
           {
@@ -224,12 +224,12 @@
             "id": "l3.site-ai-features",
             "layer": "L3",
             "name": "In-site AI features",
-            "awarded": 4,
+            "awarded": 0,
             "max": 7,
-            "status": "partial",
+            "status": "fail",
             "evidence": {
               "source": "homepage HTML heuristics",
-              "detail": "in-site chat/assistant ✓; no AI search; no developer console"
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
             }
           }
         ]
@@ -247,7 +247,7 @@
       "l3.public-api": 0,
       "l3.agent-instructions": 0,
       "l3.mcp": 0,
-      "l3.site-ai-features": 4
+      "l3.site-ai-features": 0
     }
   }
 }

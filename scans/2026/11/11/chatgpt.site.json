@@ -52,17 +52,17 @@
    ]
   },
   "aiFeatures": {
-   "chatWidget": false,
-   "aiSearch": true,
+   "chatWidget": true,
+   "aiSearch": false,
    "developerConsole": true
   }
  },
  "afr": {
   "domain": "chatgpt.site",
-  "engineVersion": "afr-1.2.0",
+  "engineVersion": "afr-1.5.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-11T03:00:52.977Z",
-  "score": 68,
+  "score": 70,
   "grade": "B",
   "state": "scored",
   "strategyTag": "Unconfigured",
@@ -182,7 +182,7 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 20,
+    "awarded": 22,
     "max": 25,
     "checks": [
      {
@@ -225,12 +225,12 @@
       "id": "l3.site-ai-features",
       "layer": "L3",
       "name": "In-site AI features",
-      "awarded": 3,
+      "awarded": 5,
       "max": 7,
       "status": "partial",
       "evidence": {
        "source": "homepage HTML heuristics",
-       "detail": "no in-site chat/assistant; AI search ✓; developer console ✓"
+       "detail": "in-site chat/assistant ✓; no AI search; developer console ✓"
       }
      }
     ]
@@ -248,7 +248,7 @@
    "l3.public-api": 7,
    "l3.agent-instructions": 4,
    "l3.mcp": 6,
-   "l3.site-ai-features": 3
+   "l3.site-ai-features": 5
   }
  }
 }

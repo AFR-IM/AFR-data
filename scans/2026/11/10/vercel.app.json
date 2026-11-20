@@ -54,18 +54,18 @@
    ]
   },
   "aiFeatures": {
-   "chatWidget": false,
+   "chatWidget": true,
    "aiSearch": true,
    "developerConsole": false
   }
  },
  "afr": {
   "domain": "vercel.app",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.5.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-10T11:36:49.059Z",
-  "score": 72,
-  "grade": "B",
+  "score": 80,
+  "grade": "A",
   "state": "scored",
   "strategyTag": "Unconfigured",
   "layers": [
@@ -184,31 +184,31 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 15,
+    "awarded": 23,
     "max": 25,
     "checks": [
      {
       "id": "l3.public-api",
       "layer": "L3",
       "name": "Public API",
-      "awarded": 4,
+      "awarded": 7,
       "max": 8,
       "status": "partial",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs present; homepage links to docs/developer pages"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "llms.txt references an API; homepage links API/docs paths; API documentation entry point present; OpenAPI not found"
       }
      },
      {
       "id": "l3.agent-instructions",
       "layer": "L3",
       "name": "Agent instructions",
-      "awarded": 3,
+      "awarded": 4,
       "max": 4,
-      "status": "partial",
+      "status": "pass",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md fetchable; ai.txt not probed; homepage links to AI/Agent info page"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md reachable (2xx); llms.txt declares an agent policy section"
       }
      },
      {
@@ -227,12 +227,12 @@
       "id": "l3.site-ai-features",
       "layer": "L3",
       "name": "In-site AI features",
-      "awarded": 2,
+      "awarded": 6,
       "max": 7,
       "status": "partial",
       "evidence": {
        "source": "homepage HTML heuristics",
-       "detail": "no in-site chat/assistant; AI search ✓; no developer console"
+       "detail": "in-site chat/assistant ✓; AI search ✓; no developer console"
       }
      }
     ]
@@ -247,10 +247,10 @@
    "l2.semantic-html": 8,
    "l2.sitemap": 2,
    "l2.content-signals": 4,
-   "l3.public-api": 4,
-   "l3.agent-instructions": 3,
+   "l3.public-api": 7,
+   "l3.agent-instructions": 4,
    "l3.mcp": 6,
-   "l3.site-ai-features": 2
+   "l3.site-ai-features": 6
   }
  }
 }

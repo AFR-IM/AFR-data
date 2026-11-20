@@ -54,16 +54,16 @@
     },
     "aiFeatures": {
       "chatWidget": true,
-      "aiSearch": true,
+      "aiSearch": false,
       "developerConsole": false
     }
   },
   "afr": {
     "domain": "botslab.com",
-    "engineVersion": "afr-1.3.0",
+    "engineVersion": "afr-1.5.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-19T03:07:34.736Z",
-    "score": 69,
+    "score": 67,
     "grade": "B",
     "state": "scored",
     "strategyTag": "Unconfigured",
@@ -183,7 +183,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 17,
+        "awarded": 15,
         "max": 25,
         "checks": [
           {
@@ -226,12 +226,12 @@
             "id": "l3.site-ai-features",
             "layer": "L3",
             "name": "In-site AI features",
-            "awarded": 6,
+            "awarded": 4,
             "max": 7,
             "status": "partial",
             "evidence": {
               "source": "homepage HTML heuristics",
-              "detail": "in-site chat/assistant ✓; AI search ✓; no developer console"
+              "detail": "in-site chat/assistant ✓; no AI search; no developer console"
             }
           }
         ]
@@ -249,7 +249,7 @@
       "l3.public-api": 7,
       "l3.agent-instructions": 4,
       "l3.mcp": 0,
-      "l3.site-ai-features": 6
+      "l3.site-ai-features": 4
     }
   }
 }

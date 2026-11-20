@@ -43,17 +43,17 @@
       "error": "timeout: This operation was aborted"
     },
     "aiFeatures": {
-      "chatWidget": true,
+      "chatWidget": false,
       "aiSearch": false,
       "developerConsole": false
     }
   },
   "afr": {
     "domain": "dianomi.com",
-    "engineVersion": "afr-1.2.0",
+    "engineVersion": "afr-1.5.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-17T03:04:03.546Z",
-    "score": 46,
+    "score": 42,
     "grade": "C",
     "state": "scored",
     "strategyTag": "Unconfigured",
@@ -173,7 +173,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 4,
+        "awarded": 0,
         "max": 25,
         "checks": [
           {
@@ -216,12 +216,12 @@
             "id": "l3.site-ai-features",
             "layer": "L3",
             "name": "In-site AI features",
-            "awarded": 4,
+            "awarded": 0,
             "max": 7,
-            "status": "partial",
+            "status": "fail",
             "evidence": {
               "source": "homepage HTML heuristics",
-              "detail": "in-site chat/assistant ✓; no AI search; no developer console"
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
             }
           }
         ]
@@ -239,7 +239,7 @@
       "l3.public-api": 0,
       "l3.agent-instructions": 0,
       "l3.mcp": 0,
-      "l3.site-ai-features": 4
+      "l3.site-ai-features": 0
     }
   }
 }

@@ -42,37 +42,37 @@
    "urls": []
   },
   "aiFeatures": {
-   "chatWidget": false,
+   "chatWidget": true,
    "aiSearch": false,
    "developerConsole": true
   }
  },
  "afr": {
   "domain": "meraki.com",
-  "engineVersion": "afr-1.1.0",
+  "engineVersion": "afr-1.5.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-10T11:12:58.643Z",
-  "score": 47,
-  "grade": "C",
+  "score": 26,
+  "grade": "D",
   "state": "scored",
   "strategyTag": "Unconfigured",
   "layers": [
    {
     "layer": "L1",
     "name": "Reachability",
-    "awarded": 35,
+    "awarded": 10,
     "max": 35,
     "checks": [
      {
       "id": "l1.robots.ai-policy",
       "layer": "L1",
       "name": "robots.txt AI crawler policy (14 UA families)",
-      "awarded": 25,
+      "awarded": 0,
       "max": 25,
-      "status": "pass",
+      "status": "unknown",
       "evidence": {
        "source": "robots.txt",
-       "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+       "detail": "Failed to fetch robots.txt: HTTP 401"
       }
      },
      {
@@ -152,7 +152,7 @@
       "status": "unknown",
       "evidence": {
        "source": "GET /sitemap.xml + robots.txt",
-       "detail": "GET /sitemap.xml → HTTP 401; robots.txt does not reference a Sitemap"
+       "detail": "GET /sitemap.xml → HTTP 401; robots.txt unavailable or non-2xx; cannot check Sitemap reference"
       }
      },
      {
@@ -172,7 +172,7 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 1,
+    "awarded": 5,
     "max": 25,
     "checks": [
      {
@@ -183,8 +183,8 @@
       "max": 8,
       "status": "fail",
       "evidence": {
-       "source": "openapi probe + homepage HTML",
-       "detail": "OpenAPI not found; API docs not found; homepage has no docs link"
+       "source": "llms.txt + homepage HTML + OpenAPI probe",
+       "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
       }
      },
      {
@@ -195,8 +195,8 @@
       "max": 4,
       "status": "unknown",
       "evidence": {
-       "source": "GET /agents.md, /ai.txt + homepage HTML",
-       "detail": "agents.md not probed; ai.txt not probed; homepage has no AI info page link"
+       "source": "GET /agents.md + /llms.txt",
+       "detail": "agents.md not probed; llms.txt HTTP undefined"
       }
      },
      {
@@ -215,19 +215,19 @@
       "id": "l3.site-ai-features",
       "layer": "L3",
       "name": "In-site AI features",
-      "awarded": 1,
+      "awarded": 5,
       "max": 7,
       "status": "partial",
       "evidence": {
        "source": "homepage HTML heuristics",
-       "detail": "no in-site chat/assistant; no AI search; developer console ✓"
+       "detail": "in-site chat/assistant ✓; no AI search; developer console ✓"
       }
      }
     ]
    }
   ],
   "breakdown": {
-   "l1.robots.ai-policy": 25,
+   "l1.robots.ai-policy": 0,
    "l1.no-tech-wall": 5,
    "l1.basic-availability": 5,
    "l2.llms-family": 0,
@@ -238,7 +238,7 @@
    "l3.public-api": 0,
    "l3.agent-instructions": 0,
    "l3.mcp": 0,
-   "l3.site-ai-features": 1
+   "l3.site-ai-features": 5
   }
  }
 }

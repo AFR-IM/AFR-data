@@ -61,17 +61,17 @@
       "url": "https://afr.im/ai.txt"
     },
     "aiFeatures": {
-      "chatWidget": true,
+      "chatWidget": false,
       "aiSearch": false,
       "developerConsole": false
     }
   },
   "afr": {
     "domain": "afr.im",
-    "engineVersion": "afr-1.4.0",
+    "engineVersion": "afr-1.5.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-20T11:49:30.020Z",
-    "score": 97,
+    "score": 93,
     "grade": "A",
     "state": "scored",
     "strategyTag": "AI-Open",
@@ -191,7 +191,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 22,
+        "awarded": 18,
         "max": 25,
         "checks": [
           {
@@ -234,12 +234,12 @@
             "id": "l3.site-ai-features",
             "layer": "L3",
             "name": "In-site AI features",
-            "awarded": 4,
+            "awarded": 0,
             "max": 7,
-            "status": "partial",
+            "status": "fail",
             "evidence": {
               "source": "homepage HTML heuristics",
-              "detail": "in-site chat/assistant ✓; no AI search; no developer console"
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
             }
           }
         ]
@@ -257,7 +257,7 @@
       "l3.public-api": 8,
       "l3.agent-instructions": 4,
       "l3.mcp": 6,
-      "l3.site-ai-features": 4
+      "l3.site-ai-features": 0
     }
   }
 }

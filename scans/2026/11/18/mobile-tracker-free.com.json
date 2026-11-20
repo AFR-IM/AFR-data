@@ -53,17 +53,17 @@
       "url": "https://mobile-tracker-free.com/ai.txt"
     },
     "aiFeatures": {
-      "chatWidget": true,
+      "chatWidget": false,
       "aiSearch": false,
       "developerConsole": false
     }
   },
   "afr": {
     "domain": "mobile-tracker-free.com",
-    "engineVersion": "afr-1.2.0",
+    "engineVersion": "afr-1.5.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-18T03:25:00.017Z",
-    "score": 53,
+    "score": 48,
     "grade": "C",
     "state": "scored",
     "strategyTag": "Unconfigured",
@@ -115,7 +115,7 @@
       {
         "layer": "L2",
         "name": "Legibility",
-        "awarded": 14.25,
+        "awarded": 13.25,
         "max": 40,
         "checks": [
           {
@@ -158,12 +158,12 @@
             "id": "l2.sitemap",
             "layer": "L2",
             "name": "Sitemap",
-            "awarded": 4,
+            "awarded": 3,
             "max": 4,
-            "status": "pass",
+            "status": "partial",
             "evidence": {
               "source": "GET /sitemap.xml + robots.txt",
-              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt unavailable or non-2xx; cannot check Sitemap reference; sitemap contains this site's URL"
             }
           },
           {
@@ -183,7 +183,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 4,
+        "awarded": 0,
         "max": 25,
         "checks": [
           {
@@ -226,12 +226,12 @@
             "id": "l3.site-ai-features",
             "layer": "L3",
             "name": "In-site AI features",
-            "awarded": 4,
+            "awarded": 0,
             "max": 7,
-            "status": "partial",
+            "status": "fail",
             "evidence": {
               "source": "homepage HTML heuristics",
-              "detail": "in-site chat/assistant ✓; no AI search; no developer console"
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
             }
           }
         ]
@@ -244,12 +244,12 @@
       "l2.llms-family": 0,
       "l2.structured-data": 0,
       "l2.semantic-html": 6.25,
-      "l2.sitemap": 4,
+      "l2.sitemap": 3,
       "l2.content-signals": 4,
       "l3.public-api": 0,
       "l3.agent-instructions": 0,
       "l3.mcp": 0,
-      "l3.site-ai-features": 4
+      "l3.site-ai-features": 0
     }
   }
 }
