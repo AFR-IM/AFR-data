@@ -21,7 +21,9 @@
     "homepage": {
       "status": 200,
       "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>idp-state-frame</title>\n        <style>body { text-align: center; padding: 80px; }</style>\n        <script type=\"text/javascript\" src=\"/api/state.js\"></script>\n        <script type=\"text/javascript\">\n            (function() { new IdPState().payload(); })();\n        </script>\n    </head>\n    <body id=\"idp-state-frame-body\" style=\"display: none;\">\n        <h1>¯\\_(ツ)_/¯</h1>\n        <h2>Что-то пошло не так</h2>\n        <p>Вы попали на техническую страницу. Пожалуйста, попросите администратора приложения или владельца сайта исправить обработку фреймов и не открывать их в отдельном окне.</p>\n    </body>\n</html>",
-      "url": "https://id.prosv.ru/api/state.html?expect=state&return=https%3A%2F%2Fprosv.ru%2F&parameter=_idp_state"
+      "url": "https://id.prosv.ru/api/state.html?expect=state&return=https%3A%2F%2Fprosv.ru%2F&parameter=_idp_state",
+      "title": "idp-state-frame",
+      "lang": "ru"
     },
     "sitemap": {
       "status": 200,

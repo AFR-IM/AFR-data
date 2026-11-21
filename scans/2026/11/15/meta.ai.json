@@ -21,7 +21,8 @@
     "homepage": {
       "status": 403,
       "body": "<!DOCTYPE html>\n<html>\n<head>\n<title>Meta AI</title>\n</head>\n<body>\n<script>\n\n(function() {\n  if (document.readyState !== 'loading') {\n    executeChallenge();\n  } else {\n    document.addEventListener('DOMContentLoaded', executeChallenge);\n  }\n  function executeChallenge() {\n    fetch('/__rd_verify_Q_6hBQT4dqusZNDTOVYQNORy5Nwzfz_EHSV0JczgoL3X-Cxunw?challenge=3', {\n      method: 'POST',\n    })\n    .finally(() => window.location.reload());\n  }\n})();\n\n</script>\n</body>\n</html>\n",
-      "url": "https://meta.ai/"
+      "url": "https://meta.ai/",
+      "title": "Meta AI"
     },
     "sitemap": {
       "status": 200,

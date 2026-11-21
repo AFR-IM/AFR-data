@@ -21,7 +21,11 @@
   "homepage": {
    "status": 200,
    "body": "<!DOCTYPE HTML>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n\n<title>News from the Vatican - News about the Church - Vatican News</title>\n<meta name=\"description\"  content=\"Visit Vatican News for all the latest updates on Pope Francis, the Holy See and the Church in the World\"/>\n<link rel=\"canonical\" href=\"https://www.vaticannews.va/en.html\"/>\n\n</head>\n<body onload=\"checkCookie()\"><a href=\"https://www.vaticannews.va/cdn-cgi/content?id=lxUbjj_vC0Zwf6Ka5vJ3oCqFFr.MMyxzcvbqnyDRGU4-1794540772.9326146-1.2.1.1-ZwNssGcy_XrAcSCVX1bSZWCMjgDYQHqAd1ObzoYR1Kn90Mi_Wqs26kLay2bq_opA\" aria-hidden=\"true\" rel=\"nofollow noopener\" style=\"display: none !important; visibility: hidden !important\"></a>\n    <div>\n\n        <script>\n        function getCookie(cname) {\n          let name = cname + \"=\";\n          let decodedCookie = decodeURIComponent(document.cookie);\n          let ca = decodedCookie.split(';');\n          for(let i = 0; i < ca.length; i++) {\n            let c = ca[i];\n            while (c.charAt(0) == ' ') {\n              c = c.substring(1);\n            }\n            if (c.indexOf(name) == 0) {\n              return c.substring(name.length, c.length);\n            }\n          }\n          return \"\";\n        }\n\n        function checkCookie() {\n          let lang = getCookie(\"vn_lang_choosen\");\n          if (lang != \"\") {\n            location.href=\"/\"+lang+\".html\";\n          } else {\n            location.href=\"/en.html\";\n          }\n        }\n        </script>\n\n        <a href=\"/en.html\"></a>\n\n    </div>\n</body>\n</html>\n",
-   "url": "https://www.vaticannews.va/"
+   "url": "https://www.vaticannews.va/",
+   "title": "News from the Vatican - News about the Church - Vatican News",
+   "meta": {
+    "description": "Visit Vatican News for all the latest updates on Pope Francis, the Holy See and the Church in the World"
+   }
   },
   "sitemap": {
    "status": 200,
