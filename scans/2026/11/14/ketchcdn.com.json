@@ -5,32 +5,26 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 200,
-      "body": "# Block ALL bots by default\nUser-agent: *\nDisallow: /\nCrawl-delay: 86400\n\n# Traditional Search Engines (explicitly blocked)\nUser-agent: bingbot\nUser-agent: Baiduspider\nUser-agent: YandexBot\nUser-agent: Slurp\nDisallow: /\n\n# AI/LLM Crawlers (blocked)\nUser-agent: GPTBot\nUser-agent: ChatGPT-User\nUser-agent: ChatGPT-User/2.0\nUser-agent: OAI-SearchBot\nUser-agent: CCBot\nUser-agent: anthropic-ai\nUser-agent: ClaudeBot\nUser-agent: claude-web\nUser-agent: PerplexityBot\nUser-agent: Perplexity-User\nUser-agent: MistralAI-User\nUser-agent: Google-Extended\nUser-agent: Amazonbot\nUser-agent: Applebot-Extended\nUser-agent: cohere-ai\nUser-agent: Diffbot\nUser-agent: omgili\nUser-agent: YouBot\nUser-agent: Bytespider\nDisallow: /\n\n# SEO/Marketing Crawlers (blocked)\nUser-agent: AhrefsBot\nUser-agent: SemrushBot\nUser-agent: MJ12bot\nUser-agent: DotBot\nUser-agent: PetalBot\nUser-agent: BLEXBot\nUser-agent: DataForSeoBot\nDisallow: /\n\n# Common Scrapers (blocked)\nUser-agent: HTTrack\nUser-agent: wget\nUser-agent: curl\nUser-agent: WebCopier\nUser-agent: WebZIP\nUser-agent: Teleport\nUser-agent: WebReaper\nUser-agent: WebSauger\nUser-agent: WebStripper\nUser-agent: WebSucker\nUser-agent: WebWhacker\nUser-agent: emailcollector\nUser-agent: emailsiphon\nUser-agent: emailwolf\nDisallow: /\n\n# Security Scanners (blocked)\nUser-agent: Nmap\nUser-agent: Nikto\nUser-agent: sqlmap\nUser-agent: masscan\nUser-agent: ZmEu\nUser-agent: Acunetix\nUser-agent: Nessus\nUser-agent: OpenVAS\nDisallow: /\n",
       "url": "https://ketchcdn.com/robots.txt"
     },
     "llms": {
       "status": 404,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>llms.txt</Key><RequestId>0E5DTDAWSGQRPKKS</RequestId><HostId>TIIefCKuoGb1GA7Hpd9x9w4x7UEDOoeFOL2QRe6qhafm+Y709qbvEsLqN46zl93a4tNSIBOaPWN9awWprK4P/4JLTWOStMUp</HostId></Error>",
       "url": "https://ketchcdn.com/llms.txt"
     },
     "llmsFull": {
       "status": 404,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>llms-full.txt</Key><RequestId>GQC456X0ZPACZKSV</RequestId><HostId>2/Ii/10x+YNH12r9sQtOQ+nU6AD1penhhXxVVnTBGlOGzG9syJl22MzjdWfmlYmUh8+6nU6jJYcO8raJBEfsRMU5gmtDCxQn</HostId></Error>",
       "url": "https://ketchcdn.com/llms-full.txt"
     },
     "homepage": {
       "status": 200,
-      "body": "OK",
       "url": "https://ketchcdn.com/"
     },
     "sitemap": {
       "status": 404,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>sitemap.xml</Key><RequestId>BWTX34SJQDE3W5SG</RequestId><HostId>Ga4GZqCjyCkwwelTdw7WAPh1rsPci8eEY3dT8r6CjkLiQu0We7IALgyoSd35hbXQAOmTMqsTDZAv7GsGRI2cMMEImUBs+8/z</HostId></Error>",
       "url": "https://ketchcdn.com/sitemap.xml"
     },
     "agentsMd": {
       "status": 404,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>AGENTS.md</Key><RequestId>AZX57MW3B483S60X</RequestId><HostId>ENupT57aLWO+Dt6gMrAxHOVGp7nYmLuvXWIE3o++61y57ENCGqt6uIE2hJVmG4vrL/sKkQpR6X5okTGao7F5CUCUGZnMdqLj</HostId></Error>",
       "url": "https://ketchcdn.com/AGENTS.md"
     },
     "openapi": {
@@ -49,7 +43,6 @@
     },
     "aiTxt": {
       "status": 404,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>ai.txt</Key><RequestId>92XMPNFNKEJQ1XBS</RequestId><HostId>VGOVYlKnTpUt3nzH+oTiQuL+l3ebblsuErYaV66NSYGAqIiVFpJW2Z/85/xYr1tGN62i1Cdh8I/F+swXSy/v+H7/ufqmtTxt</HostId></Error>",
       "url": "https://ketchcdn.com/ai.txt"
     },
     "aiFeatures": {

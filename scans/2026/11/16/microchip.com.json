@@ -5,35 +5,29 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 200,
-      "body": "User-agent: *\r\nDisallow: /en-us/search*\r\nDisallow: /forums/*\r\nDisallow: *magellan*\r\nDisallow: /wwwproducts/devtool/mouser/*\r\nDisallow: /wwwproducts/devtool/digikey/*\r\nDisallow: /wwwproducts/DevTool/digikey/*\r\nDisallow: /wwwproducts/DevTool/mouser/*\r\nDisallow: /development-tools-tools-and-software/devtoolselector/digikey/*\r\nDisallow: /development-tools-tools-and-software/devtoolselector/mouser/*\r\nDisallow: /sitesearch/*\r\nDisallow: /product-change-notifications/Data/*\r\nDisallow: /mymicrochip/Data/*\r\nDisallow: /en-us/about/corporate-responsibility/our-products/product-material-compliance.*\r\nDisallow: /treelinktool/Treelink%20Selection%20Tool*\r\n\r\n\r\nUser-agent: DuckDuckBot\r\nDisallow: /en-us/search*\r\nDisallow: /forums/*\r\nDisallow: *magellan*\r\nDisallow: /wwwproducts/devtool/mouser/*\r\nDisallow: /wwwproducts/devtool/digikey/*\r\nDisallow: /wwwproducts/DevTool/digikey/*\r\nDisallow: /wwwproducts/DevTool/mouser/*\r\nDisallow: /development-tools-tools-and-software/devtoolselector/digikey/*\r\nDisallow: /development-tools-tools-and-software/devtoolselector/mouser/*\r\nDisallow: /sitesearch/*\r\nDisallow: /product-change-notifications/Data/*\r\nDisallow: /mymicrochip/Data/*\r\nDisallow: /en-us/about/corporate-responsibility/our-products/product-material-compliance.*\r\nDisallow: /treelinktool/Treelink%20Selection%20Tool*\r\n\r\nUser-agent: AhrefsBot\r\nDisallow: /en-us/about/corporate-responsibility/our-products.*\r\nDisallow: /en-us/parametric-table-search?superGroup*\r\nDisallow: /treelinktool/Treelink%20Selection%20Tool*\r\n\r\n\r\nUser-agent: GPTBot\r\nAllow: /\r\n\r\nUser-agent: Google-Extended\r\nAllow: /\r\n\r\nSitemap: https://www.microchip.com/sitemap-index.xml\r\n\r\nUser-agent: Spacecat/1.0\r\nAllow: /\r\n",
       "url": "https://www.microchip.com/robots.txt",
       "challengedStatus": 403,
       "uaFallback": true
     },
     "llms": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;microchip&#46;com&#47;llms&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;860c0317&#46;1794798156&#46;4c9ddcf5\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;860c0317&#46;1794798156&#46;4c9ddcf5</P>\n</BODY>\n</HTML>\n",
       "url": "https://www.microchip.com/llms.txt"
     },
     "llmsFull": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;microchip&#46;com&#47;llms&#45;full&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;860c0317&#46;1794798157&#46;4c9de05a\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;860c0317&#46;1794798157&#46;4c9de05a</P>\n</BODY>\n</HTML>\n",
       "url": "https://www.microchip.com/llms-full.txt"
     },
     "homepage": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;microchip&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;860c0317&#46;1794798157&#46;4c9de26d\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;860c0317&#46;1794798157&#46;4c9de26d</P>\n</BODY>\n</HTML>\n",
       "url": "https://www.microchip.com/",
       "title": "Access Denied"
     },
     "sitemap": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;microchip&#46;com&#47;sitemap&#45;index&#46;xml\" on this server.<P>\nReference&#32;&#35;18&#46;860c0317&#46;1794798157&#46;4c9de54a\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;860c0317&#46;1794798157&#46;4c9de54a</P>\n</BODY>\n</HTML>\n",
       "url": "https://www.microchip.com/sitemap-index.xml"
     },
     "agentsMd": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;microchip&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;860c0317&#46;1794798157&#46;4c9de6b4\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;860c0317&#46;1794798157&#46;4c9de6b4</P>\n</BODY>\n</HTML>\n",
       "url": "https://www.microchip.com/agents.md"
     },
     "openapi": {
@@ -52,7 +46,6 @@
     },
     "aiTxt": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;microchip&#46;com&#47;ai&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;860c0317&#46;1794798158&#46;4c9deac9\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;860c0317&#46;1794798158&#46;4c9deac9</P>\n</BODY>\n</HTML>\n",
       "url": "https://www.microchip.com/ai.txt"
     }
   },

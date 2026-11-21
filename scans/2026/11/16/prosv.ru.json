@@ -5,34 +5,28 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 200,
-      "body": "User-Agent: *\nAllow: /\nDisallow: /*?utm*\nDisallow: /*&utm*\nDisallow: /*?dateFrom*\nDisallow: /*&dateFrom*\nDisallow: /*?dateTo*\nDisallow: /*&dateTo*\nDisallow: /*?filter*\nDisallow: /*&filter*\nDisallow: /*?ELEMENT_ID*\nDisallow: /*&ELEMENT_ID*\nDisallow: /*?erid*\nDisallow: /*&erid*\nDisallow: /*?isAutocorrectQuery*\nDisallow: /*&isAutocorrectQuery*\nDisallow: /private/\nDisallow: /audioV2/*\nDisallow: /?p=*\nDisallow: /?page=*\nDisallow: /cart*\nDisallow: /search*\nDisallow: /*?Id*\nDisallow: /*?_idp_state*\nDisallow: /*?clckid*\nDisallow: /*?m-message-key*\nDisallow: /*?sort*\nDisallow: /news/preview/*\nDisallow: /mediakit\nSitemap: https://prosv.ru/sitemap.xml\n\nUser-Agent: Yandex\nAllow: /\nDisallow: /?p=*\nDisallow: /?page=*\nDisallow: /cart*\nDisallow: /audioV2/*\nDisallow: /search*\nDisallow: /*?Id*\nDisallow: /*?_idp_state*\nDisallow: /*?clckid*\nDisallow: /*?m-message-key*\nDisallow: /*?sort*\nDisallow: /*?isAutocorrectQuery*\nDisallow: /*&isAutocorrectQuery*\nDisallow: /news/preview/*\nDisallow: /mediakit\nClean-param: utm_source&utm_medium&utm_campaign&dateFrom&dateTo&filter&ELEMENT_ID&erid&isAutocorrectQuery\n\nUser-Agent: Googlebot\nAllow: /\nDisallow: /*?utm*\nDisallow: /*&utm*\nDisallow: /*?dateFrom*\nDisallow: /*&dateFrom*\nDisallow: /*?dateTo*\nDisallow: /*&dateTo*\nDisallow: /*?filter*\nDisallow: /*&filter*\nDisallow: /*?ELEMENT_ID*\nDisallow: /*&ELEMENT_ID*\nDisallow: /*?erid*\nDisallow: /*&erid*\nDisallow: /*?isAutocorrectQuery*\nDisallow: /*&isAutocorrectQuery*\nDisallow: /private/\nDisallow: /?p=*\nDisallow: /?page=*\nDisallow: /cart*\nDisallow: /audioV2/*\nDisallow: /search*\nDisallow: /*?Id*\nDisallow: /*?_idp_state*\nDisallow: /*?clckid*\nDisallow: /*?m-message-key*\nDisallow: /*?sort*\nDisallow: /news/preview/*\nDisallow: /mediakit",
       "url": "https://prosv.ru/robots.txt"
     },
     "llms": {
       "status": 200,
-      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>idp-state-frame</title>\n        <style>body { text-align: center; padding: 80px; }</style>\n        <script type=\"text/javascript\" src=\"/api/state.js\"></script>\n        <script type=\"text/javascript\">\n            (function() { new IdPState().payload(); })();\n        </script>\n    </head>\n    <body id=\"idp-state-frame-body\" style=\"display: none;\">\n        <h1>¯\\_(ツ)_/¯</h1>\n        <h2>Что-то пошло не так</h2>\n        <p>Вы попали на техническую страницу. Пожалуйста, попросите администратора приложения или владельца сайта исправить обработку фреймов и не открывать их в отдельном окне.</p>\n    </body>\n</html>",
       "url": "https://id.prosv.ru/api/state.html?expect=state&return=https%3A%2F%2Fprosv.ru%2Fllms.txt&parameter=_idp_state"
     },
     "llmsFull": {
       "status": 200,
-      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>idp-state-frame</title>\n        <style>body { text-align: center; padding: 80px; }</style>\n        <script type=\"text/javascript\" src=\"/api/state.js\"></script>\n        <script type=\"text/javascript\">\n            (function() { new IdPState().payload(); })();\n        </script>\n    </head>\n    <body id=\"idp-state-frame-body\" style=\"display: none;\">\n        <h1>¯\\_(ツ)_/¯</h1>\n        <h2>Что-то пошло не так</h2>\n        <p>Вы попали на техническую страницу. Пожалуйста, попросите администратора приложения или владельца сайта исправить обработку фреймов и не открывать их в отдельном окне.</p>\n    </body>\n</html>",
       "url": "https://id.prosv.ru/api/state.html?expect=state&return=https%3A%2F%2Fprosv.ru%2Fllms-full.txt&parameter=_idp_state"
     },
     "homepage": {
       "status": 200,
-      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>idp-state-frame</title>\n        <style>body { text-align: center; padding: 80px; }</style>\n        <script type=\"text/javascript\" src=\"/api/state.js\"></script>\n        <script type=\"text/javascript\">\n            (function() { new IdPState().payload(); })();\n        </script>\n    </head>\n    <body id=\"idp-state-frame-body\" style=\"display: none;\">\n        <h1>¯\\_(ツ)_/¯</h1>\n        <h2>Что-то пошло не так</h2>\n        <p>Вы попали на техническую страницу. Пожалуйста, попросите администратора приложения или владельца сайта исправить обработку фреймов и не открывать их в отдельном окне.</p>\n    </body>\n</html>",
       "url": "https://id.prosv.ru/api/state.html?expect=state&return=https%3A%2F%2Fprosv.ru%2F&parameter=_idp_state",
       "title": "idp-state-frame",
       "lang": "ru"
     },
     "sitemap": {
       "status": 200,
-      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>idp-state-frame</title>\n        <style>body { text-align: center; padding: 80px; }</style>\n        <script type=\"text/javascript\" src=\"/api/state.js\"></script>\n        <script type=\"text/javascript\">\n            (function() { new IdPState().payload(); })();\n        </script>\n    </head>\n    <body id=\"idp-state-frame-body\" style=\"display: none;\">\n        <h1>¯\\_(ツ)_/¯</h1>\n        <h2>Что-то пошло не так</h2>\n        <p>Вы попали на техническую страницу. Пожалуйста, попросите администратора приложения или владельца сайта исправить обработку фреймов и не открывать их в отдельном окне.</p>\n    </body>\n</html>",
       "url": "https://id.prosv.ru/api/state.html?expect=state&return=https%3A%2F%2Fprosv.ru%2Fsitemap.xml&parameter=_idp_state"
     },
     "agentsMd": {
       "status": 200,
-      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>idp-state-frame</title>\n        <style>body { text-align: center; padding: 80px; }</style>\n        <script type=\"text/javascript\" src=\"/api/state.js\"></script>\n        <script type=\"text/javascript\">\n            (function() { new IdPState().payload(); })();\n        </script>\n    </head>\n    <body id=\"idp-state-frame-body\" style=\"display: none;\">\n        <h1>¯\\_(ツ)_/¯</h1>\n        <h2>Что-то пошло не так</h2>\n        <p>Вы попали на техническую страницу. Пожалуйста, попросите администратора приложения или владельца сайта исправить обработку фреймов и не открывать их в отдельном окне.</p>\n    </body>\n</html>",
       "url": "https://id.prosv.ru/api/state.html?expect=state&return=https%3A%2F%2Fprosv.ru%2Fagents.md&parameter=_idp_state"
     },
     "openapi": {
@@ -53,7 +47,6 @@
     },
     "aiTxt": {
       "status": 200,
-      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>idp-state-frame</title>\n        <style>body { text-align: center; padding: 80px; }</style>\n        <script type=\"text/javascript\" src=\"/api/state.js\"></script>\n        <script type=\"text/javascript\">\n            (function() { new IdPState().payload(); })();\n        </script>\n    </head>\n    <body id=\"idp-state-frame-body\" style=\"display: none;\">\n        <h1>¯\\_(ツ)_/¯</h1>\n        <h2>Что-то пошло не так</h2>\n        <p>Вы попали на техническую страницу. Пожалуйста, попросите администратора приложения или владельца сайта исправить обработку фреймов и не открывать их в отдельном окне.</p>\n    </body>\n</html>",
       "url": "https://id.prosv.ru/api/state.html?expect=state&return=https%3A%2F%2Fprosv.ru%2Fai.txt&parameter=_idp_state"
     },
     "aiFeatures": {

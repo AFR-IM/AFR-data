@@ -5,33 +5,27 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 200,
-      "body": "# =============================================================================\n# UPDATED robots.txt — 2026-10-15\n# Changes vs 2026-04-22 version:\n#   - Removed the trailing \"$\" from every asset Allow rule. WordPress loads\n#     CSS/JS with a version string (e.g. layout.min.css?ver=8.1), so \"$\" never\n#     matched and Googlebot was blocked from 268 render-critical files\n#     (jQuery, Enfold CSS, avia.min.js, Perfmatters lazyload.min.js).\n#   - Added Allow rules for CSS/JS inside /wp-includes/.\n#   - Added image + font Allow rules for /wp-content/plugins/.\n#   - Added .webp, .ico, .ttf, .otf, .eot to theme asset Allows.\n#   - Removed the old commented-out pre-April block.\n# Folder Disallows stay in place, so PHP files remain blocked: Google applies\n# the most specific (longest) matching rule, so the Allow lines win only for\n# the asset files.\n# =============================================================================\n \nUser-agent: *\n \n# --- WordPress core ---\nDisallow: /wp-admin/\nDisallow: /wp-includes/\nDisallow: /wp-login.php\nDisallow: /wp-register.php\nDisallow: /xmlrpc.php\nDisallow: /wp-cron.php\nDisallow: /readme.html\nAllow: /wp-admin/admin-ajax.php\nAllow: /wp-includes/*.css\nAllow: /wp-includes/*.js\n \n# --- Themes & plugins: block PHP, allow static assets for rendering ---\nDisallow: /wp-content/themes/\nDisallow: /wp-content/plugins/\nAllow: /wp-content/themes/*.css\nAllow: /wp-content/themes/*.js\nAllow: /wp-content/themes/*.png\nAllow: /wp-content/themes/*.jpg\nAllow: /wp-content/themes/*.jpeg\nAllow: /wp-content/themes/*.gif\nAllow: /wp-content/themes/*.svg\nAllow: /wp-content/themes/*.webp\nAllow: /wp-content/themes/*.ico\nAllow: /wp-content/themes/*.woff\nAllow: /wp-content/themes/*.woff2\nAllow: /wp-content/themes/*.ttf\nAllow: /wp-content/themes/*.otf\nAllow: /wp-content/themes/*.eot\nAllow: /wp-content/plugins/*.css\nAllow: /wp-content/plugins/*.js\nAllow: /wp-content/plugins/*.png\nAllow: /wp-content/plugins/*.jpg\nAllow: /wp-content/plugins/*.jpeg\nAllow: /wp-content/plugins/*.gif\nAllow: /wp-content/plugins/*.svg\nAllow: /wp-content/plugins/*.webp\nAllow: /wp-content/plugins/*.woff\nAllow: /wp-content/plugins/*.woff2\nAllow: /wp-content/plugins/*.ttf\nAllow: /wp-content/uploads/\n \n# --- Logs, backups, and internal directories ---\nDisallow: /wp-content/debug.log\nDisallow: /wp-content/autosignup-log/\nDisallow: /wp-content/webtoffee_iew_log/\nDisallow: /wp-content/webtoffee_import/\nDisallow: /wp-content/wflogs/\nDisallow: /wp-content/upgrade/\nDisallow: /wp-content/upgrade-temp-backup/\nDisallow: /wp-content/drop-ins/\n \n# --- Test / demo / internal files ---\nDisallow: /test/\nDisallow: /demo-*\nDisallow: /testIp.php\nDisallow: /ttfb.html\n \n# --- Referral, tracking, and low-value query strings ---\nDisallow: /refer/\nDisallow: /trackback/\nDisallow: /?utm\nDisallow: /*?s=\nDisallow: /*?replytocom=\nDisallow: /*?rest_route=\nDisallow: /*?attachment_id=\nDisallow: /*?preview=true\nDisallow: /*?preview_id=\n \n# --- MailPoet ---\nDisallow: /*?mailpoet_page=captcha\nDisallow: /*?mailpoet_page=subscriptions\n \n# --- Feeds ---\nDisallow: /*/feed/?attachment_id=\nDisallow: /feed/?attachment_id=\n \nSitemap: https://www.leadsquared.com/sitemap_index.xml",
       "url": "https://www.leadsquared.com/robots.txt"
     },
     "llms": {
       "status": 403,
-      "body": "<html>\n<head>\n<title>Error 403 Forbidden</title>\n</head>\n<body>\n<h1>403 Forbidden</h1>\n</body>\n</html>\n",
       "url": "https://www.leadsquared.com/llms.txt"
     },
     "llmsFull": {
       "status": 403,
-      "body": "<html>\n<head>\n<title>Error 403 Forbidden</title>\n</head>\n<body>\n<h1>403 Forbidden</h1>\n</body>\n</html>\n",
       "url": "https://www.leadsquared.com/llms-full.txt"
     },
     "homepage": {
       "status": 403,
-      "body": "<html>\n<head>\n<title>Error 403 Forbidden</title>\n</head>\n<body>\n<h1>403 Forbidden</h1>\n</body>\n</html>\n",
       "url": "https://www.leadsquared.com/",
       "title": "Error 403 Forbidden"
     },
     "sitemap": {
       "status": 403,
-      "body": "<html>\n<head>\n<title>Error 403 Forbidden</title>\n</head>\n<body>\n<h1>403 Forbidden</h1>\n</body>\n</html>\n",
       "url": "https://www.leadsquared.com/sitemap_index.xml"
     },
     "agentsMd": {
       "status": 403,
-      "body": "<html>\n<head>\n<title>Error 403 Forbidden</title>\n</head>\n<body>\n<h1>403 Forbidden</h1>\n</body>\n</html>\n",
       "url": "https://www.leadsquared.com/agents.md"
     },
     "openapi": {
@@ -50,7 +44,6 @@
     },
     "aiTxt": {
       "status": 403,
-      "body": "<html>\n<head>\n<title>Error 403 Forbidden</title>\n</head>\n<body>\n<h1>403 Forbidden</h1>\n</body>\n</html>\n",
       "url": "https://www.leadsquared.com/ai.txt"
     }
   },

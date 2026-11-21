@@ -5,35 +5,29 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 200,
-      "body": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\nSitemap: https://royalmail.com/find-locations/sitemap-index.xml\n\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\nDisallow: /sites/royalmail.com/files/*.pdf\n# Files\nDisallow: /README.txt\nDisallow: /web.config\nDisallow: *.pdf\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /d8/search/\nDisallow: /portal/rm/track/\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\nDisallow: /services-near-you\nDisallow: /service-checker\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n",
       "url": "https://www.royalmail.com/robots.txt",
       "challengedStatus": 403,
       "uaFallback": true
     },
     "llms": {
       "status": 404,
-      "body": "Unknown Resource",
       "url": "https://royalmail.com/llms.txt"
     },
     "llmsFull": {
       "status": 404,
-      "body": "Unknown Resource",
       "url": "https://royalmail.com/llms-full.txt"
     },
     "homepage": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;royalmail&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;9b2cc717&#46;1794712520&#46;41f7c29a\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;9b2cc717&#46;1794712520&#46;41f7c29a</P>\n</BODY>\n</HTML>\n",
       "url": "https://www.royalmail.com/",
       "title": "Access Denied"
     },
     "sitemap": {
       "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://www.royalmail.com/find-locations/sitemap/0.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.royalmail.com/find-locations/sitemap/1.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.royalmail.com/find-locations/sitemap/2.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.royalmail.com/find-locations/sitemap/3.xml</loc>\n  </sitemap>\n</sitemapindex>\n",
       "url": "https://www.royalmail.com/find-locations/sitemap-index.xml"
     },
     "agentsMd": {
       "status": 404,
-      "body": "Unknown Resource",
       "url": "https://royalmail.com/AGENTS.md"
     },
     "openapi": {
@@ -52,7 +46,6 @@
     },
     "aiTxt": {
       "status": 404,
-      "body": "Unknown Resource",
       "url": "https://royalmail.com/ai.txt"
     }
   },

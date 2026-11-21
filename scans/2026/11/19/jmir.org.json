@@ -5,33 +5,27 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 200,
-      "body": "User-agent: AccessibleWebBot\n\n# Block URLs ending in /citations, /tweetations, /metrics, /XML, /PDF\nDisallow: /*/citations\nDisallow: /*/Citations\nDisallow: /*/tweetations\nDisallow: /*/Tweetations\nDisallow: /*/metrics\nDisallow: /*/Metrics\nDisallow: /*/xml\nDisallow: /*/XML\nDisallow: /*/pdf\nDisallow: /*/PDF\n\n# SEO-related exclusions\nDisallow: */%*\nDisallow: */export/*\n\nDisallow: /api/*\nDisallow: /v1/*\nDisallow: /zzz/*\n\nDisallow: /about/*\nDisallow: /preprint/*\n\nDisallow: /viewFile/*\n\nDisallow: /*?*\nDisallow: /*&*\n\n# User-related exclusions\nDisallow: /user/\nDisallow: /admin/\nDisallow: /editor/\nDisallow: /manager/\nDisallow: /reviewer/\nDisallow: /copyEditor/\nDisallow: /sectionEditor/\n\n# Miscellaneous exclusions\nDisallow: /payment/\nDisallow: /reports/\nDisallow: /dashboard/\nDisallow: /scheduledPublications/\nDisallow: /article/downloadSuppFile/\n\n# Explicit Page(s)\nDisallow: /cms/view/Editorial_Board\n\nUser-agent: *\n\n# SEO-related exclusions\nDisallow: */%*\nDisallow: */export/*\n\nDisallow: /api/*\nDisallow: /v1/*\nDisallow: /zzz/*\n\nDisallow: /about/*\nDisallow: /preprint/*\n\nDisallow: /viewFile/*\n\nDisallow: /*?*\nDisallow: /*&*\n\n# User-related exclusions\nDisallow: /user/\nDisallow: /admin/\nDisallow: /editor/\nDisallow: /manager/\nDisallow: /reviewer/\nDisallow: /copyEditor/\nDisallow: /sectionEditor/\n\n# Miscellaneous exclusions\nDisallow: /payment/\nDisallow: /reports/\nDisallow: /dashboard/\nDisallow: /scheduledPublications/\nDisallow: /article/downloadSuppFile/\n\n# Explicit Page(s)\nDisallow: /cms/view/Editorial_Board",
       "url": "https://www.jmir.org/robots.txt"
     },
     "llms": {
       "status": 404,
-      "body": "",
       "url": "https://www.jmir.org/llms.txt"
     },
     "llmsFull": {
       "status": 404,
-      "body": "",
       "url": "https://www.jmir.org/llms-full.txt"
     },
     "homepage": {
       "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['jmir.org','researchprotocols.org','medicine20.com','iproc.org','i-jmr.org','jmir.pub','jmir.localhost','jmirpublications.com','jmirx.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AH6bHyTeCtvM+GGnXA+1TOFAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM3gfKZdsxv+qIsN2NAgEQgDu7QpHqaFs1KiyIanin8UEInue61eC49BzxxjSx55z/GkkkVpMt5ZhPJrNMKu+EhkSM+wZXpLu1K0AsWw==\",\n          \"iv\":\"CgAHVjVjrQAABTEV\",\n          \"context\":\"UdycX14JDuEklbtKGtr7Rq3wymUQqituPxjBqDDhrJmLgP6gfDEbF9Aii+NDsA6x3DJH+DsUahG7OTaRqeKYMjbO3l75i0d3GKuwJ+VVNvg7HYPk+4swXH20yGwdrAG9Q5Lz7mYS9c8nORScxnGiqmTsZFee7cJR6IfiFYGyW98eUNxVNiuKp5mJLQUyMK5/0NHztCqDM/vdzQdOlqfh3+4NIHoDuqnkqnQdCnkt3lZYLUbrBOVSU6h+f4XArmHvSybdMKz9cT5YtE+vU2xw0bZYUYstR5WtmXv08sDTiiwfEUWpT6IvJVwsJawV8TMSBKwSkzwcAAi156SPsgwUw2yzp1yVoStJAhemcniCMM7O13HC\"\n};\n    </script>\n    <script src=\"https://8b5f0effe65c.ae2a37f0.us-east-2.token.awswaf.com/8b5f0effe65c/72fd6064c3cc/bec1585b0adb/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
       "url": "https://jmir.org/",
       "lang": "en"
     },
     "sitemap": {
       "status": 202,
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['jmir.org','researchprotocols.org','medicine20.com','iproc.org','i-jmr.org','jmir.pub','jmir.localhost','jmirpublications.com','jmirx.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AH6bHyTeCtvM+GGnXA+1TOFAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM3gfKZdsxv+qIsN2NAgEQgDu7QpHqaFs1KiyIanin8UEInue61eC49BzxxjSx55z/GkkkVpMt5ZhPJrNMKu+EhkSM+wZXpLu1K0AsWw==\",\n          \"iv\":\"CgAGXjWQkQAAA8rD\",\n          \"context\":\"n4b33RNXI/WMp6Iyl1aUFegzWtXH0ZoFwTxNGiMbOhgKDYbtp8v6i4TbJEJR7dCvemjJO14zIUe1H1Ve3p6BVOgfmenyrS0OBorkt03+jNpgnFdGyO+cOw+u9EK1K/ra3WnTBiIaj4LU+HvgtpNxGureJE8OJzs8Q+R5HF9nmHGOvSyP5+ToEoleE6BjoCWunj7S2ht4Q+cxN2j17JGR9o7CeWheS4nocVK6KlsuM0sr0BFd8/RoeuFPKHufB6WeIRdZWJO98UljyIdrEo8V3zO99+3+fj9HFx6g8YdG0lK8v+NIiKc+7Ji2aO01O6qP/oaCVXVZZE9y+VLParUQ4GFD5DPUm2BYtSyK7rDrd/xy173lMS5wtzcUvxO/wI8=\"\n};\n    </script>\n    <script src=\"https://8b5f0effe65c.ae2a37f0.us-east-2.token.awswaf.com/8b5f0effe65c/72fd6064c3cc/bec1585b0adb/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
       "url": "https://jmir.org/sitemap.xml"
     },
     "agentsMd": {
       "status": 404,
-      "body": "",
       "url": "https://www.jmir.org/AGENTS.md"
     },
     "openapi": {
@@ -50,7 +44,6 @@
     },
     "aiTxt": {
       "status": 404,
-      "body": "",
       "url": "https://www.jmir.org/ai.txt"
     },
     "aiFeatures": {

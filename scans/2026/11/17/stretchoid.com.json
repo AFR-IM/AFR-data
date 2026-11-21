@@ -5,33 +5,27 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 404,
-      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n",
       "url": "https://stretchoid.com/robots.txt"
     },
     "llms": {
       "status": 404,
-      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n",
       "url": "https://stretchoid.com/llms.txt"
     },
     "llmsFull": {
       "status": 404,
-      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n",
       "url": "https://stretchoid.com/llms-full.txt"
     },
     "homepage": {
       "status": 200,
-      "body": "<html>\n    <head>\n        <title>Stretchoid Opt-Out</title>\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"></script>\n        <script>\n            $(document).ready(function(){\n                $(\"button\").click(function(e){\n                    e.preventDefault();\n                    let cidr = document.getElementById(\"cidr\").value;\n                    if (!cidr) {\n                      message = \"Not a valid CIDR. Please use notation like 150.150.150.0/24\"\n                      const elem = document.getElementById(\"cidrError\");\n                      elem.textContent = message;\n                      elem.style.color = 'red';\n                      return\n                    }\n                    data = {\n                        name: document.getElementById(\"name\").value,\n                        email: document.getElementById(\"email\").value,\n                        ipAddress: cidr,\n                        note: document.getElementById(\"notes\").value\n                    };\n\n                    $.ajax({\n                        url: \"optout\",\n                        type: \"POST\",\n                        data: JSON.stringify(data),\n                        contentType: \"application/json; charset=utf-8\",\n                        timeout: 5000,\n                        success: function(response_data,s) {\n                            message = \"Thank you for opting out (CIDR block \" + cidr + \").\";\n                            $(\"div\").html(message);\n                        },\n\t\t\terror: function(response_data,s) {\n                            message = \"There was an error submitting your request.  Please refresh the page and try again\";\n                            $(\"div\").html(message);\n\t\t\t}\n                    });\n\n                });\n            });\n        </script>\n        <link href=\"https://fonts.googleapis.com/css2?family=Raleway&display=swap\" rel=\"stylesheet\">\n        <link href=\"index.css\" rel=\"stylesheet\">\n        <link rel=\"icon\" href=\"data:;base64,iVBORw0KGgo=\">\n    </head>\n    <body>\n        <div class=\"main-container\">\n            <div class=\"logo\">\n                <img src=\"logo.png\" alt=\"Stretchoid\" width=\"325\" height=\"200\">\n\n            </div>\n            <hr class=\"line1\">\n            <div class=\"description\">\n                <p>\n                    Stretchoid is a platform that helps identify an organization's online services.\n                </p>\n                <p>\n                    Sometimes this activity is incorrectly identified by security systems, such as firewalls, as malicious.  Our activity is completely harmless.  However, if you would prefer that we do not scan your infrastructure, please submit the following information:\n                </p>\n            </div>\n            <div class=\"opt-out-form\">\n                <form>\n                    <label for=\"name\">Name:</label>\n                    <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"John Doe\">\n\n                    <label for=\"email\">Email:</label>\n                    <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"john.doe@company.com\">\n\n                    <label for=\"cidr\">CIDR Block:</label>\n                    <div id=\"cidrError\"></div>\n                    <input type=\"text\" id=\"cidr\" name=\"cidr\" placeholder=\"10.0.0.1/24\">\n\n                    <label for=\"notes\">Additional Information:</label>\n                    <textarea id=\"notes\" name=\"notes\" placeholder=\"We are opting out ...\" style=\"height: 200px\"></textarea>\n\n                    <button>Opt Out</button><br />\n                </form>\n            </div>\n            <div class=\"padding\"></div>\n        </div>\n    </body>\n</html>\n",
       "url": "https://stretchoid.com/",
       "title": "Stretchoid Opt-Out"
     },
     "sitemap": {
       "status": 404,
-      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n",
       "url": "https://stretchoid.com/sitemap.xml"
     },
     "agentsMd": {
       "status": 404,
-      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n",
       "url": "https://stretchoid.com/AGENTS.md"
     },
     "openapi": {
@@ -50,7 +44,6 @@
     },
     "aiTxt": {
       "status": 404,
-      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.6</center>\r\n</body>\r\n</html>\r\n",
       "url": "https://stretchoid.com/ai.txt"
     },
     "aiFeatures": {

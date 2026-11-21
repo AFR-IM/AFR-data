@@ -5,32 +5,26 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 200,
-      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n\t<script type=\"text/javascript\">\n\t\tvar agent = window.navigator.userAgent.toLowerCase();\n\t\tvar index = agent.indexOf(\"mobile\") + agent.indexOf(\"iemobile\") + agent.indexOf(\"android\") + agent.indexOf(\"samsungbrowser\");\n\t\tvar samsungIndex = agent.indexOf(\"samsungbrowser\");\n\t\tvar tablet = /ipad|tablet|samsungbrowser|sm-t|gt-/i.test(agent)\n\t\tvar queryAndHash = document.location.search.replace(\"?\", \"\") + document.location.hash;\n\t\tif (index > -1 || tablet) {\n\t\t\tif ((agent.indexOf(\"mobile\") > -1 && !tablet) || (agent.indexOf(\"samsungbrowser\") > -1 && agent.indexOf(\"mobile\") > -1)) {\n\t\t\t\twindow.location = \"index-tui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t} else {\n\t\t\t\twindow.location = \"index-tui-tab.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\twindow.location = \"index-rui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t }\n\t</script>\n</head>\n<body>\n</body>\n</html>\n",
       "url": "https://webmail.bell.net/bell/"
     },
     "llms": {
       "status": 200,
-      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n\t<script type=\"text/javascript\">\n\t\tvar agent = window.navigator.userAgent.toLowerCase();\n\t\tvar index = agent.indexOf(\"mobile\") + agent.indexOf(\"iemobile\") + agent.indexOf(\"android\") + agent.indexOf(\"samsungbrowser\");\n\t\tvar samsungIndex = agent.indexOf(\"samsungbrowser\");\n\t\tvar tablet = /ipad|tablet|samsungbrowser|sm-t|gt-/i.test(agent)\n\t\tvar queryAndHash = document.location.search.replace(\"?\", \"\") + document.location.hash;\n\t\tif (index > -1 || tablet) {\n\t\t\tif ((agent.indexOf(\"mobile\") > -1 && !tablet) || (agent.indexOf(\"samsungbrowser\") > -1 && agent.indexOf(\"mobile\") > -1)) {\n\t\t\t\twindow.location = \"index-tui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t} else {\n\t\t\t\twindow.location = \"index-tui-tab.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\twindow.location = \"index-rui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t }\n\t</script>\n</head>\n<body>\n</body>\n</html>\n",
       "url": "https://webmail.bell.net/bell/"
     },
     "llmsFull": {
       "status": 200,
-      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n\t<script type=\"text/javascript\">\n\t\tvar agent = window.navigator.userAgent.toLowerCase();\n\t\tvar index = agent.indexOf(\"mobile\") + agent.indexOf(\"iemobile\") + agent.indexOf(\"android\") + agent.indexOf(\"samsungbrowser\");\n\t\tvar samsungIndex = agent.indexOf(\"samsungbrowser\");\n\t\tvar tablet = /ipad|tablet|samsungbrowser|sm-t|gt-/i.test(agent)\n\t\tvar queryAndHash = document.location.search.replace(\"?\", \"\") + document.location.hash;\n\t\tif (index > -1 || tablet) {\n\t\t\tif ((agent.indexOf(\"mobile\") > -1 && !tablet) || (agent.indexOf(\"samsungbrowser\") > -1 && agent.indexOf(\"mobile\") > -1)) {\n\t\t\t\twindow.location = \"index-tui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t} else {\n\t\t\t\twindow.location = \"index-tui-tab.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\twindow.location = \"index-rui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t }\n\t</script>\n</head>\n<body>\n</body>\n</html>\n",
       "url": "https://webmail.bell.net/bell/"
     },
     "homepage": {
       "status": 200,
-      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n\t<script type=\"text/javascript\">\n\t\tvar agent = window.navigator.userAgent.toLowerCase();\n\t\tvar index = agent.indexOf(\"mobile\") + agent.indexOf(\"iemobile\") + agent.indexOf(\"android\") + agent.indexOf(\"samsungbrowser\");\n\t\tvar samsungIndex = agent.indexOf(\"samsungbrowser\");\n\t\tvar tablet = /ipad|tablet|samsungbrowser|sm-t|gt-/i.test(agent)\n\t\tvar queryAndHash = document.location.search.replace(\"?\", \"\") + document.location.hash;\n\t\tif (index > -1 || tablet) {\n\t\t\tif ((agent.indexOf(\"mobile\") > -1 && !tablet) || (agent.indexOf(\"samsungbrowser\") > -1 && agent.indexOf(\"mobile\") > -1)) {\n\t\t\t\twindow.location = \"index-tui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t} else {\n\t\t\t\twindow.location = \"index-tui-tab.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\twindow.location = \"index-rui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t }\n\t</script>\n</head>\n<body>\n</body>\n</html>\n",
       "url": "https://webmail.bell.net/bell/"
     },
     "sitemap": {
       "status": 200,
-      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n\t<script type=\"text/javascript\">\n\t\tvar agent = window.navigator.userAgent.toLowerCase();\n\t\tvar index = agent.indexOf(\"mobile\") + agent.indexOf(\"iemobile\") + agent.indexOf(\"android\") + agent.indexOf(\"samsungbrowser\");\n\t\tvar samsungIndex = agent.indexOf(\"samsungbrowser\");\n\t\tvar tablet = /ipad|tablet|samsungbrowser|sm-t|gt-/i.test(agent)\n\t\tvar queryAndHash = document.location.search.replace(\"?\", \"\") + document.location.hash;\n\t\tif (index > -1 || tablet) {\n\t\t\tif ((agent.indexOf(\"mobile\") > -1 && !tablet) || (agent.indexOf(\"samsungbrowser\") > -1 && agent.indexOf(\"mobile\") > -1)) {\n\t\t\t\twindow.location = \"index-tui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t} else {\n\t\t\t\twindow.location = \"index-tui-tab.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\twindow.location = \"index-rui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t }\n\t</script>\n</head>\n<body>\n</body>\n</html>\n",
       "url": "https://webmail.bell.net/bell/"
     },
     "agentsMd": {
       "status": 200,
-      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n\t<script type=\"text/javascript\">\n\t\tvar agent = window.navigator.userAgent.toLowerCase();\n\t\tvar index = agent.indexOf(\"mobile\") + agent.indexOf(\"iemobile\") + agent.indexOf(\"android\") + agent.indexOf(\"samsungbrowser\");\n\t\tvar samsungIndex = agent.indexOf(\"samsungbrowser\");\n\t\tvar tablet = /ipad|tablet|samsungbrowser|sm-t|gt-/i.test(agent)\n\t\tvar queryAndHash = document.location.search.replace(\"?\", \"\") + document.location.hash;\n\t\tif (index > -1 || tablet) {\n\t\t\tif ((agent.indexOf(\"mobile\") > -1 && !tablet) || (agent.indexOf(\"samsungbrowser\") > -1 && agent.indexOf(\"mobile\") > -1)) {\n\t\t\t\twindow.location = \"index-tui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t} else {\n\t\t\t\twindow.location = \"index-tui-tab.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\twindow.location = \"index-rui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t }\n\t</script>\n</head>\n<body>\n</body>\n</html>\n",
       "url": "https://webmail.bell.net/bell/"
     },
     "openapi": {
@@ -51,7 +45,6 @@
     },
     "aiTxt": {
       "status": 200,
-      "body": "<!DOCTYPE HTML>\n<html>\n<head>\n\t<script type=\"text/javascript\">\n\t\tvar agent = window.navigator.userAgent.toLowerCase();\n\t\tvar index = agent.indexOf(\"mobile\") + agent.indexOf(\"iemobile\") + agent.indexOf(\"android\") + agent.indexOf(\"samsungbrowser\");\n\t\tvar samsungIndex = agent.indexOf(\"samsungbrowser\");\n\t\tvar tablet = /ipad|tablet|samsungbrowser|sm-t|gt-/i.test(agent)\n\t\tvar queryAndHash = document.location.search.replace(\"?\", \"\") + document.location.hash;\n\t\tif (index > -1 || tablet) {\n\t\t\tif ((agent.indexOf(\"mobile\") > -1 && !tablet) || (agent.indexOf(\"samsungbrowser\") > -1 && agent.indexOf(\"mobile\") > -1)) {\n\t\t\t\twindow.location = \"index-tui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t} else {\n\t\t\t\twindow.location = \"index-tui-tab.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\twindow.location = \"index-rui.jsp?v=3.1.3.68.0-20\" + queryAndHash\n\t\t }\n\t</script>\n</head>\n<body>\n</body>\n</html>\n",
       "url": "https://webmail.bell.net/bell/"
     },
     "aiFeatures": {

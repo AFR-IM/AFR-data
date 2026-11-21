@@ -5,39 +5,33 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 200,
-      "body": "# Robots.txt for www.starwars.com\n\nUser-Agent: *\nDisallow: /7046/\nDisallow: /products/\nDisallow: /_xd/\nDisallow: /news/page/\nDisallow: /wp-content/plugins/\nDisallow: /search\nDisallow: /watch/hls/stream/\nDisallow: /watch/hls/master/\nDisallow: /watch/captions/\nDisallow: /embed\nDisallow: /embed/\nDisallow: */embed\nDisallow: /app\nDisallow: /app/\nDisallow: */app\nDisallow: /*?\nDisallow: */feed\nDisallow: */1000\nDisallow: */target=\"_blank\"\nDisallow: /21783347309/\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: rogerbot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nSitemap: https://www.starwars.com/sitemap.xml",
       "url": "https://www.starwars.com/robots.txt",
       "challengedStatus": 403,
       "uaFallback": true
     },
     "llms": {
       "status": 404,
-      "body": " ",
       "url": "https://www.starwars.com/llms.txt",
       "challengedStatus": 403,
       "uaFallback": true
     },
     "llmsFull": {
       "status": 404,
-      "body": " ",
       "url": "https://www.starwars.com/llms-full.txt",
       "challengedStatus": 403,
       "uaFallback": true
     },
     "homepage": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;starwars&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;8b6adc17&#46;1795057186&#46;4d8418c\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8b6adc17&#46;1795057186&#46;4d8418c</P>\n</BODY>\n</HTML>\n",
       "url": "https://starwars.com/",
       "title": "Access Denied"
     },
     "sitemap": {
       "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://www.starwars.com/sitemap-6afe60d7b2da8d2dfda84ce6-0.xml</loc>\n    <lastmod>2026-11-19T02:39:08+00:00</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.starwars.com/sitemap-6afe60d7b2da8d2dfda84ce6-1.xml</loc>\n    <lastmod>2026-11-19T02:39:08+00:00</lastmod>\n  </sitemap>\n</sitemapindex>\n",
       "url": "https://www.starwars.com/sitemap.xml"
     },
     "agentsMd": {
       "status": 403,
-      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;starwars&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;876adc17&#46;1795057186&#46;1528f2e0\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;876adc17&#46;1795057186&#46;1528f2e0</P>\n</BODY>\n</HTML>\n",
       "url": "https://starwars.com/agents.md"
     },
     "openapi": {
@@ -56,7 +50,6 @@
     },
     "aiTxt": {
       "status": 404,
-      "body": " ",
       "url": "https://www.starwars.com/ai.txt",
       "challengedStatus": 403,
       "uaFallback": true

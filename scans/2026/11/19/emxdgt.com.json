@@ -5,34 +5,28 @@
     "scannerVersion": "scanner-0.1.0",
     "robots": {
       "status": 403,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
       "url": "https://emxdgt.com/robots.txt"
     },
     "llms": {
       "status": 403,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
       "url": "https://emxdgt.com/llms.txt"
     },
     "llmsFull": {
       "status": 403,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
       "url": "https://emxdgt.com/llms-full.txt"
     },
     "homepage": {
       "status": 200,
-      "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Redirecting...</title>\r\n    <!-- Tailwind CSS CDN for basic styling -->\r\n    <script src=\"https://cdn.tailwindcss.com\"></script>\r\n    <!-- Inter font for a modern look -->\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\">\r\n    <style>\r\n        body {\r\n            font-family: 'Inter', sans-serif;\r\n        }\r\n    </style>\r\n    <!-- Meta refresh for immediate redirection -->\r\n    <meta http-equiv=\"refresh\" content=\"0; url=https://cadent.com/\">\r\n    <script>\r\n        // JavaScript fallback for redirection, in case meta refresh is blocked or not supported\r\n        window.onload = function() {\r\n            // Check if the redirection has already happened (e.g., by meta refresh)\r\n            // A small delay ensures meta refresh has a chance to execute first\r\n            setTimeout(function() {\r\n                if (window.location.href !== 'https://cadent.com/') {\r\n                    window.location.href = 'https://cadent.com/';\r\n                }\r\n            }, 500); // 500ms delay\r\n        };\r\n    </script>\r\n</head>\r\n<body class=\"flex items-center justify-center min-h-screen bg-gray-100 p-4\">\r\n    <div class=\"bg-white p-8 rounded-lg shadow-xl text-center max-w-md w-full\">\r\n        <h1 class=\"text-3xl font-bold text-blue-600 mb-4 animate-pulse\">Redirecting You Now...</h1>\r\n        <p class=\"text-gray-700 text-lg mb-6\">\r\n            If you are not redirected automatically, please click the link below:\r\n        </p>\r\n        <a href=\"https://cadent.com/\" class=\"inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 ease-in-out shadow-lg\">\r\n            Go to cadent.com\r\n        </a>\r\n        <p class=\"mt-8 text-sm text-gray-500\">\r\n            Thank you for your patience.\r\n        </p>\r\n    </div>\r\n</body>\r\n</html>",
       "url": "https://emxdgt.com/",
       "title": "Redirecting...",
       "lang": "en"
     },
     "sitemap": {
       "status": 403,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
       "url": "https://emxdgt.com/sitemap.xml"
     },
     "agentsMd": {
       "status": 403,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
       "url": "https://emxdgt.com/agents.md"
     },
     "openapi": {
@@ -51,7 +45,6 @@
     },
     "aiTxt": {
       "status": 403,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
       "url": "https://emxdgt.com/ai.txt"
     },
     "aiFeatures": {
