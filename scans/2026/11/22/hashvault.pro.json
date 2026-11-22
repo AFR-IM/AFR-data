@@ -1,0 +1,259 @@
+{
+  "signals": {
+    "domain": "hashvault.pro",
+    "fetchedAt": "2026-11-22T20:04:38.329Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nAllow: /\nDisallow: /explorer/\n",
+      "url": "https://hashvault.pro/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html ng-controller=\"HashVaultCtrl as hvCtrl\" lang=\"{{hvCtrl.locale}}\" ng-app=\"hv\" ng-cloak ng-strict-di><head><title>{{hvCtrl.pool.coinNameCapital || 'HashVault'}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}} - HashVault.pro</title><meta charset=\"utf-8\"><meta name=\"description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards. World class service at a low 0.9% fee. HashVault keeps your rig hash rate secure!\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><meta property=\"og:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><!-- Canonical pinned to the primary domain so mirrors don't compete in\n       search results. href is kept interpolation-free (Angular forbids\n       concatenation in link[href]) - app.controller.js appends the coin. --><link id=\"canonical-link\" rel=\"canonical\" href=\"https://hashvault.pro/\"><meta property=\"og:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><meta name=\"twitter:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><meta name=\"twitter:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta name=\"twitter:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"theme-color\" content=\"{{hvCtrl.pool.coinColor || '#ff6600'}}\"><meta property=\"og:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><link rel=\"preconnect\" href=\"\"><link rel=\"preconnect\" href=\"https://api.hashvault.pro\"><link rel=\"preconnect\" href=\"https://robohash.org\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"><link rel=\"preload\" href=\"/static/styles/app-409eb22f4a.min.css\" as=\"style\"><link rel=\"preload\" href=\"/static/scripts/vendor-55d05f7f63.min.js\" as=\"script\"><link rel=\"preload\" href=\"/static/scripts/app-1e2d10354e.min.js\" as=\"script\"><base href=\"/\"><link rel=\"stylesheet\" href=\"/static/styles/app-409eb22f4a.min.css\"><script src=\"/static/scripts/vendor-55d05f7f63.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/app-1e2d10354e.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/bundle-6e3fd52349.min.js\" async></script><link id=\"favicon-manifest\" rel=\"manifest\" href=\"/static/favicon/hashvault.pro/manifest.json\"><link id=\"favicon-apple\" rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/static/favicon/hashvault.pro/apple-touch-icon-180x180.png\"><link id=\"favicon-ico\" rel=\"icon\" href=\"/static/favicon/hashvault.pro/favicon.ico\"><link id=\"favicon-16\" rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/static/favicon/hashvault.pro/favicon-16x16.png\"><link id=\"favicon-32\" rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/static/favicon/hashvault.pro/favicon-32x32.png\"><link id=\"favicon-48\" rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/static/favicon/hashvault.pro/favicon-48x48.png\"><link id=\"favicon-yandex\" rel=\"yandex-tableau-widget\" href=\"/static/favicon/hashvault.pro/yandex-browser-manifest.json\"></head><body layout=\"column\" ng-class=\"[hvCtrl.pool.coinNameSmall || 'landing', {true:'dark',false:'light'}[hvCtrl.theme.darkTheme], {'ru-lang':hvCtrl.locale=='ru','en-lang':hvCtrl.locale=='en'}, {'is-landing': hvCtrl.isLanding}]\"><aside class=\"hv-sidebar\" ng-class=\"{'is-open': hvCtrl.sidebarService.isOpen}\" ng-if=\"!hvCtrl.isLanding\"><hv-sidebar></hv-sidebar></aside><div class=\"hv-sidebar-backdrop\" ng-class=\"{'is-visible': hvCtrl.sidebarService.isOpen}\" ng-click=\"hvCtrl.sidebarService.close()\" ng-if=\"!hvCtrl.isLanding\"></div><div class=\"hv-main-content\"><md-content flex id=\"main\"><div id=\"content\" flex><hv-topbar></hv-topbar><hv-pool-stats ng-if=\"!hvCtrl.isLanding\"></hv-pool-stats><ui-view></ui-view><hv-footer></hv-footer></div></md-content></div></body></html>",
+      "url": "https://hashvault.pro/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html ng-controller=\"HashVaultCtrl as hvCtrl\" lang=\"{{hvCtrl.locale}}\" ng-app=\"hv\" ng-cloak ng-strict-di><head><title>{{hvCtrl.pool.coinNameCapital || 'HashVault'}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}} - HashVault.pro</title><meta charset=\"utf-8\"><meta name=\"description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards. World class service at a low 0.9% fee. HashVault keeps your rig hash rate secure!\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><meta property=\"og:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><!-- Canonical pinned to the primary domain so mirrors don't compete in\n       search results. href is kept interpolation-free (Angular forbids\n       concatenation in link[href]) - app.controller.js appends the coin. --><link id=\"canonical-link\" rel=\"canonical\" href=\"https://hashvault.pro/\"><meta property=\"og:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><meta name=\"twitter:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><meta name=\"twitter:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta name=\"twitter:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"theme-color\" content=\"{{hvCtrl.pool.coinColor || '#ff6600'}}\"><meta property=\"og:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><link rel=\"preconnect\" href=\"\"><link rel=\"preconnect\" href=\"https://api.hashvault.pro\"><link rel=\"preconnect\" href=\"https://robohash.org\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"><link rel=\"preload\" href=\"/static/styles/app-409eb22f4a.min.css\" as=\"style\"><link rel=\"preload\" href=\"/static/scripts/vendor-55d05f7f63.min.js\" as=\"script\"><link rel=\"preload\" href=\"/static/scripts/app-1e2d10354e.min.js\" as=\"script\"><base href=\"/\"><link rel=\"stylesheet\" href=\"/static/styles/app-409eb22f4a.min.css\"><script src=\"/static/scripts/vendor-55d05f7f63.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/app-1e2d10354e.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/bundle-6e3fd52349.min.js\" async></script><link id=\"favicon-manifest\" rel=\"manifest\" href=\"/static/favicon/hashvault.pro/manifest.json\"><link id=\"favicon-apple\" rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/static/favicon/hashvault.pro/apple-touch-icon-180x180.png\"><link id=\"favicon-ico\" rel=\"icon\" href=\"/static/favicon/hashvault.pro/favicon.ico\"><link id=\"favicon-16\" rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/static/favicon/hashvault.pro/favicon-16x16.png\"><link id=\"favicon-32\" rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/static/favicon/hashvault.pro/favicon-32x32.png\"><link id=\"favicon-48\" rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/static/favicon/hashvault.pro/favicon-48x48.png\"><link id=\"favicon-yandex\" rel=\"yandex-tableau-widget\" href=\"/static/favicon/hashvault.pro/yandex-browser-manifest.json\"></head><body layout=\"column\" ng-class=\"[hvCtrl.pool.coinNameSmall || 'landing', {true:'dark',false:'light'}[hvCtrl.theme.darkTheme], {'ru-lang':hvCtrl.locale=='ru','en-lang':hvCtrl.locale=='en'}, {'is-landing': hvCtrl.isLanding}]\"><aside class=\"hv-sidebar\" ng-class=\"{'is-open': hvCtrl.sidebarService.isOpen}\" ng-if=\"!hvCtrl.isLanding\"><hv-sidebar></hv-sidebar></aside><div class=\"hv-sidebar-backdrop\" ng-class=\"{'is-visible': hvCtrl.sidebarService.isOpen}\" ng-click=\"hvCtrl.sidebarService.close()\" ng-if=\"!hvCtrl.isLanding\"></div><div class=\"hv-main-content\"><md-content flex id=\"main\"><div id=\"content\" flex><hv-topbar></hv-topbar><hv-pool-stats ng-if=\"!hvCtrl.isLanding\"></hv-pool-stats><ui-view></ui-view><hv-footer></hv-footer></div></md-content></div></body></html>",
+      "url": "https://hashvault.pro/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html ng-controller=\"HashVaultCtrl as hvCtrl\" lang=\"{{hvCtrl.locale}}\" ng-app=\"hv\" ng-cloak ng-strict-di><head><title>{{hvCtrl.pool.coinNameCapital || 'HashVault'}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}} - HashVault.pro</title><meta charset=\"utf-8\"><meta name=\"description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards. World class service at a low 0.9% fee. HashVault keeps your rig hash rate secure!\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><meta property=\"og:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><!-- Canonical pinned to the primary domain so mirrors don't compete in\n       search results. href is kept interpolation-free (Angular forbids\n       concatenation in link[href]) - app.controller.js appends the coin. --><link id=\"canonical-link\" rel=\"canonical\" href=\"https://hashvault.pro/\"><meta property=\"og:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><meta name=\"twitter:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><meta name=\"twitter:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta name=\"twitter:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"theme-color\" content=\"{{hvCtrl.pool.coinColor || '#ff6600'}}\"><meta property=\"og:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><link rel=\"preconnect\" href=\"\"><link rel=\"preconnect\" href=\"https://api.hashvault.pro\"><link rel=\"preconnect\" href=\"https://robohash.org\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"><link rel=\"preload\" href=\"/static/styles/app-409eb22f4a.min.css\" as=\"style\"><link rel=\"preload\" href=\"/static/scripts/vendor-55d05f7f63.min.js\" as=\"script\"><link rel=\"preload\" href=\"/static/scripts/app-1e2d10354e.min.js\" as=\"script\"><base href=\"/\"><link rel=\"stylesheet\" href=\"/static/styles/app-409eb22f4a.min.css\"><script src=\"/static/scripts/vendor-55d05f7f63.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/app-1e2d10354e.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/bundle-6e3fd52349.min.js\" async></script><link id=\"favicon-manifest\" rel=\"manifest\" href=\"/static/favicon/hashvault.pro/manifest.json\"><link id=\"favicon-apple\" rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/static/favicon/hashvault.pro/apple-touch-icon-180x180.png\"><link id=\"favicon-ico\" rel=\"icon\" href=\"/static/favicon/hashvault.pro/favicon.ico\"><link id=\"favicon-16\" rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/static/favicon/hashvault.pro/favicon-16x16.png\"><link id=\"favicon-32\" rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/static/favicon/hashvault.pro/favicon-32x32.png\"><link id=\"favicon-48\" rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/static/favicon/hashvault.pro/favicon-48x48.png\"><link id=\"favicon-yandex\" rel=\"yandex-tableau-widget\" href=\"/static/favicon/hashvault.pro/yandex-browser-manifest.json\"></head><body layout=\"column\" ng-class=\"[hvCtrl.pool.coinNameSmall || 'landing', {true:'dark',false:'light'}[hvCtrl.theme.darkTheme], {'ru-lang':hvCtrl.locale=='ru','en-lang':hvCtrl.locale=='en'}, {'is-landing': hvCtrl.isLanding}]\"><aside class=\"hv-sidebar\" ng-class=\"{'is-open': hvCtrl.sidebarService.isOpen}\" ng-if=\"!hvCtrl.isLanding\"><hv-sidebar></hv-sidebar></aside><div class=\"hv-sidebar-backdrop\" ng-class=\"{'is-visible': hvCtrl.sidebarService.isOpen}\" ng-click=\"hvCtrl.sidebarService.close()\" ng-if=\"!hvCtrl.isLanding\"></div><div class=\"hv-main-content\"><md-content flex id=\"main\"><div id=\"content\" flex><hv-topbar></hv-topbar><hv-pool-stats ng-if=\"!hvCtrl.isLanding\"></hv-pool-stats><ui-view></ui-view><hv-footer></hv-footer></div></md-content></div></body></html>",
+      "url": "https://hashvault.pro/",
+      "title": "{{hvCtrl.pool.coinNameCapital || 'HashVault'}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}} - HashVault.pro",
+      "meta": {
+        "description": "{{hvCtrl.pool.coinNameCapital ||"
+      }
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html ng-controller=\"HashVaultCtrl as hvCtrl\" lang=\"{{hvCtrl.locale}}\" ng-app=\"hv\" ng-cloak ng-strict-di><head><title>{{hvCtrl.pool.coinNameCapital || 'HashVault'}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}} - HashVault.pro</title><meta charset=\"utf-8\"><meta name=\"description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards. World class service at a low 0.9% fee. HashVault keeps your rig hash rate secure!\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><meta property=\"og:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><!-- Canonical pinned to the primary domain so mirrors don't compete in\n       search results. href is kept interpolation-free (Angular forbids\n       concatenation in link[href]) - app.controller.js appends the coin. --><link id=\"canonical-link\" rel=\"canonical\" href=\"https://hashvault.pro/\"><meta property=\"og:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><meta name=\"twitter:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><meta name=\"twitter:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta name=\"twitter:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"theme-color\" content=\"{{hvCtrl.pool.coinColor || '#ff6600'}}\"><meta property=\"og:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><link rel=\"preconnect\" href=\"\"><link rel=\"preconnect\" href=\"https://api.hashvault.pro\"><link rel=\"preconnect\" href=\"https://robohash.org\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"><link rel=\"preload\" href=\"/static/styles/app-409eb22f4a.min.css\" as=\"style\"><link rel=\"preload\" href=\"/static/scripts/vendor-55d05f7f63.min.js\" as=\"script\"><link rel=\"preload\" href=\"/static/scripts/app-1e2d10354e.min.js\" as=\"script\"><base href=\"/\"><link rel=\"stylesheet\" href=\"/static/styles/app-409eb22f4a.min.css\"><script src=\"/static/scripts/vendor-55d05f7f63.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/app-1e2d10354e.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/bundle-6e3fd52349.min.js\" async></script><link id=\"favicon-manifest\" rel=\"manifest\" href=\"/static/favicon/hashvault.pro/manifest.json\"><link id=\"favicon-apple\" rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/static/favicon/hashvault.pro/apple-touch-icon-180x180.png\"><link id=\"favicon-ico\" rel=\"icon\" href=\"/static/favicon/hashvault.pro/favicon.ico\"><link id=\"favicon-16\" rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/static/favicon/hashvault.pro/favicon-16x16.png\"><link id=\"favicon-32\" rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/static/favicon/hashvault.pro/favicon-32x32.png\"><link id=\"favicon-48\" rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/static/favicon/hashvault.pro/favicon-48x48.png\"><link id=\"favicon-yandex\" rel=\"yandex-tableau-widget\" href=\"/static/favicon/hashvault.pro/yandex-browser-manifest.json\"></head><body layout=\"column\" ng-class=\"[hvCtrl.pool.coinNameSmall || 'landing', {true:'dark',false:'light'}[hvCtrl.theme.darkTheme], {'ru-lang':hvCtrl.locale=='ru','en-lang':hvCtrl.locale=='en'}, {'is-landing': hvCtrl.isLanding}]\"><aside class=\"hv-sidebar\" ng-class=\"{'is-open': hvCtrl.sidebarService.isOpen}\" ng-if=\"!hvCtrl.isLanding\"><hv-sidebar></hv-sidebar></aside><div class=\"hv-sidebar-backdrop\" ng-class=\"{'is-visible': hvCtrl.sidebarService.isOpen}\" ng-click=\"hvCtrl.sidebarService.close()\" ng-if=\"!hvCtrl.isLanding\"></div><div class=\"hv-main-content\"><md-content flex id=\"main\"><div id=\"content\" flex><hv-topbar></hv-topbar><hv-pool-stats ng-if=\"!hvCtrl.isLanding\"></hv-pool-stats><ui-view></ui-view><hv-footer></hv-footer></div></md-content></div></body></html>",
+      "url": "https://hashvault.pro/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html ng-controller=\"HashVaultCtrl as hvCtrl\" lang=\"{{hvCtrl.locale}}\" ng-app=\"hv\" ng-cloak ng-strict-di><head><title>{{hvCtrl.pool.coinNameCapital || 'HashVault'}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}} - HashVault.pro</title><meta charset=\"utf-8\"><meta name=\"description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards. World class service at a low 0.9% fee. HashVault keeps your rig hash rate secure!\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><meta property=\"og:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><!-- Canonical pinned to the primary domain so mirrors don't compete in\n       search results. href is kept interpolation-free (Angular forbids\n       concatenation in link[href]) - app.controller.js appends the coin. --><link id=\"canonical-link\" rel=\"canonical\" href=\"https://hashvault.pro/\"><meta property=\"og:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><meta name=\"twitter:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><meta name=\"twitter:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta name=\"twitter:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"theme-color\" content=\"{{hvCtrl.pool.coinColor || '#ff6600'}}\"><meta property=\"og:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><link rel=\"preconnect\" href=\"\"><link rel=\"preconnect\" href=\"https://api.hashvault.pro\"><link rel=\"preconnect\" href=\"https://robohash.org\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"><link rel=\"preload\" href=\"/static/styles/app-409eb22f4a.min.css\" as=\"style\"><link rel=\"preload\" href=\"/static/scripts/vendor-55d05f7f63.min.js\" as=\"script\"><link rel=\"preload\" href=\"/static/scripts/app-1e2d10354e.min.js\" as=\"script\"><base href=\"/\"><link rel=\"stylesheet\" href=\"/static/styles/app-409eb22f4a.min.css\"><script src=\"/static/scripts/vendor-55d05f7f63.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/app-1e2d10354e.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/bundle-6e3fd52349.min.js\" async></script><link id=\"favicon-manifest\" rel=\"manifest\" href=\"/static/favicon/hashvault.pro/manifest.json\"><link id=\"favicon-apple\" rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/static/favicon/hashvault.pro/apple-touch-icon-180x180.png\"><link id=\"favicon-ico\" rel=\"icon\" href=\"/static/favicon/hashvault.pro/favicon.ico\"><link id=\"favicon-16\" rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/static/favicon/hashvault.pro/favicon-16x16.png\"><link id=\"favicon-32\" rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/static/favicon/hashvault.pro/favicon-32x32.png\"><link id=\"favicon-48\" rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/static/favicon/hashvault.pro/favicon-48x48.png\"><link id=\"favicon-yandex\" rel=\"yandex-tableau-widget\" href=\"/static/favicon/hashvault.pro/yandex-browser-manifest.json\"></head><body layout=\"column\" ng-class=\"[hvCtrl.pool.coinNameSmall || 'landing', {true:'dark',false:'light'}[hvCtrl.theme.darkTheme], {'ru-lang':hvCtrl.locale=='ru','en-lang':hvCtrl.locale=='en'}, {'is-landing': hvCtrl.isLanding}]\"><aside class=\"hv-sidebar\" ng-class=\"{'is-open': hvCtrl.sidebarService.isOpen}\" ng-if=\"!hvCtrl.isLanding\"><hv-sidebar></hv-sidebar></aside><div class=\"hv-sidebar-backdrop\" ng-class=\"{'is-visible': hvCtrl.sidebarService.isOpen}\" ng-click=\"hvCtrl.sidebarService.close()\" ng-if=\"!hvCtrl.isLanding\"></div><div class=\"hv-main-content\"><md-content flex id=\"main\"><div id=\"content\" flex><hv-topbar></hv-topbar><hv-pool-stats ng-if=\"!hvCtrl.isLanding\"></hv-pool-stats><ui-view></ui-view><hv-footer></hv-footer></div></md-content></div></body></html>",
+      "url": "https://hashvault.pro/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html ng-controller=\"HashVaultCtrl as hvCtrl\" lang=\"{{hvCtrl.locale}}\" ng-app=\"hv\" ng-cloak ng-strict-di><head><title>{{hvCtrl.pool.coinNameCapital || 'HashVault'}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}} - HashVault.pro</title><meta charset=\"utf-8\"><meta name=\"description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards. World class service at a low 0.9% fee. HashVault keeps your rig hash rate secure!\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><meta property=\"og:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><!-- Canonical pinned to the primary domain so mirrors don't compete in\n       search results. href is kept interpolation-free (Angular forbids\n       concatenation in link[href]) - app.controller.js appends the coin. --><link id=\"canonical-link\" rel=\"canonical\" href=\"https://hashvault.pro/\"><meta property=\"og:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"HashVault {{hvCtrl.pool.coinNameCapital || ''}} Mining Pool{{hvCtrl.isLanding ? 's' : ''}}\"><meta name=\"twitter:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><meta name=\"twitter:url\" content=\"https://hashvault.pro/{{hvCtrl.pool.coinNameSmall || ''}}\"><meta name=\"twitter:image\" ng-if=\"hvCtrl.pool.apiUrl\" content=\"{{hvCtrl.pool.apiUrl}}/pool/chart/hashrateAndMiners.png\"><meta name=\"theme-color\" content=\"{{hvCtrl.pool.coinColor || '#ff6600'}}\"><meta property=\"og:description\" content=\"{{hvCtrl.pool.coinNameCapital || 'Cryptocurrency'}} mining pool, PPLNS or SOLO with hourly payments. Data rich interface, global servers, predictable and proven rewards.\"><link rel=\"preconnect\" href=\"\"><link rel=\"preconnect\" href=\"https://api.hashvault.pro\"><link rel=\"preconnect\" href=\"https://robohash.org\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"><link rel=\"preload\" href=\"/static/styles/app-409eb22f4a.min.css\" as=\"style\"><link rel=\"preload\" href=\"/static/scripts/vendor-55d05f7f63.min.js\" as=\"script\"><link rel=\"preload\" href=\"/static/scripts/app-1e2d10354e.min.js\" as=\"script\"><base href=\"/\"><link rel=\"stylesheet\" href=\"/static/styles/app-409eb22f4a.min.css\"><script src=\"/static/scripts/vendor-55d05f7f63.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/app-1e2d10354e.min.js\" defer=\"defer\"></script><script src=\"/static/scripts/bundle-6e3fd52349.min.js\" async></script><link id=\"favicon-manifest\" rel=\"manifest\" href=\"/static/favicon/hashvault.pro/manifest.json\"><link id=\"favicon-apple\" rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/static/favicon/hashvault.pro/apple-touch-icon-180x180.png\"><link id=\"favicon-ico\" rel=\"icon\" href=\"/static/favicon/hashvault.pro/favicon.ico\"><link id=\"favicon-16\" rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/static/favicon/hashvault.pro/favicon-16x16.png\"><link id=\"favicon-32\" rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/static/favicon/hashvault.pro/favicon-32x32.png\"><link id=\"favicon-48\" rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/static/favicon/hashvault.pro/favicon-48x48.png\"><link id=\"favicon-yandex\" rel=\"yandex-tableau-widget\" href=\"/static/favicon/hashvault.pro/yandex-browser-manifest.json\"></head><body layout=\"column\" ng-class=\"[hvCtrl.pool.coinNameSmall || 'landing', {true:'dark',false:'light'}[hvCtrl.theme.darkTheme], {'ru-lang':hvCtrl.locale=='ru','en-lang':hvCtrl.locale=='en'}, {'is-landing': hvCtrl.isLanding}]\"><aside class=\"hv-sidebar\" ng-class=\"{'is-open': hvCtrl.sidebarService.isOpen}\" ng-if=\"!hvCtrl.isLanding\"><hv-sidebar></hv-sidebar></aside><div class=\"hv-sidebar-backdrop\" ng-class=\"{'is-visible': hvCtrl.sidebarService.isOpen}\" ng-click=\"hvCtrl.sidebarService.close()\" ng-if=\"!hvCtrl.isLanding\"></div><div class=\"hv-main-content\"><md-content flex id=\"main\"><div id=\"content\" flex><hv-topbar></hv-topbar><hv-pool-stats ng-if=\"!hvCtrl.isLanding\"></hv-pool-stats><ui-view></ui-view><hv-footer></hv-footer></div></md-content></div></body></html>",
+      "url": "https://hashvault.pro/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "hashvault.pro",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:04:38.329Z",
+    "score": 48,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 18,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 11 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"{{hvCtrl.pool.coinNameCapital || 'HashVa\"; meta description 33 chars (short); no date signal; body text 11 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 7,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "llms.txt references an API; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 3,
+      "l2.content-signals": 2,
+      "l3.public-api": 5,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

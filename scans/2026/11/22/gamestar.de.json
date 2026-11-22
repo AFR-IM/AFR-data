@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "gamestar.de",
+    "fetchedAt": "2026-11-22T20:01:39.821Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# Jegliche Nutzung unserer geschuetzten Inhalte, die ueber eine rein individuelle Nutzung hinausgeht (einschliesslich insbesondere das Training grosser Sprachmodelle (LLM), das Training von KI-Tools, Web-Monitoring oder Medienbeobachtung), ist an den Abschluss einer Lizenzvereinbarung mit der Webedia GmbH gebunden. Zu diesem Zweck laden wir Sie ein, sich an compliance@webedia-group.de zu wenden.\n# Jede unautorisierte Nutzung unserer geschuetzten Inhalte stellt eine Verletzung von Urheberrechten und/oder Datenbankherstellerrechten dar und kann rechtlich verfolgt werden.\n# Es ist untersagt, unsere Website mit einem gestohlenen User Agent zu crawlen, der nicht Ihrer tatsaechlichen Identitaet entspricht.\n# Die Nutzung von Webindexierungs-Robotern oder anderen automatischen Methoden zum Durchsuchen oder Navigieren dieser Website ist nicht gestattet.\n\nUser-agent: AI2Bot\nUser-agent: ChatGLM\nUser-agent: ChatGLM-Spider\nUser-agent: cohere-training-data-crawler\nUser-agent: Diffbot\nUser-agent: OmigiliBot\nUser-agent: PetalBot\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: Applebot-Extended\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ChatGPT-User\nUser-agent: ClaudeBot\nUser-agent: Claude-SearchBot\nUser-agent: Claude-User\nUser-agent: GPTBot\nUser-agent: Meta-ExternalAgent\nUser-agent: OAI-SearchBot\nUser-agent: Perplexity-User\nUser-agent: PerplexityBot\nAllow: /\nDisallow: /xenforo/\nDisallow: /gs_cb/index.cfm?event=comment\n\nUser-agent: larbin\nUser-agent: strucr\nUser-agent: psbot\nUser-agent: Python-urllib\nUser-agent: lwp-trivial/1.34\nUser-agent: lwp-trivial\nUser-agent: lwp-request\nUser-agent: MagpieRSS\nUser-agent: Custo\nUser-agent: ichiro\nUser-agent: Sensis Web Crawler\nUser-agent: IRLbot\nUser-agent: Exabot\nUser-agent: CFNetwork\nUser-agent: TencentTraveler\nUser-agent: Yandex\nUser-agent: AhrefsBot\nDisallow: /\n\n# allgemeine Regeln // andere User-Agents\n\nUser-agent: *\nDisallow: /admin/\nDisallow: /sfmxutils/\nDisallow: /lucee/\nDisallow: /cgi-bin/\nDisallow: /preisvergleich/suche/?search*\nDisallow: /community/*\nAllow: /community/leser-rezensionen/*\nDisallow: /*_comments.html\nDisallow: /_misc/polls/\nDisallow: /index.cfm*webcode=*\nDisallow: /_misc/videos/portal/teaserScreen.cfm*\nDisallow: /lookuplink/\nDisallow: /gs_cb/index.cfm*\nAllow: /gs_cb/index.cfm?event=comment*\nAllow: /gs_cb/index.cfm?event=article*\nDisallow: /gp_cb/index.cfm*\n\nDisallow: /xenforo/search/*\nDisallow: /xenforo/members/*\nDisallow: /xenforo/find-new/*\nDisallow: /xenforo/posts/*/report\n\nSitemap: https://www.gamestar.de/artikel_archiv_index.xml\nSitemap: https://www.gamestar.de/sitemapnews.xml\nSitemap: https://www.gamestar.de/sitemappages.xml\nSitemap: https://www.gamestar.de/sitemapproducts_index.xml\nSitemap: https://www.gamestar.de/sitemaphardware.xml\nSitemap: https://www.gamestar.de/video_archiv_index.xml",
+      "url": "https://www.gamestar.de/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-94QCgK0YXwPnC1fL4V1fbm&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"94QCgK0YXwPnC1fL4V1fbm\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '94l4Pu_FeotSsTmq2EdlP6NekPQ860iei9hbxl1esnc-1795377698-1.2.1.1-vo0b6DMRpAeQIXPV8Bbi4WlhNQ30FPgsH.tqOhyXDsgLr5NUZ7RBdvpxy_GhBVbx',cITimeS: '1795377698',cN: '94QCgK0YXwPnC1fL4V1fbm',cRay: 'a5ea86f77bb51770',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms.txt?__cf_chl_tk=m2IgLUWsnoJk2S2SEM05GbLc9r_dgi7nhHx_vwWJl0k-1795377698-1.0.1.1-ha__2ib8k6BN9_tIdy2ObJ5Wid2WhOCsjQK5oa1lgYU\",cvId: '3',cZone: 'gamestar.de',fa:\"/llms.txt?__cf_chl_f_tk=m2IgLUWsnoJk2S2SEM05GbLc9r_dgi7nhHx_vwWJl0k-1795377698-1.0.1.1-ha__2ib8k6BN9_tIdy2ObJ5Wid2WhOCsjQK5oa1lgYU\",md: 'wc1aj9M8ov9rKTDae909mRsMN7iflSX74KA6C9UL7U8-1795377698-1.2.1.1-seGjqtWsog_1dqpvzM43HNU4yI80VkVt7vdpDlRNrL854rB_jx.43MugoORfdfpgv9Q5HfLAafRgfVYSBngASn9RJF.dDuFkxkjHh6Q1PLG_GozhzzUVnX2frYci4ZvuMTqMikqFxyrHHkHiOGG3Bf9aT2wrLXSuTtX3nhRtyQjsrlHk3LHaZc66sqmUlvYOCYM.vljlosmUXEMsBSTnVj3otRRXRZS8nnQd_PYWJ3BL5v4jM9UTNxY9vvOPINfSh1X5JjfbdnIvFsQeVtPhPPWtZ4mENprjhjqJRNSwGrktrnojl4AVgq7d.8g29gdis1.ZNSNOIXDksuzNDNrpRbHahMxO8dzSueKFl0_m0l2FKwZF.18nPNxoOEyOTc7j3gGGcDDKw9jwbZQu6NHQPAlTGWNMznP1gzVz1UV_2wmlLb_3KvUsh7oCJfnWnyK97JMaxFI_di.XDcRziksQ8tOdl3AXdqKYX_CVxWVJuvCo7iShlJsGjryY1QMg4VXaXhtNWQuOTlkjiGgFkho3ayLEJVIgfEgMk2AMH15vslnvpKX8c6SkRe.Vk.S.cL6p7LKxyLE3yq96Bvt.nSK3oNxdMt6rFQtLAwAPufN7441Mf9K8s41MzeFrEt17iWSTBuqgpHgJHz_AdWaHpY.7lVq3GHLHsgZO9S59wOgi7aL0Y.GRx_yNWtX3c_q8eRQ01vicn89Jxl8FeKovxDIFHz25IU_SapOH8Xr2ZlCoUB8yl8Zk9DcDIxSj2jlHQXnivH8_vGIjjWV3.9kynjwHPHkHQwdxMwd0GMtwvLRURvPCkM4HrWeFQApjWiPpn2nSL9kbXz1MbTawRmtHD.aODNIcpYuYKWlnMeN3hNFsNFRN7KEnrss6zO3oqEc0iDMmXKghDrb_tyYNB1Ygxs2BNIK71OR99ipXrdzRCkicWOtBwDiEoB75gM75jtmfH5s4bi2kBK3WAjV0Adxxo58YVzlCtEZ0XGkbPu0NtAjKYK0AXxVybhAUDXz_1f2YGBq3WmG1qyhVrJ8Fbw0K7GlPVNvN0bQh9dEZpq_g5RBDTmd7z.p_50A.UTV5H2hUe7pyWsrhHQjEbgpGvJ.Gv3fNmcKE3gSVK0CFtWAu__J3DaM',mdrd: 'AQk1PuAq.wbdt6Y9EIRL7pa1B4PfD0iNPd2OW8DqDq8-1795377698-1.2.1.1-Hl3JLef01QhIg52BDZukJ6H36Frl1zJf5ePA3Qpn5bklmvsCv5ueeDFINUNeCN_gJN.bZBo.oe3C.i2IGTLKBZ3snnBhinQpncSw.KyFkQeqJFcUtAone.dyBaXn2mibIz0gpOhlfZIOnO9eX_d7WdcR.kha_8UnBg2J9dAVHEsMxhblUMnL6UBtSe.ps2s5IZP3tM3LIOiR28DzJaLY.54I7sjRT0A7h2BFoLFy1z50IHEGr65mJN4hrqJwdeCdhKT6ghqwCECCOaBd6pNAgVZvdlnI3Ct8R7Blpyp16idfPtRMl01DJYyr3apg4RYhgEP.nkYDMc_CexixSLdqdedAaRMg70Zc6MScHvZHQzLMr.tidaUBvYq5PSHlyrMOTVb8gY455g0iwh7SgRL9Pg',};var a = document.createElement('script');a.nonce = '94QCgK0YXwPnC1fL4V1fbm';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea86f77bb51770';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=m2IgLUWsnoJk2S2SEM05GbLc9r_dgi7nhHx_vwWJl0k-1795377698-1.0.1.1-ha__2ib8k6BN9_tIdy2ObJ5Wid2WhOCsjQK5oa1lgYU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://gamestar.de/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-R9LWsSz6vLo8CEhMMoO4NB&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"R9LWsSz6vLo8CEhMMoO4NB\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'DEOVHdGe9b0MsQAqH9gQ7Gs3dcXvcXD2W8llBykQBm0-1795377698-1.2.1.1-pJbvV1_YEjurXT79jC4S5Q7.TDZkD.v.GODFgFkCJ0DPTboCd5Biec7ScTnt6plu',cITimeS: '1795377698',cN: 'R9LWsSz6vLo8CEhMMoO4NB',cRay: 'a5ea86f89d690777',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=N3nuqXEFfXP2YhfBHcOmVoXVg9XzH3VSQnOSQ8NV92Y-1795377698-1.0.1.1-ZZFA7dOgORurHNReVvXsiirok9tS3pEeDhwlsbe1IFc\",cvId: '3',cZone: 'gamestar.de',fa:\"/llms-full.txt?__cf_chl_f_tk=N3nuqXEFfXP2YhfBHcOmVoXVg9XzH3VSQnOSQ8NV92Y-1795377698-1.0.1.1-ZZFA7dOgORurHNReVvXsiirok9tS3pEeDhwlsbe1IFc\",md: 'j305jbu1WbX_3PYcybOJ7q7LoW734QEK6xkPeni4mOs-1795377698-1.2.1.1-arUFZBVgI_T6xXkGe9TtPl1xF96unukRq82TgjyMQr.xmXTnVTwaXZwurxV3ragO1P1kby4CURaNCOc6TiUuX1ovYxGGsfoXYptCYGosLXE.fCV5UKl03HAJgHiZchP2jKRQIkTPN2hngpUG_TRv9m5dqMeahExAeEL2dKJenPUY8z_vHplz_Fq7Op7E2S9sn84_Py7cy5eUsxt2GzjRHeQJbtlchIZYPU11xSqelgsbtSWnSduuXy98_1tg2bvH0adG919vAqK9dCsSoQpdxVrPNU3rUfiXELdculNq0XOq_ZZQscV11Pu6viIwIvPfUUD43tY9LO_Vj.eLAa3va__Ogg2mvTRYNzxOLo4HTrGmbUqH8qNzI_WTZY1JdmD_gsoLLR.gHgMu9Ek.2A4lTvrg4u0uEj39x7_LANRRRWvCfbyGajfzPdaIAN1vg_lZx0pKPSWqLQRQ2Kw15Kur7UbD2U3KiVwa1DmY7E4YnokKn8hFP37ObtmxsvkzEsHsECBHUk0cpkdipzxeB_DpDZB9dMiGbKafRJrGRTMYQacIkTAplNsmxtHnQJP1tZU6g5JfCL9Htn7GZ7peLYkIlkU4Xw8Fjo9bORP53Iz8VM21kgk1XcU2h8nmMi8THTtT9JxQ2Trs6OSmlIhgFAgGR.Y7q3d8w2P0Ug8czD6t6ygQZxXDwfdqlkOV.OEFX7zkMFgdqqvxxDyvv.rhLP1HEBxyjqSIisw9mTIOCBpho7lZdEuRnY3DYiupk06OOuijnLpmNvqFfxQToEEe4_RLk.BfdaxOM0Lju_4Hxa6KkFC2EoFIoJnkkh8hXIt2Uzgumlmu7q4WKMBWvLJC08PR8oHuCgFe2uGV7mHeB.6HfJiUCz16Tfd7SeSHSsK3ZVEGTNlV848_sAXMCVPwYPn8tnpKM6.fEz6SU3yurrE_qYYHzDiqHPvr5XYfiDafOiNsKFUWOb49gfBI2QqIfuB8lQ4uh8eeSt0VupLtzG2k4mJR2oYEgvxmAt.QdlZbx0TfE7hwHURAOGZqzEcEzxOpKlT36ze7m95iuGrwSBucjGeQgPB0etWgAmz6TFGZn06p43EU5LVBYjKD61wczA8Lk3mI.uTk5Np_4UXIJpwTKKU',mdrd: 'EFeDkspJsVySoxcJwFyPtc6NkzqChjpAhEE2KlqeHaU-1795377698-1.2.1.1-o1nCwnhBki9iT6K62WZkA9zTIQTEdhR1rm76RY7AFFOBvaahTA9MHDkkBNEbvVooDuJGA.6IV2Fk6DmWuYBE9ruRcFAeFBZWSrHOD8tA8Hw2Cs9TTKiSRYzvvHjmH447Mp96wY2efbXRa7Wy_gaEG1UDDeWz4pyvh_V0vCVR3MvJvHv_k0D_FdQ364jHAJGYab258ew7zBzMzVsKHbHUPv4Rv84ik2G2pxpuQARHu.DRR4.3We0mfCvmjl0LLoKbevIC7rbWEJ3iF6rbGa_6RxHUbt5k9d.62qMJTvY4xpD8g_1SqWtnFNwsYHer8Iflkg_z2WSMGliVxz3mdI5OEWU_6rm3.LTMNrvg3yIjelq3INQ4PmjmXmXDS_PLliM.kGwmHsDb.gZReJWDZnOTtg',};var a = document.createElement('script');a.nonce = 'R9LWsSz6vLo8CEhMMoO4NB';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea86f89d690777';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=N3nuqXEFfXP2YhfBHcOmVoXVg9XzH3VSQnOSQ8NV92Y-1795377698-1.0.1.1-ZZFA7dOgORurHNReVvXsiirok9tS3pEeDhwlsbe1IFc\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://gamestar.de/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-xS7utYhrfWLQHJdfkOEU1X&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"xS7utYhrfWLQHJdfkOEU1X\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'gV9rGrGm8DvKP8DjmDt3LAhIdH.vA9AeF90fRj07674-1795377698-1.2.1.1-ihfZV.YPP1ciPH9cyJWDI9pAogF3MNzbZBULlWrbk.dblOVKTv700pC6pHhTFLpT',cITimeS: '1795377698',cN: 'xS7utYhrfWLQHJdfkOEU1X',cRay: 'a5ea86f9b9065328',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=gn9ika6YOP9HFVLEciYcwihGVRfaO6na5gOMmLzh8jA-1795377698-1.0.1.1-gTQpo8Xqkj62Q0tPkyZFoB3eXhtxwXs9MSHzPRh5Elw\",cvId: '3',cZone: 'gamestar.de',fa:\"/?__cf_chl_f_tk=gn9ika6YOP9HFVLEciYcwihGVRfaO6na5gOMmLzh8jA-1795377698-1.0.1.1-gTQpo8Xqkj62Q0tPkyZFoB3eXhtxwXs9MSHzPRh5Elw\",md: 'qE7AwowzQm67UVJmkFB1.jrnFDA2dwYt6VXGNqEdiQc-1795377698-1.2.1.1-tOqgQuGkrRZ8v5WAMxmf_EtfHmJbh9rl7rkBNEUUENx69GZeuY72KdP2Pu3Hg9bJAC8NAPCYDLT_ccAdPHC4o3Dlv2pl6ahvamHvrdVLi0aQxCPQXdVIY8oOsNi9P1_RMsPDvqkJHZHgB99gHRaDdM3sY7QeckffJQucSCfPfhCkJdy3mb65n0cVl3g4NilBB0W6qYPMsVaf_cg8JJ_q8r3Bqj6weu8Iy1YJO9jP065P6nlhdRyTXMpUYy9UqpJT5RrfdSLNSd7XNkemZ2h0l7THiB0QGPi1oNdmDGnELciETH.n5l2xik7ttrkqqjw7yG673_4P.gYfArxkA_fMcOMo0iJi1K4CFqRizexE07uESnUEmcYn8hed_lXPPeOniDhGhaKCxwGV_.KXIW7VYfoOpDb51bTIGyvqZlySr4qaIsdO7TzjWrKBb48c7DbPh0RYJTFRLdb5LntMH_9BpfDMNya2.RGxTh9NJcylJpIlcWJLGMNy.E6BM2iFAJfx5g3CYBTFPV44jTUdYAVQpbs.sPUMT7.uNzcOXVQZ3ogDKLf9b4VTU6EUGOrg6501YJ1LNQl3.mpIzRyWcI7uaZSr9jEeanueHIKHytJ2kgD8__U0Ck9urGn2z6jDmodvMgyzucPXVvPP_I1Zkw.jXa6FzbU8IlmgzomDEe9_sjuVqP9VIKkXC_Sf7dx9JHgwmfy9cQhKZyETkJA3zBgGRYN2uD_AdKQh090Kmn4fVNiLXYX5W_A6sk6J4Spue8fQfguFAMoPWwBwR8WV5iB3Vva3kdTbUsY7fD9HZEQ8c0MGJsvJ3f6.J1L6_t0oKQf_OXskuU6hgFu8mHACAZTOFpGFRx1tJ.lymCDEhIxwntF0o6tJPv4rMYJV0GIGL6WLxHOyC0aovLN2M5NSpeE9Ydg8ogHHQT4K_ICzOJFuh5YJ220Bx9nPzAExjDXn6KE9ZMeet9nf7AWSQLfetVzsgr8STze4Enan36JBTtA56XZWK8WQo3RskjQOPefZ7pxhiqM29L8ZP1UyBxqGAbWFHW1fatwvHqXU9.6Jy9WW3rJookA0CM6a3LQysOsepc1XqT3WWPArpjkwtY3_xiHF607TYzWpRmwZAuZmis6Y7xI',mdrd: 'F2mNCi4a.nl243rod9J2VeZ1tScW.LHOURFje3wDWcI-1795377698-1.2.1.1-1JZeVjNF1TLL5WzK.etF6p8XWFxLjC56O0fy12BlHSA11DpLqE..h.goe.sTpX9sHYaxq56KYdfEcG.sD0dz2n88jbJLqFet8V94rDG2zArReU88bFf_5Tz1qowsyxR59XH6cjoIVLObcO.Tuw7Zolkh1DoqBJuAiNGvQkT0HgFtLtXfGkwXEA5zj3WN24aEm5mHUPdeHq.UFBY3.vQgK0QV0WjLxCFizgWl8B3WTEE1XEaoFc2pS788Di6vjCwIzGt01MR3q2jrkf3BO6vAuVlkMpJ6xW43vHxiERvUgjQgcJxP7nCKExJL_yqheFp8pQx7NU7B_JlhorZJiXQlY0brLPI2QeA35DVpCMx6jz.FDNsH3L0AJQ4hgQZ4MR0sdx91VjQbwumTXiuOD0xU0A',};var a = document.createElement('script');a.nonce = 'xS7utYhrfWLQHJdfkOEU1X';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea86f9b9065328';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=gn9ika6YOP9HFVLEciYcwihGVRfaO6na5gOMmLzh8jA-1795377698-1.0.1.1-gTQpo8Xqkj62Q0tPkyZFoB3eXhtxwXs9MSHzPRh5Elw\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://gamestar.de/",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-0zy4SBHlMToGlIbcfmSGWJ&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"0zy4SBHlMToGlIbcfmSGWJ\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'gsaovNTSbCkbDe5uxP1PDu8G_lEgHP6CmZFAXF4HaJA-1795377699-1.2.1.1-QhLKoPcyMFPiHhLnZNd95RqHbLPcl8PNDKaZ5EH3p9Lt8oFbUCzomzFt3yOmiZzJ',cITimeS: '1795377699',cN: '0zy4SBHlMToGlIbcfmSGWJ',cRay: 'a5ea86faddc398dc',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/artikel_archiv_index.xml?__cf_chl_tk=fgkSXRsqkDHTbEZMagGNGtiL.xadX_IBAvRjiaSdJGY-1795377699-1.0.1.1-PksdigfxaZh7CAU8aP9HsxE77vAv66RdUH4ljh_nrZQ\",cvId: '3',cZone: 'www.gamestar.de',fa:\"/artikel_archiv_index.xml?__cf_chl_f_tk=fgkSXRsqkDHTbEZMagGNGtiL.xadX_IBAvRjiaSdJGY-1795377699-1.0.1.1-PksdigfxaZh7CAU8aP9HsxE77vAv66RdUH4ljh_nrZQ\",md: 's9AByjG.KmM_8YwWF5GDigJ.qBu_RKYdo4tYjRjYiD0-1795377699-1.2.1.1-bSUPddErnYULkpkhwUPWIEd9VGewLTGzwvg7rV9rlZ22QmVzrHnRTeRPmVyk0DwPwpyCB.aMDaA02KaM5yoZVVL0CWX4av00xnDy9aWhrfj.zhJt8GH6h_6Hhf.XRlDRKTzLG5OwHqK.Yy4sJ_x8tuJIC4s2FGsEhcXP3ScGaPaHNbRuTcOOs1UPAE3ZV0ZEcckSSBsNnw1AkPQnMmbTUe5Cq1x250VoooLUeUDj8FvTtYjHZ7cw5eA76w1k5JA7pYvSVcCqHg4DTn5m0tI9j2FuJuBNqSq4OZUSBhNGdIUy0JxjcDU1qu0EpdQAqU_rdPnKKVuLGJeJefBCo27H1NnhTo8umqGOIyg6bZ.JaPKhH.mbTl2F6Y5nv0s2RcZ6MjPv6PbGL.yW1VT80yrhy.7HTV4PduLq.EjvmR2gDfelI3TccpvFtpqoUUIK6Y1URF2FUYBRHP.yoMhphZI1HCxB.N.r7vjy_owaQjXH9o7YwnrP_391dYjK44jankc3H37NygHRrv5VvVoahQ77PVNDISVs5hzYCpGtVKMFNaqwMgArpcdNGJ1Czrp3xRmt3PBkvh6maOV2_b6y6lvFPrbTQycOkmKg3UlKR7bOtvbTfo6x1JnF8UtD5JGSSN98OoPycUOcEcAvicVAiB.dejbMWgiH.7kNZNOcumAutDyC_3JhiRNteBYj8crOaD.L29qrE0zGu3rz.f8MEX0gzmt0omLNkQMMOYujFaDUaQJHiSPIaUJNw2c_mTpE.4khV2YpJHgFj1Y39Z4NES2zOCaid0Fe59vWnROvMB3J5e9P5FPRXumpwQvpEbj8nDNGlOb2liRfgmqmJuuy91v5Ix_HBml4cTshq3yx390llCZmsxOh8ZvGZSoMrQ8IwCCc3de78wQJo7omjCFh.mwcPhH62syWjKnvn8lv7bj_Ob9kMnwuTyW1OETn60QAvKPxUCqR5mVsjv2g7yp3Jx4o0DP1q41ljcTq4O45di4jt.Hgc_VDlBKdT.X8doect_61pDcSM03aDRzML7vecm9aOUQJniO6qST6Ic9ZD9RQb.cFIhPoCqZrQg6Qv2RNgKiBdJkobd_8G28D87SaKdLpXt.YAQbRR2xKr7dCqQIfA6c3TZePvpA3lx.eK9xCOFp.',mdrd: 'mmZhDwTumP9fF85FpOyKAQ5B5Hxr83mLJN7W1JcFzq8-1795377699-1.2.1.1-C8Eh18BMm8nlr4b8Pv.3vEu0xNNRNeZf0DP9wGVi9ueFYU6uqI7YymDw8XkjpnRuVJgtfs0ZsxLgYUr9muYUfMUXbncnzwv_kYWCto9SMxlPHao9fHo_HiwjcJc_MDOy401WdYYkDGO8y75HbzazXw_21eETXeLhUpfSg_3e0IPocp7D0LR8OeTTW2a70uc7D2Jo_JOe3DKg75bwv5Kpgr7160GqnUfwx6gbAiFavhDtXMc8VW9vLJ1u4BiPzCcjWUyntTOilTMxryLw_dpE1rfzl2cUo4teCMmMkhxhPBwtzDbKhti5RM1Wdm3GjBjgouXyCvil5zAZ1a2A2LzRtNckzJ95685PTha0TFNDcj68AW92y7QzEy1iMRVPMkhbQ8UXMJn..ih9nBdztzqT2mP_40uEhOmbRwjDACQJiUY',};var a = document.createElement('script');a.nonce = '0zy4SBHlMToGlIbcfmSGWJ';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea86faddc398dc';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/artikel_archiv_index.xml?__cf_chl_rt_tk=fgkSXRsqkDHTbEZMagGNGtiL.xadX_IBAvRjiaSdJGY-1795377699-1.0.1.1-PksdigfxaZh7CAU8aP9HsxE77vAv66RdUH4ljh_nrZQ\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.gamestar.de/artikel_archiv_index.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-mkYJuwyMlcqQ7oc37NSoYH&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"mkYJuwyMlcqQ7oc37NSoYH\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'sj51wp7n7jEa9UP7tgtNeBJY.yjmY2hr45jjtlBQKGc-1795377699-1.2.1.1-ex3uVwtc6D9yiUum0GsL9vrHdq_OmF9KrIAHxH1PLH_5rL9cZLQwMEaPphGThGfC',cITimeS: '1795377699',cN: 'mkYJuwyMlcqQ7oc37NSoYH',cRay: 'a5ea86fbfa73be87',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=YXpstLlTBu72JqdAUlXUnOZJDyNKe1JRZT9qqwEcsUI-1795377699-1.0.1.1-A8MvrGfrmJcsMPVqAuEQVFofKP4vW.3mk_dOa.rO.Q0\",cvId: '3',cZone: 'gamestar.de',fa:\"/agents.md?__cf_chl_f_tk=YXpstLlTBu72JqdAUlXUnOZJDyNKe1JRZT9qqwEcsUI-1795377699-1.0.1.1-A8MvrGfrmJcsMPVqAuEQVFofKP4vW.3mk_dOa.rO.Q0\",md: '0EbvNUiDtXDqyPRksrb9ac7CRw4ZSWQJ9s6ystG6F5A-1795377699-1.2.1.1-T14dEq1EHAq9JfN1bXrho5E2frs1663.V2CWWxqM.i4RZT6kaD1s0YNib7owZiKX08ebT7v1uNoIeRvGdNoN6xq.pJONQcLC_PsNmG23d9C4xeHKRkBp1Sftn5MdpB5lnQbE6eCTyU1EVq6grEm4tuMCojIoZeT5fG5lEkHx_hObegAzLZfg9u0VUPkLL0tHOGbxyNp4yT3XVIuDE8vQzyz2YVCHs4GGv.AE7jQBEBym_8HICLLvjQ1G.S3P9aTpNFe8M_GQSOrH1iT2hwwpu7jALHD48hnKfDFBaazbmoE.jzX3m0EJpJKzfSs6QKwucTA6EXgggmyuOGkouvmx71Xq7CYutmpmQQX32z.EtzBn4AjiYyBLvanuTB9a8.uT.oDDoapoJ7tg75kDJnDYsGdw0HsOeO6ETRlGOjiGyUSd9TAoolcxUxlK__4gvXaIco8yyGOYg_adevZdN83jJLQJEfnovDkkwpvI6bQh3JEw7kECasiCWm8.4.jZEfArWCRmHRJOxr3Z61XTlmlwd8hY1UGtnkEQz2aWsyYS7ukWQwb6sJLVFkVHu.l3ZIiFin1P34gvNa9SyKeRi50NejI.hyK_r1NqUVrvnnzE8iJqvT6OlfoN6AWAS.8Qi7ivbzmJvsZWjAFpKbY51QJNACKkJvjrAg0lsqSVthUqdjktQW_ZmhcfowF_WbpT9jqMjyDAC26_SOvjC0aQ6yRUp7lpFtGpLVPM4p5azwLxi_oi1cuJmtplAWGiAMadYv0TtCXz2ZQ1.KLQNePwbm4Dm9XvVRnlfoX3u7HyTbXjIyeKFCmrLXo4OWOQvQ6DJhkOy8.59dm8.DPLMO_y3AMqx6K_GAWO4RFJRnrjlkjHmZyA2ycJA6r01q5kgRBqz7FgFsYF9cCjwJ6tCjOxdFSx5lxVnVOFHwgzF7KHIWw2tBpa.hW4JbeZxmvYPmYZfcKuUNMwCIeDLbPtfXH4Z.UAYzPhKqlMDuqxAfCvdy_yRrksFXRfYq5HMHJHhkMbKG_7twRXMonnBnGsDYLIDFLwi_DYOMfu5oVsCSDODIq3sAHcZxMi7hJZhKk5skZWjnirMxkAna0bTPIx7XA7qv9YpBsfwEpUARzlNkYww4bDq6Y',mdrd: 'xE9BCNxrcqMaNpbGYW4KGynEoO_.tESEMyJUWve0rtU-1795377699-1.2.1.1-6MeXgzLWV1Rr1p8ewiPdrtFG4sS0XBi1wW09TeZhaNB61ln0et9FWNSOSVoXxewKLfu.bP7fCO6ZmZ1J.2tGqy2xKJeg_AeaWjkbItiCqh4JnLrE9XVlHaXNKiPy9voNqoe8uEFetKQx1Q3.4z.uM9d05F7CpQzmycvw7gO5ocyiBv7e.7NbRNfH8tH49eOf36ZXR0c9mD_W1C3SeI_BzwxCTSKLRH_g1sLaO7PC36cASDIauUbo0ZpRpReoL4sIAbPETrG_Dno7Sdh29khRpQNg_woGgzmKEKCKmgAu3qleVUrxrD1eldqdZDIb9nOSqwtniZpX.NfebeBv4krBRUdLtoNSTRDc2IyzpE_1fH9DgxLQK.lIwQt5QUuZYhRlx3_EieoE3MQDMzxMyVwQuA',};var a = document.createElement('script');a.nonce = 'mkYJuwyMlcqQ7oc37NSoYH';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea86fbfa73be87';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=YXpstLlTBu72JqdAUlXUnOZJDyNKe1JRZT9qqwEcsUI-1795377699-1.0.1.1-A8MvrGfrmJcsMPVqAuEQVFofKP4vW.3mk_dOa.rO.Q0\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://gamestar.de/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-HNYnICf2HQqKLmxaTPjDnA&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"HNYnICf2HQqKLmxaTPjDnA\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'k8iGxFx.9ufxT6apGiDf0Wr8s05UmzWP5yIjC8vwBGg-1795377699-1.2.1.1-27dXmvca18_vQ49kSU0Mq3LGsz2Pyl0nuyQemuEFsDazB3mE.S.ezFtJ_tFduEda',cITimeS: '1795377699',cN: 'HNYnICf2HQqKLmxaTPjDnA',cRay: 'a5ea86ffaa8cb583',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/ai.txt?__cf_chl_tk=R0uzSPr1VUtey_xA7TKEGhgdlKM01rQ8s1yCYPHlApo-1795377699-1.0.1.1-NJYQHnnkk9k5Qsx40eXkhSBxQdb5UJ4nc5VQ_worJws\",cvId: '3',cZone: 'gamestar.de',fa:\"/ai.txt?__cf_chl_f_tk=R0uzSPr1VUtey_xA7TKEGhgdlKM01rQ8s1yCYPHlApo-1795377699-1.0.1.1-NJYQHnnkk9k5Qsx40eXkhSBxQdb5UJ4nc5VQ_worJws\",md: 'fndS7qQjnbr2zNa0fnjpuenYxi8OhHxn8C6_ONQAqXE-1795377699-1.2.1.1-madvpTMNx2.qsG5qKrvfHplx_WQTaTlcTOoeKisPdIOlylXQSNJgjfsp61oz5x0ONZnjnHIr94Xj52my400CgG2.VLzHr3XAXD4uWWTUMh.vul4vzheqkw45xuP8tBiHVhXCzP1k43J_kgacmqFqCAuxcYiS9JuqOJeMd_TmBaayggh6rVxvD6xPaEDoeIUow89xy64EYb97TTpKc_1_ko_AWv5MTAVfp_81fvDVL56BYaQnGmTPmvkDels9QRdTw7UExtyBTOJGNMniJeQVXLrMMi6UkRh9_q3ONy.4Fb66UXSCvwgFHdmVBoE4h6.oWlxszl8JlHmWH3tpsQVHsa6l_8RaZ4SdYxsFGcBdlMvRUb4s3yHn1kOlNsw6qBJrNeQyMH7Yfp6bQk3JuHSKDFogsjcZW3lu27ZHGAd1kuGcQ96T8tY7nRDSKep8lBuahz6iM7VonERV.B9xX5XlZk2lXAhGE3izzGW9T62MnA9e7hB3mUCVJ_eE67lYtIDCJEnMM_HVRoHRleG01HiyL6U3scpgE7DJ8ogBpnrMY6qOGAS1T19rf_foOJ3BQNp.ALH84EV7YJtL.S.voJ0AWrEBadGoCkiIM25FTIgvRaT5AGXaJtt0izD7EeerAlEFkmZvtsFLuL1xbcqLOnVg0e8KQRpbn.4bB9sWPUB.MB.hNP1rJvQykcEgu4.OdB3STcuiXzKPCGZn01IaEQvFHCgFSLxFWIZ9LI93D2WMPJ7.hR8KvSway9AY6zCiLXVDdQQpc6YPYxjx.tV5gV.xaJd5VqSjB4EC7jREYb2eDSgfRJuVQUykSn_ZU52j8kq3GQg7K7qQffmsDXn6ajov.741pZm4RXrDczqi8WCDfKlN.abi9F_14s9tH66Ao7YpHognLoE2.ObbMYTGqU7gwKoJG3e7YHACXlRVX_A5e2EeO0H4nIDoNjHTsuefXvOTJ0lOmpc57CEPshvbkdC27XLsSjQ4B9xWyncWL3Z4TTFCpa.BrkzrvUlJTfcdxHhTJ2y3kdHASXhSo8FU7xBF9cQLzfIyanj3xTKTilN1_06R1b33M6wzzVEkEuRdRtkvup1Dv_1yX3yaUjSIofhoN35J.dIrIXy956kCsAahn2E',mdrd: 'hHG5jQSfYc2.Od5raFZmcPAwYn4fc77n1dqqkgYAfVI-1795377699-1.2.1.1-WK3zGcSghc_y3RyzQ5brG_EzQITlM9KSWbch7Q6flsgQOD_Gzg.vcvZ6rnURMIAgbsNE02WZZpG2dcXgmlQ1DwUKv69uNdZt.pr3FULyFWr6liMY2iad0b1POqUdjx6RrTyUtoLr7kK3zS9wMC.3t7Ilvb.8xspsRYDC9RyNxQd5_Lv_YW0fpwAqECkwAGlFXn4uB2pMmUbfGcCuVRfnrCkd97uDlqJ5Ndl_JFGmpsE6q1hilsyom2EFKbijb7p.mp4XcI577U3X7NsiywJ14cmdpiTz33nqVTrbh8XFmztV3Cn__.olY9nF_GaWzqd_783SLqOozmgwQrGlvcSb2.vah8CU.E3iutlSd_E7dRTo3s3.JVNm3GbkMfdn_LK09bf6_hpcJyVOarF3nLiP.g',};var a = document.createElement('script');a.nonce = 'HNYnICf2HQqKLmxaTPjDnA';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea86ffaa8cb583';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=R0uzSPr1VUtey_xA7TKEGhgdlKM01rQ8s1yCYPHlApo-1795377699-1.0.1.1-NJYQHnnkk9k5Qsx40eXkhSBxQdb5UJ4nc5VQ_worJws\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://gamestar.de/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "gamestar.de",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:01:39.821Z",
+    "score": 23,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.29,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 22.29,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 7.88/9 · hybrid 5.25/6 · training 9.17/10; strategy tag Middle-Path. Unconfigured examples: Googlebot, Google-Extended, Amazonbot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 22.29,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

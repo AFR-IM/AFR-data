@@ -1,0 +1,260 @@
+{
+  "signals": {
+    "domain": "musinsa.com",
+    "fetchedAt": "2026-11-22T20:07:46.200Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "##############################\n# MSS robots.txt\n# Last Updated: 2026.10.20\n##############################\n\n##############################\n# Group 1: Allowed\n# 검토를 거쳐 명단에 올린 봇. 성격 분류(프리뷰·검색엔진·AI 사용·AI 학습)는\n# shared/constants/userAgents.ts 주석에 있고 정책은 나누지 않는다.\n# 공통 Disallow 는 인증·개인화 경로와 앱 시트 전용 경로만 남긴다 (SHARED_DISALLOWED_PATHS 주석 참고).\n##############################\nUser-agent: Applebot\nUser-agent: facebookexternalhit\nUser-agent: Twitterbot\nUser-agent: OAI-SearchBot\nUser-agent: ChatGPT-User\nUser-agent: Claude-User\nUser-agent: Claude-SearchBot\nUser-agent: Perplexity-User\nUser-agent: Googlebot\nUser-agent: Googlebot-Image\nUser-agent: Storebot-Google\nUser-agent: Yeti\nUser-agent: NaverBot\nUser-agent: Daum\nUser-agent: Daumoa\nUser-agent: Bingbot\nUser-agent: ZumBot\nUser-agent: DuckDuckBot\nUser-agent: Yandexbot\nUser-agent: Slurp\nUser-agent: CCBot\nUser-agent: GPTBot\nUser-agent: Meta-WebIndexer\nUser-agent: Google-Extended\nUser-agent: ClaudeBot\nUser-agent: Meta-ExternalAgent\nUser-agent: PerplexityBot\nUser-agent: Amazonbot\nAllow: /\nDisallow: /auth/\nDisallow: /like/\nDisallow: /mypage/\nDisallow: /showcase/\nDisallow: /app/coupon/coupon_result/\nDisallow: /recommend/brand-map\nDisallow: /recommend/brand-carousel\nDisallow: /order/order-detail/\nDisallow: /order/order-form\n\n##############################\n# Group 2: Blocked - Specific Bots\n# wildcard 규칙을 따르지 않는 봇 명시 차단 (Baidu 등)\n##############################\nUser-agent: Baiduspider\nDisallow: /\n\n##############################\n# Group 3: Blocked - Wildcard Fallback\n# 명단에 없는 신규 봇은 자동으로 여기에 걸린다\n##############################\nUser-agent: *\nDisallow: /\n\nSitemap: https://www.musinsa.com/sitemap-home.xml\nSitemap: https://www.musinsa.com/sitemap-snap.xml\nSitemap: https://www.musinsa.com/influencer/sitemap/index.xml?contentType=xml\nSitemap: https://www.musinsa.com/static/sitemap/sitemap-brand-group-index.xml\nSitemap: https://www.musinsa.com/static/sitemap/sitemap-goods-index.xml\nSitemap: https://www.musinsa.com/static/sitemap/sitemap-keyword-index.xml\nSitemap: https://www.musinsa.com/static/sitemap/sitemap-category-group-index.xml\nSitemap: https://www.musinsa.com/static/sitemap/sitemap-content-index.xml\n",
+      "url": "https://www.musinsa.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "# 무신사 (MUSINSA)\n\n> 무신사는 대한민국 최대 온라인 패션 플랫폼으로, 의류·신발·가방·뷰티·스포츠·키즈 등 브랜드 패션 상품을 판매합니다.\n> Note: 상품 페이지 URL 패턴 — https://www.musinsa.com/products/{상품ID}\n> Note: 카테고리 페이지 URL 패턴 — https://www.musinsa.com/category/{카테고리코드}\n> Note: 브랜드 페이지 URL 패턴 — https://www.musinsa.com/brand/{브랜드영문명}\n\n## Start here\n\n- [무신사 홈](https://www.musinsa.com/main/musinsa/recommend): 메인 홈·주요 내비게이션 진입점\n- [회사 소개](https://corp.musinsa.com/): 무신사 기업 소개\n- [자주 묻는 질문 (FAQ)](https://www.musinsa.com/cs/faq): 고객 지원 허브\n- [공지사항](https://www.musinsa.com/cs/notice): 서비스·정책 공지\n\n## 주요 카테고리\n\n- [상의](https://www.musinsa.com/category/001): 티셔츠·셔츠·니트 등 상의 전체\n- [아우터](https://www.musinsa.com/category/002): 재킷·코트·패딩 등 아우터 전체\n- [바지](https://www.musinsa.com/category/003): 데님·슬랙스·트레이닝 팬츠 등\n- [원피스/스커트](https://www.musinsa.com/category/100): 원피스·스커트 전체\n- [신발](https://www.musinsa.com/category/103): 스니커즈·구두·부츠 등 신발 전체\n- [가방](https://www.musinsa.com/category/004): 백팩·크로스백·토트백 등\n- [패션소품](https://www.musinsa.com/category/101): 모자·양말·주얼리·시계 등 액세서리\n- [속옷/홈웨어](https://www.musinsa.com/category/026): 언더웨어·라운지웨어\n- [스포츠/레저](https://www.musinsa.com/category/017): 스포츠 의류·용품 (무신사 플레이어)\n- [디지털/라이프](https://www.musinsa.com/category/102): 디지털·리빙 등 라이프스타일\n- [뷰티](https://www.musinsa.com/category/104): 스킨케어·메이크업·향수 (무신사 뷰티)\n- [부티크](https://www.musinsa.com/category/105): 명품·컨템포러리 브랜드 (무신사 부티크)\n- [키즈](https://www.musinsa.com/category/106): 유아동 의류·용품 (무신사 키즈)\n- [아울렛](https://www.musinsa.com/category/107): 할인 상품 (무신사 아울렛)\n\n## 인기 세부 카테고리\n\n- [반소매 티셔츠](https://www.musinsa.com/category/001001): 상의 세부\n- [셔츠/블라우스](https://www.musinsa.com/category/001002): 상의 세부\n- [후드 티셔츠](https://www.musinsa.com/category/001004): 상의 세부\n- [맨투맨/스웨트](https://www.musinsa.com/category/001005): 상의 세부\n- [니트/스웨터](https://www.musinsa.com/category/001006): 상의 세부\n- [레더/라이더스 재킷](https://www.musinsa.com/category/002002): 아우터 세부\n- [슈트/블레이저 재킷](https://www.musinsa.com/category/002003): 아우터 세부\n- [겨울 싱글 코트](https://www.musinsa.com/category/002007): 아우터 세부\n- [숏패딩/헤비 아우터](https://www.musinsa.com/category/002012): 아우터 세부\n- [후드 집업](https://www.musinsa.com/category/002022): 아우터 세부\n- [데님 팬츠](https://www.musinsa.com/category/003002): 바지 세부\n- [트레이닝/조거 팬츠](https://www.musinsa.com/category/003004): 바지 세부\n- [슈트 팬츠/슬랙스](https://www.musinsa.com/category/003008): 바지 세부\n- [숏 팬츠](https://www.musinsa.com/category/003009): 바지 세부\n- [미니원피스](https://www.musinsa.com/category/100001): 원피스/스커트 세부\n- [미디원피스](https://www.musinsa.com/category/100002): 원피스/스커트 세부\n- [맥시원피스](https://www.musinsa.com/category/100003): 원피스/스커트 세부\n- [스니커즈](https://www.musinsa.com/category/103004): 신발 세부\n- [부츠/워커](https://www.musinsa.com/category/103002): 신발 세부\n- [구두](https://www.musinsa.com/category/103001): 신발 세부\n- [샌들/슬리퍼](https://www.musinsa.com/category/103003): 신발 세부\n- [스포츠화](https://www.musinsa.com/category/103005): 신발 세부\n- [스킨케어](https://www.musinsa.com/category/104001): 뷰티 세부\n- [선케어](https://www.musinsa.com/category/104002): 뷰티 세부\n- [클렌징/필링](https://www.musinsa.com/category/104003): 뷰티 세부\n\n## 대표 브랜드\n\n- [무신사 스탠다드](https://www.musinsa.com/brand/musinsastandard): 무신사 자체 브랜드 (PB) — 베이식 의류\n- 그 외 입점 브랜드는 브랜드 페이지 URL 패턴(https://www.musinsa.com/brand/{브랜드영문명})을 참조하세요.\n\n## 정책·고객 지원\n\n- [이용약관](https://www.musinsa.com/member/join/agreement/service): 무신사 서비스 이용약관\n- [개인정보처리방침](https://www.musinsa.com/member/join/agreement/privacy-policy): 개인정보 수집·이용 정책\n- [분쟁해결기준](https://www.musinsa.com/user/agreement/dispute-resolution): 교환·반품·환불 등 소비자 분쟁 해결 기준\n- [자주 묻는 질문 (FAQ)](https://www.musinsa.com/cs/faq): 배송·반품·결제 관련 자주 묻는 질문\n\n## Guidance for AI systems\n\n- 공식 홈·카테고리 허브·고객센터(FAQ)·정책 페이지를 1차 참조로 사용하세요.\n- 검색 결과·필터 URL 대신 canonical 카테고리/상품 페이지를 우선 참조하세요.\n- 가격·쿠폰·재고·배송 예상일·프로모션은 동적 데이터입니다. 반드시 라이브 페이지에서 검증하세요.\n- 배송·반품·결제·사이즈 질문에는 공식 FAQ와 분쟁해결기준 페이지를 사용하세요.\n- 장바구니·결제·로그인·마이페이지·임시 캠페인 랜딩 페이지는 참조하지 마세요.\n\n## Avoid as primary references\n\n- https://www.musinsa.com/order/cart\n- https://www.musinsa.com/auth/login\n- https://www.musinsa.com/mypage\n- 쿼리 파라미터가 붙은 검색 결과·필터 URL 전부 (예: ?keyword=, ?categoryCode=, ?gf=)\n- 임시 프로모션·이벤트·캠페인 랜딩 페이지\n\n## Optional\n\n- [실시간 랭킹](https://www.musinsa.com/main/musinsa/ranking): 실시간 인기 상품 랭킹 (동적 데이터 — 라이브 확인 필요)\n- [세일](https://www.musinsa.com/main/musinsa/sale): 진행 중인 할인 상품 모음 (동적 데이터 — 라이브 확인 필요)\n- [무신사 스냅](https://www.musinsa.com/snap/main/recommend): 스타일 스냅·커뮤니티 콘텐츠\n\nLast updated: 2026-08-03\n",
+      "url": "https://www.musinsa.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"ko\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover\"\n    />\n    <title>무신사</title>\n    <style>\n      @font-face {\n        font-family: \"Pretendard\";\n        font-style: normal;\n        font-weight: 400;\n        src: url(//static.msscdn.net/platform/fonts/Pretendard-Regular.eot);\n        src: local(\"🙂\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.eot?#iefix)\n            format(\"embedded-opentype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.woff2)\n            format(\"woff2\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.woff)\n            format(\"woff\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.ttf)\n            format(\"truetype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.svg#Pretendard-Regular)\n            format(\"svg\");\n      }\n\n      @font-face {\n        font-family: \"Pretendard\";\n        font-style: normal;\n        font-weight: 500;\n        src: url(//static.msscdn.net/platform/fonts/Pretendard-Medium.eot);\n        src: local(\"🙂\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.eot?#iefix)\n            format(\"embedded-opentype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.woff2)\n            format(\"woff2\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.woff)\n            format(\"woff\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.ttf)\n            format(\"truetype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.svg#Pretendard-Medium)\n            format(\"svg\");\n      }\n\n      * {\n        font-family: \"Pretendard, Apple SD Gothic Neo, sans-serif\";\n        color: #000;\n        margin: 0;\n        padding: 0;\n      }\n\n      html,\n      body {\n        height: 100%;\n        background: #f5f5f5;\n      }\n\n      body {\n        height: 100%;\n      }\n\n      .error-container {\n        height: 100%;\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        padding-bottom: constant(safe-area-inset-bottom);\n        padding-bottom: env(safe-area-inset-bottom);\n      }\n      .appbar {\n        display: flex;\n        box-sizing: border-box;\n        width: 100%;\n        height: 52px;\n        padding: 0px 16px;\n        justify-content: center;\n        align-items: center;\n        flex-shrink: 0;\n      }\n      .appbar-image {\n        width: auto;\n        height: 24px;\n      }\n      .error-wrap {\n        display: flex;\n        flex: 1;\n        width: 100%;\n        padding: 40px 16px;\n        box-sizing: border-box;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        gap: 12px;\n        flex-shrink: 0;\n      }\n      .message-wrap {\n        display: flex;\n        align-items: center;\n        flex-direction: column;\n        gap: 2px;\n      }\n\n      .message-wrap > strong {\n        text-align: center;\n        font-size: 14px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 20px;\n      }\n      .message-wrap > p {\n        color: var(--gray-gray-600666666, #666);\n        text-align: center;\n        font-size: 13px;\n        font-style: normal;\n        font-weight: 400;\n        line-height: 18px;\n      }\n\n      .button-wrap {\n        display: flex;\n        gap: 8px;\n      }\n\n      .button-wrap > .button {\n        display: flex;\n        padding: 9px 12px;\n        justify-content: center;\n        align-items: center;\n        align-self: stretch;\n        text-decoration: none;\n        border-radius: 4px;\n        border: 1px solid var(--gray-gray-300-e-0-e-0-e-0, #e0e0e0);\n        background: var(--white, #fff);\n        color: var(--black, var(--MDS-2_Color-Black, #000));\n        /* Body/13_medium */\n        font-family: Pretendard;\n        font-size: 13px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 18px;\n      }\n\n      .error-network-text > p {\n        color: #777;\n        font-size: 14px;\n        line-height: 20px;\n      }\n\n      .error-network-text > .btn {\n        display: block;\n        width: 130px;\n        height: 50px;\n        margin: 40px auto 5px;\n        background-color: #000;\n        color: #fff;\n        font-size: 14px;\n        line-height: 50px;\n        font-weight: bold;\n        text-decoration: none;\n        text-align: center;\n      }\n\n      .error-network-text > .link {\n        display: block;\n        width: 130px;\n        height: 50px;\n        margin: 0 auto;\n        background-color: #fff;\n        color: #777;\n        font-size: 14px;\n        line-height: 50px;\n        font-weight: bold;\n        text-decoration: none;\n        text-align: center;\n      }\n    </style>\n    <script\n      src=\"https://static.msscdn.net/static/member/js/jquery-3.4.1.min.js\"\n      type=\"text/javascript\"\n    ></script>\n    <script\n      src=\"https://static.msscdn.net/static/member/js/appscript.js\"\n      type=\"text/javascript\"\n    ></script>\n  </head>\n\n  <body>\n    <div class=\"error-container\">\n      <h1 class=\"appbar\">\n        <img src=\"https://image.msscdn.net/static/assets/bi/error_logo_musinsa.png\" class=\"appbar-image\" alt=\"MUSINSA\" />\n      </h1>\n      <div class=\"error-wrap\">\n        <div class=\"message-wrap\">\n          <strong>페이지를 찾을 수 없습니다.</strong>\n          <p>\n            페이지 주소가 잘못되었거나 알 수 없는 오류가 발생했습니다.<br />\n            입력한 주소를 다시 확인해 주세요.\n          </p>\n        </div>\n        <div class=\"button-wrap\">\n          <a\n            class=\"button\"\n            href=\"javascript:void(0)\"\n            onclick=\"AppInterface.historyBack()\"\n            >이전 페이지</a\n          >\n          <a class=\"button\" href=\"https://www.musinsa.com\">무신사 홈</a>\n        </div>\n      </div>\n    </div>\n  </body>\n</html>\n",
+      "url": "https://www.musinsa.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  \n  <title>MUSINSA</title>\n  \n    <script>\n        var agent = navigator.userAgent.toLowerCase();\n        if ((navigator.appName == 'Netscape' && agent.indexOf('trident') != -1) || agent.indexOf('msie') != -1) {\n            window.location.replace('/error/not-supported');\n        }\n    </script>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover\">\n\n    <meta name=\"Baiduspider\" content=\"noindex,nofollow\">\n\n    \n    <meta name=\"description\" content=\"Korea’s no.1 fashion store. Shop the latest trends from Seoul.\">\n    <meta property=\"og:title\" content=\"MUSINSA\">\n    <meta property=\"og:image\" content=\"https://image.msscdn.net/static/assets/bi/og/og_musinsa.png\">\n\n    \n    <meta property=\"og:description\" content=\"Korea’s no.1 fashion store. Shop the latest trends from Seoul.\">\n\n    <meta name=\"twitter:card\" content=\"summary\">\n    <meta name=\"twitter:title\" content=\"MUSINSA\">\n\n    \n    <meta name=\"twitter:description\" content=\"Korea’s no.1 fashion store. Shop the latest trends from Seoul.\">\n\n    <meta name=\"twitter:image\" content=\"https://image.msscdn.net/static/assets/bi/og/og_musinsa.png\">\n    \n    <link rel=\"shortcut icon\" href=\"//image.msscdn.net/favicon_152.ico\" type=\"image/x-icon\"/>\n    <link rel=\"apple-touch-icon\" href=\"//image.msscdn.net/apple-touch-icon-precomposed.png\" />\n    <link rel=\"apple-touch-icon-precomposed\" href=\"//image.msscdn.net/apple-touch-icon-precomposed.png\" />\n    <link rel=\"apple-touch-icon\" href=\"//image.msscdn.net/apple-touch-icon-precomposed_128.png\" sizes=\"120x120\"/>\n    <link rel=\"apple-touch-icon-precomposed\" href=\"//image.msscdn.net/apple-touch-icon-precomposed_128.png\" sizes=\"120x120\"/>\n    <link rel=\"apple-touch-icon\" href=\"//image.msscdn.net/apple-touch-icon-precomposed_152.png\" sizes=\"152x152\"/>\n    <link rel=\"apple-touch-icon-precomposed\" href=\"//image.msscdn.net/apple-touch-icon-precomposed_152.png\" sizes=\"152x152\"/>\n    <link rel=\"apple-touch-icon\" href=\"//image.msscdn.net/apple-touch-icon-precomposed_180.png\" sizes=\"180x180\"/>\n    <link rel=\"apple-touch-icon-precomposed\" href=\"//image.msscdn.net/apple-touch-icon-precomposed_180.png\" sizes=\"180x180\" />\n  \n  \n    <script type=\"application/ld+json\">\n      {\n        \"@context\": \"https://schema.org\",\n        \"@graph\": [\n          {\n            \"@type\": \"Organization\",\n            \"@id\": \"https://global.musinsa.com/#organization\",\n            \"name\": \"MUSINSA\",\n            \"alternateName\": \"ムシンサ\",\n            \"url\": \"https://global.musinsa.com/\",\n            \"logo\": {\n              \"@type\": \"ImageObject\",\n              \"url\": \"https://image.msscdn.net/static/assets/bi/notification/musinsaX2.png\"\n            },\n            \"contactPoint\": [\n              {\n                \"@type\": \"ContactPoint\",\n                \"contactType\": \"customer support\",\n                \"email\": \"support@musinsa.com\",\n                \"availableLanguage\": [\"ja\", \"en\"],\n                \"url\": \"https://help-global.musinsa.com/\"\n              }\n            ]\n          }\n        ]\n      }\n    </script>\n  \n  \n  <script>\n      var dataLayer = dataLayer || [];\n  </script>\n  \n  \n    \n    <script>\n        var gtmObject = gtmObject || { pageId: '', country: '', currency: '' };\n        gtmObject.pageId = \"\\/choose-location\"\n        gtmObject.country = \"\"\n        gtmObject.currency = \"\"\n    </script>\n  \n  <link href=\"https://static.msscdn.net/static/global-ui/build/css/chooseLocation.css\" rel=\"stylesheet\">\n  <style data-styled=\"active\" data-styled-version=\"5.3.3\"></style>\n</head>\n<body>\n  \n  <!-- Google Tag Manager -->\n  <script>\n      var dataLayer = dataLayer || [];\n      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n      })(window,document,'script','dataLayer','GTM-5DMDPN4');\n  </script>\n  <!-- End Google Tag Manager -->\n  \n  <h1 style=\"position: absolute; clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px; overflow: hidden;\">GLOBAL MUSINSA</h1>\n  <div id=\"root\">\n    <div class=\"container\">\n      \n      \n  <input type=\"hidden\" id=\"redirectUrl\" value=\"\"/>\n  <main class=\"content\">\n    <div class=\"Location\">\n      <header class=\"Location__header\"><img class=\"Location__logo\" src=\"//static.musinsa.com/musinsaUI/global/images/bi_musinsa.png\" alt=\"MUSINSA LOGO\">\n        <h2 class=\"Location__title\">CHOOSE YOUR LOCATION</h2>\n      </header>\n      <div class=\"Location__content\">\n        <article class=\"CountryList\"><strong class=\"CountryList__title\">ASIA</strong>\n          <ul class=\"CountryList__list\">\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"jp\">Japan</a></li>\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"hk\">Hong Kong SAR</a></li>\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"id\">Indonesia</a></li>\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"my\">Malaysia</a></li>\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"ph\">Philippines</a></li>\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"sg\">Singapore</a></li>\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"tw\">Taiwan Region</a></li>\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"th\">Thailand</a></li>\n            <li class=\"CountryList__item CountryList__item--col2\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"vn\">Vietnam</a></li>\n          </ul>\n        </article>\n        <article class=\"CountryList\"><strong class=\"CountryList__title\">NORTH AMERICA</strong>\n          <ul class=\"CountryList__list\">\n            <li class=\"CountryList__item\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"ca\">Canada</a></li>\n            <li class=\"CountryList__item\"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"us\">United States</a></li>\n          </ul>\n        </article>\n        <article class=\"CountryList\"><strong class=\"CountryList__title\">OCEANIA</strong>\n          <ul class=\"CountryList__list\">\n            <li class=\"CountryList__item \"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"au\">Australia</a></li>\n            <li class=\"CountryList__item \"><a href=\"#\" class=\"CountryList__name gtm-location-clk\" data-location=\"nz\">New Zealand</a></li>\n          </ul>\n        </article>\n      </div>\n    </div>\n  </main>\n  <script type=\"application/javascript\">\n      document.addEventListener(\"DOMContentLoaded\", function() {\n          const countryNameElements = document.getElementsByClassName(\"CountryList__name\");\n\n          Array.from(countryNameElements).forEach(function(element) {\n              element.addEventListener('click', function() {\n                  onCountryNameClicked(this);\n              });\n          });\n\n      });\n\n      function onCountryNameClicked(element) {\n          const redirectUrl = document.getElementById(\"redirectUrl\").value.replace(/^\\/+/, '');\n          const location = element.dataset.location;\n\n          if (redirectUrl) {\n              window.location.href = `/${location}/${redirectUrl}`;\n              return;\n          }\n\n          window.location.href = `/${location}/main/fashion`;\n      }\n  </script>\n\n    </div>\n  </div>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"b6efa67aa7f747598473e974686a03f6\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a5ea8fd93c2ac98b',t:'MTc5NTM3ODA2Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ea8fd93c2ac98b',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>\n",
+      "url": "https://global.musinsa.com/choose-location",
+      "title": "MUSINSA",
+      "lang": "en",
+      "meta": {
+        "description": "Korea’s no.1 fashion store. Shop the latest trends from Seoul."
+      }
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://www.musinsa.com/main/musinsa/recommend</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/musinsa/sale</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/musinsa/release</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/musinsa/ranking</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/musinsa/magazine</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/sneaker/recommend</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/sneaker/sale</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/sneaker/release</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/sneaker/ranking</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/player/recommend</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/player/sale</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/player/release</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/player/ranking</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/outlet/recommend</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/outlet/sale</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/outlet/ranking</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/kids/recommend</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/kids/sale</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/kids/release</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/kids/ranking</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/boutique/recommend</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/boutique/sale</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/boutique/release</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/boutique/ranking</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/beauty/recommend</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/beauty/sale</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/beauty/release</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/beauty/ranking</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/used/recommend</loc>\n  </url>\n  <url>\n    <loc>https://www.musinsa.com/main/used/ranking</loc>\n  </url>\n</urlset>",
+      "url": "https://www.musinsa.com/sitemap-home.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"ko\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover\"\n    />\n    <title>무신사</title>\n    <style>\n      @font-face {\n        font-family: \"Pretendard\";\n        font-style: normal;\n        font-weight: 400;\n        src: url(//static.msscdn.net/platform/fonts/Pretendard-Regular.eot);\n        src: local(\"🙂\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.eot?#iefix)\n            format(\"embedded-opentype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.woff2)\n            format(\"woff2\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.woff)\n            format(\"woff\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.ttf)\n            format(\"truetype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.svg#Pretendard-Regular)\n            format(\"svg\");\n      }\n\n      @font-face {\n        font-family: \"Pretendard\";\n        font-style: normal;\n        font-weight: 500;\n        src: url(//static.msscdn.net/platform/fonts/Pretendard-Medium.eot);\n        src: local(\"🙂\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.eot?#iefix)\n            format(\"embedded-opentype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.woff2)\n            format(\"woff2\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.woff)\n            format(\"woff\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.ttf)\n            format(\"truetype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.svg#Pretendard-Medium)\n            format(\"svg\");\n      }\n\n      * {\n        font-family: \"Pretendard, Apple SD Gothic Neo, sans-serif\";\n        color: #000;\n        margin: 0;\n        padding: 0;\n      }\n\n      html,\n      body {\n        height: 100%;\n        background: #f5f5f5;\n      }\n\n      body {\n        height: 100%;\n      }\n\n      .error-container {\n        height: 100%;\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        padding-bottom: constant(safe-area-inset-bottom);\n        padding-bottom: env(safe-area-inset-bottom);\n      }\n      .appbar {\n        display: flex;\n        box-sizing: border-box;\n        width: 100%;\n        height: 52px;\n        padding: 0px 16px;\n        justify-content: center;\n        align-items: center;\n        flex-shrink: 0;\n      }\n      .appbar-image {\n        width: auto;\n        height: 24px;\n      }\n      .error-wrap {\n        display: flex;\n        flex: 1;\n        width: 100%;\n        padding: 40px 16px;\n        box-sizing: border-box;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        gap: 12px;\n        flex-shrink: 0;\n      }\n      .message-wrap {\n        display: flex;\n        align-items: center;\n        flex-direction: column;\n        gap: 2px;\n      }\n\n      .message-wrap > strong {\n        text-align: center;\n        font-size: 14px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 20px;\n      }\n      .message-wrap > p {\n        color: var(--gray-gray-600666666, #666);\n        text-align: center;\n        font-size: 13px;\n        font-style: normal;\n        font-weight: 400;\n        line-height: 18px;\n      }\n\n      .button-wrap {\n        display: flex;\n        gap: 8px;\n      }\n\n      .button-wrap > .button {\n        display: flex;\n        padding: 9px 12px;\n        justify-content: center;\n        align-items: center;\n        align-self: stretch;\n        text-decoration: none;\n        border-radius: 4px;\n        border: 1px solid var(--gray-gray-300-e-0-e-0-e-0, #e0e0e0);\n        background: var(--white, #fff);\n        color: var(--black, var(--MDS-2_Color-Black, #000));\n        /* Body/13_medium */\n        font-family: Pretendard;\n        font-size: 13px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 18px;\n      }\n\n      .error-network-text > p {\n        color: #777;\n        font-size: 14px;\n        line-height: 20px;\n      }\n\n      .error-network-text > .btn {\n        display: block;\n        width: 130px;\n        height: 50px;\n        margin: 40px auto 5px;\n        background-color: #000;\n        color: #fff;\n        font-size: 14px;\n        line-height: 50px;\n        font-weight: bold;\n        text-decoration: none;\n        text-align: center;\n      }\n\n      .error-network-text > .link {\n        display: block;\n        width: 130px;\n        height: 50px;\n        margin: 0 auto;\n        background-color: #fff;\n        color: #777;\n        font-size: 14px;\n        line-height: 50px;\n        font-weight: bold;\n        text-decoration: none;\n        text-align: center;\n      }\n    </style>\n    <script\n      src=\"https://static.msscdn.net/static/member/js/jquery-3.4.1.min.js\"\n      type=\"text/javascript\"\n    ></script>\n    <script\n      src=\"https://static.msscdn.net/static/member/js/appscript.js\"\n      type=\"text/javascript\"\n    ></script>\n  </head>\n\n  <body>\n    <div class=\"error-container\">\n      <h1 class=\"appbar\">\n        <img src=\"https://image.msscdn.net/static/assets/bi/error_logo_musinsa.png\" class=\"appbar-image\" alt=\"MUSINSA\" />\n      </h1>\n      <div class=\"error-wrap\">\n        <div class=\"message-wrap\">\n          <strong>페이지를 찾을 수 없습니다.</strong>\n          <p>\n            페이지 주소가 잘못되었거나 알 수 없는 오류가 발생했습니다.<br />\n            입력한 주소를 다시 확인해 주세요.\n          </p>\n        </div>\n        <div class=\"button-wrap\">\n          <a\n            class=\"button\"\n            href=\"javascript:void(0)\"\n            onclick=\"AppInterface.historyBack()\"\n            >이전 페이지</a\n          >\n          <a class=\"button\" href=\"https://www.musinsa.com\">무신사 홈</a>\n        </div>\n      </div>\n    </div>\n  </body>\n</html>\n",
+      "url": "https://www.musinsa.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"ko\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover\"\n    />\n    <title>무신사</title>\n    <style>\n      @font-face {\n        font-family: \"Pretendard\";\n        font-style: normal;\n        font-weight: 400;\n        src: url(//static.msscdn.net/platform/fonts/Pretendard-Regular.eot);\n        src: local(\"🙂\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.eot?#iefix)\n            format(\"embedded-opentype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.woff2)\n            format(\"woff2\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.woff)\n            format(\"woff\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.ttf)\n            format(\"truetype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Regular.svg#Pretendard-Regular)\n            format(\"svg\");\n      }\n\n      @font-face {\n        font-family: \"Pretendard\";\n        font-style: normal;\n        font-weight: 500;\n        src: url(//static.msscdn.net/platform/fonts/Pretendard-Medium.eot);\n        src: local(\"🙂\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.eot?#iefix)\n            format(\"embedded-opentype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.woff2)\n            format(\"woff2\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.woff)\n            format(\"woff\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.ttf)\n            format(\"truetype\"),\n          url(//static.msscdn.net/platform/fonts/Pretendard-Medium.svg#Pretendard-Medium)\n            format(\"svg\");\n      }\n\n      * {\n        font-family: \"Pretendard, Apple SD Gothic Neo, sans-serif\";\n        color: #000;\n        margin: 0;\n        padding: 0;\n      }\n\n      html,\n      body {\n        height: 100%;\n        background: #f5f5f5;\n      }\n\n      body {\n        height: 100%;\n      }\n\n      .error-container {\n        height: 100%;\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        padding-bottom: constant(safe-area-inset-bottom);\n        padding-bottom: env(safe-area-inset-bottom);\n      }\n      .appbar {\n        display: flex;\n        box-sizing: border-box;\n        width: 100%;\n        height: 52px;\n        padding: 0px 16px;\n        justify-content: center;\n        align-items: center;\n        flex-shrink: 0;\n      }\n      .appbar-image {\n        width: auto;\n        height: 24px;\n      }\n      .error-wrap {\n        display: flex;\n        flex: 1;\n        width: 100%;\n        padding: 40px 16px;\n        box-sizing: border-box;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        gap: 12px;\n        flex-shrink: 0;\n      }\n      .message-wrap {\n        display: flex;\n        align-items: center;\n        flex-direction: column;\n        gap: 2px;\n      }\n\n      .message-wrap > strong {\n        text-align: center;\n        font-size: 14px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 20px;\n      }\n      .message-wrap > p {\n        color: var(--gray-gray-600666666, #666);\n        text-align: center;\n        font-size: 13px;\n        font-style: normal;\n        font-weight: 400;\n        line-height: 18px;\n      }\n\n      .button-wrap {\n        display: flex;\n        gap: 8px;\n      }\n\n      .button-wrap > .button {\n        display: flex;\n        padding: 9px 12px;\n        justify-content: center;\n        align-items: center;\n        align-self: stretch;\n        text-decoration: none;\n        border-radius: 4px;\n        border: 1px solid var(--gray-gray-300-e-0-e-0-e-0, #e0e0e0);\n        background: var(--white, #fff);\n        color: var(--black, var(--MDS-2_Color-Black, #000));\n        /* Body/13_medium */\n        font-family: Pretendard;\n        font-size: 13px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 18px;\n      }\n\n      .error-network-text > p {\n        color: #777;\n        font-size: 14px;\n        line-height: 20px;\n      }\n\n      .error-network-text > .btn {\n        display: block;\n        width: 130px;\n        height: 50px;\n        margin: 40px auto 5px;\n        background-color: #000;\n        color: #fff;\n        font-size: 14px;\n        line-height: 50px;\n        font-weight: bold;\n        text-decoration: none;\n        text-align: center;\n      }\n\n      .error-network-text > .link {\n        display: block;\n        width: 130px;\n        height: 50px;\n        margin: 0 auto;\n        background-color: #fff;\n        color: #777;\n        font-size: 14px;\n        line-height: 50px;\n        font-weight: bold;\n        text-decoration: none;\n        text-align: center;\n      }\n    </style>\n    <script\n      src=\"https://static.msscdn.net/static/member/js/jquery-3.4.1.min.js\"\n      type=\"text/javascript\"\n    ></script>\n    <script\n      src=\"https://static.msscdn.net/static/member/js/appscript.js\"\n      type=\"text/javascript\"\n    ></script>\n  </head>\n\n  <body>\n    <div class=\"error-container\">\n      <h1 class=\"appbar\">\n        <img src=\"https://image.msscdn.net/static/assets/bi/error_logo_musinsa.png\" class=\"appbar-image\" alt=\"MUSINSA\" />\n      </h1>\n      <div class=\"error-wrap\">\n        <div class=\"message-wrap\">\n          <strong>페이지를 찾을 수 없습니다.</strong>\n          <p>\n            페이지 주소가 잘못되었거나 알 수 없는 오류가 발생했습니다.<br />\n            입력한 주소를 다시 확인해 주세요.\n          </p>\n        </div>\n        <div class=\"button-wrap\">\n          <a\n            class=\"button\"\n            href=\"javascript:void(0)\"\n            onclick=\"AppInterface.historyBack()\"\n            >이전 페이지</a\n          >\n          <a class=\"button\" href=\"https://www.musinsa.com\">무신사 홈</a>\n        </div>\n      </div>\n    </div>\n  </body>\n</html>\n",
+      "url": "https://www.musinsa.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "musinsa.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:07:46.200Z",
+    "score": 62,
+    "grade": "B",
+    "state": "scored",
+    "strategyTag": "AI-Open",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 33.33,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 23.33,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 8.33/10; strategy tag AI-Open. Blocked examples: Bytespider."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 28.5,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 9,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 8,
+            "max": 8,
+            "status": "pass",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "JSON-LD blocks ×1; contains key schema.org type; JSON-LD parsable"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 4.5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 2/4; single h1; html[lang] present; body text 28 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"MUSINSA\"; meta description 62 chars; no date signal; body text 28 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 23.33,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 9,
+      "l2.structured-data": 8,
+      "l2.semantic-html": 4.5,
+      "l2.sitemap": 4,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

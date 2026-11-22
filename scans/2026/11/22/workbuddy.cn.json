@@ -1,0 +1,262 @@
+{
+  "signals": {
+    "domain": "workbuddy.cn",
+    "fetchedAt": "2026-11-22T20:34:13.551Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# robots.txt for https://www.workbuddy.cn/\n# Last updated: 2026-06-03\n# Maintainer: WorkBuddy SEO Team\n# Spec: https://www.rfc-editor.org/rfc/rfc9309 (Robots Exclusion Protocol)\n\n# ─────────────────────────────────────────────────────────────\n# 通用规则：允许所有合规搜索引擎抓取主要内容\n# ─────────────────────────────────────────────────────────────\nUser-agent: *\nAllow: /\n# 屏蔽认证/账户/工作台等用户私域路径\nDisallow: /login\nDisallow: /login/\nDisallow: /register\nDisallow: /register/\nDisallow: /logout\nDisallow: /account\nDisallow: /account/\nDisallow: /workspace\nDisallow: /workspace/\nDisallow: /dashboard\nDisallow: /dashboard/\nDisallow: /settings\nDisallow: /settings/\nDisallow: /profile\nDisallow: /profile/\nDisallow: /admin\nDisallow: /admin/\n# 屏蔽内部接口\nDisallow: /api/\nDisallow: /trpc/\nDisallow: /_next/\nDisallow: /assets/\n# 内部 SEO 中转目录（按 edition 分发的源文件，不应被直接收录）\nDisallow: /seo/\n# 屏蔽常见跟踪参数（带参 URL 容易产生重复内容）\nDisallow: /*?utm_*\nDisallow: /*?gclid=*\nDisallow: /*?fbclid=*\nDisallow: /*?ref=*\nDisallow: /*&utm_*\n# 抓取节流（避免高峰期占用带宽）\nCrawl-delay: 1\n\n# ─────────────────────────────────────────────────────────────\n# Google / Bing：放开抓取节流（这两家忽略 Crawl-delay，仅作显式声明）\n# ─────────────────────────────────────────────────────────────\nUser-agent: Googlebot\nAllow: /\nDisallow: /login\nDisallow: /register\nDisallow: /workspace\nDisallow: /api/\n\nUser-agent: Googlebot-Image\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\nDisallow: /login\nDisallow: /register\nDisallow: /workspace\nDisallow: /api/\n\n# ─────────────────────────────────────────────────────────────\n# 国内搜索引擎\n# ─────────────────────────────────────────────────────────────\nUser-agent: Baiduspider\nAllow: /\nDisallow: /login\nDisallow: /register\nDisallow: /workspace\nDisallow: /api/\n\nUser-agent: Sogou web spider\nAllow: /\nDisallow: /login\nDisallow: /register\nDisallow: /api/\n\nUser-agent: 360Spider\nAllow: /\nDisallow: /login\nDisallow: /api/\n\nUser-agent: YisouSpider\nAllow: /\nDisallow: /api/\n\n# ─────────────────────────────────────────────────────────────\n# AI / LLM 抓取代理：允许收录公开内容，提升 GEO（Generative Engine Optimization）可见性\n# 注：如希望禁止某家，将对应 User-agent 块下改为 \"Disallow: /\"\n# ─────────────────────────────────────────────────────────────\nUser-agent: GPTBot                # OpenAI ChatGPT 训练\nAllow: /\n\nUser-agent: OAI-SearchBot         # OpenAI SearchGPT 检索\nAllow: /\n\nUser-agent: ChatGPT-User          # OpenAI ChatGPT 实时浏览\nAllow: /\n\nUser-agent: Google-Extended       # Google Gemini 训练\nAllow: /\n\nUser-agent: GoogleOther           # Google 多用途研发抓取\nAllow: /\n\nUser-agent: ClaudeBot             # Anthropic Claude 训练\nAllow: /\n\nUser-agent: Claude-Web            # Anthropic Claude.ai 浏览\nAllow: /\n\nUser-agent: anthropic-ai          # Anthropic 通用\nAllow: /\n\nUser-agent: PerplexityBot         # Perplexity 索引\nAllow: /\n\nUser-agent: Perplexity-User       # Perplexity 实时浏览\nAllow: /\n\nUser-agent: cohere-ai             # Cohere\nAllow: /\n\nUser-agent: Applebot              # Apple Spotlight / Siri\nAllow: /\n\nUser-agent: Applebot-Extended     # Apple Intelligence 训练\nAllow: /\n\nUser-agent: Bytespider            # 字节跳动豆包\nAllow: /\n\nUser-agent: Amazonbot             # Amazon Alexa+ / 训练\nAllow: /\n\nUser-agent: Meta-ExternalAgent    # Meta AI\nAllow: /\n\nUser-agent: DuckAssistBot         # DuckDuckGo AI\nAllow: /\n\nUser-agent: YouBot                # You.com\nAllow: /\n\nUser-agent: Diffbot               # 知识图谱\nAllow: /\n\nUser-agent: DoubaoBot             # 豆包\nAllow: /\n\nUser-agent: YuanbaoBot            # 元宝\nAllow: /\n\nUser-agent: DeepSeekBot           # DeepSeek\nAllow: /\n\nUser-agent: Kimibot               # Kimi\nAllow: /\n\nUser-agent: MoonshotBot           # Moonshot\nAllow: /\n\nUser-agent: TongyiBot             # Tongyi\nAllow: /\n\nUser-agent: AliyunBot             # AliyunBot\nAllow: /\n\n\n# ─────────────────────────────────────────────────────────────\n# 不希望抓取的低质量/SEO 工具型爬虫\n# ─────────────────────────────────────────────────────────────\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: DotBot\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\n# ─────────────────────────────────────────────────────────────\n# Sitemaps（必须用绝对 URL）\n# ─────────────────────────────────────────────────────────────\nSitemap: https://www.workbuddy.cn/sitemap.xml\n# 文档站单独声明：/docs/sitemap.xml 本身是 sitemapindex，不能嵌进上面那份索引里，\n# 但 robots 的每条 Sitemap 都是独立顶层提交，可以直接指向 index。\nSitemap: https://www.workbuddy.cn/docs/sitemap.xml\n\n# Host 提示（部分搜索引擎使用）\nHost: https://www.workbuddy.cn\n",
+      "url": "https://www.workbuddy.cn/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "# WorkBuddy\n\n> WorkBuddy 是腾讯云 CodeBuddy 团队推出的 AI Agent 桌面智能体工作台。它能自主规划、调用工具、操作本地文件，把自然语言需求一站式交付为可验收的工作成果（PPT、Excel、报表、文案、代码、网页等），支持多 Agents 并行执行，原生兼容 OpenClaw Skills 生态。\n\nWorkBuddy（中文俗称\"小龙虾\"）于 2026 年 3 月 9 日正式公测，与编程方向的 CodeBuddy 共享同一底座，分别面向「办公」与「开发」两条产品线。WorkBuddy 主张\"零部署、开箱即用、本地安全沙盒\"，下载安装到接入企业微信最快 1 分钟，解决传统 AI 只能\"提供思路\"而无法\"执行交付\"的问题。\n\n## 核心定位\n\n- **产品类型**：桌面级 AI Agent 工作台（Desktop AI Agent） 桌面智能体\n- **目标用户**：办公人群、知识工作者、企业团队、开发者\n- **运行形态**：本地客户端（Windows / macOS）+ 云端沙箱双模式\n- **官方所属**：腾讯云 CodeBuddy 团队\n- **正式版本上线时间**：2026-03-09\n- **官网**：https://www.workbuddy.cn\n\n## 三大工作模式\n\n- **Craft 模式（You say, I do）**：用户下达明确任务，Agent 立即执行并交付，适合定义清楚的具体需求\n- **Plan 模式（Think first, do second）**：Agent 先生成步骤化方案，用户确认后再执行，适合多步骤复杂任务\n- **Ask 模式（Talk only, hands off）**：Agent 仅做问答与分析，不会修改文件，适合方案讨论与技术咨询\n\n## 核心能力\n\n- **自主规划与多 Agent 并行**：单一对话可拆分为子任务并发执行，多 Agent 协同处理同一项目\n- **本地操作与云端沙箱双模**：本地模式直读文件，适合敏感数据；云端沙箱独立运行，适合出差通勤场景\n- **多模态交付**：PPT、Excel、Word、PDF、图片、视频、代码、网页全栈生成\n- **Skills 生态**：兼容 OpenClaw Skills 协议，已接入 5000+ 技能包，支持 SkillHub 安装扩展\n- **MCP 协议支持**：可挂载第三方 MCP Server，扩展为内部系统、数据库、SaaS 工具的统一入口\n- **企业生态深度集成**：原生对接企业微信、腾讯文档、腾讯会议\n- **定时任务 / 自动化**：支持 cron 风格定时执行，每天自动抓取竞品、每周自动生成周报\n- **多模型自由切换**：内置 Kimi、MiniMax、GLM、DeepSeek、Hunyuan 等国产模型，支持自定义 API Key 接入\n\n## 主导航页面\n\n- [WorkBuddy 首页](https://www.workbuddy.cn/)：产品概览、核心卖点、立即下载入口\n- [Agents 列表](https://www.workbuddy.cn/agents)：内置 Agent 与官方推荐 Agent 介绍\n- [定价方案](https://www.workbuddy.cn/pricing)：免费版、专业版、企业版的额度与定价对比\n- [Buddy One](https://www.workbuddy.cn/buddyone/)：一个订阅打通 WorkBuddy、腾讯文档与 ima 的 AI 积分、资料和会员权益\n- [定价方案](https://www.workbuddy.cn/pricing/)：免费版、专业版、企业版的额度与定价对比\n- [登录 / 注册](https://www.workbuddy.cn/login)：腾讯云账号登录入口\n\n## 与同生态产品的关系\n\n- **CodeBuddy**：腾讯云 CodeBuddy 团队的编程智能体（IDE / 插件 / CLI 三形态），与 WorkBuddy 同源共底座，分别覆盖「开发」和「办公」两条产品线，详见 https://www.codebuddy.cn\n- **OpenClaw**：开源 AI Agent 协议，WorkBuddy 兼容其 Skills 体系，但提供托管化、安全化的官方实现\n- **QClaw**：腾讯云推出的轻量化 AI 助手，聚焦云资源运维与智能问答，与 WorkBuddy 互补而非替代\n\n## 典型场景\n\n- **办公自动化**：销售周报汇总、Excel 数据清洗、PPT 一键生成、长文档润色翻译\n- **数据处理**：数万行数据清洗 + 透视 + 可视化 30 秒交付\n- **代码与开发**：Python 爬虫、自动化脚本、网页生成、API 联调\n- **内容创作**：自媒体文案、营销素材、知识卡片、读书笔记\n- **企业内部场景**：客户需求拆解、合同审阅辅助、跨系统数据联动\n\n## 免费额度政策\n\n- **新用户首登**：2300 积分（90 天有效）\n- **新手任务**：完成成长引导 +900 积分\n- **绑定企业微信**：一次性 +500 积分\n- **每月固定**：每月 1 号自动发放 500 积分（永久）\n- **每日签到**：第 1–6 天 100 积分/天，第 7 天 1000 积分（周大奖）\n- **社区发文**：心得 500 / 教程 1000 / 精选追加 2000 积分\n- **邀请好友**：双方各得 500 积分（无上限）\n\n## 技术与安全\n\n- **执行环境**：本地沙箱 + 云端沙箱，文件操作需用户授权\n- **数据驻留**：本地模式数据不离开用户终端，云端模式由腾讯云合规机房承载\n- **企业部署**：支持私有化部署、SSO、数据审计\n- **模型路由**：根据网络与任务复杂度动态选择最优模型，支持企业自带 API Key\n\n## 资源与延伸阅读\n\n- [腾讯云 CodeBuddy 官网](https://www.codebuddy.cn)\n- [WorkBuddy 公测公告 - 腾讯云开发者社区](https://cloud.tencent.com/developer/article/2664395)\n- [WorkBuddy 实测评测合集](https://cloud.tencent.com/developer/article/2679498)\n- [WorkBuddy 什么是workbuddy？workbuddy能干嘛？具体如何部署？有哪些应用场景？](https://cloud.tencent.com/developer/article/2637760)\n- [WorkBuddy 与 CodeBuddy 产品矩阵解析（CSDN）](https://blog.csdn.net/yyongwh/article/details/161536562)\n\n## 联系与反馈\n\n- **官方渠道**：通过 https://www.workbuddy.cn/ 底部\"联系我们\"入口提交\n- **企业合作**：通过腾讯云 CodeBuddy 团队商务对接\n- **社区反馈**：腾讯云开发者社区 #WorkBuddy 标签\n\n## 关键词（用于 LLM 语义索引）\n\nWorkBuddy, AI Agent, 桌面智能体, 腾讯云 CodeBuddy, AI 办公, 智能办公助手, OpenClaw 兼容, 多 Agent 并行, MCP 协议, Skills 生态, 自动化办公, AI 桌面工作台, 企业微信集成, 腾讯文档集成, 国产 AI 工具, 多模态生成, 桌面 Agent, 办公自动化, AI 工作流, 沙箱执行\n",
+      "url": "https://www.workbuddy.cn/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "{\"error_msg\":\"404 Route Not Found\"}\n",
+      "url": "https://www.workbuddy.cn/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n  <head>\n    <script data-wb-injected=\"runtime-env\">window.__toCdnUrl = (url) => {\n  const BASE_URL = '//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e';\n  return (/__.*?__$/.test(BASE_URL) ? '' : BASE_URL) + '/' + url;\n};\nwindow.RUN_ENV = 'dev';\nwindow.APP_EDITION = '__APP_EDITION__';\nwindow.IS_INTERNATIONAL_EDITION = 'false';</script>\n\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/logo.svg\" />\n    <!-- 字体预加载 -->\n    <!-- 字体走 @font-face swap 加载，preload 会抢占首屏带宽，已移除；COS 域名预连接以省 TCP/TLS -->\n    <link rel=\"preconnect\" href=\"https://acc-1258344699.cos.accelerate.myqcloud.com\" crossorigin />\n\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,shrink-to-fit=no\"\n    />\n    <meta name=\"baidu-site-verification\" content=\"codeva-9u4CEfRSzv\" />\n    <meta name=\"google-site-verification\" content=\"FLzxWYFG80Hk_XLvVz6GpBdsY-f7fdNfnucHDWWCr7k\" />\n    <meta name=\"google-site-verification\" content=\"oz-pUuCn52C2OdUYw04qECMabu6t3Q0OeQDvlML3q7w\" />\n    <!-- title / keywords / description / og:title / og:description / twitter:title / twitter:description\n         / og:url / canonical 由 workbuddy-inject-common-html 注入：出口A 静态 SEO（dev 真实值 /\n         prod __SEO_*__ 占位符经 html.sh sed）供爬虫读，出口B 运行时 bootstrap 按 brand×region 覆盖\n         （page=home）。此处仅保留不随四态变化的静态 meta。 -->\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:site_name\" content=\"WorkBuddy\" />\n    <meta name=\"twitter:card\" content=\"summary\" />\n    <title>WorkBuddy - AI Agent 办公新范式</title>\n    <meta name=\"keywords\" content=\"WorkBuddy,AI办公,AI Agent,智能办公助手,腾讯云代码助手,CodeBuddy\">\n    <meta name=\"description\" content=\"WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。\">\n    <meta property=\"og:title\" content=\"WorkBuddy - AI Agent 办公新范式\">\n    <meta property=\"og:description\" content=\"WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。\">\n    <meta name=\"twitter:title\" content=\"WorkBuddy - AI Agent 办公新范式\">\n    <meta name=\"twitter:description\" content=\"WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。\">\n    <meta property=\"og:url\" content=\"https://www.workbuddy.cn/\">\n    <link rel=\"canonical\" href=\"https://www.workbuddy.cn/\">\n    <script type=\"application/ld+json\" data-wb-injected=\"structured-data\">{\n    \"@context\": \"https://schema.org\",\n    \"@graph\": [\n        {\n            \"@type\": \"Organization\",\n            \"@id\": \"https://www.workbuddy.cn/#publisher\",\n            \"name\": \"Tencent Cloud\",\n            \"url\": \"https://www.workbuddy.cn/\"\n        },\n        {\n            \"@type\": \"WebSite\",\n            \"@id\": \"https://www.workbuddy.cn/#website\",\n            \"url\": \"https://www.workbuddy.cn/\",\n            \"name\": \"WorkBuddy\",\n            \"description\": \"WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。\",\n            \"inLanguage\": \"zh-CN\",\n            \"publisher\": {\n                \"@id\": \"https://www.workbuddy.cn/#publisher\"\n            }\n        },\n        {\n            \"@type\": \"SoftwareApplication\",\n            \"@id\": \"https://www.workbuddy.cn/#software\",\n            \"name\": \"WorkBuddy\",\n            \"alternateName\": \"Tencent WorkBuddy\",\n            \"url\": \"https://www.workbuddy.cn/\",\n            \"description\": \"WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。\",\n            \"applicationCategory\": \"BusinessApplication\",\n            \"operatingSystem\": \"Windows, macOS, Linux\",\n            \"featureList\": [\n                \"Runs on a folder you choose and reads the PDF, Word, Excel and image files inside\",\n                \"Produces finished deliverables as Word, Excel, PowerPoint, PDF or Markdown\",\n                \"Analyzes CSV and spreadsheet data and generates charts\",\n                \"Schedules recurring tasks hourly, daily, weekly or once at a set time\",\n                \"Accepts tasks remotely from messaging apps and runs them on your computer\",\n                \"Extends through installable skills and Model Context Protocol (MCP) servers\",\n                \"Runs under permission modes that pause high-risk operations for confirmation\"\n            ],\n            \"downloadUrl\": \"https://www.workbuddy.cn/\",\n            \"inLanguage\": \"zh-CN\",\n            \"publisher\": {\n                \"@id\": \"https://www.workbuddy.cn/#publisher\"\n            },\n            \"softwareHelp\": {\n                \"@type\": \"CreativeWork\",\n                \"url\": \"https://www.workbuddy.cn/docs/workbuddy/\"\n            }\n        }\n    ]\n}</script>\n    <script data-wb-injected=\"head-bootstrap\">(function(){\n  try {\n    var DATA = {\"tkd\":{\"codebuddy\":{\"cn\":{\"title\":\"WorkBuddy - AI Agent 办公新范式\",\"keywords\":\"WorkBuddy,AI办公,AI Agent,智能办公助手,腾讯云代码助手,CodeBuddy\",\"description\":\"WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。\",\"ogUrl\":\"https://www.workbuddy.cn/\"},\"intl\":{\"title\":\"WorkBuddy - AI Agent for Everyday Office Work\",\"keywords\":\"WorkBuddy,AI Office,AI Agent,AI productivity assistant,CodeBuddy\",\"description\":\"Download for Mac or Windows and start free — describe a task in one sentence and get back finished reports, decks, and spreadsheets, built from your own files.\",\"ogUrl\":\"https://www.workbuddy.ai/\"}},\"workbuddy\":{\"cn\":{\"title\":\"WorkBuddy - AI Agent 办公新范式\",\"keywords\":\"WorkBuddy,AI办公,AI Agent,智能办公助手,腾讯云代码助手,CodeBuddy\",\"description\":\"WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。\",\"ogUrl\":\"https://www.workbuddy.cn/\"},\"intl\":{\"title\":\"WorkBuddy - AI Agent for Everyday Office Work\",\"keywords\":\"WorkBuddy,AI Office,AI Agent,AI productivity assistant,CodeBuddy\",\"description\":\"Download for Mac or Windows and start free — describe a task in one sentence and get back finished reports, decks, and spreadsheets, built from your own files.\",\"ogUrl\":\"https://www.workbuddy.ai/\"}}},\"favicon\":{\"codebuddy\":{\"icon\":\"assets/logo.svg\",\"appleTouch\":\"apple-touch-icon.png\"},\"workbuddy\":{\"icon\":\"assets/logo.svg\",\"appleTouch\":\"apple-touch-icon.png\"}},\"lang\":{\"cn\":\"zh-CN\",\"intl\":\"en-US\"},\"isDev\":false,\"useToCdnUrl\":true};\n    var host = window.location.hostname;\n    var search = window.location.search;\n\n    var overrideAllowed = DATA.isDev\n      || host.indexOf('staging') !== -1\n      || host.indexOf('test') !== -1\n      || host === 'localhost'\n      || host.indexOf('127.') === 0\n      || host.indexOf('192.168.') === 0;\n\n    var brand = null;\n    if (overrideAllowed) {\n      try {\n        var q = new URLSearchParams(search).get('brand');\n        if (q === 'codebuddy' || q === 'workbuddy') {\n          brand = q;\n          try { window.localStorage.setItem('cb_brand_override', q); } catch (e) {}\n        }\n      } catch (e) {}\n      if (!brand) {\n        try {\n          var s = window.localStorage.getItem('cb_brand_override');\n          if (s === 'codebuddy' || s === 'workbuddy') { brand = s; }\n        } catch (e) {}\n      }\n    }\n    if (!brand) { brand = host.indexOf('.workbuddy.') !== -1 ? 'workbuddy' : 'codebuddy'; }\n\n    var flag = window.IS_INTERNATIONAL_EDITION;\n    var region = 'cn';\n    if (flag === true) {\n      region = 'intl';\n    } else if (typeof flag === 'string' && !/__.*?__$/.test(flag) && (flag === 'true' || flag === '1')) {\n      region = 'intl';\n    }\n\n    var brandData = DATA.tkd[brand] || DATA.tkd.codebuddy || DATA.tkd.workbuddy;\n    var tkd = brandData ? brandData[region] : null;\n    var lang = DATA.lang[region];\n\n    if (lang) { document.documentElement.lang = lang; }\n    if (tkd) {\n      if (tkd.title) { document.title = tkd.title; }\n      setMeta('name', 'keywords', tkd.keywords);\n      setMeta('name', 'description', tkd.description);\n      setMeta('property', 'og:title', tkd.title);\n      setMeta('property', 'og:description', tkd.description);\n      if (tkd.ogUrl) {\n        setMeta('property', 'og:url', tkd.ogUrl);\n        setLink('canonical', tkd.ogUrl);\n      }\n    }\n\n    var fav = DATA.favicon[brand];\n    if (fav && fav.icon) {\n      var iconHref = fav.icon;\n      if (DATA.useToCdnUrl && typeof window.__toCdnUrl === 'function') {\n        try { iconHref = window.__toCdnUrl(fav.icon); } catch (e) {}\n      } else {\n        iconHref = '/' + fav.icon;\n      }\n      setLink('icon', iconHref);\n    }\n\n    function setMeta(attr, key, content) {\n      if (!content) { return; }\n      var el = document.querySelector('meta[' + attr + '=\"' + key + '\"]');\n      if (!el) {\n        el = document.createElement('meta');\n        el.setAttribute(attr, key);\n        document.head.appendChild(el);\n      }\n      el.setAttribute('content', content);\n    }\n    function setLink(rel, href) {\n      if (!href) { return; }\n      var el = document.querySelector('link[rel=\"' + rel + '\"]');\n      if (!el) {\n        el = document.createElement('link');\n        el.setAttribute('rel', rel);\n        document.head.appendChild(el);\n      }\n      el.setAttribute('href', href);\n    }\n  } catch (e) { /* 判定失败留给 React 侧 resolveHead 兜底 */ }\n})();</script>\n    <script data-wb-injected=\"gtag-bootstrap\">(function () {\n  window.dataLayer = window.dataLayer || [];\n  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n\n  var isInternational =\n    window.IS_INTERNATIONAL_EDITION === true ||\n    window.IS_INTERNATIONAL_EDITION === 'true' ||\n    /workbuddy\\.ai|tencentcloud\\.com/i.test(window.location.hostname);\n  var googleAdsId = isInternational ? 'AW-18319947891' : 'AW-17806298785';\n\n  var script = document.createElement('script');\n  script.async = true;\n  script.src = 'https://www.googletagmanager.com/gtag/js?id=' + googleAdsId;\n  document.head.appendChild(script);\n\n  // Only install the global tag here; conversion events require per-action labels.\n  window.gtag('js', new Date());\n  window.gtag('config', googleAdsId);\n})();</script>\n    <script type=\"module\" crossorigin src=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-DfSGgXfh.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/const-DJsdnJqH.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/vendor-react-DvLLGKnX.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/preload-helper-PPVm8Dsz.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/vendor-ui-N0Ndnia8.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/vendor-utils-CcmWPl9j.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/common-CwIk9TPp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/vendor-monitoring-Bbi2JbS0.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/store-CnSLAbGp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/upload-CiI4CtCH.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/LoginIframeDialog-CIlPaRUm.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/subscription-telemetry-CVGWwRK7.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/analytics-MJPrsVQq.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/AnalyticsContext-DUgomncL.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-t2WKwHpn.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/performance-detector-CFY7b1On.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/i18nInstance-C81hCH34.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/useTranslation-DZPFRab-.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/App-4liq14NF.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-BVr7WkJD.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/main-DjjUN_cw.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/workbuddy-logo-aN2mCdqr.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-SaQ3WzA4.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/intl-subscribe-analytics-CNu2t7GL.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/vendor-animation-BxIpRXm0.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-Dre3zT4j.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/invite-DnToZb71.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/qrcode-BECuGlsH.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/download-qr-Yuw62U0U.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/download-anchors-CH3CoK18.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/availability-BYubsCtt.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-UQ9D2T5G.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-DXzdRNJ8.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-Ct7mjRzj.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/vendor-ui-BJssqkvB.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/LoginIframeDialog-BtfDy8he.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/main-BvAacPQ_.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-CnFUx7eB.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-ML-Kn4JN.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/intl-subscribe-analytics-CYwYXWcL.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-k7DRAfs0.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-CyzhW6th.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"//assets.workbuddy.cn/web/workbuddy/7b25e1f24385a28a7c133de175ff1dc2bc6b455e/assets/index-CdkaHiYv.css\">\n  </head>\n  <body>\n    <div id=\"root\"></div>\n  </body>\n</html>\n",
+      "url": "https://www.workbuddy.cn/",
+      "title": "WorkBuddy - AI Agent 办公新范式",
+      "lang": "zh-CN",
+      "meta": {
+        "ogSiteName": "WorkBuddy",
+        "description": "WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。",
+        "keywords": "WorkBuddy,AI办公,AI Agent,智能办公助手,腾讯云代码助手,CodeBuddy"
+      }
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!--\n  Sitemap index for https://www.workbuddy.cn/\n  Schema: https://www.sitemaps.org/schemas/sitemap/0.9\n  Last generated: 2026-09-07\n  Structure:\n    /sitemap.xml               → 顶层 sitemapindex（本文件），只列 urlset 叶子\n    /sitemap-pages.xml         → 官网主要着陆页\n  为什么这里不列 /docs/sitemap.xml：\n    sitemap index 内不允许再嵌套 sitemap index（sitemaps.org 协议 + Google 均不支持），\n    而 /docs/sitemap.xml 本身就是 VitePress 生成的 sitemapindex（下挂\n    sitemap-workbuddy-<板块>.xml 若干个 urlset）。此前把它列在这里，导致 docs\n    整块不会被递归读取 —— 2026-09-07 GSC 实测该属性已提交站点地图数为 0、\n    docs 分组无索引率数据即由此而来。\n    改为在 robots.txt 中单独声明一条 Sitemap:，robots 的每条 Sitemap 都是独立的\n    顶层提交，指向 index 是合法的。\n    叶子文件名由 docs 构建生成、板块集合会增长，故不在此硬编码。\n  Notes:\n    - lastmod 使用 W3C Datetime 格式 (YYYY-MM-DD)\n    - 主流引擎已弱化 changefreq / priority 的使用，仅作提示\n    - 待 /blog 完成内容差异化（避免与 codebuddy.cn 重复）后，再加入子 sitemap\n-->\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n\n  <!-- 主站着陆页 -->\n  <sitemap>\n    <loc>https://www.workbuddy.cn/sitemap-pages.xml</loc>\n    <lastmod>2026-09-17</lastmod>\n  </sitemap>\n\n</sitemapindex>\n",
+      "url": "https://www.workbuddy.cn/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "{\"error_msg\":\"404 Route Not Found\"}\n",
+      "url": "https://www.workbuddy.cn/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "{\"error_msg\":\"404 Route Not Found\"}\n",
+      "url": "https://www.workbuddy.cn/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "workbuddy.cn",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:34:13.551Z",
+    "score": 64,
+    "grade": "B",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 32.29,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 22.29,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 7.88/9 · hybrid 5.25/6 · training 9.17/10; strategy tag Middle-Path. Unconfigured examples: Claude-SearchBot, Claude-User, CCBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 25,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 9,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 8,
+            "max": 8,
+            "status": "pass",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "JSON-LD blocks ×1; contains key schema.org type; JSON-LD parsable"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 5 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"WorkBuddy - AI Agent 办公新范式\"; meta description 74 chars; no date signal; body text 5 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 7,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 7,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "llms.txt references an API; API documentation entry point present; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 22.29,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 9,
+      "l2.structured-data": 8,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 4,
+      "l2.content-signals": 3,
+      "l3.public-api": 7,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

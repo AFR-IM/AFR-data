@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "bitmovin.com",
+    "fetchedAt": "2026-11-22T20:07:08.507Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /wp-content/uploads/wp-import-export-lite/\n\nSitemap: https://bitmovin.com/sitemap_index.xml\n",
+      "url": "https://bitmovin.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "# Bitmovin\n\n> Bitmovin provides modular video infrastructure — cloud encoding for live and on-demand video, cross-platform player SDKs, playback analytics and AI scene analysis — used by broadcasters, streaming services and sports leagues to run video workflows at scale.\n\nBitmovin's products are modular: Player, VOD Encoding, Live Encoding, Observability, AI Scene Analysis, Streams and Stream Lab. They can be adopted individually or combined into an end-to-end workflow.\n\nBitmovin is not a CDN, CMS, MAM, or subscriber-management system.\n\nWebsite: https://bitmovin.com\nExpanded version of this file: https://bitmovin.com/llms-full.txt\n\n## Products\n\n- [Player](https://bitmovin.com/llms/player.md): Cross-platform adaptive-streaming player for Web, iOS, Android, tvOS, Roku, smart TVs and games consoles. Supports HLS, DASH and progressive delivery, with DRM, client- and server-side ad insertion (CSAI/SSAI) and analytics built in.\n- [VOD Encoder](https://bitmovin.com/llms/vod-encoder.md): Cloud encoding for on-demand video with per-title optimization, multi-codec output (H.264, H.265/HEVC, AV1, VP9), HDR conversion and DRM packaging, running across AWS, GCP, Azure and OCI.\n- [Live Encoder](https://bitmovin.com/llms/live-encoder.md): Low-latency live encoding with RTMP, SRT, Zixi and HLS ingest, SCTE-35 ad signalling, live-to-VOD workflows, standby pools for instant channel start, and SSAI integrations including YoSpace, AWS MediaTailor and Broadpeak.\n- [Observability](https://bitmovin.com/llms/observability.md): Real-time playback analytics across QoS and QoE metrics — startup time, rebuffering, error rates, bitrate, CDN performance and engagement — with per-session drill-down and cross-dimensional analysis.\n- [AI Scene Analysis](https://bitmovin.com/llms/ai-scene-analysis.md): Scene-level metadata extracted during encoding: scene boundaries, summaries, visual elements, mood, IAB taxonomy classification, sensitive-content flags and automatic ad-placement markers, with multi-language output.\n- [Streams](https://bitmovin.com/llms/streams.md): Managed end-to-end video delivery for simpler use cases — upload, encode and embed via a web component.\n- [Stream Lab](https://bitmovin.com/stream-lab/): Automated playback testing across 30+ physical devices, including Samsung, LG and Vizio TVs, browsers and games consoles.\n\n## Developers\n\n- [Bitmovin developer skill](https://bitmovin.com/skill.md): Reference material packaged for AI coding assistants, covering player integration, encoding, live and VOD streaming, playback analytics and video AI. Installs into Claude Code and other agents via `npx @bitmovin/skills`.\n- [Developer documentation](https://developer.bitmovin.com/): Product documentation, API references and demos.\n- [Encoding documentation](https://developer.bitmovin.com/encoding/docs/documentation): Live and VOD encoding APIs, SDKs and workflows.\n- [Playback documentation](https://developer.bitmovin.com/playback/): Player SDKs, configuration and platform support.\n- [Streams documentation](https://developer.bitmovin.com/platform/docs/overview): Streams setup and embedding.\n\n## Company\n\n- [About Bitmovin](https://bitmovin.com/llms/about-us.md): Company history, vision and values. Founded in 2012.\n- [Pricing](https://bitmovin.com/pricing/): Plans and pricing across encoding, player and analytics products.\n- [Contact](https://bitmovin.com/contact-bitmovin): Sales and general enquiries.\n\n## Optional\n\n- [Test your stream](https://bitmovin.com/demos/test-stream/): Browser tool for testing an HLS or DASH stream in the Bitmovin Player.\n",
+      "url": "https://bitmovin.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "# Bitmovin\n\n> Bitmovin provides adaptive streaming infrastructure for video publishers and integrators. With the fastest cloud encoding and HTML5 Player\n\nWebsite: https://bitmovin.com\n\n---\n\n## About\nSource: https://bitmovin.com/llms/about-us.md\n\nOUR VISION, VALUES, HISTORY AND TEAM\n\n# About Bitmovin\n\nBitmovin was founded in 2012 to solve a core need in the market – to create best in class video development solutions that enable customers to create memorable digital experiences, worldwide.\n\n## Our Vision and Mission\n\nAs a company, our vision is to shape the future of video. We support this with our mission which is to enable to play, encode and analyze video content simply, efficiently and with the highest quality imaginable.\n\n### Our Core Values\n\n**Think through the customer lens.**\nCreate the best solutions to enable our customers to deliver the best experiences to the markets they serve. Go the extra mile to surprise and delight our customers.\n\n**Own it.**\nTake pride in your work and accomplish what you set out to do. See it through to completion. Find and provide solutions to problems and take initiative.\n\n**Attack the idea, not the person.**\nEngage in constructive conflict and get all ideas out in the open at the start of a project. Treat others respectfully and embrace new perspectives with an open mind.\n\n**Innovate relentlessly.**\nSeek to learn continuously and cultivate a culture of innovation and curiosity. Adopt an always learning mindset and flex your idea muscles often.\n\n**Execute and get results.**\nA strategy is just a theory unless it is executed. Plans, while important, don't move the needle for the company. Results do. Look to create the highest impact, efficiently.\n\n## Milestones\n\n- 2012: During their studies at the Alpen Adria Universität in Klagenfurt, Stefan and Chris started their research: MPEG-DASH Streaming via Internet\n- 2014: First Products (Encoding, Player), First Team Members in Engineering, Marketing and Sales\n- 2015: YCombinator – First office in the US – Focusing on Developer Go-To-Market Strategy\n- 2016: Series A Funding – Global Expansion\n- 2018: Local Expansion in the US and Europe, Global Expansion in LATAM and APAC regions; Series B Funding\n- 2019: Over 250 enterprise customers around the globe\n- 2020: Great Place to Work Austria 2020: Bitmovin earns #2 spot\n- 2021: Bitmovin raises $25 million in Series C financing & wins Emmy® Award for Innovations in Online Broadcasting\n- 2022: Bitmovin launches Streams, its own Live Encoder and Stream Lab. Bitmovin and the University of Klagenfurt start €3.3 million climate-friendly video streaming platform research project \"GAIA\"\n\n## Founders\n\n- Stefan Lederer – CEO & Co-Founder\n- Christopher Mueller – CTO & Co-Founder\n\n## Competitive Advantage\n\n- **Optimize the viewer experience** – Prepare and stream content in high quality, to satisfy viewer expectations\n- **Faster time-to-market** – Get your product, app or service in market faster than the competition\n- **Operational Optimization** – Control costs, mitigate risk and manage workflow complexity\n\n## Investors\n\nBitmovin, Inc. is based in San Francisco, USA, Klagenfurt, Austria and privately owned. Investors include YCombinator (YC S15), Highland Europe, Atomico, SpeedInvest, Constantia Industries and Dawn Capital.\n\n## Office Locations\n\n- Klagenfurt: Schleppeplatz 7, Top 4.3, 9020 Klagenfurt, Austria\n- Vienna: Turm 24 / 4. OG / Top 403, Gertrude-Fröhlich-Sandner-Str. 2-4, 1100 Vienna, Austria\n- London: Work.Life Fitzrovia, 33 Foley St, London W1W 7TL, UK\n- Denver: 1444 Wazee Street, Suite 133, Denver, CO 80202, USA\n- Berlin: Dahlmannstraße 5, 10629 Berlin, Germany\n\n---\n\n## Player\nSource: https://bitmovin.com/llms/player.md\n\nVIDEO PLAYER\n\n# The leader in quality playback\n\nDeliver the highest quality experience to a wider audience across the most extensive range of devices with the Bitmovin Player. Our video player guarantees playback quality on any screen through our modular architecture including low-latency, configurable ABR and Stream Lab – the world's first stream QoE testing service.\n\nTrusted by: LaLiga, MBC, Intigral, RTL, ORF, Axel Springer, ClassPass, VNPT\n\n## Device SDKs\n\n- HTML5 Web SDK\n- Android & Android TV SDK\n- iOS & tvOS SDK\n- Smart TVs SDK\n- Roku SDK\n- Gaming Consoles SDK\n- React Native SDK\n- Set Top Boxes SDK\n- Flutter SDK\n\n## Developer Resources\n\n- Deployment Guides: https://developer.bitmovin.com/playback/docs\n- API Documentation: https://developer.bitmovin.com/playback/docs/introduction-player\n- Code Samples: https://github.com/bitmovin?q=bitmovin-player+samples\n- Developer Community: https://community.bitmovin.com/\n\n## Key Features\n\n- **Adaptive Streaming (ABR)** – Adapt your ABR to fit your specific needs\n- **Advertising** – Monetize your content with client-side and server-side ads\n- **DRM** – Widevine, PlayReady, FairPlay and more\n- **Subtitle and Captions** – Embedded or side-loaded captions\n- **Offline Playback** – Download, play and manage content for offline viewing\n- **Playlist API** – Gapless transitions between streams\n- **Universal UI** – Customize the player UI for web, TV & mobile devices\n- **Low Latency** – Low latency DASH & HLS playback\n- **Stream Lab** – Test streams on physical devices including Smart TVs\n- **ECO-Mode** – Energy-efficient streaming\n- **Observability** – Pre-integrated with Bitmovin Observability\n- **Network API** – Modify network requests in real time\n\n## Player Web X\n\nA new Player Web SDK reimagined for high performance and flexibility, ideal for short-form content where lightning-fast page and video startup times matter most. Open-source plugin template available.\n\n## Supported Devices\n\nDesktop (Mac, Windows, Chromebook), iPhone, iPad, Apple TV, Vision Pro, Apple AirPlay, Android Phone/Tablet/TV, Android OS Smart TVs, Android Set Top Boxes, Chromecast, Amazon Fire Tablet & Fire TV, Roku, Sony PlayStation 4 & 5, Samsung TV (Tizen 2017+), LG TV (webOS 2017+), Comcast X1, RDK devices, HbbTV (2.0.3+), Panasonic (2018+), Vizio (2020+), Hisense (2018+), TiVo OS, HarmonyOS, Microsoft Surface/Xbox One Series\n\n## Supported Browsers\n\nChrome, Edge, Firefox, Opera, Safari\n\n## Streaming Protocols\n\n- VOD: HLS, MPEG-DASH, HSS\n- Live: Low Latency HLS (CMAF), Low Latency DASH (CMAF)\n\n## Content Protection\n\nWidevine, FairPlay, PlayReady, AES-128 / Clearkey, Offline DRM, Client-side Watermarking, Key Rotation, Token Authentication\n\n## Advertising Capabilities\n\nSSAI, CSAI, SGAI, VAST 3.0/4.0/4.1, VMAP, VPAID 2.0, Open Measurement & OM SDK, Ad Scheduling, Ad Waterfall, Ad Pods, Companion Ads, Overlay Ads, Skippable Ads\n\n## Partner Integrations\n\n- DRM: Irdeto, Nagra, BuyDRM, Verimatrix, EZDRM, ExpressPlay, Axinom\n- Advertising: Google Ad Manager & IMA, Yospace, Elemental Media Tailor, MediaKind Prisma, AIP, Broadpeak SmartLib, Freewheel, SpotX\n- CDN: Akamai, Fastly, AWS CloudFront\n- Analytics: Conviva, Akamai Analytics, Mux, Nielsen, Youbora (NPAW)\n\n---\n\n## Observability\nSource: https://bitmovin.com/llms/observability.md\n\nREAL-TIME OBSERVABILITY\n\n# Instant visibility across content & ads playback to enhance QoE, monetisation and viewer support\n\nBitmovin's Observability provides real-time visibility across your video playback. By combining session-level tracking, monetisation analysis, alerts and AI-enhanced error debugging, it helps teams detect and resolve issues faster, uncover performance trends, and continuously optimize the monetisation of every stream.\n\nTrusted by: MultiChoice, Crackle, Thrive360, BBC, RTL\n\n## Core Capabilities\n\n- **Real-time visibility** – Instrument every playback session with AI-enhanced performance tracking for QoS and QoE\n- **Proactive alerting** – Intelligent alerts and AI-assisted insights to detect and resolve issues before they affect viewers\n- **Advertising observability** – Real-time data on SSAI, CSAI, and SGAI ad performance\n- **Faster issue resolution** – Stack traces, error logs, MCP Servers & network traces with AI-assisted analysis\n\n## Supported Players\n\nBitmovin Player, Amazon IVS, AVPlayer, Media 3 & ExoPlayer, Roku Native Player, Shaka Player, HLS.js, Video.js, HTML5 Video Element, Dash.js, Dolby OptiView (THEOPlayer)\n\n## Free Tier\n\n100,000 free observability impressions every month.\n\n## Key Features\n\n- AI Session Interpreter & MCP Server\n- Advertising Analytics (SSAI, CSAI, SGAI)\n- Open Source & Native Player Collectors\n- Real-Time Observability for Video Playback\n- Video Stream Error Tracking\n- Observability Alerts\n- Real-Time Monitoring\n\n## Tracked Metrics (200+ data points)\n\n**Audience:** Total Plays, Unique Users, Concurrent Views, Total Hours Watched, Average View Time, Session List\n\n**Performance:** Total Startup Time, Player Startup Time, Video Startup Time, DRM Load Time, Seek Time, Data Downloaded, Download Speed, Page Load Time, Bandwidth\n\n**Quality:** Video Bitrate, Audio Bitrate, Dropped Frames, View Time, Screen/Player/Rendition dimensions\n\n**Debugging:** Error Percentage, Rebuffer Percentage, Buffering Time, Error Code, Error Message, Error Stack Trace, Video Start Failure\n\n**Advertising:** Ad Impressions, Completion Rate, View Rate, Ad Startup Time, Click Rate, Skip Position, Ad Abandonment Rate, Failed Beacon URLs\n\n## Integrations\n\nSAML SSO, Okta, AWS S3, Google Cloud Storage, Azure Storage, Snowflake, Google Pub/Sub, Grafana, Looker Studio\n\n## Collectors\n\nBitmovin Player, Shaka Player, dash.js, hls.js, video.js, HTML5 Video Element, Android ExoPlayer & Media3, Apple AV Foundation, Roku Native, Chromecast v3 Adapter, THEOPlayer / Dolby OptiView, Amazon IVS Player\n\n---\n\n## VOD Encoder\nSource: https://bitmovin.com/llms/vod-encoder.md\n\nVOD ENCODING\n\n# A new standard of quality\n\nThe Bitmovin Next-Generation VOD Encoder delivers the highest quality of experience on the market today. Multi-codec streaming (including AV1), Per-Title and Per-Shot optimizations, 8K and multi-HDR support.\n\nTrusted by: BBC, Globo, Red Bull Media, Discovery+, NRL, New York Times\n\n## Key Capabilities\n\n- **Cinematic Experience** – Crystal-clear quality up to 8K with Dolby Vision & Atmos support\n- **Short form and clips** – Nvidia GPU-powered, faster encoding for sports, news, UGC and ads\n- **Content Scalability** – 100x real-time processing for long-form content and entire content libraries\n- **AI Scene Analysis** – Pre-integrated for content discovery, workflow automation, and enhanced monetization\n\n## Free Tier\n\n2,000 free encoding minutes monthly.\n\n## Innovative Features\n\n- **3-pass encoding** – Reduces bitrates by 30% with no visible loss in quality\n- **Per-Shot encoding** – Advanced optimization around shot boundaries for better bitrate distribution\n- **Smart chunking** – Intelligently allocates higher bitrates to crucial file segments\n- **Per-Title encoding** – Customizes the bitrate ladder per video based on content complexity\n- **Multi-codec** – H.264, H.265/HEVC, VP9, AV1, VVC\n- **HDR** – Dolby Vision, HDR10, HLG; create unified multi-HDR outputs from a single mezzanine file\n\n## Developer Resources\n\n- Simple Encoding API: https://developer.bitmovin.com/encoding/docs/simple-encoding-api-vod\n- Code Examples: https://github.com/bitmovin/bitmovin-api-sdk-examples\n- Dashboard Wizard: https://dashboard.bitmovin.com/encoding/getting-started\n\n## Cloud Options\n\n- **Managed Cloud:** AWS, GCP, Azure, Akamai Connected Cloud, Oracle Cloud\n- **Cloud Connect:** AWS, GCP, Azure, Oracle Cloud (run in your own cloud account)\n\n## Input Formats\n\nVideo codecs: MPEG-1/2/4, H.261/262/263/264/265, VP6/8/9, DNxHD, ProRes, XDCAM, DV, DVCPRO, JPEG2000 and more\nFile formats: MP4, MKV, MOV, AVI, FLV, MPEG-2 TS/PS, MXF, LXF, GXF, 3GP, WebM, MPG, QuickTime\n\n## Output Formats\n\nVideo codecs: H.264/AVC, H.265/HEVC, MV-HEVC, VP8, VP9, AV1, VVC, MPEG-2, MPEG-4\nFile formats: MPEG-2 TS, MP4, fMP4, MOV, WebM, CMAF, MXF\nStreaming protocols: MPEG-DASH, Apple HLS, Progressive MP4, Smooth Streaming\n\n## Audio\n\nInput: AAC, MP3, DTS Express, FLAC, WMA, Vorbis, PCM, WAV, Dolby Atmos, Dolby Digital, Dolby Digital Plus, Dolby E, ALAC\nOutput: AAC-LC, HE-AACv1/v2, MP2, MP3, DTS Express/HD/X, Vorbis, Opus, Dolby Atmos, Dolby Digital, Dolby Digital Plus\n\n## Content Protection\n\nWidevine, PlayReady, Marlin, FairPlay, DASH ClearKey, SAMPLE-AES, AES-128, Multi-DRM, Forensic Watermarking\n\n## Subtitles & Closed Captions\n\nWebVTT, CEA-608/708, SRT, TTML (EBU-TT, SMPTE-TT, IMSC), Burn-in Subtitles\n\n## Filters\n\nMotion Adaptive Deinterlace, Denoise, Crop/Scale/Rotate, Watermarking, Audio Mixing, Unsharp Masking, Text Overlay, Super Resolution (ML)\n\n## Available On\n\nAWS Marketplace, Azure Marketplace, Google Cloud Marketplace\n\n---\n\n## Live Encoder\nSource: https://bitmovin.com/llms/live-encoder.md\n\nLIVE ENCODING\n\n# Delivering resilient and consistent, high-quality live streaming experiences\n\nStream resilient live experiences with Bitmovin's Live Encoder. Ingest RTMP/s, SRT, or Zixi inputs; generate packaged HLS and DASH outputs; ensure scalable, high-quality delivery to the widest range of devices and platforms.\n\nTrusted by: OKAST, fuboTV, RTL, OneFootball\n\n## Core Use Cases\n\n- **Event-based and 24/7 live streaming** – Live events, UGC, or 24/7 channels with flexible live pools\n- **Monetize live content** – SCTE-35 support and integrated partner solutions\n- **Live streaming at scale** – Pay-as-you-go or contract-based pricing across any major cloud\n\n## Free Tier\n\n360 free live encoding minutes monthly.\n\n## Deployment Options\n\n- Managed SaaS (cloud infrastructure handled by Bitmovin)\n- Cloud Connect (deploy in customer-owned AWS, Azure, GCP, or Akamai accounts)\n- Hybrid\n\n## Live Encoding HD vs Custom\n\n| Feature | Live Encoding HD | Custom |\n|---|---|---|\n| Input Protocols | RTMP, SRT (main & backup) | RTMP, SRT, Zixi |\n| Output Video Codecs | H.264 | H.264, H.265, VP9 |\n| Max Frame Rate | 30 fps | 120 fps |\n| Max Resolution | Full HD (1920×1200) | 4K (3840×2160) |\n| Max Video Renditions | 6 | No limit |\n| Output Audio Codecs | AAC | AAC, AAC-LC, HE-AAC, Opus, Vorbis |\n| Max Audio Renditions | 2 | No limit |\n| Max Output Manifests | 2 | No limit |\n\n## Input Specifications\n\n- Video codecs: MPEG-2, MPEG-4, AVC/H.264, HEVC/H.265\n- Audio codecs: AAC, AC3, PCM\n- Transport protocols: RTMP, SRT (Caller/Listener), Zixi Receiver\n- Resolutions: SD, 480i, 576i, 720p, 1080i, 1080p, 4K/2160p, Portrait (mobile)\n\n## Output Specifications\n\n- Video codecs: AVC/H.264, HEVC/H.265, VP9\n- Audio codecs: AAC-LC, HE-AACv1/v2, AC3, Vorbis, Opus\n- Streaming protocols: MPEG-DASH, Apple HLS, DASH-IF Live Media Ingest, Progressive MP4\n- DRM: Widevine, PlayReady, Marlin, FairPlay\n\n## Monetization\n\nSCTE-35 pass-through, real-time ad break cue insertion via UI or API. Ad partners: Google DoubleClick, Yospace, Broadpeak, AWS MediaTailor.\n\n## Subtitles & Closed Captions\n\nWebVTT & OCR into WebVTT, CEA-608/708, Burn-in subtitles, Azure Cognitive Services Speech-to-Text\n\n## Filters\n\nMotion Adaptive Deinterlace, EBU R128 Loudness, Scale/Crop/Rotate, Image Overlay, Automatic Closed Caption Filter\n\n## Supported Origin Storage\n\nAWS S3, Google Cloud Storage, Azure Blob, Akamai NetStorage, Akamai MSL4, Unified Origin, Generic S3 (Oracle, Akamai, Wasabi, Backblaze)\n\n## Available On\n\nAWS Marketplace, Azure Marketplace, Google Cloud Marketplace\n\n---\n\n## Streams\nSource: https://bitmovin.com/llms/streams.md\n\nSTREAMS\n\n# Host, embed & stream live and on-demand video to any device\n\nWith Streams, Bitmovin's end-to-end streaming solution, deliver the highest quality live and on-demand video streaming experience globally across any device. Get started in minutes by uploading and hosting your video or connecting a live stream.\n\n## How It Works\n\n1. **Generate your stream** – Upload a video OR connect a live input to get an active stream URL immediately\n2. **Embed video player** – Personalize the player to your brand and add to your website with one line of code\n3. **Monitor in real-time** – Get immediate insights into viewer experience and stream performance worldwide\n\n## Industries\n\neLearning & EdTech, Religion & Faith, Health & Fitness, News & Publishing, Gaming & Esports, Online Events, E-commerce, Corporate Streaming\n\n## Key Benefits\n\n- **Simplicity and Speed** – Low-code video platform with intuitive UI or REST APIs\n- **Scale and Reduce Costs** – Savings via proprietary per-title encoding algorithm\n- **Stream and Monitor Globally** – Real-time analytics for engagement and retention\n\n## Features\n\n- **Flexible video uploading** – Drag-and-drop UI, URL imports; supports MP4, MOV, etc., up to 5GB per file\n- **Live video** – Connect via OBS, FFmpeg, and other streaming software; RTMP ingest\n- **Customizable player** – Brand colors, poster images, logos/watermarks via dashboard\n- **Easy embed/share** – Auto-generated URL, JavaScript or iframe embed code\n- **In-depth analytics** – Plays, unique users, concurrent views, countries, devices, and more\n- **WordPress plugin** – Available at https://wordpress.org/plugins/bitmovin-streams/\n- **Content protection** – Signed URLs and Domain Restrictions\n\n## Azure Marketplace\n\nAvailable as a recommended alternative to Azure Media Services (retired June 2024): https://azuremarketplace.microsoft.com/\n\n## Trial\n\n30-day free trial, no obligation.\n\n---\n\n## AI Scene Analysis\nSource: https://bitmovin.com/llms/ai-scene-analysis.md\n\nBITMOVIN AI SCENE ANALYSIS\n\n# Enhance Your VOD Workflows with AI-Powered Scene-Level Metadata\n\nAI Scene Analysis enhances VOD workflows using multi-modal AI to automatically generate detailed metadata reflecting the context of every scene. Enables personalized viewing experiences, more effective ad targeting, and faster time to market.\n\n## What It Does\n\nIntegrated directly into Bitmovin's VOD Encoder, AI Scene Analysis runs automatically during encoding to capture scene-level context in real time. It analyzes visual, audio, and narrative elements across the video timeline, generating metadata that powers:\n\n- Dynamic ad placement\n- Highlight creation\n- Personalized recommendations\n- Content discovery and search\n\nThis automation replaces time-consuming manual tagging.\n\n## Core Workflows\n\n- **Contextual Ad Targeting** – Aligns ads with scene content using IAB categories for more relevant VOD ad experiences\n- **Automated Ad Scheduling** – Detects transitions and inserts SCTE markers for accurate VOD ad breaks\n- **Highlight & Trailer Generation** – Identifies key moments to simplify the creation of highlight reels and trailers\n- **Enhanced Content Discovery** – Improves search and recommendations with enriched scene metadata\n\n## Key Benefits\n\n- Detailed scene-level metadata generation\n- Smarter ad breaks\n- More relevant ad experiences with IAB taxonomy mapping\n- Increased revenue potential\n- Improved viewer experiences\n- Seamless integration with Bitmovin's solution suite\n\n## AI Agentic Tools and MCP Server\n\nBitmovin's AI Scene Analysis powers a suite of AI Agentic Tools supported by an MCP Server connecting scene-level metadata to real-time automation and workflow integration:\n\n- **Vertical video clipping** – Automatically identify and repurpose key moments for short-form and social content (coming soon)\n- **Summarization companion** – Multi-language summaries and highlights for faster discovery (coming soon)\n- **Voice-activating seeking** – Natural interaction through voice-activated search and navigation (coming soon)\n\nThese will be available through Bitmovin's AI Hub, where streaming platforms can create their own AI workflows using Bitmovin's suite of tools.\n\n---\n\n## Documentation\n- Main documentation: https://developer.bitmovin.com/\n- Streams documentation: https://developer.bitmovin.com/streams/docs/overview\n- Encoding documentation: https://developer.bitmovin.com/encoding/docs/documentation\n- Playback documentation: https://developer.bitmovin.com/playback/\n",
+      "url": "https://bitmovin.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-YbVDymURHfBw0CV9ZFid3j&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"YbVDymURHfBw0CV9ZFid3j\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'Qzl2jPw8YvH.sGC9rxEGIiwls0L05eoMxxq__l13C5c-1795378026-1.2.1.1-RSwT9U44k62hn8sKEuMm3fbzhZkznAfcHsoM4.taEeq9vqLds9JF.FYxi3vCgqo8',cITimeS: '1795378026',cN: 'YbVDymURHfBw0CV9ZFid3j',cRay: 'a5ea8ef8ba77553b',cTplC:0,cTplO:0,cTplV:5,cType: 'non-interactive',cUPMDTk:\"/?__cf_chl_tk=sXEnSHxMNLso.3XT19dYaMCTbWCnaDpvc0jdmsB6uVE-1795378026-1.0.1.1-CE6vBqusIXuTgQcD8YpAOfCtzeCpw5dqmoXlWelwhGU\",cvId: '3',cZone: 'bitmovin.com',fa:\"/?__cf_chl_f_tk=sXEnSHxMNLso.3XT19dYaMCTbWCnaDpvc0jdmsB6uVE-1795378026-1.0.1.1-CE6vBqusIXuTgQcD8YpAOfCtzeCpw5dqmoXlWelwhGU\",md: 'v.RwE9wmvYtEJ9S_bAC6xsIKG3.McBjKJ.NUAxrK8JI-1795378026-1.2.1.1-ctvx1QCkZCMhjT7npNInMA.qfOp_7LxxW7wgARa3aJ_5Gxk.y4AB8mTYh9_idyTtdyUbkjatVyet9EGExp39FQ4JaprkWfjIZmyHU4D9uYPENHWaQjIWPEYcIQ4lLWFlEglq2OWc.Qwd95nI0R2t2ZBp8S9iS27vVPWcWetnWoqwjy_NyDS0RcuMQr1jnIDx_S3rWjUXv2YKjFQC.mVfNPYQ8QaRc0hDHbZIhOY5KEIPdtn6EkKob2HOeVEjmbiXQCUxEwNrPVYZcKy8RFeLpuN1.B8AULOWjJRNynLVDEqbblc0VA1CyPP5aXuPUdZVIbTojV4wvRQi33CLokVDMDTOxW7Nemoxv_T_LbifwI2mno5.y5IgAmu8mBVvUEwK0PZ8w535cLMXynARR69KPE81a0Pv7FAnv2MvNUgm_swlE9kCmk1HeLkEF4j67d9pb8UHP8JiuCVLB__aJ2gpTV7ov8YlltwdktnERrfXRTqye_6UeuDRihQUAwNJqUJOz1H3ha3MAUZ5f09HBwYmV6zHHdvNLl7Xlm2oy1I1JkL7QyqxlTQ5YBfku_oHv.FZMWFWgBaApcbVaKCuL03_h0NEin5QubxpR7O55SLgv_HiAGZHsVXvsn46o78xVPB.64n6sTsDl5q7tyeJEXM__bxSoYtpZ_O2unw8VVTWXJaCoMiH_8OCsKnZ1U3jBB9Xgp2a7kiAhcRpVInOEoCJM_zWJtr.flteRkoFB6QDwSBJDXLI.C8dBxWOufWK_wGh.zLEAQVRYUHuYFSr0kIwvWZTwYHAqPTEZwSK5lWgvl8HLcIasH7KJSeyTLh7CShloHgDP.D6RYqpQRWMRchwiw0j4NMAnSZElza0e47HOJj61hs8QSSQkJNjxWx4k9qdKIS.JhSjHxcRzgvH913lnXpeGQh0yFCx9zrCqAw5Yyu46kU.55ADIYzXJw1ZfYhlDxl5KZkm6b8Z48WAFJKpWRd8K3S_dDGrKXGlwKfEct5RwBhTOOGykGTCgXAZchGOi5rpabPVJPbmPFWs6c.o72mLpLa7kkqWzOArzdNCBhNW57hUDnXFg2ksOTu1xRssge3wCBkx9CgdKNesZE5Cm5c7bta3e8L8iBteC8XObctMHnjGTgKsHcVst11Egz_0',mdrd: 'PyTPv_zVa.GX22bg3bhwSxcqPCS7VhSGTJqmcw6Oo1k-1795378026-1.2.1.1-hjo62XJfiM9OqOTQJsBfVHcLq5epfiiHfyBXVjcr4ES5lHh8nRtqHSpSv80xHfccxJIZow0f8b6njBtAOphcHlvnfAVQ.xtbtkAM8TKb.nxytMSG.188qfeGaWFeVVwKz53NTVZYupXtJU3nRnEoSE65_nTICmGg5jbbrMoLgOIGHLeewoULeMzncXTaCuj8nSsA17O.pDtIbb2QsUTmaY7OC1kmijrLOAFTwkMTciS2tGRP8.fhuYzlEIq4.w.LetLLlg_nRcHj00vI1_OrkXQ57UONcjTEQiXQhi4n2Tmp59Qt9yXu9Ur5TO3QcVsVmHU.XXtuzj2F9wmUH1uRlZF8VYYmdRp2d8PL1Te8yT4k87MS0DRReMIOJ4JA6XqJVMC2tGOKUxrk83IwnprKDw',};var a = document.createElement('script');a.nonce = 'YbVDymURHfBw0CV9ZFid3j';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea8ef8ba77553b';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=sXEnSHxMNLso.3XT19dYaMCTbWCnaDpvc0jdmsB6uVE-1795378026-1.0.1.1-CE6vBqusIXuTgQcD8YpAOfCtzeCpw5dqmoXlWelwhGU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://bitmovin.com/",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><?xml-stylesheet type=\"text/xsl\" href=\"//bitmovin.com/main-sitemap.xsl\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n\t<sitemap>\n\t\t<loc>https://bitmovin.com/post-sitemap1.xml</loc>\n\t\t<lastmod>2026-11-09T13:27:21+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://bitmovin.com/post-sitemap2.xml</loc>\n\t\t<lastmod>2026-11-09T13:21:28+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://bitmovin.com/post-sitemap3.xml</loc>\n\t\t<lastmod>2026-11-09T13:13:28+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://bitmovin.com/page-sitemap1.xml</loc>\n\t\t<lastmod>2026-11-06T19:15:17+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://bitmovin.com/page-sitemap2.xml</loc>\n\t\t<lastmod>2026-11-05T23:31:45+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://bitmovin.com/author-sitemap.xml</loc>\n\t\t<lastmod>2026-04-20T13:30:24+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://bitmovin.com/local-sitemap.xml</loc>\n\t\t<lastmod>2024-06-19T11:34:12+00:00</lastmod>\n\t</sitemap>\n</sitemapindex>\n<!-- XML Sitemap generated by Rank Math SEO Plugin (c) Rank Math - rankmath.com -->",
+      "url": "https://bitmovin.com/sitemap_index.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-WHD7dC0MdHJu5mp1xVRtex&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"WHD7dC0MdHJu5mp1xVRtex\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '8CNIJ27E0pNRNT3VB.SAgRvZCtZACoxIILpe_O4GeJQ-1795378027-1.2.1.1-TpWN3.Jabj0y9NNh_I1xo2H4uiqfrL0AnqTxfg9G4_px.UrEmL8A6G2pzf2JiB5O',cITimeS: '1795378027',cN: 'WHD7dC0MdHJu5mp1xVRtex',cRay: 'a5ea8f00aeec805e',cTplC:0,cTplO:0,cTplV:5,cType: 'non-interactive',cUPMDTk:\"/AGENTS.md?__cf_chl_tk=BUE6IqcrkqY13IYA5R4aOt3CVme2QBd97r38RhPJaGY-1795378027-1.0.1.1-JhLFaK16ZA2R0ouva_Q7US7HKF3mHw2nwTEmbLwSReU\",cvId: '3',cZone: 'bitmovin.com',fa:\"/AGENTS.md?__cf_chl_f_tk=BUE6IqcrkqY13IYA5R4aOt3CVme2QBd97r38RhPJaGY-1795378027-1.0.1.1-JhLFaK16ZA2R0ouva_Q7US7HKF3mHw2nwTEmbLwSReU\",md: 'EGXjn_I7BvWyEJWrsh.FBk.LW1SdlVOAPFppqwogTwU-1795378027-1.2.1.1-zDUyHvwg8N_3hsGS4_031pXXHT8x37bER5KlG7RVl8zKXiyh6BuIJgsJdGLE6eR68y6CzXW1trjO3saH8KJz_MJyVHW4VQ4nlFhHIClGkNMEZUsxttWbhIJDtgSFaHXofXwdw7SUrD_YiAVEis_mu7VjGbA5IXlcDFXRe2IU32cePhPUsRnkvomBkRrm3fiOV1PTGFzEhzuZP0uJcaR5GaidsThf3iBvDGzA7GJ.VSXAhA8DGrucfRRPaHiuKmuqFr549Ksnk0O2ewSqo5gTi6OEeBMaU9ASAhzNm6j1F340SI1wvL7HDuFSmVn7gsSUwqc95iFSrxlQGPHbMT0xsSy7MdxAi7NsoRmGYy6aMrKeouDUYdmOtd65CaS9d6MRhTc155C6QYaHipInP2L6wfQA_Utj1K2Jxr3PR3vydFWlhGjgJtJz7LzKNAkLt4aVZ08UsBDL0hIns8bPkP6qwNJhxllEz33DP8c_yZGGJNwt8YOdwOiNTXcfSBuU4bwJOKElrVc.qAcGFlD2YuyuuBub4vz4XxoStcBNkZZIBPXKLF0kXkF5s7Mznwwj_gVnnz2qJCH.pWQgvD3zUpYiOu6bJsaUpg0DAV1roq5op8r6lywJRfg.F6i4huuqGK3HsxKBU47WcFyNnLl_ZB.AP1HjU7DNQhP_0Q6Nk0sQ26zaAzCRFtj5MUz7xvK4ZyvdBjvvvB7JUzdNBpFWNkzh5XhsNAClT31k_aJjYA.GBAYI40SweeGxv2XkB0kcHGIErYVWixExtyAa1duZjAo.dVDbQ301j75XDhzln8RQTRv5fpaGxkOBNDgsQAu.Mg854sXaOdFSrqSfEdCsHO9WTPiMSFp0vCXDOyLz160_L5FontfH6FsqEy95kt_YTwRwFlamsIloJMb6.nDbUke9f7XS9UzTp_ePO8DU0ANabuUzLP8tVVHZFixJ5NTEg2lKwdAofDT6vuyjprRV1ET32VqRSltg83rAzDxf3M3MeMVeNSlzNb9aEyALHds3xXIFUYslrY_fxQZL3uMcrt58h.59YMI5v7GbWCHqGi9fRbA3b80jbWUGJhx.l4E12QU8yjfI_phYx_01Y2THk1YncJHpf91d5QMMxXPvpCmugXn88TkR3t314vyI4LDEFVwkaFT6aVq96SRUQSs0.tjvFw',mdrd: 'IRE6hFtE5jkh0RSnGTJdo9xJRTUwutC8vior9lruIew-1795378027-1.2.1.1-qj8JvmhkJHf.A9At9quAc.f58JmTPVhGJgGv4SEyHjhTKIDVd9gLRHjKpW7lrDT1ee5O2Ks4ZUALpK2cXWkPvWyfICPJMy90ufiZ6718IwO4Go1vWULiIi9VL6pxwDF.pKJhqTgnFyAQMPi3Cgb6XHik1wU5RHVQ_XMfdlENg02Zhmjszs5hWcSLgOposHQWIUJH_LZFSldrCnFLUEkiD_.pQnoB2W.Qgd8rf1jX8L.FipYR6LVsOKcf5zZYIUuhs5zNazEC7Iz91XYQSEMPEJmh8aN9OicL0QJ0YoUFp_CgrUxUzL_mSfB5dX4zRLvzd3WqPlwjx7FEI7AQTMNoSLD0kRrx_9YL_aCB_3FLP2hzThYipyzaWeSQ5jDphx9zMuv8tJMUvqDg6r1foF7lDA',};var a = document.createElement('script');a.nonce = 'WHD7dC0MdHJu5mp1xVRtex';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea8f00aeec805e';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/AGENTS.md?__cf_chl_rt_tk=BUE6IqcrkqY13IYA5R4aOt3CVme2QBd97r38RhPJaGY-1795378027-1.0.1.1-JhLFaK16ZA2R0ouva_Q7US7HKF3mHw2nwTEmbLwSReU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://bitmovin.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-20sQ78CJnhh4r557WxdDSV&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"20sQ78CJnhh4r557WxdDSV\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'JL392hX7EtfKu_.z1DMDrzTVo0tDMzyvqQr1q1MIdj0-1795378028-1.2.1.1-9Ol954_LU3vdpIRL2LYCRbo5ApG1O.yP43q4a.oER4PSq2qfgz.3t4.6NB.zMW0a',cITimeS: '1795378028',cN: '20sQ78CJnhh4r557WxdDSV',cRay: 'a5ea8f05eb8c8257',cTplC:0,cTplO:0,cTplV:5,cType: 'non-interactive',cUPMDTk:\"/ai.txt?__cf_chl_tk=S1LqehKJH4ulSC.4Li7WEmmwSu06ryV0YbkWZxR0h28-1795378028-1.0.1.1-_ZhLhFzUpDA4WWjJd500bttPpzi7isexrP35eHn4D80\",cvId: '3',cZone: 'bitmovin.com',fa:\"/ai.txt?__cf_chl_f_tk=S1LqehKJH4ulSC.4Li7WEmmwSu06ryV0YbkWZxR0h28-1795378028-1.0.1.1-_ZhLhFzUpDA4WWjJd500bttPpzi7isexrP35eHn4D80\",md: 'cPaw7nk4CgGT2a44bPuviGUpPOWYteq1O3zT8wVTd3E-1795378028-1.2.1.1-SsubP5ULMYnuU5vm2.IJIt1G.L9HZsiFi_5R6dR8q3lyqzammqigsIpVZKij9CYY9CpVb2SzMXpBCRKlZhxBd92iMU5dQkm_MvoUXNWLFHaF5mXVGeKZViPCSymHJNkupj8TMdY755aA51.SZGukRsXjMZQmvlaxd2IuHXt_p2qmTucyNv_445yt5zoR584eoOVztEQubkKkP_P4FyWkALPWXmeXnZzIRinmMIEa7xIrzUJm5MHHNIwZvLo3Ge6t03TqXEVO_vpVJxBlRBqx_Zt.08Au2Zf2PlS09ALTtsRlHPwhbcLs41AiziZysk9E_QPaW.si6.XGyDb29y6Hds7QEhB7qpYeSy.ddrbEJ.ydUlkAj1uqtnFy5EXD0Zub91jYaLMCVKNwwHfybyBHpfqybSWjB4OX6M0gdCEo3M8Yaj4fdycc4I8ctSoeyALBBYusadSNKTj8ulob3y2qa2n1u0lPXe8CBeMLGrbuH3Mz4r9ft1n.Rr_d41lQ3wQc_mZrsPJhlWebny.VzNVQN0dAIAnkeID.jNuchjSMsOjbiQVZV1PLX3Hx0Och74OXwCTCfIQM3Iqb4E10DsWsPZQ8vX6U2qIpmmRu3Wd6jjzpRt0rbalilQ2TNn_2uryfqTwoZQbp6u6O4sYArOWqvwXII8H3.ZzSQC6YK4yJU4.BoBjT8KmIGaWD.5WMv17ag3k5vnchi6qLUhRcLatstaAp9nccU9VYww9mtR64wKs732YV4S0WER8zNw7XY1FWd7lx84p4MLpagM0L8x_UGAM5zWm1O6HRZ3Rw1LeFKckReGfqtl9LZuNF.lE94QFJs9aZzntL9U_MfeT6fc_5ntTq7IdU9hIT1BANNmvu71suxKlaDS6k1OdaZvaqFOomWq5azAzYltteF77XeVFqJWSmf5AqmKG3DaNXy9v2owQ85t0hfh_wRkI8d6K0WaXH7AkEkCek1Gme3J1paMbz5gz44Re1hOtbeLlTgDAj70FQzx6R3ykUyIASkWmwY5FH3q5WlunZ.qL9_AENb_C81UHSrGBBdue0tU0z_yvQm4vu2.tzqhV6W91lPJSXPfER2w1xxv0WYmQg3v6T5.mmRPQ927vGW6WqGTYzYvvNjU3BAJsWwICV9CQMYn9Ln7fIDp_.w0kYDo7siNltTsd3IA',mdrd: 'tWsGxb6YysXjliqA93pZPbDniK3o7RxUZRm3c60m81c-1795378028-1.2.1.1-U8B5u3zatXo9DEzoYwbm_ek_Ekujxfpoe8krmI8RdTsANi7mmHqDv5YRQxwoFQmTLVJEtIu18xAdXipeIvw7XRv0g7lwXRDEZgfeltVh8m4SxcNv.64oekmtBYXlIzarRmOEmUSYRYjvKN5q1HfVM21fllPVGs0UyHFa3ZRevQmseaQcqRxTXgkrcrRh3Hh0hb7qt4dzMYJ47pXhJwvPFcW6X.g3XqCBkViHBjA8Rx.IEBIwid9LBS63fVDTz.AZyN8bJavNpDpG_6krj516CTgJchxvSe5MwhuWX_ak69WWJpTwnItzuy66emowfNXfpdVoFTdvl4ZC8uqSpu3s1PTQvoO2pHWW2YP4_r2GXpsK6UmtWdVb9wZ5eentgMzgDQr31h7vJ0BFp4Q83Z7JKA',};var a = document.createElement('script');a.nonce = '20sQ78CJnhh4r557WxdDSV';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5ea8f05eb8c8257';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=S1LqehKJH4ulSC.4Li7WEmmwSu06ryV0YbkWZxR0h28-1795378028-1.0.1.1-_ZhLhFzUpDA4WWjJd500bttPpzi7isexrP35eHn4D80\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://bitmovin.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "bitmovin.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:07:08.507Z",
+    "score": 36,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 16,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 7,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 7,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "llms.txt references an API; API documentation entry point present; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 4,
+      "l2.content-signals": 0,
+      "l3.public-api": 7,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "winehq.org",
+    "fetchedAt": "2026-11-22T20:32:39.019Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\n",
+      "url": "https://winehq.org/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-6FDCQ8g1QG92qMTSgT0lJg&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"6FDCQ8g1QG92qMTSgT0lJg\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'gGAwsoUUwJzynfOOfE3gKz8zNS6wROgOu4TlkHR1LwQ-1795379557-1.2.1.1-jjvv8Mm2rvm8IaTdfFA_EZzlSRZMet289B7aAVx9LTRp8HBWNyp8TdrCdyPwcTvp',cITimeS: '1795379557',cN: '6FDCQ8g1QG92qMTSgT0lJg',cRay: 'a5eab457de8115b7',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms.txt?__cf_chl_tk=zXdgfAAtWDllPu_FR5Nx6Qu6bjKdSfDnSxSIyJ.phi8-1795379557-1.0.1.1-6r17etQE9mcJeJkOJatmryrjHhONMWpn2RmjBmVxkH4\",cvId: '3',cZone: 'www.winehq.org',fa:\"/llms.txt?__cf_chl_f_tk=zXdgfAAtWDllPu_FR5Nx6Qu6bjKdSfDnSxSIyJ.phi8-1795379557-1.0.1.1-6r17etQE9mcJeJkOJatmryrjHhONMWpn2RmjBmVxkH4\",md: 'RsChEKDhpPb_8cv2lJZCb2vOR6gWjX7hTILa1xzDaW4-1795379557-1.2.1.1-BvDq0Hv6VtK4Fq5GUff7nqpHTDPZXu1PUKNHtzmTTPZlBiv8LrvRQvGzkRC2flnf_K8Mgb.hKzHg5J8pYUEctUprWR9BF_I7gmCzplCfiWveAQHNmfNuRO07ZI5L8NdZTpgfztAq8XFNg.h3jutrELlz4sDEV_H4s6v1Nr6ySdToLgIdhdaoG1uhBkUtgjhPqalD1iLMJq4ol0TXWc2sHwvniobGBQ98uZ6JZLDQdvsEzxY_R0TifLpofmkfuSdGhHDVwG7klnCxKC9GGoGLwaV2UZwjeYWLVF1QYopyswSVC..Q833zXCxNKjgLHiUxStwxboS8hXHX2324XRJ7MFLMSpEFgRFpTujUHXptblX41Kc4Jv_sGz3VWRNEH0vY_Aus8pgVTq3pCJftbJDUqI9Lco3uAeNZpN310XAoHfHmAGKeRrZhyrZHzw.3QbSQqjn8WkVdqlF8v0n5YdXFT3fauLgWXQugKNFeQfAN.nRVYHGm0XlySil6gXOxLQqd2Oe2FN37_YWhB2JV6JG6QVZdN6VIL7z_hdujzrZn.Gx8kBQSwUH4pTJF.fcco9yTMw5IZ25eA6Omp4nIKx.ffXhJjutlkH5n9yW1h34PWLoP0gmkE9baAGsMHTGzzk1fI0bdYDHoJB.1wCLorwJKcky03OP53dWt8DxcxJc5H04zK2gg0un8zh75POVUDlRk0MLYr8foyH0rabR4lwl4Afl3pwGMc1rJyJi9__0Hk2UDx8uUSNn_iGNT2Xjlcg7VS4a_AZS8gfYEoYEjeUmtJzceMPyc44.bpDq4FjK.WaeDxGDNRrosi6vXrrEyV5ZPp86hbX82Kon5cJQ_4QCZ3yANwI7SFYOWByhNpVBcGMPxrRY_n9l.W17vInf8_uDzRxQGqkEhgj_gFNT6BTa5ExZLyJpILY6vFt1oSw06HEMcW4kerEk0igi2YACiTMo3HmDKKx813Kxs.8G3cRLkvwIVpbjM6X9YgQyiyPeRtu9tK48w6sx34IjbX.oVY8JINggaYOXxoIXu7_BTo6wIvQ',mdrd: 'qP1sr_kg5v.dSt9_AIii9y8kRldnRZIkQqAJ8dEt_f8-1795379557-1.2.1.1-b2W0e2BCfgVhMdvmr_ltHI41RD.jRXEmq1M_CnMRcRrayirU.TAZ7_kaaqV.Xo_KbKIbTeIUE2JBTXNh64iGkuI.rzwluUkaaLESK1zRZaTCcSuWc.i1dcNIdI.bLrmAopMtz.xF30xroYRpkJL2NxtVDRhhPG08plpSDoMbbIwdQCPObZ_6dE3QJJpJOFPov_bg4dRnjQkdWmy1c89nkMNocGBjtUb3GxROAGYjFIb_ndcxtcmDuoYiStWjJYPt5l9mRXlUm4v.vi8WaJQQyKrpsg5scmIxj2Rs.fK0vLX_598AgOhWOYDNLGFGeOOmx7EtpdZOMhrWBPGdxA1gVuuny1LDZTrNcyVq5B2XZLVJqkSVr39sNU4OwyYpDJx_I9pm7ZBEr4qs62KP_UHd0w',};var a = document.createElement('script');a.nonce = '6FDCQ8g1QG92qMTSgT0lJg';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eab457de8115b7';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=zXdgfAAtWDllPu_FR5Nx6Qu6bjKdSfDnSxSIyJ.phi8-1795379557-1.0.1.1-6r17etQE9mcJeJkOJatmryrjHhONMWpn2RmjBmVxkH4\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.winehq.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-CKAu0dEa6Xo1NKuxlBWq7j&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"CKAu0dEa6Xo1NKuxlBWq7j\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'eMQAVhui9koCBbDMKj8ya99ZzWXRZWP_Qh6tE2cWjh0-1795379557-1.2.1.1-V9n7fBa5VQo19sVhFIILc2dUKTQx1MXzTEhC471tq6r2x1q6lG5jtiwYhWz2CJ6e',cITimeS: '1795379557',cN: 'CKAu0dEa6Xo1NKuxlBWq7j',cRay: 'a5eab459a98f060f',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=MEF0Mwrh0kv1q7FpTC60Bzv.W1k2vkvXkBwFhbyDnuo-1795379557-1.0.1.1-J9fBL_PDR73Dek2kiOS5lxL3KphlCebJbsSKs5NEa50\",cvId: '3',cZone: 'www.winehq.org',fa:\"/llms-full.txt?__cf_chl_f_tk=MEF0Mwrh0kv1q7FpTC60Bzv.W1k2vkvXkBwFhbyDnuo-1795379557-1.0.1.1-J9fBL_PDR73Dek2kiOS5lxL3KphlCebJbsSKs5NEa50\",md: '_ZXzBpyEFlyaH8MCQasCCzYSZBGHn0ZimbdwbnzPzMM-1795379557-1.2.1.1-UEkBhriuqVMYrFoBVJaaJ8pt0158.ypl1CihIVnBAdfLIBeA9hxxBKLCPM66D6kTMO4E.wDIzmfO6JQh2oKSd38ZTLOF4yZbsVMZx_R_OGvZ1WcSDQhYq2vqwzeGWF1kwcb5MrQP.oYcfEYI5j09QT0KMVesD_k2JmvLHmpxp_4CCNMZZIdEPKrI_eTaNZviCrgk0J69CCGRndC14WloE5GJAL6S5o2p2cih1UY4.t.9GqceXJ2GjpOzEUWYkVZ_hBRIA7UPCvAXVYS1K2.PA7o9M4.l6jMUgM9SQDTRIXJCIbp8HtDxU64am5zwIzD.fVmHmlPHh7XajPXOT_lte9mb.SRhMg9ib9D6OXC2A2fE_63SJ.UiIyj4T_YUPGPS3MLY98TJM.8xy7u2ilIjml3fSG4jFwIQ_J2hIP5bdsAtZD4pYYEugFnHVEMDDDah5mwTw6R6mcW83NGeSLWch2if0GlMLueFhjCMVIJmTXI_FanGbSMIwcZKuXBU6YugeKF_wM.DgmkSxRp8fNtmavPWywJXkyggZvoZEOpKcQtlDrN3on4xr_tfxDiqwWVmz6HllaFwY6SpmEqEfhP5Ce67znrX9Uxl9ZGuG2kv9GYZYk7CF4UZBuL.I37Pit33EcN5MuPbI6MvtDPvYCFYNYciG_waf3NpLvkoH18MpFd.4wncvn_8_g7jrw9sHKIH0HMcJAVmgjDKlVg61_IbBHFwEfUEuVz7Y7uYNcsPUej.v.zOzUBcPnOyaIjJGSkfCw8lGermoKSqP9V.3DygsGwN8Vy076_j7OqCvLCiA5gZuO4iVBXLNq0.cJTE3kLIfTOg11nf1rKze9W0UnrdDIaeDM95cNkmzVWAIjNOnMat9O.7o3ypttV9UwlmQQURtPmSI1Se5v9D9u5yYP_8KQivZeBd6aYDTLhTXaf4fH0dG679gopYe38on17X9__HUDv7qZZYkGBk1T_8.rRXuW7RNOg8qw0CIigJfTk6d7pVNWmjXZLPtqRxocuRJVGalpbmKlbjsGXlNAYYPmGfFw',mdrd: 'NrtWkb.hacZlDfaksEKEHi2z1ZLY143TigrQOFQM2y0-1795379557-1.2.1.1-KeeOVMAqKifCR30yRLXtH8nKbhLF6jYYT3XV6v59iUqXRVaonJhBpiG980sLTUtb71P3npIQ2xPqNVfQk7p57xnmSMR.Zv24qgs.T3KhNTxgmp4.ppmrl08Po.2cLmgRgxpnbMwWQYhtO9T85lSAF1t6xa1H6WGxQaZM3R6HWI6FuTcpdq.9sxgSL7v2MzNLpqPGEWCjIVqoF9V05TTTmY6S3G_Y7wRe8_HelvIrBlFO1Vo.xc2JV_b3DOCjHqHZg_dUljXWOGJQ7PSnm9n04vEX3JOVGHOJRameW0h44.J.DJkLLxZrVGCeWzmqwpLsr3Rmof5omcUFZheGR6MOUIxh1BqtuBnvWFmA1Pjmfw.MQwq_T_RwRsqc64dHKu612xHPJUnRBNGAROUpytRgKQ',};var a = document.createElement('script');a.nonce = 'CKAu0dEa6Xo1NKuxlBWq7j';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eab459a98f060f';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=MEF0Mwrh0kv1q7FpTC60Bzv.W1k2vkvXkBwFhbyDnuo-1795379557-1.0.1.1-J9fBL_PDR73Dek2kiOS5lxL3KphlCebJbsSKs5NEa50\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.winehq.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-kc7xtZAdFi9DsRIJdkFogj&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"kc7xtZAdFi9DsRIJdkFogj\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'N5FZzrFyvV1qViVtqsyCKKbvSgK7HkGmBpcMEJlG4E8-1795379557-1.2.1.1-l4_Gq1MFqUbgvL0Mk84DLZw86dIkhXTzSHjNd0_ammBRVeoZihAv3VwaXmshTn1A',cITimeS: '1795379557',cN: 'kc7xtZAdFi9DsRIJdkFogj',cRay: 'a5eab45b69b67db3',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=96XdBgrPDFCDBg4tpeZaCMGZxnW7LYPXFp3kpmYOP1k-1795379557-1.0.1.1-RQGC_m3jpr8n6.PAw2LBZe.s5rxmM.CQh.7itKi6Ypw\",cvId: '3',cZone: 'www.winehq.org',fa:\"/?__cf_chl_f_tk=96XdBgrPDFCDBg4tpeZaCMGZxnW7LYPXFp3kpmYOP1k-1795379557-1.0.1.1-RQGC_m3jpr8n6.PAw2LBZe.s5rxmM.CQh.7itKi6Ypw\",md: '598DUo4ZNeQ8tc2pnTMiwkN1liWnBz33vuQeCh3AFfs-1795379557-1.2.1.1-8zFAzpDp8qBGNe9U6ndARC1mylGVP3BLNhYyNFlkWzY_P1P9.yIqwNqU4AncHK93H6LTMX3l1DareuDR5jxJWkOEQtm0gZExoL8uCdkYmLgSfiyQXVg2tuIXtOUfhrkceLsea40rOU0iEc7wRJw.9GAUrH4VZGLaSU0zzGbhj_agvzS1tRXCc6BB6j5dCT.QcS07iU7KwS5fjf1wS8C89UEnemdDvzJtL9y5Mp30GZRJYGFKbsST2T5sUPSCUCmJ4gImOFZEDnLCxPNq7dGLRO_JDr0yGKLzMwub5Lg1uIhmpPIPJeMKttZ44BptfFWwSFmjq0EJNc3u0LchZDQkejfCo5UQ6HwBHIVp4umO.9d6lFiajbz8Bbt1DEKQpyOIm4BBnL0Zvy_ZGgcIHh2e4CBfH6DnDZKds0ZVGX7mHULDZzDgElrrK4cKea.7szmFakfg26lvm82g2odO8XBbPBYbYTkYwuQnzVYX7oZ6rRmW4QBzTJhvEoB5B05SAnElP_vHwiDN4r5SVlLzGanzGk7llgKbocNKJX5grH8QkefuPQk_gMX8o8VdyrAKVSJIfYx8LPQfDMj8v0y.S2Y1eoHd3M1rDkPCk8d3kGQPYt.v3i6ifcvRjk5nYaIB3Xb5Hc8clF1NHApXfiuk1T9xeEzCp4ErK53K2RRLD3U3vqYAvrn5BSwtmEb.I4ahxp96WOaTpf0qfIjXsqa13ze3zZf43kDE4MSWh4BcpqAzMarlQ9iDrJLkrUa9_v31YClcvJrEn1jIoUBnOl67zAQ_AVzamtSZ9HJunlEYvQKpk.HFSG4IhQturELmpJzwKkQhgTukny.KvUxh8xpM2D..3WqpgQ.Geb6073CNqEKNmiMvuWI97yjNmgETTtTpJyaxwdLtaMOOuMZQ.koh5HXK4l4MX2sq.xVhJftEIXzTKdWJuYW5ilbhECQeAEI2gt0LsKAKn.BSWCQtF.oEA5ol1eMJnTNqkIaYhbEeUolhf7s8T_MsNQELXJ9FsNBX1iaP',mdrd: 'poPM3RFBvdLhr0LgaX78YtjyftQ.DRRbK3PMjgDR9ag-1795379557-1.2.1.1-TVUEK_CIEAGbeDTm1qFTNI7Nlt._klOaGepdj73VJ82iVnEbZIOYzhujyM_2AAZISzSRDRbkTs0HVbyvR7qapLLm39SKhY83Atc08tSnQiqcu0dh3FgkZBat20hSux7zQ2ngB1ChnNy06J62Ah40KTAtWQ1SjywiC0Swql3GgozX9phoM_czL3Wwoi2ywoCP3YyEEdTmdKNcpZTPh9CrPoXj9ARnC0tRQ1AchxMchtbfczpdY2Ly8gWLlw5CXPdvMdCenwd0AUIrBewiqpAeYZwOPtfTLJYJPTuykp0.tponj2.WNgJP_JmCmvuguuVAwQg4cvlqqyMVh0mpvFVk4LBiLC8xSWuFbSSf3FaBRdM2cmHEZP.n4eDUMbVM0YZMo5A_TLbZ4VWSfp56joDusPWJPwVPvF6FjJxqQ7yPILc',};var a = document.createElement('script');a.nonce = 'kc7xtZAdFi9DsRIJdkFogj';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eab45b69b67db3';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=96XdBgrPDFCDBg4tpeZaCMGZxnW7LYPXFp3kpmYOP1k-1795379557-1.0.1.1-RQGC_m3jpr8n6.PAw2LBZe.s5rxmM.CQh.7itKi6Ypw\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.winehq.org/",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-YwXlDvyy6BJIqtlSvb2eik&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"YwXlDvyy6BJIqtlSvb2eik\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'H.r76HpsUTseLN.SMz0yDnPhi4i0_INLeru9W3G3I1Y-1795379557-1.2.1.1-VAKKcfufqBWHrTBEycJxuYPPZkDsx8KLdg_zbwCWR4x6spyudYScER95ZbtUOoYY',cITimeS: '1795379557',cN: 'YwXlDvyy6BJIqtlSvb2eik',cRay: 'a5eab45d2cefb227',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=G9uFQSpE1JKhkymCAHcts4R6ed4hrBrs_MtGySiKI6E-1795379557-1.0.1.1-apHay9eFehM9YaVmOhmGKblB2Si8foPWSQ9oz_zOJDI\",cvId: '3',cZone: 'www.winehq.org',fa:\"/sitemap.xml?__cf_chl_f_tk=G9uFQSpE1JKhkymCAHcts4R6ed4hrBrs_MtGySiKI6E-1795379557-1.0.1.1-apHay9eFehM9YaVmOhmGKblB2Si8foPWSQ9oz_zOJDI\",md: 'rmyL6LSqCAkxsLQGqSTF.Q7ZWxziaMi1wqqhlg4dUUo-1795379557-1.2.1.1-WAhvcRSmQnbBl2GRphFCSGGdHywVGYxGKe0ZKckkBphWvX8V.6k6MyMJCA6Osvsx2F2_hp8BvmxT9la9.oU38YvJ0mhZpOswkncjCekv82KIxrb4xCgChq5REx1hMmQcz_j8.1hAwMlcVjjmzV2N_vhq2HlEitH6ESoo.qnY2GzsIADZW.taxyRGXeVZq8v7Kr9O3Na2LtBY_HQkevGEr6kpddzJMbXvZxLT4icIqbGiLyCg_gADVShyLoORqYlcsOpbeMNhPmoi82eoSWyAHN3raT2uvkaCo8XsO4.1D0N2988e90u2MTu9aG_TfKcEM8lf.IiDLGFGanuhJIyE8omL013s8hCWaUcsorX1ojRCehQ9d2hI2dI_R_Mfu2f40gAFrwz7nn7LmMzo4JbLV.FjAfB0khiW1MqAxZmMZQ1VbXFu8OaM4VhGXcDs_V5_0vNtW4PLqQ6_cYT_4M7ddp2E.CXA7yWo.6ZZlmjvzHYj7.VcBY2z_OcJCT_XEOOHaoipNGJX.Yh.WVcLZ0uc6uBBFWcPgJGZms2NDi0ezUCvftVg39yNMuIeFuJKzsZIIQs6rPhKyk_09fQlaWz_1gRhDIvL1DKY9IXhNf6X67c259.Um8Ca3XGZuRxx7Q5Ccyw8sv8RCaOXRo6FPDshJusMPxQZxWWUUl0hyHf1Oq5RZ6PqmiF1NmIAtdD5WBWky3JuyQgPUxsuy39VVmnT4KaB_oGP_dzJoQHeR4Pgxl_SqaFNFsBkAOwykVex36Uh8KryDEEmaQAfVGyGUl2XFauRLqNQVtyoElEZyM90.iUjEbOR1xBwZAqN8iL81vbT5QogymMbXqAq3Xo9z.MXYJrETa2iZqN4Fsrem5v9ecCNKqYgdP2DwwJKQnq4HYFe9DevY4hxuZMSG02k7JSeQhGHpsJNP6oINLdL4Ebex4jXVplt_ICSlyzOJvu.gQoqmhMUXb7i3YNGV2DlPfdPss.4q946Zt2P32aUeQZEiCUZvew.tf4mmz_r9Kt61C6BkWPi.DVkHfTgv3HhFHsuIQ',mdrd: 'vczkWgz2pYGeQcwTbDIFeMDFNnVv2KtANNfc44NOI1g-1795379557-1.2.1.1-8sjSKJBXpVeMueOKtxw5z6G4ot4cTHnXb0Yz9WdU7tRpFFfQUInekjvkgkR7Zb.BAvOGr91X5OUQ5WF5svFq9XbHv43x22hzBwHlnC5d3Lze.QiaUxNe7NzlvRpp8pp5mXHErzGhDsHCvheUUWmvzdkquEyFUvBOt9npYCetsM5FXGPHQHi6zmb5CJ_H0GirPgttKGqm8o.Wp8hpUFqKbSeTzjDJvQHElbxwOW1fcl5KS2OjMW0fadXqTtJxEcOFc256074lgU_xKiecg5FgmsXryPMXZ0vvlU2yVdsNseXLR8bUagS45KQPI302lbOrOzmmIuaX3qOzjgp96RUHNErkJUusCsfPdtD8USshm3M68Vn._RKTze7gsSTqWiO6wiVFzAotk5A3RJ2bfAyGAKY_PPgzdYkp8g_URYmvlQI',};var a = document.createElement('script');a.nonce = 'YwXlDvyy6BJIqtlSvb2eik';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eab45d2cefb227';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=G9uFQSpE1JKhkymCAHcts4R6ed4hrBrs_MtGySiKI6E-1795379557-1.0.1.1-apHay9eFehM9YaVmOhmGKblB2Si8foPWSQ9oz_zOJDI\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.winehq.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-YuuiB6rKsHjVIPI4IgBQIq&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"YuuiB6rKsHjVIPI4IgBQIq\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'RfNAp3MycEG4O0siiKKfAIois3HW57N1x80hrafs7bQ-1795379558-1.2.1.1-6.eic8sdqjSPQ3B8LBk5SQ_fRTPc56T3nlTO4LoIXjOY1sDtCSjZeRamA7_dW3sE',cITimeS: '1795379558',cN: 'YuuiB6rKsHjVIPI4IgBQIq',cRay: 'a5eab45ebd080e96',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=_JVz.kmfOPs.Ln3Rg2UlGgpTPd7Iud4u5sC8ENcTON8-1795379558-1.0.1.1-l3DTfV64i4XFRvlHJ_48qe_xlgHKJBur_mlZWCMjzjQ\",cvId: '3',cZone: 'www.winehq.org',fa:\"/agents.md?__cf_chl_f_tk=_JVz.kmfOPs.Ln3Rg2UlGgpTPd7Iud4u5sC8ENcTON8-1795379558-1.0.1.1-l3DTfV64i4XFRvlHJ_48qe_xlgHKJBur_mlZWCMjzjQ\",md: '0Fszl95Rf_oHz.KkkO.wLy4Jp2e1oKwtWA84OdL3Ai4-1795379558-1.2.1.1-0rI7Ha6I8Za7YI9B4hq8AKjZCIWHcz0U5lwBg.88ysmLVbH6JjNMolxHtRlPFEO3TOSKgm5c9gAT6d8em_ZlZMmm6sqzTapFTyoDAyvGItZ6sRtkK6G0JUvMvCchdSDBRoITIr33d20qZK2sttduHij5IzNdaVZU1MAOnBiHxKBQKOsk2HZe0qBxOenW_FMSvKuwxX3ADXu6m5.KiUkxIC_ItBONWvrrmFOV2nAhAmfbBlQzgKolLzdo5gEIcsQLpz89B_kUoJ_TcTrUrzTDuu7qmZgP2cmIw8KVOXrpuRXgv22usQkYfoPv2mdbnNq3VEgGGPZo5wMnOFU7FEmRuxjacMXwBNkzBS.rE6kNfXGNPcALi87kdW.H3.XyB0VUJ5IeMjX7YB5aC4NM2q_GZ0PakqQx1JkixUidwhYo9zZSnN842yMsLy.hiZPVbUJYH.MAYZnapGbqNngthiplhAbv3n1oSJOytMy.Ir6Uz0kCfVi1x4.Sv9QcT1qEQPWeaT7of.a8sc2T_P0wOuSweUr0UF8m8Ez6J10niBmrasjjKH9yOdS2.L3QmDQmgmFOq.WfOZKK7Pzo7CzE3Yjn_359ykgD7eBesyKDylMiLIbjVgycIAadM0Pua2c8x1rrNmHoi2xwf9Syqgyj1AFFx1r6zJa26TQ9tisyB7I.G_yQZfyyP3E1igy1ig9FzW9j4FXGoQPZWr1buDPWrqhQOj7ElS24eVvHbAsMFy.2zJCmOo0KzFtlMUiGs_Ha4Nq_G2WzXuvCp3mJWsA3nrlSOllKZsHp7GZEma1ju5O0XUihhJUDaIZUJ2hX7jcpDadAzo6CLollBdGKBFTOUuArqUotHpP5ZxuLyQYaHdZXCG8_UYueoVUIbU1KE_aZHSr9SgZP4qUvRtpt02je.R36W_kjvmdHgFeviABNkwY96AhP3gJcunYv0HId0oOsHpaGsa9Ohyc217HBCCegiZkYUtG217v2QMcJzznhc9zRSyQPD05M.zNLcp_5rkVefhLWsWbF5qUNk6e7f2hz4PcezA',mdrd: 'e.sVfLGlqRNdOM27MtJ6MauobDwi76eOmu1BcPeCX4E-1795379558-1.2.1.1-3zIVQr3PTP.3PUx_Yc4Xgm8mB55WWdHnv63Sp5zWSj.czrEZU757Cu5zH5_LFVFPtd0t32LQgJsrFXFMl9_vnh8H.cQp9lJpvqRHBjhnRR7o8JFVcvY3CS7plrMba6BXPjL9veaaKjR5BvnzOOErxtT3rGxaj1N.5mhE4zTNvsX.bO3hQz43xMn7SHbaHVwbT49H3SuON0FYatLlOT5sugmgr6tCJHTWDmsBbIG4gqu1vDJy5J7nO6uTw4EjF6h.7t6aWW2Jn1i0JCbv1iYE0ezrSiggM5WNqmiQr4LKwH2_SI_EFWh0Lwo8P03UC9uDOZCIAo5ZpxS0ZZYUGLUhQMwLTL63dV3tCVASbQJMcWPYFxED1W.L19zKIAZ1qKIdJsLl5D9PZgzR7dm1Iy6JQjUc6_gTG45L91CxCGFMOF8',};var a = document.createElement('script');a.nonce = 'YuuiB6rKsHjVIPI4IgBQIq';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eab45ebd080e96';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=_JVz.kmfOPs.Ln3Rg2UlGgpTPd7Iud4u5sC8ENcTON8-1795379558-1.0.1.1-l3DTfV64i4XFRvlHJ_48qe_xlgHKJBur_mlZWCMjzjQ\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.winehq.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-tNYAroTDS9ux6UaBwPwDzT&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"tNYAroTDS9ux6UaBwPwDzT\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '2eFeyaHShPvnyKlOJOcYqTY1qdB6ajtWVu9Y8Cpb7uY-1795379558-1.2.1.1-tXzwIqiUB0jVnvfvzDtiNSunTGIl7aeVBGkjymvMGCu2.1BpoGFfmMHTKMViF.5b',cITimeS: '1795379558',cN: 'tNYAroTDS9ux6UaBwPwDzT',cRay: 'a5eab4637c96180d',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/ai.txt?__cf_chl_tk=hH57516uvhe9MZQAF.zd4CUdpNheh5.twqqf22eJ7CU-1795379558-1.0.1.1-QyzEptb7GwpdjBTUpxuhwNPE_vg892yttt174cEk1.c\",cvId: '3',cZone: 'www.winehq.org',fa:\"/ai.txt?__cf_chl_f_tk=hH57516uvhe9MZQAF.zd4CUdpNheh5.twqqf22eJ7CU-1795379558-1.0.1.1-QyzEptb7GwpdjBTUpxuhwNPE_vg892yttt174cEk1.c\",md: '9vU8u_XiTbRzXSx1JAeR71Y2WEA00IVwn1filht2D8k-1795379558-1.2.1.1-AaaC.d9cZZjLAXjdLufUNrZjrSELeSw7QV5oM0EsUUtpkk8EFpm0nJnTwOfWxAWPwUWAnrFwpTgNTtjsZjgOb3SGopCihcWGK3UobQinloVWZF2ckFNygV6If7Cv0rQ6tinT3.C3DyMGF7oKqtDwZ7PutIoYfnSnujlWZvfwz8zbCzHugLfkiKYJ9iBmTock3rEBwIAU312GvQpNx1pOo4IHDn4hVqRRE3mMCvx3_xqRX6BXd5BM087r_wuYbBwDSgoIU3P5fEaiEKM2XwryOuYLDkgj8a0LRmoTI5rOpLNjeGYzzMKyffyXrbhEDFG_FG.lXQs2USC8YxrT4crNpMOUrj3PRmYH8oCZNmM8YgBQVPQekYFzpLLTKCkszVr7iD0Kf_QCux_okoCTAoGircbmqzH17oSNG2CgMC3VB7rLrBObJLHNPyPRIOarU.N5baT.4tFI3ojHoya0pv8RpEZcMAo.D_cD4KJ0ahzzLZiVBrSiF1.4UBtDzEEbP1cKBG2f6T6E9kyT68TIuJi8jN3uAvHx8VCmGDHLHcU3dacg4SlMTbq.3rdFRpfjQpK2RfoeI7sLEuU7.gCfGyQ1PM4gV6lIjvKBNINK1dd47iCQI6lxtR.QTCN7BDU2GIBTSeegIRKg2cYWqq7A62tepcEdEFUu.dZKWYBGQGKaZFsh9qlXQcMp7zkXcIbir1Kw_V8iGLsVjQcjv8oVkpNb3dTCJ02atIc4s4QoDjZZDSQSIXZbnlW6aWvOf4hAIDqXAEXgberS8g2j0.JuCvc9u5I0h4yG.VQas4URgbdS7SUaKMxd5YFCVG0z7MT7NGaWe8ppv8.VLC5BbXtM3A3C7DG7ejBxM6EXmu6NU.K7XGn5Z6VAqR.zBTwjhesE22mpOTVnTUyXXwiXWzVL8eQshDkgDMLWsCXSCjuPOXyiEhEfHUmW_JYm2KyjRn18aRrqb6yYgh5gtLVCtBw8JeFTkiisf.JGXbeavC8yqKps.7MI76.OE6OriACOa0zqP5DXQbO8VS6AfiSL2h9jN8ampw',mdrd: '6VdKkuwXP4TAY0gCJFYLN6FBUBDxPgC.oEVojGin3MA-1795379558-1.2.1.1-T77GDH1BZxDcYnCFmLQijbwhtAVtzpbbUQRXpK33NngXSp9lqiv7UtwyjqHiOYXt5gagovmbqHGWZhxRD8wOAgd3dclr6Ymf9CTVuHL7ZLPzJFF8Bl7mlByaUrahGD8KxWvIvC7mkST7xJP8YViM47SMdfyU5OoZhpYGUPY091Gs2dRpKm26bBVP17M0y15HKPPvfGtvWYjLXoeKIW1gjf7mPBFBEZrBloy1IHSK20qx.DbwpwKFZFPfwG8q6YWJp2q63rkp76_nLc4NC_mhnyrqR.YMU6n1fNi9116BAXk8DxlTw6JYej9gPCyuX0niF2qHC_oldGMVR8h14ce_fBEe5ATogBtO.kDNPw3uuNsJ3DmDlXpXxRvmY3GB9xNxdBPpRPX33ZAO8IZGjwjrZg',};var a = document.createElement('script');a.nonce = 'tNYAroTDS9ux6UaBwPwDzT';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eab4637c96180d';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=hH57516uvhe9MZQAF.zd4CUdpNheh5.twqqf22eJ7CU-1795379558-1.0.1.1-QyzEptb7GwpdjBTUpxuhwNPE_vg892yttt174cEk1.c\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.winehq.org/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "winehq.org",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:32:39.019Z",
+    "score": 7,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 6.75,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 6.75,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 6.75,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

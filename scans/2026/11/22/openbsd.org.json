@@ -1,0 +1,260 @@
+{
+  "signals": {
+    "domain": "openbsd.org",
+    "fetchedAt": "2026-11-22T20:02:55.473Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /cgi-bin/\nDisallow: /donations.html\n",
+      "url": "https://www.openbsd.org/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>404 Not Found</title>\n<style type=\"text/css\"><!--\nbody { background-color: white; color: black; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; }\nhr { border: 0; border-bottom: 1px dashed; }\n@media (prefers-color-scheme: dark) {\nbody { background-color: #1E1F21; color: #EEEFF1; }\na { color: #BAD7FF; }\n}\n--></style>\n</head>\n<body>\n<h1>404 Not Found</h1>\n<hr>\n<address>OpenBSD httpd</address>\n</body>\n</html>\n",
+      "url": "https://www.openbsd.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>404 Not Found</title>\n<style type=\"text/css\"><!--\nbody { background-color: white; color: black; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; }\nhr { border: 0; border-bottom: 1px dashed; }\n@media (prefers-color-scheme: dark) {\nbody { background-color: #1E1F21; color: #EEEFF1; }\na { color: #BAD7FF; }\n}\n--></style>\n</head>\n<body>\n<h1>404 Not Found</h1>\n<hr>\n<address>OpenBSD httpd</address>\n</body>\n</html>\n",
+      "url": "https://www.openbsd.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=en id=project-main>\n\t<meta charset=utf-8>\n\t<title>OpenBSD</title>\n\t<meta name=\"description\" content=\"the main OpenBSD page\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<link rel=\"canonical\" href=\"https://www.openbsd.org/\">\n\t<link rel=\"stylesheet\" href=\"openbsd.css\">\n\t<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">\n\n<main>\n<nav>\n\n<header>About OpenBSD</header>\n<ul>\n\t<li><a href=\"goals.html\">Project Goals</a>\n\t<li><a href=\"plat.html\">Hardware Platforms</a>\n\t<li><a href=\"security.html\">Security</a>\n\t    <a href=\"crypto.html\">Crypto</a>\n\t<li><a href=\"events.html\">Events and Papers</a>\n\t<li><a href=\"innovations.html\">Innovations</a>\n</ul>\n\n<header>Getting OpenBSD</header>\n<ul>\n\t<li><a href=\"faq/faq4.html#Download\">Download</a>\n</ul>\n\n<header>Getting Source</header>\n<ul>\n\t<li><a href=\"anoncvs.html\">AnonCVS</a>\n\t<li><a href=\"https://cvsweb.openbsd.org/\">CVSWeb</a>\n\t<li><a href=\"https://github.com/openbsd\">GitHub Mirror</a>\n\t<li><a href=\"https://openbsd.gothub.org\">GotHub Mirror</a>\n</ul>\n\n<header>OpenBSD Resources</header>\n<ul>\n\t<li><a href=\"plus.html\">Changelog</a>\n\t<li><a href=\"faq/index.html\">FAQ</a>\n\t<li><a href=\"https://man.openbsd.org\">Manual Pages</a>\n\t<li><a href=\"errata80.html\">Patches</a>\n\t<li><a href=\"report.html\">Reporting Problems</a>\n\t<li><a href=\"mail.html\">Mailing Lists</a>\n\t<li><a href=\"lyrics.html\">Songs</a> &amp;\n            <a href=\"artwork.html\">Artwork</a>\n\t<li><a href=\"hackathons.html\">Hackathons</a>\n\t<li><a href=\"groups.html\">User Groups</a>\n\t<li><a href=\"support.html\">Commercial Support</a>\n</ul>\n\n<header>Supporting OpenBSD</header>\n<ul>\n\t<li><a href=\"donations.html\">Donations</a><br>\n\t<li><a href=\"https://openbsdstore.com/\">Art Merchandise</a>\n\t<li><a href=\"https://www.openbsdfoundation.org/\"><i>OpenBSD\n\t    Foundation</i></a>\n</ul>\n\n</nav>\n<article>\n\n<h2>\n\t<a href=\"80.html\">\n\t<img src=\"images/puffy80.gif\" alt=\"[OpenBSD 8.0]\" height=198 width=599>\n\t</a>\n</h2>\n\n<p id=\"callout\">\nOnly two remote holes in the default install, in a heck of a long time!\n\n<p>\nThe OpenBSD project produces a <strong>FREE</strong>,\nmulti-platform 4.4BSD-based UNIX-like operating system.\nOur efforts emphasize portability, standardization, correctness,\n<a href=\"security.html\">proactive security</a> and\n<a href=\"crypto.html\">integrated cryptography</a>.  As an example of the\neffect OpenBSD has, the popular <a href=\"https://www.openssh.com\">OpenSSH</a>\nsoftware comes from OpenBSD.\n\n<p>\nOpenBSD is freely available from our download sites.\n\n<p>\nThe current release is\n<a href=\"80.html\">OpenBSD 8.0</a>, released Oct 20, 2026.\nThis is the 61st release.\n\n<p>\nOpenBSD is developed entirely by volunteers.\nThe project's development environment\nand <a href=\"hackathons.html\">developer events</a>\nare funded through contributions collected by\n<a href=\"https://www.openbsdfoundation.org\">The OpenBSD Foundation</a>.\nContributions ensure that OpenBSD will remain a vibrant and\n<a href=\"policy.html\">free</a> operating system.\n\n</article>\n</main>\n\n<footer>\n<figure>\n\t<a href=\"images/rack2009.jpg\">\n\t<img width=\"60\" height=\"90\" src=\"images/rack2009-s.png\" alt=\"rack\"></a>\n</figure>\n<aside>\n\n<hr>\nAssociated projects:\n<a href=\"https://www.openssh.com\">OpenSSH</a>,\n<a href=\"https://www.openbgpd.org\">OpenBGPD</a>,\n<a href=\"https://www.rpki-client.org\">rpki-client</a>,\n<a href=\"https://www.openntpd.org\">OpenNTPD</a>,\n<a href=\"https://www.opensmtpd.org\">OpenSMTPD</a>,\n<a href=\"https://www.openiked.org\">OpenIKED</a>,\n<a href=\"https://mandoc.bsd.lv\">mandoc</a>,\n<a href=\"https://www.libressl.org\">LibreSSL</a>\n\n</aside>\n</footer>\n",
+      "url": "https://www.openbsd.org/",
+      "title": "OpenBSD",
+      "lang": "en",
+      "meta": {
+        "description": "the main OpenBSD page"
+      }
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>404 Not Found</title>\n<style type=\"text/css\"><!--\nbody { background-color: white; color: black; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; }\nhr { border: 0; border-bottom: 1px dashed; }\n@media (prefers-color-scheme: dark) {\nbody { background-color: #1E1F21; color: #EEEFF1; }\na { color: #BAD7FF; }\n}\n--></style>\n</head>\n<body>\n<h1>404 Not Found</h1>\n<hr>\n<address>OpenBSD httpd</address>\n</body>\n</html>\n",
+      "url": "https://www.openbsd.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>404 Not Found</title>\n<style type=\"text/css\"><!--\nbody { background-color: white; color: black; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; }\nhr { border: 0; border-bottom: 1px dashed; }\n@media (prefers-color-scheme: dark) {\nbody { background-color: #1E1F21; color: #EEEFF1; }\na { color: #BAD7FF; }\n}\n--></style>\n</head>\n<body>\n<h1>404 Not Found</h1>\n<hr>\n<address>OpenBSD httpd</address>\n</body>\n</html>\n",
+      "url": "https://www.openbsd.org/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>404 Not Found</title>\n<style type=\"text/css\"><!--\nbody { background-color: white; color: black; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; }\nhr { border: 0; border-bottom: 1px dashed; }\n@media (prefers-color-scheme: dark) {\nbody { background-color: #1E1F21; color: #EEEFF1; }\na { color: #BAD7FF; }\n}\n--></style>\n</head>\n<body>\n<h1>404 Not Found</h1>\n<hr>\n<address>OpenBSD httpd</address>\n</body>\n</html>\n",
+      "url": "https://www.openbsd.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "openbsd.org",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:02:55.473Z",
+    "score": 30,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 7,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 4/4; no h1; html[lang] present; body text 179 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"OpenBSD\"; meta description 21 chars (short); no date signal; body text 179 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 5,
+      "l2.sitemap": 0,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

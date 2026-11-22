@@ -1,0 +1,260 @@
+{
+  "signals": {
+    "domain": "fmb.la",
+    "fetchedAt": "2026-11-22T19:53:15.276Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\n\nDisallow: /ip/\nDisallow: /domain/\nDisallow: /asn/\n\nDisallow: /lookup\nDisallow: /contact\nDisallow: /login\nDisallow: /logout\nDisallow: /user\nDisallow: /auth\nDisallow: /claim\n\nAllow: /$\nAllow: /pages/\n\nSitemap: https://fmb.la/sitemap.xml\n",
+      "url": "https://fmb.la/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>404 - Page Not Found</title>\n\n    <style>\n        div.logo {\n            height: 200px;\n            width: 155px;\n            display: inline-block;\n            opacity: 0.08;\n            position: absolute;\n            top: 2rem;\n            left: 50%;\n            margin-left: -73px;\n        }\n        body {\n            height: 100%;\n            background: #fafafa;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            color: #777;\n            font-weight: 300;\n        }\n        h1 {\n            font-weight: lighter;\n            letter-spacing: normal;\n            font-size: 3rem;\n            margin-top: 0;\n            margin-bottom: 0;\n            color: #222;\n        }\n        .wrap {\n            max-width: 1024px;\n            margin: 5rem auto;\n            padding: 2rem;\n            background: #fff;\n            text-align: center;\n            border: 1px solid #efefef;\n            border-radius: 0.5rem;\n            position: relative;\n        }\n        pre {\n            white-space: normal;\n            margin-top: 1.5rem;\n        }\n        code {\n            background: #fafafa;\n            border: 1px solid #efefef;\n            padding: 0.5rem 1rem;\n            border-radius: 5px;\n            display: block;\n        }\n        p {\n            margin-top: 1.5rem;\n        }\n        .footer {\n            margin-top: 2rem;\n            border-top: 1px solid #efefef;\n            padding: 1em 2em 0 2em;\n            font-size: 85%;\n            color: #999;\n        }\n        a:active,\n        a:link,\n        a:visited {\n            color: #dd4814;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"wrap\">\n        <h1>404</h1>\n\n        <p>\n                            Sorry! Cannot seem to find the page you were looking for.                    </p>\n    </div>\n</body>\n</html>\n",
+      "url": "https://fmb.la/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>404 - Page Not Found</title>\n\n    <style>\n        div.logo {\n            height: 200px;\n            width: 155px;\n            display: inline-block;\n            opacity: 0.08;\n            position: absolute;\n            top: 2rem;\n            left: 50%;\n            margin-left: -73px;\n        }\n        body {\n            height: 100%;\n            background: #fafafa;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            color: #777;\n            font-weight: 300;\n        }\n        h1 {\n            font-weight: lighter;\n            letter-spacing: normal;\n            font-size: 3rem;\n            margin-top: 0;\n            margin-bottom: 0;\n            color: #222;\n        }\n        .wrap {\n            max-width: 1024px;\n            margin: 5rem auto;\n            padding: 2rem;\n            background: #fff;\n            text-align: center;\n            border: 1px solid #efefef;\n            border-radius: 0.5rem;\n            position: relative;\n        }\n        pre {\n            white-space: normal;\n            margin-top: 1.5rem;\n        }\n        code {\n            background: #fafafa;\n            border: 1px solid #efefef;\n            padding: 0.5rem 1rem;\n            border-radius: 5px;\n            display: block;\n        }\n        p {\n            margin-top: 1.5rem;\n        }\n        .footer {\n            margin-top: 2rem;\n            border-top: 1px solid #efefef;\n            padding: 1em 2em 0 2em;\n            font-size: 85%;\n            color: #999;\n        }\n        a:active,\n        a:link,\n        a:visited {\n            color: #dd4814;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"wrap\">\n        <h1>404</h1>\n\n        <p>\n                            Sorry! Cannot seem to find the page you were looking for.                    </p>\n    </div>\n</body>\n</html>\n",
+      "url": "https://fmb.la/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"en\" class=\"no-js\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>fmb.la lookup</title>\n<meta name=\"description\" content=\"fmb.la - a free composite blocklist for email classification.\">\n<link rel=\"icon\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" href=\"/icon.png\">\n<link rel=\"preload\" href=\"/fonts/open-sans-latin.woff2\" as=\"font\" type=\"font/woff2\" crossorigin>\n<link rel=\"preload\" href=\"/fonts/arvo-latin-400.woff2\" as=\"font\" type=\"font/woff2\" crossorigin>\n<link rel=\"preload\" href=\"/fonts/arvo-latin-700.woff2\" as=\"font\" type=\"font/woff2\" crossorigin>\n<link rel=\"stylesheet\" href=\"/css/fmbla.css\">\n<script>\n(function () {\n  var r = document.documentElement;\n  r.classList.remove('no-js');\n  try { var t = localStorage.getItem('theme'); if (t) r.setAttribute('data-theme', t); } catch (e) {}\n  r.addEventListener('click', function (e) {\n    if (!e.target.closest || !e.target.closest('.theme-toggle')) return;\n    var now = r.getAttribute('data-theme');\n    var next = now === 'light' ? 'dark' : now === 'dark' ? null : 'light';\n    if (next) { r.setAttribute('data-theme', next); } else { r.removeAttribute('data-theme'); }\n    try { next ? localStorage.setItem('theme', next) : localStorage.removeItem('theme'); } catch (e) {}\n  });\n})();\n</script>\n</head>\n<body>\n\n<header class=\"navbar\">\n  <div class=\"container\">\n    <a class=\"navbar-brand\" href=\"/\">fmb.la</a>\n    <nav>\n              <a href=\"/\" aria-current=\"page\">Home</a>\n              <a href=\"/pages/about\">About</a>\n              <a href=\"/lookup\">Lookup</a>\n              <a href=\"/pages/stats\">Stats</a>\n              <a href=\"/contact\">Contact</a>\n                            <a href=\"/login?from=%2F\">Sign in</a>\n                  <button type=\"button\" class=\"theme-toggle\" title=\"Switch theme\">\n        <svg class=\"i-light\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0 1.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 0a.7.7 0 0 1 .7.7v1.6a.7.7 0 0 1-1.4 0V.7A.7.7 0 0 1 8 0Zm0 13.2a.7.7 0 0 1 .7.7v1.4a.7.7 0 0 1-1.4 0v-1.4a.7.7 0 0 1 .7-.7ZM16 8a.7.7 0 0 1-.7.7h-1.6a.7.7 0 0 1 0-1.4h1.6A.7.7 0 0 1 16 8ZM2.3 8a.7.7 0 0 1-.7.7H.7a.7.7 0 0 1 0-1.4h.9a.7.7 0 0 1 .7.7Zm11.3-5.6a.7.7 0 0 1 0 1l-1.1 1.1a.7.7 0 1 1-1-1l1.1-1.1a.7.7 0 0 1 1 0ZM4.5 11.5a.7.7 0 0 1 0 1l-1.1 1.1a.7.7 0 0 1-1-1l1.1-1.1a.7.7 0 0 1 1 0Zm9.1 2.1a.7.7 0 0 1-1 0l-1.1-1.1a.7.7 0 0 1 1-1l1.1 1.1a.7.7 0 0 1 0 1ZM4.5 4.5a.7.7 0 0 1-1 0L2.4 3.4a.7.7 0 0 1 1-1l1.1 1.1a.7.7 0 0 1 0 1Z\"/></svg>\n        <svg class=\"i-dark\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M6 .3a.7.7 0 0 1 .1.7 6.3 6.3 0 0 0 8.8 8 .7.7 0 0 1 1 .8A7.5 7.5 0 1 1 5.3.2a.7.7 0 0 1 .7.1Z\"/></svg>\n        <svg class=\"i-auto\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Zm0 1.5V14.5a6.5 6.5 0 0 1 0-13Z\"/></svg>\n        <span class=\"label\"></span>\n      </button>\n  </div>\n</header>\n\n<main class=\"container\">\n\n<div class=\"page-header\">\n  <h1>Welcome</h1>\n</div>\n\n<div class=\"row halves\">\n\n  <div>\n    <div class=\"panel\">\n      <div class=\"panel-body\">\n                <p>fmb.la is a free composite blocklist for email classification, weighted from multiple\n           sources so only the worst actors are listed.</p>\n        <h3>Lookup</h3>\n        <form action=\"/lookup\" method=\"get\" class=\"lookup-form\">\n  <label for=\"q\" class=\"visually-hidden\">IP address, AS number, or domain</label>\n  <input type=\"search\" id=\"q\" name=\"q\" value=\"\"\n         autocapitalize=\"off\" autocorrect=\"off\" spellcheck=\"false\">\n  <button type=\"submit\" class=\"btn\">Lookup</button>\n</form>\n        <p class=\"muted\">An IP address of either family, an AS number, or a domain name.</p>\n      </div>\n    </div>\n\n            <div class=\"panel\">\n      <div class=\"panel-heading\">Currently listed</div>\n      <div class=\"panel-body\">\n                              <figure class=\"chart\"><figcaption class=\"chart-title\">Level 1 <span class=\"chart-value\">218,775</span></figcaption><svg class=\"chart-svg\" viewBox=\"0 0 600 160\" role=\"img\" aria-label=\"Level 1: 218,775 now, ranging 207,070-219,835 over the last 101 samples.\"><line class=\"chart-grid\" x1=\"0\" y1=\"4\" x2=\"600\" y2=\"4\"/><line class=\"chart-grid\" x1=\"0\" y1=\"42\" x2=\"600\" y2=\"42\"/><line class=\"chart-grid\" x1=\"0\" y1=\"80\" x2=\"600\" y2=\"80\"/><line class=\"chart-grid\" x1=\"0\" y1=\"118\" x2=\"600\" y2=\"118\"/><line class=\"chart-grid\" x1=\"0\" y1=\"156\" x2=\"600\" y2=\"156\"/><path class=\"chart-area\" d=\"M0 160 L0 156 L6 145.07 L12 143.31 L18 141.5 L24 137.51 L30 135.91 L36 131.4 L42 146.95 L48 136.66 L54 128.78 L60 128.6 L66 121.36 L72 125.7 L78 119.6 L84 118.81 L90 111.79 L96 111.64 L102 106.66 L108 109.25 L114 106.73 L120 84.86 L126 78.66 L132 80.58 L138 82.85 L144 107.41 L150 103.43 L156 105.18 L162 99.45 L168 100.92 L174 95.81 L180 93.93 L186 104.42 L192 109.16 L198 104.75 L204 109.98 L210 103.15 L216 119.74 L222 116.54 L228 120.23 L234 113.32 L240 114.16 L246 105.32 L252 105 L258 96.95 L264 74.16 L270 65.78 L276 66.31 L282 65.48 L288 85.8 L294 80.41 L300 82.55 L306 74.84 L312 75.39 L318 71.25 L324 71.08 L330 77.67 L336 76.52 L342 70.65 L348 72.42 L354 67.15 L360 71.46 L366 66.73 L372 68.81 L378 64.81 L384 65.69 L390 60.54 L396 61.84 L402 59.83 L408 41.08 L414 37.79 L420 37.01 L426 37.48 L432 54.11 L438 51.69 L444 51.89 L450 50.5 L456 50.03 L462 48.05 L468 48.86 L474 56.6 L480 60.32 L486 54.12 L492 53.8 L498 49.96 L504 51.19 L510 45.71 L516 46.06 L522 40.51 L528 41.1 L534 36.23 L540 37.01 L546 32.84 L552 14.34 L558 7.66 L564 8.31 L570 4 L576 21.53 L582 21.98 L588 21.35 L594 16.62 L600 16.62 L600 160 Z\"/><polyline class=\"chart-line\" points=\"0 156 6 145.07 12 143.31 18 141.5 24 137.51 30 135.91 36 131.4 42 146.95 48 136.66 54 128.78 60 128.6 66 121.36 72 125.7 78 119.6 84 118.81 90 111.79 96 111.64 102 106.66 108 109.25 114 106.73 120 84.86 126 78.66 132 80.58 138 82.85 144 107.41 150 103.43 156 105.18 162 99.45 168 100.92 174 95.81 180 93.93 186 104.42 192 109.16 198 104.75 204 109.98 210 103.15 216 119.74 222 116.54 228 120.23 234 113.32 240 114.16 246 105.32 252 105 258 96.95 264 74.16 270 65.78 276 66.31 282 65.48 288 85.8 294 80.41 300 82.55 306 74.84 312 75.39 318 71.25 324 71.08 330 77.67 336 76.52 342 70.65 348 72.42 354 67.15 360 71.46 366 66.73 372 68.81 378 64.81 384 65.69 390 60.54 396 61.84 402 59.83 408 41.08 414 37.79 420 37.01 426 37.48 432 54.11 438 51.69 444 51.89 450 50.5 456 50.03 462 48.05 468 48.86 474 56.6 480 60.32 486 54.12 492 53.8 498 49.96 504 51.19 510 45.71 516 46.06 522 40.51 528 41.1 534 36.23 540 37.01 546 32.84 552 14.34 558 7.66 564 8.31 570 4 576 21.53 582 21.98 588 21.35 594 16.62 600 16.62\"/><circle class=\"chart-last\" cx=\"600\" cy=\"16.62\" r=\"3.5\"/></svg><div class=\"chart-foot muted\">207,070-219,835 | individual IP addresses</div></figure>                                        <figure class=\"chart\"><figcaption class=\"chart-title\">Level 2 <span class=\"chart-value\">1,690</span></figcaption><svg class=\"chart-svg\" viewBox=\"0 0 600 160\" role=\"img\" aria-label=\"Level 2: 1,690 now, ranging 1,474-1,690 over the last 101 samples.\"><line class=\"chart-grid\" x1=\"0\" y1=\"4\" x2=\"600\" y2=\"4\"/><line class=\"chart-grid\" x1=\"0\" y1=\"42\" x2=\"600\" y2=\"42\"/><line class=\"chart-grid\" x1=\"0\" y1=\"80\" x2=\"600\" y2=\"80\"/><line class=\"chart-grid\" x1=\"0\" y1=\"118\" x2=\"600\" y2=\"118\"/><line class=\"chart-grid\" x1=\"0\" y1=\"156\" x2=\"600\" y2=\"156\"/><path class=\"chart-area\" d=\"M0 160 L0 156 L6 155.3 L12 153.89 L18 155.3 L24 155.3 L30 154.59 L36 152.48 L42 152.48 L48 152.48 L54 150.37 L60 151.07 L66 147.56 L72 147.56 L78 146.15 L84 130.67 L90 129.96 L96 129.26 L102 127.15 L108 127.85 L114 127.85 L120 119.41 L126 119.41 L132 124.33 L138 123.63 L144 122.93 L150 121.52 L156 121.52 L162 117.3 L168 118 L174 115.19 L180 114.48 L186 112.37 L192 114.48 L198 110.26 L204 108.15 L210 105.33 L216 106.04 L222 102.52 L228 92.67 L234 91.26 L240 91.96 L246 90.56 L252 90.56 L258 89.15 L264 67.33 L270 67.33 L276 69.44 L282 72.26 L288 72.26 L294 72.26 L300 72.26 L306 70.85 L312 71.56 L318 70.85 L324 70.85 L330 72.26 L336 71.56 L342 66.63 L348 65.22 L354 65.22 L360 64.52 L366 63.81 L372 49.74 L378 49.04 L384 49.74 L390 49.74 L396 50.44 L402 51.15 L408 44.81 L414 43.41 L420 46.22 L426 47.63 L432 49.04 L438 49.04 L444 49.74 L450 49.74 L456 49.74 L462 49.74 L468 50.44 L474 47.63 L480 47.63 L486 45.52 L492 43.41 L498 42.7 L504 50.44 L510 48.33 L516 30.74 L522 27.22 L528 26.52 L534 20.19 L540 20.19 L546 18.07 L552 10.33 L558 6.81 L564 7.52 L570 4 L576 8.22 L582 6.11 L588 6.81 L594 4 L600 4 L600 160 Z\"/><polyline class=\"chart-line\" points=\"0 156 6 155.3 12 153.89 18 155.3 24 155.3 30 154.59 36 152.48 42 152.48 48 152.48 54 150.37 60 151.07 66 147.56 72 147.56 78 146.15 84 130.67 90 129.96 96 129.26 102 127.15 108 127.85 114 127.85 120 119.41 126 119.41 132 124.33 138 123.63 144 122.93 150 121.52 156 121.52 162 117.3 168 118 174 115.19 180 114.48 186 112.37 192 114.48 198 110.26 204 108.15 210 105.33 216 106.04 222 102.52 228 92.67 234 91.26 240 91.96 246 90.56 252 90.56 258 89.15 264 67.33 270 67.33 276 69.44 282 72.26 288 72.26 294 72.26 300 72.26 306 70.85 312 71.56 318 70.85 324 70.85 330 72.26 336 71.56 342 66.63 348 65.22 354 65.22 360 64.52 366 63.81 372 49.74 378 49.04 384 49.74 390 49.74 396 50.44 402 51.15 408 44.81 414 43.41 420 46.22 426 47.63 432 49.04 438 49.04 444 49.74 450 49.74 456 49.74 462 49.74 468 50.44 474 47.63 480 47.63 486 45.52 492 43.41 498 42.7 504 50.44 510 48.33 516 30.74 522 27.22 528 26.52 534 20.19 540 20.19 546 18.07 552 10.33 558 6.81 564 7.52 570 4 576 8.22 582 6.11 588 6.81 594 4 600 4\"/><circle class=\"chart-last\" cx=\"600\" cy=\"4\" r=\"3.5\"/></svg><div class=\"chart-foot muted\">1,474-1,690 | netblocks with too many listed addresses</div></figure>                                        <figure class=\"chart\"><figcaption class=\"chart-title\">Level 3 <span class=\"chart-value\">77</span></figcaption><svg class=\"chart-svg\" viewBox=\"0 0 600 160\" role=\"img\" aria-label=\"Level 3: 77 now, ranging 69-77 over the last 101 samples.\"><line class=\"chart-grid\" x1=\"0\" y1=\"4\" x2=\"600\" y2=\"4\"/><line class=\"chart-grid\" x1=\"0\" y1=\"42\" x2=\"600\" y2=\"42\"/><line class=\"chart-grid\" x1=\"0\" y1=\"80\" x2=\"600\" y2=\"80\"/><line class=\"chart-grid\" x1=\"0\" y1=\"118\" x2=\"600\" y2=\"118\"/><line class=\"chart-grid\" x1=\"0\" y1=\"156\" x2=\"600\" y2=\"156\"/><path class=\"chart-area\" d=\"M0 160 L0 156 L6 156 L12 156 L18 156 L24 156 L30 156 L36 137 L42 137 L48 137 L54 118 L60 118 L66 118 L72 118 L78 118 L84 118 L90 118 L96 118 L102 118 L108 118 L114 118 L120 118 L126 118 L132 137 L138 156 L144 156 L150 156 L156 156 L162 156 L168 156 L174 156 L180 156 L186 156 L192 156 L198 156 L204 156 L210 156 L216 156 L222 137 L228 137 L234 137 L240 137 L246 137 L252 137 L258 137 L264 118 L270 118 L276 118 L282 137 L288 137 L294 137 L300 137 L306 118 L312 118 L318 118 L324 118 L330 99 L336 99 L342 99 L348 80 L354 80 L360 80 L366 80 L372 80 L378 80 L384 80 L390 61 L396 61 L402 61 L408 61 L414 61 L420 61 L426 61 L432 61 L438 61 L444 61 L450 61 L456 42 L462 42 L468 42 L474 42 L480 42 L486 42 L492 23 L498 23 L504 23 L510 23 L516 23 L522 23 L528 23 L534 23 L540 23 L546 23 L552 23 L558 4 L564 4 L570 4 L576 4 L582 4 L588 4 L594 4 L600 4 L600 160 Z\"/><polyline class=\"chart-line\" points=\"0 156 6 156 12 156 18 156 24 156 30 156 36 137 42 137 48 137 54 118 60 118 66 118 72 118 78 118 84 118 90 118 96 118 102 118 108 118 114 118 120 118 126 118 132 137 138 156 144 156 150 156 156 156 162 156 168 156 174 156 180 156 186 156 192 156 198 156 204 156 210 156 216 156 222 137 228 137 234 137 240 137 246 137 252 137 258 137 264 118 270 118 276 118 282 137 288 137 294 137 300 137 306 118 312 118 318 118 324 118 330 99 336 99 342 99 348 80 354 80 360 80 366 80 372 80 378 80 384 80 390 61 396 61 402 61 408 61 414 61 420 61 426 61 432 61 438 61 444 61 450 61 456 42 462 42 468 42 474 42 480 42 486 42 492 23 498 23 504 23 510 23 516 23 522 23 528 23 534 23 540 23 546 23 552 23 558 4 564 4 570 4 576 4 582 4 588 4 594 4 600 4\"/><circle class=\"chart-last\" cx=\"600\" cy=\"4\" r=\"3.5\"/></svg><div class=\"chart-foot muted\">69-77 | whole autonomous systems</div></figure>                        </div>\n    </div>\n      </div>\n\n  <div>\n        <div class=\"panel\">\n      <div class=\"panel-heading\">Recently listed ASNs</div>\n      <table class=\"table\">\n        <thead><tr><th>ASN</th><th>Operator</th><th class=\"date\">Listed</th></tr></thead>\n        <tbody>\n                  <tr>\n            <td><a href=\"/asn/43633\">AS43633</a></td>\n            <td><img class=\"flag\" src=\"/flags/ua.png\" alt=\"UA\" title=\"UA\"> Gigabit-Online LLC</td>\n            <td class=\"muted date\">2026-11-22</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/3255\">AS3255</a></td>\n            <td><img class=\"flag\" src=\"/flags/ua.png\" alt=\"UA\" title=\"UA\"> LLC EKSINTECH</td>\n            <td class=\"muted date\">2026-11-22</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/328856\">AS328856</a></td>\n            <td><img class=\"flag\" src=\"/flags/ke.png\" alt=\"KE\" title=\"KE\"> VIJIJI CONNECT LIMITED</td>\n            <td class=\"muted date\">2026-11-21</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/50648\">AS50648</a></td>\n            <td><img class=\"flag\" src=\"/flags/ua.png\" alt=\"UA\" title=\"UA\"> PE UAinet</td>\n            <td class=\"muted date\">2026-11-21</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/50581\">AS50581</a></td>\n            <td><img class=\"flag\" src=\"/flags/ua.png\" alt=\"UA\" title=\"UA\"> Ukrainian Telecommunication Group LLC</td>\n            <td class=\"muted date\">2026-11-21</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/134489\">AS134489</a></td>\n            <td><img class=\"flag\" src=\"/flags/pk.png\" alt=\"PK\" title=\"PK\"> S. B Link Network</td>\n            <td class=\"muted date\">2026-11-20</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/207043\">AS207043</a></td>\n            <td><img class=\"flag\" src=\"/flags/gb.png\" alt=\"GB\" title=\"GB\"> DEDIK SERVICES LIMITED</td>\n            <td class=\"muted date\">2026-11-20</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/52363\">AS52363</a></td>\n            <td><img class=\"flag\" src=\"/flags/ar.png\" alt=\"AR\" title=\"AR\"> Jumpnet Soluciones de Internet S.R.L.</td>\n            <td class=\"muted date\">2026-11-20</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/41820\">AS41820</a></td>\n            <td><img class=\"flag\" src=\"/flags/ua.png\" alt=\"UA\" title=\"UA\"> New Information Systems PP</td>\n            <td class=\"muted date\">2026-11-20</td>\n          </tr>\n                  <tr>\n            <td><a href=\"/asn/328490\">AS328490</a></td>\n            <td><img class=\"flag\" src=\"/flags/ke.png\" alt=\"KE\" title=\"KE\"> Unwired Communications Limited</td>\n            <td class=\"muted date\">2026-11-19</td>\n          </tr>\n                </tbody>\n      </table>\n    </div>\n      </div>\n\n</div>\n\n</main>\n\n<footer class=\"site-footer\">\n  <div class=\"container\">\n    <div class=\"row thirds\">\n      <div>\n        <h4>About</h4>\n        <div class=\"hline\"></div>\n        <p><span class=\"brandword\">fmb.la</span> is a free to use* blocklist for email\n           classification.</p>\n        <p class=\"muted\">* <a href=\"/pages/tou\">Some restrictions apply.</a></p>\n      </div>\n      <div>\n        <h4>Links</h4>\n        <div class=\"hline\"></div>\n        <p class=\"icons\">\n                    <a href=\"https://github.com/fmbla\" title=\"fmb.la on GitHub\" rel=\"noopener\">\n            <svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z\"/></svg>\n            <span class=\"visually-hidden\">GitHub</span>\n          </a>\n          <a href=\"/contact\" title=\"Contact us\">\n            <svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z\"/></svg>\n            <span class=\"visually-hidden\">Contact</span>\n          </a>\n          <a href=\"bitcoin:1fmb1awGTcUbbR3wqzQoiWR2mpwwUciXx?label=fmb.la%20donation\"\n             title=\"1fmb1awGTcUbbR3wqzQoiWR2mpwwUciXx\">\n            <svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M11.767 6.19c.19-1.27-.777-1.952-2.098-2.407l.429-1.72-1.047-.26-.418 1.674c-.275-.069-.558-.133-.839-.197l.42-1.686L7.168 1.6l-.43 1.718c-.228-.052-.451-.103-.668-.157v-.005l-1.444-.36-.278 1.118s.777.178.76.19c.424.106.5.386.488.608l-.49 1.96c.03.007.067.018.11.034l-.111-.028-.686 2.746c-.052.13-.184.323-.481.25.01.015-.76-.19-.76-.19l-.52 1.199 1.363.34c.253.063.502.13.746.192l-.434 1.74 1.046.26.43-1.72c.286.078.564.15.836.217l-.428 1.712 1.047.26.433-1.735c1.786.337 3.128.201 3.693-1.414.455-1.3-.023-2.05-.962-2.538.684-.158 1.2-.608 1.337-1.538ZM9.376 10.29c-.323 1.3-2.513.597-3.223.42l.575-2.303c.71.177 2.986.528 2.648 1.883Zm.324-4.12c-.295 1.182-2.117.581-2.709.434l.522-2.09c.592.148 2.494.424 2.187 1.656Z\"/></svg>\n            <span class=\"visually-hidden\">Donate bitcoin</span>\n          </a>\n        </p>\n      </div>\n      <div>\n        <h4>Boring Stuff</h4>\n        <div class=\"hline\"></div>\n        <p>We have some restrictions on the usage of our data. You can read all about it\n           <a href=\"/pages/tou\">here</a>.</p>\n        <p class=\"muted\"><a href=\"/pages/tou\">Terms</a> |\n           <a href=\"/pages/privacy\">Privacy</a> |\n           &copy; 2015-2026 <span class=\"brandword\">fmb.la</span></p>\n      </div>\n    </div>\n  </div>\n</footer>\n\n</body>\n</html>\n",
+      "url": "https://fmb.la/",
+      "title": "fmb.la lookup",
+      "lang": "en",
+      "meta": {
+        "description": "fmb.la - a free composite blocklist for email classification."
+      }
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://fmb.la/</loc>\n    <priority>1.0</priority>\n  </url>\n  <url>\n    <loc>https://fmb.la/pages/blockedlookup</loc>\n    <priority>0.9</priority>\n  </url>\n  <url>\n    <loc>https://fmb.la/pages/about</loc>\n    <priority>0.8</priority>\n  </url>\n  <url>\n    <loc>https://fmb.la/pages/stats</loc>\n    <priority>0.5</priority>\n  </url>\n  <url>\n    <loc>https://fmb.la/pages/tou</loc>\n    <priority>0.3</priority>\n  </url>\n  <url>\n    <loc>https://fmb.la/pages/privacy</loc>\n    <priority>0.3</priority>\n  </url>\n</urlset>\n",
+      "url": "https://fmb.la/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>404 - Page Not Found</title>\n\n    <style>\n        div.logo {\n            height: 200px;\n            width: 155px;\n            display: inline-block;\n            opacity: 0.08;\n            position: absolute;\n            top: 2rem;\n            left: 50%;\n            margin-left: -73px;\n        }\n        body {\n            height: 100%;\n            background: #fafafa;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            color: #777;\n            font-weight: 300;\n        }\n        h1 {\n            font-weight: lighter;\n            letter-spacing: normal;\n            font-size: 3rem;\n            margin-top: 0;\n            margin-bottom: 0;\n            color: #222;\n        }\n        .wrap {\n            max-width: 1024px;\n            margin: 5rem auto;\n            padding: 2rem;\n            background: #fff;\n            text-align: center;\n            border: 1px solid #efefef;\n            border-radius: 0.5rem;\n            position: relative;\n        }\n        pre {\n            white-space: normal;\n            margin-top: 1.5rem;\n        }\n        code {\n            background: #fafafa;\n            border: 1px solid #efefef;\n            padding: 0.5rem 1rem;\n            border-radius: 5px;\n            display: block;\n        }\n        p {\n            margin-top: 1.5rem;\n        }\n        .footer {\n            margin-top: 2rem;\n            border-top: 1px solid #efefef;\n            padding: 1em 2em 0 2em;\n            font-size: 85%;\n            color: #999;\n        }\n        a:active,\n        a:link,\n        a:visited {\n            color: #dd4814;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"wrap\">\n        <h1>404</h1>\n\n        <p>\n                            Sorry! Cannot seem to find the page you were looking for.                    </p>\n    </div>\n</body>\n</html>\n",
+      "url": "https://fmb.la/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>404 - Page Not Found</title>\n\n    <style>\n        div.logo {\n            height: 200px;\n            width: 155px;\n            display: inline-block;\n            opacity: 0.08;\n            position: absolute;\n            top: 2rem;\n            left: 50%;\n            margin-left: -73px;\n        }\n        body {\n            height: 100%;\n            background: #fafafa;\n            font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n            color: #777;\n            font-weight: 300;\n        }\n        h1 {\n            font-weight: lighter;\n            letter-spacing: normal;\n            font-size: 3rem;\n            margin-top: 0;\n            margin-bottom: 0;\n            color: #222;\n        }\n        .wrap {\n            max-width: 1024px;\n            margin: 5rem auto;\n            padding: 2rem;\n            background: #fff;\n            text-align: center;\n            border: 1px solid #efefef;\n            border-radius: 0.5rem;\n            position: relative;\n        }\n        pre {\n            white-space: normal;\n            margin-top: 1.5rem;\n        }\n        code {\n            background: #fafafa;\n            border: 1px solid #efefef;\n            padding: 0.5rem 1rem;\n            border-radius: 5px;\n            display: block;\n        }\n        p {\n            margin-top: 1.5rem;\n        }\n        .footer {\n            margin-top: 2rem;\n            border-top: 1px solid #efefef;\n            padding: 1em 2em 0 2em;\n            font-size: 85%;\n            color: #999;\n        }\n        a:active,\n        a:link,\n        a:visited {\n            color: #dd4814;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"wrap\">\n        <h1>404</h1>\n\n        <p>\n                            Sorry! Cannot seem to find the page you were looking for.                    </p>\n    </div>\n</body>\n</html>\n",
+      "url": "https://fmb.la/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "fmb.la",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T19:53:15.276Z",
+    "score": 37,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 14,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 7,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 4/4; single h1; html[lang] present; body text 185 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"fmb.la lookup\"; meta description 61 chars; no date signal; body text 185 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 7,
+      "l2.sitemap": 4,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

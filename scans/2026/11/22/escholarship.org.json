@@ -1,0 +1,272 @@
+{
+  "signals": {
+    "domain": "escholarship.org",
+    "fetchedAt": "2026-11-22T20:06:49.625Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: Amazonbot\nDisallow: /\n\nUser-agent: *\nDisallow: /search\nDisallow:\n\nUser-agent: *\nCrawl-delay: 4\n\nSitemap: https://escholarship.org/siteMapIndex.xml",
+      "url": "https://escholarship.org/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grCzSgBzagAABWeb\",\n          \"context\":\"8uHqODcLf6uWSvH9O25B4dYzG3LnZRs4Ux2y0SlSQX9ipARCyrRBVRxGGfgdZnvjYPNRnB6YTwL/Qj5d6lmp+O/DG0hmaJyNXB8aysQhm6h5NpmlQkyQlfeDahhSIl5pcAdCqRYn9SJ0yvOUPXfPG0C8WzFJfRaTi1pdN8eW/ev1N+jc5aUFXufviREzQZcRAw5NSh2b7FIDAKoH9dJoRhpuAaQBFhJPrjB7L0c/fe42+rChCJaQ1OFjlr5SX6U6LovroypXbUKwvfWgYjujVQkWkulYNMTFhzzMNC4+0PXWgaCt9pcxQMXAooN3mVygiUms6ywIXFMJB1TOzx0nikiFUfMdV77GKpR7FEurvGrhKARHR78FBQ8C3p0/QKtomAAWAyLHLfGo6tsM\"\n};\n    </script>\n    <script src=\"https://5ec2a1ad32dc.59842d17.us-east-1.token.awswaf.com/5ec2a1ad32dc/60ea1a4c1295/553dc510dcaf/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://escholarship.org/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grCzRgB0PwAABXTB\",\n          \"context\":\"x2ZL+RnrRyUThEtpja4aaaetMQBahjpyIGRDHwNld208hejYZvX7yZ09wgAL+IG8xo9TIXSjzEUjkvGdG+7wUv4iqCDe9sWdiU1VoG+gJrRxe+TfX07zgq0sHXtYfOsKU5XDmmlqvadbLEtQatHjKNRZj0Ntably3oRaAlMf0rWNVSKh/hstslmGvk/mVdpvg2pRFE/Y1GrQiGoNb87gLUAfT5WqNmJfKkUdHe3wx2MyOqtv/yohc2+mBmqdVdrWKMGhJy9+v2FtVcxuw3HyKiunZVp5AYHt46qhSkSj7v5VSl4bOEju2J+IeF8efN8Q90peze83taIeCSbenx/OLnYOMFUr8yrUusBjqawnPomPjLQ5BoSp2RUNd9T0W0R22U760BuwHS/HvebB\"\n};\n    </script>\n    <script src=\"https://5ec2a1ad32dc.59842d17.us-east-1.token.awswaf.com/5ec2a1ad32dc/60ea1a4c1295/553dc510dcaf/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://escholarship.org/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grCzbgB0NQAABODe\",\n          \"context\":\"eJ8kIA2W37llLMyvVO2Y1h6Iv4ZuIppG0DSnNRjZ+lOuaZ/0Yi6Ovihv3haSTDfdPrQ5AhJVmf6MTmJmztUb1fQLl6PqnjKcdg3YbvxrFDxkJpHmPbeguMbIlQjSQucThibc/khhlywCfmKndQSowN9PP4zRlJznAUxIdxeIE58qyyUu3UiOm219MmP2ryISkwsop3L3PDb3ftuCt+XrsxQx1Jpo8Zqi36Dw/OSM5B+FGfTc/jzc3hM3AXHFf1Hilh/6QHDp+si9ZIU98+lR0ygWlKeaXgZNjVVxCsNlvMv9gKmtCh4VdEahHIYNQ5ux1b4h1Vbww3LExTxAXwbs2KHFm3AgPqWMqHb9JLzHfGJzbT7hemeGWHddpuTDwdQl6oVQSB9T7R3aHQ0i\"\n};\n    </script>\n    <script src=\"https://5ec2a1ad32dc.59842d17.us-east-1.token.awswaf.com/5ec2a1ad32dc/60ea1a4c1295/553dc510dcaf/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://escholarship.org/",
+      "challengedStatus": 403,
+      "uaFallback": true,
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grCzbwB1ZQAABWob\",\n          \"context\":\"XYf+gPaMspxTGSKsPv6E8/uPelAGWl36lseHHX6uc/s22EIvEGDeUj2ggy6XkRPTd6eVHv7hpkocxyhudy8FEOsE3jXHcY8hHHcKUyw/LyE7RaexXiSuvtoQVjKf/XAPKIjwdlvj/TMJApmIPuFtM1JgIVq4J2UEKViZyMSqFYEdLx56MArFqiF+S47myK3Nheohb9TQkX18LQOWZCH21/emRB+OPT/F5RxiQ5wjRz5bmmgxYRB/8rsw5URbjox2zOBHlDBSk5j6jdKAfRDqhepmlwseWspzNzfjapOuLoW8hoO0nLUsaeoaXmTcrFInOhPbFlD0uDZj6ywuOUuXeZSW55YdpwtxtJi9ycoOo0vc3z6VJK0bIohvL98h5n4DhlsCST3nvyE8Vz1V\"\n};\n    </script>\n    <script src=\"https://5ec2a1ad32dc.59842d17.us-east-1.token.awswaf.com/5ec2a1ad32dc/60ea1a4c1295/553dc510dcaf/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://escholarship.org/siteMapIndex.xml",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grCzbQB1jwAABNHP\",\n          \"context\":\"kb3cEza9Uj+HOkmd6+Ry36svYo3BRqv1+aHLh29zgw1Es2z4aN6zwJuS6GZN3saVh1XGhFYrlIWxVPJ7BCQpOUB/pNnT6Qyhjj97cOoTRNRWoQbYDDMSMWepUFenwTXuOPoHhyoTA94g5p6yUp5joEPRYP9cnf6rhCQ+i5mlPB8apezLki/tFn9o+kOGC2yJWmA+CTW2lCoVC96rJ9r1nvEpxg8/Em9UYOT8xfUX7f6G0ux3e+EooJYekbUjzZ2QcZ4+Z8jOlt9nGsJlj19Cj8Xp5eiDjzpS3Zm26RdzHAhyH67gULp3To5DdhwjoFdbspwV3MGtHjiLeVEA1dBEUrxI5PAUfSl54PuEkIzv6Iihk3qpoA9/S+A3VoGGLlJR9o11iApI2gkuDLhn\"\n};\n    </script>\n    <script src=\"https://5ec2a1ad32dc.59842d17.us-east-1.token.awswaf.com/5ec2a1ad32dc/60ea1a4c1295/553dc510dcaf/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://escholarship.org/agents.md",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://escholarship.org/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grCzcgB2iQAABPLz\",\n          \"context\":\"niVeCnp7++Th1H1Wi9t5fjgoxpkTBjugbhCxBfEPKuDDdkr2tNXV4Wnrj6PfYMCRxacHH66PIMV2ka1BlbLzWkokzkMuo3nb4QKFtcmf5KEn4BeA4WFsbScjXIgfuMKHqS0coAzGcb5MxHaab8X8sEJqXmWiWh8G/UdyAzTl2FCdAiFpb0bY58M9xcc6IRRCMBVyo6SMkhQ9Sz5cQZGgUX1ANmDw4wbEWtAEp11aZlFm6haRYxODQANAkEsgqWgDhZ3xuv7lMZJ+JTPEghV1T7K051RLvRXUFVJU9XDUTpiBNYd4yPi1W/5IhkGvUDhg/vpnBQs/S6czQ9wfGCqSdu7gx4i+sij51GILuvH4kU4ov/8EaMZBJEoH3CKblNnGmAyvlFqj3aaVnnsL\"\n};\n    </script>\n    <script src=\"https://5ec2a1ad32dc.59842d17.us-east-1.token.awswaf.com/5ec2a1ad32dc/60ea1a4c1295/553dc510dcaf/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://escholarship.org/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "escholarship.org",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:06:49.625Z",
+    "score": 43,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 16.67,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 11.67,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 4.17/10; strategy tag Middle-Path. Blocked examples: Amazonbot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "transparent UA GET / → 403 (challenge page); content fetched via browser-UA fallback → wall honestly scored 0 for unfamiliar UAs"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 18,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt references a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://escholarship.org/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 11.67,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 3,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

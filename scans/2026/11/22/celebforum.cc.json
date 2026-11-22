@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "celebforum.cc",
+    "fetchedAt": "2026-11-22T20:40:33.231Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\n",
+      "url": "https://celebforum.cc/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-l2HSNAvoMYMfFT1U90WqZl&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"l2HSNAvoMYMfFT1U90WqZl\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'ukpOvQ9RVPlUTSrG4smscqE0YUvoZGeCn1SKQQfSQ1s-1795380031-1.2.1.1-WsbbdUzvv3szPkx1r0Ptx1fC842tMYQ8S2ifOhfTcfNQQE8P9vddHhn0cBKddTuf',cITimeS: '1795380031',cN: 'l2HSNAvoMYMfFT1U90WqZl',cRay: 'a5eabfee8b95827a',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/llms.txt?__cf_chl_tk=8u_jstf9qPxS6DEUrP5dI8QYc8G9GpmxAyzg9EdQoZE-1795380031-1.0.1.1-WLo50ffrqnhHxKNZRz3f3pox3vnLns6uicnU2T6ZFAU\",cvId: '3',cZone: 'celebforum.cc',fa:\"/llms.txt?__cf_chl_f_tk=8u_jstf9qPxS6DEUrP5dI8QYc8G9GpmxAyzg9EdQoZE-1795380031-1.0.1.1-WLo50ffrqnhHxKNZRz3f3pox3vnLns6uicnU2T6ZFAU\",md: 'aXiSiEENHdOy1ozCln3Wbuv0VEnNAashZpaQAlm.Hkk-1795380031-1.2.1.1-kWu3xliTFK2mujEnBnVtkpmGVesHGoGdSXMK96vpG0iXB1Pk1mXES5ruddzPPI5VOrDNh9k20jpMWS9wFtDM2IyV_5aFaD_KKJEvKjlAopao8CFRsn_JbUV8TH7HuRNjbr_E6wq4I9gqlFeTPr3eaeL3y9rs0tLCCNQvcW05uGjyc7BOKgJ80s03hXjUFgZGjXOhKm7Xri8bP7OhIlP0czN1pm9chOWGMFQUYHtnUQ6NdgqhoJ7R7fedg3EmSOYn8NPxDUEviAqcAn0pbDQ_OEYRfAKLgLvhJu7IMcmTH34uqySwMrsul8T4NEsa5Eq40jBZNOSvhlCI_RsDcBd_m5KpNYwlNrYCT4h19Xu.9bqBjg337SnoaPYCicIrNf.aFyvobT.OHtkcBOTe6dqQpHllbGEpjaAjGKzUik.cJeDuJtXyLnogyTuGkiBSrKw5_Gaf5w62GoJF0T_XOlEuGn6HHScraWO8_BoRHc8N3n1fPGHoHHn84WX0zIGPeRjw_lj_Vco3kEGnZXvNM3oIKrePQAq87eExPL.aTf8r5i1iwokVo3H76sdh5t5wxO7w5RtDaiKS5ZQKsaEFuhZuOqhKTbtTg1UiopEMQp1.8Ropr5I4_Hxkmv3P346LqGOFQBdY9dbVIsEPa2W8k2FD4HoEZF_IAx_Pibcltf4Msucxu_U1qEne1QN.32kd9fo6ySODi1nDOlNNHu5_vQX7VlLDc0q5WeFUBjF24VV43js9juwz7z0gsdSatXw52KB2TJNSKGJIuv9AcrJEfMnlBL37.c__iEYgWsoHjCcjO31u6A5baARmnol2eCVLkr.BoV0PUv56EvXHQUqQlQRkaFg79v8WGZznS601_1uPiiIGopN8CzJwgPped5uzOxnFRGA7CJlbC0YFpwUOuDnYHcRl0qccFcU03tsALNIHKkG5UNN74QLqunGxWK1HP9wEiQ2FOSAu0FAOUOp_OY.N4YHL_bptL7a2JgrQH5JBal6DG_HyuDkJJOcS8DYbP2Sfc5_ky.Bm2uhu7klnmDpbwr5uuuuLZuuJO3_igDcErh5_tP0FXNIfFajP5UgHcEDQpNisuUgYwobb_sUfCXI2F38P4z28LTxV9M2MqWAYLUI',mdrd: 'VfQ7W1wlTlBRuSGL0m8uJ4kBt4ZHCFhztAhFap7nbiU-1795380031-1.2.1.1-1vced1PffahAbe4muuRbq7ybovQX4bl4KnL5snWcmW984nrsm8rwAUgeNDedt3pn3IFkojGxgFP9EgqBVQQ0abYQLK1jLRSSgxWZ961P8pWs5HORLBccrx01KHUMFoDL0eRcw9_AXcaI5f9tg86U5x7Pl8Y3Vg0TWXJQ5fZU1PnC7iV4n6X6o7MCWxDBRMOnM_DZWdQrxZazKdIoB1KaD_VK8IarTv6O8WyU4R9ZLEehluTVBNlO_VQiPV5fmhYvIwO8Vs33UkSha7NdNfOZHvM96GnKUooazOO_g5Dc6QDxOb9CKpBSpjzCBZk5GLMhs6UoXaFuRviEmfFB3FB7c3ifnEcFujeD8D6130X4h1m957FOMpuWXHMPFJOBCI_DL8dz4QQy.Jor52Fec_LfaKfWAyHfP.OOz2Lby.Yv8SY',};var a = document.createElement('script');a.nonce = 'l2HSNAvoMYMfFT1U90WqZl';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eabfee8b95827a';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=8u_jstf9qPxS6DEUrP5dI8QYc8G9GpmxAyzg9EdQoZE-1795380031-1.0.1.1-WLo50ffrqnhHxKNZRz3f3pox3vnLns6uicnU2T6ZFAU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://celebforum.cc/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-9I0dYciJabHtIsPmnpLerQ&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"9I0dYciJabHtIsPmnpLerQ\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'PhcL98uQh9C49hB0Yi6Hu6XSNLik7c4vnpArAsCErVE-1795380031-1.2.1.1-9SstZyOl2nAUazptHWLBr968Ejq0_U0jpDxNXdraoka1Ao.nBDWBEOY9SuqomFzq',cITimeS: '1795380031',cN: '9I0dYciJabHtIsPmnpLerQ',cRay: 'a5eabfefe965571c',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=id8WIDCEq7Di7wUsEn5WlzEiIsIlGjEtZX2L7crye_s-1795380031-1.0.1.1-.qoMyABHMX9u8lpjpELdvGXPQtPft7iIb9lmuiuj.Ec\",cvId: '3',cZone: 'celebforum.cc',fa:\"/llms-full.txt?__cf_chl_f_tk=id8WIDCEq7Di7wUsEn5WlzEiIsIlGjEtZX2L7crye_s-1795380031-1.0.1.1-.qoMyABHMX9u8lpjpELdvGXPQtPft7iIb9lmuiuj.Ec\",md: 'dXip.FyRHKIFGcEL5jjpbAgGvaDiXf6onTCQ3_j5fsA-1795380031-1.2.1.1-4nV5T9L2yxBq2UQQu9yPxtfsWFylSqfqZxSXRKgxW4lezIuffiyCbaRynnr1M__4kj8Bq0_kAT9VkKzGlqO_EjRVl7Ij2vf7OPzY.3PFU6Gu1P27SqsVcHfWZf4yJcO9bunAw9GRRZG5rv1PIsZwddCE4E8u4hpCZxTMqDTAxYpdC.SohtNOlvbqStqDc_lCqoHI6ty6g7q0ooVlJ9GY5VsZyFXNd87fsRRd2eeEGkZMZ180Sk.DF5ljEASGys5M_5PPYjvrP37EzrMcxKui_8XG3LZ48PAhsSm_FnjuGBtpahgBxEYFy3UZcwQbKYZJByUY_n_Y64XSSXqUvI5jT0tBm1N2VwTrai7K_0HpNueCRlRi4rCRFyDY9Kp.C6luM0NV82Z2Qb4fOQ0.FTVuG5Uzt3duf_54FZEWe.vPcjoRxWasY0IH8aHQ064q1c_XK6a7nY_4ezQKF0FvIe_QdjBGl0MqiffGYx0MXhAPX6SletwT8lICXsEMlcD2WlzSNkQy6qUh711FnIb11r0tCzvdVzwkv7DCWqwJ31UshwimR5x2egsxlVB1PbeOen.K8x3z7G03sUQlZRXDLmlTs6jOBkUvtTamfgjD1N5YNjwuZk1pnT9Q7HUUGaxWfUIcPxps.p9t6BE2jIWE1Tpl6opB0pTpjQLFozzG7Pjg4F66pTYVkgWYyYKynLygjKsbc4lVtriminN8nRv8INBKDQbXYda3i52Nbrd8ar4Z9rrxDuz.QzXoqcP6puAaniaXgNr.VuRzNwiyFmXgckvRxAcLYdS927BV2P_rxJSf47FZZm668fM.WpzCQ44JxNK_BBChfeQh7VVrJPpMHpNBXqa5SDhKv3QMXL3Pieb_y5YdmwFAR6WEu7VsWcQAwsj.G.jhE3C.xEHmbzykXKrqml0VLv65cLsG9FvKW8BLrStyUEj1uucugZAdiW8JyrEKf2uxOuBzaxfzktO0aQboesyTNnZ_aKm_5w4Zb89bPznZhQT903OMUDQpgz9y8lgdQKeDEG.loeVnFvxx9ws0EB7PzmEqI0Sl49pS65moTZGqrQDsVuQ.pSsXW4bmvkfo49pVClXG0JyQe7suPA2ohi6tyXtVqabUDb.SzPkwJr4',mdrd: 'VaF9P6WmsYzxf1.1aGfCdV941HrSxg0syoi39OWMkAw-1795380031-1.2.1.1-M7mtR98p5U.4NrNiIUAGLebJ_Gc2FjQDDe3_Ey4v3_uib4cIQdlPezSR8PSVPShkZmUEcIx09X8rOkTZ8AeWcIWtXm9VcF37AJYagp2aZM6HnH_2btJFqw1iVS7NHQdVtrL.a5brk3zI9Lho5F5EPp0thUaETZUUCpbMkn85DSqhE3X.vKG8RJXuCxa0EMIdlogr69_jmDXcsmzjzTxY.7RTp5crldzvBWgecRvcleigTkFd48L5XzI6CRK1fM1izq_viOMn2KR.Lh4y.i5gQ4N8MAE3tyBqWq2Dx9IxmuyautEqrZtv3j0tVVpCjHxoQC44Vr4TKGQ68wWZEfdKzThTXJM.fJHmUwpSsENFwRARIxmVpWjoNnXZgOFm8kPA6pAjk5BVLZ_noKxmGQBLXw',};var a = document.createElement('script');a.nonce = '9I0dYciJabHtIsPmnpLerQ';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eabfefe965571c';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=id8WIDCEq7Di7wUsEn5WlzEiIsIlGjEtZX2L7crye_s-1795380031-1.0.1.1-.qoMyABHMX9u8lpjpELdvGXPQtPft7iIb9lmuiuj.Ec\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://celebforum.cc/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-bGqJxe2SNKnO6CVtk8fOme&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"bGqJxe2SNKnO6CVtk8fOme\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'lCiuk4F_MmLIKmDM5_mmwzuFuvOovK9V4EY5kaQW6i0-1795380032-1.2.1.1-cRlO2hRqOMTFKoE4Y1ed._H4g1tbtF4Sx54n0PJYW7iLKuFr47SFh0haqD3xLMc6',cITimeS: '1795380032',cN: 'bGqJxe2SNKnO6CVtk8fOme',cRay: 'a5eabff12efbfa74',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/?__cf_chl_tk=Ti8eh.qg8Tw_J9QlOxFjnXDMz37J8CCk8.r97qHg8cE-1795380032-1.0.1.1-3Cc9zZarkVbTDd5CRk7P24OWOG3pFuju8GVqphO4qO4\",cvId: '3',cZone: 'celebforum.cc',fa:\"/?__cf_chl_f_tk=Ti8eh.qg8Tw_J9QlOxFjnXDMz37J8CCk8.r97qHg8cE-1795380032-1.0.1.1-3Cc9zZarkVbTDd5CRk7P24OWOG3pFuju8GVqphO4qO4\",md: 'a2UhZCGihutuuj05wTEtq_tSJo6rtOuwdQ.I0fBMx0o-1795380032-1.2.1.1-U1vbjmALURKlMN5S0SfJSg2UUdHxLk.hyhShPKGFHBrks1NsL7VsHtvBYQgu_0n4sEAOt8hOHBmjzf5k8wkqMDJNoTC0g07NeJFPLg2m0FGxM2UGcbj43a_U2oDCAlD6RqlznDpNb73snRzFN9WF_x2kNGCalskWDlKDwTOqak4VX8Mabzvz9I7J_lRVeCizpJdD2QImJ8s4LRxUggkTg2wjVH8gXHb4iD5fcQAIbM3pUZRBJkvDQY.wHyuf6rY4OiMWwGA0fNTp4YsXDBvgwArBi3e_IOU1ABkkjVubsmCwD49hQOD0qi9PBPp6qG.t.PI_7mYFLu4SYV82rgSlwThcL1lpayvG2R3bCuayddF0uwZ2e3gV3.zOv4qhc.w7.J.DoKXtUmOgjLimC7XH3eX6X0hAVzDjdF0ThEicLtRwZiI0UUjGx5fYlloUL67AkG.cMRi5xfJVQ9mKDc1Ru3XG8j5AGuYJyrmgZR.ATXCMkrf.dVfcV6euxc9B3O5zZJdIOO6OOsKtBMaX5NkAfMTetMEGt_7LaOTuS_dE9Ww1fyJaFUAjY2Q9wGnwrrTR7OGCM05SflQHmHyLuMxi7NxpxCGHHux0ku292VHPnQMAeTTQDkH2u5fl8nwdr715Y1x7pYr6aAPNe50visK2yCroyIROzq5u.ksNf5rZFWkdCJ3FO8mfFWK52LCtqLsv7KrG7bF76JeVAPFVvsv9TVbmDzKHvwz1fwOije1bpS96L23z5QG.AN.b.tJjVSwL6zNOLQ.Pw9WHf9laIMLsNTOD9jbIPO5bVDFIGfo_xcg.FH.wv0mMHRKQgycDjL7BCJnvwGXJ2vVug0i3jFcb74JiGQ8CaiyKQRzkDauyqgUKvUSY9bK9d7mIH0qCuY7gkHnIRx5ZzTtyJd438ix0mXw7wPqCkyQ2zil.BzptmoSQ7kiMFdLqi7sce.LYN9BX5j2Eo4Q9r3tQeursS3jge8FYSTWFuykATfjZIJjbxmzmrU3SAiP3pnNhiGNe6_gWY2Q4pWztJ5Aq_K4lw5G2TOUc9lmmKpsZKU1B7UeEZNH5M_ny0wBuNGr4bsS.2zoc09hB71P9w2T7W0E8a2C1Sm8J.2h2Z34_8NQobB_j_5s',mdrd: 'Snl3wZxRbYDUfkNdJTIu.SQMtOFjgSRm7CJK3MQHttU-1795380032-1.2.1.1-z.Y69KixRZLwBCylF6e42e3IEbVpL7domsB_s8p8gnbQTyTsD7ALio8.qOd80ETvrh0jW.IFSD_1jms.rspjyMVtfynyysjiRiE2Lr0maYIavF.6kcAGc9btnDRarsytlVx16uxa6v_oxqYUJgp9yRIAi6hWgOgXAMH5S0hbbVpqDjzwKqqF83ZM.JUhM8jKYC7_vTH9C1OCHWrzFrhaG60m3_YNzz6Bloo5W.F0RU5BDJ.9Kq5NwAm6vFuZb65wkeC9pfRXplHDTh2yL_ez5YQhvcnTP4m6pt8aTi88v3hqG.BHmP4pnHPwzAGZxrUBQST0.ZdpjqdMgwxdJVumPwgkGigBV8qADc9QRonSJfNlvCw5fo_H3Ac3rGMJVGDt7c00sfZHo1FByMklZyU2gg',};var a = document.createElement('script');a.nonce = 'bGqJxe2SNKnO6CVtk8fOme';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eabff12efbfa74';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=Ti8eh.qg8Tw_J9QlOxFjnXDMz37J8CCk8.r97qHg8cE-1795380032-1.0.1.1-3Cc9zZarkVbTDd5CRk7P24OWOG3pFuju8GVqphO4qO4\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://celebforum.cc/",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-zuLBsVsiy1ANOLcEUv4WDZ&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"zuLBsVsiy1ANOLcEUv4WDZ\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'Fu3T_uRp1U1_8tdEpVLr8ETJE.sf2TNv2OE3Pt13jlA-1795380032-1.2.1.1-8Z7X12fvleQf.JES1zLy1De2gTBpueCRm9bZBZK3WsHT9OAQFGZM.GJsbi9a_uW_',cITimeS: '1795380032',cN: 'zuLBsVsiy1ANOLcEUv4WDZ',cRay: 'a5eabff27a3bc607',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=SykF3HQfEKDGCURFv9y3qw6dOL6CJL406dSB9x0WElo-1795380032-1.0.1.1-r.aqMnlGExgxQbF5bjvkLmKgh8KKSOfhipgjnSfQ4HQ\",cvId: '3',cZone: 'celebforum.cc',fa:\"/sitemap.xml?__cf_chl_f_tk=SykF3HQfEKDGCURFv9y3qw6dOL6CJL406dSB9x0WElo-1795380032-1.0.1.1-r.aqMnlGExgxQbF5bjvkLmKgh8KKSOfhipgjnSfQ4HQ\",md: '5rAMktXcXRFOQl9UFYxOwYMIZHoCNsp26HXHmNJQgHI-1795380032-1.2.1.1-ut4Yv4J2rLjDwSeHsLr1raUJ.HN67qW9FakHwxanbcJG_n10rpGQqpEka8xhXb16IGBjNBHqUhgrogSRSm973cSDQVnDlZOcfNzQ1GoBiG39I5jCkhEgdCNW6xLjINw5YG7wMKDOYu5RiJHGtVwqloPwpumrrsSO_i2s.sbRxwICSUf3JUyvKVkIvun4tB9afwt1IaeL0oP7kUBfRba.nkkADi92BIdIcneo6cD2m585Oc_Kyj6IvmVRDbSYXZ9RTqEf41lsz_.ENXoY29xENOUhOsRHv.sdqOm1YvbIcaPkvK6k4bw9s5qezN.0X0f.fb_PZiX8Ls.YWBY7J9nI2vbilHhb0YqxxuvOCU2TpzMf_Z0NDAb_z8cx7UXxvUUtSg8hl4iJ4B7aUI1ayCKR1LT0aK7BQ_Dhbi35h.jgl08LXECSJMcUeADbU3vUriukGI5t9H8cOvcAx5mvXqaXWKhSP0wZ5nlFfdZDAWXLSQjrp7nLPULS79HDtYGmjOrcBP_eEQ5iL3YwScoxWlGaPIjlJpx1Cgsu17Xdxmk5vkQVVaKIEJ0phJ5Eh2S0jhoEqmDhQYkRx6Ct5RPJkOTVxP9VH.r03_Bb1NCQTZJJ2TZs7G_Zn4TQDuOAsJO.SSliAG170yngx1xfjvySD4Yr9ajoB8HaJXDSgjurgjN.V9Iv4JCXHXtjbOz_NGAbvt63bJnAkloWvqXEwhc6djBz9lTbDA8kPDmre0fwowrzw1yIoVPU9Lw7yKmlxZ5QDNxZcz6YpAUgAhHCd6IPbsXJuf0YjPvYXIuFs4kZf3FEMZOY4W5GzC6kkE3LLU19Vku0y1H2aNqEOzvVfWWkZRGEwHLWJj89Z0.d25JlGA.N4LdQw2OPIsshJ8Gmiw17cDTboFwudCiz6zEKS59bfQdimtkEG9X8YTRHdm7.cSdG3nqTq1CscxXaRu9LxIxeEiOrnxxt4voRzvmPrqaUrWZpZGKGvlc2vq0vv3bsSEx8HAxelfT3eB0B4EU._.kXsBVOnfrU_moeSXXziYjLFhkCh0t5uDJn7iujYpqE3Mj.NHPqkTNd6gWy4Ai7R1ARNNXdoDLU4T7VED_zvK5l8LgymhjzFg714MPottd_kmnIOAg',mdrd: 'fUwtDCUD1eJZ0X5pmF3qVL6bICmEWS2s5BczE74sciM-1795380032-1.2.1.1-gIFp19YFo7NIHW.c9FAuKfSy.D_foIOtyQYHke0VZ5mWKJxNVgQcUttEJ0TdHBhRfbHradPru6hML_tBnoOX7pFw4k96fIax8LfivSn8KAANL6GoFbBs8EzbabpxUDuDhiU.akfXXAaADHiLBUz5Z_EgQL5FhQVap2MkSUtfB6g4CaEnGRP54EidQDIzWXCK07nD6TbjRXu2X21JPf1EkRVPOq1TADx76cGsDQ61LPtco3mJlSbY2CrnPF4TaZ1jbaK6rOcRcL6kTABlLjW3_JYcpexI9evekotHanLVs1SMDLwphvfiwVj1xbjbFQ4QHjHCJ52OXjEig2LcD61uQHt4pZpR9bnnTt.vcPt_5EhSyXcaZcRxQUbgaqxgaKxnCKJmqvlNcafwzzHdH7lHNg',};var a = document.createElement('script');a.nonce = 'zuLBsVsiy1ANOLcEUv4WDZ';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eabff27a3bc607';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=SykF3HQfEKDGCURFv9y3qw6dOL6CJL406dSB9x0WElo-1795380032-1.0.1.1-r.aqMnlGExgxQbF5bjvkLmKgh8KKSOfhipgjnSfQ4HQ\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://celebforum.cc/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-3vNL3esBr51bWj4B0UPWhc&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"3vNL3esBr51bWj4B0UPWhc\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'ra5fW.UILpzvJBJMu.PQSSIA3Ar0RDEbol7e1uJcucY-1795380032-1.2.1.1-LwXJHLb15ENyfS9eedLUKnJV3NLfyPPatcn48MHUy7sTh8EVyMbuV.4AzEyO4AXm',cITimeS: '1795380032',cN: '3vNL3esBr51bWj4B0UPWhc',cRay: 'a5eabff3ab77f2c6',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/agents.md?__cf_chl_tk=DhSCYItyp9ElZ9hXJbue_MrmPtN7ds9MX6y7DrMgnDY-1795380032-1.0.1.1-v.kNYPLNcnvsVsUDg9UDb08g_sHHobfdv.IMN3hA6fY\",cvId: '3',cZone: 'celebforum.cc',fa:\"/agents.md?__cf_chl_f_tk=DhSCYItyp9ElZ9hXJbue_MrmPtN7ds9MX6y7DrMgnDY-1795380032-1.0.1.1-v.kNYPLNcnvsVsUDg9UDb08g_sHHobfdv.IMN3hA6fY\",md: 'ucH6Jb3nPDBTk5fRqOrqOQGqIeMqdiAx9dr3n2LasGw-1795380032-1.2.1.1-y7M7EpKwI7.xXodx5D4kns6HffmOZ3zFYn2Gao6j7RBf.dLF1.55_mWhWFyxFP_5NiXrc1esA8HZj6xl8YGUrs2lOL0heevNlHF_2HRG2US6vqfwjir8rr4r9MuRS1tfAq58QYLJX4CCIhxAr2CvEUMzSMf.NKnhJQlYpMJ5_GcmAG3HMbgmogdRzrZqY5iFiHC6sNNSsqX9971vt0quIpcE67Vefo58YVml_hylBqvqHXBo7q9B6lhTuBsmE9ev2VVO4sMO4qqGyL8XqL5oIuAiddR7_XBssFK1ntRupuu93BFHcu5HHgIX3SBLOwfTtpmJRyVqT8wucTNS0zHM66xUaLJ92RVgHzoHJR0zB0faO1O1.SYczQavv4ouGsdIkPFdoMr_CrkpAb2S.35kfnvwsufZTWzJEzOl44neNrJuZchwKFeahW8_nbWXy4je9o7.moRqZdINxEhAoZvKaykrG1EfsVctkFykgR0AS9PST9wzlSR1nRwZXF4JWU9BqgmPibISGtUIcbc59eBLOgyBoIkvLJR4pbRSVF8ahAabSARPJdmco9Ip4V.UsSST3hmUdBJZAswP7nNND11qvKr8eE0QYw3fsTBefmmqqZmtEw42WkyRT6gYB.X9xUYxTjpwMjU_hka.5xcyzDQaMw5lKPp9GAE3aA3XgFA5t0EMg_Z6B5qgj_w_xeJQ.D7huQ52miw9Rap6K9XPh.5Htfsq2xOGQPgmAWVmJnsxBu0KklbyFXdnMyiswz5kU9GFVIBcnoKRMKqOZujHwWiU9eGwyywsSTiSluTry8SIT3RzQ_a63v3d9iI4UABvGvqLldamJXyXpCJtljvMnk8s318cs7z_SP396xj0csiPjIAhtNpmavsvbGG4kOmSVdHQB8Ugo13wm.qcdEiI2kZFejiSCMKTzRFdHdxRb8eoQTUl9bWRon328s0MH_ieqiunZA5FGfCtBGGmODwjwhqRcLnm0UkeTYook0p7Zv42cKLGzslQw4.kfgFjTLld7Wa96h0wLa2FfCzg1oaweuRLGyM6j2I9lMO5cejrSo1Ieb5YhxH2hXPhqxtmMpEyb5SwE8C8OzC2CsQP3f9mlnw606jxAZ2zibjDjI0ifeG2NVw',mdrd: '_9OSdwQpkfH2vQe_d5GFO1K8qTkJv4zzwVbReefCN9o-1795380032-1.2.1.1-KN8_CbdZ4MZI3oCVs8L0.CQnq57m_NtlwwWQU0AyXtb4mrDgz0ee7wcGvbYD2i5f8Gc9Gs5VtysMaYCoW0Kfy2RqoVxPCFFAnwwWW0VSSU1UPIcNu.sQucKicEZf.H65kaRycp01pR2D39VOqwnmXMnXnKrENJFt1ra7BxZpHza.n9HnWI5gRjya8u0P_8rxVo63GT76T.pnNtcQP.GVB.kgie561dhfLM6NIMtORHLE4eE6eB0K897NvE.k9B_h1Sv91H_bhE8.QeWtVqUJFbemOHxD7U2f1UlGlMXbagJBNtXPX6Wq0Z6AfiTYpn7t7gG8bpvypZ6jEDTmx5SKBoZqUwil8oVtoISOlJmDW.pF4CybEjy0THogSc4uJtJNSBup0Fdi0kJel5zx97EyCA',};var a = document.createElement('script');a.nonce = '3vNL3esBr51bWj4B0UPWhc';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eabff3ab77f2c6';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=DhSCYItyp9ElZ9hXJbue_MrmPtN7ds9MX6y7DrMgnDY-1795380032-1.0.1.1-v.kNYPLNcnvsVsUDg9UDb08g_sHHobfdv.IMN3hA6fY\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://celebforum.cc/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-vttGIEndQUwNSc98wRF5Nz&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"vttGIEndQUwNSc98wRF5Nz\">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'jXSPUrNfge4Gz8jFO7UTDfJAIN7TIWL009SkOJUh7BQ-1795380033-1.2.1.1-HNOaZCnDSdo.k2YHN3eD29rQ5JjuHGorGuPzAUanrmSqQdGPk3EP_clsgUX262SH',cITimeS: '1795380033',cN: 'vttGIEndQUwNSc98wRF5Nz',cRay: 'a5eabff77fdf1100',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/ai.txt?__cf_chl_tk=d4g2U1P1_deTLRBgV5bYv5_xoB9FcTk.L6n84jE6u5s-1795380033-1.0.1.1-0Ht_0iQWJNiBum0RMxOsEuAVV1G48waWngnYthK.tzM\",cvId: '3',cZone: 'celebforum.cc',fa:\"/ai.txt?__cf_chl_f_tk=d4g2U1P1_deTLRBgV5bYv5_xoB9FcTk.L6n84jE6u5s-1795380033-1.0.1.1-0Ht_0iQWJNiBum0RMxOsEuAVV1G48waWngnYthK.tzM\",md: '_KhDbdY6Mxm8AdQMthpgFkVaebC6Z9K5gBdXNYv.e8E-1795380033-1.2.1.1-aPCBXQfrXZPOv14VzdOjySQlKCA4Dn6fNpXfM3zzd1_Ej7VzTJ0IVvF1I0OdGKhuQo0aMLcVu0rZrkxiuUt3xLEFbEhlqaMmGw6cXzX8suUgZpEEq3FZBE_w6owbCxn2ugOHHdZDRyCrT05sUUItFRlHC4B8QSJublomct0LFK4YSfhBc9yRItFXrlJnK5TZ4Jz3N.iqIGoCt_sQ5Wyjqu01QJwFZ_.f0KzSIzrPQ3CMYKt6k_4xB5dpezvde70waAt7I2wzqEQroclcQr68gXnVICBhyDPMWJKoPUlZNmznoMuF4GnkCF3ooxHMu0maKeDWtAPdp.EkbR.mcXCYxBzZNuXpAw.L9_36YO0B5h.vHcpX1v1TJvvzDu7wQcXy3Z1YvaN4F1ig3LVSdWAEPbh96OJ9DhwfnVqinCMktUiTXjvva6lb6d0daWkZn7Q6VkVq3gvzR8DAzC2RaU.cLGfOpf6AMCDXycFFNFJclXLoF5.lXWvPbu2R6wbCYQigBjm8RrqhZ6NoMQOBQGRZ1Z1dH4KUuGORSqEFoy87P6FgcbodZIk21zvmZmNQaOft6KrUWX2glnuE4WJdey0VJcs6onZEO5elwfW6Zjx3Vx2dzHnEjXgItfsRldveodfpQcTIBZMwCQdK8hAmkuW3cgtYYlSUnw9ctuB9ItzdPlWFeqHnN8rtGxES2fihz_eJ3xNtWojeLPLu3Wcyku9J3CiFgj8V67cxk5p5RPNC8JSIBvtZ9mGF2UknEw3RRdSdrislj7K7ORsUS4Gdzx7lGsqJDLl.1e5EHNVwyO.EMPJ8C4CdshAYBW9ltkiFhbXcPubutvYbcOn4uwuV8vWdaiD.6AKNnAV7E.0T8C1BAkbgGnGSIIWF..YJhlYckKWtfeY2cuUlepGXmqVc5ElPbOdtOeI6_Imfw1IHMuA.8hJNP.gt4OlK88vGxY.RXU4GHDF6Z98X1Wmi5xrw3HZoNfvMmEchOitdU_ro1kaOEwhVMh4l42YnZwl3fonaFzrc2MHw5cc8ELORCWvuL3fGqrd0nDt2CiRpH7ILt5uSRu88n9XuxSo5p0Fks4hqAcv8wrJIEMSMbdjc7UxjiFMdGMZxwDEKb3n0OplMaE5q1KY',mdrd: 'CAuRc5QuQN5faREYTdGcL5858.g1.0n4P0HCYz3tyuY-1795380033-1.2.1.1-N_7Lg5Ox1yjja6I_QcKJiP8N0sX5p_b.bumYSjTd9C6aDBSDFa76fUvjaVu6wH5AyfuGtRXm94UqGQp.wXWY51.FC8ZISYLKjQoDCozPuXw2FjVPt8D6S.kaqua0LZ7cwhKjUR.y7sEB9oe3U.EtfUytzsnR1DQT7tc_1m457Z10PfROlKog_5hk1dUsCZskPMJk_NMOtqsDoztD11F8xsdzDu5WMWDaM5l9Rk8uB872i9MqtzZN1.oghRyXhMyqyq6NnftGmwTbQoOOrTD.hVOkBdP7TroQVJTUJhWOj8qVH7Cv2R43ckwon_0o04SjzpLNbgPkS7GwHZaomNd.U0t2yDHgluizGnFgaUnpH6tS75CAiZKfbxV_0CNbM1ymG0xzbJJVewIdFktXBwiXT9iS3MHwKoRbF2.o8Ama1fs',};var a = document.createElement('script');a.nonce = 'vttGIEndQUwNSc98wRF5Nz';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5eabff77fdf1100';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=d4g2U1P1_deTLRBgV5bYv5_xoB9FcTk.L6n84jE6u5s-1795380033-1.0.1.1-0Ht_0iQWJNiBum0RMxOsEuAVV1G48waWngnYthK.tzM\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://celebforum.cc/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "celebforum.cc",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:40:33.231Z",
+    "score": 7,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 6.75,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 6.75,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 6.75,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

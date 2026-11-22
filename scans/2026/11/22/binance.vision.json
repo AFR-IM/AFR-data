@@ -1,0 +1,256 @@
+{
+  "signals": {
+    "domain": "binance.vision",
+    "fetchedAt": "2026-11-22T20:23:25.032Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-Agent: *\nAllow: /\nDisallow: /fvideo/\nDisallow: /bapi/\n\nHost: https://academy.binance.com\nSitemap: https://academy.binance.com/sitemap.xml",
+      "url": "https://academy.binance.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"format-detection\" content=\"telephone=no,email=no,address=no\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <script src=\"https://public.bnbstatic.com/static/sensors/sensorsdata@1.23.2.js\"></script>\n    <title>Binance</title>\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://public.bnbstatic.com/static/images/common/favicon.ico\">\n    <style>\n      html,\n      body {\n        font-family: BinancePlex, Arial, PingFangSC-Regular, \"Microsoft YaHei\",\n          sans-serif;\n      }\n      body {\n        margin: 0;\n      }\n      .not-fount-container {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: 100vh;\n        flex-direction: column;\n        background: #fafafa;\n      }\n      .not-fount-image {\n        width: 340px;\n      }\n      .not-fount-tips {\n        margin-top: 65px;\n        display: flex;\n        align-items: center;\n      }\n      .not-fount-tips-bold {\n        font-size: 24px;\n        line-height: 28px;\n        color: #1e2026;\n        font-weight: 500;\n      }\n      .link {\n        color: #d0980b;\n        font-size: 14px;\n        line-height: 20px;\n      }\n      img {\n        width: 100%;\n        display: block;\n      }\n      .not-found-board-logo {\n        width: 56px;\n      }\n      .not-found-board-left {\n        display: flex;\n      }\n      .not-found-board-text {\n        margin-left: 16px;\n        color: #1e2026;\n        font-weight: bold;\n        margin-top: 6px;\n        font-size: 16px;\n      }\n      .not-found-board-text-inner {\n        display: flex;\n      }\n      .text-inner-icons {\n        margin-left: 16px;\n        display: flex;\n        align-items: center;\n      }\n      .text-inner-icons span {\n        display: inline-block;\n        width: 16px;\n        height: 16px;\n        margin-right: 10px;\n        background-position: center;\n        background-repeat: no-repeat;\n      }\n      .icon-mac {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/macicon.svg\");\n      }\n      .icon-linux {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/linux.svg\");\n      }\n      .icon-windows {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/windows.svg\");\n      }\n      .not-found-board-right {\n        margin-top: 6px;\n      }\n      button {\n        padding: 10px 16px;\n        border: none;\n        outline: none;\n        background: linear-gradient(180deg, #f8d12f 0%, #f0b90b 100%);\n        border-radius: 4px;\n        cursor: pointer;\n        font-size: 14px;\n        color: #1e2026;\n        font-weight: 500;\n      }\n      @media only screen and (max-device-width: 1024px) {\n        .not-found-board {\n          display: none;\n        }\n      }\n      @media only screen and (min-device-width: 1025px) {\n        .not-found-board {\n          background: #ffffff;\n          padding: 0 16px;\n          height: 80px;\n          box-shadow: 0px 0px 1px rgba(20, 21, 26, 0.1),\n            0px 3px 6px rgba(71, 77, 87, 0.04),\n            0px 1px 2px rgba(20, 21, 26, 0.04);\n          border-radius: 4px;\n          width: 496px;\n          margin-top: 56px;\n          display: flex;\n          justify-content: space-between;\n          align-items: center;\n        }\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"not-fount-container\">\n      <div class=\"not-fount-image\">\n        <img\n          width=\"100%\"\n          src=\"https://public.bnbstatic.com/static/images/electron/404-error.png\"\n          alt=\"\"\n        />\n      </div>\n      <div class=\"not-fount-tips\">\n        <span class=\"not-fount-tips-bold\"\n          >Sorry! The page you’re looking for cannot be found.</span\n        >\n        <span style=\"margin-left: 16px\"\n          ><a href=\"/\" class=\"link\"\n            >Go to Homepage</a\n          ></span\n        >\n      </div>\n      <div class=\"not-found-board\">\n        <div class=\"not-found-board-left\">\n          <div class=\"not-found-board-logo\">\n            <img\n              src=\"https://public.bnbstatic.com/static/images/electron/logo_01.png\"\n              alt=\"\"\n            />\n          </div>\n          <div class=\"not-found-board-text\">\n            <div class=\"not-found-board-text-inner\">\n              <div>Binance desktop</div>\n              <div class=\"text-inner-icons\">\n                <span class=\"icon-windows\"></span>\n                <span class=\"icon-linux\"></span>\n                <span class=\"icon-mac\"></span>\n              </div>\n            </div>\n            <div\n              style=\"\n                font-size: 14px;\n                color: #474d57;\n                font-weight: 400;\n                margin-top: 6px;\n              \"\n            >\n              A secure, fast and smooth trading experience.\n            </div>\n          </div>\n        </div>\n        <div class=\"not-found-board-right\">\n          <button id=\"njewuisj-404-desktop-download\">Download Now</button>\n        </div>\n      </div>\n    </div>\n    <script>\n      window.sensors = window[\"sensorsDataAnalytic201505\"];\n      if (sensors) {\n        sensors.init({\n          show_log: false,\n          name: \"sensors\",\n          server_url: \"https://api.saasexch.com/bapi/fe/usd/sa.gif?project=binance\",\n          heatmap: {\n            // collect_elements: \"all\",\n          },\n          heatmap_url: \"https://public.bnbstatic.com/static/sensors/heatmap@1.23.2.js\",\n          web_url: \"https://ss.datasconsole.com?project=binance\",\n          batch_send: false,\n          send_type: \"beacon\",\n          callback_timeout: 2000,\n        });\n        sensors.quick(\"autoTrack\", {\n          canary: \"beta\",\n        });\n      }\n      window.onload = function () {\n        var downloadBtn = document.getElementById(\n          \"njewuisj-404-desktop-download\"\n        );\n        var p = navigator.platform;\n        var isMac = p.indexOf(\"Mac\") == 0;\n        var isWin = p.indexOf(\"Win\") == 0;\n        var isLinux = p == \"X11\" || p.indexOf(\"Linux\") == 0;\n        downloadBtn.addEventListener(\"click\", function () {\n          if (isMac) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/mac/production/binance.dmg\";\n          }\n          if (isWin) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/windows/production/binance-setup.exe\";\n          }\n          if (isLinux) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/linux/production/binance-x86_64-linux.rpm\";\n          }\n        });\n      };\n    </script>\n  </body>\n</html>\n",
+      "url": "https://academy.binance.com/en/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"format-detection\" content=\"telephone=no,email=no,address=no\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <script src=\"https://public.bnbstatic.com/static/sensors/sensorsdata@1.23.2.js\"></script>\n    <title>Binance</title>\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://public.bnbstatic.com/static/images/common/favicon.ico\">\n    <style>\n      html,\n      body {\n        font-family: BinancePlex, Arial, PingFangSC-Regular, \"Microsoft YaHei\",\n          sans-serif;\n      }\n      body {\n        margin: 0;\n      }\n      .not-fount-container {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: 100vh;\n        flex-direction: column;\n        background: #fafafa;\n      }\n      .not-fount-image {\n        width: 340px;\n      }\n      .not-fount-tips {\n        margin-top: 65px;\n        display: flex;\n        align-items: center;\n      }\n      .not-fount-tips-bold {\n        font-size: 24px;\n        line-height: 28px;\n        color: #1e2026;\n        font-weight: 500;\n      }\n      .link {\n        color: #d0980b;\n        font-size: 14px;\n        line-height: 20px;\n      }\n      img {\n        width: 100%;\n        display: block;\n      }\n      .not-found-board-logo {\n        width: 56px;\n      }\n      .not-found-board-left {\n        display: flex;\n      }\n      .not-found-board-text {\n        margin-left: 16px;\n        color: #1e2026;\n        font-weight: bold;\n        margin-top: 6px;\n        font-size: 16px;\n      }\n      .not-found-board-text-inner {\n        display: flex;\n      }\n      .text-inner-icons {\n        margin-left: 16px;\n        display: flex;\n        align-items: center;\n      }\n      .text-inner-icons span {\n        display: inline-block;\n        width: 16px;\n        height: 16px;\n        margin-right: 10px;\n        background-position: center;\n        background-repeat: no-repeat;\n      }\n      .icon-mac {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/macicon.svg\");\n      }\n      .icon-linux {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/linux.svg\");\n      }\n      .icon-windows {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/windows.svg\");\n      }\n      .not-found-board-right {\n        margin-top: 6px;\n      }\n      button {\n        padding: 10px 16px;\n        border: none;\n        outline: none;\n        background: linear-gradient(180deg, #f8d12f 0%, #f0b90b 100%);\n        border-radius: 4px;\n        cursor: pointer;\n        font-size: 14px;\n        color: #1e2026;\n        font-weight: 500;\n      }\n      @media only screen and (max-device-width: 1024px) {\n        .not-found-board {\n          display: none;\n        }\n      }\n      @media only screen and (min-device-width: 1025px) {\n        .not-found-board {\n          background: #ffffff;\n          padding: 0 16px;\n          height: 80px;\n          box-shadow: 0px 0px 1px rgba(20, 21, 26, 0.1),\n            0px 3px 6px rgba(71, 77, 87, 0.04),\n            0px 1px 2px rgba(20, 21, 26, 0.04);\n          border-radius: 4px;\n          width: 496px;\n          margin-top: 56px;\n          display: flex;\n          justify-content: space-between;\n          align-items: center;\n        }\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"not-fount-container\">\n      <div class=\"not-fount-image\">\n        <img\n          width=\"100%\"\n          src=\"https://public.bnbstatic.com/static/images/electron/404-error.png\"\n          alt=\"\"\n        />\n      </div>\n      <div class=\"not-fount-tips\">\n        <span class=\"not-fount-tips-bold\"\n          >Sorry! The page you’re looking for cannot be found.</span\n        >\n        <span style=\"margin-left: 16px\"\n          ><a href=\"/\" class=\"link\"\n            >Go to Homepage</a\n          ></span\n        >\n      </div>\n      <div class=\"not-found-board\">\n        <div class=\"not-found-board-left\">\n          <div class=\"not-found-board-logo\">\n            <img\n              src=\"https://public.bnbstatic.com/static/images/electron/logo_01.png\"\n              alt=\"\"\n            />\n          </div>\n          <div class=\"not-found-board-text\">\n            <div class=\"not-found-board-text-inner\">\n              <div>Binance desktop</div>\n              <div class=\"text-inner-icons\">\n                <span class=\"icon-windows\"></span>\n                <span class=\"icon-linux\"></span>\n                <span class=\"icon-mac\"></span>\n              </div>\n            </div>\n            <div\n              style=\"\n                font-size: 14px;\n                color: #474d57;\n                font-weight: 400;\n                margin-top: 6px;\n              \"\n            >\n              A secure, fast and smooth trading experience.\n            </div>\n          </div>\n        </div>\n        <div class=\"not-found-board-right\">\n          <button id=\"njewuisj-404-desktop-download\">Download Now</button>\n        </div>\n      </div>\n    </div>\n    <script>\n      window.sensors = window[\"sensorsDataAnalytic201505\"];\n      if (sensors) {\n        sensors.init({\n          show_log: false,\n          name: \"sensors\",\n          server_url: \"https://api.saasexch.com/bapi/fe/usd/sa.gif?project=binance\",\n          heatmap: {\n            // collect_elements: \"all\",\n          },\n          heatmap_url: \"https://public.bnbstatic.com/static/sensors/heatmap@1.23.2.js\",\n          web_url: \"https://ss.datasconsole.com?project=binance\",\n          batch_send: false,\n          send_type: \"beacon\",\n          callback_timeout: 2000,\n        });\n        sensors.quick(\"autoTrack\", {\n          canary: \"beta\",\n        });\n      }\n      window.onload = function () {\n        var downloadBtn = document.getElementById(\n          \"njewuisj-404-desktop-download\"\n        );\n        var p = navigator.platform;\n        var isMac = p.indexOf(\"Mac\") == 0;\n        var isWin = p.indexOf(\"Win\") == 0;\n        var isLinux = p == \"X11\" || p.indexOf(\"Linux\") == 0;\n        downloadBtn.addEventListener(\"click\", function () {\n          if (isMac) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/mac/production/binance.dmg\";\n          }\n          if (isWin) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/windows/production/binance-setup.exe\";\n          }\n          if (isLinux) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/linux/production/binance-x86_64-linux.rpm\";\n          }\n        });\n      };\n    </script>\n  </body>\n</html>\n",
+      "url": "https://academy.binance.com/en/llms-full.txt"
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['binance.com','binance.bh','binance.info','binance.me','binance.click'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D57+TACKCwAADuwz\",\n          \"context\":\"XOpSXhfKia+x8fbI9VF6sk+ORCtDV4hZjrxG6ahRZCLWrXE/tCc2F7+/s0dGYsvrPbtNr49dujNnLD3MViTO3YeYy5xFJy7TOU9hlcAnK5KB6ruOPjsK4TDxvrif8MlgZii4YpeUb6TlnZCxvP6uDUJ+HhtQcsLEsYB2RI0CXFjzqR4j70a7efi3ITw9JfGNE8qdS414hOpWRfcmkAIgMqFfWMRoaviSciGua/rVoc/cGhfEhOWmOMHSsP7D94VSNX3u6jSkxBh5jM7NuDcO840nf1+9poZNdDsuxXDWEq51curP6Pn3HGH2FmKTOTQZgmOgUgNktoKtX2yGZ2bCEoU+6sojnJB/nsLsB6zopxS/lfsSVpiwnqsATmA4vUens057AgB3HU1xben6O7LLe12JI0qdtydQoA==\"\n};\n    </script>\n    <script src=\"https://fe4385362baa.5a934fa8.us-east-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.binance.com/en/academy",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\"><sitemap><loc>https://academy.binance.com/article/sitemap_article_et.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/article/sitemap_article_lt.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/article/sitemap_article_ka-GE.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/article/sitemap_article_hr-HR.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/article/sitemap_article_ky-KG.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/learnAndEarn/sitemap_course_lt.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/learnAndEarn/sitemap_course_ka-GE.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/learnAndEarn/sitemap_course_et.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/learnAndEarn/sitemap_course_ky-KG.xml</loc><lastmod>2026-11-22</lastmod></sitemap><sitemap><loc>https://academy.binance.com/learnAndEarn/sitemap_course_hr-HR.xml</loc><lastmod>2026-11-22</lastmod></sitemap></sitemapindex>",
+      "url": "https://academy.binance.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"format-detection\" content=\"telephone=no,email=no,address=no\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <script src=\"https://public.bnbstatic.com/static/sensors/sensorsdata@1.23.2.js\"></script>\n    <title>Binance</title>\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://public.bnbstatic.com/static/images/common/favicon.ico\">\n    <style>\n      html,\n      body {\n        font-family: BinancePlex, Arial, PingFangSC-Regular, \"Microsoft YaHei\",\n          sans-serif;\n      }\n      body {\n        margin: 0;\n      }\n      .not-fount-container {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: 100vh;\n        flex-direction: column;\n        background: #fafafa;\n      }\n      .not-fount-image {\n        width: 340px;\n      }\n      .not-fount-tips {\n        margin-top: 65px;\n        display: flex;\n        align-items: center;\n      }\n      .not-fount-tips-bold {\n        font-size: 24px;\n        line-height: 28px;\n        color: #1e2026;\n        font-weight: 500;\n      }\n      .link {\n        color: #d0980b;\n        font-size: 14px;\n        line-height: 20px;\n      }\n      img {\n        width: 100%;\n        display: block;\n      }\n      .not-found-board-logo {\n        width: 56px;\n      }\n      .not-found-board-left {\n        display: flex;\n      }\n      .not-found-board-text {\n        margin-left: 16px;\n        color: #1e2026;\n        font-weight: bold;\n        margin-top: 6px;\n        font-size: 16px;\n      }\n      .not-found-board-text-inner {\n        display: flex;\n      }\n      .text-inner-icons {\n        margin-left: 16px;\n        display: flex;\n        align-items: center;\n      }\n      .text-inner-icons span {\n        display: inline-block;\n        width: 16px;\n        height: 16px;\n        margin-right: 10px;\n        background-position: center;\n        background-repeat: no-repeat;\n      }\n      .icon-mac {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/macicon.svg\");\n      }\n      .icon-linux {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/linux.svg\");\n      }\n      .icon-windows {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/windows.svg\");\n      }\n      .not-found-board-right {\n        margin-top: 6px;\n      }\n      button {\n        padding: 10px 16px;\n        border: none;\n        outline: none;\n        background: linear-gradient(180deg, #f8d12f 0%, #f0b90b 100%);\n        border-radius: 4px;\n        cursor: pointer;\n        font-size: 14px;\n        color: #1e2026;\n        font-weight: 500;\n      }\n      @media only screen and (max-device-width: 1024px) {\n        .not-found-board {\n          display: none;\n        }\n      }\n      @media only screen and (min-device-width: 1025px) {\n        .not-found-board {\n          background: #ffffff;\n          padding: 0 16px;\n          height: 80px;\n          box-shadow: 0px 0px 1px rgba(20, 21, 26, 0.1),\n            0px 3px 6px rgba(71, 77, 87, 0.04),\n            0px 1px 2px rgba(20, 21, 26, 0.04);\n          border-radius: 4px;\n          width: 496px;\n          margin-top: 56px;\n          display: flex;\n          justify-content: space-between;\n          align-items: center;\n        }\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"not-fount-container\">\n      <div class=\"not-fount-image\">\n        <img\n          width=\"100%\"\n          src=\"https://public.bnbstatic.com/static/images/electron/404-error.png\"\n          alt=\"\"\n        />\n      </div>\n      <div class=\"not-fount-tips\">\n        <span class=\"not-fount-tips-bold\"\n          >Sorry! The page you’re looking for cannot be found.</span\n        >\n        <span style=\"margin-left: 16px\"\n          ><a href=\"/\" class=\"link\"\n            >Go to Homepage</a\n          ></span\n        >\n      </div>\n      <div class=\"not-found-board\">\n        <div class=\"not-found-board-left\">\n          <div class=\"not-found-board-logo\">\n            <img\n              src=\"https://public.bnbstatic.com/static/images/electron/logo_01.png\"\n              alt=\"\"\n            />\n          </div>\n          <div class=\"not-found-board-text\">\n            <div class=\"not-found-board-text-inner\">\n              <div>Binance desktop</div>\n              <div class=\"text-inner-icons\">\n                <span class=\"icon-windows\"></span>\n                <span class=\"icon-linux\"></span>\n                <span class=\"icon-mac\"></span>\n              </div>\n            </div>\n            <div\n              style=\"\n                font-size: 14px;\n                color: #474d57;\n                font-weight: 400;\n                margin-top: 6px;\n              \"\n            >\n              A secure, fast and smooth trading experience.\n            </div>\n          </div>\n        </div>\n        <div class=\"not-found-board-right\">\n          <button id=\"njewuisj-404-desktop-download\">Download Now</button>\n        </div>\n      </div>\n    </div>\n    <script>\n      window.sensors = window[\"sensorsDataAnalytic201505\"];\n      if (sensors) {\n        sensors.init({\n          show_log: false,\n          name: \"sensors\",\n          server_url: \"https://api.saasexch.com/bapi/fe/usd/sa.gif?project=binance\",\n          heatmap: {\n            // collect_elements: \"all\",\n          },\n          heatmap_url: \"https://public.bnbstatic.com/static/sensors/heatmap@1.23.2.js\",\n          web_url: \"https://ss.datasconsole.com?project=binance\",\n          batch_send: false,\n          send_type: \"beacon\",\n          callback_timeout: 2000,\n        });\n        sensors.quick(\"autoTrack\", {\n          canary: \"beta\",\n        });\n      }\n      window.onload = function () {\n        var downloadBtn = document.getElementById(\n          \"njewuisj-404-desktop-download\"\n        );\n        var p = navigator.platform;\n        var isMac = p.indexOf(\"Mac\") == 0;\n        var isWin = p.indexOf(\"Win\") == 0;\n        var isLinux = p == \"X11\" || p.indexOf(\"Linux\") == 0;\n        downloadBtn.addEventListener(\"click\", function () {\n          if (isMac) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/mac/production/binance.dmg\";\n          }\n          if (isWin) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/windows/production/binance-setup.exe\";\n          }\n          if (isLinux) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/linux/production/binance-x86_64-linux.rpm\";\n          }\n        });\n      };\n    </script>\n  </body>\n</html>\n",
+      "url": "https://academy.binance.com/en/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"format-detection\" content=\"telephone=no,email=no,address=no\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <script src=\"https://public.bnbstatic.com/static/sensors/sensorsdata@1.23.2.js\"></script>\n    <title>Binance</title>\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://public.bnbstatic.com/static/images/common/favicon.ico\">\n    <style>\n      html,\n      body {\n        font-family: BinancePlex, Arial, PingFangSC-Regular, \"Microsoft YaHei\",\n          sans-serif;\n      }\n      body {\n        margin: 0;\n      }\n      .not-fount-container {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: 100vh;\n        flex-direction: column;\n        background: #fafafa;\n      }\n      .not-fount-image {\n        width: 340px;\n      }\n      .not-fount-tips {\n        margin-top: 65px;\n        display: flex;\n        align-items: center;\n      }\n      .not-fount-tips-bold {\n        font-size: 24px;\n        line-height: 28px;\n        color: #1e2026;\n        font-weight: 500;\n      }\n      .link {\n        color: #d0980b;\n        font-size: 14px;\n        line-height: 20px;\n      }\n      img {\n        width: 100%;\n        display: block;\n      }\n      .not-found-board-logo {\n        width: 56px;\n      }\n      .not-found-board-left {\n        display: flex;\n      }\n      .not-found-board-text {\n        margin-left: 16px;\n        color: #1e2026;\n        font-weight: bold;\n        margin-top: 6px;\n        font-size: 16px;\n      }\n      .not-found-board-text-inner {\n        display: flex;\n      }\n      .text-inner-icons {\n        margin-left: 16px;\n        display: flex;\n        align-items: center;\n      }\n      .text-inner-icons span {\n        display: inline-block;\n        width: 16px;\n        height: 16px;\n        margin-right: 10px;\n        background-position: center;\n        background-repeat: no-repeat;\n      }\n      .icon-mac {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/macicon.svg\");\n      }\n      .icon-linux {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/linux.svg\");\n      }\n      .icon-windows {\n        background-image: url(\"https://public.bnbstatic.com/static/images/electron/windows.svg\");\n      }\n      .not-found-board-right {\n        margin-top: 6px;\n      }\n      button {\n        padding: 10px 16px;\n        border: none;\n        outline: none;\n        background: linear-gradient(180deg, #f8d12f 0%, #f0b90b 100%);\n        border-radius: 4px;\n        cursor: pointer;\n        font-size: 14px;\n        color: #1e2026;\n        font-weight: 500;\n      }\n      @media only screen and (max-device-width: 1024px) {\n        .not-found-board {\n          display: none;\n        }\n      }\n      @media only screen and (min-device-width: 1025px) {\n        .not-found-board {\n          background: #ffffff;\n          padding: 0 16px;\n          height: 80px;\n          box-shadow: 0px 0px 1px rgba(20, 21, 26, 0.1),\n            0px 3px 6px rgba(71, 77, 87, 0.04),\n            0px 1px 2px rgba(20, 21, 26, 0.04);\n          border-radius: 4px;\n          width: 496px;\n          margin-top: 56px;\n          display: flex;\n          justify-content: space-between;\n          align-items: center;\n        }\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"not-fount-container\">\n      <div class=\"not-fount-image\">\n        <img\n          width=\"100%\"\n          src=\"https://public.bnbstatic.com/static/images/electron/404-error.png\"\n          alt=\"\"\n        />\n      </div>\n      <div class=\"not-fount-tips\">\n        <span class=\"not-fount-tips-bold\"\n          >Sorry! The page you’re looking for cannot be found.</span\n        >\n        <span style=\"margin-left: 16px\"\n          ><a href=\"/\" class=\"link\"\n            >Go to Homepage</a\n          ></span\n        >\n      </div>\n      <div class=\"not-found-board\">\n        <div class=\"not-found-board-left\">\n          <div class=\"not-found-board-logo\">\n            <img\n              src=\"https://public.bnbstatic.com/static/images/electron/logo_01.png\"\n              alt=\"\"\n            />\n          </div>\n          <div class=\"not-found-board-text\">\n            <div class=\"not-found-board-text-inner\">\n              <div>Binance desktop</div>\n              <div class=\"text-inner-icons\">\n                <span class=\"icon-windows\"></span>\n                <span class=\"icon-linux\"></span>\n                <span class=\"icon-mac\"></span>\n              </div>\n            </div>\n            <div\n              style=\"\n                font-size: 14px;\n                color: #474d57;\n                font-weight: 400;\n                margin-top: 6px;\n              \"\n            >\n              A secure, fast and smooth trading experience.\n            </div>\n          </div>\n        </div>\n        <div class=\"not-found-board-right\">\n          <button id=\"njewuisj-404-desktop-download\">Download Now</button>\n        </div>\n      </div>\n    </div>\n    <script>\n      window.sensors = window[\"sensorsDataAnalytic201505\"];\n      if (sensors) {\n        sensors.init({\n          show_log: false,\n          name: \"sensors\",\n          server_url: \"https://api.saasexch.com/bapi/fe/usd/sa.gif?project=binance\",\n          heatmap: {\n            // collect_elements: \"all\",\n          },\n          heatmap_url: \"https://public.bnbstatic.com/static/sensors/heatmap@1.23.2.js\",\n          web_url: \"https://ss.datasconsole.com?project=binance\",\n          batch_send: false,\n          send_type: \"beacon\",\n          callback_timeout: 2000,\n        });\n        sensors.quick(\"autoTrack\", {\n          canary: \"beta\",\n        });\n      }\n      window.onload = function () {\n        var downloadBtn = document.getElementById(\n          \"njewuisj-404-desktop-download\"\n        );\n        var p = navigator.platform;\n        var isMac = p.indexOf(\"Mac\") == 0;\n        var isWin = p.indexOf(\"Win\") == 0;\n        var isLinux = p == \"X11\" || p.indexOf(\"Linux\") == 0;\n        downloadBtn.addEventListener(\"click\", function () {\n          if (isMac) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/mac/production/binance.dmg\";\n          }\n          if (isWin) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/windows/production/binance-setup.exe\";\n          }\n          if (isLinux) {\n            window.location.href =\n              \"https://download.binance.com/electron-desktop/linux/production/binance-x86_64-linux.rpm\";\n          }\n        });\n      };\n    </script>\n  </body>\n</html>\n",
+      "url": "https://academy.binance.com/en/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "binance.vision",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:23:25.032Z",
+    "score": 29,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 202"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 6,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 3,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

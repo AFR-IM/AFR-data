@@ -1,0 +1,256 @@
+{
+  "signals": {
+    "domain": "matchrella.com",
+    "fetchedAt": "2026-11-22T20:39:39.048Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\r\nDisallow:",
+      "url": "https://www.matchrella.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta name=\"robots\" content=\"noindex\">\n<title>Page unavailable</title>\n<style>\nbody{margin:0;padding:40px 20px;background:#fff;color:#555;font:16px/1.6 -apple-system,\"Segoe UI\",Roboto,Arial,sans-serif}\nmain{max-width:480px;margin:0 auto;padding:32px 28px;border:1px solid #e5e5e5;border-radius:6px}\nh1{margin:0 0 12px;font-size:20px;font-weight:600;color:#333}\np{margin:0 0 12px}\np:last-child{margin-bottom:0}\na{color:#333;text-decoration:underline}\n</style>\n</head>\n<body>\n<main>\n<h1>Page unavailable</h1>\n<p>The page you requested is no longer available or has been moved.</p>\n<p><a href=\"/\">Back to home</a></p>\n</main>\n</body>\n</html>\n",
+      "url": "https://www.matchrella.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta name=\"robots\" content=\"noindex\">\n<title>Page unavailable</title>\n<style>\nbody{margin:0;padding:40px 20px;background:#fff;color:#555;font:16px/1.6 -apple-system,\"Segoe UI\",Roboto,Arial,sans-serif}\nmain{max-width:480px;margin:0 auto;padding:32px 28px;border:1px solid #e5e5e5;border-radius:6px}\nh1{margin:0 0 12px;font-size:20px;font-weight:600;color:#333}\np{margin:0 0 12px}\np:last-child{margin-bottom:0}\na{color:#333;text-decoration:underline}\n</style>\n</head>\n<body>\n<main>\n<h1>Page unavailable</h1>\n<p>The page you requested is no longer available or has been moved.</p>\n<p><a href=\"/\">Back to home</a></p>\n</main>\n</body>\n</html>\n",
+      "url": "https://www.matchrella.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, minimum-scale=1, maximum-scale=1\" />\n        <meta name=\"Keywords\" content=\"\">\n        <meta name=\"Description\" content=\"\"> \n        <link rel=\"icon\" href=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/img/ui/website.ico\">\n        <title>Matchrella Game Platform</title>\n        <style>\n        #loadPage {\n            position: absolute;\n            background: #ffffff;\n            top: 0%;\n            left: 0%;\n            width: 100%;\n            height: 100%;\n            z-index: 9999;\n        }\n\n        #loadPage .loadImg {\n            position: absolute;\n            top: 40%;\n            left: 50%;\n            width: 60px;\n            height: 60px;\n            margin: -30px;\n            -webkit-animation: circleRoll 600ms linear 200ms infinite;\n            animation: circleRoll 600ms linear 200ms infinite;\n            background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAApBJREFUOI09kz2LnVUUhZ+1z7kfZNRJDGKEkMYwDIKItShCLP0AW8EfYGEnpvAv+A+0srQQBAtBkEAKDQiCCEIgTiCCQRRxJpM797x7L4v3JsXpNmvttfZz9OOdh1TBVCYLssxIM5KLI/30mHxuJGOk/xnpP7c5z0z5aB56CyEMCGMZXYniMOR9wQq0NF6XWaXZVHErk5/SeCqogmiCFtCC6OLFJg5bsJQoSWWBbZUdVVxI+62038v0Isuka7eJBfjA1r7xSNO6OB3yH5qTnq/icCrvTenFSF6aknXan2fh3gPSPCP0pPCEUJnbFdxpQQKUYSp/PyXXRvLGSC8z/XKa17J8I1qgRePiorFdNLbLpqNl1+3elSHAc5Hbieks69tt+uZIL7fp1Ui/PRXRe9PaBgejFWdR3AsBwMgAJs7SPBxmM8w2/U0m18reS/OsrYO+CHWLYVsOHXdT2UVvBoq/T8TxqTneJGcTZHmq4jfbrxtkuNxbl2SGkYU3lpCBpblwLvjsxn9zJgCJHQ0nmLUFwud7F6cKVgJQnIRMCHoEq4W49fuGS/uNJ1ZBb6IHRHBJaC25JD3ovTFJ/KWdUYughekhXvjkLnvL4MHZHG21EIvQogWvRLAKSMn3Zk4EAURA7IQWDZpmlkeazQQgqvmDHjzXgozgvsSvj7EPaScwi129fpdFmz9DGTK1HqoPId6fsXGG+SKk6iGjnUAEBOLg+hERIqTnwe+WuZLm1al4SvIA4eCHZr5yQI8QAppACAUgCBnga6PLWMPlbUljwhZ8Z/ORGxUFPXaFSnMfVz8+oj2iDYznqxZEmfsyn2b5S4dKNRv2ECh2W+yE9PjpHcSbxv/a/FLm57AqDSoozS7/AwJSkzLJ3HN0AAAAAElFTkSuQmCC\") no-repeat center center;\n        }\n\n        @-webkit-keyframes circleRoll {\n            from { transform: rotate(0deg);}\n            to { transform: rotate(360deg);}\n        }\n\n        @keyframes circleRoll {\n            from { transform: rotate(0deg);}\n            to { transform: rotate(360deg);}\n        }\n\n        </style>\n        \n        <link rel=\"stylesheet\" href=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/lib/element-ui.css\">\n        <script type=\"text/javascript\" src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/lib/polyfill.js\"></script>\n        <script type=\"text/javascript\" src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/lib/vue.js\"></script>\n        <script type=\"text/javascript\" src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/lib/vuex.js\"></script>\n        <script type=\"text/javascript\" src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/lib/vue-i18n.js\"></script>\n        <script type=\"text/javascript\" src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/lib/element-ui.js\"></script>\n        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js\"></script>\n                <!-- Global Site Tag (gtag.js) - Google Analytics -->\n        <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-114854197-1\"></script>\n        <script>\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n          gtag('config', 'UA-114854197-1');\n        </script>\n            <link href=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/css/main.bundle.css?v=1794205053\" rel=\"stylesheet\"></head>\n\n    <body>\n        <div id=\"loadPage\">\n            <div class=\"loadImg\"></div>\n        </div>\n\n        <div id=\"mainPage\">\n            <div id=\"gameInfo\">\n                                <div\n                  id=\"gameInfoCommon128\"\n                  class=\"gameInfo gameInfoNone\"\n                  style=\"background-image:url(' https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/img/bellavilla/background.png?v=1794205053');display: none;\"\n                >\n                    <div class=\"infoContent\">\n                        <img src=\" https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/img/bellavilla/logo.png?v=1794205053\" alt=\"\" />\n                        <p>Genre: <b style=\"color:#fff;\">Casual games</b></p>\n                        <p id=\"profileText\">This is a story about following your dreams. Bella dreams of becoming a top-tier interior designer. Possibly the best in the world!\\nHelp her make her dream a reality by swapping and matching your way through thrilling levels! Collect stars after each victory to unlock new furniture, new rooms and riveting story scenes. <br>Welcome to Bella Villa</p>\n                                                <p class=\"infoLink\" onclick=\"window.open('https://www.facebook.com/Bella-VillaEN-111266120558132/')\">Learn More ></p>\n                                                                        <div class=\"imgInfo\">\n                            <img class=\"qrcode\" src=\" https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/img/bellavilla/qrcode.png?v=1794205053\" alt=\"\" />\n                            <div class=\"downloadImg\">\n                                                                <img src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/img/ui/iosLink.png?v=1794205053\" alt=\"\" onclick=\"window.open('https://apps.apple.com/tw/app/id1505049528')\">\n                                                                                                <img src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/img/ui/googleLink.png?v=1794205053\" alt=\"\" onclick=\"window.open('https://play.google.com/store/apps/details?id=com.matchrella.bellavilla')\">\n                                                            </div>\n                        </div>\n                                                                    </div>\n                </div>\n                            </div>\n        </div>\n\n    <script type=\"text/javascript\">\n        window.sdkPayImgBaseURL = 'https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/pay_platform/img/pay_method_img/';\n        window.sdkApiURL = 'https://mhome.matchrella.com';\n        //window.localSourceURL = 'https://pay.matchrella.com/assets/pay_product/yotta/';\n        window.localImgUrl = 'https://pay.matchrella.com/assets/img/matchrella/';\n        window.imgBaseURL = ' https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/img/';\n    </script>\n<script src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/js/apps-main.bundle.js?v=1794205053\"></script><script src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/js/vendors-main.bundle.js?v=1794205053\"></script><script src=\"https://yottacdn.akamaized.net/mrpfres/common/assets/frontend/home_platform/home/matchrella/js/main.bundle.js?v=1794205053\"></script></body>\n</html>\n",
+      "url": "https://www.matchrella.com/",
+      "title": "Matchrella Game Platform"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta name=\"robots\" content=\"noindex\">\n<title>Page unavailable</title>\n<style>\nbody{margin:0;padding:40px 20px;background:#fff;color:#555;font:16px/1.6 -apple-system,\"Segoe UI\",Roboto,Arial,sans-serif}\nmain{max-width:480px;margin:0 auto;padding:32px 28px;border:1px solid #e5e5e5;border-radius:6px}\nh1{margin:0 0 12px;font-size:20px;font-weight:600;color:#333}\np{margin:0 0 12px}\np:last-child{margin-bottom:0}\na{color:#333;text-decoration:underline}\n</style>\n</head>\n<body>\n<main>\n<h1>Page unavailable</h1>\n<p>The page you requested is no longer available or has been moved.</p>\n<p><a href=\"/\">Back to home</a></p>\n</main>\n</body>\n</html>\n",
+      "url": "https://www.matchrella.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta name=\"robots\" content=\"noindex\">\n<title>Page unavailable</title>\n<style>\nbody{margin:0;padding:40px 20px;background:#fff;color:#555;font:16px/1.6 -apple-system,\"Segoe UI\",Roboto,Arial,sans-serif}\nmain{max-width:480px;margin:0 auto;padding:32px 28px;border:1px solid #e5e5e5;border-radius:6px}\nh1{margin:0 0 12px;font-size:20px;font-weight:600;color:#333}\np{margin:0 0 12px}\np:last-child{margin-bottom:0}\na{color:#333;text-decoration:underline}\n</style>\n</head>\n<body>\n<main>\n<h1>Page unavailable</h1>\n<p>The page you requested is no longer available or has been moved.</p>\n<p><a href=\"/\">Back to home</a></p>\n</main>\n</body>\n</html>\n",
+      "url": "https://www.matchrella.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta name=\"robots\" content=\"noindex\">\n<title>Page unavailable</title>\n<style>\nbody{margin:0;padding:40px 20px;background:#fff;color:#555;font:16px/1.6 -apple-system,\"Segoe UI\",Roboto,Arial,sans-serif}\nmain{max-width:480px;margin:0 auto;padding:32px 28px;border:1px solid #e5e5e5;border-radius:6px}\nh1{margin:0 0 12px;font-size:20px;font-weight:600;color:#333}\np{margin:0 0 12px}\np:last-child{margin-bottom:0}\na{color:#333;text-decoration:underline}\n</style>\n</head>\n<body>\n<main>\n<h1>Page unavailable</h1>\n<p>The page you requested is no longer available or has been moved.</p>\n<p><a href=\"/\">Back to home</a></p>\n</main>\n</body>\n</html>\n",
+      "url": "https://www.matchrella.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "matchrella.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:39:39.048Z",
+    "score": 25,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 2,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 65 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Matchrella Game Platform\"; missing/too-short meta description; no date signal; body text 65 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

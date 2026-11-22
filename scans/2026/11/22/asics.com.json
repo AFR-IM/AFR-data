@@ -1,0 +1,243 @@
+{
+  "signals": {
+    "domain": "asics.com",
+    "fetchedAt": "2026-11-22T20:05:24.329Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\n\n#jp\nDisallow: /jp/ja-jp/hashtag/*\n\n#us\nDisallow: /us/en-us/?*page=\n\n#au\nDisallow: /au/en-au/?*page=\n\n#ca\nDisallow: /ca/?gender=\nDisallow: /ca/?style_type=\nDisallow: /ca/?sport=\nDisallow: /ca/?collections=\nDisallow: /ca/?colour_filter=\nDisallow: /ca/?shoe_width=\nDisallow: /ca/?support_type=\nDisallow: /ca/?price=\nDisallow: /ca/*?*colour_filter\nDisallow: /ca/*?*style_type\nDisallow: /ca/*?*shoe_width\nDisallow: /ca/*?*gender\nDisallow: /ca/*?*sport\nDisallow: /ca/*?*collections\nDisallow: /ca/*?*support_type\nDisallow: /ca/*?*price\nDisallow: /ca/*&*\nDisallow: /ca/*[\nDisallow: /ca/*%5B\nDisallow: /ca/*%5b\nDisallow: /ca/*/catalogsearch/result/\nDisallow: /ca/*/checkout/*\nDisallow: /ca/*/control/*\nDisallow: /ca/*/sales/*\nDisallow: /ca/*/customer/*\nDisallow: /ca/*/newsletter/*\nDisallow: /ca/*/review/*\nDisallow: /ca/*/sendfriend/*\nDisallow: /ca/*/wishlist/*\nDisallow: /ca/*/*?*product_list_mode=\nDisallow: /ca/*/*?*product_list_order=\nDisallow: /ca/*/*?*product_list_limit=\nDisallow: /ca/*/*?*product_list_dir=\nDisallow: /ca/*/*?SID=\nDisallow: /ca/*/*.php$\n\n#eu\n\n#nz\nDisallow: /nz/en-nz/catalogsearch/result/\n\n#sfcc rules\nDisallow: //login$\nDisallow: //login?\nDisallow: //login/\nDisallow: /app/\nDisallow: /shipping/\nDisallow: /billing/\nDisallow: /revieworder/\nDisallow: /orderconfirmation/\nDisallow: /account/\nDisallow: /ordersearch/\nDisallow: /demandware.store/Sites-asics-eu-Site/\nDisallow: /demandware.store/Sites-asics-jp-Site/\nDisallow: /articleId\nDisallow: //allcontent/\nDisallow: //allcontentcms/*\n\n#sfcc catalog searching\nDisallow: /prefn\nDisallow: /prefv\nDisallow: /pmin\nDisallow: /pmax\nDisallow: /search/\nDisallow: /?srule\n\n#hybris rules\nDisallow: ///cart\nDisallow: ///checkout\nDisallow: ///my-account\nDisallow: //p//subscribe\nDisallow: /*?purchasable\n\nDisallow: /sz=\n\nDisallow: /endlessaisle/\n\nSitemap: https://www.asics.com/managed-sitemaps/asics/href-sitemap-index.xml\nSitemap: https://www.asics.com/managed-sitemaps/asics/editorial-hreflang-sitemap.xml\n",
+      "url": "https://www.asics.com/robots.txt"
+    },
+    "llms": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    },
+    "llmsFull": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;asics&#46;com&#47;us&#47;en&#45;us&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;a20c0317&#46;1795377917&#46;3ab79659\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;a20c0317&#46;1795377917&#46;3ab79659</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.asics.com/us/en-us/",
+      "title": "Access Denied"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!--Created with HREFLang Builder http://www.hrefbuilder.com at 2026-03-20-->\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-de-at.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-de-de.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-ae.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-au.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-ca.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-gb.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-ie.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-in.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-my.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-nl.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-sg.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-us.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-en-za.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-es-es.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-fr-be.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-fr-ca.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-fr-fr.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-it-it.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-ja-jp.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-nl-be.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-nl-nl.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-pl-pl.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-pt-pt.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-x-default.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-zh-cn.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>https://www.asics.com/managed-sitemaps/asics/href-sitemap-zh-tw.xml</loc>\n  </sitemap>\n</sitemapindex>\n",
+      "url": "https://www.asics.com/managed-sitemaps/asics/href-sitemap-index.xml"
+    },
+    "agentsMd": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    }
+  },
+  "afr": {
+    "domain": "asics.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:05:24.329Z",
+    "score": 17,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt network error: TypeError: fetch failed (redirect count exceeded); GET /llms-full.txt network error: TypeError: fetch failed (redirect count exceeded); homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md not probed; llms.txt HTTP undefined"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 4,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

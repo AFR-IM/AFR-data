@@ -1,0 +1,273 @@
+{
+  "signals": {
+    "domain": "104.com.tw",
+    "fetchedAt": "2026-11-22T20:12:02.885Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# Welcome to 104.com.tw's robots.txt!\r\n# We're flattered by your interest in our data, but we have some ground rules:\r\n\r\n# 1. No automated scraping of job listings for commercial purposes.\r\n# 2. Respect our users' privacy and our intellectual property.\r\n# 3. If you're a bot with good intentions, let's talk!\r\n\r\n# Fill this form https://forms.cloud.microsoft/r/Zim6WH7i7U to apply for crawling permissions.\r\n\r\n# Remember: 104.com.tw is here to help people find great jobs and companies \r\n# find great talent. Let's work together to make that happen!\r\n\r\n# P.S. If you're a human reading this,\r\n# check out our career opportunities at https://www.104.com.tw/company/12v3o7uw#info06.\r\n# We're always looking for talented individuals to join our team.\r\n# :)\r\n\r\nUser-Agent: OmniExplorer_Bot\r\nUser-agent: ia_archiver\r\nUser-agent: 008\r\nUser-agent: JobdiggerSpider\r\nUser-agent: Cliqzbot\r\nUser-agent: omgili\r\nUser-agent: omgilibot\r\nUser-agent: Webzio\r\nUser-agent: Webzio-Extended\r\nUser-agent: Scrapy\r\nUser-agent: MyCentralAIScraperBot\r\nUser-agent: Bytespider\r\nUser-agent: PetalBot\r\nUser-agent: ClaudeBot\r\nUser-agent: GPTBot\r\nUser-agent: Google-Extended\r\nUser-agent: Meta-ExternalAgent\r\nUser-agent: CCBot\r\nUser-agent: Novellum AI Crawl\r\nUser-agent: ProRataInc\r\nUser-agent: Timpibot\r\nUser-agent: LinkedInBot\r\nUser-agent: Applebot-Extended\r\nUser-agent: cohere-ai\r\nUser-agent: Diffbot\r\nDisallow: / \r\n\r\nUser-Agent: __usage_ai-training\r\nDisallow: /\r\n\r\nUser-agent: Amazonbot\r\nUser-agent: Anchor Browser\r\nUser-agent: ChatGPT-User\r\nUser-agent: Claude-SearchBot\r\nUser-agent: Claude-User\r\nUser-agent: DuckAssistBot\r\nUser-agent: Google-CloudVertexBot\r\nUser-agent: Meta-ExternalFetcher\r\nUser-agent: MistralAI-User\r\nUser-agent: OAI-SearchBot\r\nUser-agent: Perplexity-User\r\nUser-agent: PerplexityBot\r\nDisallow: /job/ajax/\r\nDisallow: /jobs/search/ajax/\r\nDisallow: /jobs/search/api/\r\nDisallow: /company/ajax/\r\nDisallow: /\r\nAllow: /$\r\nAllow: /job/similar/\r\nAllow: /company/\r\nAllow: /jobs/\r\nAllow: /mobile/\r\nAllow: /faq/\r\nAllow: /csr/\r\nAllow: /topic/\r\nAllow: /blog/\r\nAllow: /careerfair/\r\nAllow: /ai/\r\nAllow: /part-time/\r\nAllow: /category/\r\nAllow: /students/\r\nAllow: /sitemap/\r\nAllow: /feedback/\r\nAllow: /favicon.ico\r\nAllow: /llms.txt\r\n\r\nUser-agent: *\r\nDisallow: /jobs/aimode/\r\nDisallow: /*?v=aimode\r\nDisallow: /*&v=aimode\r\nDisallow: /*?aimode=1\r\nDisallow: /*&aimode=1\r\nDisallow: /*excludeCompanyByCustno=*\r\nDisallow: /*excludeIndustryCat=*\r\nDisallow: /*expansionType=*\r\nDisallow: /*recommendJob=*\r\nDisallow: /*langStatus=*\r\nDisallow: /*langFlag=*\r\nDisallow: /*hotJob=*\r\nDisallow: /*kwop=*\r\nDisallow: /*irsTag=*\r\nDisallow: /job/*apply=form*\r\nDisallow: /job/apply/done/\r\nDisallow: /*keyword=*\r\nDisallow: /\r\nAllow: /$\r\nAllow: /job/\r\nAllow: /company/\r\nAllow: /jobs/\r\nAllow: /mobile/\r\nAllow: /faq/\r\nAllow: /csr/\r\nAllow: /topic/\r\nAllow: /blog/\r\nAllow: /careerfair/\r\nAllow: /ai/\r\nAllow: /part-time/\r\nAllow: /category/\r\nAllow: /students/\r\nAllow: /sitemap/\r\nAllow: /feedback/\r\nAllow: /favicon.ico\r\nAllow: /llms.txt\r\n\r\nContent-Signal: ai-train=no, search=yes, ai-input=yes",
+      "url": "https://www.104.com.tw/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 200,
+      "body": "\n# 104 人力銀行 (104 Job Bank)\r\n> 104 人力銀行是台灣領先的 AI 全方位找工作徵才平台，提供求職、人才招募、職涯發展及中高階獵才等服務。\r\n\r\n重要說明:\r\n- 本文件旨在協助 LLMs 快速索引正確的 104 人力銀行核心頁面、資源和相關的服務。\r\n- 有 llms.txt 的服務如下\r\n-- [104 Campus高中職](https://student.104.com.tw/llms.txt)\r\n-- [104 高年級](https://senior.104.com.tw/llms.txt)\r\n\r\n## 核心頁面 (Core Pages)\r\n> 匯集全台最大職缺資料庫與 AI 智能媒合引擎，提供求職者與企業最快速、精準的徵才與找工作核心入口。\r\n- [104 人力銀行首頁](https://www.104.com.tw/): 台灣最大求職徵才平台首頁，提供職缺搜尋、AI推薦工作與企業徵才的核心入口\r\n- [104 AI職缺推薦](https://www.104.com.tw/jobs/recommend/): AI根據求職者履歷與行為偏好，主動推薦最適合的工作機會\r\n- [104 職缺搜尋頁](https://www.104.com.tw/jobs/search/): 依職務、地區、薪資等條件搜尋全台百萬筆職缺的核心搜尋入口\r\n- [104 公司搜尋頁](https://www.104.com.tw/company/search/): 依產業、規模等條件搜尋企業資訊，了解公司文化與在職職缺\r\n- [104 工作快找 App](https://www.104.com.tw/mobile/): 104求職手機App介紹頁，隨時隨地瀏覽職缺、投遞履歷與接收面試邀約\r\n- [104 數位科技專區](https://www.104.com.tw/topic/digital-talent): 匯集數位科技相關職缺，協助IT與科技人才快速找到合適的工作機會\r\n- [104 AI找工作](https://www.104.com.tw/ai/): 以AI技術輔助求職者探索職涯方向、精準媒合適合工作的智慧求職入口\r\n- [104 AI全服務](https://www.104.com.tw/ai/services): 匯整104全系列AI功能服務介紹，涵蓋求職、職涯探索與人才媒合等各面向的AI應用\r\n- [104 兼職打工專區](https://www.104.com.tw/part-time/): 專找寒暑假打工、學生打工實習、短期/假日工讀、遠端/上班族兼職等最新打工兼職機會，一站滿足你找各地區打工的需求！\r\n- [104 學生打工實習](https://www.104.com.tw/students/): 專為學生設計的打工、兼職與實習職缺搜尋專區\r\n- [2026 104 職涯博覽會](https://www.104.com.tw/careerfair/2026): 104 人力銀行於2026/7/4(六)09:30-17:00在台北世貿一館B區舉辦，邀請東京威力科創、美光、廣達、台達電、華碩、技嘉、緯創、緯穎、台灣應材、和泰汽車、高鐵、統一、中信、國泰世華、KPMG、中華電信、UNIQLO、GAP、長榮物流、鼎泰豐、王品、壽司郎等300家頂尖知名品牌企業現場徵才！另有重磅企業講座分享、免費職涯/履歷諮詢、中高齡多元求職服務等系列活動，主題精采多元，立即登入報名\r\n\r\n## 求職服務 (Job Seekers Services)\r\n> 針對新鮮人、外籍人士及特定需求族群，提供分眾化的專屬求職專區與特色找工作模式。\r\n- [104 新鮮人專區](https://freshman.104.com.tw/): 專為應屆畢業生打造的求職入口，提供新鮮人職缺、職涯測評與就業資源\r\n- [104 通勤地圖找工作](https://time4jobs.104.com.tw/): 依通勤時間與交通方式，快速篩選生活圈範圍內最適合的工作機會\r\n- [104 AI職涯顧問](https://talent.104.com.tw/): 針對中高階工作者提供AI輔助職涯分析與個人專業亮點強化服務\r\n- [104 外籍專區](https://go.104.com.tw/expats/): 協助外籍人士在台灣找工作，同時提供企業刊登國際人才職缺的雙語平台\r\n- [104 中高齡專區](https://senior.104.com.tw/50talent/c/45plus/): 參照中高齡者及高齡者就業促進法，促進高年級人才再就業機會，二度就業、中高齡轉職、退休再就業友善職缺\r\n\r\n## 求職工具 (Tools for Job Seeking)\r\n> 提供履歷診療、履歷範本參考與公司評論查詢等實用工具，全方位提升求職者的面試競爭力與資訊透明度。\r\n- [104 履歷範本](https://pda.104.com.tw/resumes/): 提供多種產業與職務的專業履歷範本，幫助求職者快速製作符合業界標準的履歷\r\n- [104 履歷診療室](https://resume-clinic.104.com.tw/): 透過AI即時診斷履歷問題，並提供客製化修改建議以提升面試機會\r\n- [104 公司評論](https://reviews.104.com.tw/): 員工匿名分享真實工作經驗的評論平台，協助求職者透明了解企業文化與職場環境\r\n\r\n## 學生服務 (Student Services)\r\n> 專為高中職與大學生打造的職涯前哨站，涵蓋落點分析、學習歷程、升學就業地圖等校園職涯探索資源。\r\n- [104 Campus高中職](https://student.104.com.tw/): 為高中職生提供升學規劃、自我探索與職涯方向前哨探索的入口平台\r\n- [104 Campus大學生](https://college.104.com.tw/): 提供大學生涯規劃、打工兼職與實習機會的校園求職入口\r\n- [104 大學求職專區](https://program.104.com.tw/): 為大專院校學生提供各校專屬職缺、實習媒合與免費職涯課程的求職平台\r\n\r\n## 職涯服務 (Career Services)\r\n> 結合大數據職涯分析、職場前輩諮詢與證照、技能學習平台，協助工作者釐清職涯方向並持續提升專業價值。\r\n- [104 職涯](https://career.104.com.tw/): 提供個人化職涯探索工具與職業發展規劃，協助使用者釐清適合自己的職業方向\r\n- [104 職涯諮詢](https://giver.104.com.tw/): 媒合職場前輩提供免費履歷健檢、模擬面試與職場問答的一對一諮詢服務\r\n- [104 職場力](https://blog.104.com.tw/): 提供履歷面試技巧、職涯規劃與人資知識的職場專業內容部落格\r\n- [104 學習](https://nabi.104.com.tw/): 提供線上課程查詢、職業分析、證照資訊與職場技能進修的學習平台\r\n- [104 職涯導航](https://guide.104.com.tw/): 提供免費職涯測評工具，協助使用者了解自身職業傾向與未來發展方向\r\n- [104 活動吧](https://guide.104.com.tw/): 匯集職涯相關活動與講座，提供求職者參與職場學習與交流的入口\r\n- [104 人才社群](https://profile.104.com.tw/): 以職涯社交為核心的線上平台，讓求職者與專業人士交流職涯經驗與洞察\r\n- [104 獵才顧問](https://hunter.104.com.tw/): 104獵頭服務，精準搜尋中高階主管與關鍵技術人才，協助企業快速補位核心職缺\r\n- [104 高年級樂活學習](https://senior.104.com.tw/): 提供多元的課程型態，含實體與線上自學資源，為自己開創精彩第二人生\r\n\r\n## 企業端服務 (Enterprise Solutions)\r\n> 提供企業從人才徵才招募、人才篩選、面試管理到人資管理系統 (eHRM) 的一站式解決方案，解決缺工難題與提升管理效率。\r\n- [104 招募管理](https://vip.104.com.tw/): 企業徵才核心管理平台，提供職缺刊登、人才搜尋與招募進度追蹤\r\n- [104 人資學院](https://ehr.104.com.tw/): 提供企業人資系統、招募管理、測評選才、薪酬規劃及人才發展的整合服務平台\r\n- [104 關鍵人才庫](https://mytalent.104.com.tw/): 企業自建專屬人才資料庫，彙整歷年應徵者與潛在人才，建立不中斷的人才儲備\r\n- [104 企業大師](https://marketing.pro.104.com.tw/): 整合出勤打卡、電子表單、薪資計算與排班管理的雲端人資管理系統\r\n- [104 人資市集](https://hrmall.104.com.tw/): 提供人資認證課程、AI工具應用與主管領導力等多元職場專業培訓課程\r\n- [104 雇主品牌](https://insights.104.com.tw/): 協助企業建立雇主品牌形象，整合招募行銷與員工留任的一站式解決方案\r\n- [104 企業學習平台](https://training.104.com.tw/): 免費雲端LMS系統，提供企業教材上傳、自動派訓、進度追蹤與600+課程資源\r\n- [104 薪酬報告](https://salary.104.com.tw/): 整合逾萬家企業薪資數據，提供即時薪資行情查詢與薪酬競爭力分析工具\r\n- [104 嚴選人才](https://senior.104.com.tw/50talent/b/talents): 與友善企業同行，一起發揮影響力；快速查詢嚴選中高齡人才，打造全齡人才庫\r\n\r\n## 關於 104 (About 104)\r\n> 有關 104 資訊科技集團的企業願景、投資人關係、ESG 永續經營成果與 Be A Giver 社會公益影響力。\r\n- [104 企業網站](https://corp.104.com.tw/): 104資訊科技集團官方網站，介紹公司願景、組織架構、投資人關係與集團發展沿革\r\n- [104 企業永續](https://esg.104.com.tw/): 104集團ESG永續報告，呈現企業社會責任、環境永續與公司治理的實踐成果\r\n- [104 Be A Giver](https://beagiver.104.com.tw/): 推廣「Be A Giver」品牌倡議，透過Giver故事、校園公益計畫與企業合作傳遞正向職涯影響力\r\n- [104 所有服務](https://www.104.com.tw/sitemap): 匯整104全系列服務的網站地圖，提供所有功能與入口的完整索引\r\n\r\n## 最新消息 (Latest News)\r\n> 匯整 104 最新徵才優惠、產品更新與人資論壇精選文章，掌握招募市場動態與實務知識，協助企業提升招募競爭力。\r\n- [104人力銀行推動AI人才發展 獲國際級ATD BEST Awards肯定](https://blog.104.com.tw/2026-atd-best-awards/): 104人力銀行以AI驅動人才發展與組織轉型的成果，榮獲全球人才發展領域最具權威性的國際組織「ATD（人才發展協會Association for Talent Development）」所頒發的「BEST Awards卓越學習組織獎」，自全球參賽企業中脫穎而出。\r\n- [104 敢出發，就有路](https://blog.104.com.tw/104data-change-job-2026/): 有時候，您不知道自己在哪裡？該轉職嗎？該找什麼工作？104人力銀行透過AI邀請天文學家哥白尼、發明家萊特兄弟、諾貝爾獎得主居禮夫人重現當年「也許，沒有清楚的路，沒有誰比誰更勇敢，只是有人，先出發」，鼓舞台灣社會和求職者勇敢向前！\r\n- [104 官方簡訊碼](https://blog.104.com.tw/104data-text-message-66104/): 104 官方簡訊皆以「66104」固定簡碼寄出！104人力銀行產品暨價值營運處資深協理王之璘指出，官方簡碼「66104」由 104 人力銀行、三大電信廠商和簡訊業者共同合作，認證發訊方和訊息內容網址，具備唯一性、無法被竄改和冒用，既能確保求職者資訊安全和知情權，也能防範求職釣魚的詐騙簡訊\r\n- [104 獲商周 AI 百強獎](https://blog.104.com.tw/104data-ai-award-2026/): 104 近日榮獲商周「AI創新百強」中大型企業組「銀質獎」，在263家企業的445件提案中脫穎而出，也是唯一一家以人才管理資訊服務為核心的獲獎企業。104 人力銀行創新長曹訓誌於領獎時指出，104 全集團將AI視為人才升級的社會創新，努力塑造數位勞動力與生態系統，不只優化公司內部的作業流程，提升價值帶來創新的機會\r\n- [104獲2024「國家人才發展獎」 肯定](https://blog.104.com.tw/2024-ntda-104/): 國家人才發展獎（NTDA）是全臺灣人力資源領域最高榮譽獎項，主要以綜觀整體人力資源發展績效，並與國際人力資源相關獎項之精神接軌，強調「重視全方位人才發展」。今年的國家人才發展獎吸引了116組企業參賽，獎項設有大型企業、中小企業、機關（構）團體與非營利團體，一零四資訊科技為4家獲獎的大型企業之一，充分展現了人才發展的卓越實力。\r\n\r\n## 媒體介紹 (Media Introduction)\r\n> 匯集各大媒體與產業協會對 104 的報導與肯定，展現 104 在人才招募與企業培訓領域的專業地位與社會影響力。\r\n- [天下雜誌：離開營收十億科技公司、經歷失業兩年痛苦，楊基寬創出104人力銀行](https://www.cw.com.tw/article/5120016)\r\n- [社團法人中華人力資源管理協會：104 榮獲【ATD卓越學習組織獎 (Best Awards)】](https://www.atdtw.org/news/10/50)\r\n- [iThome：104 人力銀行揭 AI 亮點功能，從推薦、分類到履歷健檢要加速人力媒合](https://www.ithome.com.tw/news/173786)\r\n- [工商時報：104資訊科技獲國家人才發展獎](https://www.ctee.com.tw/news/20241129701084-430503)\r\n\r\n## 104 媒體資源 (Media Resources)\r\n> 匯整 104 社群媒體（YouTube, FB, Instagram, Podcast）官方頻道，提供即時的職場影音教學與 Podcast。\r\n- [104 人力銀行官方 Youtube](https://www.youtube.com/c/104Tw104Group): 104人力銀行官方YouTube頻道，提供職場知識影片、求職技巧教學與人資實務分享\r\n- [104 人力銀行 FB](https://www.facebook.com/104jobbank/): 104人力銀行官方Facebook粉絲頁，分享職場資訊、徵才消息與求職相關內容\r\n- [104 人力銀行 Instagram](https://www.instagram.com/104jobbank.official/): 104人力銀行官方Instagram，以圖文形式呈現職場趨勢、求職靈感與品牌動態\r\n- [104 職涯診所 Podcast](https://portaly.cc/104clinic): 104職涯診所Podcast收聽入口，邀請職場達人分享求職、轉職與職涯發展的實戰經驗\r\n- [104 人力銀行 Wiki](https://zh.wikipedia.org/zh-tw/104%E4%BA%BA%E5%8A%9B%E9%8A%80%E8%A1%8C): 104人力銀行維基百科條目，記載公司歷史、服務範疇與集團發展沿革",
+      "url": "https://www.104.com.tw/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"zh-Hant-TW\">\n  <head>\n    <!-- utility -->\n<meta charset=\"utf-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta\n  name=\"viewport\"\n  content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"\n/>\n<meta name=\"format-detection\" content=\"telephone=no\" />\n<link rel=\"shortcut icon\" href=\"https://www.104.com.tw/favicon.ico\" />\n<link\n  rel=\"icon\"\n  type=\"image/png\"\n  sizes=\"192x192\"\n  href=\"https://www.104.com.tw/favicon-192x192.png\"\n/>\n\n    <title>找不到相關頁面－104 人力銀行</title>\n    <!-- category picker -->\n <link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/category-tool/3.0.2/css/category-picker.css\"\n nonce=\"7501984c26cc3493818ae4f5b7797c2e\"/>\n<script\n  type=\"module\"\n  async\n  src=\"//cdn.104.com.tw/category-tool/3.0.2/js/category-picker.js\"\n nonce=\"7501984c26cc3493818ae4f5b7797c2e\"></script>\n <!-- my104 icons -->\n<link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/designer-icons/2.5/style.css\"\n nonce=\"7501984c26cc3493818ae4f5b7797c2e\"/>\n <!-- 104-f2e-lib -->\n<script src=\"//cdn.104.com.tw/lib/chat/1.1.0/Lib104_Chat.umd.min.js\" nonce=\"7501984c26cc3493818ae4f5b7797c2e\"></script>\n <!-- elog -->\n<script src=\"//static.104.com.tw/104i/js/api/log/e104.log.latest.js?v=20190424\" nonce=\"7501984c26cc3493818ae4f5b7797c2e\"></script>\n <!-- Google Tag Manager -->\n<script nonce=\"7501984c26cc3493818ae4f5b7797c2e\">\n  (function (w, d, s, l, i) {\n    w[l] = w[l] || [];\n    w[l].push({ \"gtm.start\": new Date().getTime(), event: \"gtm.js\" });\n    var f = d.getElementsByTagName(s)[0],\n      j = d.createElement(s),\n      dl = l != \"dataLayer\" ? \"&l=\" + l : \"\";\n    j.async = false;\n    j.src = \"https://www.googletagmanager.com/gtm.js?id=\" + i + dl;\n    f.parentNode.insertBefore(j, f);\n  })(window, document, \"script\", \"dataLayer\", \"GTM-P379T3\");\n</script>\n <!-- Global site tag (gtag.js) - Google AdWords: 992115811 -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-992115811\" nonce=\"7501984c26cc3493818ae4f5b7797c2e\"></script>\n<script nonce=\"7501984c26cc3493818ae4f5b7797c2e\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-992115811');\n</script>\n<!-- End Google Adwords -->\n    <meta property=\"csp-nonce\" nonce=\"7501984c26cc3493818ae4f5b7797c2e\">\n    <script type=\"module\"  src=\"//cdn.104.com.tw/cindex/error/js/index.Bh0Gwm3R.js\" nonce=\"7501984c26cc3493818ae4f5b7797c2e\"></script>\n  </head>\n  <body>\n    <!-- Google Tag Manager -->\n<noscript>\n  <iframe\n    src=\"https://www.googletagmanager.com/ns.html?id=GTM-P379T3\"\n    height=\"0\"\n    width=\"0\"\n    style=\"display: none; visibility: hidden\"\n  >\n  </iframe>\n</noscript>\n <!-- noscript -->\n<noscript>\n  <strong\n    >We're sorry but vue-start doesn't work properly without JavaScript enabled.\n    Please enable it to continue.</strong\n  >\n</noscript>\n\n    <div id=\"app\"></div>\n  <script nonce=\"7501984c26cc3493818ae4f5b7797c2e\">(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.nonce='7501984c26cc3493818ae4f5b7797c2e';d.innerHTML=\"window.__CF$cv$params={r:'a5ea960bec6eed75',t:'MTc5NTM3ODMxNg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ea960bec6eed75',a=document.createElement('script');a.nonce='7501984c26cc3493818ae4f5b7797c2e';a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>\n",
+      "url": "https://www.104.com.tw/error/404/",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"zh-Hant-TW\">\n  <head>\n    <!-- utility -->\n<meta charset=\"utf-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta\n  name=\"viewport\"\n  content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"\n/>\n<meta name=\"format-detection\" content=\"telephone=no\" />\n<link rel=\"shortcut icon\" href=\"https://www.104.com.tw/favicon.ico\" />\n<link\n  rel=\"icon\"\n  type=\"image/png\"\n  sizes=\"192x192\"\n  href=\"https://www.104.com.tw/favicon-192x192.png\"\n/>\n <!-- dns prefetch -->\n<link rel=\"dns-prefetch\" href=\"https://cdn.104.com.tw/\" />\n<link rel=\"dns-prefetch\" href=\"https://heybar.an9.104.com.tw/\" />\n<link rel=\"dns-prefetch\" href=\"https://static.104.com.tw/\" />\n\n    <title>104人力銀行－不只找工作、幫你找方向的求職徵才平台</title>\n    <meta name=\"robots\" content=\"index,follow,noarchive\" />\n<meta http-equiv=\"Content-Language\" content=\"zh-tw\" />\n <!-- category picker -->\n <link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/category-tool/3.0.2/css/category-picker.css\"\n nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\"/>\n<script\n  type=\"module\"\n  async\n  src=\"//cdn.104.com.tw/category-tool/3.0.2/js/category-picker.js\"\n nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\"></script>\n <!-- my104 icons -->\n<link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/designer-icons/2.5/style.css\"\n nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\"/>\n <!-- 104-f2e-lib -->\n<script src=\"//cdn.104.com.tw/lib/chat/1.1.0/Lib104_Chat.umd.min.js\" nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\"></script>\n <!-- Google Tag Manager -->\n<script nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\">\n  (function (w, d, s, l, i) {\n    w[l] = w[l] || [];\n    w[l].push({ \"gtm.start\": new Date().getTime(), event: \"gtm.js\" });\n    var f = d.getElementsByTagName(s)[0],\n      j = d.createElement(s),\n      dl = l != \"dataLayer\" ? \"&l=\" + l : \"\";\n    j.async = false;\n    j.src = \"https://www.googletagmanager.com/gtm.js?id=\" + i + dl;\n    f.parentNode.insertBefore(j, f);\n  })(window, document, \"script\", \"dataLayer\", \"GTM-P379T3\");\n</script>\n <!-- elog -->\n<script src=\"//static.104.com.tw/104i/js/api/log/e104.log.latest.js?v=20190424\" nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\"></script>\n <!-- 廣告平台 -->\n<script\n  type=\"text/javascript\"\n  src=\"https://msc.adsmart.104.com.tw/3/5/js/adsmart-ui.js\"\n  defer\n nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\"></script>\n\n    <meta property=\"csp-nonce\" nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\">\n    <script type=\"module\"  src=\"//cdn.104.com.tw/cindex/js/index.CDcQcKmY.js\" nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"//cdn.104.com.tw/cindex/css/index.OZd4ncyZ.css\" nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\">\n  </head>\n  <body>\n    <!-- Google Tag Manager -->\n<noscript>\n  <iframe\n    src=\"https://www.googletagmanager.com/ns.html?id=GTM-P379T3\"\n    height=\"0\"\n    width=\"0\"\n    style=\"display: none; visibility: hidden\"\n  >\n  </iframe>\n</noscript>\n <!-- noscript -->\n<noscript>\n  <strong\n    >We're sorry but vue-start doesn't work properly without JavaScript enabled.\n    Please enable it to continue.</strong\n  >\n</noscript>\n\n    <div id=\"app\"></div>\n  <script nonce=\"b4cdd7b6a75cc7d46b1fc159aa0863a0\">(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.nonce='b4cdd7b6a75cc7d46b1fc159aa0863a0';d.innerHTML=\"window.__CF$cv$params={r:'a5ea96110d4ce614',t:'MTc5NTM3ODMxNg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ea96110d4ce614',a=document.createElement('script');a.nonce='b4cdd7b6a75cc7d46b1fc159aa0863a0';a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>\n",
+      "url": "https://www.104.com.tw/",
+      "challengedStatus": 403,
+      "uaFallback": true,
+      "title": "104人力銀行－不只找工作、幫你找方向的求職徵才平台",
+      "lang": "zh-Hant-TW"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"zh-Hant-TW\">\n  <head>\n    <!-- utility -->\n<meta charset=\"utf-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta\n  name=\"viewport\"\n  content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"\n/>\n<meta name=\"format-detection\" content=\"telephone=no\" />\n<link rel=\"shortcut icon\" href=\"https://www.104.com.tw/favicon.ico\" />\n<link\n  rel=\"icon\"\n  type=\"image/png\"\n  sizes=\"192x192\"\n  href=\"https://www.104.com.tw/favicon-192x192.png\"\n/>\n\n    <title>找不到相關頁面－104 人力銀行</title>\n    <!-- category picker -->\n <link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/category-tool/3.0.2/css/category-picker.css\"\n nonce=\"ce00ee71f8bc16182c5199953d47ef79\"/>\n<script\n  type=\"module\"\n  async\n  src=\"//cdn.104.com.tw/category-tool/3.0.2/js/category-picker.js\"\n nonce=\"ce00ee71f8bc16182c5199953d47ef79\"></script>\n <!-- my104 icons -->\n<link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/designer-icons/2.5/style.css\"\n nonce=\"ce00ee71f8bc16182c5199953d47ef79\"/>\n <!-- 104-f2e-lib -->\n<script src=\"//cdn.104.com.tw/lib/chat/1.1.0/Lib104_Chat.umd.min.js\" nonce=\"ce00ee71f8bc16182c5199953d47ef79\"></script>\n <!-- elog -->\n<script src=\"//static.104.com.tw/104i/js/api/log/e104.log.latest.js?v=20190424\" nonce=\"ce00ee71f8bc16182c5199953d47ef79\"></script>\n <!-- Google Tag Manager -->\n<script nonce=\"ce00ee71f8bc16182c5199953d47ef79\">\n  (function (w, d, s, l, i) {\n    w[l] = w[l] || [];\n    w[l].push({ \"gtm.start\": new Date().getTime(), event: \"gtm.js\" });\n    var f = d.getElementsByTagName(s)[0],\n      j = d.createElement(s),\n      dl = l != \"dataLayer\" ? \"&l=\" + l : \"\";\n    j.async = false;\n    j.src = \"https://www.googletagmanager.com/gtm.js?id=\" + i + dl;\n    f.parentNode.insertBefore(j, f);\n  })(window, document, \"script\", \"dataLayer\", \"GTM-P379T3\");\n</script>\n <!-- Global site tag (gtag.js) - Google AdWords: 992115811 -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-992115811\" nonce=\"ce00ee71f8bc16182c5199953d47ef79\"></script>\n<script nonce=\"ce00ee71f8bc16182c5199953d47ef79\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-992115811');\n</script>\n<!-- End Google Adwords -->\n    <meta property=\"csp-nonce\" nonce=\"ce00ee71f8bc16182c5199953d47ef79\">\n    <script type=\"module\"  src=\"//cdn.104.com.tw/cindex/error/js/index.Bh0Gwm3R.js\" nonce=\"ce00ee71f8bc16182c5199953d47ef79\"></script>\n  </head>\n  <body>\n    <!-- Google Tag Manager -->\n<noscript>\n  <iframe\n    src=\"https://www.googletagmanager.com/ns.html?id=GTM-P379T3\"\n    height=\"0\"\n    width=\"0\"\n    style=\"display: none; visibility: hidden\"\n  >\n  </iframe>\n</noscript>\n <!-- noscript -->\n<noscript>\n  <strong\n    >We're sorry but vue-start doesn't work properly without JavaScript enabled.\n    Please enable it to continue.</strong\n  >\n</noscript>\n\n    <div id=\"app\"></div>\n  <script nonce=\"ce00ee71f8bc16182c5199953d47ef79\">(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.nonce='ce00ee71f8bc16182c5199953d47ef79';d.innerHTML=\"window.__CF$cv$params={r:'a5ea961aefaced75',t:'MTc5NTM3ODMxOA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ea961aefaced75',a=document.createElement('script');a.nonce='ce00ee71f8bc16182c5199953d47ef79';a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>\n",
+      "url": "https://www.104.com.tw/error/404/",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"zh-Hant-TW\">\n  <head>\n    <!-- utility -->\n<meta charset=\"utf-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta\n  name=\"viewport\"\n  content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"\n/>\n<meta name=\"format-detection\" content=\"telephone=no\" />\n<link rel=\"shortcut icon\" href=\"https://www.104.com.tw/favicon.ico\" />\n<link\n  rel=\"icon\"\n  type=\"image/png\"\n  sizes=\"192x192\"\n  href=\"https://www.104.com.tw/favicon-192x192.png\"\n/>\n\n    <title>找不到相關頁面－104 人力銀行</title>\n    <!-- category picker -->\n <link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/category-tool/3.0.2/css/category-picker.css\"\n nonce=\"d29171e5644226e9f40e5ca8cf6fa811\"/>\n<script\n  type=\"module\"\n  async\n  src=\"//cdn.104.com.tw/category-tool/3.0.2/js/category-picker.js\"\n nonce=\"d29171e5644226e9f40e5ca8cf6fa811\"></script>\n <!-- my104 icons -->\n<link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/designer-icons/2.5/style.css\"\n nonce=\"d29171e5644226e9f40e5ca8cf6fa811\"/>\n <!-- 104-f2e-lib -->\n<script src=\"//cdn.104.com.tw/lib/chat/1.1.0/Lib104_Chat.umd.min.js\" nonce=\"d29171e5644226e9f40e5ca8cf6fa811\"></script>\n <!-- elog -->\n<script src=\"//static.104.com.tw/104i/js/api/log/e104.log.latest.js?v=20190424\" nonce=\"d29171e5644226e9f40e5ca8cf6fa811\"></script>\n <!-- Google Tag Manager -->\n<script nonce=\"d29171e5644226e9f40e5ca8cf6fa811\">\n  (function (w, d, s, l, i) {\n    w[l] = w[l] || [];\n    w[l].push({ \"gtm.start\": new Date().getTime(), event: \"gtm.js\" });\n    var f = d.getElementsByTagName(s)[0],\n      j = d.createElement(s),\n      dl = l != \"dataLayer\" ? \"&l=\" + l : \"\";\n    j.async = false;\n    j.src = \"https://www.googletagmanager.com/gtm.js?id=\" + i + dl;\n    f.parentNode.insertBefore(j, f);\n  })(window, document, \"script\", \"dataLayer\", \"GTM-P379T3\");\n</script>\n <!-- Global site tag (gtag.js) - Google AdWords: 992115811 -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-992115811\" nonce=\"d29171e5644226e9f40e5ca8cf6fa811\"></script>\n<script nonce=\"d29171e5644226e9f40e5ca8cf6fa811\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-992115811');\n</script>\n<!-- End Google Adwords -->\n    <meta property=\"csp-nonce\" nonce=\"d29171e5644226e9f40e5ca8cf6fa811\">\n    <script type=\"module\"  src=\"//cdn.104.com.tw/cindex/error/js/index.Bh0Gwm3R.js\" nonce=\"d29171e5644226e9f40e5ca8cf6fa811\"></script>\n  </head>\n  <body>\n    <!-- Google Tag Manager -->\n<noscript>\n  <iframe\n    src=\"https://www.googletagmanager.com/ns.html?id=GTM-P379T3\"\n    height=\"0\"\n    width=\"0\"\n    style=\"display: none; visibility: hidden\"\n  >\n  </iframe>\n</noscript>\n <!-- noscript -->\n<noscript>\n  <strong\n    >We're sorry but vue-start doesn't work properly without JavaScript enabled.\n    Please enable it to continue.</strong\n  >\n</noscript>\n\n    <div id=\"app\"></div>\n  <script nonce=\"d29171e5644226e9f40e5ca8cf6fa811\">(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.nonce='d29171e5644226e9f40e5ca8cf6fa811';d.innerHTML=\"window.__CF$cv$params={r:'a5ea96216c58ed75',t:'MTc5NTM3ODMxOQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ea96216c58ed75',a=document.createElement('script');a.nonce='d29171e5644226e9f40e5ca8cf6fa811';a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>\n",
+      "url": "https://www.104.com.tw/error/404/",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://104.com.tw/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"zh-Hant-TW\">\n  <head>\n    <!-- utility -->\n<meta charset=\"utf-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta\n  name=\"viewport\"\n  content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"\n/>\n<meta name=\"format-detection\" content=\"telephone=no\" />\n<link rel=\"shortcut icon\" href=\"https://www.104.com.tw/favicon.ico\" />\n<link\n  rel=\"icon\"\n  type=\"image/png\"\n  sizes=\"192x192\"\n  href=\"https://www.104.com.tw/favicon-192x192.png\"\n/>\n\n    <title>找不到相關頁面－104 人力銀行</title>\n    <!-- category picker -->\n <link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/category-tool/3.0.2/css/category-picker.css\"\n nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\"/>\n<script\n  type=\"module\"\n  async\n  src=\"//cdn.104.com.tw/category-tool/3.0.2/js/category-picker.js\"\n nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\"></script>\n <!-- my104 icons -->\n<link\n  rel=\"stylesheet\"\n  type=\"text/css\"\n  href=\"//cdn.104.com.tw/designer-icons/2.5/style.css\"\n nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\"/>\n <!-- 104-f2e-lib -->\n<script src=\"//cdn.104.com.tw/lib/chat/1.1.0/Lib104_Chat.umd.min.js\" nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\"></script>\n <!-- elog -->\n<script src=\"//static.104.com.tw/104i/js/api/log/e104.log.latest.js?v=20190424\" nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\"></script>\n <!-- Google Tag Manager -->\n<script nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\">\n  (function (w, d, s, l, i) {\n    w[l] = w[l] || [];\n    w[l].push({ \"gtm.start\": new Date().getTime(), event: \"gtm.js\" });\n    var f = d.getElementsByTagName(s)[0],\n      j = d.createElement(s),\n      dl = l != \"dataLayer\" ? \"&l=\" + l : \"\";\n    j.async = false;\n    j.src = \"https://www.googletagmanager.com/gtm.js?id=\" + i + dl;\n    f.parentNode.insertBefore(j, f);\n  })(window, document, \"script\", \"dataLayer\", \"GTM-P379T3\");\n</script>\n <!-- Global site tag (gtag.js) - Google AdWords: 992115811 -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-992115811\" nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\"></script>\n<script nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-992115811');\n</script>\n<!-- End Google Adwords -->\n    <meta property=\"csp-nonce\" nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\">\n    <script type=\"module\"  src=\"//cdn.104.com.tw/cindex/error/js/index.Bh0Gwm3R.js\" nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\"></script>\n  </head>\n  <body>\n    <!-- Google Tag Manager -->\n<noscript>\n  <iframe\n    src=\"https://www.googletagmanager.com/ns.html?id=GTM-P379T3\"\n    height=\"0\"\n    width=\"0\"\n    style=\"display: none; visibility: hidden\"\n  >\n  </iframe>\n</noscript>\n <!-- noscript -->\n<noscript>\n  <strong\n    >We're sorry but vue-start doesn't work properly without JavaScript enabled.\n    Please enable it to continue.</strong\n  >\n</noscript>\n\n    <div id=\"app\"></div>\n  <script nonce=\"e9f35cfe3c0bf8ff7a6790fcf7256fcd\">(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.nonce='e9f35cfe3c0bf8ff7a6790fcf7256fcd';d.innerHTML=\"window.__CF$cv$params={r:'a5ea9634bfc5ed75',t:'MTc5NTM3ODMyMg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ea9634bfc5ed75',a=document.createElement('script');a.nonce='e9f35cfe3c0bf8ff7a6790fcf7256fcd';a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>\n",
+      "url": "https://www.104.com.tw/error/404/",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "aiFeatures": {
+      "chatWidget": true,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "104.com.tw",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:12:02.885Z",
+    "score": 34,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "AI-Closed",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "fail",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 0.00/9 · hybrid 0.00/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "transparent UA GET / → 403 (challenge page); content fetched via browser-UA fallback → wall honestly scored 0 for unfamiliar UAs"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 16 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"104人力銀行－不只找工作、幫你找方向的求職徵才平台\"; missing/too-short meta description; no date signal; body text 16 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 12,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://104.com.tw/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 4,
+            "max": 7,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "in-site chat/assistant ✓; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 3,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 4
+    }
+  }
+}

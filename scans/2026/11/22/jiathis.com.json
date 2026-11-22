@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "jiathis.com",
+    "fetchedAt": "2026-11-22T19:56:59.472Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a content-signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a content-signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a content signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via content signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n",
+      "url": "https://jiathis.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"f6fc33254c6d4b4784cdde25baf857dd\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://jiathis.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"f6fc33254c6d4b4784cdde25baf857dd\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://jiathis.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Scheduled Maintenance - Cloudflare Hosted</title>\n    <style>\n        :root {\n            --cf-orange: #f38020;\n            --cf-dark: #404040;\n            --text-main: #2d3436;\n            --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);\n        }\n\n        body {\n            margin: 0;\n            padding: 0;\n            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n            background: var(--bg-gradient);\n            height: 100vh;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            color: var(--text-main);\n        }\n\n        .maintenance-card {\n            background: rgba(255, 255, 255, 0.95);\n            padding: 3rem;\n            border-radius: 12px;\n            box-shadow: 0 20px 40px rgba(0,0,0,0.1);\n            max-width: 550px;\n            width: 90%;\n            text-align: center;\n            border-top: 6px solid var(--cf-orange);\n            position: relative;\n        }\n\n        .cf-status {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            gap: 8px;\n            color: var(--cf-orange);\n            font-weight: 600;\n            text-transform: uppercase;\n            font-size: 0.85rem;\n            margin-bottom: 1.5rem;\n        }\n\n        .status-dot {\n            width: 8px;\n            height: 8px;\n            background-color: var(--cf-orange);\n            border-radius: 50%;\n            animation: pulse 1.5s infinite;\n        }\n\n        @keyframes pulse {\n            0% { opacity: 1; }\n            50% { opacity: 0.3; }\n            100% { opacity: 1; }\n        }\n\n        h1 {\n            font-size: 2rem;\n            margin: 0 0 1rem 0;\n            color: var(--cf-dark);\n        }\n\n        p {\n            font-size: 1.1rem;\n            line-height: 1.6;\n            color: #636e72;\n            margin-bottom: 2rem;\n        }\n\n        .info-grid {\n            background: #f8f9fa;\n            border-radius: 8px;\n            padding: 1.5rem;\n            text-align: left;\n            border: 1px solid #e1e4e8;\n        }\n\n        .info-item {\n            margin-bottom: 0.5rem;\n            font-size: 0.95rem;\n        }\n\n        .label {\n            font-weight: bold;\n            color: var(--cf-dark);\n            width: 140px;\n            display: inline-block;\n        }\n\n        .footer {\n            margin-top: 2rem;\n            font-size: 0.8rem;\n            color: #b2bec3;\n        }\n\n        .cf-badge {\n            display: inline-block;\n            margin-top: 10px;\n            padding: 4px 12px;\n            background: #fae6d5;\n            color: #d35400;\n            border-radius: 20px;\n            font-size: 0.75rem;\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n\n<div class=\"maintenance-card\">\n    <div class=\"cf-status\">\n        <div class=\"status-dot\"></div>\n        System Optimization in Progress\n    </div>\n\n    <h1>Scheduled Maintenance</h1>\n    \n    <p>We are currently upgrading our infrastructure to provide you with a faster and more secure experience.</p>\n\n    <div class=\"info-grid\">\n        <div class=\"info-item\">\n            <span class=\"label\">Status:</span>\n            <span>Undergoing Maintenance</span>\n        </div>\n        <div class=\"info-item\">\n            <span class=\"label\">Expected Time:</span>\n            <span>01:00 AM - 05:00 AM (GMT+8)</span>\n        </div>\n        <div class=\"info-item\">\n            <span class=\"label\">Host Node:</span>\n            <span>Cloudflare Global Edge Network</span>\n        </div>\n    </div>\n\n    <div class=\"footer\">\n        <div class=\"cf-badge\">PROTECTED BY CLOUDFLARE</div>\n        <p style=\"margin-top:15px; font-size: 0.75rem;\">© 2026 YourService Infrastructure. All rights reserved.</p>\n    </div>\n</div>\n\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"f6fc33254c6d4b4784cdde25baf857dd\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>",
+      "url": "https://jiathis.com/",
+      "title": "Scheduled Maintenance - Cloudflare Hosted",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"f6fc33254c6d4b4784cdde25baf857dd\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://jiathis.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"f6fc33254c6d4b4784cdde25baf857dd\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://jiathis.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"f6fc33254c6d4b4784cdde25baf857dd\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://jiathis.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "jiathis.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T19:56:59.472Z",
+    "score": 28,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 5,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 4,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 54 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Scheduled Maintenance - Cloudflare Hoste\"; missing/too-short meta description; no date signal; body text 54 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 4,
+      "l2.sitemap": 0,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

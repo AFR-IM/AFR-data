@@ -1,0 +1,262 @@
+{
+  "signals": {
+    "domain": "ensembl.org",
+    "fetchedAt": "2026-11-22T20:04:56.380Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /genome-browser/\nDisallow: /tools/\nDisallow: /genome-selector/search\n",
+      "url": "https://www.ensembl.org/robots.txt"
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D57WZQC6aQAAAf3S\",\n          \"context\":\"Mg6wwNZFxn19SDlQqMLupBTG8JDOgtgpLB/ihpzmF/b1sR6HJkgDpjD2et9NZ36xVCk3COM32v/BxmOupRF+Yj99Ia9jh//tja8ILfjJ5QJ8Jab9jtb5y4vxJByykHuTBEleO9HLexNMatp53509IHAK8sKUuiHA4oCh0yATY9ttKeHR0JeLSezfHZtC7qjbJX9sB3imiLfzsV90sbr5TbYT8VDq4UJcz2ObSZXBLB1zCgpMe2ssfdfzwaVgII59CujucHoy4/4pqq2YE0DStMtSZoUIxb16z8nr0xgm/yotdN8Kg+k154gat25dED0nt56qNZLqgm6dWvLaihzFoROgeLRGwTpREqHigRDAhgKj1PhpCMchLn+NwkRkVGW0w8oaAe0KK+oqQ7IB/7a52Q==\"\n};\n    </script>\n    <script src=\"https://2a5d2373ebe0.49525e19.us-east-1.token.awswaf.com/2a5d2373ebe0/bacfab151942/c63c7340d501/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://jun2026.archive.ensembl.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D57WTwC27AAAAgZ3\",\n          \"context\":\"T3NkvCnAhALzLJ5hDeWGkW+YjH/NHFWpj7cTLJBQLFZGkhVqooFTdLXqO6vPBl8GjnrR3GA2x5C49PCWxTbam23Uw3otNgrYg55Pi4XukM+BO2x7OpPeMYaotkviF5KjMM3t3T/csjBv1Vy2pwSS9v1uksDGGj9WH61tymN2Y5sWsMJR5xDT4p6Rhd6h3uqeGgWehatag/WkbruBzeZ/yyp3lnyilYFRpKLPjwu/NcoTFWAFd5MvSm+/U+AQUJyR5GbEfbSEJtTTcv+STCwaFWTQf6dDmUtMcTHMMVaii3G/fcQg5hRTOvnDupMw3SD0vFrRfdV1r9mmDvI6+Fv6p3M4BdKAJn96EhzljXclXermouxi3Xv8SrQMr0tUUACFgOHoQ3pntpSbDZMAfQQ3sA==\"\n};\n    </script>\n    <script src=\"https://2a5d2373ebe0.49525e19.us-east-1.token.awswaf.com/2a5d2373ebe0/bacfab151942/c63c7340d501/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://jun2026.archive.ensembl.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/static/client.68eb2e34fa46d17dccfa.js\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/static/vendors.98fe5c2b2d39e8ed05d7.js\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/static/runtime~client.950b76d61f804ce06a62.js\"/><title>Ensembl</title><meta name=\"description\" content=\"The new website of the Ensembl project\"/><link rel=\"icon\" type=\"image/svg+xml\" href=\"/static/images/favicon.a94e5097d6f2285305b4.svg\"/><link rel=\"preload\" as=\"image\" href=\"/static/images/species-strip.969451e4575b249ee9ea.svg\" fetchPriority=\"high\"/><base href=\"/\"/><script noModule=\"\">window.location.replace(\"/unsupported-browser\");</script><script>window.__PRELOADED_STATE__ = {\"browser\":{\"drawer\":{\"general\":{},\"sequence\":{}},\"browserGeneral\":{\"activeGenomeId\":null,\"activeFocusObjectIds\":{},\"chrLocations\":{},\"actualChrLocations\":{},\"regionEditorActive\":false,\"regionFieldActive\":false},\"trackSettings\":{},\"trackPanel\":{},\"browserSidebarModal\":{},\"browserBookmarks\":{\"bookmarks\":{},\"previouslyViewedObjects\":{}},\"focusObjects\":{},\"displayedTracks\":[]},\"communication\":{\"isCommunicationPanelOpen\":false},\"pageMeta\":{\"title\":\"Ensembl\",\"description\":\"The new website of the Ensembl project\"},\"featureSearch\":{\"speciesHome\":{},\"genomeBrowser\":{},\"entityViewer\":{},\"sequenceViewer\":{}},\"genome\":{\"genomeTagToGenomeIdMap\":{},\"genomes\":{}},\"global\":{\"browserTabId\":null,\"breakpointWidth\":1200,\"scrollPosition\":{},\"currentApp\":\"\"},\"speciesSelector\":{\"general\":{\"committedItems\":[],\"hasLoadedStoredSpecies\":false,\"speciesNameDisplayOption\":\"common-name_assembly-name\"}},\"speciesPage\":{\"general\":{\"activeGenomeId\":null,\"uiState\":{}},\"sidebar\":{}},\"entityViewer\":{\"general\":{\"activeGenomeId\":null,\"activeEntityIds\":{}},\"sidebar\":{},\"geneView\":{\"view\":{},\"transcripts\":{}},\"transcriptView\":{\"general\":{},\"sidebar\":{}},\"variantView\":{\"general\":{},\"transcriptConsequences\":{}},\"bookmarks\":{\"previouslyViewed\":{}}},\"sequenceViewer\":{\"settings\":{},\"sidebar\":{\"isSidebarOpen\":true,\"sidebarView\":\"default\",\"sidebarModalView\":{}}},\"structuralVariants\":{\"general\":{\"referenceGenome\":null,\"alternativeGenome\":null,\"referenceGenomeLocation\":null,\"alternativeGenomeLocation\":null},\"sidebar\":{\"isSidebarOpen\":true,\"sidebarView\":\"default\",\"sidebarModalView\":null},\"tracks\":{}},\"regionActivityViewer\":{\"general\":{\"activeGenomeId\":null},\"ui\":{},\"regionDetail\":{},\"epigenomeSelection\":{}},\"blast\":{\"blastForm\":{\"step\":\"sequences\",\"modalView\":null,\"sequences\":[],\"shouldAppendEmptyInput\":true,\"hasUncommittedSequence\":false,\"selectedSpecies\":[],\"settings\":{\"submissionName\":\"\",\"sequenceType\":\"dna\",\"sequenceSelectionMode\":\"automatic\",\"databaseSelectionMode\":\"automatic\",\"program\":\"blastn\",\"preset\":\"normal\",\"parameters\":{}}},\"blastResults\":{\"submissions\":{},\"ui\":{\"submissionsPage\":{\"collapsedSubmissionIds\":[]}}},\"blastGeneral\":{\"view\":\"blast-form\"}},\"vep\":{\"vepForm\":{\"submissionId\":null,\"selectedSpecies\":null,\"submissionName\":null,\"inputText\":\"\",\"inputFileName\":null,\"isInputCommitted\":false,\"parameters\":{}},\"vepSubmissions\":{\"areSubmissionsRestored\":false,\"submissions\":{}}},\"graphqlApi\":{\"queries\":{},\"mutations\":{},\"provided\":{\"tags\":{},\"keys\":{}},\"subscriptions\":{},\"config\":{\"online\":true,\"focused\":true,\"middlewareRegistered\":true,\"refetchOnFocus\":false,\"refetchOnReconnect\":false,\"refetchOnMountOrArgChange\":false,\"keepUnusedDataFor\":60,\"reducerPath\":\"graphqlApi\",\"invalidationBehavior\":\"delayed\"}},\"restApi\":{\"queries\":{},\"mutations\":{},\"provided\":{\"tags\":{},\"keys\":{}},\"subscriptions\":{},\"config\":{\"online\":true,\"focused\":true,\"middlewareRegistered\":true,\"refetchOnFocus\":false,\"refetchOnReconnect\":false,\"refetchOnMountOrArgChange\":false,\"keepUnusedDataFor\":60,\"reducerPath\":\"restApi\",\"invalidationBehavior\":\"delayed\"}}}; window.__CONFIG__ = {\"apiPaths\":{\"coreApiUrl\":\"/api/graphql/core\",\"metadataApiBaseUrl\":\"/api/metadata\",\"docsBaseUrl\":\"/api/docs\",\"refgetBaseUrl\":\"/api/refget\",\"annotatedSequenceApi\":\"/api/annotated-sequence\",\"tracksApiBaseUrl\":\"/api/tracks\",\"genomeBrowserBackendBaseUrl\":\"/api/browser/data\",\"toolsApiBaseUrl\":\"/api/tools\",\"searchApiBaseUrl\":\"/api/search\",\"variationApiUrl\":\"/api/graphql/variation\",\"comparaApiBaseUrl\":\"/api/graphql/compara\",\"regulationApiBaseUrl\":\"https://regulation.ensembl.org/api\",\"structuralVariantsApiBaseUrl\":\"/api/sv-alignments\"},\"environment\":{\"buildEnvironment\":\"production\",\"deploymentEnvironment\":\"production\",\"shouldReportAnalytics\":true,\"shouldReportErrors\":true},\"keys\":{\"googleAnalyticsKey\":\"G-MB6YFL24VC\"}};</script></head><body><noscript><b>Please enable javascript to view the Ensembl app</b></noscript><div class=\"root__Root__8fRu3\"><!--$--><!--$--><header></header><!--/$--><!--/$--></div><script>window.assetManifest = {};</script><script src=\"/static/client.68eb2e34fa46d17dccfa.js\" id=\"_R_\" async=\"\"></script><script src=\"/static/vendors.98fe5c2b2d39e8ed05d7.js\" async=\"\"></script><script src=\"/static/runtime~client.950b76d61f804ce06a62.js\" async=\"\"></script></body></html>",
+      "url": "https://www.ensembl.org/",
+      "title": "Ensembl",
+      "lang": "en",
+      "meta": {
+        "description": "The new website of the Ensembl project"
+      }
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D57WbwC2zAAAAfZ7\",\n          \"context\":\"yWC2trgpPK2i3xX44QyMbAHmvl9lLDBZZOdQTdRw9YoADlCBrA9697HrjXyaZhKcj3gHrI4/LBpq6OMJIrrG4v8l2Hg6XBHEE25YBlrcP0M6a6T0QcjGRVTsU9ROWaobUAN+ntc6Yj16hx298W1AF9EZIfYgUDRwsqIYZcaLUzJeuPPNQpRdvmPOQmz57bjFE6sizpFS8MAJQqhxbyy7raQ3okYaVfM3Wt8uU4cNm4QvsLOfiP2I1N6mF4cRph01raaBLKjIIzaOZOJrUQaXSURFYhGvmnCne4DHgHjunlnYxdF6NjsM9ZemhYsgHtCQxVFnQiHj1IJ1UVtCbvRHNUFhwZA+i2ves46OJ1S9Q43Vc35JbZGvuLMZgHYsIYpCc/SkI8ciYU4KYzSimpyGaA==\"\n};\n    </script>\n    <script src=\"https://2a5d2373ebe0.49525e19.us-east-1.token.awswaf.com/2a5d2373ebe0/bacfab151942/c63c7340d501/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://jun2026.archive.ensembl.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D57WYQC6FAAAAgM1\",\n          \"context\":\"Yt3eFfvPx1PCm9ZBZ+WjZeKwMHuaWzb2lNWe6GrNIjdvaN86DO52OpsgWiizEFQZj/5bTRhyz9FmeNqEPBrWlhKzbmuhgHjP7zbm5rrT4soodBZkzHhh+2563tjDZ4PAy3icEmhjcxKWbigj2MrYX/g4+aJqk9Uav4aMPpX5C9vHQx48aiji3qDRR5D6HUHUcTQT7mDlPPXCDi/F4RQAPNbAVdARc/2AcD7tQDIIW3r7rPLUoDFKOsybcb6uXr4BsBthDsPFG417FhPXWyWU5Ps5nmsuY2C6xfd7J+hGuIvaGZ7R8UOxUImdFYEY+EgRrUqA3G81eygaC0d95skh3SkjsNyKbyDBpSpZv63+OuswCJaCJs3DG+olTEUalD+l+I7cLv4gQsrNkRmagOXsXg==\"\n};\n    </script>\n    <script src=\"https://2a5d2373ebe0.49525e19.us-east-1.token.awswaf.com/2a5d2373ebe0/bacfab151942/c63c7340d501/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://jun2026.archive.ensembl.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://ensembl.org/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D57WSgCzYQAAAgyb\",\n          \"context\":\"SUu210FfHEL9YuNLBU9zLe3C1MOJS3JVQia4pxMG0Pyl4gkWsh7bt9Y5+NhU0MZ0C/GXbWexTQs0WnTF/xo+AMSt3GtT2RvVz8IreKz6oorC0mkn9dCSwbZsmwO0tJU2rA7QQ8AhufN7fUKcquUrTkeEa48oKcpx8K/EXPMTEj2/bAYCqPzvhB7YB+3bUSW2vP0KkMFg58sh95UIC72iLLXC1zl1GXLcBfQSf/SrqEXnL3wneY+xU1xUSuFTEO5iHj3j4Q8YuZ43GOJ3L2/gqB3rA0x1tvFUBqunK9g4GYMtBznBH4qPG6A3zPcL9qYN+dc4phMfd8Wf+o0LGdUsK4t9YsAyvV5mCGoxZ11hC0dEMA+ohxT0htcZXyNd8wOKJg96G0i14MrwASjdmigcWw==\"\n};\n    </script>\n    <script src=\"https://2a5d2373ebe0.49525e19.us-east-1.token.awswaf.com/2a5d2373ebe0/bacfab151942/c63c7340d501/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://jun2026.archive.ensembl.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "ensembl.org",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:04:56.380Z",
+    "score": 48,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17.75,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1.75,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 1/4; no h1; html[lang] present; body text 9 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Ensembl\"; meta description 38 chars (short); no date signal; body text 9 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://ensembl.org/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1.75,
+      "l2.sitemap": 2,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

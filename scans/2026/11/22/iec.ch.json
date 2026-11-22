@@ -1,0 +1,272 @@
+{
+  "signals": {
+    "domain": "iec.ch",
+    "fetchedAt": "2026-11-22T19:56:13.757Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['iec.ch','iecee.org','iecre.org','iecq.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D577ZAB2jgAACQOS\",\n          \"context\":\"elnc6aLgpe0/rLsXl13ZYxc+86d+MgWlh38xTdBr1oYyiNFCM+KlZiFCMkmbgvIx15hL/RUsVQ9NsToL3j4JPOVo5nd6jbUUbDpIPBQZWsNHUcXXyytqR3DPbqVNNjRebB3in9w78Jon3XeMY9fX3S/2kg9m9EJY+iSh4laJMXjFFLu1b9nH63I9kVodvotAQbU2CAO2+IVt/G1Ngi94SNICW0L3mz0DMBi1iae003s1bLxo5C34NmdbrB0h73vFhuZfJF0hrMds1WcUw+f30SY6BVK7zpgjaHtKo3fiKLb60kn4GzBGrs3KSb+nRj4GxD4/wVTiN/2DL/XpAxzh7DKB8j7NbL7LdKw6m0do1cQXAtmQSNORhgZqMa3Vg9RXmk0kbml4RdRI6Nb0L1PJIumB/Gfw3wZWkcW5JmFFGnJHBq4PhJgkLzHR5NhiS7GvgnHuaCHCJa/UzvEq+/isgnBtUmKTgxC7yCwYKcTkeym41zsKRF8eXZm/6tciOq0SCpEwRP/2dBYpANAS2yKGwthoQ/DBkqww5AFDMcefDpUWyeCsjveCLihEGU09V4WYlSaaG37awqbhyO3+bYiVwvt0Na0vlLSkkW/vavymle3IqTGdWNBvjk3ayakWMYVFqDToXhCVFDnLDDYSwI4mBeWUBxcUyE2XQbBWDePJJlpbxJofVgkFs0ckG1AheVaow1D2Q6xjcP11rlUeLS1v1iO8nVLOB5vIjhGRy6PmZw5YTTSGKJWY2FKAUaK75MXEbB/rA27dih6Fx/g=\"\n};\n    </script>\n    <script src=\"https://1f953c479d22.b99bcf53.us-east-1.token.awswaf.com/1f953c479d22/474d1bb585aa/8775fb5084da/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://iec.ch/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['iec.ch','iecee.org','iecre.org','iecq.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D577SABwlgAACW6X\",\n          \"context\":\"Oylj0HWjyUaFgTyBu+NEFLfZbDNsKgOixZYNSW9UBZUYkAds7fBkW1yYNau3b7nOtZlktQtBDYJK5Njz5vTgQ50Rpash9WOoYPhb0b4kqnXY3R9lRMvztWzuG32hTFgGAnBjLLV8Bpp+6wUqMVc8soXsvT5b1noIrUzMy8EK5RfRjHjZUW+GXPv6miQnvQsj0wUrUcin3HH53wBjKB30Infx5VkMCMgJgiNcaPHg84HXERIrd6JMoGU/u70LBojeKzsEHHvh15LQlqvSpxMiefCUiy6GdxYR6u8n1EgdODJU3NDrY3JZP6N4zpO3wSepGosiI0hatg7Gw1keXXpnSu+tgHun/G4k6vhuba/BTFTSoPyjmdpX+/Zow2vIz/Le7YV+yjSjKc8aYjeyI+cbRpJajFesjmUp7VPfp4hTq6Pv8pB5yMPKvAIcmwA3AHgBAs/dFSTdcYGnudKa0/TH1lKEx9uQeKOPHgU03km+lJnEI3T+bJqxsVV1mL7LeBctpdWKQEnZJ3fIY0ExTWHPU2mWuFAroTDh02GNdtgycYiS035giLTfOolycOPMU1haRjWUenjmJcV1Bb6+aeNMDDryS6P5xq5EKXA5PXrxbPM/u7xMqb7d6VWpcBjuEuacIkYkEA0tqFROfitSteKWc7aBtqywe3G6YT3ZzBmAtN5Z2I+sP+dm3UYH+Wgdi1TJSoGbbsktYXVo8oMHSq3fPFdqNN2JO7O5rya/1SgUhmb8YM2GS/MNZ8uX3A/ubZTnzdgk2QGHPCG7Nnc=\"\n};\n    </script>\n    <script src=\"https://1f953c479d22.b99bcf53.us-east-1.token.awswaf.com/1f953c479d22/474d1bb585aa/8775fb5084da/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://iec.ch/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['iec.ch','iecee.org','iecre.org','iecq.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D577bQB1AAAACOp+\",\n          \"context\":\"W6TPENBo4B4OivTnmrJIhmGHClTsIPgUkuVz5YAZAQ6m1nKCP+Lbyz/1VQzMReYE2t8+XdHfRixPpf9472e0jV1tPx9gCSKhLwwMjmu/b7IgMiRCSFPMzyW1tz3vhiSPRjdYhKjUHq41b9VX1AeNIg5Cn0GKWdp3tTdWfLIIgG/lB+/kJUHTufHc1EyaR7cs+DwaQ2N3OBfPKLMAZMjqYyU3Ccez/rI76uR5C8SlCJS2rhclJ98z15L2w2bYKQqeZLu50WBy16OCUK7gl6nmS+8t5LF/7A2hydx8SxlS0hWj55ZKGag9zyLlfDjHmoH5MFrBjN1YZqcL8Z3He68imdoKG6xZgaQ8VwYuSLSTYMQrL67OulCsIaqo4pQhIwA3UEoRGDnsb71hrcKDSIBDnuOQhsGYEXubf3IyJs1KkZg2edRXvSihNTTZLYkJI5orcXZz1ZSK6BgSrcNCZ7bfLpMc9HuvfPPVMgtXZB4o40bJ7h5I/Z1J8sqh0XFMpKxvCd03QL7IkwIaBPeSYFQBImADR+AUhnxhQEMZ7/cb74lO8ix5A9DvmM3UnPXYd8HcA5sfsm3iAkz0rNqP9VsaIV5pRgv8vf/VwtIPwEPZEohJzTaPvgsnEC0D7iRLhizued1VOdvRzKaDKPCoNkZlaM8gVdRA35A8Ybs7VWLJjBpmGY5v6u3UXmqHN0qYkF2+xSOZgiMinM2YgQAuYbMP7vSOpiT+Cn5RVCBLszTbV6pnIAX5Xvl7zotvqnopbAhq3fxmansQOn9ju6w=\"\n};\n    </script>\n    <script src=\"https://1f953c479d22.b99bcf53.us-east-1.token.awswaf.com/1f953c479d22/474d1bb585aa/8775fb5084da/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://iec.ch/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['iec.ch','iecee.org','iecre.org','iecq.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D577TgByfwAACL11\",\n          \"context\":\"5SgvwQ32xI4ORdVsWV48lhsRYt+8jbI8l6yv9+4nJ40S5CY8U5GlO+DN/2MqdOiyeq4eRtk+PrNjtb7UZiZYxy2sOV53JJRUL081CEr6UegdeCBhhcecencVoqgq6n7yfnSNhqf6DE66RaiGG+RZasYVX4qh7qzC4y/7Cx64eqGkSu/UCw88qAcUKVAbc2bRN09mLfBavhZ4Y2tp6cZeFlRbksa3x+i1iWtPYAY5E6fcyELGav2/RpfTZTeR/QF4FdR4uAF11SnMqq7cSxpIjbxwZ7VqheeZ/MTWvoBYoPkMiv0E4kvBPHqhntmwuzHCvpAB6WOZOR/oiPkJkgRumkpjEtEWriUUmAjlSZ84WZYRNtftzAd7TB++3Q7SPOU04iPQSmxXVYB0C7JDMNtaQByQd3jYisH23RbrTULiaNAhPvz3EUomKRVy7uKrF1HCouSjDSJiZgFXjQRmAi9ZF4EafR04nWmFVakILxmLwYGhautv5aK4zPoGbTrb9BKLB1UElMvvTuok+8ZyvEySljPUNJH7ORxKo/UpNT1U32xZN60gXHIpWQTWZDKy5ZKZfIA7vytBCECV+P8Q2u22Uza0QukkFrck6HyrQmHnw+A/WQAYpwRG5CViYe7jaimQeeV2mGcELBZ8yVL8SjAZe5NBQhFPIbwE43ps5tVzPWCVV0YxakpkwKeRYIpTK2lm9ZJ7LqwRGAjrXaZDf+6tnMFzkwNRPxw/G2X8hihCANa9mzkqcdVjXWOyfnmKD7s4GS6bW7Cxy/PC6qU=\"\n};\n    </script>\n    <script src=\"https://1f953c479d22.b99bcf53.us-east-1.token.awswaf.com/1f953c479d22/474d1bb585aa/8775fb5084da/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://iec.ch/",
+      "challengedStatus": 403,
+      "uaFallback": true,
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['iec.ch','iecee.org','iecre.org','iecq.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D577ZgB2PQAACNs+\",\n          \"context\":\"mxyY+FvyGlUOND7FPoFNQAMJO6JtQsDBH74VOGwbhS0oKkyb9nfDTjRhhL37YykiJzZiqACdNwB3V8mFPhXAY6ugW0qyCSR8rQi4A+/g+cMLlePqLnp/oJldz9HjjbbrjT1r8f48S3cb8VvfJ8AJOcO+d5Cj7Szyomskk23+4/krLq9fjgstNMAD9w+e26Pa0YQg/T9Qu4kUAthyjddvWnbzI9kluA+0hTABdtIXIkhGg7T3qOPjQUHUmCw4xC4rZe/++BpZvbs9QK3sNVRvVbJ26x9SKzX/hCmMMPdSAg5TjVYPiE9wo0NwXHUJTRt0K+4Dao+Np1wZk2U9erK5VhBveQcaArUlol+Usilhq8IosW0pOYIuX+wEIs/5yy61SMk57Y0BQK3SzzTDcq+WTODSVrgsGyDlK9u3hVmmeF4JaydqrE/hID/beZnLCICQDdsN2xJTu28itH7pClDT6k0Vv0bNz/21ZmQukO8mvnz2X6DY/TrVBGVRue1byNN8iK7QB3OeU5YYYDCgf5c6lUEBUnzKbJKubyjTYbGp7nJXbV8CJKFbz2g18qdjWLUddSSowDJtEjASrBePjEoAvfeCOMsX4IpetcNxsl5W/2MAuzdFbHMsjpwCEXKJ63ZGgFC5GqnpuA56JN0X6nY+Qss9UY/zhxPo3Ckn4AiaW0ZniIbbwyE7nrJpv/YXxc69FhKx5hcM1U9s2HVisheFOVbzEEGzo91dC1xAErTbNDk02cEuDLvdzMwqzEgnQD9r6J1pfv8TtSZYV7g=\"\n};\n    </script>\n    <script src=\"https://1f953c479d22.b99bcf53.us-east-1.token.awswaf.com/1f953c479d22/474d1bb585aa/8775fb5084da/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://iec.ch/sitemap.xml",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['iec.ch','iecee.org','iecre.org','iecq.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D577TQByjgAACTzJ\",\n          \"context\":\"SCkejcCHha+f8kolAhBKjYN0z5SUVxKQ/kTBp63XoDXSLIMspKkVFETCx4BeZdKL2NnujyrG8IfBZDOJa9oRguXdP4FSDd2aW4dHN7JuG3jLrVMbOLYb69ci1SbGE1pEIzGodXwh9bgoytzHQIvbcDIUZqVOypD1384w2tkJQk7jWvVLsF/5hxJbxnKhFkrmYmsEv7Lg98yJTC1dQlK0XHuFkT2Hl7CQCa1n/U02JVNQic7vz62fksYNP/z0Lhkmh0FmwCenzslKGCY/eRbE/MGlM3k0fZ+IO2+Sk8F1z7GOdTcXdaDV6ig0AUpvJoCQ3NIXKxQcBis3cW93/FUZM7UjAcsbCEJr1iM2va4TRZjU2MYry1o8+DNwK8Mwah92gM6imRKaSopwrzyHQEc/ei+ncGslD6/UlT1Jh3JcLtUkldYnvUURfKOweq9eytzl9sCdcnUcOHFgVu5hKKH/fb0n04mg2N1cuujN1/BpCqUJ2j5H80OSXooE8ypDH1LIN4vyejrpYvB/Xx7T2Je4XLelp1k+FHp7895vknJ0/SDCt3iolVzUcIRcDtKnHKvJxfK12idMZ/M993fbCAzxtouaTC5bnxw3C2zMMqGyA3cMgjjz3vSBhzkni0rWQ57yOQLBA2dAxGIbvyjblR7E1FwBW0Wc700SV8l/D5B+ktiyjZ39IR+9iFDXuY65Z+8CRfl1oygqOmq+AttYtWAwwlgiTGcTihJCrGevtclCtKepGZq2b+PA29kU1+dNgbIGw0IUzgsKNipX7as=\"\n};\n    </script>\n    <script src=\"https://1f953c479d22.b99bcf53.us-east-1.token.awswaf.com/1f953c479d22/474d1bb585aa/8775fb5084da/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://iec.ch/agents.md",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://iec.ch/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['iec.ch','iecee.org','iecre.org','iecq.org'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"D577RQBxiwAACMbA\",\n          \"context\":\"lMB7gmT1VMTd/UT5ZhINb26cE+dACUyav1alfdB2rp0IJ5dLAWdxHP7PVWTbQX6SMjps3m+GRCG05Q/I7E3tGbESylkROanDA/a0mutA9D0FDeiPVoFha8t9XOEAmBr2OXhcjEc3qnf5TwRyzJzS+TyyuBBn9qX7bv28XcFX+z0m3A27EOCBhNH80pszQLON2wgtEFz/15avOJj2sc10XvZzCfGrMv+JLlsbMNDmrGOxL/n/COjatWOUMZMV971zl2AFCtLJlEZnNc4TVtwQZg/e6o1x5rXBWKbfGJVFhNLW/nEAPFLsSiL5OcbKpRlwBsX3eaiVDwIowNusIyGlXq0tboPcqRACZAVU0UcAQPK2iZhejU2qC4n2q/r6Gp2lNkvPwcvEGVka+Tk4cpIzrJ23T2bDDLEk/rBg5UpqszU2vgexV5DLtelg8cLLIKB38QXoFSUwHVJwwABfaWVihvQNtffkJitmmjJj8TMySfKW4AFF79mJ+gJaLDBxdCLpDhKvTsll75NxFPUR9tZqegBItyxoeo309zc+SNvP6v/eryIyRF3s55u35KLDQSGfyF/OpemZYgmvLjJYPQb3tkR4k0uFhlEG/oRfh83XU9fzqfkJpR53IquwQiFqAHlhHRXXpWUW4Lsc51YevKRip+hmJZmQRq7q0F6BBLKdry4BPXa7wlijKC8393zsK+8M/RdlXo9iparhcARA64nXgi+q+ca6rVHkVQgCpdWOTC8xc8Py1UggRIKpf2FX1MErfb3IUpqhVfBJ5qU=\"\n};\n    </script>\n    <script src=\"https://1f953c479d22.b99bcf53.us-east-1.token.awswaf.com/1f953c479d22/474d1bb585aa/8775fb5084da/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://iec.ch/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "iec.ch",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T19:56:13.757Z",
+    "score": 44,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 17.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "transparent UA GET / → 403 (challenge page); content fetched via browser-UA fallback → wall honestly scored 0 for unfamiliar UAs"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 18,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://iec.ch/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 3,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}
