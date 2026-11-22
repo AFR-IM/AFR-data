@@ -1,0 +1,272 @@
+{
+  "signals": {
+    "domain": "sbb.ch",
+    "fetchedAt": "2026-11-22T20:45:20.212Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grA6agB03wAADi3K\",\n          \"context\":\"X9H0BMaadhPps+wbSe+gt45vyhtLMuePV3rYfpnVwDZkhO8b1h1RzJ8YzTAVRFfAjWsV4Kg/h0YM4Xnc5t1bTMs7d2DRaYifL9YaaaI8g4W/fSdrRojNZunwXLh0fr1o3Yqm6siDAa2xVknMa8PKtDFMcbysPIkWJ9kBpcDkpMSOkhKnjS4ncY2BkdSsCLWgSWJNH8OSwxqtBdCHo0c8SWov7c+jlrpJicMweCC8NKlCzCPMjcLANgG5v53fRD6sI5ezSvnc+gqpp0Ti3CeQxCAzm8UNVwfGyL1xa+3ZLQ0MkKgWUOyyMTbmT698CZ6L9HKVw7MT5yQmQ89j975VR4mCVZjxv2cQldRFJ07P04i/E+lOU708YJXDteBDaw6Yp4MM+qDXl+v1j4yjRmtS+9McHmHfQe5PhA7s0pgkgEbXH0IZa32ekUA8bmLNByhGMUPCTHa6Kr2iXb66SY9NGWb9MHqd9cKFPo7uA3w8uq7/muOmrtwn2BPQv6y+WYWaKF0oFLGx2W+qMeyu2H49Ez1rjOjJQ4hQYjye3YOvIwdiMd7SdwcvmEsCvg2SGmKim0lNsfFtAnBrHQetU4sorejMEzILD/cNdpzq0+saCXEhYUHWhP5xFhLoiZ2CSqULlezu103dyIb5sStbh0S7BKAVFf/GJRSL/8qZp24lvakSZP92B7hL+1QB+oiJyR/ocyPB5Cw1/9Seme6H+bTvCuer\"\n};\n    </script>\n    <script src=\"https://f2765db39baa.8cf5c68d.us-east-1.token.awswaf.com/f2765db39baa/a120236f0cdb/2874166a4290/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sbb.ch/de/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grA6cABy/gAAEAWv\",\n          \"context\":\"l+qMZTzY3tEk2RR6bycCVBCwMyrfXXVaVm9f5Uvl9fuMAtga/S0NBDaZzsRBJLIpxzS9YzuOLBKcnjK3D+kNj27GXvJegWm0+G6QPBAejltDEsXjHqwo3ym9npzt0gm3fbtO5yQhdRHhhwSiHDzzT6p0bN1OFhe6WycQdL8Ro+rHl1fAe9x/S8n/grI1Xojoi4SdwHFLj8H+fMxlepl/AnA2c8wIajaL7PVQiWeNNF1YMBQiw8oa10+3luGDDePXqJxqqwvQDUZpsMtI2+Kf7qSUZAlerUW69wtJqLfy9J/b+eReULAGzH4huzvY9zTKA3Kn9qyu6hsYRZgJmnQWW9TykiBib6rDRujFPZpR2jo20BYX8iyJgEn0rIYaF6VgZAaOSCh1DdvTVvORWWM3P7CCWGEuaih/XF8IE4neaOZDee7ET0OhI1JEbJ9+R2p+rq14EASfMAH9c6HLKxgYKOVP8/O5REn2kdjdo/a6a15Ob6Hw0ddvTEklzbahH7UFKUBxi4k34gBLyOf7w1yQ0My4NSeVPO/uybbFnYkY6F32spcqf/vchRHg55Vyteyw1WahZKb83/h9MpUj7UzBoe+rGVfwK+/Fjhc1EVWfiTwNvhoo7cLr5aOlO1OKn9rttK5qPhu6VfJ/MD3TicHPScvQglPS1nFJ0d5KIM38Xz9IY+aGBL4vjYFTz+qKktkpwopnO7obrAqArCNZ3ylTwTC4\"\n};\n    </script>\n    <script src=\"https://f2765db39baa.8cf5c68d.us-east-1.token.awswaf.com/f2765db39baa/a120236f0cdb/2874166a4290/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sbb.ch/de/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grA6aABxDgAADbp8\",\n          \"context\":\"SBvdTGKRlRlzXT5softLzEtyvkcnqXsbUodIjxFv1MBV06Qt9jqV1cd2ziDnjjGvn/Dq3wXr1koChNUZXg9zkefvJ+RF3iR+mHvOkDuqjDU9tF/fGGmj+iPMDKS0bjM3l1Z37HfM2rd9NUSVI9WlR49j+qH+bSg4KfQACvHuFheBz8idZnNEtkzoc6hu7YZ0UZlcfwFncOqrsaC9zE9F4TIifRvBKdu1bfM9KEQK1ObeA9+3qGKyzIKbu1wRL5/jECfthPegJ2BWJyPwGx0t03czuObHZ1FFDDgsylf76tQRHtmj90oTErbWJHQaHLL7WtDv8936eiuZQPbdoGgUDdicng+dpXl5LI5cXutoqJ/bx86cmABMR3D0mNw0VqyXAw/gmVCQQbtIwVEis4n7BswByVUnN3VlAbhkvoNg8s1ODtesmPO40E2htoAby+wTwRiUCqj/skNB+H2BuwVpzMUk252KdTgxt+jYSFWOjMOUZWt0NnyqEKKY8oSEUMk4bakVHQNc6Dd1owweIISIH1eyTiYxyn0zjm1CnN/12EiK+3EOB35oqgnmBbVVG82ErmHNH/iH8gGgDOPrfGOlR0xB247+3H+jrYcfyoVf5lOpJo+twQbx9i38tXgdrFLb4u4dox8PMpdtCm3wzveDDpFxUo8B/6juidsx3qYmlcOt5GViZ/vv51hj2lpk0eW7ev6BIjiLuQFQ3LnIZgCXCci5\"\n};\n    </script>\n    <script src=\"https://f2765db39baa.8cf5c68d.us-east-1.token.awswaf.com/f2765db39baa/a120236f0cdb/2874166a4290/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sbb.ch/de/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grA6ZQBysgAAD1Zp\",\n          \"context\":\"lZo/Fl75fqTtWUl5No7K9VAmPvgPBMJ6tA1msd7Sqi03IQVOTkAGDSHHrXS7urRHeN+3tejyFN58gFwynNaW9SWnJSb4o/mwdyDm9TQ5wDdeHTikf6Ym94sdtGncrrTZrxupC+CE2l58kJOKrlXkQfsV7WjT8XQ2Rz9x726uxFa8WEJ/xaB9/6cu5cflYBBiUMWFVH7770vRVx6ebRP3eB9HOvyuM0kLr27w9+GW167/zCt0G0WdJwN0Q0FUMI+hUMFamdUURPtx82gvAKePBWq7qaR8cGnDIfigNaxebZ6ee+l1PPezvCekIpy+6s+t38Y9BWquibtyLhcz8JrEsoJ6qLeXoi2tWZzus7OdCJbGAJOlbA0H5RF7ERo9dZ40wxjLwYCD5b/Zseq1CjK6/gdSq8uc7+fgFawDeGg+GZtVCwg8cCODCOMO8106PouMpnMNUqUAjbA9HiyYpbU+npqSrmlYfCSEbNcAEcdARh7C2i6efHkRNO4hcdumzCB0USCpMU7nAxnnYp8U9J0C0yPZ1N3Ppy9YG04kEUqEQZG4+8bOs3ZADU1u8ohMAfuhGBvWmrz5DmS35Z+XGI9ezUZ8EHEu2sNBLhUH0LQ0qhA5S3XNRhhz8gwNmOfYrYUzSFab9h5If4iHjPKW1+v6r/09zsSp3G/3qbns8EKW5RgURXHx5XMtWeJPBBK/8+uVM9QwkddT2rU32Y9uxAihRN14\"\n};\n    </script>\n    <script src=\"https://f2765db39baa.8cf5c68d.us-east-1.token.awswaf.com/f2765db39baa/a120236f0cdb/2874166a4290/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sbb.ch/de/",
+      "challengedStatus": 403,
+      "uaFallback": true,
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grA6ZQBysgAAD1Zr\",\n          \"context\":\"mofl5Q78FBrE6Z8RtG7IuncjtC4RdmxcITqGXbibcmMKcg5LzaASDjIPtrWl1w5ppTFy0oARzVRKFNluR9NSxKyKQUXE34UPPzAsAs4aNDLSghsHbDAbKgnXCFtIcZRPaIRmGifJEHbX35Rb1mqRaLfa5L/OPm+expNr6HD55z2qElyYkQUrQKTysSDXDrXK0Z8x68/wYYiZk2cMkZw5LG6F7Xx5xmcXvcmGVM0pGqt8ANjmLGd/eEVZ2TvYLzT3TpsG3yuavmhocga3z65r0Q69+Tv816ALsKLQ7lukFPTnakp7aiYOdbRFp31nAO89r0H1N0ecCLS6HrgIszOndsCUftV+AV5MWA6VUzKM3gijbdFyVICFYKwcVQDJksKADorMsyEnhRb6zLEp0bwUxTdBwafV1uiP3vzW+nLBdtk3oQ06mQWRnMZ+rHicdlazUGj+c+joYUHYC/oJgYmc6WLUdgisoExweNvVjE+t+88LaODBun3fwtiOx2ZeNvBNY0mfddIlvvB9qBEmqigjK7MR3qssLdV/QPsfitYWwn1Jc7i4sYua/ValXTILEhoVW032VZq2HnQNSIOCQrZmIAwG5oamsRV32pEzYNEavL0ABo0oSUJjXy1/qd/DOJcwUYITpzoclwAqQdPKUyIxLfPw8CK/k6zlNDWGbatK8+eIfgVvMuS5ZvtdS1nRZIboOdsMgBBLx9+jBHjuhb2tgT5Z\"\n};\n    </script>\n    <script src=\"https://f2765db39baa.8cf5c68d.us-east-1.token.awswaf.com/f2765db39baa/a120236f0cdb/2874166a4290/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sbb.ch/de/sitemap.xml",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grA6TQBxHgAAFGy+\",\n          \"context\":\"79HiWQZSGfW3BCR+oDfuBAYHvd5xjt/56edE3LAFv0Xx8aUB8ySojDKl2Vm7CxOJttwrXbxu9eZ2+R8DKR/VGouzt1YlJV+QeYFIpQMszWe4qrAFa8q68RfyIunJzWQdzmsoIMIiZDgshSnrKFsgrrs/uJqIFM4R+MwN+hweBn3I/P+mqm5EIV7LpG8GH7nXJ55kjrP0LyIBz/IaDtqHVRLq1UzQV5yoyPu6LqirgvtjkonMfT+AxjOlIltPJLg26GnRsVI5tUt977WCsDgj53qxt4kIOG1jeaEmJUqlPeGDDGpFRHyQczUsNOEduEmtZXBgw7oSjVcQmtbNwdOnUEbhakdRII5b5GrvSIaPR8znEMszNKRzokU8mlE6TkWxrSabLazCJKp4Bu0B8UXy2UoTDvUyNds/ITrb2sYKOocvP8t+dYOIIwRobPnoDsfNeb+ryKo/LMlVDpABbBPCBmqAGPJIe+k240GBKGQc5AhmBGMmxtWyCT8Y6szddn5xT1ZyxL4wEx73TShq+I/dXGTDbw/12lLMTPS5tX9pX4+gX44nKRXUc5ZFVaumZQOs49BQhv6ZPZL+ANzb2eiC4NbHGWo3Rhr6aAxenA5/6iJN+xm7IGZCgyO1f7QPw5eAxG6gzSE2C5uxA57MOsgGz2w8Wk5zZwaIB+HR+QvhNlBK7yroG9M35tvGlLzd9HBxWhB23+ESiPb18mdPEKEDtejA\"\n};\n    </script>\n    <script src=\"https://f2765db39baa.8cf5c68d.us-east-1.token.awswaf.com/f2765db39baa/a120236f0cdb/2874166a4290/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sbb.ch/de/agents.md",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://sbb.ch/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGGqpKiJt9FMx6i2p6e1aUOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMaJ0wr9yrqI7OvR54AgEQgDsmhLRTdIxOvpkaCntNBPIucEN6T0mmRNwrVCZ3qmnYbPNpiBz4BxKnJff0LN2IWE+gkMVXF1kDKds5WA==\",\n          \"iv\":\"grA6YgB3TAAAFiW8\",\n          \"context\":\"PN3l2cxXAZAEi1ZraAikxGpmaHy0BqersBs259Zg3dcLjIuO/Qayw+t0ekXuDIjswjcEIrTutNCszfWuWGkRxrluHYPhOAMJrW484NMTpwQMMZ1AKBr1LXYCB9CpZjlmrdCRokj5rVtoSzYarDo3PxRC4EvpgkQ6XnfLb6SXS9mJHG5odCatiXAbIGIESw/8Eo5kp4RnBefUZ1bpmI7Lcaz2M0KJQXXzEXolkpQpbO0l0A31P05Bu6XgT3iwhHZQ+QcDjn/LWIiWjdaJGdCc6B83xrfpgGa4Mh3hzcMHNLGbVDQaiOfzW/VMPxdtF63d9QkDmi10tT/otr+uny3DDAGHUT9yuS3DPBoeVQcsgYDP5YN3kGszG/dExFzGkzdH9b6DEee0sCo31t04QYVT7tYdy9E7p9wQ4kPzNESlBT6k67jmWZyudQHj6SvX8D8rzTRlBpn+hH42nYx0JkX8kem3uOJgZBT/xqVBeycFiUuwLRg1D9efol6oTejVeyEli8tsQsfgqHsXU9DzMSE5ft1KSkcHms8bHalZNbZuNaikzLEbwwMu4t+w8WealPX2/WkC3y65HHpl04pYl/Crk5a5YrguHaCDsYbGj1K7Tk8uksIS8mKM4aEQnmaolfnHmizpSZCkXOxdaf9s9LEaosEIPea3rlAo2fGP8X1oH/TXHYTcJVewQ6mXkO/NMyIK5DHl/q3ynWhpctRfUqEv/lDg\"\n};\n    </script>\n    <script src=\"https://f2765db39baa.8cf5c68d.us-east-1.token.awswaf.com/f2765db39baa/a120236f0cdb/2874166a4290/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.sbb.ch/de/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "sbb.ch",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:45:20.212Z",
+    "score": 43,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 17.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "transparent UA GET / → 403 (challenge page); content fetched via browser-UA fallback → wall honestly scored 0 for unfamiliar UAs"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://sbb.ch/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 2,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "signals": {
+    "domain": "gifshow.com",
+    "fetchedAt": "2026-11-22T20:46:57.723Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "error": "TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+    },
+    "llms": {
+      "error": "TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+    },
+    "llmsFull": {
+      "error": "TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+    },
+    "homepage": {
+      "error": "TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+    },
+    "sitemap": {
+      "error": "TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+    },
+    "agentsMd": {
+      "error": "TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>快手，有点儿意思</title>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"description\" content=\"快手（Gif快手）,有点儿意思\">\n<meta name=\"keywords\" content=\"快手,GIF快手,快手官网,GIF快手官网,快手官方网站,GIF快手官方网站,快手APP,kuaishou,快手下载,GIF快手下载,快手官方下载,vine,instagram,gif,视频,美图,短视频,微视频\">\n\n<link type=\"text/css\" rel=\"stylesheet\" href=\"//gifshow-static.download.ks-cdn.com/s1/css/main-1ef84cc670.css\"/>\n\n<!--[if lt IE 9]>\n    <script src=\"//gifshow-static.download.ks-cdn.com/s1/js/lib/IE9.js\"></script>\n<![endif]-->\n</head>\n\n    <body>\n        <header class=\"header\">\n    <div class=\"header-center\">\n        <a href=\"/hot\"><div class=\"logo\"></div></a>\n        <div class=\"logo-name\">\n            有点儿意思\n        </div>\n        <div class=\"nav\">\n            <a href=\"/about\" ><span>关于</span></a>\n            <a href=\"/joinus\" ><span>招聘</span></a>\n            <a href=\"/contact\" ><span>联系</span></a>\n            </div>\n    </div>\n</header>\n<div class=\"container error-page\">\n            <h3>404, 页面不存在或者已被删除</h3>\n        </div>\n        <div class=\"overlay\"></div>\n<div class=\"modal text-modal\">\n    <div class=\"title\">服务条款及隐私政策<em class=\"close\">&times;</em></div>\n    <div class=\"splitter\">\n        <div class=\"line\"></div>\n        <div class=\"dot\"></div>\n        <div class=\"line\"></div>\n    </div>\n    <div class=\"content clearfix\">\n    </div>\n</div>\n<div class=\"footer\">\n<div class=\"link-line\">\n        <span>www.kuaishou.com 2022 @ All rights Reserved </span>\n        <a href=\"https://beian.miit.gov.cn/#/Integrated/index\" target=\"_blank\">京ICP备15023266号-136 </a>\n        <a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802038443\" target=\"_blank\">京公网安备11010802038443号</a>\n    </div>\n    <div class=\"link-line\">\n        <a href=\"/about\">关于快手</a> | \n        <a href=\"/joinus\">诚聘英才</a> | \n        <a href=\"/contact\">联系我们</a> | \n        <a href=\"javascript:void(0);\" class=\"legal-notice\">法律声明</a>\n    </div>\n    <div class=\"icon\">\n        <a target=\"_blank\" rel=\"nofollow\" class=\"weibo\" href=\"http://weibo.com/gifmaster\"></a>\n    </div>\n</div>\n<script src=\"//gifshow-static.download.ks-cdn.com/s1/js/libs-80cde847e6.js\"></script>\n<script src=\"//gifshow-static.download.ks-cdn.com/s1/js/main-67c1816e76.js\"></script>\n<script>\nvar _hmt = _hmt || [];\n(function() {\n  var hm = document.createElement(\"script\");\n  hm.src = \"//hm.baidu.com/hm.js?86a27b7db2c5c0ae37fee4a8a35033ee\";\n  var s = document.getElementsByTagName(\"script\")[0]; \n  s.parentNode.insertBefore(hm, s);\n})();\n</script>\n</body>\n</html>\n\n",
+      "url": "https://gifshow.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "gifshow.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:46:57.723Z",
+    "score": 0,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 0,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "unknown",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "Failed to fetch robots.txt: network error: TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms))"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt network error: TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms)); GET /llms-full.txt network error: TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms)); homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml network error: TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: gifshow.com:443, timeout: 10000ms)); robots.txt unavailable or non-2xx; cannot check Sitemap reference"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md not probed; llms.txt HTTP undefined"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

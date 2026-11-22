@@ -1,0 +1,256 @@
+{
+  "signals": {
+    "domain": "wordfence.com",
+    "fetchedAt": "2026-11-22T20:45:36.353Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /chat/\nDisallow: /user-reports/",
+      "url": "https://www.wordfence.com/robots.txt"
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGWPkTPvGA95tgbaN05laARAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdiJivlJ+NGsG6FwRAgEQgDvL9a6iEhyiMLIbZEbifa101V/UlQFtIwzhBC4KHzFsQn2NtsK/lTJBbaLRRHn+1cD2xKntDCHcyrwOeQ==\",\n          \"iv\":\"D548TwB1OAAAFDZG\",\n          \"context\":\"7pIjKskj2k6pVuZjAu7L/hl8aDBs+/a6MuUxxQQ4iqmIteBP6riiPnV9l5nRAhY6WGldMwXuS2ETHWunekwo+SATlx4Qv4iGQxA1wYe53xOGkVw+rGq+4R4P93WSibZcDYJuXgFtiQIBXAUu/4gz+RYIKrzOudR9jtXBffN4y2R0H1bn31zeDuEdi5s/xk5GXHwu3aDzGFWybZpqQzsu1I7SS1LU/ty9ZchF30ZhsV4MmYlmYV8CQi7SznWQGy5Ztga97O+4lZDic8O8sIeBvWY9VLjfYit8iA7m/dPLCyExtn0AQjUtppIUm6R8R2yzWOVhDI4qLtRn8+o3dRPgZYEotUay90ILm52lhAtrDjwXAZd4MsXJ7m7v9d9gqo2IgrdBLicHq4QMghu3lxFx3vclDHWZQBN5CUPsuCXiRmiK0a4SKjCop1YHQhftJfNzWyqSth+p8zA6KIegkgEgJGK2tWpHmRqq0PgJCEHyhPnyxqz9EmUEtyCZrYyyHW1tQ8e3K9ZDP3dzzTPvMyWzQOzjpR67bMinv126tp1wkmcyV/aQQ8WATYPIbQBNNubicQLSQL34k2NV753BfrvvbK2g5TE19lYtkub4qV53dIbI2tt+nv9Nq9XEQ5U0xOEhS9F30QsgIe8Twad3Yw==\"\n};\n    </script>\n    <script src=\"https://124e5c20ff6f.6798006c.us-east-2.token.awswaf.com/124e5c20ff6f/61401095f0aa/2dfc86b92487/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wordfence.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGWPkTPvGA95tgbaN05laARAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdiJivlJ+NGsG6FwRAgEQgDvL9a6iEhyiMLIbZEbifa101V/UlQFtIwzhBC4KHzFsQn2NtsK/lTJBbaLRRHn+1cD2xKntDCHcyrwOeQ==\",\n          \"iv\":\"D548VAB1iAAAFRU/\",\n          \"context\":\"DCCSg6Re5NJWIHGPSwI9QRQIN5cYLgBVQFxCOHoh/t5uAgTDtoo+umY/GVZBVtPFII3fHaC0XyHnbylbqX3/Bx3Qz62mjRByBq6NEzCGG0E2Aq4LNS2z4rC7+q9ZhLEyiv2HTl9NxKLiQDVJObka45oRjAAewWgKP3Wt14iRGTrc85QuTq46Vg3fMJUgfAkh74xpoTaaDKUGb9mOLGkC7E2hhF0ssPxH8pWexdY6tpdBFkUxW4MlYWP9rnINz0rKLxn2HZhR+HfG7Jp8TImQnaAWkyEDpk3ppW8h5G7cHj3vcXbT7OvteMr59l8GdfVRU/B85h/ube7QCPGB33vVDlWOM+SVDxREOpkeRV8hK+k1Xc5AscayxWKqIF3dFiUI4aZdSnNkDPB84A7I/GbCemqFx04J5gBDucBi5gjb5a3XJw4/nBdFT6tL/5qBSATEjVL/5amBF+/j2ElEVS3oFvluDVMNWoUa4EojRGd+StXp40NVmVYdvpKmwqNqO0cgsSYqY4gvsM52967PbyFK2wZS+krEUyQC7fg8GrNAmCGIRicbTkr1mr4WZtxj3/cKIMOyQrQf/lpdONsRnTcP/Zl++WrXfELPx9jFR+lE3uGCFfPT/uOsnmXOf+hGzwpM+Fr+LVCiIjSruK+heg==\"\n};\n    </script>\n    <script src=\"https://124e5c20ff6f.6798006c.us-east-2.token.awswaf.com/124e5c20ff6f/61401095f0aa/2dfc86b92487/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wordfence.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGWPkTPvGA95tgbaN05laARAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdiJivlJ+NGsG6FwRAgEQgDvL9a6iEhyiMLIbZEbifa101V/UlQFtIwzhBC4KHzFsQn2NtsK/lTJBbaLRRHn+1cD2xKntDCHcyrwOeQ==\",\n          \"iv\":\"D548ZQB0MwAAE78r\",\n          \"context\":\"SvhnLrr1lPlXewSDHH553J+DJpDHV1oSqsS7bWYzLfaiPY0z/gVmjQIcVmvT9LwMFbVKtiSn4vGUDhphC9mRni0OqvWAl4NKLV5VD9ZFZjXlpi4Ju9pXGAmhOnJjKWrnr1Mbm+eHSg5wKa9Hg9FKEsqd6lC40LBhiehgK78yIIY3NIG4Mk4uBAm9OEGkudm3Vkt2igurHr0lFF7T92nMorvcXFA+ZhoRHKvJg34gxXO6hRUC0P+rUuvY6QRkE8nFiUtRuARHkGh7U+XLvLhAoftpMRSEbGAzGlMcGRg9b57kGzv8fyaozD/1iCmlw2ExQWq6stmpozOHLt0DTzwRbIVkB8aurwpLOiEHsxY+vE9+XIEiA5w+foyMyQQLGxw4ikX3yOxkUz8E1aYMdlO3SFXeLpYxQ5NLsuiJRaH+yC+iSa/1Kvbd7Fb45CBYKK6qHI5I/nxpMrhfrzpR4izPIYTNmWggQ5Lb7a8ODboSrpPuntqsXNbsG6indsigU7k9RpZ49CS/SMBI5AHmMmHhSoJT3gL4U6cPrEdTccYJL+pqjbSXqEgLHfVKWAakM4jHe9B8AWRfpPSXIWFAQpRlItCxIKBHHrOdzk4Z3cwSs53VemPBg7ZfVq+uEkLCM9biJhleFdR5hWcqyLWjAg==\"\n};\n    </script>\n    <script src=\"https://124e5c20ff6f.6798006c.us-east-2.token.awswaf.com/124e5c20ff6f/61401095f0aa/2dfc86b92487/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wordfence.com/",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGWPkTPvGA95tgbaN05laARAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdiJivlJ+NGsG6FwRAgEQgDvL9a6iEhyiMLIbZEbifa101V/UlQFtIwzhBC4KHzFsQn2NtsK/lTJBbaLRRHn+1cD2xKntDCHcyrwOeQ==\",\n          \"iv\":\"D548ZwBwqQAAE1hD\",\n          \"context\":\"oNWE1NVyCOePEzeyGsqqpcrN2+mCNSiRxWSQP5tcH06MYUc5Wieis/C4YUqUDDEVKjGB2MQmFCBq6xFkXslPUQ2eXCBUqpqXM2SLL/9JtqJZoKJsC434QTXP+edzeG8+pMSnvs5i72D0iaiQdSMyG7/t3vZ1yBoVN0PYxvhJdE4MPaTZ65HohWhGRYRw+loLFQw2IouqWydJJNnaZWvTxCDB7TdSSxNaaLasj0L83MSUdnqR5+eTvcBMW798eHMkmYDjrlQ402Xr7PP76vnGEsm1Vt2gLzdcR0f3WtCCNs+6Oqfw/kvnCJQ6/cS3Gt/k13BZEO2Cwj2W99ethpJSbVS4zAcrSLImGoZv7OfPtZQ7yzj+cSoPKoKddovWYiNt5s0e8rL5hbxAn04hAVbaS+D0cDfVLj8/Fju0JgAn6vang7Ir9YcAFocPogVdSYBP6Nk9Vc5ypbz5vmdCL7kbuQd+dBnu6ADdyf/YhtcQqRI3SNCTZpl/Kg/sw0csNr6Jz+iz8+RmadClhgxMuBL5/Be3eLW1kaQ3N8GwcaW4IhHVOL9Qx2zArH07LQXOGkDLT64CjrayAppH+3qfAKrhpiDheRAESH9CZ3FVENshp/SHIszram2FBzWuR4jnDMWlrL8cNuPiax5DhP0jUA==\"\n};\n    </script>\n    <script src=\"https://124e5c20ff6f.6798006c.us-east-2.token.awswaf.com/124e5c20ff6f/61401095f0aa/2dfc86b92487/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wordfence.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGWPkTPvGA95tgbaN05laARAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdiJivlJ+NGsG6FwRAgEQgDvL9a6iEhyiMLIbZEbifa101V/UlQFtIwzhBC4KHzFsQn2NtsK/lTJBbaLRRHn+1cD2xKntDCHcyrwOeQ==\",\n          \"iv\":\"D548bgBwwwAAFBfe\",\n          \"context\":\"lDSpU4YBppWb8W58UDd4NS+NQ19O0W91OOeHD650EYBMMX8h8FRCRxnf7mdr8Flwf8gaCwuaqVuiMY+4HHvL8qd4Bd8ZAMZHFYzYvsK8Fgewf1B6SZrGbntxMZh4nYIinIAq59+aqOr7WT3RawQqczj1S0TloF/RCdh9CZhG4ndMEzRv2BKIy7Drs/plWgUjoXTtvSdLBUPdE/1V7HQSTFeKnC7FxjsvvD58JseCqZL/Y67aDDbqNHF88HnCzaWcSZ41esGMBE8734SwpsB4KFu8Ln3xlOJFYS3+PSywUhv+2ce6xwgWqwT4JZex3Pm8VwZiE8sWS16fwb+TF3F97a0XUSvFneDsxjkZDnru2FxyeXbxb9Xfei2+2oU2XJRnMq1A1fDG9F0WVn/egKRJqZ7vCSwyCHfOqSttd2Fgvw0WMfHlAyMIIzleJasX6UE8/Sw+QitZXwN/UyAD0U9NwHeGoauaMghf1qk6HHtnx749C9UJYvDPPwEJKWCVrFXHkjBo81nXL2OaWbEqGwVBOGpbS/kgkomJ3Tx7GooG+jqCPNUZ4ho4IgA3GpbCdNkGbSE/oniMVp8LDD9d1NbuZ5VQ2m2ba3HrGBsPjFIadJ/be02dqVrr6eBhX7tG6CHU+iPXLNJFL8roSLHwKQ==\"\n};\n    </script>\n    <script src=\"https://124e5c20ff6f.6798006c.us-east-2.token.awswaf.com/124e5c20ff6f/61401095f0aa/2dfc86b92487/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wordfence.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGWPkTPvGA95tgbaN05laARAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdiJivlJ+NGsG6FwRAgEQgDvL9a6iEhyiMLIbZEbifa101V/UlQFtIwzhBC4KHzFsQn2NtsK/lTJBbaLRRHn+1cD2xKntDCHcyrwOeQ==\",\n          \"iv\":\"D548aABymAAAEqlM\",\n          \"context\":\"xBi5kSzvYdkOV0IMOy2akep7CI/lzkMepfJhhgxg25xPPCD7FC65kKSLK+Sk4fU3eKj88exoHrqlUkmjo8DGYQmOgnJvPXEehDtzIEzM0AJzONMOCwYq1fNvOPzMu0y20vgsWIZXx16jZHMU/DMSt9JAGHf7PAXgj9qo9gXsYtzi4jgksnIIRANjAwL/X80cEHR2967KfUj9+ZlWA1hATj+eo1nlzDO8ikhK7wbG7iQJ4HfPAsP1lxpS+3nYu/JUDNENCtZxLeoZY3O80IKlM0YA0J96PXAvJ1JlIbzqC3P9SZzdbmVrv6+RjGUbrsxqZ/EG8nrF7ElZsxJv5X6vD65H41fmORtrR0DPgBWlNAW0CiMPt/SrFoO7RaExI3qdzvw16MkFnS0mL7A9pxs4t4FefKWtHsSj69J1CyYJsOQqXU1MWcMEoKKhiToSBtwiF5Ds2CA7BdJLL1msFJCo942U0DZDAJ1uDEb2V7BFyKLbkK8gB844nrQYEG5m5o9cqCCLIz7xoMhg7fIvVwijf5FS/hz+Ryg6oNxW2Hm3VgF0z8K0/Wzdu8IJdGWiBLfwnnu9ueOIphRsgRS1chW5E8/pbFaPbKpkJoaEWtbmHw23NbtLm6WsYGnCpwzyaJ70Z3GQlWb78Qao4akqpA==\"\n};\n    </script>\n    <script src=\"https://124e5c20ff6f.6798006c.us-east-2.token.awswaf.com/124e5c20ff6f/61401095f0aa/2dfc86b92487/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.wordfence.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "wordfence.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-22T20:45:36.353Z",
+    "score": 42,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 202"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 2,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 2,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
