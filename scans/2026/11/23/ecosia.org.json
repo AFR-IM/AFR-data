@@ -1,0 +1,251 @@
+{
+  "signals": {
+    "domain": "ecosia.org",
+    "fetchedAt": "2026-11-23T05:33:03.005Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /search\nDisallow: /videos\nDisallow: /images\nDisallow: /install\nDisallow: /news\nDisallow: /map\nDisallow: /maps\nDisallow: /google\nDisallow: /settings\nDisallow: /firstrun\nDisallow: /uninstall\nDisallow: /account/*\nDisallow: /accounts\nDisallow: /accounts/*\nDisallow: /shopping\nDisallow: /chat\nDisallow: /browser/confirmation\nDisallow: /browser/error\nDisallow: /switch-to-ecosia\nCrawl-delay: 10\n\nUser-agent: ia_archiver\nDisallow: /\n\nUser-agent: Twitterbot\nAllow: /search?*&cpr=*\nAllow: /search?cpr=*\n",
+      "url": "https://www.ecosia.org/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!doctype html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Ecosia Firewall</title>\n  <style>\n    body {\n      color: #353535;\n      font-family: helvetica, arial, sans-serif;\n      line-height: 1.4;\n    }\n\n    main {\n      max-width: 700px;\n      margin: auto;\n      border: 1px solid #e0e0e0;\n      border-radius: 6px;\n      padding: 0 25px 10px;\n      margin-top: 20px;\n    }\n\n    .error {\n      background-color: #f2dede;\n      border-color: #eed3d7;\n      color: #b94a48;\n      padding: 20px 30px;\n      margin-bottom: 15px;\n    }\n  </style>\n<meta http-equiv=\"refresh\" content=\"360\"></head>\n<body>\n  <main>\n    <h1>Confirm you’re not a robot</h1>\n    <p>\n      Our system has detected unusual traffic from your network. Please solve the challenge below to show you’re not a\n      robot.\n    </p>\n    <div><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'Bv6TJ9xgjkibyXfOsGKAWnUXwPWZNHy.TlrKOsh1tNo-1795411960-1.2.1.1-c2PvXfrYtQsYncFcCEjWUkOrnonFLA2v1LOKKNwSqNo4qH2hwH.6mfZ74emO9_.O',cITimeS: '1795411960',cRay: 'a5edcb719fc3b4b3',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms.txt?__cf_chl_tk=jjHhM1sF_QCj9vwj45SY8.1JzVZDM8SmzE4s1t2qiqE-1795411960-1.0.1.1-fRWLPwMDDSPAgpK8lVIVhgSWAnp1f8DFmeJj6G2dzL8\",cvId: '3',cZone: 'www.ecosia.org',fa:\"/llms.txt?__cf_chl_f_tk=jjHhM1sF_QCj9vwj45SY8.1JzVZDM8SmzE4s1t2qiqE-1795411960-1.0.1.1-fRWLPwMDDSPAgpK8lVIVhgSWAnp1f8DFmeJj6G2dzL8\",md: 'vDu8NNBOJF1BfMNACtwFqoiCg6hUpoMitZF9ettJFYQ-1795411960-1.2.1.1-cNB0GDjxKg_BcTpb84Qm959pbXaWCs9SdxfCQHRWQFC0FrIwzSgciyez8b3hf7Du.79EKvYKdYhBuSl0osbxD9edzPQIasyBetHDU52.SmwOFtolCXNGaUxsjyXCeDk7MYRZUNQGUY2Vsrot8ySbmpCsSsf5CRYd3H1zrJVytrfTXxVVBELZjODMTWM2HbMLvKGjL.FRfOU913HFy6YR.53ypTSBTPfXVOxhe1cExn4R8j0rZKM8g4ETMu.8s8ar4LGWO7uHGTyCkxGv6dXnZjFaUuQZcb1w1ZiGaWMCJ_7P3WNadaBMwcYRZzHwPsOyoiqw7sbU91r76UIubs2u31RrJk5U062kMepTxAAZuoJkN3lTZ6An6E4VWOiqQfOVHym38Vsm6q91SQie95wOxjsXvxTc3RQWXDxR3wwM9bncy2ZAGnjv9tg9Y6aRsEq1O0Ha2zX_6AHufAYIKVW8KDwoPNRqIx.AyIvHfVieAfZaAlC9o4g85dz8QDQ.z2WSntQSaatErYKUHkoc_ho.E0UTXx_Gy3dqDGNhIWWey5_VXv7au2ugWDlL7QcAImGy93_uItKIFt1NR_UZrc.hWvMZCNmWdZi70w8cqMVOW3HXDLou3Vx.l.j23eRfc.26fPEUvQlRTm7tiOZdpw1dN6hRkkhJHiZxqxFQOCxBUsFoflp.hwdzHr7umvZpYf84RUF4kR3yC.Jxd3R955jEliKGDQ5KWwbNfWWt0hjOtzYrhfGWhxPCA0sotBcd3jqbYh8Yf9do8..GJLPeSJoaTdZKVZVr_59rk7sTXF.qylLa7aJp_uyZSUggFdwBNcxY6tB.DNQj9ZwJWmWBRT8RfQ8ZeilGoCGUiVVnGdYHAveetCssEXfihdEsl33ou13ctdxrVATO0SX9_RBFdoNjf3Fox6vbFo3S8Qse_zxtvJkskogTxgHtOGduAEvO9TLAmYRNBCygygM2x9mi6hS7XQN3O0YJcxWxsuPbcl6l_InXlz_4nxDKejFM1juARoPQqKJtUDKqM4L1wcXoHj3aPrz0tdVarMQWayM7_1YtYCbU8E4y7iLLeO0Dilo2TR0.Y8sTBOe.5qcDQr29ndnszU4LW7mts3PkgNJ.LG2O8c_U4lwP.nmlXwLGNT5rOtJkS5HF9tIIkd7ls8ARRstbltXthw7aADShsDWbzr.Cb7.kk5PtpxiF18ILA_mtKArd7qd4ofmU6Bj4QYUG5UAiNQWUJn1ZHbYr6xlOuCIhtJ2CfaSZm.bZKvzLuXQTAGFS',mdrd: 'FA8T8u2fj38k4kIMVJlYI4oFG3Xz9t_huch62zrE.Qg-1795411960-1.2.1.1-Iz3kuh6N3bE_WPC12WVm1TcGVyFzvh_M_25cXaKEVJP6990PNhdDH2y5yZMUzDzHFZ.m4NIf9RN6tDK801p4zHrJrUXZ53_Nxyk1W2FqDSCR_RWPIxkeyjsDMYcj8pqFGv_tJhKkwQVyrkdpRgZa0l._DBAiuEbI7ByvZsDLQYIhE6s74ba4RfS.2my.8n1rQ7q2Zzu_eaL2e_1FBOqEDNI4P9IWdTc1h77RXq98IvwxfHpHe0qq_UzyDBubIu0zDgtaY6U65YwtDhCwz1mcaLQ3AWXWEfzq3f6bJKCVVzf3uXUua_tPJ6B6rCmNp2rb7KPBNK0H9essReDxzhBYcbUxx1haJHVmMoTmjg0iMDAbFXYo8.pQyD28.0u9VQ_GRriqwcmqVtWg6sv2sVN0sQ',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5edcb719fc3b4b3';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=jjHhM1sF_QCj9vwj45SY8.1JzVZDM8SmzE4s1t2qiqE-1795411960-1.0.1.1-fRWLPwMDDSPAgpK8lVIVhgSWAnp1f8DFmeJj6G2dzL8\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>\n  </main>\n</body>\n</html>\n",
+      "url": "https://www.ecosia.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!doctype html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Ecosia Firewall</title>\n  <style>\n    body {\n      color: #353535;\n      font-family: helvetica, arial, sans-serif;\n      line-height: 1.4;\n    }\n\n    main {\n      max-width: 700px;\n      margin: auto;\n      border: 1px solid #e0e0e0;\n      border-radius: 6px;\n      padding: 0 25px 10px;\n      margin-top: 20px;\n    }\n\n    .error {\n      background-color: #f2dede;\n      border-color: #eed3d7;\n      color: #b94a48;\n      padding: 20px 30px;\n      margin-bottom: 15px;\n    }\n  </style>\n<meta http-equiv=\"refresh\" content=\"360\"></head>\n<body>\n  <main>\n    <h1>Confirm you’re not a robot</h1>\n    <p>\n      Our system has detected unusual traffic from your network. Please solve the challenge below to show you’re not a\n      robot.\n    </p>\n    <div><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'b07iXKF9rnBxBIqaZxEikBVweejmRLyrkShMHc1qCgk-1795411963-1.2.1.1-biBQCDET9igHL68CypUXbaGkfMffRJA_uSOR92_0pVKaIgrPltYZQ81V4JqcVHm9',cITimeS: '1795411963',cRay: 'a5edcb859db70ab5',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=GSS8HDY8JjufUjG56e.cIhf.4M22JdXHGxTHJIbHDDw-1795411963-1.0.1.1-GCt.ogaGXMGfVG3xwrGYLDWkS060LRx_KoBGDU8YEas\",cvId: '3',cZone: 'www.ecosia.org',fa:\"/llms-full.txt?__cf_chl_f_tk=GSS8HDY8JjufUjG56e.cIhf.4M22JdXHGxTHJIbHDDw-1795411963-1.0.1.1-GCt.ogaGXMGfVG3xwrGYLDWkS060LRx_KoBGDU8YEas\",md: 'IrBn7wT8iyV9HvrJhapXBuTEB3A25Urxx82Zu_BlrJo-1795411963-1.2.1.1-hV102RkkLw5ctbvlzxudmyFa0889HT5HrHEX1_Fs4VOkmg50piJMlZaSKzSSogpAxmOPGR4i0rm6lm7RYWSvZndO1LXF37ss8WmNqGZz1A7Ke9Ruir5yVZJOHDXn_DXZGCnfZtgLmWNFaW8SVjx1zbOR4IR6fWLCDyYz27W5z1TBpnu5FnuQm0eB3mXYgKQgYGh3GuVVp7UPloW3nMVdtVT9AGHRQLU7DqsZtc_hMq7hmlIL5LnikBjRZHJtcDzenfP0PzdCHTqjl9x16d3PG3DjQpr.gihSA0K98SAQ_P_R3kaeD6Eveq3fEzNabkv4vEMdNXpgU5uS2YWMF7J8m3FzWYy0eCgXYyD4wNR6J87P_Bis3O0uO98djXdg9g2wjv2n1SBBqbuNfrL6ppBVRvai3eDTiByZxDdZ.WEye85QtcFW1gxOfcP96_wfh5CItHP599A2YER6R97XG95qMGZ0_d3mHrtnOolW0nPNFQ4HipdmaYvv9ZSEFBQY4bT4_VBPuzDunvqe6art7JJfPL2BpAaUijbAAZic4NlJ6DJmYjgqL1ZYvRed4_BEQqy97Y58eOPI8OoKh.uUGGC6v2V16yB0vWzCSqZ6n3xYVxS.AFPy3IY_D_tACayWcAjs5aU3BD6z.7kzKHb9ODyKUk6wrlr2aX7NPpiV34ZHUvn5Ddb3H.M3YI5_.EJvvq8BW8jqYUeZNzdA6IsFhDqA0UJQudqAA3i0SzYlCUio6Es3mNKMuQCGB6crvnfIN9d4T_dhif3Y5vWA.haYXS02zTKz__Pb0twsfNpQhjaPYWXZmUODZiPXvR.crak5_xt_mf5m5qyl7ObwjSM8lkktZ2Uq2bjbM.GAZU0laUMhGlEoCncfZ7sOA61w68e7NyMlrJYdh27klWw_cr1KLTAPgwnL6Rk2STjj2VFx01faCwh39cAUFZGbuFbKwsHlkzzpR494ynbUccXPLMPcJVI_8IGhyL4pQBy5pwEz2fCoV9T38KDF2YSgDtnsw5YGS50eS2_MmiSfBgy8WL7zq7jJxcl72twB4GZoCAxcHXb1JmXO6FpX4JfJIlqzwOLf0op1QvtXV89bMHz7RZ1dmJutjoiFs_BZBPEPNueWKXIpuxgU92Uy5M3Vh2eaUODHXiEx0Q4xG_UcBi8CaaYjI_Jq9hSsTKyoCVlTKxDme8HaNNpsbDJ2wyjEGeeS_zBeSLVr2ijJNKSm4LrFQvc7SjjEs1kf5PtFWOfk276OCkk3EeECSKe_YSDj5waCS4sByvGw',mdrd: 'jy0vbXCcT4uqkiwc.FLa9Cbqgap9ekAZ1yHHZKSbLfE-1795411963-1.2.1.1-rQM0P_rAuFdA1YRuft.WljWhPgGIZrhWFpMXLWMBqTHo_YDVWW5DysgY0ob9YdarIrq2niybIUjoQDbyNiXqvyk9jwui0aO70IEDrebGsWJezqyT38R8lVrZK5lEjCfTn.H.iYkbvB8GBXDRe3bdfwnlhzL6MIQKtKDMYPvn.9OW53Qly6kPADSZU1rdbyMNUnThxNtK5IwF06JkN0FR4fiJb8FgYXoU3A7lmPN2sWlc9Fz4.TQbmP9S0FynBDM.v1du5_61S2L1LCG97xSXLG3c39BmnM.uVYKodyEdNUOaNZbiyTMWV3IaD20YMjBPaKHMjFED2OxU4QFL9VwAcvmIjtpfAyyuzHU94x8js7A.EZErPMFrQiTTmBmpOR_Pk1WLyjpwbUuHUT8.hBbqdeJPoQgLPq9odQF7_wYDDA0',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5edcb859db70ab5';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=GSS8HDY8JjufUjG56e.cIhf.4M22JdXHGxTHJIbHDDw-1795411963-1.0.1.1-GCt.ogaGXMGfVG3xwrGYLDWkS060LRx_KoBGDU8YEas\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>\n  </main>\n</body>\n</html>\n",
+      "url": "https://www.ecosia.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!doctype html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Ecosia Firewall</title>\n  <style>\n    body {\n      color: #353535;\n      font-family: helvetica, arial, sans-serif;\n      line-height: 1.4;\n    }\n\n    main {\n      max-width: 700px;\n      margin: auto;\n      border: 1px solid #e0e0e0;\n      border-radius: 6px;\n      padding: 0 25px 10px;\n      margin-top: 20px;\n    }\n\n    .error {\n      background-color: #f2dede;\n      border-color: #eed3d7;\n      color: #b94a48;\n      padding: 20px 30px;\n      margin-bottom: 15px;\n    }\n  </style>\n<meta http-equiv=\"refresh\" content=\"360\"></head>\n<body>\n  <main>\n    <h1>Confirm you’re not a robot</h1>\n    <p>\n      Our system has detected unusual traffic from your network. Please solve the challenge below to show you’re not a\n      robot.\n    </p>\n    <div><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'c3FrTEHGCyBhP.u41Av5cuK8UYnptsv1ec9a8Y2fAJE-1795411966-1.2.1.1-z5yOzNeXi1rBs9dbKdCi7YphSzIlq8DCEru.TtaGG4Anq5pGz9XD1OXlX76Ad8DI',cITimeS: '1795411966',cRay: 'a5edcb9988c5806e',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=eDTsb29qrm29jIoHey6izvOmVK7LQhCGtfQ1fQJyZrM-1795411966-1.0.1.1-NmYGj2FjnarNPUEoXRBviDYMy_gVNMF9ab9pJJ0aON0\",cvId: '3',cZone: 'www.ecosia.org',fa:\"/?__cf_chl_f_tk=eDTsb29qrm29jIoHey6izvOmVK7LQhCGtfQ1fQJyZrM-1795411966-1.0.1.1-NmYGj2FjnarNPUEoXRBviDYMy_gVNMF9ab9pJJ0aON0\",md: 'tixt56JD6KnW0JvCTuVYT4oQ4tKnEaFyxbpAkbFr0OM-1795411966-1.2.1.1-Qv3pl0ZiyGhwndyiWes0cRbWcD_IgxfziH9dDxRVIv7J_dISY0X_NtJcUcVFqN.bitK4C4u993bU5bzDnF6aEzGGNFFYEGn1E2ACMHCLw4lwyIf1Hp_5IQ5XUOcMZYEIP_4k0KHyvX7VQ420ecieVzzIdpH38uNPPSXhv1rbaBru.hpPzOKvaJf9u_..0T_0o6F9tvneH3Hdtimfs5JazqcYu6mXnb1ULcwM_lJcO.tPJy.qlgsZhqVeUTthsQ9mdiGHbBuzLSLz_Dw1THD2etF7dvTXgA0fau5f.T80g1De1x47NyvcC6BUtXP7xBYeHNTTbQb5YOgwyTvMtCaS5y7wA25R12WHkCRR2lNxjoN30ImpwdXXOro_JA3rqGyzXEA64noVCcIpVWTSX4ctgnViRnML46qsz6eF2fRyMTbnmeO2pJv4zgs9veJ4kNBUeiaXGyPHiLyLVy.cZMKkiFx99dFSyBWyy5N75sga16rXBivk131l5clhCC89bniWdIpweIX31AbCGpaoMTMEMrkjVjzMv6_x8OKQ3rDYasVQ4iGHHsiC45_LsOYnus8emB7.eFNJHuSCQ4BhCPCkPztjUF3a30PbvElgGJFXgFxpNzp8oMciYCVpAiyopVES70.kzJYJuJQBgWvfWO5Q6wlx.3.scBJfUTWwBoSTXdrYnXYJxEhbrSR5GJQx6LLa.4AGWLLDwsysCewLQ.F9fBCfSDhkAVDW9c1zLu_R5P._fEIQmBWA6QacqRH4GePjvc8.lv0RdH9wHWJDMbjP9Qts_IqyqywjGRAtDQyigYLKgrWgpflIO0uHbnKVcVcXAgPA1Ruz718Rf5VgLryOvM1CoIonJqpZpMkkFuwlgVuYv6fBmPKyCLe5njAlXw6yJ7RdH7XXu5YAk6Mn6pmjkmGX6PtDal4ju4QVodxGvvHhSwZBBmRZsO2WYYvdU0DGB4QnElxr1q_G1AeiDTgZjgmVJNd7MfTxv2nW9yNvevZij69U5oniF6YUQiIL_a7berLLH73ZtMoDUbsIfXe_vGuQzgvqGq7UQQG6Oth7R8TFEWp7bjZA7sdjzuX_qZbpW4Gf14pPA5Vsx3ftZZcATFzLSmMp0LRjnxnl3HUe_HwNdbSNJUuS6pnBdDbkutPgdC1sEsekK9cYquW4CdlATTAdJV0tUsXWPspByspjNQ6jcpMdHsXRoWPq35NMHht9hYA7In0xe5dCWT_J_u6Gy4awt_AZRm87vu3occE6N3w',mdrd: '3uHH.rMvKU6sZSa1dsBWB1iBW8F12M6G.2jZtw_uVEc-1795411966-1.2.1.1-rGMGoIRtGCr8TEAXO1n0CgY0G49u9HBYOTGKfW2cz_e0KNU5KHZJZ6ioZcFFC2nBRaEUe8b3qej8eRxOKTgw4uufNEQ_G_2Z5HhVYJ2LPbm1TZzKh8mFfePkQHe3ScVxkA9EQOkeEdUJ9nx9DvuKe8nPgqdt_i4KN9kGX2ORuL5EgGEzfdqgFwix5TxWGHwgwGdrvJmn2BhGcvuH1p.uvNLzTjCdfLmd6J88fyMxSJ3PQWRkBZJvDfYhTsskcPQS1GTWV8as.fODS3PdIGeib53Wpq3uiTZ6cXRvx91J6lmWbflnZiTJLOJfxN6TORG80ZmCqSQVb40IGq3iPvsEIxxX_Sjc2XtnrLQiOa_jus1FdnjnvnsEk8jTGlcAsrpufxy1r8uTGVJ4EMBv7_pOqg',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5edcb9988c5806e';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=eDTsb29qrm29jIoHey6izvOmVK7LQhCGtfQ1fQJyZrM-1795411966-1.0.1.1-NmYGj2FjnarNPUEoXRBviDYMy_gVNMF9ab9pJJ0aON0\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>\n  </main>\n</body>\n</html>\n",
+      "url": "https://www.ecosia.org/",
+      "title": "Ecosia Firewall"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!doctype html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Ecosia Firewall</title>\n  <style>\n    body {\n      color: #353535;\n      font-family: helvetica, arial, sans-serif;\n      line-height: 1.4;\n    }\n\n    main {\n      max-width: 700px;\n      margin: auto;\n      border: 1px solid #e0e0e0;\n      border-radius: 6px;\n      padding: 0 25px 10px;\n      margin-top: 20px;\n    }\n\n    .error {\n      background-color: #f2dede;\n      border-color: #eed3d7;\n      color: #b94a48;\n      padding: 20px 30px;\n      margin-bottom: 15px;\n    }\n  </style>\n<meta http-equiv=\"refresh\" content=\"360\"></head>\n<body>\n  <main>\n    <h1>Confirm you’re not a robot</h1>\n    <p>\n      Our system has detected unusual traffic from your network. Please solve the challenge below to show you’re not a\n      robot.\n    </p>\n    <div><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'Aw3iAjRV23r3rfLjLl8KjFvhMjJOQPlOvdHIAG3QwQs-1795411970-1.2.1.1-wCBiPr.AT6ppTCuaPNDS3UCdho04RTQi47IvK4hQPPm4oi0rNareGExpbTrg3AXS',cITimeS: '1795411970',cRay: 'a5edcbad795155b8',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=NcB6Tm02TKUzvia_WzOfmMl3CRsto4Uay3frb1n20D0-1795411970-1.0.1.1-ncdpUVx0IOnrDLCGLpwbtkCDPQ0GDXeNxR73t0nrlj0\",cvId: '3',cZone: 'www.ecosia.org',fa:\"/sitemap.xml?__cf_chl_f_tk=NcB6Tm02TKUzvia_WzOfmMl3CRsto4Uay3frb1n20D0-1795411970-1.0.1.1-ncdpUVx0IOnrDLCGLpwbtkCDPQ0GDXeNxR73t0nrlj0\",md: '3FfxKL4RwYSaaU5eLBKewSdEFzxkVAvX4iVPLPmDTmE-1795411970-1.2.1.1-A8Z6.oGcabOQbG8rjWh1O_xMAxYi_gQrgBODFBklq4mZ9lxK6rO31zJyVNHxl_MqT3soJBjXQRmSyaLXuZbJJOZ.bsHU2bfo_7kcSei8j0HEn_X2SkmcN_A3A59U7BOH5zKk897oiZ5XfExGdyGwQ5ZfjOx6FPO4skUL8zAVlncXm8yQRDK_YhmHCJmCmFYTisbfP8AJyGbopJrmnxCpSOLntlffOtuuAWZo475jye3G_Q7pxBzL1VToBOirvBphvFs9ia80ywzxgiclngMJjz0AAA9imyDQSxWvzmN0YDdrhxEC.1dvzQBzccYf1IRUzWOhGiI2maE5mGKb_yPgBmE_BZ7Fo7ZSDt4ZYPjPHdFTV.wYbPi1VlRV4WIdk0OCsjJeJV9Hv05pgqlAfi3Rr.6xveIHK5DdLft.4bLolmd5zhAwH7rTlj915edDGe48AKOUzGTMlnfZBpNhT0_iXtUN1NSVDb9UKsiZaZ6rPm9i.iKGyDw9M0HOguYeiXiKbOVabTap8qHv.qAHEvHy7.tPoWg223Pp9L1ftGWolcU5HPJ4y9irB4YuAWhVmdfyHAK4PiKJHQp6GMbzS_ixu39BO_JKqG6ul3rdzVCft0wxWB8Sw2Ox1rfFFs0YPsU_.eWAqt0xf0oWO62c8cyt6xuAp9bGZGObhFxhonx3lbadDsqVK_zaeJ.69L4Qw3M.9Gudr2emQ4r3VNECTcVXLQR9BPkU_OWSgb4ghWaf69lFoZW..WzcAxsc2djyAlf6AyppgnYzHgnbnxlzMHDQeETEL1UhVBFFMgJaQQEicmI34e3plnWT__L.Y86lWGMEgJVaQQyDGZfV.aRfJHqN2PxWYGsLLWtGOXTApKVxvdbJWJBhsnGFZKqsLYX8KDZk5cuVITtWOhygfqDWpS7boOI6jtYx001AodFkg5KpDso2o6KytsQ2P90Ms1sSXLRsxBWMirSsdIB8TnYYw2abpi212Ty_7BGWqwcpKqT0m11jW91X84gxh4TbUjYY3BpsQHKq6._STA6.bBxWAjv8pBhsYX_tUTndOGIMm2DXOzCB.6Yxs0bVOaj0rPpwn1HwHwwpkS4hMwIm_wyUX.U2u6Lm7cocxs1aq3P4b7DWR169dkZUqsNZnnCA9W6y1H3PSdpOSgNZQjXzQAl.FU7E.sMBdCqQZTp44G8cBT4AWmWefe1jKehQaKEVS7qdys9jyT8UMDhAMxm.QE9Lt3qTHk6LQ43eFjR53u6UfzJoxvHN67Xeaokv1xc.DsUXjyUQ',mdrd: 'BcFwot55sNeFVSE.Nc4DGuTS7Ea9tJjTaYnMgRfX5Gg-1795411970-1.2.1.1-mhjpR5yhSMYRwphk8UZQBCLm8OgNeEkG2hxKxTok8DYg8sKL4qOHIcqsC56YcjWyPUUz124MhjAXWmVQysPF7qAJzJEHAf9XReM6kyb2TyvF_rYELburKMMNcyWRYgpM5tFV1B4bskAdDlia6AL2qRMa6LsKH3kNSEhKmldTdZ764BZs1510bUWcQkx8XCJf.Uxp6OT6_4LmZSeAwUANvdsn4is908jS62Bcwy7bqt5KNX7VlRl37fI.Zz2e_73FwBqRvYAk4KK6pe_P4dJUr_Ivaj6TrVlBI3HUevgc4eXhirf5XNPnJZdPnAnT0Etbh7CQ43l5XJGZL5toFizGhFxKfTr8tvRwihjU5A5wco58OM7A3.tQCu0LTfCH6DFcNuggYnFrkC3YsG7cMZCykQ',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5edcbad795155b8';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=NcB6Tm02TKUzvia_WzOfmMl3CRsto4Uay3frb1n20D0-1795411970-1.0.1.1-ncdpUVx0IOnrDLCGLpwbtkCDPQ0GDXeNxR73t0nrlj0\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>\n  </main>\n</body>\n</html>\n",
+      "url": "https://www.ecosia.org/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!doctype html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Ecosia Firewall</title>\n  <style>\n    body {\n      color: #353535;\n      font-family: helvetica, arial, sans-serif;\n      line-height: 1.4;\n    }\n\n    main {\n      max-width: 700px;\n      margin: auto;\n      border: 1px solid #e0e0e0;\n      border-radius: 6px;\n      padding: 0 25px 10px;\n      margin-top: 20px;\n    }\n\n    .error {\n      background-color: #f2dede;\n      border-color: #eed3d7;\n      color: #b94a48;\n      padding: 20px 30px;\n      margin-bottom: 15px;\n    }\n  </style>\n<meta http-equiv=\"refresh\" content=\"360\"></head>\n<body>\n  <main>\n    <h1>Confirm you’re not a robot</h1>\n    <p>\n      Our system has detected unusual traffic from your network. Please solve the challenge below to show you’re not a\n      robot.\n    </p>\n    <div><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'wOvgspmIhVrNMgQBT87ETtwgGCa9.ecNsQXhycKMzn4-1795411973-1.2.1.1-_8kQifcTI5r32l8s9lvZDJE1tCo7u78D2.QAM_C9BdND5463Y7D_LCMuL8v9w7Hi',cITimeS: '1795411973',cRay: 'a5edcbc15c4b07b7',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=218TkLWq3oNJSEsQWKj6fqPjxQAEOM2YNwC0TSevFYc-1795411973-1.0.1.1-IyX8dq.YL6vRPRhaH_FL44.JbAxyxmp43iltCSWeL2Q\",cvId: '3',cZone: 'www.ecosia.org',fa:\"/agents.md?__cf_chl_f_tk=218TkLWq3oNJSEsQWKj6fqPjxQAEOM2YNwC0TSevFYc-1795411973-1.0.1.1-IyX8dq.YL6vRPRhaH_FL44.JbAxyxmp43iltCSWeL2Q\",md: '6VaM7HmupowJIpody5syjLbzXiOVNjb1jtfU2zU6eXs-1795411973-1.2.1.1-BUziSHow36bsbj3LjtFwuVjPDFBJGGeF_19ib7Trtugocp5r4TB5mO5cdje9Gcj2zNnegSwC_.AMaP3eKXKn4u2RP20lkNFgA61fakfOY0OJfaQS75BCIUWFk4I6CnobEY84.7.BFJqUdkmOV8.8UDfk9bN_UG0Pu0QvyHZ.VKnJeP.efP6oqfuTgmfTD0Tlth7.Fk5KqhPzkql_zFx3QgVMjKM98TLbFVpLVQ_2_ZGaPNo_HkksERMGxAeoSOESzIe9giUV0hNCHojIqf9m6pTRV19P7b3Xg72.meXwdFPqGNWGGFn9qdoxLGNjN30IVZXE7.Hsh0pOsu_urL4yJKZny.SIfR82EAc0LoOY0nrzBWgrpobLXr_2FFMN98oN2kQHsRYBSeOJOfB5JTsl0VRK2uRTecPp4Jpvw20r_KXdsjC9gudLjJp.bXoCJxR2KXRIPbtDAavQZ_OJg3PNpACH06mA6hoXO9KILiJX2StSsi8WwMHHoVpSC8aUVSCZwKe.TyDStZeEeSBWD9o9Yz5NpyhHtX4TZkwq2yw2QkgkEJOpehVSHCr2IhsVKV1yI9WZusWXKNIZh1O6caxlm5ZXfgZvoFrRHo5Q7.F9AMv651H20PbG38av1tUj0uJLQ2ffGk4QrT0oiUxLpSsRRCqtRRAHBUtYk.sj636s8MPQgOTHjDvcNAvpW45xa4MHOH5bXpAWrydCPfA3.0aB1ECNYJ9OMwzUI45v3.qCIMOHeU.QfiNi7zR.SpmiK7LYSIEzxlaKLNOseCjguoeAKIQb3C_J_6a_0Fq4S98HD6ta82cTkTCmSzPYBl6KEY1j_0bANlHIYdYR3RYGn1AICP4z0FxA.UsQgQ3oDKCLYUBUh7b94SYmYg8yyXOLF3CX4wVAezRG6Q3JaDcFl1KbjNpK6Wnu.rOHevkxBWhdcJhJtmrZq_GOu0XFvPfGLI2z8ztgk45wmNRxwgsJuJUSe0OcZfCX8QZ5KQk7pDkgxZnD3OrBR_gVWCMcLgNRdQWdgF416weEByEITGDFaCq71nyQXGmEKvJV5qS_YzFOM1aqtPonXshpKEC9NzjuTjTs0kM3wIYNzZNgeEVl5_RYQNyYavUCFvkho06DsKFs7Ys4skKuW3ufdygoV2b2Q9ZM4lj9.R4nsSp1f19hve3WuJapHJTx9VXJtLz2IlMoO1b34h1TUUq7Tm66FmxGypXAteadFXahJjwgAFtbKrbwMsnaqYSpKqDf6iT66pAwYDXktIX3HNi9hOFLQ9eceRWY',mdrd: '87REfAUu.laDC8cYRespfyk9IrpFwZDWvPqcZ68tm38-1795411973-1.2.1.1-CK9wlviGinyHRtELfBQ_BleP_VXpj3Mol4WfJmjQYgrWjAacCQt.RUhHS.37Jxq7OJ.pitQx4ivTvMFAYbGLss1I6d025cTMWdQu92ny.OAncJ3fZf_Kb654bzMI4H3F0oGeDUJUd9n37qHO7kt88B5sDhGiOvSvCjwj7uvmLGhlhyRjoWcXef1CNYa.ETHhmQXMXqo.nDu0Ue0aLBs6W46e9577J4VrYkxpD2oxhuquE0QKLatsvpgf3uB_LgnD_FDeUzoWMfZxo2hAobugiwgDInt9tO59N6PyIVmwAyeEoEEn.osJzXBeqpwVuJ8Hza27XOGkYn.t4xi07Lj9A14Q7eZQ0j7pkhImRn4HI5fgkD4D7D9RAmY8el9eaCFpWfQrUWCMORh5zJOdqRHEfw',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5edcbc15c4b07b7';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=218TkLWq3oNJSEsQWKj6fqPjxQAEOM2YNwC0TSevFYc-1795411973-1.0.1.1-IyX8dq.YL6vRPRhaH_FL44.JbAxyxmp43iltCSWeL2Q\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>\n  </main>\n</body>\n</html>\n",
+      "url": "https://www.ecosia.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!doctype html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Ecosia Firewall</title>\n  <style>\n    body {\n      color: #353535;\n      font-family: helvetica, arial, sans-serif;\n      line-height: 1.4;\n    }\n\n    main {\n      max-width: 700px;\n      margin: auto;\n      border: 1px solid #e0e0e0;\n      border-radius: 6px;\n      padding: 0 25px 10px;\n      margin-top: 20px;\n    }\n\n    .error {\n      background-color: #f2dede;\n      border-color: #eed3d7;\n      color: #b94a48;\n      padding: 20px 30px;\n      margin-bottom: 15px;\n    }\n  </style>\n<meta http-equiv=\"refresh\" content=\"360\"></head>\n<body>\n  <main>\n    <h1>Confirm you’re not a robot</h1>\n    <p>\n      Our system has detected unusual traffic from your network. Please solve the challenge below to show you’re not a\n      robot.\n    </p>\n    <div><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'f81xMPa0zzZD4yW6PiH8t06jS96pW1vZVvNAh86SNOU-1795411982-1.2.1.1-x5sntkNRpDJtjydAW4iDzq3BgHWx5uKvkRKCB0NJqO0di2tN1j7IUBFaKxJEpOcl',cITimeS: '1795411982',cRay: 'a5edcbfd1eb61974',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/ai.txt?__cf_chl_tk=Ly3ykz3tvaNseEGYwcjweWJDs4ZYpQLFbEVCp3mffTM-1795411982-1.0.1.1-KhLcat6eVbwgrlAEDMH7LYrJeW6RPrb60ZowwT3ZBgU\",cvId: '3',cZone: 'www.ecosia.org',fa:\"/ai.txt?__cf_chl_f_tk=Ly3ykz3tvaNseEGYwcjweWJDs4ZYpQLFbEVCp3mffTM-1795411982-1.0.1.1-KhLcat6eVbwgrlAEDMH7LYrJeW6RPrb60ZowwT3ZBgU\",md: 'CuTk48TKZVVmrGhcJ4_74uuZTtaV0KLKwBgo3bahdtU-1795411982-1.2.1.1-ehgsQOHHb5387TmSWRUr_kNQZBO8k.St094eLzKlRont1iktbnZH9dDZepXrJRUOc8zKLhind13TsDHKiONyGWZCb6ePmgG4NG9yZEaCJlxJokzG4lWHvO6OVPSZht1C6S2lsFkEJHguDNEplVW.FNCDOyjZSveJD7hfBwb3TtawBz6mNbrObRx_0HP2dSq_DBGULF8yjF8aLNofDBucAgQ_p9GE5_LAE8.Sfg2ikYS0hN9kuZQxF4pKrSXycVPhcMtDc7LJfNZgan3iG0goLK6jcLUxJHaTaykuaSRj8unBk4N2Q6H4IjmmMrcd_iQFtgt.sDNoBOKwk7j9nXP5E6c_Zia1TKNytjzGymbgcrS4fT8ltOajF4_1WZ0xAPRZXtIBoEuZiG16ohgRNykModS4mTAq.IRTXYpZI79vXF6ivxVfKPJtQxgQG1QY1SNbLxGEHwGUFBDuhRt9mDLlKEF1LRLEIOpOGQaflLSDoO0cvLHGOndUf4L.pVLWRZUs10v4OPcigENxjSTOvWGFYaJ2D_5RjfcWrYX.94g_9CjDeBc.JKZSrCQmIbkZfM8lnaCO34fd5BV4go0u02waIE7RJd_Q6G0HvEM2egyVpEteoTBBhkyj2Nra2qlDEooipKIoRQOBWiC_24DW9NhERSYAp3DXSGqrXtwaaMo6qB9yLMeT3RXFSmY3BGuJZEGdaerSKJmWcpuYzZtwif.Wjj8i35AjNAEE.mCTGy9yTy7sIuj7GQVbMFkSpJIh6rfNi0ee1CVjNYp7bwwwrrWkkrQx1DM1rTPRK1r.yrveAugjl_V2iMIF873JkIvMIdjj6rkYWsZgPjGmX91RlpTQFc9USkgiUCMF2ZbSAwcgnBRt7qkvhQbZao62yLOaOr_P9F8d_GJB3kM14eEdsz1K1NKP7Jm0YTtqGx1fVOk5FbHhpB90w0yiqW6lgvL8_kixf4kUEMrV0ewx.7_grnXpXqjwEzqa00PqI3Tkwit7hLq3sfa.24S6JfUq3VrSzyMNan84zh4BJLJj3wM5b09Tu0AX79kz_4cKWMlCOWeVFnnwWTM8hcYTXGCicBcB_WkDrsphgDBGdjC7gQOroq3uP_xi_HLFswx1.bQ1Ssu0_dNVaDH01dVxbD_uca4IZTGJUFBGkzHJSLwbSulmV7fCoTzB2qKWmp3IMEVJvFCJUWOZJ99EHnd9uizIspYA2HDxyFiuG366rY2o515rek3MIBpyILr5bvK3DwPYgTmzz34IjD7ZdXqMa7IH6La1uuoz',mdrd: 'M363uvtBecYp3sUD9Xz9N6jMsjq4smaAVf53L_fJC_w-1795411982-1.2.1.1-VLaAqavcyfvbfNg0UNzM_vi.YMvvt3pxQSK60VuYXC2y4j58i5j1fYVNox7kCQLa0KmIwYQDf776MFCfopt7gLom6c.uK3sofWNYLcXvumHK109Cv2uqJAXcabPNFBYXdJPb9q39979.Ev5gLbibW3R6OYyyhRHP0sGn5JZMkvwQAYNUAZqxNJOF.RaVeubRgK4tcpRRzPl5n26qXf_3sqqmb1fq_V98oSrasxW4sBW50DSEcxy43c1EG2SMKxu4WrJVpjkJUemhuu..pA9EPBexhMtOJQAcREFM9mqynRC3tjd32MlI0wk1eQh.37HQzr9o7bG4ZIDhZUA8jT1RhNLQCYZoLCP7emSrihxwLsNdkhx9yXAibjav8B74I0ufef2iEfs1gY1K54hHbTtBxENed8kiHF9PNndclL5UioI',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5edcbfd1eb61974';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=Ly3ykz3tvaNseEGYwcjweWJDs4ZYpQLFbEVCp3mffTM-1795411982-1.0.1.1-KhLcat6eVbwgrlAEDMH7LYrJeW6RPrb60ZowwT3ZBgU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>\n  </main>\n</body>\n</html>\n",
+      "url": "https://www.ecosia.org/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "ecosia.org",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-23T05:33:03.005Z",
+    "score": 13,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
