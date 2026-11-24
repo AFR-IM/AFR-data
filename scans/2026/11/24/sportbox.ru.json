@@ -1,0 +1,238 @@
+{
+  "signals": {
+    "domain": "sportbox.ru",
+    "fetchedAt": "2026-11-24T02:57:29.432Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nAllow: /\nDisallow: /includes\nDisallow: /misc\nDisallow: /modules\nDisallow: /profiles\nDisallow: /scripts\nDisallow: /themes\nDisallow: /short_game\nDisallow: /spb_conf\nDisallow: /ipbcomments\nDisallow: /spb_stats/match\nDisallow: /vdl\nDisallow: /Text\nDisallow: /node\nDisallow: /profile\nDisallow: /people\nDisallow: /viewstats\nDisallow: /sites/default/files/\nDisallow: /taxonomy\nDisallow: /konkurs/globalrating\nDisallow: /stats/konkurs/*\nDisallow: /fotobank\nDisallow: /stats/game_json/*\nDisallow: /ums_signon\nDisallow: /ums_registration\nDisallow: /ums_password_restore\nDisallow: /*/stats/*page_offset=*&page_size=\nDisallow: /second-screenVidy_sporta\nDisallow: /pm/login/\nDisallow: /gid/login/\nDisallow: /*/stats*/konkurs/stage_\nDisallow: *amppage_offset\nDisallow: *amptournament_id\nDisallow: *amppage_size\nClean-param: time&channel /video\nClean-param: page&uid&p&nid&only_player&d&playeri&ref&tour /\nClean-param: nickname&do&x_real_path&ipbdescription&rnd&popup_comments /\nClean-param: web_optimizer_debug&imgDelta&id&comments_number&huge&pitem&cid /\nClean-param: nid&gres&usg&ved&sa&ei&results&place&start&type&doc_id /\nClean-param: tour&field_object_published_start&section&w&keys /\nClean-param: field_issue_date&date&field_tag&archive&mobile_comments /\nClean-param: sp&tyear&turnir&field_channel_id /\nClean-param: FAn22&ncrnd&field_channel_id-empty-marker /\nClean-param: utm_source&utm_medium&time&channel&autostart /\nClean-param: adfox&from&clid /\nClean-param: alex&jhk&re_&re&___&ol&Alex&-&%2F%3F&r&pp /\nClean-param: trid&ts&MSISDN&_sm_byp&msclkid /\n",
+      "url": "https://sportbox.ru/robots.txt"
+    },
+    "llms": {
+      "error": "timeout: This operation was aborted"
+    },
+    "llmsFull": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    },
+    "homepage": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    },
+    "sitemap": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    },
+    "agentsMd": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "error": "TypeError: fetch failed (redirect count exceeded)"
+    }
+  },
+  "afr": {
+    "domain": "sportbox.ru",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-24T02:57:29.432Z",
+    "score": 13,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (redirect count exceeded)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (redirect count exceeded)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt network error: timeout: This operation was aborted; GET /llms-full.txt network error: TypeError: fetch failed (redirect count exceeded); homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml network error: TypeError: fetch failed (redirect count exceeded); robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md not probed; llms.txt HTTP undefined"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
