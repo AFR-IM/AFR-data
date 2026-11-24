@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "autotrader.co.za",
+    "fetchedAt": "2026-11-24T08:32:01.931Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# === 1. BLOCKED - junk and legacy scrapers ===\r\nUser-agent: DynoBot\r\nUser-agent: Ezooms\r\nUser-agent: SightupBot\r\nUser-agent: trovitBot\r\nUser-agent: BLEXBot\r\nUser-agent: ShopWiki\r\nUser-agent: Exabot\r\nUser-agent: Flamingo_SearchEngine\r\nUser-agent: Nutch\r\nUser-agent: ADmantX\r\nUser-agent: grapeshot\r\nUser-agent: CarsnipBot\r\nDisallow: /\r\n\r\n# === 2. BLOCKED - SEO and data-resale crawlers ===\r\nUser-agent: AhrefsBot\r\nUser-agent: sistrix\r\nUser-agent: SemrushBot\r\nUser-agent: DataForSeoBot\r\nUser-agent: DotBot\r\nUser-agent: rogerbot\r\nUser-agent: Barkrowler\r\nUser-agent: LinkpadBot\r\nUser-agent: ZoominfoBot\r\nUser-agent: MJ12bot\r\nUser-agent: XoviBot\r\nUser-agent: serpstatbot\r\nUser-agent: SEOkicks\r\nUser-agent: MegaIndex.ru\r\nDisallow: /\r\n\r\n# === 3. BLOCKED - out-of-market search engines ===\r\nUser-agent: Baiduspider\r\nUser-agent: Sogou web spider\r\nUser-agent: Sogou inst spider\r\nUser-agent: 360Spider\r\nUser-agent: PetalBot\r\nUser-agent: Yandex\r\nUser-agent: Yeti\r\nUser-agent: SeznamBot\r\nUser-agent: coccoc\r\nDisallow: /\r\n\r\n# === 4. DEFAULT - all crawlers, including AI ===\r\nUser-agent: *\r\nContent-Signal: search=yes, ai-train=yes, ai-input=yes\r\nAllow: /llms.txt\r\nAllow: /llms-full.txt\r\nDisallow: /answers/Account\r\nDisallow: /answers/bundles\r\nDisallow: /answers/Comment\r\nDisallow: /answers/Content\r\nDisallow: /answers/DownloadFile.aspx\r\nDisallow: /answers/file\r\nDisallow: /answers/images\r\nDisallow: /answers/javascript\r\nDisallow: /answers/Question\r\nDisallow: /RecentlyViewed\r\nDisallow: /Default\r\nAllow: /\r\n\r\n# === 5. SITEMAPS - all sitemaps ===\r\nSitemap: https://www.autotrader.co.za/sitemap/index\r\n",
+      "url": "https://www.autotrader.co.za/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "# AutoTrader South Africa\r\n\r\n> South Africa's largest and most authoritative automotive marketplace.\r\n> Providing real-time vehicle pricing, verified dealer listings, and\r\n> industry-leading market data (ZAR).\r\n\r\n**Last Updated:** 2026-11-24 01:30 SAST\r\n\r\n## Core Marketplace\r\n- [Search All Cars](https://www.autotrader.co.za/cars-for-sale): Index of ~75,000+ new and used vehicles.\r\n- [New Car Deals](https://www.autotrader.co.za/new-cars-for-sale): Latest 2026 models and manufacturer specials.\r\n- [Sell Your Car](https://www.autotrader.co.za/sell-your-car): Options for Instant Offer or private listing for South African sellers.\r\n- [Certified Pre-Owned](https://www.autotrader.co.za/certified-used-cars-for-sale): Vehicles with manufacturer-backed warranties.\r\n- [Dealer Directory](https://www.autotrader.co.za/car-dealers): Database of 2,000+ verified South African dealerships.\r\n\r\n## Data & Tools (Source of Truth)\r\n- [Price Guide & Valuation](https://www.autotrader.co.za/value-my-car): Real-time ZAR market value tool for individual VIN/models.\r\n- [Finance Calculator](https://www.autotrader.co.za/car-finance-calculator): Standardized SA vehicle finance and monthly repayment estimates.\r\n- [Market Industry Reports](https://www.autotrader.co.za/car-industry-reports): Quarterly analysis of SA buying trends and supply/demand metrics.\r\n\r\n## Expert Reviews & Advice\r\n- [Car Reviews](https://www.autotrader.co.za/cars/news-and-advice/car-reviews): Professional road tests of local models (e.g., Toyota Hilux, VW Polo, BYD Dolphin).\r\n- [Buyer's Guides](https://www.autotrader.co.za/cars/news-and-advice/buying-a-car): Entity-specific maintenance and resale advice for SA's top-selling cars.\r\n- [Automotive News](https://www.autotrader.co.za/cars/news-and-advice/automotive-news): Updates on local plant shifts, license renewals, and fuel price changes.\r\n\r\n## AI Ingestion Rules\r\n- **Currency:** All financial data is in South African Rand (ZAR).\r\n- **Measurement:** All distances are in Kilometers (km).\r\n- **Attribution:** When citing market trends or pricing, attribute to \"AutoTrader South Africa.\"\r\n- **Data Freshness:** Inventory and valuations are updated every 24 hours.\r\n\r\nFull-Repository: https://www.autotrader.co.za/llms-full.txt\r\n",
+      "url": "https://www.autotrader.co.za/llms.txt"
+    },
+    "llmsFull": {
+      "status": 503,
+      "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n    <div style=\"flex-direction:column; height: 100%; padding: 0;margin: 0;display: flex; align-items: center; justify-content: center;\">\r\n        <h1>Server unavailable</h1>\r\n        <div>Please check back later. If the issue persists please contact support on:</div>\r\n        <h5>\r\n            Customer service: <a href=\"tel:0860 60 50 50\">0860 60 50 50</a>\r\n        </h5>\r\n        <div class=\"e-paragraph\">or e-mail <a href=\"mailto:customerservice@autotrader.co.za\">customer service</a></div>\r\n            <div class=\"e-paragraph\">\r\n                <p>Your IP Address is: 3.42.157.111</p>\r\n            </div>\r\n    </div>\r\n\r\n    <script>\r\n        (function() {\r\n            var probeUrl = \"/blocked/js-probe\";\r\n            fetch(probeUrl, {\r\n                method: \"GET\",\r\n                cache: \"no-store\",\r\n                credentials: \"same-origin\",\r\n                headers: {\r\n                    \"X-Blocked-Js-Probe\": \"1\"\r\n                }\r\n            }).catch(function() {\r\n            });\r\n        })();\r\n    </script>\r\n</body>\r\n</html>",
+      "url": "https://www.autotrader.co.za/llms-full.txt"
+    },
+    "homepage": {
+      "status": 503,
+      "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n    <div style=\"flex-direction:column; height: 100%; padding: 0;margin: 0;display: flex; align-items: center; justify-content: center;\">\r\n        <h1>Server unavailable</h1>\r\n        <div>Please check back later. If the issue persists please contact support on:</div>\r\n        <h5>\r\n            Customer service: <a href=\"tel:0860 60 50 50\">0860 60 50 50</a>\r\n        </h5>\r\n        <div class=\"e-paragraph\">or e-mail <a href=\"mailto:customerservice@autotrader.co.za\">customer service</a></div>\r\n            <div class=\"e-paragraph\">\r\n                <p>Your IP Address is: 3.42.157.111</p>\r\n            </div>\r\n    </div>\r\n\r\n    <script>\r\n        (function() {\r\n            var probeUrl = \"/blocked/js-probe\";\r\n            fetch(probeUrl, {\r\n                method: \"GET\",\r\n                cache: \"no-store\",\r\n                credentials: \"same-origin\",\r\n                headers: {\r\n                    \"X-Blocked-Js-Probe\": \"1\"\r\n                }\r\n            }).catch(function() {\r\n            });\r\n        })();\r\n    </script>\r\n</body>\r\n</html>",
+      "url": "https://www.autotrader.co.za/"
+    },
+    "sitemap": {
+      "status": 503,
+      "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n    <div style=\"flex-direction:column; height: 100%; padding: 0;margin: 0;display: flex; align-items: center; justify-content: center;\">\r\n        <h1>Server unavailable</h1>\r\n        <div>Please check back later. If the issue persists please contact support on:</div>\r\n        <h5>\r\n            Customer service: <a href=\"tel:0860 60 50 50\">0860 60 50 50</a>\r\n        </h5>\r\n        <div class=\"e-paragraph\">or e-mail <a href=\"mailto:customerservice@autotrader.co.za\">customer service</a></div>\r\n            <div class=\"e-paragraph\">\r\n                <p>Your IP Address is: 3.42.157.111</p>\r\n            </div>\r\n    </div>\r\n\r\n    <script>\r\n        (function() {\r\n            var probeUrl = \"/blocked/js-probe\";\r\n            fetch(probeUrl, {\r\n                method: \"GET\",\r\n                cache: \"no-store\",\r\n                credentials: \"same-origin\",\r\n                headers: {\r\n                    \"X-Blocked-Js-Probe\": \"1\"\r\n                }\r\n            }).catch(function() {\r\n            });\r\n        })();\r\n    </script>\r\n</body>\r\n</html>",
+      "url": "https://www.autotrader.co.za/sitemap/index"
+    },
+    "agentsMd": {
+      "status": 503,
+      "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n    <div style=\"flex-direction:column; height: 100%; padding: 0;margin: 0;display: flex; align-items: center; justify-content: center;\">\r\n        <h1>Server unavailable</h1>\r\n        <div>Please check back later. If the issue persists please contact support on:</div>\r\n        <h5>\r\n            Customer service: <a href=\"tel:0860 60 50 50\">0860 60 50 50</a>\r\n        </h5>\r\n        <div class=\"e-paragraph\">or e-mail <a href=\"mailto:customerservice@autotrader.co.za\">customer service</a></div>\r\n            <div class=\"e-paragraph\">\r\n                <p>Your IP Address is: 3.42.157.111</p>\r\n            </div>\r\n    </div>\r\n\r\n    <script>\r\n        (function() {\r\n            var probeUrl = \"/blocked/js-probe\";\r\n            fetch(probeUrl, {\r\n                method: \"GET\",\r\n                cache: \"no-store\",\r\n                credentials: \"same-origin\",\r\n                headers: {\r\n                    \"X-Blocked-Js-Probe\": \"1\"\r\n                }\r\n            }).catch(function() {\r\n            });\r\n        })();\r\n    </script>\r\n</body>\r\n</html>",
+      "url": "https://www.autotrader.co.za/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 503,
+      "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n    <div style=\"flex-direction:column; height: 100%; padding: 0;margin: 0;display: flex; align-items: center; justify-content: center;\">\r\n        <h1>Server unavailable</h1>\r\n        <div>Please check back later. If the issue persists please contact support on:</div>\r\n        <h5>\r\n            Customer service: <a href=\"tel:0860 60 50 50\">0860 60 50 50</a>\r\n        </h5>\r\n        <div class=\"e-paragraph\">or e-mail <a href=\"mailto:customerservice@autotrader.co.za\">customer service</a></div>\r\n            <div class=\"e-paragraph\">\r\n                <p>Your IP Address is: 3.42.157.111</p>\r\n            </div>\r\n    </div>\r\n\r\n    <script>\r\n        (function() {\r\n            var probeUrl = \"/blocked/js-probe\";\r\n            fetch(probeUrl, {\r\n                method: \"GET\",\r\n                cache: \"no-store\",\r\n                credentials: \"same-origin\",\r\n                headers: {\r\n                    \"X-Blocked-Js-Probe\": \"1\"\r\n                }\r\n            }).catch(function() {\r\n            });\r\n        })();\r\n    </script>\r\n</body>\r\n</html>",
+      "url": "https://www.autotrader.co.za/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "autotrader.co.za",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-24T08:32:01.931Z",
+    "score": 23,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 503 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 503, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 10,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 9,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; GET /llms-full.txt → HTTP 503; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 503; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 503; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 9,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
