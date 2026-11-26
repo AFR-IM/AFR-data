@@ -53,11 +53,11 @@
  },
  "afr": {
   "domain": "wp.pl",
-  "engineVersion": "afr-1.2.0",
+  "engineVersion": "afr-1.6.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-12T03:27:06.510Z",
-  "score": 63,
-  "grade": "B",
+  "score": 57,
+  "grade": "C",
   "state": "scored",
   "strategyTag": "Middle-Path",
   "layers": [
@@ -176,7 +176,7 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 13,
+    "awarded": 7,
     "max": 25,
     "checks": [
      {
@@ -207,12 +207,12 @@
       "id": "l3.mcp",
       "layer": "L3",
       "name": "MCP interface",
-      "awarded": 6,
+      "awarded": 0,
       "max": 6,
-      "status": "pass",
+      "status": "unknown",
       "evidence": {
        "source": "MCP probe",
-       "detail": "MCP endpoint found: https://wp.pl/.well-known/mcp"
+       "detail": "MCP endpoint discovered: https://wp.pl/.well-known/mcp — no verified tools/list handshake"
       }
      },
      {
@@ -241,7 +241,7 @@
    "l2.content-signals": 5,
    "l3.public-api": 5,
    "l3.agent-instructions": 2,
-   "l3.mcp": 6,
+   "l3.mcp": 0,
    "l3.site-ai-features": 0
   }
  }

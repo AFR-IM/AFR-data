@@ -65,11 +65,11 @@
   },
   "afr": {
     "domain": "govinfo.gov",
-    "engineVersion": "afr-1.2.0",
+    "engineVersion": "afr-1.6.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-14T03:04:52.461Z",
-    "score": 63,
-    "grade": "B",
+    "score": 57,
+    "grade": "C",
     "state": "scored",
     "strategyTag": "Unconfigured",
     "layers": [
@@ -188,7 +188,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 16,
+        "awarded": 10,
         "max": 25,
         "checks": [
           {
@@ -219,12 +219,12 @@
             "id": "l3.mcp",
             "layer": "L3",
             "name": "MCP interface",
-            "awarded": 6,
+            "awarded": 0,
             "max": 6,
-            "status": "pass",
+            "status": "unknown",
             "evidence": {
               "source": "MCP probe",
-              "detail": "MCP endpoint found: https://govinfo.gov/.well-known/mcp"
+              "detail": "MCP endpoint discovered: https://govinfo.gov/.well-known/mcp — no verified tools/list handshake"
             }
           },
           {
@@ -253,7 +253,7 @@
       "l2.content-signals": 2,
       "l3.public-api": 7,
       "l3.agent-instructions": 2,
-      "l3.mcp": 6,
+      "l3.mcp": 0,
       "l3.site-ai-features": 1
     }
   }

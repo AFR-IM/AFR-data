@@ -52,10 +52,10 @@
   },
   "afr": {
     "domain": "audio.com",
-    "engineVersion": "afr-1.2.0",
+    "engineVersion": "afr-1.6.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-18T03:04:59.642Z",
-    "score": 20,
+    "score": 14,
     "grade": "F",
     "state": "scored",
     "strategyTag": "Unconfigured",
@@ -175,7 +175,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 6,
+        "awarded": 0,
         "max": 25,
         "checks": [
           {
@@ -206,12 +206,12 @@
             "id": "l3.mcp",
             "layer": "L3",
             "name": "MCP interface",
-            "awarded": 6,
+            "awarded": 0,
             "max": 6,
-            "status": "pass",
+            "status": "unknown",
             "evidence": {
               "source": "MCP probe",
-              "detail": "MCP endpoint found: https://audio.com/.well-known/mcp"
+              "detail": "MCP endpoint discovered: https://audio.com/.well-known/mcp — no verified tools/list handshake"
             }
           },
           {
@@ -240,7 +240,7 @@
       "l2.content-signals": 0,
       "l3.public-api": 0,
       "l3.agent-instructions": 0,
-      "l3.mcp": 6,
+      "l3.mcp": 0,
       "l3.site-ai-features": 0
     }
   }

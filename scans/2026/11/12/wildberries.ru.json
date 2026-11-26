@@ -48,10 +48,10 @@
  },
  "afr": {
   "domain": "wildberries.ru",
-  "engineVersion": "afr-1.5.0",
+  "engineVersion": "afr-1.6.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-12T03:17:23.430Z",
-  "score": 6,
+  "score": 0,
   "grade": "Pending",
   "state": "pending",
   "strategyTag": "Unconfigured",
@@ -171,7 +171,7 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 6,
+    "awarded": 0,
     "max": 25,
     "checks": [
      {
@@ -202,12 +202,12 @@
       "id": "l3.mcp",
       "layer": "L3",
       "name": "MCP interface",
-      "awarded": 6,
+      "awarded": 0,
       "max": 6,
-      "status": "pass",
+      "status": "unknown",
       "evidence": {
        "source": "MCP probe",
-       "detail": "MCP endpoint found: https://wildberries.ru/.well-known/mcp"
+       "detail": "MCP endpoint discovered: https://wildberries.ru/.well-known/mcp — no verified tools/list handshake"
       }
      },
      {
@@ -236,7 +236,7 @@
    "l2.content-signals": 0,
    "l3.public-api": 0,
    "l3.agent-instructions": 0,
-   "l3.mcp": 6,
+   "l3.mcp": 0,
    "l3.site-ai-features": 0
   }
  }

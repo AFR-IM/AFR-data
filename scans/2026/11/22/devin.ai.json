@@ -47,7 +47,7 @@
       ]
     },
     "apiDocs": {
-      "found": true,
+      "found": false,
       "urls": []
     },
     "mcp": {
@@ -70,11 +70,11 @@
   },
   "afr": {
     "domain": "devin.ai",
-    "engineVersion": "afr-1.5.0",
+    "engineVersion": "afr-1.6.0",
     "scannerVersion": "scanner-0.2.0",
     "scannedAt": "2026-11-22T19:52:20.590Z",
-    "score": 78,
-    "grade": "A",
+    "score": 72,
+    "grade": "B",
     "state": "scored",
     "strategyTag": "Middle-Path",
     "layers": [
@@ -193,7 +193,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 14,
+        "awarded": 8,
         "max": 25,
         "checks": [
           {
@@ -205,7 +205,7 @@
             "status": "pass",
             "evidence": {
               "source": "llms.txt + homepage HTML + OpenAPI probe",
-              "detail": "llms.txt references an API; homepage links API/docs paths; OpenAPI document discovered; API documentation entry point present; OpenAPI: https://devin.ai/openapi.json"
+              "detail": "llms.txt references an API; OpenAPI document discovered; API documentation entry point present; OpenAPI: https://devin.ai/openapi.json"
             }
           },
           {
@@ -224,12 +224,12 @@
             "id": "l3.mcp",
             "layer": "L3",
             "name": "MCP interface",
-            "awarded": 6,
+            "awarded": 0,
             "max": 6,
-            "status": "pass",
+            "status": "unknown",
             "evidence": {
               "source": "MCP probe",
-              "detail": "MCP endpoint found: https://devin.ai/.well-known/mcp"
+              "detail": "MCP endpoint discovered: https://devin.ai/.well-known/mcp — no verified tools/list handshake"
             }
           },
           {
@@ -258,7 +258,7 @@
       "l2.content-signals": 6,
       "l3.public-api": 8,
       "l3.agent-instructions": 0,
-      "l3.mcp": 6,
+      "l3.mcp": 0,
       "l3.site-ai-features": 0
     }
   }

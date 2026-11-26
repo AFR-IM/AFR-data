@@ -35,7 +35,7 @@
    ]
   },
   "apiDocs": {
-   "found": true,
+   "found": false,
    "urls": []
   },
   "mcp": {
@@ -46,10 +46,10 @@
  },
  "afr": {
   "domain": "btloader.com",
-  "engineVersion": "afr-1.2.0",
+  "engineVersion": "afr-1.6.0",
   "scannerVersion": "scanner-0.1.0",
   "scannedAt": "2026-11-12T03:36:07.915Z",
-  "score": 8,
+  "score": 6,
   "grade": "F",
   "state": "scored",
   "strategyTag": "AI-Closed",
@@ -169,19 +169,19 @@
    {
     "layer": "L3",
     "name": "Actionability",
-    "awarded": 8,
+    "awarded": 6,
     "max": 25,
     "checks": [
      {
       "id": "l3.public-api",
       "layer": "L3",
       "name": "Public API",
-      "awarded": 8,
+      "awarded": 6,
       "max": 8,
-      "status": "pass",
+      "status": "partial",
       "evidence": {
        "source": "llms.txt + homepage HTML + OpenAPI probe",
-       "detail": "homepage links API/docs paths; OpenAPI document discovered; API documentation entry point present; OpenAPI: https://btloader.com/openapi.json"
+       "detail": "OpenAPI document discovered; no API documentation entry point; OpenAPI: https://btloader.com/openapi.json"
       }
      },
      {
@@ -232,7 +232,7 @@
    "l2.semantic-html": 0,
    "l2.sitemap": 0,
    "l2.content-signals": 0,
-   "l3.public-api": 8,
+   "l3.public-api": 6,
    "l3.agent-instructions": 0,
    "l3.mcp": 0,
    "l3.site-ai-features": 0

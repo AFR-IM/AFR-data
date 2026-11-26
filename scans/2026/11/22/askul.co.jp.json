@@ -67,11 +67,11 @@
   },
   "afr": {
     "domain": "askul.co.jp",
-    "engineVersion": "afr-1.5.0",
+    "engineVersion": "afr-1.6.0",
     "scannerVersion": "scanner-0.2.0",
     "scannedAt": "2026-11-22T19:56:08.691Z",
-    "score": 77,
-    "grade": "A",
+    "score": 71,
+    "grade": "B",
     "state": "scored",
     "strategyTag": "Unconfigured",
     "layers": [
@@ -190,7 +190,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 19,
+        "awarded": 13,
         "max": 25,
         "checks": [
           {
@@ -221,12 +221,12 @@
             "id": "l3.mcp",
             "layer": "L3",
             "name": "MCP interface",
-            "awarded": 6,
+            "awarded": 0,
             "max": 6,
-            "status": "pass",
+            "status": "unknown",
             "evidence": {
               "source": "MCP probe",
-              "detail": "MCP endpoint found: https://askul.co.jp/.well-known/mcp"
+              "detail": "MCP endpoint discovered: https://askul.co.jp/.well-known/mcp — no verified tools/list handshake"
             }
           },
           {
@@ -255,7 +255,7 @@
       "l2.content-signals": 6,
       "l3.public-api": 5,
       "l3.agent-instructions": 4,
-      "l3.mcp": 6,
+      "l3.mcp": 0,
       "l3.site-ai-features": 4
     }
   }

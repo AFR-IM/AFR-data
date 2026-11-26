@@ -62,11 +62,11 @@
   },
   "afr": {
     "domain": "travesticomlocal.com.br",
-    "engineVersion": "afr-1.5.0",
+    "engineVersion": "afr-1.6.0",
     "scannerVersion": "scanner-0.1.0",
     "scannedAt": "2026-11-18T03:14:28.521Z",
-    "score": 63,
-    "grade": "B",
+    "score": 57,
+    "grade": "C",
     "state": "scored",
     "strategyTag": "Unconfigured",
     "layers": [
@@ -185,7 +185,7 @@
       {
         "layer": "L3",
         "name": "Actionability",
-        "awarded": 10,
+        "awarded": 4,
         "max": 25,
         "checks": [
           {
@@ -216,12 +216,12 @@
             "id": "l3.mcp",
             "layer": "L3",
             "name": "MCP interface",
-            "awarded": 6,
+            "awarded": 0,
             "max": 6,
-            "status": "pass",
+            "status": "unknown",
             "evidence": {
               "source": "MCP probe",
-              "detail": "MCP endpoint found: https://travesticomlocal.com.br/.well-known/mcp"
+              "detail": "MCP endpoint discovered: https://travesticomlocal.com.br/.well-known/mcp — no verified tools/list handshake"
             }
           },
           {
@@ -250,7 +250,7 @@
       "l2.content-signals": 5,
       "l3.public-api": 0,
       "l3.agent-instructions": 0,
-      "l3.mcp": 6,
+      "l3.mcp": 0,
       "l3.site-ai-features": 4
     }
   }
