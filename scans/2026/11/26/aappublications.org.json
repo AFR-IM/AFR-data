@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "aappublications.org",
+    "fetchedAt": "2026-11-26T02:54:59.021Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "\r\nUser-agent: 008\r\nDisallow: /\r\n\r\nUser-agent: *\r\nDisallow: /bin/\r\nDisallow: /config/\r\nDisallow: /app_data/\r\nDisallow: /dlls/\r\nDisallow: /App_Themes/\r\nDisallow: /signin.aspx\r\nDisallow: /searchresults.aspx\r\nDisallow: /search-results\r\nDisallow: /advancedsearch.aspx\r\nDisallow: /advanced-search\r\nDisallow: /*/search-results\r\nDisallow: /*/advanced-search\r\nDisallow: /admin/api/\r\nDisallow: /DownloadFile/\r\nDisallow: /downloadimage.aspx\r\nDisallow: /Citation/\r\nDisallow: /Shibboleth.sso/\r\nDisallow: /SignInShibboleth.aspx\r\nDisallow: /lookup/external-ref\r\nDisallow: /user/logout\r\nDisallow: /cgi/pmidlookup\r\nDisallow: /Themes/Client/app/img/favicons/manifest.json\r\nDisallow: /lookup/google-scholar\r\nDisallow: /store/*\r\nAllow: /cassette.axd/stylesheet/\r\nAllow: /cassette.axd/script/\r\nAllow: /cassette.axd/manifest.xml\r\nDisallow: /*.axd\r\nDisallow: /DocumentViewer/*\r\nDisallow: /sign-in?*\r\nDisallow: /my-account/\r\nDisallow: /institutional-login\r\nDisallow: /Personalization/\r\nDisallow: /crawlprevention/\r\nDisallow: /view-large/\r\nDisallow: /*/crossref-citedby\r\nDisallow: /*/CrossRef-CitedBy\r\nDisallow: /api/\r\nDisallow: /specificToClient1/\r\n\r\nUser-agent: Google-CloudVertexBot\r\nAllow: /\r\nUser-agent: Google-Extended\r\nAllow: /\r\n\r\nSitemap:https://publications.aap.org/data/sitemap/sitemap_Collections.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1/sitemap_gbos_site1.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_3/sitemap_gbos_site3.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000011/sitemap_gbos_site1000011.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000013/sitemap_gbos_site1000013.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000015/sitemap_books_site1000015.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000015/sitemap_gbos_site1000015.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000017/sitemap_books_site1000017.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000017/sitemap_gbos_site1000017.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000019/sitemap_books_site1000019.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000019/sitemap_gbos_site1000019.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000021/sitemap_gbos_site1000021.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000023/sitemap_gbos_site1000023.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000025/sitemap_books_site1000025.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000025/sitemap_gbos_site1000025.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000029/sitemap_gbos_site1000029.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000031/sitemap_gbos_site1000031.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000001/sitemap_gbos_site1000001.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000003/sitemap_gbos_site1000003.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000005/sitemap_gbos_site1000005.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000007/sitemap_gbos_site1000007.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000009/sitemap_gbos_site1000009.xml\r\nSitemap: https://publications.aap.org/data/sitemap/Site_1000033/sitemap_gbos_site1000033.xml\r\nSitemap: https://publications.aap.org/data/sitemap/sitemap.xml\r\n",
+      "url": "https://publications.aap.org/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=2441229106007; var s=1543149001; var n;\nif ((s >> 6) & 1)/* 120886108*\n*/p+=/* 120886108*\n*/190627114*/*\nelse p-=\n*/9;\telse /*\nelse p-=\n*/p-=\t66196549*\n7;/*\np+= */if ((s >> 11) & 1)\tp+=/*\n*13;\n*/62473099* 12; else p-=/*\np+= */84148658*\n12;\nif ((s >> 13) & 1)/*\n*13;\n*/p+=/*\n*13;\n*/124558175*/*\np+= */14;else \tp-=/*\n*13;\n*/110844406*\n14;\tif ((s >> 15) & 1)/* 120886108*\n*/p+=306277*/*\n*13;\n*/16;\telse  p-=\n68750210*\n16;/*\nelse p-=\n*/if ((s >> 12) & 1)/* 120886108*\n*/p+=/*\nelse p-=\n*/65198412*/*\np+= */15; else \np-=\n129203285* 13;/*\nelse p-=\n*/ p-=587534606;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":3951259076:1;path=/;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://aappublications.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=1481938189548; var s=101022084; var n;\nif ((s >> 13) & 1)\np+= 66881615*14; else \np-=50346382*/*\np+= */14;\nif ((s >> 6) & 1)/*\nelse p-=\n*/p+=\n136347399*/*\n*13;\n*/9;else \tp-= 140023668*/*\n*13;\n*/7;\nif ((s >> 3) & 1)/*\nelse p-=\n*/p+=\n518657387* 4;/* 120886108*\n*/else /* 120886108*\n*/p-=106941100*/*\n*13;\n*/4;\nif ((s >> 8) & 1)\tp+=/*\np+= */186176352*11;\nelse \np-=/*\n*13;\n*/152638776*\t9;/*\np+= */if ((s >> 14) & 1)\tp+=/* 120886108*\n*/124969829*\n17;/*\np+= */else /*\np+= */p-=/*\np+= */127434901*\n15;/*\nelse p-=\n*/ p-=4898122994;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":3061612939:1;path=/;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://aappublications.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=2536023919578; var s=2294071029; var n;\nif ((s >> 3) & 1)/*\np+= */p+= 520093565* 4;\telse /*\np+= */p-=/*\np+= */10761723*4;if ((s >> 14) & 1)/* 120886108*\n*/p+= 19505984*/* 120886108*\n*/17; else /*\n*13;\n*/p-=/* 120886108*\n*/15296355*/*\nelse p-=\n*/15; if ((s >> 9) & 1)\np+=/*\n*13;\n*/63684904*\t10;/*\np+= */else \tp-=\t198601768*\t10;\tif ((s >> 8) & 1)p+= 115510134*\n11;\nelse \tp-=/* 120886108*\n*/128953860*/*\n*13;\n*/9;/*\np+= */if ((s >> 5) & 1)\np+=71285880*/*\nelse p-=\n*/6;/*\np+= */else  p-=/*\nelse p-=\n*/16097723*\n6;\t p-=395779500;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":952452836:1;path=/;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://aappublications.org/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-OTS1uf8iODOOjwl4lMMHRa&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"OTS1uf8iODOOjwl4lMMHRa\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'PXIfZrjtQGoCvbTrzUQLGGfJ2QMiyv8Ye3uuXRfY3ug-1795661697-1.2.1.1-eQNQqqF16Gh32V3uXvSKgTzcHDkRbx70HkyDrmqw4GTTvcc.BIjR9jU5pll3_lLE',cITimeS: '1795661697',cN: 'OTS1uf8iODOOjwl4lMMHRa',cRay: 'a6059c880c0575db',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/data/sitemap/sitemap_Collections.xml?__cf_chl_tk=YpzyPSbRhibqLvXh6coQBgdhzljMkhUtC3Ow7wCDP0A-1795661697-1.0.1.1-2PhnTGoWKup7OgbfYUMrC91khRkK8U5A9_st2znhX3E\",cvId: '3',cZone: 'publications.aap.org',fa:\"/data/sitemap/sitemap_Collections.xml?__cf_chl_f_tk=YpzyPSbRhibqLvXh6coQBgdhzljMkhUtC3Ow7wCDP0A-1795661697-1.0.1.1-2PhnTGoWKup7OgbfYUMrC91khRkK8U5A9_st2znhX3E\",md: 'ge80RiIMptF4U8.JcJHfz1R9GxXgjvzBcJ2X6QDJ1hc-1795661697-1.2.1.1-Pmg7JRMNViJpL7_I3w9f79W_.iOEBSznb2k.sCCwBV6akapcOaXzQByO0fZULzQfCw2kzXUzj0No1kzKhbB7E6mXnhrA8xBdN59NrzoQY4f10gK2jOHZzsf6PwwR3bPNzsk8FhjoS7_uatA48LgG6mWzigj5bkYt_6.0.8VhP8V3xx9.orsXy7WLIFR9_ju021epmcVfBgMyBgPTuQXQUBHXHXb_Vt85qGEW5pSD3crjxa1kYlr7Wo5gv2q27ks2SmlXA8L_QNWAlBVrOVlwYg1ZuwvmUD.8UT_.q.9cVn2muif8Ydct2cA12M99xgYTDxsirqTCbYDkcnS6cvmVBM7TWHGab2YfOjUQj6_9drT2LttycO_DA8AwtlfnNKHbQybM7K5doeTqY7X9KEzr0bInKGj85uqHNCx9gpvxUBl2UYOeW1W.baEgQXdhkww1dPbQitUB4.rvoToVjUXA0PUVpYTLzQKXp_9a4t7JeoawaR_Y7LnL72U8lncy6wOF3tpLF44jIf7PXz_vcjFU7h1n9UXMKtEXxLTSabTgw51ymxkUN0ANSQ.CzpY2qr64IRpoFDLemBb.Vnjh8M_y9CetQYzx2zCmPp2uoB4GSil8RquMPpQp3kjZhxPvMic5UkJivLFzZJvLmUrdexjAOk8Gu6SJHg3TOdJzxtz0O9WHX4vfj.gnnH.Urch8oXTYZqEbr0qUeRT8KVzOZgGJkjeNXxxdC4ABXv3qLMqwPAKoG.WWI2KmQwKMqEw676LiOApoSdUuLAKoLJ9Nd44_GHOd_MYKzlgTXkltx1DGkHyBnbH0QLToMH713jeLS3CA6k00c0FBszYt7RTm0doxmOYjY6Sb9yReKYguAsyw9fPL2MHxLpKeeo.0f7iuJOwG11RKB6nPXgySr67_F0QSIaYgVe8xwADUUhG2Ob7rswILg_Z4xC4TNAtAzYjbvSno6wOhX1NOMHxpJbEYHUIN6UhK12K4GuFQ6Cg5tyWH3iVHx6l9YEYhNnnOzb8bGZsatrGP5QeIVub0SxVmLGlODlQWrP79K7j5puU13zGOuGN03ZXQ13PUSM4Ce0lBZaHFFuWs_nhlymMb5MrOJctn08JCBlitK766jqzm0_4lGzpsOBhqZa972opfhioFwnyu019Cjm6YTRomKRnpQABFKAyQicmDHHnL4f8h4wY3evo',mdrd: 'odDVpnxKnqAgcForERWoGU4BIcAnOU2VQOYB70O6SXk-1795661697-1.2.1.1-APc3VOpiL8Ygi5w.Z.WfT8TwdKj46ULDF3.rKYFJ6_pbYglnzrQlaVHzKvOlROuCORwTPD26v.muFLjpwa7QG6S_x8Bbw1PHGT_t4fwYyF81Qxx7qHjMWMWwhFFMEaubdt2B5d08e7Cm8o1O0OLxMhMQYjQEgAFmCiH7mNNX.qsrTip4NjRZ.JJYfexgoZuYdj96RpFy.id4krqYsDzq4q.gFdfMiR0rkCUuujYHgon.W72DDTQCX1GKPbQwAC9AzFtBYHCzhhLMdw9G74qEZAxKsta_bT2AJsE0Vstkc_ITgY5H2oG2XDlzF0Yv4cb4om2DALps39UrV7mOQ3VffQ7RGzJJ8oU4_xwnceds9rDEx37lZE7ltBCWCsq0L7yOyHTtvpaZhfUQQyEo1OvM15OZZDMikDY85Sf1I_Z5gio',};var a = document.createElement('script');a.nonce = 'OTS1uf8iODOOjwl4lMMHRa';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6059c880c0575db';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/data/sitemap/sitemap_Collections.xml?__cf_chl_rt_tk=YpzyPSbRhibqLvXh6coQBgdhzljMkhUtC3Ow7wCDP0A-1795661697-1.0.1.1-2PhnTGoWKup7OgbfYUMrC91khRkK8U5A9_st2znhX3E\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://publications.aap.org/data/sitemap/sitemap_Collections.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=2739407751988; var s=3760692879; var n;\nif ((s >> 15) & 1)/*\n*13;\n*/p+= 80279044*/*\np+= */16; else \tp-=\t79436529*16;/*\nelse p-=\n*/if ((s >> 11) & 1)/*\nelse p-=\n*/p+=\t91129613* 12;/*\n*13;\n*/else /* 120886108*\n*/p-=\t94979291*/*\np+= */12;\nif ((s >> 4) & 1)p+=\t37052232* 7;\telse p-=/* 120886108*\n*/214064617*\t5;/* 120886108*\n*/if ((s >> 1) & 1)/*\nelse p-=\n*/p+= 418492501* 2;\telse /*\np+= */p-=/*\n*13;\n*/453152429*2;/*\np+= */if ((s >> 7) & 1) p+=/* 120886108*\n*/184101357*\t8;/* 120886108*\n*/else  p-=/* 120886108*\n*/217601355*8;/*\np+= */ p-=4013919742;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":1348363928:1;path=/;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://aappublications.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://aappublications.org/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<html><head><script type=\"text/javascript\"><!--\nfunction leastFactor(n) {\n if (isNaN(n) || !isFinite(n)) return NaN;\n if (typeof phantom !== 'undefined') return 'phantom';\n if (typeof module !== 'undefined' && module.exports) return 'node';\n if (n==0) return 0;\n if (n%1 || n*n<2) return 1;\n if (n%2==0) return 2;\n if (n%3==0) return 3;\n if (n%5==0) return 5;\n var m=Math.sqrt(n);\n for (var i=7;i<=m;i+=30) {\n  if (n%i==0)      return i;\n  if (n%(i+4)==0)  return i+4;\n  if (n%(i+6)==0)  return i+6;\n  if (n%(i+10)==0) return i+10;\n  if (n%(i+12)==0) return i+12;\n  if (n%(i+16)==0) return i+16;\n  if (n%(i+22)==0) return i+22;\n  if (n%(i+24)==0) return i+24;\n }\n return n;\n}\nfunction go() {\n var p=3614780866015; var s=109579054; var n;\nif ((s >> 10) & 1)\np+=108107251*13;/* 120886108*\n*/else  p-=/*\n*13;\n*/126542404*/*\n*13;\n*/11; if ((s >> 9) & 1)/*\np+= */p+=212708277*/* 120886108*\n*/10;else \tp-=/*\np+= */30005829*/*\np+= */10;/* 120886108*\n*/if ((s >> 12) & 1)/*\np+= */p+=\n91057775* 15; else /*\np+= */p-=/* 120886108*\n*/17441411*\n13;if ((s >> 6) & 1)p+=/*\nelse p-=\n*/43865141*/* 120886108*\n*/9;else /*\np+= */p-=/*\nelse p-=\n*/249624451*/*\nelse p-=\n*/7; if ((s >> 11) & 1)/*\n*13;\n*/p+=15966181*12;else /*\n*13;\n*/p-=/*\n*13;\n*/109671297*\t12;/*\n*13;\n*/ p-=887425116;\n n=leastFactor(p);\n{ document.cookie=\"KEY=\"+n+\"*\"+p/n+\":\"+s+\":3069309726:1;path=/;\";\n  document.location.reload(true); }\n}\n//--></script></head>\n<body onload=\"go()\">\nLoading...\n</body>\n</html>\n",
+      "url": "https://aappublications.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "aappublications.org",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T02:54:59.021Z",
+    "score": 44,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 23.25,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 13.25,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.75/6 · training 5.00/10; strategy tag Middle-Path. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 13,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 1 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 1 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://aappublications.org/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 13.25,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

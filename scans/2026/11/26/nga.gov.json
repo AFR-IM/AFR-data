@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "nga.gov",
+    "fetchedAt": "2026-11-26T03:32:13.530Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n\n# Pagers and search results pages\nDisallow: /search?*\nDisallow: /artwork-search?*\nDisallow: /artvibes-results/*\nDisallow: /calendar?*\nDisallow: /educational-resources?*\n\n# In gallery touchscreens\nDisallow: /kiosk-presentation/*\nDisallow: /kiosk-story/*\n\n# In gallery signage\nDisallow: /signage/*\n\n# Identifier redirects to canonical collection URLs\nDisallow: /accession/\nDisallow: /accession?\nDisallow: /uuid/\nDisallow: /art-object/\nDisallow: /constituent/\n\nSitemap: https://www.nga.gov/sitemap.xml\n",
+      "url": "https://www.nga.gov//robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL \"https://www.nga.gov/llms.txt\" was not found on this server.</p><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"863e1ece97fa4e549130c14e076d264f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://www.nga.gov/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL \"https://www.nga.gov/llms-full.txt\" was not found on this server.</p><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"863e1ece97fa4e549130c14e076d264f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://www.nga.gov/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-2MmNHaxCzC9Oi7LABVwufT&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"2MmNHaxCzC9Oi7LABVwufT\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'sSUaEzQSTfy0WVHLlyE7_dTdW6UvIWsgAdFUXqYWenY-1795663929-1.2.1.1-sx8e1M3ejsQslhkKOz_xj98ztwhYud8FEPLZp0HK8oGhxl57TkffnhP0TwHxGFA3',cITimeS: '1795663929',cN: '2MmNHaxCzC9Oi7LABVwufT',cRay: 'a605d3099c2f09e5',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=q5xF6SzxidgPl6to9kIeXNt8JyhdjkwXL8u2gW.wCfU-1795663929-1.0.1.1-l2mm2DhLuU21g5aQb98D4lH0NRYfHU6UGUal3djBqSI\",cvId: '3',cZone: 'www.nga.gov',fa:\"/?__cf_chl_f_tk=q5xF6SzxidgPl6to9kIeXNt8JyhdjkwXL8u2gW.wCfU-1795663929-1.0.1.1-l2mm2DhLuU21g5aQb98D4lH0NRYfHU6UGUal3djBqSI\",md: '3qi5LXqziAeq7zgVObBx75HnxehEyQXJlcAvq3DmGzc-1795663929-1.2.1.1-PCjCBHEHiEOPAAvB4Ev9A1dkWJyCRdZDhHHe_ED8fR5q7ItesZ5WzO67PgZOedm4iM9g4Mijf1dzS4QwXnPlWILjXSIYDl7d4tiAJysYGS7xLwNzDSKWwUBRUgUnpVS7rLVH3oux1poPFxa2xVjZLvoVhhgga69578w2HEDGbSXQ10MUVEhY5ywfthhx7H_6qEVSU.qEifgabjyev6KThQkepFXZVs0ED2_dV1F554jCUhqUgJk41m98kTzddpocLByEKomeqtLAAUWkvqu6k8UiZ0sLEG95KZDBjpmFCkuMvhuoOFIzLp2xPjroHG7q1oJy3SLOIyOGQ17zPc1JaB3tLErQqqJToAeZ9GN4poeFGiUFLCGyLVaZ4z5jAIrUMrvaPJPEbEM99oKJthnQp0j5llrrIZJHeQhT8UxtwrVK.0alqmi8GhFxo7VCijDpRTiy_m2PuxYVYMcxBOhKaq34hRskr1dIFctbl62ESt06hTmaHhyQ8uGwfbTE6JkaKYHHsGn9Iih_YhETI57zMVO6jafWXgaA6wjOwyxnkSxD4GuECG6eFOko2IqaYYoJsMkEsDDh7kD6jiIzapyXhfWsUKI4QYc9fCcr6a3nSiCwjViQLHDdZ9ZyW07AYaUkwGU.AYO.xYFLTOUcN.mCCPR7o3OGLKBgnaIrsmVxf4GSVyLNpgk_W5rIUsC61JE2lBPIblTdt4pOaRuS9A2DlilqI8fN.8KMUug_cfkkzAl9jE6ht8WzpbWj4DlWbJx9GHy7wYXIDX6wT68EstXGXTUQkKzGQZgS6dEg5YSJW8CHoubViTDhng7OVZdcc_y9boBf_M6hQ.VsPYNfsrX0rzvxQhU6cLUb62o3xcPFqjcn9eEq0GJKQhEmeJhrgE2hPrcgccM1o7PVE_W6lzI6FUtkLVYnGIguqJd7dPLam0HP.nIKOIQUhmIXwBVgV0gpGjZDCHZX3Kdhq9Cu2um.M4u50fTlICJnx17IjnNCJIMwsSiltsHMc.oJpNaEFsUE.TgkkjyiXI7dy6YGcE2AhMJT58Mjf7PJhyuK280argEPtxrJw1e17.YjqVz3ifzwTWIkACVM5Cyfa57iOZR6aTrB9s.g.6cdFKADmwrOilCylyj8sBVx8GULZJwBI2qMmaNlXldwXoHphJm1kAbjtQ',mdrd: 'HV5a_Nd_RHN8NtceOihbVsU0NWC9PK6EC5KnEGYlvRU-1795663929-1.2.1.1-3ls4n23WBjZfmP5LOYxydYzTV.7gP7lEU96Ux06fm2_magWLjfp0lQrIditrSC8oc_FBX4Sl_swguLnv2tpBF7ueO6DplUMzjLRG8Xz0SNPE23r6DYOnyguOn0CoCSDGdXm9mNYPgQjTAoAw.X0kSHiB33qz_CmnjJmYxK1B3qfeYgijxFKBpfHh7R0.0r25sjYN9HHYheJtiJfUu4mkNd6IeD57qdaSBHAukb2OfrG8X4QF65ltBplp9L3qMMjLxDCVXnlLYkQZWBPFfqeLO0SdbcoJuxzM8yuRv0Jn3jyy1LO9BXERYXkrWG9bFyD.ETp9NiKhPOvxfOkG_AORj2taJ5YXu09xlDcRXgb3YpKKRbifINJO1m5gj_FAIrdEFPb48ufVRX7dysWiFvmP9g',};var a = document.createElement('script');a.nonce = '2MmNHaxCzC9Oi7LABVwufT';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a605d3099c2f09e5';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=q5xF6SzxidgPl6to9kIeXNt8JyhdjkwXL8u2gW.wCfU-1795663929-1.0.1.1-l2mm2DhLuU21g5aQb98D4lH0NRYfHU6UGUal3djBqSI\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.nga.gov//",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-jb46iwo4S0miodcz2vY7i3&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"jb46iwo4S0miodcz2vY7i3\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'DQxIEJjCYVeELEmXr4w_u4ItM7zxH2zus0gPdCksrUs-1795663930-1.2.1.1-YNU_EZfim7X9ll8jCB7cdJ.3XJsMQZ1LKeXKHGnViriop_Z0MlN0zF6BoXQyQpo1',cITimeS: '1795663930',cN: 'jb46iwo4S0miodcz2vY7i3',cRay: 'a605d30ab9342422',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=gqewEuJ2LQMbjjapBRJSniAyFHfUfvcLZJ4i.W_fKb4-1795663930-1.0.1.1-4pfU_uzWzMDOoxbpZ4Qnbej13GV3rh.aIU_20ah1D60\",cvId: '3',cZone: 'www.nga.gov',fa:\"/sitemap.xml?__cf_chl_f_tk=gqewEuJ2LQMbjjapBRJSniAyFHfUfvcLZJ4i.W_fKb4-1795663930-1.0.1.1-4pfU_uzWzMDOoxbpZ4Qnbej13GV3rh.aIU_20ah1D60\",md: 'Fjic0T_IWd74dmEcG.HMVyTvhWZAkpz3QFTndCJtOnc-1795663930-1.2.1.1-zNxjzftEcgy9Zhb3jHK0a6pN1pZwyD8nV.vrUr1djGKbE2QNjlAxKk9UgwHNGLPYta2sm4Nf0dokbD5CpPI3AAaqBgh8zo05iYe.URTm1HBlG7b8u3yNUyArN0g8U39ZYDuG8QDyqw5oTTYJwFzsmg1S6aDSjjb4uSFdB9mKhmOYQ7UOe9rAeIVgk1_6JBPHsyl7T.BQ4_z0Iez.3whSuDGB808n3KUgFiEVZO_TqhwsWMdzBoEqUeYtJ6fbyApyipV73nXps8R5OW2CJeZVUKi.k2webGXFRRAnDtHwx0n1NIh3iqRty4fqppEWsE70Y.6WTwVryW6rQCiAgt.55oZtqvaxZHMeL2CL2FUnCSMUne2QXWBplP2sFodgYmQzRqKFpozB19B7u687_Z_g5yTgDChddWBVSIh9t6Zhzv2YqDOeHI4elINVcYapJxYGxwdEqLJtcPJCqJQaCqo6y5cmIoFZSTz7AD3cunLlkA2qPpi.IRgNlCzoe3F07SbisIX7tSBiDdP6D7JbvgFvLpCH2oTNnDketbAWZwWW1BsC30mKe5h1XZE_Rru5PJpeOCLqE_.2NVwQYV6jc1w2As7_LwgDlIBihLX2ywq6zhrAtTxd5l.G7yZ9lBAai7c7puSw2vHs278vATMhoprkKlyvf177up_ixaym24D_MFhx1IpZ2EEdalUjaNesvSEMfy9Ttx.RaLvErAmPLB_KnTvZ5iB4QvIcMnsjT8gCf9ElVKP_0Pfb44wjQMDJ26n7adlJFv4ob4p5JpkEuog6BnRmL3Vg2edjjYz5lvl9ckj8S35UHQU_hXvIPrg9R246fJVOjuR2vMA.YZXfuu2ai.XZVrlYw8jmxJpE0eVd1FwjpEvZeGlz7MRn4odnt0r5tuEZ0KgjZ2iTlDnbiAMxeOjL5C8hHh.r13SqS12.OM4YfLlvzlgdxdGecM1E8O2vu0bS.rn.vPNeUeVTef_UZhTyNOglz4N6E_Z_1dxVzpn87KtGr7fLDim4VpptR8JvCVs4vBkG4ZIt4fPo6HcEagoyarZmOa5nYhiWE7BKmEHpavLk9LEi2aO56WC_jzZDGoT35Y7XUkZMhYFLqoFGLq6Rkj99UVH9P7yrvySnb6Buga2CqopiwZHDT7LXgLuQC1OsDCF4Jis8UGRWEGhsXQ',mdrd: 'f2kPRYNRUxZ7XmAMNEsgQAF2zIOZgQoShcsxD6fv9QE-1795663930-1.2.1.1-FbJFSFrSQge6PwqIX94JfYQi4qfYBGRxO8vvPQ11e91OpxVIsgLOhlm3LabgujpFy2B46JB1Ffwk4aCod4HPHQYNah.ux30q8LKjGrGGl4RqgipX1o1vo.5FlVorcrGp8J1B6NG6SVlfVKtxjXwGR6EuqH1_X7q_rajmSmARsiie_d50UT_odrc0_OG1Cz5ZZtfn32iiWLlN6SWZA_3i.wx87A84yFnPCgBVZBzDXaIMnU73TQt1O0lpzYI3SgaIS04tmNqKRWW5sQCpJI4CWUertEhcFKLy2GmhqI_cMHUNYzkeD7_k7HSPZ_3029rP7ouTIYq_6dxo6cnmDs9QIBFXyqfyEQUwA__3UNGUIhILs7Y1Q6obMLuImt7WI4KRnZEY2wpqSrilD4ixzbgFxQ',};var a = document.createElement('script');a.nonce = 'jb46iwo4S0miodcz2vY7i3';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a605d30ab9342422';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=gqewEuJ2LQMbjjapBRJSniAyFHfUfvcLZJ4i.W_fKb4-1795663930-1.0.1.1-4pfU_uzWzMDOoxbpZ4Qnbej13GV3rh.aIU_20ah1D60\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.nga.gov/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-kBeQE89cPBhYfFJFQEShKp&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"kBeQE89cPBhYfFJFQEShKp\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'cdtTYf1GhriOQrXXgXLvhVlQ7sL3NIIhh7YHIpbDFoE-1795663930-1.2.1.1-LvtFxp6eUoabYFYIoZdrg8oycSTSsrikFWNX9gBa6ia_jzs0AuoJbrYWOHRBTeHr',cITimeS: '1795663930',cN: 'kBeQE89cPBhYfFJFQEShKp',cRay: 'a605d30be80557fc',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=KuK4qa3I4nfiXqcnkjVSOKryUlGlJgXocCsIikKv2JE-1795663930-1.0.1.1-elegdKCrcuzw7xF3k1G4VjKVMudXBp46y0RFWKppnS0\",cvId: '3',cZone: 'www.nga.gov',fa:\"/agents.md?__cf_chl_f_tk=KuK4qa3I4nfiXqcnkjVSOKryUlGlJgXocCsIikKv2JE-1795663930-1.0.1.1-elegdKCrcuzw7xF3k1G4VjKVMudXBp46y0RFWKppnS0\",md: 'nK0TD1erpJQSHIsAvKxDkjhw3XBlW1Lq6iQHlEe47FI-1795663930-1.2.1.1-BF9ac6th0Zn5KQ6fDoNRZ_RcC5idxwqOCCN2oozHFoUKfmbBdCWMF6pK_hb3MYGKFWzxoqTY2AmqgWn_ERh0bfoWQhlIwaTzEkFWlMuVLjHmKIrq4UTROo.9kS3nYsFpkt8AvqaTS0c9elI8kcuQjBkGybu4uQbWK1jYtSwkDvIPJY3GmJ3qRGRGbQLPFQ6fUqQzCMURCipertzYzU8jjCp9xscT._Nm1kZunULasJDfbYvmFtHWX9ih8xTeBiteP4OsQr6LUPtrSGY4wfpP7zuNfvFAnhc_ueoWuAQOzqaqs_fUM4Jv0mHEm4agQ11vzynuFZmRa_dJzOudRZPdfjD4eP7Q.pUHuONeOS4P28JvuB244BiyX7kLQk_mFzTM3KifiXPJZP1DSdwm1n3d2EbY5BlIhrVwWJMv2vbAdhCBS4_W9H84O4PORVs3I3WRublA4uf06XpMe34bil9un_ZonBgZKFXhvfBBsNGrfb6pEOMAs4dVZocHXu7mEFYpyMZLk8uY2Rer235RTZtGhNP5R_Mn3KyZv6xuiO.01i_aROIL_OFKBlaJqRrMc0nOQov5nUs875dOHsZVr2I2pln5lkXCGLSJhJ6RT_MlnGkBilet0v2TuuRlzxuyVkdRfbzGxQfTYtGrgfq1C_eU9AHz_n4qPsVMoFDZbq5rEMAsc.Aw3caxUmkZlpj0eIhpvq2j5yX_Pr6GTIRlfgq0gL_u_R7g6e7aqBNE3K2WyO1biqvY8ph4u22NxEXUPj0OkHIXorYwXKCX5mYhPGQvWJFdcT9C4nXmGNvkvkgTyEeE8lCwrrwSlRZDonu.GRtn2fOTzLyoeXAGOxCmgfPodrJdyeeqGY9rQ10ml4YqKcPR1_wg1fpguidoqJ1klxq0AkDZnUI9I4BZKzqnT9zRuvRedr4x9QdgdYfFMj_tI_4EI3_MULTEsgq72eEdBn6HbUYBzkXQQWR2xDeJHF43KX15D.5nDUWQ5OXx7M7NVczPJ76OsrVydY6pnNCsQQKkeqaoOSdklpMI0kC_iJxX4B1eJix3ICt3lkzM5nHHGnonlClsgx9qz9n40ykBcFzwxzqXcdgQKL8v0o_9BnzxVn.YYOewwDSvHnNEKGQdS8ly7T57zcqnvqUB5JlMov5qopBAdBfbBYd4twqcgED.jw',mdrd: 'AXECsiwKrH4oIJ8J1S5Y03YGVRMCsK7O7GmZUU9jLLA-1795663930-1.2.1.1-y2FURv5b8SRQwrYqggPLmVb_YZdywVM8W1ZqLhtS88JFjLxgUud_V7BbIF09lnPshC5VAXOEFJ7gHKCPPsZCldLh0TAknKEYESS_.0pwCwXR_h4Cun8PgbLzVvSSY5qGOuOxw2KgDvti4wOptXqeD8TwVsWWqnn9vtjHXdpiFjlBOKGcLPBhaqKDjKOluvbJ.gCeBqfjI9XoWciioEFc6V.8zqnWYBK2jO1F9lUfNVJ93zP17WYhN7.oYatzqn2ia3jXukuKZIycwftvsWnypOMEjFK5d73DZuRH.xAG2ylBaxkM5xRdvlEIKMjuh_Pj_Cn.YXLO0AfH_mReMNvrIf3wR6J_hdmxL3w8kV4QHjVA_WUPs1ln_gzrieayRQdmkX7_c9BYsBVQ2u2_E5DE6A',};var a = document.createElement('script');a.nonce = 'kBeQE89cPBhYfFJFQEShKp';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a605d30be80557fc';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=KuK4qa3I4nfiXqcnkjVSOKryUlGlJgXocCsIikKv2JE-1795663930-1.0.1.1-elegdKCrcuzw7xF3k1G4VjKVMudXBp46y0RFWKppnS0\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.nga.gov//agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL \"https://www.nga.gov/ai.txt\" was not found on this server.</p><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"863e1ece97fa4e549130c14e076d264f\",\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body></html>",
+      "url": "https://www.nga.gov/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "nga.gov",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:32:13.530Z",
+    "score": 14,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

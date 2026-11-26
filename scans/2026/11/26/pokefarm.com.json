@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "pokefarm.com",
+    "fetchedAt": "2026-11-26T02:57:38.742Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# AI Agents\nUser-agent: Perplexity-User\nDisallow: /\n\nUser-agent: FireCrawl\nDisallow: /\n\nUser-agent: FirecrawlAgent\nDisallow: /\n\nUser-agent: Claude-User\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Google-Agent\nDisallow: /\n\nUser-agent: Google-GeminiNotebook\nUser-agent: Google-NotebookLM\nDisallow: /\n\nUser-agent: MistralAI-User\nDisallow: /\n\nUser-agent: Kimi-User\nDisallow: /\n\nUser-agent: Amzn-User\nDisallow: /\n\nUser-agent: meta-externalfetcher\nDisallow: /\n\nUser-agent: Retool\nDisallow: /\n\nUser-agent: Instapaper\nDisallow: /\n\nUser-agent: ChathiveCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\nUser-Agent: *\nDisallow: /summary/\nDisallow: /exit\n\nUser-Agent: Twitterbot\nAllow: /summary/",
+      "url": "https://pokefarm.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html lang=\"en-GB\"><head><title>Not found! - PokéFarm Q</title><link rel=\"shortcut icon\" href=\"/favicon.ico\" /><meta name=\"viewport\" content=\"width=device-width,user-scalable=no\" /><meta name=\"description\" content=\"Collect eggs, hatch them and care for the Pokémon that emerge in this free-to-play online game!\" /><meta name=\"theme-color\" content=\"#121212\" /><link rel=\"stylesheet\" href=\"/skins/default/__colours.css?t=1792941720\" /><link rel=\"stylesheet\" href=\"https://pokefarm.com/css/index/sally.css?t=1791626102\" /><link rel=\"stylesheet\" href=\"https://pokefarm.com/css/error/error.css?t=1791626102\" /><link rel=\"manifest\" href=\"/manifest.json\" /></head><body><svg class=\"svg_icon_definitions\"><defs><path d=\"M0,-30 L10,-40 0,-50 0,-45 C-25,-45 -40,-25 -40,0 -35,-20 -20,-35 0,-35 Z\" id=\"svg_loading_arrow\"></path><g id=\"svg_loading_arrows\" class=\"svgicon\"><use xlink:href=\"#svg_loading_arrow\"></use><use xlink:href=\"#svg_loading_arrow\" transform=\"rotate(180)\"></use></g><polygon id=\"svg_usermark_1\" points=\"4,0.5 2.34,5.93 6.85,2.57 1.15,2.57 5.76,5.93\" transform=\"scale(2)\"></polygon><circle id=\"svg_usermark_2\" cx=\"8\" cy=\"8\" r=\"4\"></circle><polygon id=\"svg_usermark_3\" points=\"8,3 12,11 4,11\"></polygon><path id=\"svg_usermark_4\" d=\"M8,12 C5,8 2,8 2,4 A3,3 0 1 1 8,4 A3,3 0 1 1 14,4 C14,8 11,8 8,12 Z\"></path><path id=\"svg_usermark_5\" d=\"M8,8 A3,3 0 0 0 2,8 A3,3 0 0 0 8,8 A3,3 0 0 0 8,2 A3,3 0 0 0 8,8 A3,3 0 0 0 14,8 A3,3 0 0 0 8,8 L10,14 H6 Z\"></path><path id=\"svg_usermark_6\" d=\"M8,3 L12,8 L8,13 L4,8 Z\"></path><path id=\"svg_usermark_7\" d=\"M8,2 L2,8 A3,3 0 0 0 8,8 L10,14 H6 L8,8 A3,3 0 0 0 14,8 Z\"></path><path id=\"svg_usermark_8\" fill-rule=\"evenodd\" d=\"M2,8 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M5,8 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0\"></path><rect id=\"svg_usermark_9\" x=\"4\" y=\"4\" width=\"8\" height=\"8\"></rect><path id=\"svg_usermark_10\" d=\"M8,2 L13.71,6.15 L11.53,12.85 L4.47,12.85 L2.29,6.15 Z\"></path></defs></svg><div id=\"initloading\" class=\"dialog\"><div><div><div><h3>Loading...</h3><div><svg viewBox=\"-50 -50 100 100\" class=\"loading\"><use xlink:href=\"#svg_loading_arrows\"></use></svg></div></div></div></div></div><div id=\"core\" class=\"scrolllock\" data-user=\"\"><a href=\"#top\" id=\"toplink\">Top</a><div id=\"thisispfq\"><img src=\"https://r2.pokefarm.com/img/banner.png?t=1505641431\" alt=\"PFQ Banner\" loading=\"lazy\"/><p>This is <a href=\"/\">PokéFarm Q</a>, a free online Pokémon collectables game.</p><p class=\"buttons\"><span>Already a user? <button class=\"quicklogin\">Log in now</button></span><span>New to PFQ? <button class=\"quickregister\">Sign up!</button></span></p></div><div id=\"content\"><h1>404 Not Found</h1><h3>Could not find the file /llms.txt</h3><div class=\"errorimage\"><img src=\"https://r2.pokefarm.com/img/errors/404-2.png?t=1451842850\" loading=\"lazy\" alt=\"404-2.png\"/></div></div><div id=\"footbar\"><span>&copy; PokéFarm 2009-2026 (<a href=\"/copy\">Full details</a>)</span><span><a href=\"https://pokefarm.com/support\">Contact</a> | <a href=\"/forum/thread/274596/Rules\">Rules</a> | <a href=\"/privacy-policy\">Privacy</a> | <a href=\"/review\">Reviews</a> 4.6&#x2605;</span><span><a href=\"/shortlinks/save/llms.txt\">Get shortlink for this page</a></span><span>Ver: 16e3b58 &middot; PHP 8.5.13</span></div></div><script type=\"text/javascript\" src=\"https://pokefarm.com/js/index/browsercheck.min.js?t=1786902950\"></script><script type=\"text/javascript\" src=\"https://pokefarm.com/js/index/sally.min.js?t=1795076333\"></script><!-- Cloudflare Web Analytics --><script async src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"84eb51a2bf4d427e97a032773b68b69a\"}'></script><!-- End Cloudflare Web Analytics --></body></html>",
+      "url": "https://pokefarm.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html lang=\"en-GB\"><head><title>Not found! - PokéFarm Q</title><link rel=\"shortcut icon\" href=\"/favicon.ico\" /><meta name=\"viewport\" content=\"width=device-width,user-scalable=no\" /><meta name=\"description\" content=\"Collect eggs, hatch them and care for the Pokémon that emerge in this free-to-play online game!\" /><meta name=\"theme-color\" content=\"#121212\" /><link rel=\"stylesheet\" href=\"/skins/default/__colours.css?t=1792941720\" /><link rel=\"stylesheet\" href=\"https://pokefarm.com/css/index/sally.css?t=1791626102\" /><link rel=\"stylesheet\" href=\"https://pokefarm.com/css/error/error.css?t=1791626102\" /><link rel=\"manifest\" href=\"/manifest.json\" /></head><body><svg class=\"svg_icon_definitions\"><defs><path d=\"M0,-30 L10,-40 0,-50 0,-45 C-25,-45 -40,-25 -40,0 -35,-20 -20,-35 0,-35 Z\" id=\"svg_loading_arrow\"></path><g id=\"svg_loading_arrows\" class=\"svgicon\"><use xlink:href=\"#svg_loading_arrow\"></use><use xlink:href=\"#svg_loading_arrow\" transform=\"rotate(180)\"></use></g><polygon id=\"svg_usermark_1\" points=\"4,0.5 2.34,5.93 6.85,2.57 1.15,2.57 5.76,5.93\" transform=\"scale(2)\"></polygon><circle id=\"svg_usermark_2\" cx=\"8\" cy=\"8\" r=\"4\"></circle><polygon id=\"svg_usermark_3\" points=\"8,3 12,11 4,11\"></polygon><path id=\"svg_usermark_4\" d=\"M8,12 C5,8 2,8 2,4 A3,3 0 1 1 8,4 A3,3 0 1 1 14,4 C14,8 11,8 8,12 Z\"></path><path id=\"svg_usermark_5\" d=\"M8,8 A3,3 0 0 0 2,8 A3,3 0 0 0 8,8 A3,3 0 0 0 8,2 A3,3 0 0 0 8,8 A3,3 0 0 0 14,8 A3,3 0 0 0 8,8 L10,14 H6 Z\"></path><path id=\"svg_usermark_6\" d=\"M8,3 L12,8 L8,13 L4,8 Z\"></path><path id=\"svg_usermark_7\" d=\"M8,2 L2,8 A3,3 0 0 0 8,8 L10,14 H6 L8,8 A3,3 0 0 0 14,8 Z\"></path><path id=\"svg_usermark_8\" fill-rule=\"evenodd\" d=\"M2,8 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M5,8 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0\"></path><rect id=\"svg_usermark_9\" x=\"4\" y=\"4\" width=\"8\" height=\"8\"></rect><path id=\"svg_usermark_10\" d=\"M8,2 L13.71,6.15 L11.53,12.85 L4.47,12.85 L2.29,6.15 Z\"></path></defs></svg><div id=\"initloading\" class=\"dialog\"><div><div><div><h3>Loading...</h3><div><svg viewBox=\"-50 -50 100 100\" class=\"loading\"><use xlink:href=\"#svg_loading_arrows\"></use></svg></div></div></div></div></div><div id=\"core\" class=\"scrolllock\" data-user=\"\"><a href=\"#top\" id=\"toplink\">Top</a><div id=\"thisispfq\"><img src=\"https://r2.pokefarm.com/img/banner.png?t=1505641431\" alt=\"PFQ Banner\" loading=\"lazy\"/><p>This is <a href=\"/\">PokéFarm Q</a>, a free online Pokémon collectables game.</p><p class=\"buttons\"><span>Already a user? <button class=\"quicklogin\">Log in now</button></span><span>New to PFQ? <button class=\"quickregister\">Sign up!</button></span></p></div><div id=\"content\"><h1>404 Not Found</h1><h3>Could not find the file /llms-full.txt</h3><div class=\"errorimage\"><img src=\"https://r2.pokefarm.com/img/errors/404-5.png?t=1451842851\" loading=\"lazy\" alt=\"404-5.png\"/></div></div><div id=\"footbar\"><span>&copy; PokéFarm 2009-2026 (<a href=\"/copy\">Full details</a>)</span><span><a href=\"https://pokefarm.com/support\">Contact</a> | <a href=\"/forum/thread/274596/Rules\">Rules</a> | <a href=\"/privacy-policy\">Privacy</a> | <a href=\"/review\">Reviews</a> 4.6&#x2605;</span><span><a href=\"/shortlinks/save/llms-full.txt\">Get shortlink for this page</a></span><span>Ver: 16e3b58 &middot; PHP 8.5.13</span></div></div><script type=\"text/javascript\" src=\"https://pokefarm.com/js/index/browsercheck.min.js?t=1786902950\"></script><script type=\"text/javascript\" src=\"https://pokefarm.com/js/index/sally.min.js?t=1795076333\"></script><!-- Cloudflare Web Analytics --><script async src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"84eb51a2bf4d427e97a032773b68b69a\"}'></script><!-- End Cloudflare Web Analytics --></body></html>",
+      "url": "https://pokefarm.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-N2MXg9BSaXaV4cG91BMx4D&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"N2MXg9BSaXaV4cG91BMx4D\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'bOAkaH8cxQcTOskUyO3LyDFUAXjFR1M4AjNyE6XXk54-1795661857-1.2.1.1-czYSkjPUzKM1ZsmTtQIcKsKKyzEG57SVedyij.EhR7eRdWO4bR9j37WQqNZZQto2',cITimeS: '1795661857',cN: 'N2MXg9BSaXaV4cG91BMx4D',cRay: 'a605a0720dd073a3',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=zwDomtmonUeIIiltzR9DC.6Yt7u.Sl.K0u6VB5IjYmk-1795661857-1.0.1.1-fc8adwIyjA0sHKuiwGjFJ6VAGa60ybmzs161aiixtAw\",cvId: '3',cZone: 'pokefarm.com',fa:\"/?__cf_chl_f_tk=zwDomtmonUeIIiltzR9DC.6Yt7u.Sl.K0u6VB5IjYmk-1795661857-1.0.1.1-fc8adwIyjA0sHKuiwGjFJ6VAGa60ybmzs161aiixtAw\",md: 'ZisseSG1EExfAx4ItzaGG2TyvZRT8deDLdWoTs5n_WM-1795661857-1.2.1.1-nwficXutTWIv8xKaPLlT3n5S2Owylin075bXBk1VUK1AxschDXjZKSAUgStSwYwAUF2LK1RXngp8wV0IX_DKtjyyBtZe8ajnBnr8s1Ziz4AhOAH0JzSPUvt6ej0vTfaY09KOHISJqnt3l.dwfA7bah1ZxBy8JaClwZtXigk5f9tjSl45U7vZwhRq8XejUqdVSzjwm0ggpxY0GjWk2YVa.EaH7Jx4mqBZ3UGp.ESIPSNEuBL38cNNlB5HQkKr1E8BbNPLZSqmW8ruTYFrad8cpuaesN3RaCEk9EcbOE6uaJ_9_Xdj1AIQwPqp5k012LYJ6z7va.ajFJKCmFXvQs2P33PNm9q2dFDxw7kIBmm.tkcJuZVMlkk8_RWF2zJgZiOyDmFH6_SVm7qtXzpFOpTOZSmRuJn1tW.WCGIGeGjEPYVx9ekFdF2ayBbtkCbF2dDzxQmz.UB_gMklS_2lQmZH9083ID9J1Zvf8onhfNpXoMg5KTW1QNlghsIxvomlX9Ea7uY0xVQDLglpjId3.hBXMhOV3SM_rX3Mj8uK3jfuZG7AxXDAQLtEywcBu0v_yvHjqYAbCFw5b2.8eijqyZSnwoKSr.bV7YJd1zeWsmy5D3FdUPted4lUUzj1eY0fPQp9nRZzpLM5jErL9I5btd.Ycj.N2xygxWdWFi_zsBkRrWQ88FVELAJPsTqP_sFN79VnTJ2uLuYrLMSy9gdddUr7vMqntKj6A8rA00D1BYnxP3Pnh3idAX4iXNVghJ7c3UhpQposiNNR3iqaCvxyk_aLAExmrM3DBmfac4POzRChPleA5f4Th2FFth1mYfJhgow_WXuokDd2ttihDHwf22g_fFfpv5uTHJPmNyBhNWzEKo6o5xQkbCXmhEHwdyNr0UdvfSkhtqtH7vQLBNOGoCHhpum62tP0_MKbNPOZBLg2tlZdcs9vgj3PURwAcrZ0jw9Gt7pTEX1J9Aa7bkL4Eur_C0qN6JIqjRbkIUfQIfjqHudUzastACjSS8KssKbhV2CcKI9kPzRmI0LeJX.qB3xJurT6.7h3idta05EJQGUH.1HeebfX5C8phOJ6tRHEWCYAYTHlIwxAB4GXrJCfUxR41n2kFxsQwSlJPqH9D2RxKzc',mdrd: 'LYMBF73t4H9b2x5MtYJ8OEqbgeDR.C4WS.Dm6RJWw6I-1795661857-1.2.1.1-IQvZbrxuCMPHsq2s0pN6FMxuViDEj2er9bkagVft4H.vmXjtUEMZXxMdqgwTYUcLLUxtP3PyCb8tMs9la6ds8XNUYYrL7uekg3Ux_75gH4VhJ3RkJEv.3iPUMtRNUkisiByq.L4kH1vxN_Zotbksu9u2ACTLaYWlQKShMJ7nWd6JF_aYYxCN9FkSWmSUvHw7NFQPKoqS0Tf8XsPxcXzmXrKbCtXiBL7vzrb_W45X46RnEDJQ3dEwEjc3h3jQhoE8U3RCYolR.yuhtrPZjgY2W6VsCnHjQR5ed7_7iVjifu2gBa_.kU43bA122657slwuyIwrUoOl02o_gsUL3ybMDu16.feOr3BMomj9ny8Pewep8PVkHrjlqAXGrGDAFQE4U2Cf4ykgF854tToxNw8ZZg',};var a = document.createElement('script');a.nonce = 'N2MXg9BSaXaV4cG91BMx4D';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a605a0720dd073a3';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=zwDomtmonUeIIiltzR9DC.6Yt7u.Sl.K0u6VB5IjYmk-1795661857-1.0.1.1-fc8adwIyjA0sHKuiwGjFJ6VAGa60ybmzs161aiixtAw\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://pokefarm.com/",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/cf.errors.css\" />\n<!--[if lt IE 9]><link rel=\"stylesheet\" id='cf_styles-ie-css' href=\"/cdn-cgi/styles/cf.errors.ie.css\" /><![endif]-->\n<style>body{margin:0;padding:0}</style>\n\n\n<!--[if gte IE 10]><!-->\n<script>\n  if (!navigator.cookieEnabled) {\n    window.addEventListener('DOMContentLoaded', function () {\n      var cookieEl = document.getElementById('cookie-alert');\n      cookieEl.style.display = 'block';\n    })\n  }\n</script>\n<!--<![endif]-->\n\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"cf-error-details-wrapper\">\n      <div class=\"cf-wrapper cf-header cf-error-overview\">\n        <h1 data-translate=\"block_headline\">Sorry, you have been blocked</h1>\n        <h2 class=\"cf-subheadline\"><span data-translate=\"unable_to_access\">You are unable to access</span> pokefarm.com</h2>\n      </div><!-- /.header -->\n\n      <div class=\"cf-section cf-highlight\">\n        <div class=\"cf-wrapper\">\n          <div class=\"cf-screenshot-container cf-screenshot-full\">\n            \n              <span class=\"cf-no-screenshot error\"></span>\n            \n          </div>\n        </div>\n      </div><!-- /.captcha-container -->\n\n      <div class=\"cf-section cf-wrapper\">\n        <div class=\"cf-columns two\">\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_why_headline\">Why have I been blocked?</h2>\n\n            <p data-translate=\"blocked_why_detail\">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\n          </div>\n\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_resolve_headline\">What can I do to resolve this?</h2>\n\n            <p data-translate=\"blocked_resolve_detail\">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\n          </div>\n        </div>\n      </div><!-- /.section -->\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">a605a0732c35b203</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n        Your IP:\n        <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">3.41.210.122</span>\n        <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n    window._cf_translation = {};\n    \n    \n  </script>\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a605a0732c35b203',t:'MTc5NTY2MTg1Nw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a605a0732c35b203',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>",
+      "url": "https://pokefarm.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-Gd3h3tKli0g2yD39xYwNPR&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"Gd3h3tKli0g2yD39xYwNPR\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'Y1JHLSjS4bCru9X8yoJVBDn32nCeCTvURL98nMc6TIE-1795661857-1.2.1.1-8cOc7i.51MGhvdzprYq1ZTCxhdDM98Xi40bOGEvBKlv2yRr8rn4q1h1UzUKER_bt',cITimeS: '1795661857',cN: 'Gd3h3tKli0g2yD39xYwNPR',cRay: 'a605a0743b0cb203',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=01MR9M6JavCMn3tsNmm4P0nMTHEBBIwvnNj5H8QqI0c-1795661857-1.0.1.1-iwnXmv05ROckRbkYL4C8ZkC0taLjy.CZ4zKWMYg8swM\",cvId: '3',cZone: 'pokefarm.com',fa:\"/agents.md?__cf_chl_f_tk=01MR9M6JavCMn3tsNmm4P0nMTHEBBIwvnNj5H8QqI0c-1795661857-1.0.1.1-iwnXmv05ROckRbkYL4C8ZkC0taLjy.CZ4zKWMYg8swM\",md: 'W77C.lGKykH7r8N2zWYEdjCWHbFAX6ON6hZHIjL4x48-1795661857-1.2.1.1-hjYjo4dCFQTzqoJVQxR1z6qKT9e.qjLYCUWz9397yRpAlx8fe95bbAR9PuzJxjrTNSS77BePNeYKnSczmU3xsTE6zS_3sqBn_nS5XugWxZr5tM8WB5OjmdHswAqoaPOTVy4bL2oBvZZ5.ytlPaBRBPzBVUbEIqKVx4YRfI5CFik.dVYC9r.kS3ESQQ1EklqbNsfSmikKPqJ3i4uN78smndHHxpzSTiJpP000kBVLAaKSsE9ftjzSD9H9Y7Wv3En9ooR7EJ_p8IfOQmUKvMZV70HXy9QRbsle3DqOmE2rO09JuqGtFmdMMC_NzAA6nm87ZUqssD1cF3nuxeaZmNwQGrNtCqSQdsJpKqNga3VxQ360IOTZlA7JeKCsHrECLjjgNXg0.YbjU0tCuxS6uGHlMwfabKXU2PUgwNmuLE4CCm2EkYVmNeDfVcM.8v1n59wHErbm4b1ytObQP5u1cFZt.8Ftczp6tUrU9Gtt225tBFPzAlJe3.58MVFrG18G0rcXA1S2T5.voUNJT0pSBHaV0J7il9IIq0ai1vvhDKJ87SZVnzHVBCO1mYBdQqnIlPemfel.1pqw6OddscbFO15Ad2q06SdVPNVZM0CwuAVI2B1kTjMX3iO.lxsmcTTFLWLsqW4Sbdx5C.HA1W5pv9mPjaxsmmyQSop7KGboCVuf_Wl1nZRv8aWxFwbQwT4WQ7M1CL3UxKZwg9YF6ugMjAUJQDAVskW0dLZd5_TdEDTqc7ceBTVqQWrQnvU4th3mA1Ih1N0drphmMI1GG7DzUyaitQq.rKFgEuhBYst0mUcgFP2E0XLACLFF4gzK2I2JnJnmu.8NMwnB.TYjLdCzHpsrI9WiHFseVZEQU17AncJf4u0tCwmr.zsnPzBlVSE4kxR5biMeTCSDe0dLH93Yrl4TO1FD62D79FwKus_5gBMhXI8OJibABa_MgjINiqlLvi4GKQcAEZ4XZzMVAKr0ubefswCQik8XpboejqeaZgGHBj_VHaW5J4hn.Rib3IrbGKX8qJv5VB2uyrqSwRPR29QJrQhgPCTnPBz1QZAcShQCLvR8gMhgR4tKS9fKBTgg19rJsl_Ub97mT861e3mvE.NKZpv.xUR6QQvwTxjQysZctMdItrU2U.IIefXEh0_5tJGT',mdrd: 'h7IPFIIVxsPy1YTEnAMjkpE_7j7BTWV66Zo5zSzGm4k-1795661857-1.2.1.1-NBdBQBP9uIiaaGsQr6mN6mp9QKGskoA7XSxFaxSpQPPo2.HwbYywDZf68o7KD8R_MR_.5GBNw6JyNKfMPwckG6P3RJBwjf5rGSCL5APunVzR8Qk9AFplneK5kOvuPEVzjX1Sd.aahrA1tpVjPADWwaO8A3LFEUN5BakY0vEGHI7HC7nMBTT8Y_LMNv.AWrhhQYoDccEDenKjgFc.285DBW7T.rLxkYDfSB1dSd7QKxN0RLp7s4Ra9hMmQArJ7FWLE4YEw.taT7f5H9SbqAGnaQcIJAxxoEvxM2Y.YThhBHZinieME5xmYt_hGwW224qG7394vpp0tzdngtGrRKftBW9PAsCwv_Av2MwNXWgF6xx03lSRbosxlyhLqVRU6ETeCxWKS20WScycPKOAz0HVSA',};var a = document.createElement('script');a.nonce = 'Gd3h3tKli0g2yD39xYwNPR';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a605a0743b0cb203';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=01MR9M6JavCMn3tsNmm4P0nMTHEBBIwvnNj5H8QqI0c-1795661857-1.0.1.1-iwnXmv05ROckRbkYL4C8ZkC0taLjy.CZ4zKWMYg8swM\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://pokefarm.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html><html lang=\"en-GB\"><head><title>Not found! - PokéFarm Q</title><link rel=\"shortcut icon\" href=\"/favicon.ico\" /><meta name=\"viewport\" content=\"width=device-width,user-scalable=no\" /><meta name=\"description\" content=\"Collect eggs, hatch them and care for the Pokémon that emerge in this free-to-play online game!\" /><meta name=\"theme-color\" content=\"#121212\" /><link rel=\"stylesheet\" href=\"/skins/default/__colours.css?t=1792941720\" /><link rel=\"stylesheet\" href=\"https://pokefarm.com/css/index/sally.css?t=1791626102\" /><link rel=\"stylesheet\" href=\"https://pokefarm.com/css/error/error.css?t=1791626102\" /><link rel=\"manifest\" href=\"/manifest.json\" /></head><body><svg class=\"svg_icon_definitions\"><defs><path d=\"M0,-30 L10,-40 0,-50 0,-45 C-25,-45 -40,-25 -40,0 -35,-20 -20,-35 0,-35 Z\" id=\"svg_loading_arrow\"></path><g id=\"svg_loading_arrows\" class=\"svgicon\"><use xlink:href=\"#svg_loading_arrow\"></use><use xlink:href=\"#svg_loading_arrow\" transform=\"rotate(180)\"></use></g><polygon id=\"svg_usermark_1\" points=\"4,0.5 2.34,5.93 6.85,2.57 1.15,2.57 5.76,5.93\" transform=\"scale(2)\"></polygon><circle id=\"svg_usermark_2\" cx=\"8\" cy=\"8\" r=\"4\"></circle><polygon id=\"svg_usermark_3\" points=\"8,3 12,11 4,11\"></polygon><path id=\"svg_usermark_4\" d=\"M8,12 C5,8 2,8 2,4 A3,3 0 1 1 8,4 A3,3 0 1 1 14,4 C14,8 11,8 8,12 Z\"></path><path id=\"svg_usermark_5\" d=\"M8,8 A3,3 0 0 0 2,8 A3,3 0 0 0 8,8 A3,3 0 0 0 8,2 A3,3 0 0 0 8,8 A3,3 0 0 0 14,8 A3,3 0 0 0 8,8 L10,14 H6 Z\"></path><path id=\"svg_usermark_6\" d=\"M8,3 L12,8 L8,13 L4,8 Z\"></path><path id=\"svg_usermark_7\" d=\"M8,2 L2,8 A3,3 0 0 0 8,8 L10,14 H6 L8,8 A3,3 0 0 0 14,8 Z\"></path><path id=\"svg_usermark_8\" fill-rule=\"evenodd\" d=\"M2,8 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M5,8 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0\"></path><rect id=\"svg_usermark_9\" x=\"4\" y=\"4\" width=\"8\" height=\"8\"></rect><path id=\"svg_usermark_10\" d=\"M8,2 L13.71,6.15 L11.53,12.85 L4.47,12.85 L2.29,6.15 Z\"></path></defs></svg><div id=\"initloading\" class=\"dialog\"><div><div><div><h3>Loading...</h3><div><svg viewBox=\"-50 -50 100 100\" class=\"loading\"><use xlink:href=\"#svg_loading_arrows\"></use></svg></div></div></div></div></div><div id=\"core\" class=\"scrolllock\" data-user=\"\"><a href=\"#top\" id=\"toplink\">Top</a><div id=\"thisispfq\"><img src=\"https://r2.pokefarm.com/img/banner.png?t=1505641431\" alt=\"PFQ Banner\" loading=\"lazy\"/><p>This is <a href=\"/\">PokéFarm Q</a>, a free online Pokémon collectables game.</p><p class=\"buttons\"><span>Already a user? <button class=\"quicklogin\">Log in now</button></span><span>New to PFQ? <button class=\"quickregister\">Sign up!</button></span></p></div><div id=\"content\"><h1>404 Not Found</h1><h3>Could not find the file /ai.txt</h3><div class=\"errorimage\"><img src=\"https://r2.pokefarm.com/img/errors/404-5.png?t=1451842851\" loading=\"lazy\" alt=\"404-5.png\"/></div></div><div id=\"footbar\"><span>&copy; PokéFarm 2009-2026 (<a href=\"/copy\">Full details</a>)</span><span><a href=\"https://pokefarm.com/support\">Contact</a> | <a href=\"/forum/thread/274596/Rules\">Rules</a> | <a href=\"/privacy-policy\">Privacy</a> | <a href=\"/review\">Reviews</a> 4.6&#x2605;</span><span><a href=\"/shortlinks/save/ai.txt\">Get shortlink for this page</a></span><span>Ver: 16e3b58 &middot; PHP 8.5.13</span></div></div><script type=\"text/javascript\" src=\"https://pokefarm.com/js/index/browsercheck.min.js?t=1786902950\"></script><script type=\"text/javascript\" src=\"https://pokefarm.com/js/index/sally.min.js?t=1795076333\"></script><!-- Cloudflare Web Analytics --><script async src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"84eb51a2bf4d427e97a032773b68b69a\"}'></script><!-- End Cloudflare Web Analytics --></body></html>",
+      "url": "https://pokefarm.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "pokefarm.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T02:57:38.742Z",
+    "score": 5,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "AI-Closed",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 4.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 4.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 0.00/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: ChatGPT-User, Claude-User, Perplexity-User. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 4.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

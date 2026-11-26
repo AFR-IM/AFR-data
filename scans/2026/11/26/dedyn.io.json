@@ -1,0 +1,257 @@
+{
+  "signals": {
+    "domain": "dedyn.io",
+    "fetchedAt": "2026-11-26T03:12:32.480Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "user-agent: *\ndisallow: /api/\n",
+      "url": "https://desec.io/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"/favicon.svg\" sizes=\"any\">\n    <link rel=\"icon\" href=\"/favicon.ico\">\n    <title>deSEC – Free Secure DNS</title>\n    <!-- Vuetify's styles are spread over several stylesheets, any of which may\n         load first. Declaring the order of its cascade layers up front (as in\n         vuetify/styles/layers) makes the cascade independent of that. -->\n    <style>@layer vuetify-core.reset,vuetify-core.base,vuetify-components,vuetify-overrides,vuetify-utilities.theme-base,vuetify-utilities.typography,vuetify-utilities.helpers,vuetify-utilities.theme-background,vuetify-utilities.theme-foreground,vuetify-final.transitions,vuetify-final.trumps;</style>\n    <script type=\"module\" crossorigin src=\"/assets/index-DbX0oujz.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VContainer-BzPb1Bft.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VRow-MYxBLgZp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/transitions-BF4pBBVz.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VAlert-C5fZFfKb.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VField-DQr2_RQ8.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelectionControl-D13mpt8d.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VTextField-BeqzyrMP.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/lazy-VUmtnTcI.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VDivider-DdTCj-b0.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/dialog-transition-DAyy0BAC.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VCheckboxBtn-Bscpk18j.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelect-DK9MDRHM.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VContainer-ku9EbwM-.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VRow-4ftI6TNI.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VAlert-DXOa9cRk.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VField-BEw52aLB.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelectionControl-o1O5Bixh.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VTextField-oktModra.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VDivider-DYyE43Ji.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelect-CFGtU0PR.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DB5Q8_2d.css\">\n  </head>\n  <body>\n    <noscript>\n      <img src=\"assets/logo.svg\" alt=\"deSEC\">\n      <h1>Modern DNS Hosting for Everyone</h1>\n      <p>\n        deSEC is a <strong>free DNS hosting</strong> service, <strong>designed with security in mind</strong>.<br>\n        Running on <strong>open-source software</strong> and <strong>supported by <a href=\"https://systemsecurity.com/\">SSE</a></strong>,\n        deSEC is free for everyone to use.\n      </p>\n      <h2>🛑 Warning</h2>\n      <p>\n        deSEC requires JavaScript for accessing the control panel for DNS management.<br>\n        Please enable JavaScript for this site to proceed.\n      </p>\n      <p>\n        Hint: Accessing the <a href=\"https://desec.readthedocs.io/\">API documentation</a> does not require JavaScript.\n      </p>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n",
+      "url": "https://desec.io/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"/favicon.svg\" sizes=\"any\">\n    <link rel=\"icon\" href=\"/favicon.ico\">\n    <title>deSEC – Free Secure DNS</title>\n    <!-- Vuetify's styles are spread over several stylesheets, any of which may\n         load first. Declaring the order of its cascade layers up front (as in\n         vuetify/styles/layers) makes the cascade independent of that. -->\n    <style>@layer vuetify-core.reset,vuetify-core.base,vuetify-components,vuetify-overrides,vuetify-utilities.theme-base,vuetify-utilities.typography,vuetify-utilities.helpers,vuetify-utilities.theme-background,vuetify-utilities.theme-foreground,vuetify-final.transitions,vuetify-final.trumps;</style>\n    <script type=\"module\" crossorigin src=\"/assets/index-DbX0oujz.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VContainer-BzPb1Bft.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VRow-MYxBLgZp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/transitions-BF4pBBVz.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VAlert-C5fZFfKb.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VField-DQr2_RQ8.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelectionControl-D13mpt8d.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VTextField-BeqzyrMP.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/lazy-VUmtnTcI.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VDivider-DdTCj-b0.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/dialog-transition-DAyy0BAC.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VCheckboxBtn-Bscpk18j.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelect-DK9MDRHM.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VContainer-ku9EbwM-.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VRow-4ftI6TNI.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VAlert-DXOa9cRk.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VField-BEw52aLB.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelectionControl-o1O5Bixh.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VTextField-oktModra.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VDivider-DYyE43Ji.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelect-CFGtU0PR.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DB5Q8_2d.css\">\n  </head>\n  <body>\n    <noscript>\n      <img src=\"assets/logo.svg\" alt=\"deSEC\">\n      <h1>Modern DNS Hosting for Everyone</h1>\n      <p>\n        deSEC is a <strong>free DNS hosting</strong> service, <strong>designed with security in mind</strong>.<br>\n        Running on <strong>open-source software</strong> and <strong>supported by <a href=\"https://systemsecurity.com/\">SSE</a></strong>,\n        deSEC is free for everyone to use.\n      </p>\n      <h2>🛑 Warning</h2>\n      <p>\n        deSEC requires JavaScript for accessing the control panel for DNS management.<br>\n        Please enable JavaScript for this site to proceed.\n      </p>\n      <p>\n        Hint: Accessing the <a href=\"https://desec.readthedocs.io/\">API documentation</a> does not require JavaScript.\n      </p>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n",
+      "url": "https://desec.io/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"/favicon.svg\" sizes=\"any\">\n    <link rel=\"icon\" href=\"/favicon.ico\">\n    <title>deSEC – Free Secure DNS</title>\n    <!-- Vuetify's styles are spread over several stylesheets, any of which may\n         load first. Declaring the order of its cascade layers up front (as in\n         vuetify/styles/layers) makes the cascade independent of that. -->\n    <style>@layer vuetify-core.reset,vuetify-core.base,vuetify-components,vuetify-overrides,vuetify-utilities.theme-base,vuetify-utilities.typography,vuetify-utilities.helpers,vuetify-utilities.theme-background,vuetify-utilities.theme-foreground,vuetify-final.transitions,vuetify-final.trumps;</style>\n    <script type=\"module\" crossorigin src=\"/assets/index-DbX0oujz.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VContainer-BzPb1Bft.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VRow-MYxBLgZp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/transitions-BF4pBBVz.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VAlert-C5fZFfKb.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VField-DQr2_RQ8.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelectionControl-D13mpt8d.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VTextField-BeqzyrMP.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/lazy-VUmtnTcI.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VDivider-DdTCj-b0.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/dialog-transition-DAyy0BAC.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VCheckboxBtn-Bscpk18j.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelect-DK9MDRHM.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VContainer-ku9EbwM-.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VRow-4ftI6TNI.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VAlert-DXOa9cRk.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VField-BEw52aLB.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelectionControl-o1O5Bixh.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VTextField-oktModra.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VDivider-DYyE43Ji.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelect-CFGtU0PR.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DB5Q8_2d.css\">\n  </head>\n  <body>\n    <noscript>\n      <img src=\"assets/logo.svg\" alt=\"deSEC\">\n      <h1>Modern DNS Hosting for Everyone</h1>\n      <p>\n        deSEC is a <strong>free DNS hosting</strong> service, <strong>designed with security in mind</strong>.<br>\n        Running on <strong>open-source software</strong> and <strong>supported by <a href=\"https://systemsecurity.com/\">SSE</a></strong>,\n        deSEC is free for everyone to use.\n      </p>\n      <h2>🛑 Warning</h2>\n      <p>\n        deSEC requires JavaScript for accessing the control panel for DNS management.<br>\n        Please enable JavaScript for this site to proceed.\n      </p>\n      <p>\n        Hint: Accessing the <a href=\"https://desec.readthedocs.io/\">API documentation</a> does not require JavaScript.\n      </p>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n",
+      "url": "https://desec.io/",
+      "title": "deSEC – Free Secure DNS",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"/favicon.svg\" sizes=\"any\">\n    <link rel=\"icon\" href=\"/favicon.ico\">\n    <title>deSEC – Free Secure DNS</title>\n    <!-- Vuetify's styles are spread over several stylesheets, any of which may\n         load first. Declaring the order of its cascade layers up front (as in\n         vuetify/styles/layers) makes the cascade independent of that. -->\n    <style>@layer vuetify-core.reset,vuetify-core.base,vuetify-components,vuetify-overrides,vuetify-utilities.theme-base,vuetify-utilities.typography,vuetify-utilities.helpers,vuetify-utilities.theme-background,vuetify-utilities.theme-foreground,vuetify-final.transitions,vuetify-final.trumps;</style>\n    <script type=\"module\" crossorigin src=\"/assets/index-DbX0oujz.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VContainer-BzPb1Bft.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VRow-MYxBLgZp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/transitions-BF4pBBVz.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VAlert-C5fZFfKb.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VField-DQr2_RQ8.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelectionControl-D13mpt8d.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VTextField-BeqzyrMP.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/lazy-VUmtnTcI.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VDivider-DdTCj-b0.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/dialog-transition-DAyy0BAC.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VCheckboxBtn-Bscpk18j.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelect-DK9MDRHM.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VContainer-ku9EbwM-.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VRow-4ftI6TNI.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VAlert-DXOa9cRk.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VField-BEw52aLB.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelectionControl-o1O5Bixh.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VTextField-oktModra.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VDivider-DYyE43Ji.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelect-CFGtU0PR.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DB5Q8_2d.css\">\n  </head>\n  <body>\n    <noscript>\n      <img src=\"assets/logo.svg\" alt=\"deSEC\">\n      <h1>Modern DNS Hosting for Everyone</h1>\n      <p>\n        deSEC is a <strong>free DNS hosting</strong> service, <strong>designed with security in mind</strong>.<br>\n        Running on <strong>open-source software</strong> and <strong>supported by <a href=\"https://systemsecurity.com/\">SSE</a></strong>,\n        deSEC is free for everyone to use.\n      </p>\n      <h2>🛑 Warning</h2>\n      <p>\n        deSEC requires JavaScript for accessing the control panel for DNS management.<br>\n        Please enable JavaScript for this site to proceed.\n      </p>\n      <p>\n        Hint: Accessing the <a href=\"https://desec.readthedocs.io/\">API documentation</a> does not require JavaScript.\n      </p>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n",
+      "url": "https://desec.io/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"/favicon.svg\" sizes=\"any\">\n    <link rel=\"icon\" href=\"/favicon.ico\">\n    <title>deSEC – Free Secure DNS</title>\n    <!-- Vuetify's styles are spread over several stylesheets, any of which may\n         load first. Declaring the order of its cascade layers up front (as in\n         vuetify/styles/layers) makes the cascade independent of that. -->\n    <style>@layer vuetify-core.reset,vuetify-core.base,vuetify-components,vuetify-overrides,vuetify-utilities.theme-base,vuetify-utilities.typography,vuetify-utilities.helpers,vuetify-utilities.theme-background,vuetify-utilities.theme-foreground,vuetify-final.transitions,vuetify-final.trumps;</style>\n    <script type=\"module\" crossorigin src=\"/assets/index-DbX0oujz.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VContainer-BzPb1Bft.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VRow-MYxBLgZp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/transitions-BF4pBBVz.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VAlert-C5fZFfKb.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VField-DQr2_RQ8.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelectionControl-D13mpt8d.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VTextField-BeqzyrMP.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/lazy-VUmtnTcI.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VDivider-DdTCj-b0.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/dialog-transition-DAyy0BAC.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VCheckboxBtn-Bscpk18j.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelect-DK9MDRHM.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VContainer-ku9EbwM-.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VRow-4ftI6TNI.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VAlert-DXOa9cRk.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VField-BEw52aLB.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelectionControl-o1O5Bixh.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VTextField-oktModra.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VDivider-DYyE43Ji.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelect-CFGtU0PR.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DB5Q8_2d.css\">\n  </head>\n  <body>\n    <noscript>\n      <img src=\"assets/logo.svg\" alt=\"deSEC\">\n      <h1>Modern DNS Hosting for Everyone</h1>\n      <p>\n        deSEC is a <strong>free DNS hosting</strong> service, <strong>designed with security in mind</strong>.<br>\n        Running on <strong>open-source software</strong> and <strong>supported by <a href=\"https://systemsecurity.com/\">SSE</a></strong>,\n        deSEC is free for everyone to use.\n      </p>\n      <h2>🛑 Warning</h2>\n      <p>\n        deSEC requires JavaScript for accessing the control panel for DNS management.<br>\n        Please enable JavaScript for this site to proceed.\n      </p>\n      <p>\n        Hint: Accessing the <a href=\"https://desec.readthedocs.io/\">API documentation</a> does not require JavaScript.\n      </p>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n",
+      "url": "https://desec.io/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"/favicon.svg\" sizes=\"any\">\n    <link rel=\"icon\" href=\"/favicon.ico\">\n    <title>deSEC – Free Secure DNS</title>\n    <!-- Vuetify's styles are spread over several stylesheets, any of which may\n         load first. Declaring the order of its cascade layers up front (as in\n         vuetify/styles/layers) makes the cascade independent of that. -->\n    <style>@layer vuetify-core.reset,vuetify-core.base,vuetify-components,vuetify-overrides,vuetify-utilities.theme-base,vuetify-utilities.typography,vuetify-utilities.helpers,vuetify-utilities.theme-background,vuetify-utilities.theme-foreground,vuetify-final.transitions,vuetify-final.trumps;</style>\n    <script type=\"module\" crossorigin src=\"/assets/index-DbX0oujz.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VContainer-BzPb1Bft.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VRow-MYxBLgZp.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/transitions-BF4pBBVz.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VAlert-C5fZFfKb.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VField-DQr2_RQ8.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelectionControl-D13mpt8d.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VTextField-BeqzyrMP.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/lazy-VUmtnTcI.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VDivider-DdTCj-b0.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/dialog-transition-DAyy0BAC.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VCheckboxBtn-Bscpk18j.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/VSelect-DK9MDRHM.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VContainer-ku9EbwM-.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VRow-4ftI6TNI.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VAlert-DXOa9cRk.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VField-BEw52aLB.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelectionControl-o1O5Bixh.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VTextField-oktModra.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VDivider-DYyE43Ji.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/VSelect-CFGtU0PR.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DB5Q8_2d.css\">\n  </head>\n  <body>\n    <noscript>\n      <img src=\"assets/logo.svg\" alt=\"deSEC\">\n      <h1>Modern DNS Hosting for Everyone</h1>\n      <p>\n        deSEC is a <strong>free DNS hosting</strong> service, <strong>designed with security in mind</strong>.<br>\n        Running on <strong>open-source software</strong> and <strong>supported by <a href=\"https://systemsecurity.com/\">SSE</a></strong>,\n        deSEC is free for everyone to use.\n      </p>\n      <h2>🛑 Warning</h2>\n      <p>\n        deSEC requires JavaScript for accessing the control panel for DNS management.<br>\n        Please enable JavaScript for this site to proceed.\n      </p>\n      <p>\n        Hint: Accessing the <a href=\"https://desec.readthedocs.io/\">API documentation</a> does not require JavaScript.\n      </p>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n",
+      "url": "https://desec.io/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "dedyn.io",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:12:32.480Z",
+    "score": 51,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 19,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 4,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 69 words (low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"deSEC – Free Secure DNS\"; missing/too-short meta description; no date signal; body text 69 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 9,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 7,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "llms.txt references an API; API documentation entry point present; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 4,
+      "l2.sitemap": 2,
+      "l2.content-signals": 1,
+      "l3.public-api": 7,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

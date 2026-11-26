@@ -1,0 +1,256 @@
+{
+  "signals": {
+    "domain": "kununu.com",
+    "fetchedAt": "2026-11-26T03:05:29.867Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\n\nDisallow: /*/bewerten?*\nDisallow: /*/teilen?*\nDisallow: /*/assess?*\nDisallow: /*/insights?*\nDisallow: /*/nunubuddy\n\nAllow: /*/kommentare/$\nDisallow: /*/kommentare/\n\nDisallow: /*/cp/\nDisallow: /*/tnp/\nDisallow: /*/monolithic/\n\nDisallow: /*/search/\nDisallow: /*/search$\nDisallow: /*/search?*\nDisallow: /*/deprecated-search/\nDisallow: /*/deprecated-search$\nDisallow: /*/deprecated-search?*\n\nDisallow: /*.next/static/critical$\nDisallow: /*/log$\nDisallow: /*/log?*\n\nDisallow: /*/user/\nDisallow: /*/logout$\n\nDisallow: /*/verweis/\nDisallow: /*/land/\nDisallow: /*/api/\nDisallow: /*/partner/\nDisallow: /middlewares/\n\nDisallow: /*?*preview=\nDisallow: /*?*x-lang=\n\nDisallow: /*/kommentare?category*\n\nDisallow: /*/gehalt/*?page\nDisallow: *?jobPostingsPage\nDisallow: *?source=salaryHub\n\nDisallow: /*/statements/*/review\nDisallow: *?back_url\nDisallow: *?hash\n\nDisallow: *?benefits=\nDisallow: *?sort=\n\nDisallow: */jobsbox/\nDisallow: */jobads\nDisallow: */job-postings/\nDisallow: */jobs?\nDisallow: */jobsjobs\nDisallow: */jobs*?\n\n# Workplace\nDisallow: /*/jobs*/w-vor-ort\nDisallow: /*/jobs*/w-teilweise-home-office\n\n# Employment type\nDisallow: /*/jobs*/m-vollzeit\nDisallow: /*/jobs*/m-teilzeit\nDisallow: /*/jobs*/m-befristet\nDisallow: /*/jobs*/m-selbststaendig\nDisallow: /*/jobs*/m-saisonal\nDisallow: /*/jobs*/m-ehrenamt\n\n# Career level\nDisallow: /*/jobs*/t-student-in-praktikant-in\nDisallow: /*/jobs*/t-berufseinstieg\nDisallow: /*/jobs*/t-berufserfahren\nDisallow: /*/jobs*/t-teamleitung\nDisallow: /*/jobs*/t-bereichsleitung\nDisallow: /*/jobs*/t-geschaeftsfuehrung\n\nDisallow: *?jobs=available\n\nDisallow: */undefined/*\n\nAllow: /de/puls\nDisallow: /de/puls/puls\nDisallow: /*/puls$\nDisallow: /*/puls/\nDisallow: /*/puls?*\nDisallow: */pulse-form\n\nAllow: /at/kununu/puls$\nAllow: /de/compugroup-medical-deutschland/puls$\nAllow: /de/chargecloud1/puls$\nAllow: /de/ctseventim/puls$\nAllow: /de/goldbeck/puls$\nAllow: /de/octopus-energy-germany/puls$\nAllow: /de/nvb-nordhorner-versorgungsbetriebe/puls$\nAllow: /de/check24-vergleichsportal/puls$\nAllow: /de/sparkasse-westmuensterland1/puls$\nAllow: /de/dekra/puls$\nAllow: /de/cewestiftung/puls$\nAllow: /at/xxxldigital/puls$\nAllow: /de/engelbert-strauss/puls$\nAllow: /de/securitondeutschland/puls$\nAllow: /de/wisag/puls$\nAllow: /de/deutsche-post/puls$\nAllow: /de/netzsch-gruppe/puls$\nAllow: /de/wattline1/puls$\nAllow: /de/regisafe/puls$\nAllow: /de/debeka/puls$\nAllow: /de/jobrad/puls$\nAllow: /de/tuevnordgroup/puls$\nAllow: /de/governikus/puls$\nAllow: /de/unimed-abrechnungsservice-fuer-kliniken-und-chefaerzte2/puls$\nAllow: /de/lidl-deutschland/puls$\nAllow: /de/compassio/puls$\nAllow: /de/ems-electro-medical-systems1/puls$\nAllow: /de/nkd-vertriebs/puls$\nAllow: /de/deutsche-bahn/puls$\nAllow: /de/edeka-zentrale/puls$\nAllow: /de/mediamarktsaturn-retail-group/puls$\nAllow: /de/zurich-gruppe-deutschland/puls$\nAllow: /de/mhp/puls$\nAllow: /de/stroeer-out-of-home-media/puls$\nAllow: /de/edeka-it1/puls$\nAllow: /de/micromata/puls$\nAllow: /de/berge-meer-touristik1/puls$\nAllow: /de/metaflow/puls$\nAllow: /de/netcologneitservices/puls$\nAllow: /de/x1f/puls$\nAllow: /de/mercedes-benz-group/puls$\nAllow: /de/johannes-gerstaecker-verlag5/puls$\nAllow: /at/karriereat-gmbh/puls$\nAllow: /de/all-for-one-se/puls$\nAllow: /de/apobank/puls$\nAllow: /de/zweckverband-kommunit1/puls$\nAllow: /at/a1-telekom-austria/puls$\nAllow: /at/apg-austrian-power-grid/puls$\nAllow: /de/ijos/puls$\nAllow: /de/pwc/puls$\nAllow: /de/karrierealdi-sued/puls$\nAllow: /de/dehner-gruppe/puls$\nAllow: /de/assecosolutions/puls$\nAllow: /de/kaufland/puls$\nAllow: /de/cosmo-consult-ssc/puls$\nAllow: /de/adesso/puls$\nAllow: /de/hornbach/puls$\nAllow: /at/it-services-der-sozialversicherung/puls$\nAllow: /at/medek-schoerner/puls$\nAllow: /de/dirk-rossmann/puls$\nAllow: /de/haevg-hausaerztliche-vertragsgemeinschaft/puls$\nAllow: /de/klausundco/puls$\nAllow: /de/nuernberger/puls$\nAllow: /de/aldi-dx1/puls$\nAllow: /de/fieldfisher-germany/puls$\nAllow: /de/pflegedienst-kremer/puls$\nAllow: /de/tag-immobilien/puls$\nAllow: /de/apleona/puls$\nAllow: /de/de-vau-ge-gesundkostwerk2/puls$\nAllow: /de/deloitte-deutschland/puls$\nAllow: /de/epikur-software-it-service2/puls$\nAllow: /de/hans-segmueller-polstermoebelfabrik/puls$\nAllow: /de/helios-kliniken/puls$\nAllow: /de/ibc-solar1/puls$\nAllow: /at/neuroth/puls$\nAllow: /de/ernstings-family/puls$\nAllow: /at/servus-handels-und-verlags2/puls$\nAllow: /ch/paedagogische-hochschule-zuerich1/puls$\nAllow: /de/signal-iduna/puls$\nAllow: /de/seibertgroup/puls$\nAllow: /de/11-internet/puls$\nAllow: /de/admiral-entertainment/puls$\nAllow: /de/europcar-mobility-group-germany39/puls$\nAllow: /de/peter-koelln-aa/puls$\nAllow: /de/msg-systems/puls$\nAllow: /de/bode-planungsgesellschaft-fuer-energieeffizienz/puls$\nAllow: /de/carglass/puls$\nAllow: /de/phoenix-contact/puls$\nAllow: /de/pacura-med/puls$\nAllow: /de/bauhausdeutschland/puls$\nAllow: /de/deutsche-telekom/puls$\nAllow: /de/eos-gruppe/puls$\nAllow: /de/futrue-gmbh/puls$\nAllow: /de/hettich-unternehmensgruppe/puls$\nAllow: /de/karl-storz/puls$\nAllow: /de/novum-hospitality/puls$\nAllow: /de/presspart2/puls$\nAllow: /de/schufaholdingag/puls$\nAllow: /de/zweckverband-wasserversorgung-stadt-u-kreis-offenbach/puls$\nAllow: /de/ista-se/puls$\nAllow: /de/bsibund/puls$\nAllow: /de/hansa-flex/puls$\nAllow: /at/hdi-versicherung/puls$\nAllow: /de/heitec/puls$\nAllow: /de/proalpha-group/puls$\nAllow: /de/schoenergie/puls$\nAllow: /at/mantlik-kainz/puls$\nAllow: /de/agentur-fuer-haushaltshilfe/puls$\nAllow: /de/db-systel/puls$\nAllow: /de/helmut-fischer-institut-fuer-elektronik-und-messtechnik/puls$\nAllow: /at/sprecher-automation/puls$\nAllow: /de/trainmobil-trainings-fuer-praktiker/puls$\nAllow: /de/valde-vita-franke-mueller-pflegedienst/puls$\nAllow: /de/brunata-waermemesser-hagen3/puls$\nAllow: /de/baumschule-horstmann/puls$\nAllow: /de/die-autobahn-des-bundes1/puls$\nAllow: /at/egger-at/puls$\nAllow: /de/fielmann-group/puls$\nAllow: /at/ims-nanofabrication/puls$\nAllow: /de/jysk-deutschland/puls$\nAllow: /de/netto-marken-discount-stiftung/puls$\nAllow: /at/msg-plaut-austria/puls$\nAllow: /ch/arcplace2/puls$\nAllow: /de/capgemini/puls$\nAllow: /de/care-vita1/puls$\nAllow: /de/dpd-germany/puls$\nAllow: /de/glanbia-nutritionals-deutschland1/puls$\nAllow: /de/landesbank-baden-wuerttemberg-lbbw/puls$\nAllow: /de/otto-germany/puls$\nAllow: /de/sasol-germany/puls$\nAllow: /de/sozialbank/puls$\nAllow: /de/timocom/puls$\nAllow: /de/caritas-gesundheit-berlin/puls$\nAllow: /de/eon-grid-solutions/puls$\nAllow: /at/leyton-deutschland/puls$\nAllow: /de/otto-office-co1/puls$\nAllow: /de/sick-ag/puls$\nAllow: /de/spie/puls$\nAllow: /de/stahlgruber/puls$\nAllow: /de/sparkassen-consulting3/puls$\nAllow: /de/tennet-deutschland/puls$\nAllow: /de/vereinigte-hagelversicherung-vvag2/puls$\nAllow: /de/wbs-gruppe/puls$\nAllow: /de/zentrale-stelle-fuer-informationstechnik-im-sicherheitsbereich/puls$\nAllow: /de/bressner-technology/puls$\nAllow: /de/carbyte/puls$\nAllow: /de/danpower1/puls$\nAllow: /de/sbk/puls$\nAllow: /de/smc-deutschland/puls$\nAllow: /de/schwarzdigits/puls$\nAllow: /de/verisure-deutschland/puls$\nAllow: /de/doctari/puls$\nAllow: /at/avl/puls$\nAllow: /de/bauer/puls$\nAllow: /de/bwi-gmbh/puls$\nAllow: /de/dataport/puls$\nAllow: /de/eiffage-infra-bau3/puls$\nAllow: /at/fronius-international/puls$\nAllow: /de/fuchs/puls$\nAllow: /de/globusbaumarkt/puls$\nAllow: /de/greenbone-ag/puls$\nAllow: /de/pfeiffer-vacuum-ag/puls$\nAllow: /de/quest-one/puls$\nAllow: /de/unite/puls$\nAllow: /de/vaillant-deutschland/puls$\nAllow: /de/verivox/puls$\nAllow: /de/tedox33/puls$\nAllow: /at/alpla-werke-alwin-lehner/puls$\nAllow: /de/basf-germany/puls$\nAllow: /de/bank11/puls$\nAllow: /de/c24-bank/puls$\nAllow: /de/fh-muenster3/puls$\nAllow: /de/krannich-solar/puls$\nAllow: /de/list/puls$\nAllow: /de/rheinmetall-group/puls$\nAllow: /de/tuev-sued/puls$\nAllow: /de/windhoff-software-services1/puls$\nAllow: /de/wuerth-it/puls$\nAllow: /de/zimmermann-sanitaets-und-orthopaediehaus/puls$\nAllow: /at/oesterreichische-post/puls$\nAllow: /de/accenture-deutschland/puls$\nAllow: /de/atruvia/puls$\nAllow: /at/cgm/puls$\nAllow: /de/globus-markthallen-holding/puls$\nAllow: /de/genossenschaftsverband-bayern-ev/puls$\nAllow: /de/huk-coburg-dienstleitung/puls$\nAllow: /de/ionos-se/puls$\nAllow: /de/it-haus/puls$\nAllow: /de/kps-pruefservice/puls$\nAllow: /de/reuterde/puls$\nAllow: /de/rewedigital/puls$\nAllow: /de/stiftung-pfennigparade/puls$\nAllow: /de/sunday-natural-products/puls$\nAllow: /de/sybitgmbh/puls$\nAllow: /de/dietechniker/puls$\nAllow: /de/vr-bank-lahn-dill/puls$\nAllow: /de/tink-gmbh/puls$\nAllow: /de/aubi-plus2/puls$\nAllow: /de/biontech/puls$\nAllow: /de/bosch-gruppe/puls$\nAllow: /de/exxeta/puls$\nAllow: /de/sap/puls$\nAllow: /de/sits-deutschland/puls$\nAllow: /de/sanacorp/puls$\nAllow: /at/schachermayer-gmbh/puls$\nAllow: /de/theben/puls$\nAllow: /de/wago/puls$\nAllow: /de/dm-drogerie-markt/puls$\nAllow: /de/kleinanzeigen/puls$\nAllow: /de/toom/puls$\nAllow: /de/ambulanter-pflegedienst-vittavis/puls$\nAllow: /de/apollo-optik/puls$\nAllow: /de/bmwgroup/puls$\nAllow: /de/continentale-krankenversicherung-ag/puls$\nAllow: /de/expeditors-international/puls$\nAllow: /de/fabricius-vermoegensverwaltung/puls$\nAllow: /de/foundever/puls$\nAllow: /at/glide-airlines/puls$\nAllow: /de/goodman-masson-germany/puls$\nAllow: /de/harrybrot/puls$\nAllow: /de/hls-handel-und-lager-service/puls$\nAllow: /de/modepark-roether19/puls$\nAllow: /de/rexelgermanygmbh/puls$\nAllow: /de/roechling-medical/puls$\nAllow: /ch/stadler-rail/puls$\nAllow: /de/unternehmensgruppeukaumweltgerechtekraftanlagengmbhcokg/puls$\nAllow: /de/aldinord/puls$\nAllow: /de/alnatura/puls$\nAllow: /at/auditreu4/puls$\nAllow: /de/bredenoord1/puls$\nAllow: /de/conmetall-meister6/puls$\nAllow: /de/die-sparkasse-bremen/puls$\nAllow: /de/festo/puls$\nAllow: /de/highvolt-prueftechnik-dresden1/puls$\nAllow: /de/hansgrohe-se/puls$\nAllow: /de/ignw/puls$\nAllow: /de/internationaler-bund/puls$\nAllow: /de/ks-gruppe1/puls$\nAllow: /de/mueller-holding2/puls$\nAllow: /de/obi-deutschland/puls$\nAllow: /de/perbility/puls$\nAllow: /de/sachsenenergie/puls$\nAllow: /de/schaeffler/puls$\nAllow: /de/uelzener-allgemeine-versicherungs-gesellschaft-ag1/puls$\nAllow: /de/viscotec/puls$\nAllow: /de/waschwelt-sued/puls$\nAllow: /de/westwing-home-living/puls$\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: AdsBot-Google-Mobile\nDisallow: /*/log$\nDisallow: /*/log?*\nDisallow: /middlewares/\n\nUser-agent: AdsBot-Google\nDisallow: /*/log$\nDisallow: /*/log?*\nDisallow: /middlewares/\n",
+      "url": "https://www.kununu.com/robots.txt"
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHc2mMsO5Pk8YeEGjjC2+8HAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMmyDP2k+JPRWd4JlyAgEQgDuwS0rlZTUhjE8N2Cx0foGJ2jv/+rA+3PNJ4ygOthmsguXKCzmbcFXNPMsNnlQLERUPtk8TG/m4narIow==\",\n          \"iv\":\"D54pEgA7GwAACC2/\",\n          \"context\":\"CNXLPSiKzC9aVkSqGqkd7gTIJXfn7DL1rrcHKM5sb8krpaIhj34bs9/cXG+bsm5oUHzqWNivb9ABFIEZzps0nIrrLYeQEe4fys4jHR+oioke8FhDY2U6mSTgOIHGHAdXlUpmXm8dQidv1JrbSraAnmH5YH58NzRjV8S5OWXrVUFh/KRYbK7OaCXZbDZg3VvMJTuvcbCvMgl2KkaqswuiBvifiM/y0RkSF5Ikd8j2HB7jeq4bMFv9QOkw/KWy5Xyi5Vu94fteQ8yJz/9tW7DrBUTndbPbpHsr2KYu/6qUhMNt+bpcQWHT/swTYi8dIhqykfBWpOnYzwGXF5lWL+6tiTRrBcJj8xX6vlGj4Cs+JKcsTs0/z9XBzE3nqL0aPw+9ikp7nZwtD4yDSrsiVez5hDPtbsC6NWoIjSZvmcane13sjLN/B4pkYmND245a/9VqKm6KeiHS6Nt38L8yXvhNGq18I9ya+F9iMv+/h1Nuyw4mUyHvSoxYt6oE3UWka8BqIug6Yiqm6BzgMEUkfkBUQqgFRlFJHM05/COLhx7pwtl3uh86ajnf2CKPIYhgSpRBrPHAPhn8ufRx8kRh4o9cS7eDu+wGj5mkxIkbEkfUJQ3kLXt+SKDtL31mUYSSBhbf3OtMp4yTT7PUtfeh+FWiJEoxor5SYHtHlqWW6o41K1psMc7WUrdkZBeth2I+xqmLA0HYihkvGVjtPTBq7V0NL4++/Q/QhDDt0kEQ9+DMuM/6Pk4lcnaNqXcZVZajWxiOUCpqzVaPTi6a4hGyMHEnGHcjGX/4U6XHYaA=\"\n};\n    </script>\n    <script src=\"https://5a6b2a246e6c.918e62ab.us-east-1.token.awswaf.com/5a6b2a246e6c/d23df33a7226/2c462156c1d3/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.kununu.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHc2mMsO5Pk8YeEGjjC2+8HAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMmyDP2k+JPRWd4JlyAgEQgDuwS0rlZTUhjE8N2Cx0foGJ2jv/+rA+3PNJ4ygOthmsguXKCzmbcFXNPMsNnlQLERUPtk8TG/m4narIow==\",\n          \"iv\":\"D54pNAA5EgAACKHX\",\n          \"context\":\"oazh4sNDxwnYINcYSkM3BPBBwUma6h2VC2fnKqwexOnWoI7/G6PR9nexZH2Hd1a7/63SNfC4dsH8BB6tXWi9L05YXUDczyzN3ADO4JsyJgs8wK6rVwhGH30VnHXOSpg4nTb91/doYVtmIW7LMRWo9GBN6TAbk8gpInrrB5qRkdQwt+0Agzsy6MF2Oz79vUbhRywVVi4QtPPBEBALfy5wXJQGuCF/XEMQ+JZ1DMkIw5vSUGZADV3xdN/V2GoK4ICtj2+B0s5mMetpY2JYOTdtZkVcxe+FaMQ31vOh5inYIEDRUWXILKp4NBrz8XXZfopgG4O+hSqW6w0Yx1cwu6wyP0R5KorxpVtXIMuXJRf/0pzbOyZM2cwChY8CKJWDc29RQIcGEbRzIxmBjHlcFnc5lumUwdmm5KQMD83XW80mL9ms2MCgTUBh5soTBI96uAeWgWlUrNirxqObrMHn9AxUVaHTzq4yPvKws2DV+u4BRx6slKWv8g9VVOiXp2JsVdXtY+sLMxgXp0GdlQwhglXVSnF/lMxuCu7O7IAzXhGMgWJMdBsvYZo2MjTKYyQ2lh23U4si524Ayg8zsiKEqROBfJdrOjgUMUWybtJb2yEA/4TAWQU0a/6Uej7dENf3ijubADH1EfO5yF4eM/rTfwab5VStEbPtH6ZFEbBnncOhb1Crm2eDvJH/FCHUKTB4RbrNv/H0tDRNnuu90maCDRA6qTBu0pUfuynE78504V/yBwSASheupJY+19A0ninjNnJbuN1cOckOOcPGiXtM6GXRObzJI26086TisDU=\"\n};\n    </script>\n    <script src=\"https://5a6b2a246e6c.918e62ab.us-east-1.token.awswaf.com/5a6b2a246e6c/d23df33a7226/2c462156c1d3/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.kununu.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHc2mMsO5Pk8YeEGjjC2+8HAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMmyDP2k+JPRWd4JlyAgEQgDuwS0rlZTUhjE8N2Cx0foGJ2jv/+rA+3PNJ4ygOthmsguXKCzmbcFXNPMsNnlQLERUPtk8TG/m4narIow==\",\n          \"iv\":\"D54pNwA6AAAACGOF\",\n          \"context\":\"U0pkB24Ovs/T0NrN5TJHEAYLXMpWV/4gzcmr5FPwHtNG30kP8RX/OqQBnGrakGegdYwzOe77paJJEP6DbLFXP3CHj0ukubZ/qB+yK75+1eBmpZhaXynagZzmMmPHZ4XgPH2Ha1xLOI6mqv03WkVf/mV/TyFp8gD4Bp0l/lKgt5//6oxrb5hme1HaXT3FpwW97W7TiGQORqyd/u1u8dtAcoYLJmSo0V1+9jxkHMX5yrqXxfwd6PcpyeIcfWoMUrHcGrJSbLSu5rCnT+oC1gprEsGormE152iB9iGCwS0z/IynalywmgzCLwCchhlQRfyIPWXDgNgxv9khGGyKqjq4quHA2DZT8a/Pjf67iLnJZUZ3bkSmDBpKXQULLjoJyUe6zHyWltFLuxMvoObNoAaDkoc8rUCLlahQQ/mWsfB8qZAFC2Gs6mQ3lDX7WXKgMnzqSKUmU0A5CgAroSsZNXr/hIDfh2rbZykNS0I9fof51Fn9NGMSDM39SsSoZ5LKEo3kDRp+wldPDAT7r74K20SN4iYEYUz3gn7dr/DwNHwR7g+Hn6BgyNo4HNYhyxmNm8o4DUKr0eudeeBoVF3wRr6cMa6V0XO0dYS68jAvzcihRFzvI3qbBhXmV3TVEgJXhdk3WheETKFyqk3sWqf7vfqfAffRXLo6CNpV9UPLEqMifWUSJlozxMYsOM7T63ahAyVzendI9UQtwF8AnKIs7OiW9x8enXE22y7ifSEpY7v0LzBju7ZnjPKQtdm/taqStgYuIEPlpo+3pg4MDNdIgBV4RkSqKhoUNQJYezM=\"\n};\n    </script>\n    <script src=\"https://5a6b2a246e6c.918e62ab.us-east-1.token.awswaf.com/5a6b2a246e6c/d23df33a7226/2c462156c1d3/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.kununu.com/",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHc2mMsO5Pk8YeEGjjC2+8HAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMmyDP2k+JPRWd4JlyAgEQgDuwS0rlZTUhjE8N2Cx0foGJ2jv/+rA+3PNJ4ygOthmsguXKCzmbcFXNPMsNnlQLERUPtk8TG/m4narIow==\",\n          \"iv\":\"D54pLQA8OQAACLDc\",\n          \"context\":\"o7ZB4LH2ubv7RI4CqetzsM9fCl7Q7iGVZ54JAtdpuTLKUoxGVjVriCreBwMe97wXY90FJEcoL1ul244bXViK3PygbrjT5P22GKCpcOMc3kC0MvlNOXX2aiyBheDtVgmEZ7TVYZKU245JxfKGfv4YhG8rCHxrtuRrSbVREBOOkWy+D2cz/PDn1KHP3H/hcGMCuGXKwG45qxB/++sR2Q/rzn1hL4ozRUBdRrMChCYFhgdz0IeHxTTLsCL71RWu5kzVPOwEjVSskJjzf45KJmlC/ciAw7bXqA+cWwOj2TlBwzFFrqbPAVGamxJ58XXENiVSHWgRG3FJFUrhY7KiEHxqW1RHA9jp0XXGxALvZx35m04iY4qxltVjor7jmucfIrw9xq+zPCS8VgbrRbgYQf7+1+ewlx90oIuewH5CTrkNJJ8K1ZEtfQLlvKfwXV+vLOyhjA4sUkNxg5+Ty0RHrPMiz2uH/Cm115u/YpDnI+MCcPa5BVkal3KOtgudXlxYIfiEQqiuXc2WBEsG35116l96hLdr9rn7V0hm4qcVvT4UDwoJM94+w6gh08N2Wq4d4CgKFFTrmGF1pa4s0Pdl/pWBCRH5nym4dISZgwCPF4v4x4/S3hh09ac9f5Jpow1123w1i1z6eisdyYg0fOpUdxsM/RV/oi1kx7eiXYnaLg7LWd5zcsikwE4WJdAWV802nAfT3jaUu0e9bVtPr7W/12wOgBgF760dnIk9WaTXYnQoirisKvkckHBqQKNpbtckmnj8UHItHGM2viIsez9BTVFk7LomlD5cH+FzZMU=\"\n};\n    </script>\n    <script src=\"https://5a6b2a246e6c.918e62ab.us-east-1.token.awswaf.com/5a6b2a246e6c/d23df33a7226/2c462156c1d3/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.kununu.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHc2mMsO5Pk8YeEGjjC2+8HAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMmyDP2k+JPRWd4JlyAgEQgDuwS0rlZTUhjE8N2Cx0foGJ2jv/+rA+3PNJ4ygOthmsguXKCzmbcFXNPMsNnlQLERUPtk8TG/m4narIow==\",\n          \"iv\":\"D54pJQA8bQAACSjk\",\n          \"context\":\"YH3CK4ehaM0u66xDEsNSqbm6m5ZXleXtB9TPJVLIsUBt9p1cKGQ4Zwwry0d0JAcnWi3XkEdnemWZweB5IHYQKlTKtvUtRXGOIQw833doehURSTOsPx3xywv4tTvTkLINw9rKu63C168cgPid3I/+c/6P+iCwf6drgYuy2rAUDdtG6xdpj+6p/64YSFWMfC45P0crfYNcxDz6SGfnfyTCejreGuPxvY7JkeWK+5Qk/CC2QLS+Ja9aJTVbdvPAvISDufYDepVPvZ04VM23QV7jk6czj2SC2oXnlKTaGu/CRcs7gQ7jcwwbjyVtcjULLaH1lKcHbdloN0T8XW8bYVcJNO2zu6OdI0oRnmzS5Kjtfb/ruXzhcBSV9RBtcNU/oDpGzPY9TP4cSbbB08i0UJbN9gvzPGJFPxpRSdG7LSQbNg0nmN1isK8iTurjugXDe0KwUSE6nrC9CYHa5vh1prJuAMwTY5Pe7k2G6FDg5X+a5X0lAWq/ku7fDxGGrBhI7MUsv9Z2wOoZs/vSa725euHQsOFcEAJJXMF9kAeh+I24/sfjaewdpuEXVdZ2/bkoh7Xnupv1R/gynp58V8htX70XT5Rd2D0zpGEw1d+gC+yD7B1K2D+pxRTZ06tkf+FE3eAiEsEpldc+sVuUeWGl+6S5zLqiymVV7qxQKe5J1XZQWmF9ooS3yT38rtn637Z5XET7YEkyoHlkGIBVZH2hWxRCtvCyzrVHZsbMZLCkIu19icu79fHBZtFMzNYMckdnfS5ux2o6BifOiQIwps+tLcL2JykvpeeU4LtZ3rI=\"\n};\n    </script>\n    <script src=\"https://5a6b2a246e6c.918e62ab.us-east-1.token.awswaf.com/5a6b2a246e6c/d23df33a7226/2c462156c1d3/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.kununu.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHc2mMsO5Pk8YeEGjjC2+8HAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMmyDP2k+JPRWd4JlyAgEQgDuwS0rlZTUhjE8N2Cx0foGJ2jv/+rA+3PNJ4ygOthmsguXKCzmbcFXNPMsNnlQLERUPtk8TG/m4narIow==\",\n          \"iv\":\"D54pEQA4wAAACNDe\",\n          \"context\":\"Qfpsluk3Owy25Ysb5ue5LeHZyf1QZUmV7tycm9mcRJEmco3KaBD/R6VIzPHT9J1DRe6DY1hdC2W3w8szIh2yZZCLCL4i44k/weI0Sm+pgMThm0uAMS0YWa3SSlWORVt4AEg3RXf33QsrOopZjPO4o2vOKACBiOC3+UPNFNzsxexfnqcJIXSNHirQTItYWpFSZFFFAElIjU8yv3gZvoDzyrbdHcNOFfkwmI5aQu1Ha4g5tYmifKZbupmzugzvGugZKJxH5vQ7yad5NF461t1txKku5BvjISsZLCXbqHLey3rU0o7z0NBBELllOKzlQH1wQSTze4rr1rQtTfgfGj1iPrgqDlZD5GrWaGu8MK58wrlv1n/fP0hL9fBrITVtWADsGD/1ndCmIfHfh6vGfoxgs1TZGwjG6zxMTXhof41bRkeEIBfyDuZnlDyANZI8egpupSqcP2PcAS5cZfxMBjtcUgigLcyFG3SFDHZz1oi82r37iKHRvOTZqdwX1kaQMd0rPwHup+VAyYdHM8MdTxenR6cmDbe0bHTIASIagfADd2uq53LNQwUAbHQ5uJOfaBBHr7UZccXMoeaFbH5OqBalKnSURtO+RDp3fhywai5DyQc+dmHC+5VpqaZPIaoGFNWUQTCa/loRbfwYKVuhnoe9ZYgwChGko9Wy5HzOb/LyDuJqlxehTGVTZJa/Br6lSW//58TrZaJPm47jSq/d1KBXWnCPmuMhS2MSnaoKymz15HuXSSUzaHf9CKCfUONv7aqxpr59Q/eMblzFE2elkWx+sdDNAoBPAFu4MUY=\"\n};\n    </script>\n    <script src=\"https://5a6b2a246e6c.918e62ab.us-east-1.token.awswaf.com/5a6b2a246e6c/d23df33a7226/2c462156c1d3/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.kununu.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "kununu.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:05:29.867Z",
+    "score": 42,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 202"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 2,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 2,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

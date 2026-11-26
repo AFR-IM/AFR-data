@@ -1,0 +1,240 @@
+{
+  "signals": {
+    "domain": "service-online.su",
+    "fetchedAt": "2026-11-26T02:55:27.764Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "\nUser-agent: Mail.Ru\nDisallow: /forms/*&q=\nDisallow: /blank/\nDisallow: /data-importer/results/\nDisallow: /forms/cenniki/editor/\nDisallow: /activation/\nDisallow: /auth/\nDisallow: /sendpass/\nDisallow: /text/generator-shtrih-koda/gen_cod.php?cod=\nDisallow: /tools/\nDisallow: /pdf/default\nDisallow: /pdf/samples/\nDisallow: /lists/\nDisallow: /legal/\nDisallow: /forms/*/session.php\nDisallow: /forms/*/session-finish.php\nDisallow: /forms/*/session-purchase.php\nCrawl-delay: 1\n\nUser-agent: AhrefsBot\nDisallow: /forms/*&q=\nDisallow: /blank/\nDisallow: /data-importer/results/\nDisallow: /forms/cenniki/editor/\nDisallow: /activation/\nDisallow: /auth/\nDisallow: /sendpass/\nDisallow: /text/generator-shtrih-koda/gen_cod.php?cod=\nDisallow: /tools/\nDisallow: /pdf/default\nDisallow: /pdf/samples/\nDisallow: /lists/\nDisallow: /legal/\nDisallow: /forms/*/session.php\nDisallow: /forms/*/session-finish.php\nDisallow: /forms/*/session-purchase.php\nCrawl-delay: 10\n\nUser-agent: Claude-SearchBot\nDisallow: /forms/*&q=\nDisallow: /blank/\nDisallow: /data-importer/results/\nDisallow: /forms/cenniki/editor/\nDisallow: /activation/\nDisallow: /auth/\nDisallow: /sendpass/\nDisallow: /text/generator-shtrih-koda/gen_cod.php?cod=\nDisallow: /tools/\nDisallow: /pdf/default\nDisallow: /pdf/samples/\nDisallow: /lists/\nDisallow: /legal/\nDisallow: /forms/*/session.php\nDisallow: /forms/*/session-finish.php\nDisallow: /forms/*/session-purchase.php\nCrawl-delay: 10\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /forms/*&q=\nDisallow: /blank/\nDisallow: /data-importer/results/\nDisallow: /forms/cenniki/editor/\nDisallow: /activation/\nDisallow: /auth/\nDisallow: /sendpass/\nDisallow: /text/generator-shtrih-koda/gen_cod.php?cod=\nDisallow: /tools/\nDisallow: /pdf/default\nDisallow: /pdf/samples/\nDisallow: /lists/\nDisallow: /legal/\nDisallow: /forms/*/session.php\nDisallow: /forms/*/session-finish.php\nDisallow: /forms/*/session-purchase.php\nHost: service-online.su\nClean-param: ysclid\n\nUser-agent: *\nDisallow: /forms/*&q=\nDisallow: /blank/\nDisallow: /data-importer/results/\nDisallow: /forms/cenniki/editor/\nDisallow: /activation/\nDisallow: /auth/\nDisallow: /sendpass/\nDisallow: /text/generator-shtrih-koda/gen_cod.php?cod=\nDisallow: /tools/\nDisallow: /pdf/default\nDisallow: /pdf/samples/\nDisallow: /lists/\nDisallow: /legal/\nDisallow: /forms/*/session.php\nDisallow: /forms/*/session-finish.php\nDisallow: /forms/*/session-purchase.php\n",
+      "url": "https://service-online.su/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "url": "https://service-online.su/llms.txt"
+    },
+    "llmsFull": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443)"
+    },
+    "homepage": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443)"
+    },
+    "sitemap": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443)"
+    },
+    "agentsMd": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443)"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "error": "TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443)"
+    }
+  },
+  "afr": {
+    "domain": "service-online.su",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T02:55:27.764Z",
+    "score": 11,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 11.13,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 11.13,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 5.63/9 · hybrid 3.00/6 · training 2.50/10; strategy tag Middle-Path. Blocked examples: GPTBot, ClaudeBot, Amazonbot. Unconfigured examples: OAI-SearchBot, PerplexityBot, Googlebot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /",
+              "detail": "Homepage probe failed: network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443); homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml network error: TypeError: fetch failed (ECONNREFUSED: connect ECONNREFUSED 92.53.64.149:443); robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md not probed; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 11.13,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

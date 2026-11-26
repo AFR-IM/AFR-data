@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "etymonline.com",
+    "fetchedAt": "2026-11-26T03:37:05.122Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: Googlebot\nDisallow: /admin/\nDisallow: /app/feedback\nDisallow: /api/\n\nUser-agent: Bingbot\nDisallow: /classic\nDisallow: /classic/\nDisallow: /admin/\nDisallow: /app/feedback\nDisallow: /api/\nDisallow: /search\nCrawl-delay: 1\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: SemrushBot-BA\nDisallow: /\n\nUser-agent: SemrushBot-SA\nDisallow: /\n\nUser-agent: SiteAuditBot\nDisallow: /\n\nUser-agent: SplitSignalBot\nDisallow: /\n\nUser-agent: SemrushBot-COUB\nDisallow: /\n\nUser-agent: SemrushBot-SI\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: SemrushBot-CT\nDisallow: /\n\nUser-agent: SemrushBot-BM\nDisallow: /\n\nUser-agent: SemrushBot-SEOAB\nDisallow: /\n\nUser-agent: Teleport\nDisallow: /\n\nUser-agent: TeleportPro\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: AhrefsBot \nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /search\nAllow: /word/\nDisallow: /api/\nDisallow: /web/login\nDisallow: /classic\nDisallow: /classic/\nDisallow: /admin/\nDisallow: /app/feedback\n\nSitemap: https://www.etymonline.com/landings.xml\nSitemap: https://www.etymonline.com/sitemap.xml\nSitemap: https://www.etymonline.com/sitemap-article.xml\n\nSitemap: https://www.etymonline.com/locale-sitemap/home.xml\nSitemap: https://www.etymonline.com/sitemaps/words-locale.xml\n",
+      "url": "https://www.etymonline.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html>\n<head>\n\n<script data-cfasync=\"false\" nonce=\"aac59c55-2f25-4ecf-8078-118b88c226dc\">try{(function(w,d){!function(mT,mU,mV,mW){if(mT.zaraz)console.error(\"zaraz is loaded twice\");else{mT[mV]=mT[mV]||{};mT[mV].executed=[];mT.zaraz={deferred:[],listeners:[]};mT.zaraz._v=\"20\";mT.zaraz._n=\"aac59c55-2f25-4ecf-8078-118b88c226dc\";mT.zaraz.q=[];mT.zaraz._f=function(mX){return async function(){var mY=Array.prototype.slice.call(arguments);mT.zaraz.q.push({m:mX,a:mY})}};for(const mZ of[\"track\",\"set\",\"debug\"])mT.zaraz[mZ]=mT.zaraz._f(mZ);mT.zaraz.init=()=>{var m$=mU.getElementsByTagName(mW)[0],na=mU.createElement(mW),nb=mU.getElementsByTagName(\"title\")[0];nb&&(mT[mV].t=mU.getElementsByTagName(\"title\")[0].text);mT[mV].x=Math.random();mT[mV].w=mT.screen.width;mT[mV].h=mT.screen.height;mT[mV].j=mT.innerHeight;mT[mV].e=mT.innerWidth;mT[mV].l=mT.location.href;mT[mV].r=mU.referrer;mT[mV].k=mT.screen.colorDepth;mT[mV].n=mU.characterSet;mT[mV].o=(new Date).getTimezoneOffset();if(mT.dataLayer)for(const nc of Object.entries(Object.entries(dataLayer).reduce((nd,ne)=>({...nd[1],...ne[1]}),{})))zaraz.set(nc[0],nc[1],{scope:\"page\"});mT[mV].q=[];for(;mT.zaraz.q.length;){const nf=mT.zaraz.q.shift();mT[mV].q.push(nf)}na.defer=!0;for(const ng of[localStorage,sessionStorage])Object.keys(ng||{}).filter(ni=>ni.startsWith(\"_zaraz_\")).forEach(nh=>{try{mT[mV][\"z_\"+nh.slice(7)]=JSON.parse(ng.getItem(nh))}catch{mT[mV][\"z_\"+nh.slice(7)]=ng.getItem(nh)}});na.referrerPolicy=\"origin\";na.src=\"/cdn-cgi/zaraz/s.js?z=\"+btoa(encodeURIComponent(JSON.stringify(mT[mV])));m$.parentNode.insertBefore(na,m$)};[\"complete\",\"interactive\"].includes(mU.readyState)?zaraz.init():mT.addEventListener(\"DOMContentLoaded\",zaraz.init)}}(w,d,\"zarazData\",\"script\");window.zaraz._p=async oW=>new Promise(oX=>{if(oW){oW.e&&oW.e.forEach(oY=>{try{const oZ=d.querySelector(\"script[nonce]\"),o$=oZ?.nonce||oZ?.getAttribute(\"nonce\"),pa=d.createElement(\"script\");o$&&(pa.nonce=o$);pa.innerHTML=oY;pa.onload=()=>{d.head.removeChild(pa)};d.head.appendChild(pa)}catch(pb){console.error(`Error executing script: ${oY}\\n`,pb)}});Promise.allSettled((oW.f||[]).map(pc=>fetch(pc[0],pc[1])))}oX()});zaraz._p({\"e\":[\"(function(w,d){})(window,document)\"]});})(window,document)}catch(e){throw fetch(\"/cdn-cgi/zaraz/t\"),e;};</script></head>\n<body>\n<script type=\"a360ebd63edf3f5cd0a63866-text/javascript\">\n        window.location.href=\"https://www.etymonline.com/404\"\n</script>\n<script src=\"/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js\" data-cf-settings=\"a360ebd63edf3f5cd0a63866-|49\" defer></script><script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"a5edf33246674cde97b083b0617932bb\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://www.etymonline.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "{\"timestamp\":1795656726583,\"status\":404,\"error\":\"Not Found\",\"message\":\"Not Found\",\"path\":\"/llms-full.txt\"}",
+      "url": "https://www.etymonline.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-kWbAQeycyoG97QvZIZbGrh&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"kWbAQeycyoG97QvZIZbGrh\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'ZjthDxFT7BNzzit6.JvVEs_XT0M2ohaBzS82oeFJtNc-1795664219-1.2.1.1-G2CDluNKR59oPtAarCUFXiqO6L1BzHkif3wZP65vdq_oMPVZ69NTOjz8OLJDbtHP',cITimeS: '1795664219',cN: 'kWbAQeycyoG97QvZIZbGrh',cRay: 'a605da1c6ff87ce5',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=sNR1lT2zmnagdy8HTGM5aDyyyUPQHg9UTdnxrUEbt4k-1795664219-1.0.1.1-yjewGKpRRuFnaSfIkY0lISIqjGjKr8iJJJwBHm4B1Us\",cvId: '3',cZone: 'www.etymonline.com',fa:\"/?__cf_chl_f_tk=sNR1lT2zmnagdy8HTGM5aDyyyUPQHg9UTdnxrUEbt4k-1795664219-1.0.1.1-yjewGKpRRuFnaSfIkY0lISIqjGjKr8iJJJwBHm4B1Us\",md: 'B_1JeTYtA7CWNP1zu4.NKqijYEdOIxCB7zJiOT.4uLw-1795664219-1.2.1.1-PCBZHQtgno3ecTpVouuz9KUAZF476EmL1fRYUhuvDYIOUeqLbois7RAvqh2R6eSm8cv7g2H8mfGbU75E5gPPpDkdfKn3zukhm5dE2IaduCM.wiimwNYVxigTgdY3QAkFEjfa9yu.PFCERgnsdO.PIXMQ42XqzidIhqEz2cIwOyriK1a.0jI1SXllGTFuUgtfXzslBP2pkpiO6XpJ0dONCjl9eVgU8cSfJB8DFk3Bit3dqi_AFG7XyoQn5ifH56gwtkefuIEPkbhJiZFS7cTveLRvN4J1dPcbdvN_DNAGo2c1eZ4pXl3Ww.Le1AVckDC2J5SbeqlHUFwCHBpK5jBMlf1DWx7QWmWGLyHD6usUhqC6nZ2VjwxdREslOrPSvxaI8pR4MXC7jQ7THBHJhbGElEUP9W3tc8uwbANlhJPkMzlAa41mJCa3xlbq_YE4uaEaTFVvQUUXwDnBRs0GBNFMerj064nYta.vx4HQB47Gn_GiW4MNPITOb8snOO_n5jtT31lQnF3FiQWjslH425SWv8I8Fq3A8Nxy4W0h_uyEE7iAPeCPOYtNxXGdbszHLExOL0ec1mx0wv2uW7gHSw.nMijwYPpiO2WnaMcTM4w4YBF.vX66X65roz69ey29eLEFAFCHW79W5DnHPELiCdf7aODB.LVwHcN.Nn5bH4sXFL_sbxvUcA7Pzd_.IoTerh1Q3boyUlnxFG1rTYXBmcmbK_ezxvQyqMTx3HSvX6t8Dap6FeATrBLmuYyZwEFYfGQuxLDBQBg_.9ZDWMHCO8yKpJO_wfqoZe1ccRmgjRRKrCKpNGS_S7Enticldb1whxGhcjNYOCV5JYZhkU03461Qqcs2aUiL5TvnEVqpb3IObGT_GiNgki5IDV60QpI1sh3q2kSBDpRqFS8rt6ZA2v9V.kgRR5zyGHB1MKknzu7YMPc.fwtvcghudlQLRjvLJxuYm1lLJj3rkM9oknx_txalR3aX6V79oU786tYVPXx2rjDMUqOKRi_xJTh_ume_tYYtt7OjdV_D1cT1BSHT8EW2a8lWScz4kYv0gUdYMteLU6ORM9WWYkKAoFEpLzKB2SbE_qGnzC18B8O90UI8OtJjhkiD.OYjJ5I6U9p8zz8XXyvhYE0nxxpR7TQ6pBNMWaU.',mdrd: 'p1q7uLsMaSQOS.KNXzlRdvFi63810nS.BZcaYkGtebw-1795664219-1.2.1.1-T3nB.RKVWuSuvTq.S4ygwYFf6kVW1TkaN44ZtP1g9y11pG4ObYJf.pyGdxGFa3AhaNe3yOp96qT0psJCImc3LWJofmH07N25x08adAP8bcwmfXAUo5VZkPL7lKHmP5dfxtPYRUHYRerp6DOPVG0hVATlZ_ivoR4srqle6dm1gbnxq3Wly0WPK5rSOJfr4Iiwe3NTMx2Vmr221JVZurQLZw2c4oDNfQfy6WMFqh5EFiNybHQgioZ7I_sCjlPG_NsMnPZb6ilb7iplJxuNeRfLbSbzkCHeMOR4QsK3h537b52sb9lG0Czxmt5QqZqvUpNoJMsdhhhuJCmwXlGdBeKGFVFm6tyoEycQcslC3NA1OBz6PYPMFxS75wlhd0xxM35LNvJLEE4CR.Z8oOImXHwO3eFAYI..bJsz5nypV7xrlBA',};var a = document.createElement('script');a.nonce = 'kWbAQeycyoG97QvZIZbGrh';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a605da1c6ff87ce5';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=sNR1lT2zmnagdy8HTGM5aDyyyUPQHg9UTdnxrUEbt4k-1795664219-1.0.1.1-yjewGKpRRuFnaSfIkY0lISIqjGjKr8iJJJwBHm4B1Us\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.etymonline.com/",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n<url>\n    <loc>https://www.etymonline.com/</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/cn</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/tw</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/jp</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/nl</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/pt</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/es</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/fr</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/de</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/kr</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/ru</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/tr</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/it</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/se</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/vn</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/pl</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/no</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/dk</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/fi</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/cz</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/hu</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/gr</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/ua</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/th</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/in</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/columns</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/premium</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/download/app</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/legal/terms</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/legal/privacy</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/robots.txt</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/sitemap.xml</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/sitemap-article.xml</loc>\n</url>\n<url>\n    <loc>https://www.etymonline.com/locale-sitemap/home.xml</loc>\n</url>\n</urlset>\n\n",
+      "url": "https://www.etymonline.com/landings.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-7NBh6al5EFaGHtcP9PEZBD&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"7NBh6al5EFaGHtcP9PEZBD\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'ThGzvqCZTWo6f0vClaRs0ITPhqewPmJUchbTfJA8UmY-1795664221-1.2.1.1-UmC3SqzlBsgtFUwMTVfpTP_HRWxnfW3c7Ys2XDrSqGkPNl6iai._tWrD701gKY15',cITimeS: '1795664221',cN: '7NBh6al5EFaGHtcP9PEZBD',cRay: 'a605da29dba84a84',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=RDUpkupwu4JFZ6Zq46sKDDohBrF1lCLi2lUaNE.k.Bw-1795664221-1.0.1.1-LM.Gj6T9nFnXSat3tKiy3ndj.23_pr3OgXqHEG0dH2o\",cvId: '3',cZone: 'www.etymonline.com',fa:\"/agents.md?__cf_chl_f_tk=RDUpkupwu4JFZ6Zq46sKDDohBrF1lCLi2lUaNE.k.Bw-1795664221-1.0.1.1-LM.Gj6T9nFnXSat3tKiy3ndj.23_pr3OgXqHEG0dH2o\",md: 'mR2nHuuvVCjlDRUxPQPbNIPl6GulMV83ElriNn5XCAw-1795664221-1.2.1.1-3x7rT.w1kYpJVcrXZDLz3xwOUb2SUWDhuQnimTEMZbLOEKdtp3tljouCBP.DMFeWkkKSDH0ETiHPjN363W8RiKAGep2xxQO.Dkl0Boue4EAyETtxMpjubUb3VDHmQEtBalawinxUvYG5xivGGZGtD1roEetpMwVvjGsVMq2BdPbp_3XNzRVdyhiOS_o6WnKmboIE8jeyHngCuWk7kroUuFK2.Rsri5FaqVml1YOYd3fNAVAJ_oMXHTb6VA9oYWdtOhB5GATPuyyWJDESZLXk0SCRCBFZ01Jb1WF6ipPplfGzYaCw1NCAZWAXvQ1PvvZdHj0z8dh7Pl9V_r3MMn83lfx7C6i7A6hi2XqyLL7ur06MEkS1hYv.O.4U1omOeQQOu2e3Fdjiz1zFYYi0jsaeE49eftMpqnnWQzJ3w4zoDvY5xJUen2DNDMnpED8VV6V.mfZG6l3MnMseL_UtfER92KKUzF3VEhU_Zzh9gR3i2nHEeNFKZQ6IFjp5YSWvmx1vYVdZGfCe95xt33M26_iXf6D.BT8VmhNew6tFWeDSkCg9j5M6Syn0WvSKpHoPYJaZhH2OQ6M7z8kEb1PiwKsHqoLLH2ZisB2AnbU2v5ke._U9WdEp4yC1ivS6JGTRggUfioN9Qx7rLC7IY_NR_HcrVmVO9xkNXP4mj3R37nEIBhxhIYNByOnc9Se7T7.QvWDDgZQTJ2GqGz76nCXnMTw4OvkFozZNU0qolKAxsvcVgmA_L.SpFD3p_IzuwRr4AMPH2QihNJeXLcnMe7hb6K8qYa.beC2JyIqC.nK2OVHpAp5dHUDLzxTi83HaqnWMzB646GvAjVUmnhUH5YC1umhOoqxNm8nJVIiWmGTa1jr5kDeYUlVYsJlROfK87S0b6fOHKWbIg0LvASX1GwCMRhwMzypeVnU_rtaw7MFNDRhxRpJSfhQgWp6Rh9kk9j8qbB0prqxzYY5_r1_chSM5BXdADLhhBxCuyBsQI2v61.xDwS2pKCCsRCUOvBKDAj4PV_13OJ5FxAFRFZpFW33TRxtKJrzpZvGTsCjDoeJJy3pK89hlXTzY_35l0PoZe_MlED4UpNNEH4lrezoUWcSwOCS0CDpq2nN.gsmG1yxgNHNzQ.0ZVOCbU09egUz8SJO0EmG88SMNvOQ8gyWrLSZKoYS9OA',mdrd: 'WVDXegcReQ7PKZdKK_LBJ4Q.lgLfn335jMg.1cPB8Cg-1795664221-1.2.1.1-bN_XQyw6wKb6LnYqp_1mWldvv0SAoJb4AWtYYi2o4KIqpaLIY_83YSYVzZZ.sTPePaVWpY7pSieB4HTyfwLYTgd7BujvVmKWb8L0gPFSti2YsGWCvr5MpLge0MTrhQObDqBimBIBwiCrqU6qumJ.CgIIzEKQ..Ry9NkegxsXXHD71Swcr9d3RbQE8g9GAw9YRNsB19QMjviA2hoN2OsehouxuGUikokwmG8pPUWSZw58eR67sZ747eOCgeCath0IgTryJ2vSxFn4ZP77ma9HR6am0_VrMSxFuwkyiVCbJ0Q437wA0RfVV7cmQl3sbBcAsHAc03IhhOYgBIsRjZo9FILyiLcokizAjTa7mjk.parT.kC8k3y0DjjgxPTFO3Xr_HK1qLVwNCj8TYRVzB.VBZe7.XAIRAIW.O_z9nQAc2w',};var a = document.createElement('script');a.nonce = '7NBh6al5EFaGHtcP9PEZBD';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a605da29dba84a84';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=RDUpkupwu4JFZ6Zq46sKDDohBrF1lCLi2lUaNE.k.Bw-1795664221-1.0.1.1-LM.Gj6T9nFnXSat3tKiy3ndj.23_pr3OgXqHEG0dH2o\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://www.etymonline.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "{\"timestamp\":1795614223480,\"status\":404,\"error\":\"Not Found\",\"message\":\"Not Found\",\"path\":\"/ai.txt\"}",
+      "url": "https://www.etymonline.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "etymonline.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:37:05.122Z",
+    "score": 14,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 10.38,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 10.38,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 5.63/9 · hybrid 2.25/6 · training 2.50/10; strategy tag Middle-Path. Blocked examples: ChatGPT-User, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 10.38,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 4,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

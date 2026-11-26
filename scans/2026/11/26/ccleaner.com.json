@@ -1,0 +1,270 @@
+{
+  "signals": {
+    "domain": "ccleaner.com",
+    "fetchedAt": "2026-11-26T03:10:04.187Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "Sitemap: https://www.ccleaner.com/sitemap\r\nUser-agent: * Disallow: /\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\n\r\nUser-agent: ChatGPT-User\r\nAllow: /\r\n\r\nUser-agent: GPTBot\r\nAllow: /\r\n\r\nUser-agent: Perplexity-User\r\nAllow: /\r\n\r\nUser-agent: PerplexityBot\r\nAllow: /\r\n\r\nUser-agent: Claude-User\r\nAllow: /\r\n\r\nUser-agent: ClaudeBot\r\nAllow: /\r\n",
+      "url": "https://www.ccleaner.com/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 404,
+      "body": "",
+      "url": "https://www.ccleaner.com/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "",
+      "url": "https://www.ccleaner.com/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 200,
+      "body": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\" id=\"e59d3579-b076-4780-98d5-dd3362ff8bf6\">\r\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#\">\r\n    \r\n<title>CCleaner Makes Your Computer Faster & More Secure | Official Website</title>\r\n<meta name=\"description\" content=\"CCleaner is the number-one tool for cleaning your PC. It protects your privacy and makes your computer faster and more secure! Download it FREE today.\" />\r\n<meta name=\"keywords\" content=\"\" />\r\n<meta charset=\"utf-8\">\r\n<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\r\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\r\n<meta name=\"verify-v1\" content=\"CL5YHvlJYGfQ8xfzQT4NsvEV8U1LSKl/CcjVhtu6fkc=\">\r\n<meta name=\"google-site-verification\" content=\"ml6x5QoEjuCGEjr6qZ9blR4xB6cBhkAxJGIklPS-AUA\" />\r\n<meta name=\"yandex-verification\" content=\"143f1ada0d65b688\" />\r\n<meta name=\"msvalidate.01\" content=\"58F45429DA19750179D01C6923E41A6F\" />\r\n\r\n<meta name=\"theme-color\" content=\"#ffffff\">\r\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://s1.pir.fm/pf/favicons--AwgCBwYOBQc/apple-touch-icon.png\">\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://s1.pir.fm/pf/favicons--AwgCBwYOBQc/favicon-32x32.png\">\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://s1.pir.fm/pf/favicons--AwgCBwYOBQc/favicon-16x16.png\">\r\n<link rel=\"mask-icon\" color=\"#5bbad5\" href=\"https://s1.pir.fm/pf/favicons--AwgCBwYOBQc/safari-pinned-tab.svg\">\r\n\r\n<link rel=\"stylesheet\" href=\"/dist/uiv2/style.css?v=1.0.230\" />\r\n\r\n    <link rel=\"preconnect\" crossorigin href=\"https://dc.ccleaner.com\">\r\n    <link rel=\"preload\" as=\"image\" href=\"https://cdn-uat.ccleaner.com/site/dwyjyifw/ccleaner.svg\">\r\n    <link rel=\"preload\" as=\"image\" href=\"https://cdn-uat.ccleaner.com/site/14wn2zg2/language-select.svg\">\r\n\r\n<script type=\"text/javascript\" src=\"//nexus.ensighten.com/symantec/ccleaner/Bootstrap.js\"></script>\r\n\r\n\r\n        <script async src=\"https://dc.ccleaner.com/script/315b8f8eae51f81f77ff4cc6d6db927f.experiment.js\"></script>\r\n    <script>window.genDL = window.genDL || [];</script>\r\n    <script type=\"text/javascript\">\r\n        (function (a, b, c, d) {\r\n            a = \"//tags.tiqcdn.com/utag/gendigital/ccleaner/prod/utag.js\";\r\n            b = document; c = 'script'; d = b.createElement(c); d.src = a; d.type = 'text/java' + c; d.async = true;\r\n            a = b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d, a);\r\n        })();\r\n    </script>\r\n\r\n\r\n<script>\r\n    window.sdl = window.sdl || [];\r\n</script>\r\n\r\n<script data-ot-ignore>\r\n    var pageurl = \"/\";\r\n    if (pageurl.match(/\\/?([a-z]{2}-[a-z]{2})\\//)) {\r\n        pageurl = pageurl.replace(pageurl.match(/\\/?([a-z]{2}-[a-z]{2})\\//)[0], '');\r\n    }\r\n    var regexPattern = /\\/?([a-z0-9-]*)\\//;\r\n    var subsection = \"\";\r\n    var subsubsection = \"\";\r\n    var pagename = \"\";\r\n\r\n    if (subsection === '') {\r\n        subsection = (pageurl.match(regexPattern))[0];\r\n        pageurl = pageurl.replaceAll(subsection, '');\r\n\r\n        if (pageurl.search('/') >= 0 && subsubsection === '') {\r\n            subsubsection = (pageurl.match(regexPattern))[0];\r\n            pageurl = pageurl.replace(subsubsection, '');\r\n        }\r\n\r\n        if (pagename === '') {\r\n            pagename = pageurl.replace(pageurl.match(/\\?([a-z0-9-=]*)/), '');\r\n        }\r\n    }\r\n\r\n    var nortonAnalytics = {\r\n        \"account\": \"symanteccom\",\r\n        \"site_country\": \"en-US\".match(/(?<=-)(.)+$/)[0].toLowerCase(),\r\n        \"site_language\": \"en-US\".match(/^(.)+(?=-)/)[0].toLowerCase(),\r\n        \"content_title\": \"CCleaner Makes Your Computer Faster & More Secure | Official Website\",\r\n        \"content_format\": \"html\",\r\n        \"content_type\": \"page\",\r\n        \"site_section\": \"ccleaner\",\r\n        \"site_sub_section\": subsection.replaceAll('/', ''),\r\n        \"site_sub_sub_section\": subsubsection.replaceAll('/', ''),\r\n        \"page_name\": pagename,\r\n    };\r\n\r\n        var pageNameExtPath = pageurl.split('?')[0].replace(/^https?:\\/\\/[^/]+/, '');\r\n        var pageNameExtSegments = pageNameExtPath.split('/').filter(function (s) { return s !== ''; });\r\n        var pageNameExt = pageNameExtSegments.length > 0 ? pageNameExtSegments[pageNameExtSegments.length - 1] : '';\r\n        window.genDL = window.genDL || [];\r\n        window.genDL.push({\r\n            event: 'page_viewed',\r\n            environment: 'prod',\r\n            site_domain: 'ccleaner.com',\r\n            site_property: 'ccleaner',\r\n            site_section: nortonAnalytics.site_sub_section,   \r\n            page_name_ext: pageNameExt,\r\n            page_country: nortonAnalytics.site_country,\r\n            page_language: nortonAnalytics.site_language\r\n        });\r\n        \r\n        if (window.genDL[0].site_section == '') {\r\n            delete window.genDL[0].site_section;\r\n        }\r\n        if (window.genDL[0].page_name_ext == '') {\r\n            delete window.genDL[0].page_name_ext;\r\n        }\r\n</script>\r\n\r\n\r\n    <script async data-ot-ignore src=\"https://assets.adobedtm.com/b29989a14bed/fb232d48b52a/launch-6a58c8f8d4cd.min.js\"></script>\r\n\r\n<!-- Google Tag Manager -->\r\n<script>\r\n    (function (w, d, s, l, i) {\r\n        w[l] = w[l] || [];\r\n        w[l].push({\r\n            'gtm.start': new Date().getTime(),\r\n            event: 'gtm.js'\r\n        });\r\n        var f = d.getElementsByTagName(s)[0],\r\n            j = d.createElement(s),\r\n            dl = l != 'dataLayer' ? '&l=' + l : '';\r\n        j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\r\n        f.parentNode.insertBefore(j, f);\r\n        j.setAttributeNode(d.createAttribute('data-ot-ignore'));\r\n    })(window, document, 'script', 'sdl', 'GTM-5HNSJRD');\r\n</script>\r\n<!-- End Google Tag Manager -->\r\n    <script>\r\n        dataLayer = dataLayer || [];\r\n        (function (w, d, s, l, i) {\r\n            w[l] = w[l] || []; w[l].push({\r\n                'gtm.start':\r\n                    new Date().getTime(), event: 'gtm.js'\r\n            }); var f = d.getElementsByTagName(s)[0],\r\n                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =\r\n                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);\r\n            j.setAttributeNode(d.createAttribute('data-ot-ignore'));\r\n        })(window, document, 'script', 'dataLayer', 'GTM-KFXRTR');</script>\r\n\r\n\r\n<script>\r\n    document.addEventListener(\"autodownload\", function (e) {\r\n        trackCustomDownload(e.downloadUrl, e.downloadName, e.downloadExtension);\r\n    });\r\n</script>\r\n\r\n    <link rel=\"preconnect\" href=\"https://cdn-production.ccleaner.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\">\r\n    <link rel=\"preconnect\" href=\"https://cdn.cookielaw.org\">\r\n    <link rel=\"preconnect\" href=\"https://dev.visualwebsiteoptimizer.com\">\r\n\r\n<script data-ot-ignore src=\"/scripts/vendor/vue.global.prod.min-3.2.21.js?v=1.0.230\" type=\"text/javascript\"></script>\r\n\r\n    <!-- TrustBox script -->\r\n    <script async data-ot-ignore type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\"></script>\r\n    <!-- End TrustBox script -->\r\n\r\n<link rel=\"canonical\" href=\"https://www.ccleaner.com/\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/cs-cz\" hreflang=\"cs-cz\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/da-dk\" hreflang=\"da-dk\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/de-de\" hreflang=\"de-de\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/el-gr\" hreflang=\"el-gr\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/\" hreflang=\"en-us\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/es-es\" hreflang=\"es-es\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/fr-fr\" hreflang=\"fr-fr\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/id-id\" hreflang=\"id-id\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/it-it\" hreflang=\"it-it\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/ja-jp\" hreflang=\"ja-jp\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/ko-kr\" hreflang=\"ko-kr\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/nb-no\" hreflang=\"nb-no\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/nl-nl\" hreflang=\"nl-nl\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/pl-pl\" hreflang=\"pl-pl\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/pt-br\" hreflang=\"pt-br\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/ru-ru\" hreflang=\"ru-ru\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/th-th\" hreflang=\"th-th\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/tr-tr\" hreflang=\"tr-tr\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/vi-vn\" hreflang=\"vi-vn\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/zh-cn\" hreflang=\"zh-cn\" />\r\n<link rel=\"alternate\" href=\"https://www.ccleaner.com/\" hreflang=\"x-default\" />\r\n\r\n\r\n    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS Feed\" href=\"https://www.ccleaner.com/knowledge/release-announcements\">\r\n\r\n\r\n\r\n    <meta name=\"twitter:site\" content=\"@ccleaner\" />\r\n\r\n\n<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push([\"addVar\",{\"rua.upush\":\"false\",\"rua.cpush\":\"false\",\"rua.upre\":\"false\",\"rua.cpre\":\"false\",\"rua.uprl\":\"false\",\"rua.cprl\":\"false\",\"rua.cprf\":\"false\",\"rua.trans\":\"\",\"rua.cook\":\"false\",\"rua.ims\":\"false\",\"rua.ufprl\":\"false\",\"rua.cfprl\":\"false\",\"rua.isuxp\":\"false\",\"rua.texp\":\"norulematch\",\"rua.ceh\":\"false\",\"rua.ueh\":\"false\",\"rua.ieh.st\":\"0\"}]);</script>\n                                <script>!function(e){var n=\"https://s.go-mpulse.net/boomerang/\";if(\"False\"==\"True\")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n=\"https://s2.go-mpulse.net/boomerang/\";if(window.BOOMR_API_key=\"KHFPC-EEZSQ-MPDZF-9BJVS-S3BCL\",function(){function e(){if(!i){var e=document.createElement(\"script\");e.id=\"boomr-scr-as\",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?\"if\":\"i\",t=function(e,n){var t=d.createElement(\"script\");t.id=n||\"boomr-if-as\",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\\./))return window.BOOMR.snippetMethod=\"s\",void t(o.parentNode,\"boomr-async\");a=document.createElement(\"IFRAME\"),a.src=\"about:blank\",a.title=\"\",a.role=\"presentation\",a.loading=\"eager\",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display=\"none\",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src=\"javascript:var d=document.open();d.domain='\"+n+\"';void(0);\",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write(\"<bo\"+\"dy onload='document._boomrl();'>\");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener(\"load\",O._boomrl,!1);else if(O.attachEvent)O.attachEvent(\"onload\",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+\"KHFPC-EEZSQ-MPDZF-9BJVS-S3BCL\";var o=document.currentScript||document.getElementsByTagName(\"script\")[0],i=!1,r=document.createElement(\"link\");if(r.relList&&\"function\"==typeof r.relList.supports&&r.relList.supports(\"preload\")&&\"as\"in r)window.BOOMR.snippetMethod=\"p\",r.href=window.BOOMR.url,r.rel=\"preload\",r.as=\"script\",r.addEventListener(\"load\",e),r.addEventListener(\"error\",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener(\"load\",a,!1);else if(window.attachEvent)window.attachEvent(\"onload\",a)}}(),\"\".length>0)if(e&&\"performance\"in e&&e.performance&&\"function\"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=\"\"==\"true\"?1:0,t=\"\",a=\"amu5e6qxf6iis2yhumeq-f-7254a29f4-clientnsv4-s.akamaihd.net\",o=\"false\"==\"true\"?2:1,i={\"ak.v\":\"41\",\"ak.cp\":\"1237232\",\"ak.ai\":parseInt(\"733567\",10),\"ak.ol\":\"0\",\"ak.cr\":7,\"ak.ipv\":4,\"ak.proto\":\"http/1.1\",\"ak.rid\":\"174bbe1\",\"ak.r\":43958,\"ak.a2\":n,\"ak.m\":\"dsca\",\"ak.n\":\"essl\",\"ak.cport\":50635,\"ak.gh\":\"23.54.64.201\",\"ak.quicv\":\"\",\"ak.tlsv\":\"tls1.3\",\"ak.0rtt\":\"\",\"ak.0rtt.ed\":\"\",\"ak.csrc\":\"-\",\"ak.acc\":\"bbr\",\"ak.t\":\"1795662601\",\"ak.ak\":\"hOBiQwZUYzCg5VSAfCLimQ==Q/HwXbDVUwKBbHbkj8yeCOdgHXMSSr7scVrTClvqtGKbYqrTJmiOSjLPvZ6SRYaZTeP+6ZBqV5+LSvvxWbeApi8jkZzTm7AXvRE+fFIGa8dRddEda/7Ci6LlKIWrxU8oKeBQX6ftMiuxT/0psAVKhsiH2mbM3tK7M6wFOn/W0Re3HOCZaJpFqqeqIGIsgVv7ZKQgdMEPA+MO+YRWPDxDmkFFCme7tnDVKOjK85ZWBRTtuaN/79Mhxbq0sg98kKcifZL/JTMU98ygR92Qqj/wjiJYUW1aO9Lc7RO0q6TG4/rTRwxBngT1FP+aQIfUu4SeN+E0yt6j6DLbKXfHNpjM0eHEYvGMcC4a6ycUBN9Mdo7YBsN4SkqjBHnqcE2ATxZHECvLFK2QiDNMJEMziEu2rRU4sN8eOuNAgJv3KwM9+cE=\",\"ak.pv\":\"62\",\"ak.dpoabenc\":\"\",\"ak.tf\":o};if(\"\"!==t)i[\"ak.ruds\"]=t;var r={i:!1,av:function(n){var t=\"http.initiator\";if(n&&(!n[t]||\"spa_hard\"===n[t]))i[\"ak.feo\"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=[\"ak.cport\",\"ak.cr\",\"ak.csrc\",\"ak.gh\",\"ak.ipv\",\"ak.m\",\"ak.n\",\"ak.ol\",\"ak.proto\",\"ak.quicv\",\"ak.tlsv\",\"ak.0rtt\",\"ak.0rtt.ed\",\"ak.r\",\"ak.acc\",\"ak.t\",\"ak.tf\"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e(\"before_beacon\",r.av,null,null),e(\"onbeacon\",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>\r\n<body>\r\n        <noscript>\r\n        <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KFXRTR\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n    </noscript>\r\n\r\n    <a class=\"sr-only\" href=\"#main-content\" role=\"link\">Skip to main content</a>\r\n    \r\n<noscript>\r\n    <style>\r\n        .nojs-box .settings-icon {\r\n            background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M17.0349 29.597C17.1534 29.8481 17.414 29.9998 17.6747 29.9998C17.7553 29.9998 17.8311 29.9856 17.9117 29.9571L24.3285 27.6871C24.6697 27.5639 24.864 27.1989 24.7835 26.8482L23.9743 23.5184C23.9646 23.4786 23.9747 23.4365 24.0014 23.4055L25.1822 22.0301C25.2086 21.9993 25.2481 21.983 25.2886 21.9861L28.8071 22.2607C29.1862 22.237 29.5037 22.0427 29.5653 21.6778L30.7501 15.1424C30.8165 14.787 30.6032 14.441 30.2525 14.3415L26.8587 13.3452C26.8202 13.334 26.7894 13.3053 26.7753 13.2678L26.1484 11.5945C26.1336 11.5549 26.1393 11.5105 26.1638 11.4761L28.153 8.67819C28.3663 8.37489 28.3094 7.9531 28.0203 7.71614L22.793 3.45087C22.5134 3.22813 22.1153 3.24235 21.8547 3.47931L19.2846 5.83985C19.2556 5.86648 19.2159 5.8782 19.1771 5.87157L17.3313 5.55655C17.291 5.54967 17.2565 5.52383 17.2385 5.48711L15.7269 2.40351C15.5705 2.08125 15.1914 1.91537 14.8501 2.04333L8.43329 4.30866C8.09207 4.43188 7.89776 4.7968 7.98307 5.1475L8.79219 8.48165C8.80191 8.52171 8.79164 8.56398 8.76462 8.59511L7.57017 9.97093C7.54371 10.0014 7.50437 10.0175 7.46413 10.0144L3.95476 9.73977C3.55667 9.69238 3.26284 9.96251 3.19649 10.3227L2.01169 16.858C1.94534 17.2135 2.16809 17.5594 2.50931 17.6637L5.90303 18.6553C5.94152 18.6665 5.97245 18.6952 5.98652 18.7328L6.61345 20.4061C6.62826 20.4456 6.62251 20.4899 6.59808 20.5244L4.61351 23.3223C4.40024 23.6256 4.45711 24.0474 4.74146 24.2843L9.97353 28.5496C10.2389 28.7676 10.637 28.7629 10.9071 28.5212L13.482 26.1605C13.5109 26.134 13.5506 26.1223 13.5894 26.1289L15.4351 26.4439C15.4755 26.4508 15.5101 26.4767 15.5281 26.5135L17.0349 29.597Z' stroke='%2346515D'/%3E%3Cpath d='M10.957 15.8636C10.957 18.8773 13.4658 21.3288 16.5471 21.3288C19.6389 21.3288 22.1477 18.8773 22.1477 15.8636C22.1477 12.85 19.6389 10.3984 16.5471 10.3984C13.4658 10.3984 10.957 12.85 10.957 15.8636Z' stroke='%2346515D'/%3E%3C/svg%3E\");\r\n        }\r\n\r\n        .nojs-box .box {\r\n            box-shadow: 0px 3px 4px rgba(44, 109, 232, 0.2);\r\n        }\r\n    </style>\r\n    <div class=\"nojs-box\" w:container=\"~\" w:justify=\"center\" w:py=\"15 md:16\">\r\n        <div class=\"box\" w:text=\"center\" w:justify=\"center\" w:rounded=\"xl\" w:py=\"4 md:5\" w:px=\"4\" w:mb=\"11 md:15\" w:bg=\"blizzard\">\r\n            <span class=\"settings-icon\" w:w=\"8\" w:h=\"8\" w:display=\"inline-block\"></span>\r\n            <p w:pt=\"4\" w:text=\"carbon subtitle\">\r\n                In order to view this page correctly, you must have a JavaScript-enabled browser and have JavaScript turned on. <br /> We apologize for any inconvenience.\n                <a w:text=\"planetarium\" href=\"//support.google.com/adsense/bin/answer.py?hl=en&amp;answer=12654\" target=\"_blank\">Learn how to enable it</a>.\r\n            </p>\r\n        </div>\r\n    </div>\r\n</noscript>\r\n    <main id=\"main-content\" tabindex=\"-1\">\r\n        <div id=\"app\">\r\n            \r\n<div class=\"modular-wrapper\">\r\n    <ui-modular-page :api=\"'/en-us/api/modular-page?guid=e59d3579-b076-4780-98d5-dd3362ff8bf6'\" :site-api=\"'/en-us/api/site/modular-settings'\">\r\n    </ui-modular-page>\r\n</div>\r\n        </div>\r\n    </main>\r\n    \r\n<script data-ot-ignore src=\"/dist/uiv2/apiary-ui.iife.js?v=1.0.230\" type=\"text/javascript\"></script>\r\n\r\n\r\n</body>\r\n</html>",
+      "url": "https://www.ccleaner.com/",
+      "challengedStatus": 403,
+      "uaFallback": true,
+      "title": "CCleaner Makes Your Computer Faster & More Secure | Official Website",
+      "lang": "en",
+      "meta": {
+        "description": "CCleaner is the number-one tool for cleaning your PC. It protects your privacy and makes your computer faster and more secure! Download it FREE today."
+      }
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?><sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><sitemap><loc>https://www.ccleaner.com/cs-cz/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/da-dk/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/de-de/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/el-gr/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/es-es/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/fr-fr/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/id-id/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/it-it/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/ja-jp/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/ko-kr/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/nb-no/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/nl-nl/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/pl-pl/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/pt-br/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/ru-ru/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/th-th/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/tr-tr/sitemap/ındex</loc></sitemap><sitemap><loc>https://www.ccleaner.com/vi-vn/sitemap/index</loc></sitemap><sitemap><loc>https://www.ccleaner.com/zh-cn/sitemap/index</loc></sitemap></sitemapindex>",
+      "url": "https://www.ccleaner.com/sitemap",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "",
+      "url": "https://www.ccleaner.com/AGENTS.md",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "error": "budget-exceeded: https://ccleaner.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "ccleaner.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:10:04.187Z",
+    "score": 32,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 23.67,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 18.67,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 6.75/9 · hybrid 5.25/6 · training 6.67/10; strategy tag Middle-Path. Unconfigured examples: Claude-SearchBot, Googlebot, Google-Extended."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "transparent UA GET / → 403 (challenge page); content fetched via browser-UA fallback → wall honestly scored 0 for unfamiliar UAs"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 8.75,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1.75,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 1/4; no h1; html[lang] present; body text 44 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"CCleaner Makes Your Computer Faster & Mo\"; meta description 150 chars; no date signal; body text 44 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 18.67,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1.75,
+      "l2.sitemap": 4,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

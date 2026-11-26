@@ -1,0 +1,259 @@
+{
+  "signals": {
+    "domain": "u5s5.com",
+    "fetchedAt": "2026-11-26T03:36:25.835Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\nempty OK",
+      "url": "https://u5s5.com/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "empty OK",
+      "url": "https://u5s5.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "empty OK",
+      "url": "https://u5s5.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta name=\"landing-name\" content=\"no-brand\" />\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Domain Information</title>\n  <style>\n    *, *::before, *::after {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    body {\n      background-color: #f5f6f8;\n      color: #2c2c2c;\n      font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n      font-size: 16px;\n      line-height: 1.7;\n      display: flex;\n      flex-direction: column;\n      min-height: 100vh;\n    }\n\n    main {\n      flex: 1;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      padding: 48px 20px;\n    }\n\n    .card {\n      background: #ffffff;\n      border: 1px solid #e2e5ea;\n      border-radius: 10px;\n      max-width: 680px;\n      width: 100%;\n      padding: 44px 48px;\n      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);\n    }\n\n    h1, h2 {\n      font-weight: 600;\n      color: #111827;\n      margin-bottom: 20px;\n      line-height: 1.4;\n    }\n\n    h1 {\n      font-size: 20px;\n    }\n\n    h2 {\n      font-size: 18px;\n    }\n\n    p {\n      color: #4b5563;\n      margin-bottom: 12px;\n    }\n\n    ul {\n      list-style: none;\n      margin: 8px 0 20px 0;\n      padding: 0;\n    }\n\n    ul li {\n      padding: 3px 0 3px 20px;\n      position: relative;\n      color: #4b5563;\n    }\n\n    ul li::before {\n      content: \"–\";\n      position: absolute;\n      left: 0;\n      color: #9ca3af;\n    }\n\n    hr {\n      border: none;\n      border-top: 1px solid #e5e7eb;\n      margin: 28px 0;\n    }\n\n    footer {\n      background: #ffffff;\n      border-top: 1px solid #e2e5ea;\n      padding: 18px 20px;\n      text-align: center;\n    }\n\n    .footer-links {\n      display: flex;\n      justify-content: center;\n      gap: 28px;\n      flex-wrap: wrap;\n    }\n\n    .footer-links a {\n      font-size: 13px;\n      color: #6b7280;\n      text-decoration: none;\n      transition: color 0.15s;\n    }\n\n    .footer-links a:hover {\n      color: #4a5fc1;\n    }\n\n    @media (max-width: 540px) {\n      .card {\n        padding: 32px 24px;\n      }\n    }\n\n    .contact-form {\n      display: block;\n      margin: auto;\n      max-width: 400px;\n      text-align: center;\n    }\n\n    @media screen and (max-width: 600px) {\n      .contact-form {\n        max-width: 100%;\n      }\n    }\n\n    .contact-form button,\n    .contact-form input,\n    .contact-form textarea {\n      border: 1px solid #e2e5ea;\n      border-radius: 4px;\n      font-size: 16px;\n      padding: 0 8px;\n    }\n\n    .contact-form input,\n    .contact-form textarea {\n      width: 100%;\n    }\n\n    .contact-form button, .contact-form input {\n      height: 32px;\n    }\n  </style>\n  <script>\n    (() => {\n      const EMAIL_TO = 'gscreporter@gmail.com';\n\n      const getMailToUrl = (subject, message) => {\n        return `mailto:${EMAIL_TO}?subject=${subject}&body=${message}`;\n      };\n\n      document.addEventListener('DOMContentLoaded', () => {\n        const form = document.querySelector('.contact-form');\n        if (form) {\n          form.addEventListener('submit', (e) => {\n            e.preventDefault();\n            const name = document.querySelector('#name');\n            const email = document.querySelector('#email');\n            const subject = document.querySelector('#subject');\n            const message = document.querySelector('#message');\n\n\n            if (name && email && subject && message) {\n              const subjectEncoded = encodeURIComponent(subject.value);\n              const bodyEncoded = encodeURIComponent(`${message.value}\\n\\nBest regards,\\n${name.value}\\n${email.value}`);\n\n              window.open(getMailToUrl(subjectEncoded, bodyEncoded));\n            }\n          });\n        }\n      });\n    })();\n  </script>\n</head>\n<body>\n\n  <main>\n    <div class=\"card\">\n      <h1>Domain Information Page</h1>\n      <p>This domain is part of the infrastructure of an online advertising platform.</p>\n      <p>It is used to serve and route advertising content, including but not limited to:</p>\n      \n      <ul>\n        <li>ad delivery</li>\n        <li>tracking and attribution</li>\n        <li>campaign optimization</li>\n      </ul>\n      \n      <p>This includes the technical delivery of advertising content to end-user devices as part of programmatic and direct advertising ecosystems.</p>\n      <p>This domain is not intended for direct interaction by users and does not provide any user-facing services or content. Accessing this domain does not create any contractual relationship with the operator.</p>\n      <p>This domain does not host malicious content, phishing pages, or harmful software.</p>\n      <p>All advertising materials are subject to internal moderation and compliance checks, however, such materials may originate from third-party advertisers for whom the operator does not assume full responsibility.</p>\n      <p>The operator does not guarantee the accuracy, legality, or compliance of third-party content and disclaims liability to the fullest extent permitted by applicable law.</p>\n\n      <hr>\n\n      <p>If you have reached this page directly, it is likely due to:</p>\n      <ul>\n        <li>a technical redirect</li>\n        <li>ad verification or scanning process</li>\n        <li>security or reputation checks</li>\n        <li>automated requests, including those generated by browsers, applications, or advertising systems</li>\n      </ul>\n      <p>Some requests to this domain may involve automated processing, including fraud detection, security filtering, and invalid traffic prevention.</p>\n\n      <hr>\n\n      <h2>Abuse &amp; Security Contact</h2>\n      <p>If you believe this domain is associated with suspicious or unwanted activity, please fill the contact form provided below.</p>\n      <p>Reports will be reviewed and handled in accordance with applicable laws and industry standards.</p>\n      \n      <form id=\"contact-form\" class=\"contact-form\" action=\"#\" method=\"post\">\n        <p>\n          <input id=\"name\" name=\"name\" type=\"text\" placeholder=\"Name\" autocomplete=\"off\" required>\n        </p>\n        <p>\n          <input id=\"email\" name=\"email\" type=\"email\" placeholder=\"Email address\" autocomplete=\"off\" required>\n        </p>\n        <p>\n          <input id=\"subject\" name=\"subject\" type=\"text\" placeholder=\"Subject\" autocomplete=\"off\" required>\n        </p>\n        <p>\n          <textarea id=\"message\" name=\"message\" rows=\"5\" placeholder=\"Message\" autocomplete=\"off\" required></textarea>\n        </p>\n        <p>\n          <button type=\"submit\">Submit Report</button>\n        </p>\n      </form>\n    </div>\n  </main>\n\n  <footer>\n    <nav class=\"footer-links\">\n      <a href=\"./assets/terms-of-service.html\">Terms of Service</a>\n      <a href=\"./assets/privacy-policy.html\">Privacy Policy</a>\n      <a href=\"./assets/cookies-policy.html\">Cookies Policy</a>\n    </nav>\n  </footer>\n\n</body>\n</html>\n",
+      "url": "https://u5s5.com/",
+      "title": "Domain Information",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "empty OK",
+      "url": "https://u5s5.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "empty OK",
+      "url": "https://u5s5.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://u5s5.com/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "empty OK",
+      "url": "https://u5s5.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "u5s5.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:36:25.835Z",
+    "score": 48,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 16.75,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 6.75,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 23.25,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 7.25,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 3/4; single h1; html[lang] present; body text 250 words"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 2,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Domain Information\"; missing/too-short meta description; no date signal; body text 250 words (moderate)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://u5s5.com/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 6.75,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 7.25,
+      "l2.sitemap": 2,
+      "l2.content-signals": 2,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

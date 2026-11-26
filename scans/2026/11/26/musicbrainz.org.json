@@ -1,0 +1,258 @@
+{
+  "signals": {
+    "domain": "musicbrainz.org",
+    "fetchedAt": "2026-11-26T03:06:35.187Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /account/\nDisallow: /admin\nDisallow: /ajax/\nDisallow: /area/\nDisallow: /cdstub/\nDisallow: /cdtoc/attach\nDisallow: /collection/\nDisallow: /edit/\nDisallow: /*/edits\nDisallow: /election/\nDisallow: /elections\nDisallow: /isrc/\nDisallow: /iswc/\nDisallow: /login\nDisallow: /oauth2\nDisallow: /otherlookup\nDisallow: /partners/\nDisallow: /rating/\nDisallow: /recording/\nDisallow: /register\nDisallow: /report/\nDisallow: /reports\nDisallow: /search\nDisallow: /set-beta-preference\nDisallow: /set-language/\nDisallow: /tag/\nDisallow: /taglookup\nDisallow: /tags\nDisallow: /test/\nDisallow: /toggle-legacy-browser\nDisallow: /tops/\nDisallow: /track/\nDisallow: /url/\nDisallow: /user/\nDisallow: /ws\nCrawl-delay: 2\n\nUser-agent: ia_archiver\nAllow: /\nCrawl-delay: 1\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: CrazyWebCrawler-Spider\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: SemrushBot-SA\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nSitemap: https://musicbrainz.org/sitemap-index.xml.gz\n",
+      "url": "https://musicbrainz.org/robots.txt"
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<title>Verifying your browser</title>\n<style>body{display:flex;justify-content:center;align-items:center;min-height:80vh;\nfont-family:-apple-system,sans-serif;background:#f5f5f5;margin:0}\n.box{text-align:center;background:#fff;padding:2em 3em;border-radius:8px;\nbox-shadow:0 2px 8px rgba(0,0,0,.1)}.spinner{display:inline-block;width:24px;\nheight:24px;border:3px solid #ddd;border-top-color:#eb743b;border-radius:50%;\nanimation:s .8s linear infinite}@keyframes s{to{transform:rotate(360deg)}}</style>\n</head><body><div class=\"box\"><div class=\"spinner\"></div>\n<p>Verifying your browser, please wait…</p>\n<noscript><p><b>JavaScript is required to access this page.</b></p></noscript>\n</div><script>\n(async()=>{const c=\"5e7b5b625ce32cbf59fac93fc4cb89f1b32ba177a31b93557478c8c4386d4304\",t=\"1795662380\",d=4,g=\"0\".repeat(d),e=new TextEncoder;\nfor(let n=0;;n++){const h=[...new Uint8Array(await crypto.subtle.digest(\"SHA-256\",\ne.encode(c+n)))].map(b=>b.toString(16).padStart(2,\"0\")).join(\"\");\nif(h.startsWith(g)){const f=document.createElement(\"form\");f.method=\"POST\";\nf.action=\"/__meb_verify\";for(const[k,v]of Object.entries({c,t,n:n+\"\",\nr:location.pathname+location.search,d})){const i=document.createElement(\"input\");\ni.type=\"hidden\";i.name=k;i.value=v;f.appendChild(i)}document.body.appendChild(f);\nf.submit();return}}})()\n</script></body></html>\n",
+      "url": "https://musicbrainz.org/llms.txt"
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<title>Verifying your browser</title>\n<style>body{display:flex;justify-content:center;align-items:center;min-height:80vh;\nfont-family:-apple-system,sans-serif;background:#f5f5f5;margin:0}\n.box{text-align:center;background:#fff;padding:2em 3em;border-radius:8px;\nbox-shadow:0 2px 8px rgba(0,0,0,.1)}.spinner{display:inline-block;width:24px;\nheight:24px;border:3px solid #ddd;border-top-color:#eb743b;border-radius:50%;\nanimation:s .8s linear infinite}@keyframes s{to{transform:rotate(360deg)}}</style>\n</head><body><div class=\"box\"><div class=\"spinner\"></div>\n<p>Verifying your browser, please wait…</p>\n<noscript><p><b>JavaScript is required to access this page.</b></p></noscript>\n</div><script>\n(async()=>{const c=\"61a5d7b9c1dab3366b0a233b15f7cdd6da90d3c325ccb13b2995d4e1335a25c4\",t=\"1795662382\",d=4,g=\"0\".repeat(d),e=new TextEncoder;\nfor(let n=0;;n++){const h=[...new Uint8Array(await crypto.subtle.digest(\"SHA-256\",\ne.encode(c+n)))].map(b=>b.toString(16).padStart(2,\"0\")).join(\"\");\nif(h.startsWith(g)){const f=document.createElement(\"form\");f.method=\"POST\";\nf.action=\"/__meb_verify\";for(const[k,v]of Object.entries({c,t,n:n+\"\",\nr:location.pathname+location.search,d})){const i=document.createElement(\"input\");\ni.type=\"hidden\";i.name=k;i.value=v;f.appendChild(i)}document.body.appendChild(f);\nf.submit();return}}})()\n</script></body></html>\n",
+      "url": "https://musicbrainz.org/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<title>Verifying your browser</title>\n<style>body{display:flex;justify-content:center;align-items:center;min-height:80vh;\nfont-family:-apple-system,sans-serif;background:#f5f5f5;margin:0}\n.box{text-align:center;background:#fff;padding:2em 3em;border-radius:8px;\nbox-shadow:0 2px 8px rgba(0,0,0,.1)}.spinner{display:inline-block;width:24px;\nheight:24px;border:3px solid #ddd;border-top-color:#eb743b;border-radius:50%;\nanimation:s .8s linear infinite}@keyframes s{to{transform:rotate(360deg)}}</style>\n</head><body><div class=\"box\"><div class=\"spinner\"></div>\n<p>Verifying your browser, please wait…</p>\n<noscript><p><b>JavaScript is required to access this page.</b></p></noscript>\n</div><script>\n(async()=>{const c=\"e085b33c39236ced65c65ef475cbd0e11bbe3e8e82732e016ac733242f31ce66\",t=\"1795662384\",d=4,g=\"0\".repeat(d),e=new TextEncoder;\nfor(let n=0;;n++){const h=[...new Uint8Array(await crypto.subtle.digest(\"SHA-256\",\ne.encode(c+n)))].map(b=>b.toString(16).padStart(2,\"0\")).join(\"\");\nif(h.startsWith(g)){const f=document.createElement(\"form\");f.method=\"POST\";\nf.action=\"/__meb_verify\";for(const[k,v]of Object.entries({c,t,n:n+\"\",\nr:location.pathname+location.search,d})){const i=document.createElement(\"input\");\ni.type=\"hidden\";i.name=k;i.value=v;f.appendChild(i)}document.body.appendChild(f);\nf.submit();return}}})()\n</script></body></html>\n",
+      "url": "https://musicbrainz.org/",
+      "title": "Verifying your browser"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "\u001f�\b\b*��j\u0000\u0003sitemap-index.xml\u0000ŝI�\u001eGv���+\n�_)3�\u001c\b����^5\u001bh��AS�*�\u0014)�J\u0005���!3�ǲk��\u0013�\u0005.(Q�od\fg>�������?����ˇϟ�������\u001f�?����O������������?�������~���������O/���_����\u001f~����?~���_~xy���//?\u001c������?���Ox�\u000f����c��a��\u001f�Ͽ���j?��ç���>��/?��Û\u000e�/�߿���cI����߷o��o/?��\u001f?������_?��S���4�OSz\u001b⛼������\u000f�������*�KA��//\u001f��ۗw\u001f>�g\u0007�?��ݗ�\u001f^�>�O�>~x���R�����_�?}}����c����'�\u001f��\u000f\u0017�?^G~;Mo��f��:\u0004v\u0010�w�yz\n\u0005w~��7�����_�}�(�9��~�k9k\u0000}]�\rC\u000f�j1c�/��?�B��i\u0016\u000bXF, �����\u0002�a\\K�G,��ޟ�}���y�\u0015I��U������\u001f~~�<hk���� �ҀE�\u000f\u001d��f\u0004����o�Tg\u001e�\u001a�\u0002s'>>7+��H��B\\+\u0010�܄8�\u00058�#ܮ���\u000bp��\u00148?�\u000e.6�+puɸ�����0\u00162F��i-r�bN�%(��^M�4��51��\u0004�v�$��d��\t{\u0005'�,�\u0007�\\�R\u0002\u0016��(\u001b�nH\u001c�\n�\u000bX�MC슲��-�i�Z�{�.����9\nY�T\\�z�\u0006̎s�~RJ�n7�f&\n�������W��D�\u001e��l\u0011��\u000b\u001c?j\u001e�:�;`�>,�p-\u0005{\r�<��\nnY:W�ďXƎ��\u0012�ܑ��� �;���*\u0001�=tZnWr�k�]� ��v�h��\\��c\u0011����N�Xpo\u0002V��ݮ\u0013�˖��\\l�d\u0016W,8-W\u0013[�Y��Z�,��8a���ƫ\u000f^��]�fG\u0018���\u0012��\u000f\u0003|��\u0000�f��r\u0005����\\�rlc\u0005��I|��r���@Z���B�E\u001c��ӡ�\u0013~��D,��#��X�-�Q�(�ܬ>|���E�&\u000e�r�pn�\u0000-7\u000bk>��r�\u0010�q������Z��B�E��f�m��q#x���E�5R� �8�R�\n�7;��U�9�G$��HH%��p��X-\u0017Dn \r�rA8�i��\u000b±Oc�\\x��}\u001c�储�KZ�\u0005!v��r���\u001bP;.�Yi� l�DA�P4�j�(��lnW\u0014q�l�\\\u0014�C�Z.�Pm\u001e���b�0-g��<@�E!��\u0018-\u0017�a�Gh�(<���\\\u0011B�\u001e:-\u0017���n�ŭWZ.�Dx��I(��k�P�c1�җ�ݮ\u0013�{���rIh�Ej�$�X-���[�i�$���\u0001Z.\t-���rI8\u0014�\b-��3�h-Wd\u0001����rIh�����f��\b�-\u00144\u000bKf��\\\u0016��j�r���WYc���*�\\\u0016a�u���\"\u001d�\u000e�rY�p�\u0001Z.\u000bGj�Z.\u001dK��:B�e� ��;�#�\u0019�X�][/���q�������_)�\"T�&;\t�f+pq��-�Y_n\u0011�u�Zn\u0011�e\u001b��\u0016!۶aZn\u0011�}�\u0000-Wv\u0001��m��[\u0004��6���.���rYx���r��)mB�-�wcsZn\u0011\u000e�FAWQ\n���M\u0007\u000bv�˝�ܠح�[E�p�Zn\u0015Oz\u001f���R�Kۇi�U���\u0003���&c9���X��mf\u001f�˕\u0005��h#�E\u0002��w\u0011�U0��nǱa�;-W��CSPѲ\u0016&��R\r\u001c��c%\r\u001ch�\u0013\u0018�0\u0006�}���j���rAr����\u000eT\u0018�}R�B�{\u0018�}�\u0005�^\u0018�}�\u0005�X\u0018�}R�@]� �Oұ\u0000��\u0004�}�\u0005�J��'y3��ǵ\\�\u0015�Oi9A�\u0012(�I�^.r-�o\u0005�_\f�ON`.�,�o\u0005\u0017_����]�0���.���a\u0018�I=\f�Q\u0006�}2\u0017!'��\b\u0004�h=qg_�x\u0010V��<U\u001d\u0014�I�r��\u0005�}�q���O��]\t���}/?c�}�J\u001d�`�\b���\u00046_m�\\�r\\X\u0015\u0014�I���H\u0014|�\u0007q�����]s�\u0014��F��\b\u0004�\n\u0007h��S\u001b\u0006�}�%���N�\tN���O\u001a.��\u000f���?8lg3���8/\u0011(�I\u000fUH\u0011C�O\u001e�q<<8�櫝���j\u0019�}R�\u0012�|\u001f�}�7\u0004�}�}�wA\u001d�\u0000-\u0017D��s��\u0005`�+�O�s�bWq��/\u0017�O�86l\f�I�nl�0�����9\b�\u0012c>\u0002�>����\u001e\u001d�I�r\u001e�S�'�o\u0010ѩ��'})X�\u000f�>��\u0012Vs�4|.�Fp��%�W8@ˉ�� �O�\u0004\u0014�ﴜh�\u000e������`�O���F\u0005�>i��\u001d\u000b�}�\u0003��� @�\u0013\u0018�Q\u000b���m9.p\n���`'�:��>iK��;a\u0010�I�\u0010�e4�I�\u0005,c5�I:�#��\t���\\\u0000.�\u000b���DǓw\u0002�>��^�\u0001�咨94�']�a��q�����r�LOq>�\r��&�'\u000f�<N+�O����Y)�\u0010�e$�I_\nV���O�*x�_s�4|.oFp��%�-о\\\u0016�y�}�%�x\u0012Η�J\u0000r�\"�\b��>��͟=�g�Z\u001d�I\u0007�_L�O.`ч\u001a\u0004��\t��\u0010���as�:���-�W�\u000e�>釁E��>黠�\u0007h�EDT<�I�\u0003,�\r��%\u000b�=tZn\u0011�\u0006s�t\\�41�'}��¡��\u0010���$�m�\u0007\"�\u000f�O:p\u0012�\u000f���m9\u000f�+�C$#�O�R��1���\u001f\u0006�2����s9��O�%�-�Zn\u00152�p�\\\u0012P\b!��V�/��'\r�'�\f�I�n��)�&2����ݙ�t�}�\u0000̅��>i[�\u0005��>i��u\u0018�}Җ��� !����'}\u0017�\u001f�}Җ��\u0016h-�����>�\u0012\u0010k\u001a�}ҿ\\\b@��B�+-�qک@�O��K!\\#A��]k�����ov-�i�\u000e���Z�� ��\u0003T�J�\u0001\f�\u0007����}����+j�=e}�T��\u0006�\u000b�Z\\zvj}�ԛ��SM����Za�v�F�$h\u0007p��.��dc������\u0018���G����1�IT�^��qP$���jK�\u0016d\u001c���7D\u001c���f��5�W:E��\u0013�{���g8���?cs�sz�[�\u000bZ#��j;�YԢ����̿\u0017��G�������^\r\u0018\u00138F�����V�^\r\u001bw�ő�^e)���\u0007qz�\r\u0019�\n�\u000b�2��Q΂�\"����\u0005�G��^]\ba%/9���c\u001bKpzU\\!����ҏ�(#��*ߋ9\u001c#���ZBln�N��#�^\u000f�\\�\bN�tl9&����k\u000eB�����\u0005�C\u001c��U7D���\u0002�S\u001f5�W:�@\u001d��r�'g���:�#����ӫ�uf��\u0019\u0005�W�q!���\u0013\\O�rz͂z#�T\\\u001fyӃ\u0005���\\�\u00030�pG��5Ga�JN���\u0005�XN��\u0014�;\u0010�qz͂i#\u000e���� .�\u0010_.\n�z\u0004�W]��\tΗ\u000b\"!)9��\u000b�v\\�z��\u0004�R�y�9\t��rz]�f��\\�pz����6[N���ܐ��^�h\u0000�c9�f�@\u0010�qz�UD��\u0007pz͢-6�����p(Fpz�\u0005��ജ����ӫ~9�r��k\u0016�\u0007�qz͂h%RN�򽼲�rz�,J:\r��\u0019�\u001c\u0005�W:��\u0017�HN�y\u0011\u0012m,����`��˼z;\u000e���E\u001fzԜ^�\u0012x�Trz]{�n��rY�M8�׵���\u0014�^\u0015\u0017kW��U���DPN��ܝ��^��Y�\u0013'�^\u000f���Spz�c˹?%9�fх\u0019�rz�b*s\u001c��U7D���Ĩ�8�ӫ.\u0001��#8��\u0002��Ӝ^U\u0002�{贜�B������1b��U�y\u0018�rz͛(G\u0010�^=�jL\u0019��u\u0002��R��5���(9�f�\u0000\u001f�rz�b.w\u001c��UV�ە\u0006pz�]���\u0018N��\u0004^f:��k\u0016s�����Q�C��6Κ\u0019\u0005�W�\u0015�Oi9A<\u0012)��l��\u0004�Ww�v\u0011.��^\u00058����-��l��%�W���\u001aq,��,���a�^uC��\u001f��\u0015L��\u0018N�`��Fpz\u0005�\u001a���ELArz�/\u0017���8���k6�r�ӫ|/\u000fW\bN�t��C��^'0�|\u0010�^\u00178\u0016l��+̢�i,�W�Eg�0N� &��\u0001�^u\u0017�\u0013\u0018��fa�JN�t.\u0000�r��+L\"� 9�ꗋ�ȵ�,\"\u0018�ӫn7p\b��#�y\t16unqÝ�5��z��\\�(�l\u0013[�ݨ��vԸ�sdye[�8�Q�^3��uqe�\u0003~��v�+0�A(��)�V\u0012YY��\u001e?}��%Z�q]e��V�)��{�/\u001a��8L�&�vR��嚌�\u0014xT$\tN�\u000b��/Irz\u0015���XN��\u0014�\r��� �\u0001�^\u0005\u001f\u0007���������\bN��\u0000��\r��%��=t�[\u0010*NpzU\\lX:N�*�������d�����ؠ0�^\u0005\u0018�K'��\u0015D/v��^\u0005\u001b\u0017J���^e)��8\r��\n�\u001b=\r��*���#����K�&�\bN��\u0000� ����Α�^���sT;N���qzU��\u001f\u001c\u0005\u0015my�rz]!�$�8����E�k��^A4&��%w|��\u0013\u001d�i\u0018�WY\u0005׵\u00038��e\u0018��2oUL#8���JN��뒀�\u001e:-����8�N\u0011�YV���*�̓\u0017�ӫ|/f'Mb��\t�\u001dv8_�\u0004��&�rzUp�b%�WX�@\u0019��U��yv�0N� �\b�\u0000N� ���\u0018N� ���\bN� Z�����BH�;-'ư$��UqŭWZ.�F�D9���L���\u0002Ǉ\f+N:�*��������%�W��\u0002e,�WY\n.\"N�8��*p�N\u001a��\u0015D'p\u001a��\u0015�H�4�ӫ.@�\u0004��\u0016a�HN� &�'��\u0015�\b��8����LA7aQ\u000bN�\u000b\u001c�\u0018��u\u0002�zN��u�c�&9�\n6O;���\nb\u0012v\u001a��UV�\u0019\u0001�\u0000N� :r�\u0018N��\u0004,�Gpz�\u0005`��9��\u0010\u0012��i��S$��Uq�a�8����\n�/�])���\u0014�\u0003�?q��u\u0002�I����b�U��^A0b���^A��N�8��*0\u001f{\u001a��\u0015E\u001fx\u001a��U��\u000e�j�(�����\n��Hrz�/\u0017�\u0000���,*n\u001c�W�n~��>s[Vpz]�X�@N�\u0013�\u0007i,�W\u0005\u0017[��\\\u0014=�i,�W\u0014#\\�0N�z\u0018X�\f�����=�1�^E�q�o\u0004�W\u0014\u0013t���RF����_.ހ�q�j\u001c�W}p����r_Npz�༌\u001brz]�X�ZN�h�o%�W��\u001av,�W]�؆QZn\u0016!�\u0001�^\u0005��\u001dc8��\u0012�c\u0018��xϮ�􊆔@rzEӫ'8�*���J��­��^1pB�d9�b�l��pz\u0015`.�,�W4�b��+�\u000e౜^e)ܨ\u001b��\u0015MW�\u0000N��\u000b\n��\u000b��\u0018��\u0015���4�W��X�JN���k�\u0019�׵�X�:N�(\u0006�'��%��(>I\u0007�\u000b�(`�I:�\u0019�7�qr\u001d��)UyҠqD|d�I[\tVp��N�v�[�9�\u0002��u�I�Oߺp}\u0007�\u000fijN�wH��*9���Ş�n�QM�I�hX�Pe*z��d����\u0003\r�~�ɼ��\u0003��.[N�(�N����#���2�{\u001e��U\u000f\u0003\u000b�\u0001�^u\u0017\u0014�\u0000�-�>�<�ӫ�\u00015����\u0012\u0010K]��e�HYpz�\u0000Rv�^u��V��^�[ůLpz�QnQP�d��u\u0002s�j9�\n8V�ӫ�8V-c9��R��\u001b��\u0012�\u0018�\u00038��MT�\u0003�����#8��k�Z.qV�,9�ꗋ7�v\u001c�\u0015�ӫn7�@\u001c��\t)���\u0014���\t1��z\u0000�����[.8����*�\\Î��*K��e\u0018�W�\u0010q\u0005�����\u001b��U��E�\bN��\u0000,�5�W}��\u00068-����8�.\\lW8N�����9(.�ʖӫ���e8����ʖӫ�c-'9��p\u001f��C��\"\u0012A�8��`\u0016�\u00038��.��7D�-�v&����{�.��r\u000b�vɒӫn�x\u0003fǹ��8��v�d\u0011��+�C͖ӫ�c3�pz\u0015`n�[N�\n��Yrz\u0015l�*��rz���h�0N��!��{-'\b��\u0018N�(\b��\bN�(�����d*KN���X�\u000bN���kO\u001c�W�~��Q�M��,�W\u0014t:�pzEA��-�W\u0001綳��*ؼ�m,�WY\n���8��a`�?��+\nV�<�ӫ.\u0001��\u0011�^Q0Le��Ue\u0001���ӫ~��Cf�y.�qz���\n�//(��^g�e\u0012=��pz=\u0000s\u001b�rzՖ\t|�$�W\u0012�Iy,�WY\n7�qzE�,�\u0007pz�]�Zv\f�WY\u0002O\r����\u000bP7�i�]��%�W�rlt2N�\u000bW�?��v\u00119��^�{y^Npz�Z�\u001fL�\u0016��:��V[N�:\u0004\u001e?+��f����rzU\u0013\u0007[��8��a����,d�\u0018N��\u0004��Fpz%�8�5�W���ΐ�^�˅�U;�����*м��rz� �D���INbRl&�^\u000f�<hh9�j\u0003��j��\u0004�F\u001e��U�R�\u0019��r��\u001a��Uw\u0001˛1�^�1���\bN��\u0000� ��\u000b��^�˅�U;.n��r�\\&SN�*�1�����K5��;��:�yNHpz�[�\r)�镒�hc9���S\u001a��U\u000e��2\u0006pz%�<9�ӫ,�\u0007\f%�׵\u0007X�hN�*\u0001\u0005��r�a�qz]���+-\u0017E�\u0011��\u0012�\u000f\"-\u0017��?�s0+w��o6*��7��U9�\u0006�\u0003C#Sr���2r�$���\u0013r}\u000f�p���t>}~\u0015-aeǧ\u0016���up~�T�ų䄋=��\u0015�eoRq����L\\z���l���+l\u001a8�7Y�ŶXN��y�`��^\u0005;�+6�ӫ.E��(�-�\u000e�e\u0000�W��6�\u0018N��\u0004�\f\\Fpz�=�:FszU\t(����2\u000f_-�ӫ�b��qz%�v�PN������\u0013�^\u00178�b��u\u0002s��rzUp|�$�W�Ɖ�e,�WY\nN\n.�8��h�^\u0006pz\u0015|��\\�pz�%��8@�-��֜^U\b��wZn�y�Epz\u0015+�;��ӫJ?~���rw�rz]ō��j\b��\u00030n�[,�W�r̺�HN���\u0013O�XN����\u000f�0N�$:q�\u0001�^e\u0017��9�ӫ.A�\t��6a�jN�\u001a�\u0011'ജh\u0011^\u0004�W\u0012]�������e>�^\\E�XN�\n��V��+�`�����8#&9�\n6.oX�rz��p�v\u0018�W\u0012\u001d��\u0000N���Y��1�^I4�.#8��\u0002�MpZn\u0013޴���_.\u0004��qnh;N���X�SN�<�Wn9��h\u0005^\f�W\u0016�����ʢ�v��^\u0005�?���^e)�;h\u0019��U7\u0004��\u0001�^\u0005�W\u0001����K�rg\u0004�W\u0016]�����BH���ry\u0016ֶ����B�\u0019-W�\u001f�d��\\�ZN�\n�����ʳ�m��+�\u0006�ErzUll����ʢ\u0003z\u0019��\u0005��2��+�\u001e�e\f�W]��\u0013Z�͢\u0016BszU!������_��N��g�:N�����)h\u00101q�<p���\r�\u0007N`nP���\u000e�\u0005����b4�2�ӫ.\u0005_�a�^u\u0015��\u001b��U�5�ӫ.A��\u0001Z.\b�OszU!$���r��`\u0011�^\u0015W�=��D��B;\t�`\u001aX\u0004��\u0005��=��������^\u0015\u001c�����b\u0018�2�ӫ.\u0005;��8��*��\u0019��U�'1��+Gau���ʂ�hќ^�9b;Grze�$(8�*.6l\u001c�W\u0016\u0004/\u000b��ʂzc��^g�Z^9\t�B8�\u001e�����^Y\u0010l,��+'Nz����ʂxe\u0019��U\u000f\u0003�\u001c\u00038��.�G?�ӫ.Am��rI؜�ӫ�\u0000�$��K��\u0012�^Y��^0��%z�ME9���r�\r��u�cy\u000f9�N`^cd9�*8�b�ӫbc�2�ӫ.\u0005\u000b�a�^u\u0015X�\f��*�\\Ǝ���KP[0@��~9��U�\u00106�%�W6\u001d�ӫ⊷�|�$����+q^-\u001a����^?8.ܩ!��\u000bW�ku�ʾ��M�he��n��`e[I��ܠXe�\u000e~\u000b<�W2��k��\u0002*o|����Hu[:��\u000f�Ô'4N��(��HG��S�^�'~Y�rR|:.D�w�>,8u�\u001b\u0010\u001b��\"@\u0019�N�s�WY��d�n,IG�'k�\u0000O�\u000e�N����\\\u0007'�\u001e�K8D�-��\r�k\u000b\u000fM��d;}\u001c�Q��I\u0011L�䤨�̨�I1���d�Z\u001c�rAɎMu*�IN��ȅ$;6U.*\"95�\u001e��C���\u001b1\u0007�#�vP�Ñ}\u000fh:`D4���?�\u0001zm�%F2\u0016��!��N����\u0006G\";,��J�\t���q��,��*\u0012#���_?��K\u00156�τss\u000eȻ$���܉�20V\u000eL�����ȁy���\u001c�IHv_e\u001f�7�\u0002���ۙ��\u001c�7�7��|j��\u0011T#\u001d�w[i\u001e��}�p`���T1+��m����\u001b�)���'�\u0012;0��\u00053\u001d��~����/��.�\u0002�C7���S�\u001f\u001d; o���\u0019�S�wP\u0019z`b\u0011\u001f��x`��ۮ�\u0002��\u001f�@��s\u0012\u001b\u0014����G�\u001e�7E_����sƪ�.\t�e�,�\n�U*�+�\\=Bz�!�nl.����*��-tS��~�7��F�$��\u0016�\u000eyS�ԯl�W$l>\u001d\u0012��S\u000b�o ��\"\u0015O�������'4\u000e�\\зE�\u0001��-��\u0003�a��LÏ���)��#��\u001b}@SUC�m;�#���p�\u001d�d��\u001b\r\u0018׺���\u001c�/ϟ�<K�ѡoo�\tmD��jT�T\f\u00192:�ç��_��\u0011ԏ��\u0005�7�.�\u001eI��7�\u000fQe�\u0015�\u0017�\u000e�a\u0011 Rr��mc�\u001f,��>4��������n\t(�;�6R\tK�X>�����\u0001hz\u001bb�Ҹ��N��՗���~�;\u0016Վl���-�C�\u000f��B���\u001f���ÿ'��!�S�-m�\u0005�o���J��\b�}�zB;��N��'=b\nBd�ȏ\u0005p��A�\u000e)��s���Ο��LO�?�\u001et�����\u00028�}��C:^�v�T�;r�\u000e}�N:�\u0007�����c\u0001����vܤ\u001d\u001a~�#\b��\u001b��\u0011����o[��\u0002�7C1\"��ґJ�����7ڞЃN�*M�R� ��c쐎��A�\u000f��������N�A'M�&��P��&�3=x�\u0016���'MRv'�����\u000b�\u0005���}����?\u000f�*L5�v���n\u0019(�5�\u0004�mAzB�h&!�;�i��?vu�מߖ�'|������������w���b�HH�\u000e|\u000eI\u000fZL5��o[g'�~X�]�\u0013Z\u0015�G¢w\"��}��V]'옛}��8��\b�\ry$\u001c\u0006��&��\u0012�/\u000b\u0011�p���������/�\u0006{�>ܯ\u0005�o���A݄\u0010�\u0000\u0004�\\�u��(}�_��\u0000��彸\u0000���+����!\u0005%<W\u0017�4[C�����ί�ܚ��\u0015\f�z�\u0007w=կ��v�'��?���~m�m��\n\rݲ8\u0019�2��V�gPn�\bO�[�џ�\u000b�_W��\u0000Z8�o{����\u0017�\u001f=W�\u0013�q3`Wz����8�f�Gx��[`w�F�N�/��9{�\t%\u001d����\u001bG�Z=`�P�����WX�+�\n����#��\u001e����C��ܸЪ�#�@�\u0006^�82b�\u0001�Ú\u001bg\u000bt#�z�\b/��\u0000!�`���s��n�� i�A\r�\b;�V �h��\u0002/d��d\u001c�~\\\u0000�q�-u���\u001bxq�Ҫ�\n�k�\u0005dL_am%DL���\u0011^ȸ�ݸM�q�\u001c�h�\nmH��~s�\u0012�\u001d���a�\u001d�&&6:������Z��N��\u0005�\u001b�[�h�}��K⿁W7ΈwZ\u0015\u0012\t��+��\f��(�\u0011^ܸ�T��C��)U�n͎�M\u001a�\u001b�M�w��)�\u0010����\n�\u0002l�#��q\u000bh{y\\\u0000�q��vn�\b&8��\u001b���\u000e�d�\u001b�M�m\u0012\u0004z'��\u0001���֎\u000b.\u0004\r���ˍe (;v�7�\u0004�\u0019�~`4�\u0017�\u000b\u0000�V��E\u001c����6U�}�RG���\u0012\\�\u001aq�O�O[��.\u0012\\\u0019T?�B�F��X�2�\u001a�i�t�ʧ\u001e�����XB����=�H�ɨ��\u0017&\u001cO�n���\u0015V'�T�\u0013p=���D6�p�ƭ\u00079Qm�\u0016/�%�60��\u0001����v{��\t�\rt�=\u001b�\u000e�$�ӜE�k=f�\b�ev\t.��p�k7\u0019�Y'�vc��\u0003\u0012\\���<�uPlN��av\t.�Y���aE�k�\t��$xf����\bږ\u001e\u0017�n��n\\�~�}��o�Ս\u0013Qػ<����4n�\t�]y�*��\u000e�P\u0011\u000b�E�q�����\u001bxu�D\u0011�m\u0016�GnR��Mp\u0015xQ�4�\u0004W]���i�kie#sco\u00157N%���\u000b��۞�!�[�'\u0015�P\t��fB���\u0000�6��i���Ɖ��m\u0006�\u000bv\u0006}����\u0005{6ň�Op�\u0005\b\u0019G����wO&n\u0007/n�lr����\u001f`M��M���BƩ\u0004׵\u0000�Zh�ko7nn�iT\t���B��\u0004W6�(\u0017�k�\"\u0000��qM���@�\u000f�[n�j�V�LG������\u00053��&0\u0010l�+�q\u0012��Z�\u0005��\u000b<�U\u0003#=.#�Jpգ�\n��Ԓ�\u001d\u0017�y�T�A�p��\u0016�\u0015j��*�S�\u000e�ys�U��~:W��g�<�ޟ��\nk\u0013\\)\u0000��G�\u00017N4�\u0004G9��ũ�\u0004W=z!��x\u0005��\r\u0003F,\u0018\u001b�'�\u0012!�y\\��� �\u0012�JpUlq�1�j�\t�C6�b��\u0012\\�\u0002č�D�\u001a^�8\u0011\"��ʚ�\"n�\u0013q�M\n@�u�ʌB\u0002.�\u0013�VF����������\u001cU�IN�5�\rQ�k�[���Ut�ƣ�X���h\u000b���\u0015��\n��e�-�\u000bO�Om�`�%���?�\u0000���S�\u0014�!!��}�ŇsT��.i�Ѕ\u001a�9��)� ��\u0007N�ʧ�y�f��S\u0013\u0019���\\���}C\u0015j���k\u0010ƨQ�����s��_�V\ng8�d}�x��X����z$��o��m�L}<\u001c\u0004��D���F�\\�Y���&��,M�P�\u0003��\r]D�m���\u000b�\r���9\u0013��n�h�H����n8�Г��'�N�\u0007QA���\u0016̧�\n�Ȅ˷w&�y\u0015��.;o��,� �c��o��ץ�;\u000f�a2ƙ�T��ܮ\u001a�Q2��~�\\���|C�z[��\u001b:�qY�n���x�&�o����x讯�T<��|C���2#��yo�Kȟ��;�,\u001f_|��\u0014bc��\"�e���ر�\f��\u0002@�jd2��s�X���\u000f�Ǘ��p\u0014�U\n]n7�L�.�&0\u0011�Py����7t^�,���S<Ӣ�ѓe�d��U�\u0004�F��L��2�9xC�\u0012t����\u0006�����v�xa]�������Ӎ\u001f�2U&E\u0017h�*O�\u0001'�LUA\u0017��d�Bc�\f�8((S�/�ּ��\\u���\u001b��9�TeC�\u001dl�����6 S�:|�\u0016�g�B���Ƌ�\u0002�Te3�(�LU�\"6��f�M4\u001be�Rk)=���K�2U�ع�B3Uy\u0016���f�\n:g�\n<Suz����|=f>Z[Hy21N���\u001b�\u0015\u001a�T\u0005q�t�ô�\f\b|Dq�h\u000bB�oCdx>څ=�\b�ѨG�'�Am���s(*��vؕl\b��2U�����\u0011\r��&�LU=v��h�*�\fx�������h'\u0000�:\u0006O�o��*����[\r\u001dO\nG���ǎݒH3Uٴ�F���A�b�g�j�$�l4S�\u001fnpqD�\\U����8g\u0014i�*�I���k9�<Y4\u0006[wD�l�E��J�H��\u0000����d���e\f��L�l���\u001c�\u0003S����\u00176#��Z���\n>Vc��LU6M\u000f�f��v�LUN��**2�>��pcF�����<HfHNT��l�m\"�T%c\"�LU\u00121��{�\n>�׌<Su\\6� �LU\u0012�͈3U�H6��2cq\"�T]6[\u0010�aQ�T5�������e�6\u0011g��詊:Se�����j�pqF�����~\f#�y��2UYT'G��2��Qg�L}M4����l�Aa��LU�__3U[���\u0011!�e����\"Sŭ&]6\u0019�ɤ���z�E4\u0017Ѣ���-y�����4�M�\u001a���3U�(kJ&Su�k�:O0SUEjhW�\u0014l&��2��\u0013�T\u0019z��3UJ�\f�Te\u0011iJ��*�a�=��3��e�\u0016\u0011�O8S��Z��3U��\r��K>/\u001b�4%:�o=�\u0007U�b�,�L�*|��3U� VM:Se:d�b��h\u0014}\u0017���ݢu�`�K.Se\u0002.\tg�6s�u�j\u00139����!�B��*�b��ͯ��T����\u001d\u0004Ӌ�t�j\u0017܃\tg�j1�z�s�?ѩ}���b.Qlf&k��D=t����%5�/\u001e�VD؅\u000e�Os�-J�9s��]�\u0016%:�o2\r|�N�L�\u001a��ZE<7�LU'd�\u001a_5\u0017/jT_�M�*�N�̀�d\u0007�U&Y~�UO�t^v~�pL_���&�h����7�V�D��U+�\u001f���7�\u0019}I��u\u0007a1�\u0004f��Ti��6�l$5��\u000e��Ld���Ҝ\u000bQD>�T��&����;8\f��\u0019,\u001caG�\u0010�_B�y�\u0001�X�d;��\u0016�b��M�j�\u000es�'\u00073��\n�����\u0004a,f5�o2�M�N�k|�\u0018�\u000e�k�\u0016\u0002݊�Ju�/;�T�5\u0003?7߀�g�j\"_Sg\u001c��F�f;�o2}��d�zܡ�\u0006��N3Ug�K2���\u001aƧF�f:�o2��lG��:.������Zd����9U�$��AVs��/^���\u0018�J��_���W#�\\��:��pD�l�=U��Ȫy:�U�\b���<S�Y��:��+q�hC\u0017�|@O�.\"�\u0019���������H�g��c\u0017�\u001c�\u0007���T5t^9�U��\u001cK�K�2�T��y\u0010k�E���l<��q�j\u0011e�Yg��\u0004������&l6���\u000b��8Yn8�L�\"��3�T-��.�L�jl&?�*���L3U����\\��Lբ>�\u001f7��:S�\u001a\u0007��T�\u001c|V\u0011\u0000�S�k���Te��ZE�bƙ*��z����|��*�6����+\u001a���\u000b�&��抚�\\�\\�D�kљ�MX\r�b�[+~��Ɗd�s�����+i\u0012�z,.S��0��3U��zљ�MX\r��Te\u0013�^x�jZ޶�ws�\\�ʌ\u000eZp�j\u0017}=��T킸g1��x9��\\\\`�ꛯ�W�e�v�\"\\p�j\u0017)��f�fS\u001d�(��\u001ewXD�~�������\u0016�1{/.[�xn��L�l\u0006l,6SU�\u001e�\\U=U]�m��b�=U��������Tͦ+z���y\u0016���f�f3�`1s�*�K�tCm�P��\\\u000b>��h�\u0016���MY�B3U�a�_l�j\u000e��aQq�V�_���e����l\u001f\f��bQ��z�\\���G9n\u0011岙�*Y�7���㲙b���T�\f\u001f�D�\u0017���\u001bϭ'���M1�b3U��\u0007_LOU'{���lᙪ�XUk=:?q����P���YE�m���sɦz��vٔ�B�T�t2�T ,*SU7�;�\"S�c=�C7���Q�Ǩ�U�� \u001d��=\u001a�L�ǆe�\"Э���\u000b֠Q���6SU�y���3U�֣\t5�h��L��F\u0007�\u0016]\t5\u001e[\\i�j6d���T͆�lU��V�\u001b\f!�J3U�1�QE�W��Rѽ�f�f3u`�������V�S�\u001eSd9{�J{�b�[�n�ͪ2U��ŇST�y��L�)�_U�*\u001cd�\n���V�do� j.S�E\u0004`ř�,����TeQʵ�LU�D畃+�T�V\u0001�[G�BW�Mx&8S���ҙ�,\"=����\fa���L�\u001cj����\u0017Q���L��y��L�\"�sW��ZD��j2U]�9\u0007\u0001f��ڦ�\u000b;tq��\b�\u0015g�\u0016c��L�\"�5W�Sս�]�EW���E���/F��L�\u0019A��8�*h�V��2]E��SUY��q�LUQ��1���?�.S�\u001a7\u001cg�V�t�j5�\u000b�S�\u001b]R�&\\�S��Дx�J\\�l.Sez�V����v\u0000_�<�f2��\u0018LI$e�X[�o�w�f����]��D\b5��6��2\u001d]��T���\u0010��\rf�.���\t���L�*��6��ڄG��L�&�s7������(S�Bl5y�ka\u0011/��\\���U�p�j\u0013\u001eɦ3U�\b�m~NUe��ʄf�r���u���2U��\u0000l8S��d�3U��lS��V�\u0013��\u0001�Ĝ�N\u0016��Uw���\bU��2�d��T�I�\\6;�vnL6��E�jz;�)\u0017���L�.ʲ7��\n�ro�����k&7�S�I\u0017�,\"M\u001be��[)[���<y��LU�x\u001e��h�*����f�\n�P����I6��x��\u000e�o��B��LU�E�r���`\u001a�6��\nAT�l��*�c|�\"�����&G\u0013�Q��`\u001a�6��\n��k���\u0010D�ɦz��&�\u0016\u0013�\u0012s�ڸǰ\n�Me����hP��c���LUA\u0017q6�Su�sEF��z�pr}��T�c�\rg��P��5pn��6�Gk�d�����6���=�E뻎-'v����\u0011��f�B\u0012��> Se��v�S��9��~=��U��n��p��˱w�����_�e�댋X�ﰧ�J��$�خ2U��\u0017�4S\u0015̈��f�\n:�*�y��z�~M��i��rD�9q���y\u000b.ch���r�w����\u0014\u0003Y����y\u0016��;�T����6R�?5��*\u001bϋ\u000fv��*�b�u�j\u0011�=��T\u001d�����|NU�uNU�\u0010���LU0\u001c�;�T��\u0007��T�F��L�~�Q^��LU�Ek�L\u0014|�.S�\u001a�\u0005g�6�\u0018�u�Jm��T]���\u001a�\u000e&\u001b���]�j\u0013�.;�Tm�\u001fԙ�]���&SՏ�z�\\��9U5��\\B�U\\�j7�\u000f���M�Cg�LmӮz��I��M\u0017��z���&��2U�1�i�*�r��f�\n�Pc*S�N�K~�\u0004�_8�\u001fxmծ2Uu��e\u0003\u0019����\u000f\u0004���������tEv�>|z�����O_�}�Y�Y0���r��ڇ��\u000bx-\u0001�߸\u000e���k\tc\u000e��O�2(t�0'�Ho��K\u0014�u�k0�X�>؛��=��S��\u000b��\u0018�\"�\u001d��)�EX!9�c�*�\u0002wٷ�\b�\u0016�X�\u0016A\u001d��EP�;\u001e\u0017��K�Ehq��C�Eh��R5\r\u001cǏ/p����O\u0012&N�Y���,����lI�~Ʃ��5h��\u000fA�H�}��\u0016\u0002)\u001c�\u0004�[{]�>\u0003\\�v��c��Љ-�Q�Z��\u000e걿�A�\u0001n������=\u0003�V��_=J&p��u\r�\f�y��A����4����*k\u0005��z]�>\u0003\\Ir��b�r�\u0013[$���b�u\u0012m�z�\u0007��XV�akYlgĵ��u\r�\fp0�Z����OS6ӑ���ج�H\u0013'\u000f��I��5pl\u001dǥ���\f\"o�]�>\u0003m��&���\u000b�\u000f�@�wW0}�o1�\u0018��9\u0002�5PlA�yb�F'�����\u001eh?y�:9`?Y�:���O�g^Qʢ���U���d1��Ħ~r×�]\u0014����tF�~�\u0018vvbs?��\u0007�\u0013�u\r�\f��\u001c���j?9\b?yj�؅V\u0016k?Yp-^k�؛��\u0003��{��r��@�ɛ���O\u00165�'6��/� �²�5�3�]��\u001a\u0004�}��O��}md:�Ex]�>\u0003m�`?y�\\\u0018'��\u000b��V'k?y��1��E\u0013���R8-tm���L����a����\u0003\u0015� \u001a�\u0006�\b�Eā\nQWb��~�\r�A;GQ\u0007*v]\u000f\u001bq��;G�\u0006*.�T0׼�A��\r�D\u001c�صQ\u0014�6������^נ��\u00166D�\u000fvm�D�'݋*�v��\u000eT�:P\u0011q�b�VNl�>��A�\t�h\u0003\u0015��Y��ck}�\u0003\u0015=`7Ϻ�'�@E�\u0007�\u0016i�\"�v�\u0013[\u0004*�F�\u0013�]d\u0003\u0015�7\u0003D\u001a����V\u0017鄾O�F\u001b�(�`�\n\"\rT\u0004_�\u001dm��R\"�ﷁ\nC~~����}\u0013����A\u001b�n� �\"1��\\\u0002?|�AM�!�;\u0007�~\u0004�\u0006*�>H� �@E���y�\u0015\u0015��=�p���&\u001b�(�`�3\u0013\rT\u0018��\u0013[TTt��W�'\u001b��|�z\r\u001c�\u0006j\u0012���EQ�:��A�\u0001�\u001b�����s��Fn� oo��\u0007V%W*}{\u0006X'\u0007��H:P��Lrҁ��C\u001c�\u0010��Nl\u001d�H�G;�@E��\b\u0007*��E��u\u0003�Y\u0007,�\u000eTD/�p���P\u0013\u000fTtZ�ʧj�c\u001d�\u0018��@E�Ht\u001e��\u001c!�\u000ft�\"yY$\u0002\u00156p-T�YQ�9Ӯ%�@��бBNZ\u0019dK��\u0002'}]�~\u0004V\u0019d\u001c�H:��-mKȺ�4�@��0�8P��2�\"P�2ɕ^�J\"\u001d�\u0010���\u001a8�\r�eQQ�\u001d4�\u001a�u���\u0014d\u001c��m��VT�b���\u001a�\u0019,^\u001e�@�o\rώ���\u0001sd��A���E�.Zt�,�֏>\u001f-�\u0019\u0004�k�g`9�2\u000eT�Y�'��H\b�\u001d5�@��u\u0012\u000eT���$����N}]�>\u0003-�p�b�\t�,\u0002\u0015��hb���\u001a�\u0019hy(\u0002\u00156Hb��Ӣšn\u0004L�*\u0010��*�E\u0004*�sP�,�\u001a�#�N�\u0003\u0015�\u0017w\u0011��x��Z�xс�M��,8P����'�%��k��Ѣ\u0003\u0015��\u001c/8P�ic`�\\�uR�}\u0007:P!\u0006)]k���\u0018Xt�\"�\n�E\u0007*|_��\u0003\u0015�\u001ds�\u001c\u0015G6߷�,:P!&L]k�ػ�\n\u0005���\u000e����@�o�\\�m��1\u0017\u0011�8�@�\u0003\u001d�ؽ]�\u0003\u0015��v^����\u001f\u0004\u001d4\\t�·�.8P᫝\u0017������ms\u001d�\u0010���5p\u0017�V��.����~�f�I�:\u0014��\u001a\u0003�%�\f~\u0012̪\u0003\u0015;\u001f<y�\u0001b��xR\b�:P��W\u001b�������� ���8��j\u0003\u0015u\r�.�@E�te�j+*R�٫�\u0006*�����@E��=�\bT�g`ɕW\u001b�(�`�E+\rTDO��ڊ��\u0006ۓ��@E�\u0015f+\rTD�\u0002�ڡ\u0013\u0003HuW\u001b��A\u0007�W\u001a��A�㮶�\"���պ\u0007u\r�.R��`k�@\u0004*�;�\t��\u0006*�>XYD\u0003\u00151�ـ�\bTt�����\u0006*�>X��U\u0004*lŽ{\u0006�u�Jq�)e����#��\b���H'i�_�~\u0004�\bp����mv:f�u�ߦ\u0003\u0015I\u001bE\u001b\u000eT$\u001d1�l�G%,��H\u0007*|�tÁ��I�6�QѸZ�I;��\u000eTd���p�\"k�d\u0013S?�#�i��M\u0007*���\r\u0007*|\u000bԦ\u0003\u0015��C\u001d��-P\u001b\u000eT,��n\u0013�����\u000e�l:P���6\u001c�Xt�b�\u0015\u0015!�j�M\u0007*\u0016�D�@���~�M�\t\u000f�\\����E����(�G[�N�d�e\r��fӁ�U�_l\"Pa�-�#h� �g��x\u00067p\u0000-Z\u0019�\b�ݒi\u0006\u001f1�u���A����M�a}�S?�Ϥ�:P��\u000ev\u001c�شB�uEŦ��\u0003\u0015����q�z�Z���:P��͎\u0003\u0015��c\u0017\u0015\u0015�\u001al�rׁ�]���8P�� ɮ\u0003\u0015��{ׁ�]\u001b�;\u000eT�:`��֏��a�_\u0004*�5ط\b\u0002\u0015'��$�u�b��P\u0004*�5ػ�\u0003\u0015��j�u�b�N�\u000eT,��l\u0007��tr���\u0017^�\u0006{\u0007��|���\u00031��~2���ˇ�'�\u001f8�\t\\\u0017�\u001eHz�/:��9�XKG�7����x��\u000f��y�����w\u001fї\u0017�8�\u0010���������,^���!;~��<п<�����\u000f�~A�n �\u0000�mgup�x��#bF��C\u0015j���\u0014䅍�x8���Esa�{���U��\u0000z����P��\tzQ��ص*\u0017>�\\.lc�D�lva�8���1'<Ǽߊ�1)���=��i��%�f��}v\u0002�b�8���v'<Ǥۍy�;�|3/ Wpa�n���}\t�x�\u001eq���\u0004'<Ǽ�Fs`jc!�kF��Glf$�A��~��\tO1WP6}`����eB96=�K��\u001f�wa��&D�'<Ǽ��w`���؈�96>�\u000b�J�8䨡\u001f �|��/K\f�ێ��б\u000e�k�\u0011�>�4��-g�Æ�u5L\u001b\u0016gk��2��i�\u000b�\u001e���B.B�a�8j��Y�����_�u`\n\u0006��\nQ�W�|���G�\tx�I�KL�_^V�m[#\u001f�Ư�¦W|\u001dr�4�\u0001�\u00024L�t�y\u0000�ڄ(i�����>\u0019$�ׁ^�#��>��\t�1�ҠѲ���A\\��\u001bF�jPvo�\u001d@:���GM�]Ox�y���cbr��\u001du\u001b�KMBL���}����\u001eq���Ox�I�\u000e���P\b����\u0005��Mm�eD�l\u0007u\u0012'<ǤQ#<*�\nc�ٖ\u0017�\f�\u0014l*QFD�\b\u0011�\t\u000fKa�uD\u0003�x\"��l%P�sa㣾���Ѳ��T��*��y�\u0002���Ѳ�\u001d+U\u0002�����Gl*Qt��o;=jZl?\u0011f�\u0003S\u0014�ϧ¢�Z\u0014�_���G\u001c��~�\u0013�b���c\u001c�ó�҄�����ٺ���Ѳ����)�A�Ė��hO�HEl\u0012�h�+6�k\u001d-�ێ�9&\u0016�3!��K_��H8��\u0000�Ѳ����)cC���|H��\u0007��8:�g^<b�Hݢ�e}��-��\u0016��\u0003n������a�AY<��\u0011\u001b�\t����m�G�\u0007J�2+z�\"Z�\u001dE?�\u0002�\u0003$\u001e��w�8j\u001a\u0013�s+�\u0000\u001b\u0018B��*�0Ɗm\u0013<��\u0011���m��j<\u001e��@L\u001e-�z\u0012s��I<\u000e������\u000b{�QS�\u0010O�(��<��7��9\u001fl�XW�h�+6��#�e\u0011���)��\u001e�Q�iɿ\u001e�Q��w��N�/3��\"\u0013�G`�ڲ^ʗ\u0002Nb�\u0019\"\u000f؁\n�\u0011�22c��瘰%2��%W}\u0017�w~a�ڲ\r�\u0006�#�e��.\u001c-˸@�LFi����\u0011�D�\u0013�\u0006��\u0011�2��}�sL���h����\b����-�\u000b�^�\u0011Ѳ�C\n8Z�q\f܌\u0019������E&��_�G\u001c5u|�T��I���f҅(!\"���\u0000'�?\u0017�����Vxxʴ�;\u001d�R���f\u001a-8�N��T��,��&�6\"ZF��Ox�I�\u0013<���eQ�ef�\\������-��\u0003���\b�߁)F��v��q�\u001d�~yĆ��6\"Z�\u0000��\u0013�c�\b��4�\u0012�i�q\u00043a�¦G=\"Z�\u0000\u000e�\u0013�b�\\i8��X�\u001d���\f����]4\"ZFfx��\u001c��X�ܜp`c�P��\u0006{�GD�V�\u0015I������g\u000fLމy��\u0005ǡ�X�Gl��#���o�4 \u0011��S�&22�!\u0014�།��m���hY�Y;�|��n΢�\u0010���g�<b�k������j2Z�Ĥ��t�δ\u001f=j�s��Q:�ش�x\u001f\u0011-۱��'�LdjƁ)j���󉯶�-���\u001e\u0011-�q�(\u0019\u0014��K�#�\u0003��Zl�1�\u0007\u0003=bC\u0013x\u001f\u0011-�M�x\u001e��H4s��5˘9��\u001f����\u0018\u0010-+�N�A�أ�I��x�Qg.��؉n7�-��i<a\u001f\u0010-�9����J'�feХ�ZԖ5�4�\u0002]<M�\u0011��\t\u0003�e娱5L�e��j<��\\�鬥��Ztb�ش$cwѲ�㦀�\u001ddV�yԔ;\fψ���t�L��RD�NlZ��\u000f��ͼ;���꘼\u0013ӌ�:�i\u001cڌ����w��杘|�\u0015�X�IG�2UX\u0015[F�\u0016j'T�\u0011G\r�u\u0005�>�|�\u0007���qr\u0003�;63\t+��B��LyTls�\u0017<3�\n<�^�r2Nv�u��q���\u00058,���#^5�,�\u00143R]\u001d'Q[\u0016��Ѳ����\u0015�J\u0014\u0017-��0�ѲH[��$�e�\f�R�\"�e'6�v*�w�\u0012\r�\u0014x~��>���\u0015�~��Ĭ��U���EZkU�\u0011f\u001b-\u0006\u0005\u0019f~���%&~?#�\u0001��~��n�cB�l\b�|�\u0019�L;��ç�����\u001f�?�xʼ�J\u0004\u0000",
+      "url": "https://musicbrainz.org/sitemap-index.xml.gz"
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<title>Verifying your browser</title>\n<style>body{display:flex;justify-content:center;align-items:center;min-height:80vh;\nfont-family:-apple-system,sans-serif;background:#f5f5f5;margin:0}\n.box{text-align:center;background:#fff;padding:2em 3em;border-radius:8px;\nbox-shadow:0 2px 8px rgba(0,0,0,.1)}.spinner{display:inline-block;width:24px;\nheight:24px;border:3px solid #ddd;border-top-color:#eb743b;border-radius:50%;\nanimation:s .8s linear infinite}@keyframes s{to{transform:rotate(360deg)}}</style>\n</head><body><div class=\"box\"><div class=\"spinner\"></div>\n<p>Verifying your browser, please wait…</p>\n<noscript><p><b>JavaScript is required to access this page.</b></p></noscript>\n</div><script>\n(async()=>{const c=\"14d4a700acbe2b14bfd9d93561f02615ba4f5b2153d63c36189082c34540f1b6\",t=\"1795662388\",d=4,g=\"0\".repeat(d),e=new TextEncoder;\nfor(let n=0;;n++){const h=[...new Uint8Array(await crypto.subtle.digest(\"SHA-256\",\ne.encode(c+n)))].map(b=>b.toString(16).padStart(2,\"0\")).join(\"\");\nif(h.startsWith(g)){const f=document.createElement(\"form\");f.method=\"POST\";\nf.action=\"/__meb_verify\";for(const[k,v]of Object.entries({c,t,n:n+\"\",\nr:location.pathname+location.search,d})){const i=document.createElement(\"input\");\ni.type=\"hidden\";i.name=k;i.value=v;f.appendChild(i)}document.body.appendChild(f);\nf.submit();return}}})()\n</script></body></html>\n",
+      "url": "https://musicbrainz.org/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://musicbrainz.org/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<title>Verifying your browser</title>\n<style>body{display:flex;justify-content:center;align-items:center;min-height:80vh;\nfont-family:-apple-system,sans-serif;background:#f5f5f5;margin:0}\n.box{text-align:center;background:#fff;padding:2em 3em;border-radius:8px;\nbox-shadow:0 2px 8px rgba(0,0,0,.1)}.spinner{display:inline-block;width:24px;\nheight:24px;border:3px solid #ddd;border-top-color:#eb743b;border-radius:50%;\nanimation:s .8s linear infinite}@keyframes s{to{transform:rotate(360deg)}}</style>\n</head><body><div class=\"box\"><div class=\"spinner\"></div>\n<p>Verifying your browser, please wait…</p>\n<noscript><p><b>JavaScript is required to access this page.</b></p></noscript>\n</div><script>\n(async()=>{const c=\"47b8e1ed7b1ebae72242422251cbe9cd0a150d5b3213bcff284121631bc7318a\",t=\"1795662395\",d=4,g=\"0\".repeat(d),e=new TextEncoder;\nfor(let n=0;;n++){const h=[...new Uint8Array(await crypto.subtle.digest(\"SHA-256\",\ne.encode(c+n)))].map(b=>b.toString(16).padStart(2,\"0\")).join(\"\");\nif(h.startsWith(g)){const f=document.createElement(\"form\");f.method=\"POST\";\nf.action=\"/__meb_verify\";for(const[k,v]of Object.entries({c,t,n:n+\"\",\nr:location.pathname+location.search,d})){const i=document.createElement(\"input\");\ni.type=\"hidden\";i.name=k;i.value=v;f.appendChild(i)}document.body.appendChild(f);\nf.submit();return}}})()\n</script></body></html>\n",
+      "url": "https://musicbrainz.org/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "musicbrainz.org",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:06:35.187Z",
+    "score": 47,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 16,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; missing html[lang]; body text 15 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Verifying your browser\"; missing/too-short meta description; no date signal; body text 15 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://musicbrainz.org/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 3,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

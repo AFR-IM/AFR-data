@@ -1,0 +1,273 @@
+{
+  "signals": {
+    "domain": "regulations.gov",
+    "fetchedAt": "2026-11-26T03:27:36.983Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "# http://www.robotstxt.org\nUser-agent: *\nDisallow:\n",
+      "url": "https://www.regulations.gov/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>Regulations.gov</title>\n    <meta name=\"description\" content=\"\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" href=\"/assets/images/favicon.ico\" />\n    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->\n    <script\n      async\n      type=\"text/javascript\"\n      src=\"https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA\"\n      id=\"_fed_an_ua_tag\"\n    ></script>\n\n    <meta name=\"regs-gov/config/environment\" content=\"%7B%22modulePrefix%22%3A%22regs-gov%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Array%22%3Afalse%2C%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%7D%2C%22gReCaptcha%22%3A%7B%22jsUrl%22%3A%22https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fapi.js%3Frender%3Dexplicit%22%2C%22siteKey%22%3A%226LdasjcqAAAAAOSi5En8sNgn3bQMWEiFvcOJwmFa%22%7D%2C%22metricsAdapters%22%3A%5B%7B%22name%22%3A%22GoogleAnalytics%22%2C%22environments%22%3A%5B%22all%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-25499422-7%22%7D%7D%5D%2C%22s3FaqBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22s3BannerBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22apiKey%22%3A%225F20SbTVakeYfU9i5gX1dxx96sw4KELUQxAHhcHa%22%2C%22apiCommentKey%22%3A%22cRghIivqBw3vDLTwJ40vbG85H7CZ2qMpfimp5a3R%22%2C%22apiSupportKey%22%3A%22lOzZoBoPswol5CYrFLbpdHbJlfEaqFq9x3FTIAy4%22%2C%22apiTypeaheadKey%22%3A%220aqz1L3gw4qLqGeG5fVdyTh3bUGoZ2TsmMj2nFUW%22%2C%22apiSubscriptionKey%22%3A%22WIeDD3PvRys4KFLDgYjjVZf8ftpIOpClSLSDZVEU%22%2C%22apiBulkDownloadKey%22%3A%229DHCrmfsxUh9btUCqV3iqraD5S8xiuucbDtNMoQi%22%7D\" />\n\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/vendor-623a51660fbcdfa648f286c9d0654d2c.css\" />\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/regs-gov-3d5db4e4a383136dfc90a59e22be3b95.css\" />\n\n    \n  </head>\n  <body>\n    <div id=\"ember-bootstrap-wormhole\"></div>\n    \n\n    <script src=\"/assets/vendor-84d7588a4eab78d6caf4e5bc683c4296.js\" integrity=\"sha256-qHrJPanPKKPms2wozSlGNAoK0ZpPzHPV4oZnfEeZvN0= sha512-5MGxBWStRevAtMGW0ydDp5qp+VhOYStiTfcHXU9axs5l6KQHR656FBOrYm19Z6EBeo8resmXgth9BPoB0Nyjuw==\" ></script>\n<script src=\"/assets/chunk.81.c7dc60dc9a0d6f59f18e.js\" integrity=\"sha256-R2dnkNpCPB8EJXuYKHKtOSkxKKhEaaTW1RH+qcqC9zY= sha512-34PsZV+AEB4Mcd1uZkEQ1jP1XDaCZI+0mFOi6pXky3VhDm2sToixkIQ13o2y2CqXvc4vFyhW6d1+u/n97sChSw==\" ></script>\n<script src=\"/assets/chunk.524.a70cc86506668e12170e.js\" integrity=\"sha256-H2mEJ7OgqAIyR9+rQjWJJL3TWgWAJQx93V3C7i7pXAs= sha512-EY8r3Cdx8vUPuQROwQdjrExCicO73/O+xskpkbavxgI64KdSoZYN28aAJWVbTicZQO0berLnUwgSWdW0Q2ECHA==\" ></script>\n    <script src=\"/assets/regs-gov-d53ffe2e75866c54fda635b7304c80b0.js\" integrity=\"sha256-tAQWaxSWp4themPFeCM1O5sP3b8kvAoBYuAZE8ZWyhM= sha512-x8o9MZlo4ivLjQACopjmC5FJTAwTISNHppb+/GKF59mhjUJLd+sCdg+yIBLEahukzyOk8ezhlwcJNMxK9jC4PQ==\" ></script>\n\n    \n  </body>\n</html>\n",
+      "url": "https://www.regulations.gov/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>Regulations.gov</title>\n    <meta name=\"description\" content=\"\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" href=\"/assets/images/favicon.ico\" />\n    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->\n    <script\n      async\n      type=\"text/javascript\"\n      src=\"https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA\"\n      id=\"_fed_an_ua_tag\"\n    ></script>\n\n    <meta name=\"regs-gov/config/environment\" content=\"%7B%22modulePrefix%22%3A%22regs-gov%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Array%22%3Afalse%2C%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%7D%2C%22gReCaptcha%22%3A%7B%22jsUrl%22%3A%22https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fapi.js%3Frender%3Dexplicit%22%2C%22siteKey%22%3A%226LdasjcqAAAAAOSi5En8sNgn3bQMWEiFvcOJwmFa%22%7D%2C%22metricsAdapters%22%3A%5B%7B%22name%22%3A%22GoogleAnalytics%22%2C%22environments%22%3A%5B%22all%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-25499422-7%22%7D%7D%5D%2C%22s3FaqBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22s3BannerBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22apiKey%22%3A%225F20SbTVakeYfU9i5gX1dxx96sw4KELUQxAHhcHa%22%2C%22apiCommentKey%22%3A%22cRghIivqBw3vDLTwJ40vbG85H7CZ2qMpfimp5a3R%22%2C%22apiSupportKey%22%3A%22lOzZoBoPswol5CYrFLbpdHbJlfEaqFq9x3FTIAy4%22%2C%22apiTypeaheadKey%22%3A%220aqz1L3gw4qLqGeG5fVdyTh3bUGoZ2TsmMj2nFUW%22%2C%22apiSubscriptionKey%22%3A%22WIeDD3PvRys4KFLDgYjjVZf8ftpIOpClSLSDZVEU%22%2C%22apiBulkDownloadKey%22%3A%229DHCrmfsxUh9btUCqV3iqraD5S8xiuucbDtNMoQi%22%7D\" />\n\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/vendor-623a51660fbcdfa648f286c9d0654d2c.css\" />\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/regs-gov-3d5db4e4a383136dfc90a59e22be3b95.css\" />\n\n    \n  </head>\n  <body>\n    <div id=\"ember-bootstrap-wormhole\"></div>\n    \n\n    <script src=\"/assets/vendor-84d7588a4eab78d6caf4e5bc683c4296.js\" integrity=\"sha256-qHrJPanPKKPms2wozSlGNAoK0ZpPzHPV4oZnfEeZvN0= sha512-5MGxBWStRevAtMGW0ydDp5qp+VhOYStiTfcHXU9axs5l6KQHR656FBOrYm19Z6EBeo8resmXgth9BPoB0Nyjuw==\" ></script>\n<script src=\"/assets/chunk.81.c7dc60dc9a0d6f59f18e.js\" integrity=\"sha256-R2dnkNpCPB8EJXuYKHKtOSkxKKhEaaTW1RH+qcqC9zY= sha512-34PsZV+AEB4Mcd1uZkEQ1jP1XDaCZI+0mFOi6pXky3VhDm2sToixkIQ13o2y2CqXvc4vFyhW6d1+u/n97sChSw==\" ></script>\n<script src=\"/assets/chunk.524.a70cc86506668e12170e.js\" integrity=\"sha256-H2mEJ7OgqAIyR9+rQjWJJL3TWgWAJQx93V3C7i7pXAs= sha512-EY8r3Cdx8vUPuQROwQdjrExCicO73/O+xskpkbavxgI64KdSoZYN28aAJWVbTicZQO0berLnUwgSWdW0Q2ECHA==\" ></script>\n    <script src=\"/assets/regs-gov-d53ffe2e75866c54fda635b7304c80b0.js\" integrity=\"sha256-tAQWaxSWp4themPFeCM1O5sP3b8kvAoBYuAZE8ZWyhM= sha512-x8o9MZlo4ivLjQACopjmC5FJTAwTISNHppb+/GKF59mhjUJLd+sCdg+yIBLEahukzyOk8ezhlwcJNMxK9jC4PQ==\" ></script>\n\n    \n  </body>\n</html>\n",
+      "url": "https://www.regulations.gov/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>Regulations.gov</title>\n    <meta name=\"description\" content=\"\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" href=\"/assets/images/favicon.ico\" />\n    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->\n    <script\n      async\n      type=\"text/javascript\"\n      src=\"https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA\"\n      id=\"_fed_an_ua_tag\"\n    ></script>\n\n    <meta name=\"regs-gov/config/environment\" content=\"%7B%22modulePrefix%22%3A%22regs-gov%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Array%22%3Afalse%2C%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%7D%2C%22gReCaptcha%22%3A%7B%22jsUrl%22%3A%22https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fapi.js%3Frender%3Dexplicit%22%2C%22siteKey%22%3A%226LdasjcqAAAAAOSi5En8sNgn3bQMWEiFvcOJwmFa%22%7D%2C%22metricsAdapters%22%3A%5B%7B%22name%22%3A%22GoogleAnalytics%22%2C%22environments%22%3A%5B%22all%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-25499422-7%22%7D%7D%5D%2C%22s3FaqBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22s3BannerBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22apiKey%22%3A%225F20SbTVakeYfU9i5gX1dxx96sw4KELUQxAHhcHa%22%2C%22apiCommentKey%22%3A%22cRghIivqBw3vDLTwJ40vbG85H7CZ2qMpfimp5a3R%22%2C%22apiSupportKey%22%3A%22lOzZoBoPswol5CYrFLbpdHbJlfEaqFq9x3FTIAy4%22%2C%22apiTypeaheadKey%22%3A%220aqz1L3gw4qLqGeG5fVdyTh3bUGoZ2TsmMj2nFUW%22%2C%22apiSubscriptionKey%22%3A%22WIeDD3PvRys4KFLDgYjjVZf8ftpIOpClSLSDZVEU%22%2C%22apiBulkDownloadKey%22%3A%229DHCrmfsxUh9btUCqV3iqraD5S8xiuucbDtNMoQi%22%7D\" />\n\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/vendor-623a51660fbcdfa648f286c9d0654d2c.css\" />\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/regs-gov-3d5db4e4a383136dfc90a59e22be3b95.css\" />\n\n    \n  </head>\n  <body>\n    <div id=\"ember-bootstrap-wormhole\"></div>\n    \n\n    <script src=\"/assets/vendor-84d7588a4eab78d6caf4e5bc683c4296.js\" integrity=\"sha256-qHrJPanPKKPms2wozSlGNAoK0ZpPzHPV4oZnfEeZvN0= sha512-5MGxBWStRevAtMGW0ydDp5qp+VhOYStiTfcHXU9axs5l6KQHR656FBOrYm19Z6EBeo8resmXgth9BPoB0Nyjuw==\" ></script>\n<script src=\"/assets/chunk.81.c7dc60dc9a0d6f59f18e.js\" integrity=\"sha256-R2dnkNpCPB8EJXuYKHKtOSkxKKhEaaTW1RH+qcqC9zY= sha512-34PsZV+AEB4Mcd1uZkEQ1jP1XDaCZI+0mFOi6pXky3VhDm2sToixkIQ13o2y2CqXvc4vFyhW6d1+u/n97sChSw==\" ></script>\n<script src=\"/assets/chunk.524.a70cc86506668e12170e.js\" integrity=\"sha256-H2mEJ7OgqAIyR9+rQjWJJL3TWgWAJQx93V3C7i7pXAs= sha512-EY8r3Cdx8vUPuQROwQdjrExCicO73/O+xskpkbavxgI64KdSoZYN28aAJWVbTicZQO0berLnUwgSWdW0Q2ECHA==\" ></script>\n    <script src=\"/assets/regs-gov-d53ffe2e75866c54fda635b7304c80b0.js\" integrity=\"sha256-tAQWaxSWp4themPFeCM1O5sP3b8kvAoBYuAZE8ZWyhM= sha512-x8o9MZlo4ivLjQACopjmC5FJTAwTISNHppb+/GKF59mhjUJLd+sCdg+yIBLEahukzyOk8ezhlwcJNMxK9jC4PQ==\" ></script>\n\n    \n  </body>\n</html>\n",
+      "url": "https://www.regulations.gov/",
+      "challengedStatus": 403,
+      "uaFallback": true,
+      "title": "Regulations.gov",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>Regulations.gov</title>\n    <meta name=\"description\" content=\"\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" href=\"/assets/images/favicon.ico\" />\n    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->\n    <script\n      async\n      type=\"text/javascript\"\n      src=\"https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA\"\n      id=\"_fed_an_ua_tag\"\n    ></script>\n\n    <meta name=\"regs-gov/config/environment\" content=\"%7B%22modulePrefix%22%3A%22regs-gov%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Array%22%3Afalse%2C%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%7D%2C%22gReCaptcha%22%3A%7B%22jsUrl%22%3A%22https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fapi.js%3Frender%3Dexplicit%22%2C%22siteKey%22%3A%226LdasjcqAAAAAOSi5En8sNgn3bQMWEiFvcOJwmFa%22%7D%2C%22metricsAdapters%22%3A%5B%7B%22name%22%3A%22GoogleAnalytics%22%2C%22environments%22%3A%5B%22all%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-25499422-7%22%7D%7D%5D%2C%22s3FaqBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22s3BannerBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22apiKey%22%3A%225F20SbTVakeYfU9i5gX1dxx96sw4KELUQxAHhcHa%22%2C%22apiCommentKey%22%3A%22cRghIivqBw3vDLTwJ40vbG85H7CZ2qMpfimp5a3R%22%2C%22apiSupportKey%22%3A%22lOzZoBoPswol5CYrFLbpdHbJlfEaqFq9x3FTIAy4%22%2C%22apiTypeaheadKey%22%3A%220aqz1L3gw4qLqGeG5fVdyTh3bUGoZ2TsmMj2nFUW%22%2C%22apiSubscriptionKey%22%3A%22WIeDD3PvRys4KFLDgYjjVZf8ftpIOpClSLSDZVEU%22%2C%22apiBulkDownloadKey%22%3A%229DHCrmfsxUh9btUCqV3iqraD5S8xiuucbDtNMoQi%22%7D\" />\n\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/vendor-623a51660fbcdfa648f286c9d0654d2c.css\" />\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/regs-gov-3d5db4e4a383136dfc90a59e22be3b95.css\" />\n\n    \n  </head>\n  <body>\n    <div id=\"ember-bootstrap-wormhole\"></div>\n    \n\n    <script src=\"/assets/vendor-84d7588a4eab78d6caf4e5bc683c4296.js\" integrity=\"sha256-qHrJPanPKKPms2wozSlGNAoK0ZpPzHPV4oZnfEeZvN0= sha512-5MGxBWStRevAtMGW0ydDp5qp+VhOYStiTfcHXU9axs5l6KQHR656FBOrYm19Z6EBeo8resmXgth9BPoB0Nyjuw==\" ></script>\n<script src=\"/assets/chunk.81.c7dc60dc9a0d6f59f18e.js\" integrity=\"sha256-R2dnkNpCPB8EJXuYKHKtOSkxKKhEaaTW1RH+qcqC9zY= sha512-34PsZV+AEB4Mcd1uZkEQ1jP1XDaCZI+0mFOi6pXky3VhDm2sToixkIQ13o2y2CqXvc4vFyhW6d1+u/n97sChSw==\" ></script>\n<script src=\"/assets/chunk.524.a70cc86506668e12170e.js\" integrity=\"sha256-H2mEJ7OgqAIyR9+rQjWJJL3TWgWAJQx93V3C7i7pXAs= sha512-EY8r3Cdx8vUPuQROwQdjrExCicO73/O+xskpkbavxgI64KdSoZYN28aAJWVbTicZQO0berLnUwgSWdW0Q2ECHA==\" ></script>\n    <script src=\"/assets/regs-gov-d53ffe2e75866c54fda635b7304c80b0.js\" integrity=\"sha256-tAQWaxSWp4themPFeCM1O5sP3b8kvAoBYuAZE8ZWyhM= sha512-x8o9MZlo4ivLjQACopjmC5FJTAwTISNHppb+/GKF59mhjUJLd+sCdg+yIBLEahukzyOk8ezhlwcJNMxK9jC4PQ==\" ></script>\n\n    \n  </body>\n</html>\n",
+      "url": "https://www.regulations.gov/sitemap.xml",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "agentsMd": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>Regulations.gov</title>\n    <meta name=\"description\" content=\"\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" href=\"/assets/images/favicon.ico\" />\n    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->\n    <script\n      async\n      type=\"text/javascript\"\n      src=\"https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA\"\n      id=\"_fed_an_ua_tag\"\n    ></script>\n\n    <meta name=\"regs-gov/config/environment\" content=\"%7B%22modulePrefix%22%3A%22regs-gov%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Array%22%3Afalse%2C%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%7D%2C%22gReCaptcha%22%3A%7B%22jsUrl%22%3A%22https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fapi.js%3Frender%3Dexplicit%22%2C%22siteKey%22%3A%226LdasjcqAAAAAOSi5En8sNgn3bQMWEiFvcOJwmFa%22%7D%2C%22metricsAdapters%22%3A%5B%7B%22name%22%3A%22GoogleAnalytics%22%2C%22environments%22%3A%5B%22all%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-25499422-7%22%7D%7D%5D%2C%22s3FaqBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22s3BannerBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22apiKey%22%3A%225F20SbTVakeYfU9i5gX1dxx96sw4KELUQxAHhcHa%22%2C%22apiCommentKey%22%3A%22cRghIivqBw3vDLTwJ40vbG85H7CZ2qMpfimp5a3R%22%2C%22apiSupportKey%22%3A%22lOzZoBoPswol5CYrFLbpdHbJlfEaqFq9x3FTIAy4%22%2C%22apiTypeaheadKey%22%3A%220aqz1L3gw4qLqGeG5fVdyTh3bUGoZ2TsmMj2nFUW%22%2C%22apiSubscriptionKey%22%3A%22WIeDD3PvRys4KFLDgYjjVZf8ftpIOpClSLSDZVEU%22%2C%22apiBulkDownloadKey%22%3A%229DHCrmfsxUh9btUCqV3iqraD5S8xiuucbDtNMoQi%22%7D\" />\n\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/vendor-623a51660fbcdfa648f286c9d0654d2c.css\" />\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/regs-gov-3d5db4e4a383136dfc90a59e22be3b95.css\" />\n\n    \n  </head>\n  <body>\n    <div id=\"ember-bootstrap-wormhole\"></div>\n    \n\n    <script src=\"/assets/vendor-84d7588a4eab78d6caf4e5bc683c4296.js\" integrity=\"sha256-qHrJPanPKKPms2wozSlGNAoK0ZpPzHPV4oZnfEeZvN0= sha512-5MGxBWStRevAtMGW0ydDp5qp+VhOYStiTfcHXU9axs5l6KQHR656FBOrYm19Z6EBeo8resmXgth9BPoB0Nyjuw==\" ></script>\n<script src=\"/assets/chunk.81.c7dc60dc9a0d6f59f18e.js\" integrity=\"sha256-R2dnkNpCPB8EJXuYKHKtOSkxKKhEaaTW1RH+qcqC9zY= sha512-34PsZV+AEB4Mcd1uZkEQ1jP1XDaCZI+0mFOi6pXky3VhDm2sToixkIQ13o2y2CqXvc4vFyhW6d1+u/n97sChSw==\" ></script>\n<script src=\"/assets/chunk.524.a70cc86506668e12170e.js\" integrity=\"sha256-H2mEJ7OgqAIyR9+rQjWJJL3TWgWAJQx93V3C7i7pXAs= sha512-EY8r3Cdx8vUPuQROwQdjrExCicO73/O+xskpkbavxgI64KdSoZYN28aAJWVbTicZQO0berLnUwgSWdW0Q2ECHA==\" ></script>\n    <script src=\"/assets/regs-gov-d53ffe2e75866c54fda635b7304c80b0.js\" integrity=\"sha256-tAQWaxSWp4themPFeCM1O5sP3b8kvAoBYuAZE8ZWyhM= sha512-x8o9MZlo4ivLjQACopjmC5FJTAwTISNHppb+/GKF59mhjUJLd+sCdg+yIBLEahukzyOk8ezhlwcJNMxK9jC4PQ==\" ></script>\n\n    \n  </body>\n</html>\n",
+      "url": "https://www.regulations.gov/agents.md",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://regulations.gov/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>Regulations.gov</title>\n    <meta name=\"description\" content=\"\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"shortcut icon\" href=\"/assets/images/favicon.ico\" />\n    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->\n    <script\n      async\n      type=\"text/javascript\"\n      src=\"https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA\"\n      id=\"_fed_an_ua_tag\"\n    ></script>\n\n    <meta name=\"regs-gov/config/environment\" content=\"%7B%22modulePrefix%22%3A%22regs-gov%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Array%22%3Afalse%2C%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%7D%2C%22gReCaptcha%22%3A%7B%22jsUrl%22%3A%22https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fapi.js%3Frender%3Dexplicit%22%2C%22siteKey%22%3A%226LdasjcqAAAAAOSi5En8sNgn3bQMWEiFvcOJwmFa%22%7D%2C%22metricsAdapters%22%3A%5B%7B%22name%22%3A%22GoogleAnalytics%22%2C%22environments%22%3A%5B%22all%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-25499422-7%22%7D%7D%5D%2C%22s3FaqBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22s3BannerBucket%22%3A%22https%3A%2F%2Fd1isnucjfhyio4.cloudfront.net%2F%22%2C%22apiKey%22%3A%225F20SbTVakeYfU9i5gX1dxx96sw4KELUQxAHhcHa%22%2C%22apiCommentKey%22%3A%22cRghIivqBw3vDLTwJ40vbG85H7CZ2qMpfimp5a3R%22%2C%22apiSupportKey%22%3A%22lOzZoBoPswol5CYrFLbpdHbJlfEaqFq9x3FTIAy4%22%2C%22apiTypeaheadKey%22%3A%220aqz1L3gw4qLqGeG5fVdyTh3bUGoZ2TsmMj2nFUW%22%2C%22apiSubscriptionKey%22%3A%22WIeDD3PvRys4KFLDgYjjVZf8ftpIOpClSLSDZVEU%22%2C%22apiBulkDownloadKey%22%3A%229DHCrmfsxUh9btUCqV3iqraD5S8xiuucbDtNMoQi%22%7D\" />\n\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/vendor-623a51660fbcdfa648f286c9d0654d2c.css\" />\n    <link integrity=\"\" rel=\"stylesheet\" href=\"/assets/regs-gov-3d5db4e4a383136dfc90a59e22be3b95.css\" />\n\n    \n  </head>\n  <body>\n    <div id=\"ember-bootstrap-wormhole\"></div>\n    \n\n    <script src=\"/assets/vendor-84d7588a4eab78d6caf4e5bc683c4296.js\" integrity=\"sha256-qHrJPanPKKPms2wozSlGNAoK0ZpPzHPV4oZnfEeZvN0= sha512-5MGxBWStRevAtMGW0ydDp5qp+VhOYStiTfcHXU9axs5l6KQHR656FBOrYm19Z6EBeo8resmXgth9BPoB0Nyjuw==\" ></script>\n<script src=\"/assets/chunk.81.c7dc60dc9a0d6f59f18e.js\" integrity=\"sha256-R2dnkNpCPB8EJXuYKHKtOSkxKKhEaaTW1RH+qcqC9zY= sha512-34PsZV+AEB4Mcd1uZkEQ1jP1XDaCZI+0mFOi6pXky3VhDm2sToixkIQ13o2y2CqXvc4vFyhW6d1+u/n97sChSw==\" ></script>\n<script src=\"/assets/chunk.524.a70cc86506668e12170e.js\" integrity=\"sha256-H2mEJ7OgqAIyR9+rQjWJJL3TWgWAJQx93V3C7i7pXAs= sha512-EY8r3Cdx8vUPuQROwQdjrExCicO73/O+xskpkbavxgI64KdSoZYN28aAJWVbTicZQO0berLnUwgSWdW0Q2ECHA==\" ></script>\n    <script src=\"/assets/regs-gov-d53ffe2e75866c54fda635b7304c80b0.js\" integrity=\"sha256-tAQWaxSWp4themPFeCM1O5sP3b8kvAoBYuAZE8ZWyhM= sha512-x8o9MZlo4ivLjQACopjmC5FJTAwTISNHppb+/GKF59mhjUJLd+sCdg+yIBLEahukzyOk8ezhlwcJNMxK9jC4PQ==\" ></script>\n\n    \n  </body>\n</html>\n",
+      "url": "https://www.regulations.gov/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "regulations.gov",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:27:36.983Z",
+    "score": 42,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 17.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "transparent UA GET / → 403 (challenge page); content fetched via browser-UA fallback → wall honestly scored 0 for unfamiliar UAs"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 16,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 1 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 1,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Regulations.gov\"; missing/too-short meta description; no date signal; body text 1 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 8,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 6,
+            "max": 6,
+            "status": "pass",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint found: https://regulations.gov/.well-known/mcp"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 2,
+      "l2.content-signals": 1,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 6,
+      "l3.site-ai-features": 0
+    }
+  }
+}

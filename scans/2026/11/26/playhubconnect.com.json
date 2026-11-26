@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "playhubconnect.com",
+    "fetchedAt": "2026-11-26T02:52:32.324Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>VN0CB49442PDCV59</RequestId><HostId>GLDMK/VMusPtn0r3K02kPLKTOdmtwvaJONCBBk0Rm1ll6m5aZ0oX92uU0XXZVJlLStb+iW0t6vHrcZbfDV8Zo8bGcQQ7WqPS</HostId></Error>",
+      "url": "https://playhubconnect.com/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>VN01PTB4X7VZ2AYH</RequestId><HostId>b85gE0or/OmZhJ1NmM4CZYMejd6ibO/uxsGdkw+8Z5zBUp6t4CVRc833LeK444u6E4XCIthbxPy+BVfn7pVN7Vdh7/4MrB2O</HostId></Error>",
+      "url": "https://playhubconnect.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>T5CTT04495FZVX5X</RequestId><HostId>mGFp2hAclzSfvFAaObgPmov6XSon4qUzoZSt7XIHwmLR1tmIgECnSvxB2eLjKcmVTtsKy4hUWiSN946u+RZ9Jb68W74kmiFX</HostId></Error>",
+      "url": "https://playhubconnect.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2A6XTBM60N1E44MZ</RequestId><HostId>vd7x78/S2PHMNK9BV7C+twg3GDS8OQ3e77MlnKph4lxvhXX7nW79BvvqSzT70QQwi0X3DEvhE1dD6X/9wRLDlhUHEG/Fk0go</HostId></Error>",
+      "url": "https://playhubconnect.com/"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BAV3YMWBMKSDPFV9</RequestId><HostId>FwW3HQVMkAg5G+AmetZ0KtKWPjc9bydVoKGtdDUMLbEirm0KW9N8fN55589dozBrNib8QN4b1beBuGvZbgGnwbhzoxMigkSY</HostId></Error>",
+      "url": "https://playhubconnect.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BAVD0Y44D2NK5N5E</RequestId><HostId>RvAPMUlpAW+ZvrO94WSFHRJKu5o/BlKUmwYsitKaHevFSRxxgpBnb5d4TpDl13r6Wgwi63AfTtp25/J4Wle7S04VZBwgg8nI</HostId></Error>",
+      "url": "https://playhubconnect.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>TV6120DQVFGGX465</RequestId><HostId>uQpMPixbXxiU2KNYAk9M1xuTyYFZVVRYt09PTLw8FeHhMhIInFjyRHwRuR//lcVq1XPpt/HPV9mBiifhZbyVH3HNpkLHYt+l</HostId></Error>",
+      "url": "https://playhubconnect.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "playhubconnect.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T02:52:32.324Z",
+    "score": 0,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 0,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "unknown",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "Failed to fetch robots.txt: HTTP 403"
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt unavailable or non-2xx; cannot check Sitemap reference"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

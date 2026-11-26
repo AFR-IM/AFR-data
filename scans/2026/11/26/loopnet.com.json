@@ -1,0 +1,259 @@
+{
+  "signals": {
+    "domain": "loopnet.com",
+    "fetchedAt": "2026-11-26T03:00:24.247Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: CriteoBot/0.1\nAllow: /\n\nUser-agent: *\nDisallow: /en-CA/\nDisallow: /en-GB/\nDisallow: /_criteo/\nDisallow: /locations/\nDisallow: /market/\nDisallow: /broker/\nDisallow: /error/error404/\nDisallow: /biz/images/shared/listings/\nDisallow: /xNet/\nDisallow: /xnet/\nDisallow: /map/\nDisallow: /property-record/map/\nDisallow: /looplink/search\nDisallow: /biz/services/exposure/v1/Exposure\nDisallow: /property/4020-6th-ave-nw-seattle-wa-98107/53033-7442000301/\nDisallow: /tracking/\nDisallow: /place/\nDisallow: /ecom/\nDisallow: *{{slink.LinkURI}}\nDisallow: *{{article.URL}}\nDisallow: *?listingId=\n#Disallow: /*sk=\nDisallow: /services/search/fireimpressions\nDisallow: /getTransportation\nDisallow: /pagelet\nDisallow: /*?\nAllow: *?v=*\nAllow: *?view=*\n\nUser-agent: GPTBot\nAllow: /$\nAllow: /solutions/\nDisallow: /\n\nUser-agent: ChatGPT-User\nAllow: /$\nAllow: /solutions/\nDisallow: /\n\nUser-agent: OAI-SearchBot\nAllow: /$\nAllow: /solutions/\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /$\nAllow: /solutions/\nDisallow: /\n\nUser-agent: Claude-User\nAllow: /$\nAllow: /solutions/\nDisallow: /\n\nUser-agent: Claude-SearchBot\nAllow: /$\nAllow: /solutions/\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\n\nSitemap: https://www.loopnet.com/sitemaps/homepage.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllBrokerDirectoryByCity.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllBrokerDirectoryByState.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllBrokerProfiles.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllCACityPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllCACountryPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllCAProvincePages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllESCityPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllESCountryPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllGBCityPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllGBCountryPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllListings.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllNewListings.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSCityByPropertyTypePages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSCityPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSCountryByPropertyTypePages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSCountyByPropertyTypePages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSCountyPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSNeighborhoodByPropertyTypePages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSNeighborhoodPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSStateByPropertyTypePages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_AllUSStatePages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_articlesContent.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/sitemap_companies.xml.gz\nSitemap: https://www.loopnet.com/bizbuysell_sitemap_index.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateAKPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateALPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateARPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateAZPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateCAPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateCOPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateCTPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateDCPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateDEPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateFLPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateGAPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateHIPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateIAPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateIDPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateILPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateINPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateKSPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateKYPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateLAPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateMAPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateMDPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateMEPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateMIPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateMNPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateMOPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateMSPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateMTPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateNCPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateNDPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateNEPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateNHPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateNJPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateNMPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateNYPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateNVPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateOHPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateOKPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateORPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStatePAPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateRIPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateSCPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateSDPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateTNPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateTXPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateUTPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateVAPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateVTPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateWAPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateWIPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateWVPropertyRecordPages.xml.gz\nSitemap: https://www.loopnet.com/sitemaps/property-records/sitemap_AllStateWYPropertyRecordPages.xml.gz",
+      "url": "https://www.loopnet.com/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>404 - File or directory not found.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} \r\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\", Verdana, sans-serif;color:#FFF;\r\nbackground-color:#555555;}\r\n#content{margin:0 0 0 2%;position:relative;}\r\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\r\n-->\r\n</style>\r\n<script >bazadebezolkohpepadr=\"1742130398\"</script><script type=\"text/javascript\" src=\"https://www.loopnet.com/akam/13/67d6cce0\"  defer></script></head>\r\n<body>\r\n<div id=\"header\"><h1>Server Error</h1></div>\r\n<div id=\"content\">\r\n <div class=\"content-container\"><fieldset>\r\n  <h2>404 - File or directory not found.</h2>\r\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\r\n </fieldset></div>\r\n</div>\r\n<noscript><img src=\"https://www.loopnet.com/akam/13/pixel_67d6cce0?a=dD04NGI0YWE5NGVkMWJiNTJjYTgzZTMxMWMyMDVhN2VjZTVjODc1YjkwJmpzPW9mZg==\" style=\"visibility: hidden; position: absolute; left: -999px; top: -999px;\" /></noscript><script type=\"text/javascript\"  src=\"/y4yUjk/RkmEY/oELF6/V0Pj/JSE7Qf5Eam/UEUGVGE0AQ/bmpNSm/FXHTF3AQ?v=25f58f41-db6e-1c1b-d598-20d01c0c17ce\" defer></script></body>\r\n</html>\r\n",
+      "url": "https://www.loopnet.com/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>404 - File or directory not found.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} \r\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\", Verdana, sans-serif;color:#FFF;\r\nbackground-color:#555555;}\r\n#content{margin:0 0 0 2%;position:relative;}\r\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\r\n-->\r\n</style>\r\n<script >bazadebezolkohpepadr=\"1742130398\"</script><script type=\"text/javascript\" src=\"https://www.loopnet.com/akam/13/67d6cce0\"  defer></script></head>\r\n<body>\r\n<div id=\"header\"><h1>Server Error</h1></div>\r\n<div id=\"content\">\r\n <div class=\"content-container\"><fieldset>\r\n  <h2>404 - File or directory not found.</h2>\r\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\r\n </fieldset></div>\r\n</div>\r\n<noscript><img src=\"https://www.loopnet.com/akam/13/pixel_67d6cce0?a=dD04NGI0YWE5NGVkMWJiNTJjYTgzZTMxMWMyMDVhN2VjZTVjODc1YjkwJmpzPW9mZg==\" style=\"visibility: hidden; position: absolute; left: -999px; top: -999px;\" /></noscript><script type=\"text/javascript\"  src=\"/y4yUjk/RkmEY/oELF6/V0Pj/JSE7Qf5Eam/UEUGVGE0AQ/bmpNSm/FXHTF3AQ?v=dac48dea-38c5-c4d6-d472-cd53ca2117ce\" defer></script></body>\r\n</html>\r\n",
+      "url": "https://www.loopnet.com/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;loopnet&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;4d0c0317&#46;1795662022&#46;7e68a158\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;4d0c0317&#46;1795662022&#46;7e68a158</P>\n</BODY>\n</HTML>\n",
+      "url": "https://loopnet.com/",
+      "title": "Access Denied"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;loopnet&#46;com&#47;sitemaps&#47;homepage&#46;xml&#46;gz\" on this server.<P>\nReference&#32;&#35;18&#46;1f78ce17&#46;1795662023&#46;28cfd28a\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;1f78ce17&#46;1795662023&#46;28cfd28a</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.loopnet.com/sitemaps/homepage.xml.gz"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;loopnet&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;4d0c0317&#46;1795662023&#46;7e68ae76\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;4d0c0317&#46;1795662023&#46;7e68ae76</P>\n</BODY>\n</HTML>\n",
+      "url": "https://loopnet.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>404 - File or directory not found.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} \r\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\", Verdana, sans-serif;color:#FFF;\r\nbackground-color:#555555;}\r\n#content{margin:0 0 0 2%;position:relative;}\r\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\r\n-->\r\n</style>\r\n<script >bazadebezolkohpepadr=\"1742130398\"</script><script type=\"text/javascript\" src=\"https://www.loopnet.com/akam/13/67d6cce0\"  defer></script></head>\r\n<body>\r\n<div id=\"header\"><h1>Server Error</h1></div>\r\n<div id=\"content\">\r\n <div class=\"content-container\"><fieldset>\r\n  <h2>404 - File or directory not found.</h2>\r\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\r\n </fieldset></div>\r\n</div>\r\n<noscript><img src=\"https://www.loopnet.com/akam/13/pixel_67d6cce0?a=dD04NGI0YWE5NGVkMWJiNTJjYTgzZTMxMWMyMDVhN2VjZTVjODc1YjkwJmpzPW9mZg==\" style=\"visibility: hidden; position: absolute; left: -999px; top: -999px;\" /></noscript><script type=\"text/javascript\"  src=\"/y4yUjk/RkmEY/oELF6/V0Pj/JSE7Qf5Eam/UEUGVGE0AQ/bmpNSm/FXHTF3AQ?v=e6b7aff4-f024-9789-908b-2069da2d17ce\" defer></script></body>\r\n</html>\r\n",
+      "url": "https://www.loopnet.com/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    }
+  },
+  "afr": {
+    "domain": "loopnet.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:00:24.247Z",
+    "score": 6,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 4.58,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 4.58,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 2.25/9 · hybrid 1.50/6 · training 0.83/10; strategy tag Middle-Path. Blocked examples: OAI-SearchBot, Claude-SearchBot, ChatGPT-User. Unconfigured examples: PerplexityBot, Googlebot, Perplexity-User."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 4.58,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "signals": {
+    "domain": "nullsproxy.com",
+    "fetchedAt": "2026-11-26T03:07:53.806Z",
+    "scannerVersion": "scanner-0.2.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nAllow: /\n",
+      "url": "https://nullsproxy.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.26.3</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"157f6dfd3b6841a38cb01b5d60d14702\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://nullsproxy.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.26.3</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"157f6dfd3b6841a38cb01b5d60d14702\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://nullsproxy.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html>\n  <head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/>\n    <title>Null’s Proxy DNS</title>\n    <style>\n      details { padding: 2px; }\n      summary { color: #4f4f69; font-weight: 300; }\n      .markdown-heading { padding-top: 5px; }\n    </style>\n  </head>\n  <body>\n    <link rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/gist-embed-0ac919313390.css\">\n    <div id=\"gist143096355\" class=\"gist\">\n    <div class=\"gist-file\" translate=\"no\" data-color-mode=\"light\" data-light-theme=\"light\">\n      <div class=\"gist-data\">\n        <div class=\"js-gist-file-update-container js-task-list-container\">\n  <div id=\"file-dns-md\" class=\"file my-2\">\n      <div id=\"file-dns-md-readme\" class=\"Box-body readme blob p-5 p-xl-6 \" style=\"overflow: auto\" tabindex=\"0\" role=\"region\" aria-label=\"dns.md content, created by daniillnull on 01:39AM today.\">\n    <article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div class=\"markdown-heading\" dir=\"auto\"><h1 class=\"heading-element\" dir=\"auto\">Null’s Proxy DNS</h1><a id=\"user-content-nulls-proxy-dns\" class=\"anchor\" aria-label=\"Permalink: Null’s Proxy DNS\" href=\"#nulls-proxy-dns\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Null’s Proxy DNS — это специальный DNS-сервер, позволяющий обходить региональные ограничения в Brawl Stars, Clash Royale и Clash of Clans для игроков из России и Беларуси.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 class=\"heading-element\" dir=\"auto\">Установка</h3><a id=\"user-content-установка\" class=\"anchor\" aria-label=\"Permalink: Установка\" href=\"#установка\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<details >\n  <summary>На Android (9.0 и выше)</summary>\n<p dir=\"auto\">Откройте настройки. Далее зайдите в <b>Подключения</b> ⇒ <b>Другие настройки</b> ⇒ <b>Персональный DNS-сервер</b>. Вставьте туда имя хоста:</p>\n<pre><code>dns.nullsproxy.com\n</code></pre>\n<p dir=\"auto\">Названия разделов и некоторых меню может отличаться в зависимости от оболочки.</p>\n</details>\n<details >\n  <summary>На iOS</summary>\n<p dir=\"auto\">В Safari перейдите по ссылке: <a href=\"https://dnull.xyz/nullsproxy.mobileconfig\" rel=\"nofollow\">https://dnull.xyz/nullsproxy.mobileconfig</a>.</p>\n<p dir=\"auto\">Установите предложенный профиль.</p>\n<p dir=\"auto\">После этого вы сможете включить Null’s Proxy DNS если зайдете в <b>Системные настройки</b> ⇒ <b>Основные</b> ⇒ <b>VPN и управление устройством</b>.</p>\n</details>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 class=\"heading-element\" dir=\"auto\">Разговоры о важном</h3><a id=\"user-content-разговоры-о-важном\" class=\"anchor\" aria-label=\"Permalink: Разговоры о важном\" href=\"#разговоры-о-важном\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<details >\n  <summary>Почему лагает в боях?</summary>\n<p dir=\"auto\">Игра подключается к серверам боёв напрямую без участия Null’s Proxy. В большинстве случаев, проблемы в боях возникают из-за <a href=\"https://habr.com/ru/news/898234/\" rel=\"nofollow\">ограничений Роскомнадзора</a>.</p>\n</details>\n<details >\n  <summary>Можно ли использовать Null’s Proxy для обхода других блокировок?</summary>\n<p dir=\"auto\">Нет. Null’s Proxy поможет <b>только</b> с обходом региональных ограничений Supercell и ни с чем больше.</p>\n</details>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 class=\"heading-element\" dir=\"auto\">FAQ</h3><a id=\"user-content-faq\" class=\"anchor\" aria-label=\"Permalink: FAQ\" href=\"#faq\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<details >\n  <summary>Кому принадлежит всё это?</summary>\n<p dir=\"auto\">Мы — <a href=\"https://t.me/nulls_ru\" rel=\"nofollow\">Null’s Team</a> — небольшая команда энтузиастов, которая с 2016 года изучает игры Supercell. Нашим основной проектом являются приватные сервера для этих игр (посмотрите потом как нибудь обязательно).</p>\n<p dir=\"auto\"><a href=\"https://t.me/nulls_ru/605\" rel=\"nofollow\">Весной 2023 года</a> мы запустили этот DNS и прокси чтобы отстоять право игроков из России и Беларуси играть в Brawl Stars, Clash Royale и Clash of Clans без ограничений.</p>\n</details>\n<details >\n  <summary>Как и почему это работает?</summary>\n<p dir=\"auto\">Игра при запуске устанавливает TCP-соединение к своему серверу. Сервер при этом может отказать в подключении клиентам, у которых IP адрес заблокированной страны.</p>\n<p dir=\"auto\">Null’s Proxy DNS <b>подменяет</b> оригинальный адрес сервера, к которому подключается игра, и заменяет его на адрес нашего прокси-сервера.</p>\n<p dir=\"auto\">А прокси-сервер, в свою очередь, просто пересылает все данные от клиентов к настоящему серверу (и обратно). И делает он это от своего имени и со своим IP адресом (который не заблокирован Supercell).</p>\n</details>\n<details >\n  <summary>Из какой страны будет видеть подключение Supercell?</summary>\n<p dir=\"auto\">Для Brawl Stars и Clash Royale мы используем прокси-сервер в Швейцарии. Для Clash of Clans – в Нидерландах.</p>\n<p dir=\"auto\">Тем не менее, время от времени мы можем менять сервера или хостинг-провайдеров, поэтому, если желаете знать наверняка, лучше уточнить отдельно.</p>\n</details>\n<details >\n  <summary>Как Null’s Proxy DNS обрабатывает запросы?</summary>\n<p dir=\"auto\">Null’s Proxy DNS — это классический <a href=\"https://en.wikipedia.org/wiki/Public_recursive_name_server\" rel=\"nofollow\">рекурсивный DNS сервер</a>.</p>\n<p dir=\"auto\">При этом домены игровых серверов Brawl Stars, Clash Royale, Clash of Clans и других игр Supercell могут быть обработаны специальным образом (spoofing), и их A/AAAA записи могут быть заменены на наши прокси-сервера.</p>\n<p dir=\"auto\">Все остальные домены обрабатываются без изменений в соответствии со всеми стандартами DNS.</p>\n</details>\n<details >\n  <summary>Какие протоколы поддерживает Null’s Proxy DNS?</summary>\n<p dir=\"auto\">DNS over TLS (DoT по адресу dns.nullsproxy.com) и DNS over HTTPS (DoH по адресу <a href=\"https://dns.nullsproxy.com/dns-query\" rel=\"nofollow\">https://dns.nullsproxy.com/dns-query</a>).</p>\n</details>\n<details >\n  <summary>Поддерживается ли классический DNS протокол вашим сервером? Какой у него IP адрес?</summary>\n<p dir=\"auto\">Классический DNS (на 53 порту) на данный момент доступен <b>только по TCP</b>. Доступ по UDP отключен полностью во избежание возможных атак.</p>\n<p dir=\"auto\">IP адрес DNS сервера не является постоянным и может меняться со временем. Чтобы узнать его актуальные IP адреса на данный момент, воспользуйтесь утилитой dig.</p>\n<p dir=\"auto\">Если вам по какой-то причине хочется использовать наш DNS сервер таким образом, подумайте дважды. А лучше трижды — точно ли вы уверены в том, что делаете.</p>\n</details>\n<details >\n  <summary>А где политика конфиденциальности?</summary>\n<p dir=\"auto\">Мы оставляем за собой право хранить анонимизированные DNS запросы в течение суток. Больше ничего не храним и не имеем ни малейшего желания. Писать об этом огромное полотно текста у нас желания тоже нет.</p>\n</details>\n</article>\n  </div>\n\n  </div>\n</div>\n\n      </div>\n      <div class=\"gist-meta\">\n        <a href=\"https://gist.github.com/daniillnull/1536932781896e4bd3ae2759ae6035b6/raw/3e7667e40e8cdf528b243eb111e380493be89a56/dns.md\" style=\"float:right\" class=\"Link--inTextBlock\">view raw</a>\n        <a href=\"https://gist.github.com/daniillnull/1536932781896e4bd3ae2759ae6035b6#file-dns-md\" class=\"Link--inTextBlock\">\n          dns.md\n        </a>\n        hosted with ❤ by <a class=\"Link--inTextBlock\" href=\"https://github.com\">GitHub</a>\n      </div>\n    </div>\n</div>\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"157f6dfd3b6841a38cb01b5d60d14702\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+      "url": "https://nullsproxy.com/",
+      "title": "Null’s Proxy DNS"
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.26.3</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"157f6dfd3b6841a38cb01b5d60d14702\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://nullsproxy.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.26.3</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"157f6dfd3b6841a38cb01b5d60d14702\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://nullsproxy.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.26.3</center>\r\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"157f6dfd3b6841a38cb01b5d60d14702\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n",
+      "url": "https://nullsproxy.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "nullsproxy.com",
+    "engineVersion": "afr-1.5.0",
+    "scannerVersion": "scanner-0.2.0",
+    "scannedAt": "2026-11-26T03:07:53.806Z",
+    "score": 30,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 7,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 4,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; missing html[lang]; body text 548 words"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Null’s Proxy DNS\"; missing/too-short meta description; no date signal; body text 548 words"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 4,
+      "l2.sitemap": 0,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
