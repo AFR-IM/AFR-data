@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "pcpartpicker.com",
+    "fetchedAt": "2026-11-28T03:19:03.056Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# AI Agents\nUser-agent: Perplexity-User\nDisallow: /\n\nUser-agent: FireCrawl\nDisallow: /\n\nUser-agent: FirecrawlAgent\nDisallow: /\n\nUser-agent: Claude-User\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Google-Agent\nDisallow: /\n\nUser-agent: Google-GeminiNotebook\nUser-agent: Google-NotebookLM\nDisallow: /\n\nUser-agent: MistralAI-User\nDisallow: /\n\nUser-agent: Kimi-User\nDisallow: /\n\nUser-agent: Amzn-User\nDisallow: /\n\nUser-agent: meta-externalfetcher\nDisallow: /\n\nUser-agent: Retool\nDisallow: /\n\nUser-agent: Instapaper\nDisallow: /\n\nUser-agent: ChathiveCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\nUser-agent: *\nContent-Signal: search=yes, ai-train=no, ai-input=no\nDisallow: /accounts/\nDisallow: /api/\nDisallow: /list/markup/\nDisallow: /list/*/add_to_cart/\nDisallow: /mr/\nDisallow: /search/\nDisallow: /user/\n\nAllow: /\nCrawl-delay: 60\n\nUser-agent: AhrefsBot\nDisallow: /\n\n# If Awario starts respects robots.txt directives, it means the world is about to end.\nUser-agent: AwarioRssBot\nUser-agent: AwarioSmartBot\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: MegaIndex\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Swiftbot\nDisallow: /\n\nSitemap: https://pcpartpicker.com/sitemap.xml\n",
+      "url": "https://pcpartpicker.com/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-jHJNEzaun3uOYEQwDXh7km&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"jHJNEzaun3uOYEQwDXh7km\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: '9sGY37vhobvfeeED5ZZaVbQeVJcscZLPcgv8MQn5nMk-1795835918-1.2.1.1-fJ5tUT.awUWdhKBxP_aoQmDFJQOug1eDKQmSzTqOkAiJ6rlqDiWmjsCQJLdEJz0z',cITimeS: '1795835918',cN: 'jHJNEzaun3uOYEQwDXh7km',cRay: 'a61639f8bc66b8db',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/llms.txt?__cf_chl_tk=FWAkKOezf6RkIc5VAX6DP0KoQkt_MqhhSkyhsy.jQpQ-1795835918-1.0.1.1-sjDFcMub8kFZPZHNocPu0HgFa5VP52zzxrL2RL8UtNs\",cvId: '3',cZone: 'pcpartpicker.com',fa:\"/llms.txt?__cf_chl_f_tk=FWAkKOezf6RkIc5VAX6DP0KoQkt_MqhhSkyhsy.jQpQ-1795835918-1.0.1.1-sjDFcMub8kFZPZHNocPu0HgFa5VP52zzxrL2RL8UtNs\",md: '2nhLHzm8Lt_rjPZ3AvXGS3P.np8D.5gcH.GBGOgUcvM-1795835918-1.2.1.1-Rab74mMG5iunL6Z.eyoRBeLyCyT_LLgKkYaN17Qj4VFk.D58e8BD.Ud9X0BYKhbbba.e2spS_JrcBrPJ2711Xm.kLxiHdLrVsE9cbDOSZARUL7OiGD9vCgedO9Lp8hpAmvNNqWHrYFAXiRenWIEPl.GTUUh_PbBvqkYWtRtp.90DtXKvCp2gbIrypsGTOVbfwUtYaTelS3ihk4bJ99GLXsvf4UWRmWQM.1lKmg7FqyH_9Iqk_6GOuDfiFq0PvV0qyem9nAT838h7_T54FLobw7NV87E1otHqMkBeRW5FtkPIHPrJjgJzfGso6osj2Xa94HtDA7R_Sp4zOW4QOGj40WAbq9UvK7QkH7zx2nUkFJPSWNVrjtaaiB.bBh8CaNw0XQ0lJ2gyrrNVEBKHc8.YhQeaw9ABwz3TFXUGkNu0NohnICgf5KP5EEu574uf3Ux1jhNzPPMT9Oo.hDXTp3f53.RyPYVc9GoYrPWRc56YhncrZlVbeYZqntaBS7eGIRTKn6VfOmuZ4jYnnpCBQ7WiXyu5AH4GuOCgBrUFT_LOFle4gC2OVjiQnnVVDT6o_u3CH6rp71PtWXbxkM0cSnKHTYl4XeSQ_xpxTq1lPvBeNk34fPm6PvrOF0trt3zD.5gIKFDXEuZdBrWg35OBQsidsCfXBHOrq0mrwuiztCxui5yVcUbAEiCvNOV680XAkntf1bFDxioOFNW4JpFYnIhXGlamE1UtFnXCe15SPXLhvllFyPRackQcbkaqQZcABxdkep3eteIkhRFc3Gsl8tjXpVcEbm.GTPGmlnLofyPxxT5ZtiQkJbmgMONMmhCJBLOFr7GXaI3ptBhAqYEUQUu_zhJXSLphjGF7Fl8cryrWeKYXWFoQqKuBhx9Qp8Gm6ZMAA50vjPHRMQTWxx_z9x43CC1lX1nymrsQT2.DIGMbEJLMk.M6ooqrgUmU50xDj79zMEo.pQtuSk.ME8Bu67o2CrKll63WGHxrsPypSoXZgqwzvz8zVsKE_PFMDt0J_p13_u16XIf8PE1vv75fg7LGk7pH7Y7GZRNJLYJK3MVv7BicfmEjuiSSaAd8n0sDegW_emeZ6TAYl1eTDxhEZ7PfAakDY1ieuQzolOgOu.Fmtot.heXaleh.O4UWR4kTXi39',mdrd: 'RjUk7e09oqxLmA3RTJqCQzwZ0XmU4AsZx2YgV6o4O_c-1795835918-1.2.1.1-Kmy49lsKN_MdBbzAQG2XAfMtxRACxV8G1xQKgdv.T0fV8OfkjVDUFEPZDzCgQaaSTt9mdrLihJcM1Y9b_.NY5Ms_qBcXuOUvUUBUZraAI8U9tBUnRTDX5iweuU7dmle9c7Yn0ytdM5jaSDnaWdmdgLV0tVptUe4VakKUFFrqq2gJeCqlWVWn.mwDPh99vS_del9HcHMBMOlAai0hTuX26ZWqaZ6.PbEvUDZjWoS5zscfhUVF3EhnDWr34_XnwCEDuH9_kUcwvzSB2c8jDs6LYpVNvfVNdgfE1786iRh46l9Yidktr7IFJr6S.EosV9vna85qpEYXsMr.J8NeFXmfxcyHwXYUUnCQId4P_6LWMhUQdWC.EqK0MuuL_tV1FvthwpfRVZJJgil0WPjZye1bqUmmkHYmouzzFFLNmR_ZPtw',};var a = document.createElement('script');a.nonce = 'jHJNEzaun3uOYEQwDXh7km';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a61639f8bc66b8db';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=FWAkKOezf6RkIc5VAX6DP0KoQkt_MqhhSkyhsy.jQpQ-1795835918-1.0.1.1-sjDFcMub8kFZPZHNocPu0HgFa5VP52zzxrL2RL8UtNs\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://pcpartpicker.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-RSRA4yKS11Ayz4tiPTbpG8&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"RSRA4yKS11Ayz4tiPTbpG8\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'MlY0Y0lflPx8teaktMjcLe2.jmW70eNVf6KT0pWAkuU-1795835921-1.2.1.1-vpweBwBH84dF9LTlAbrqLfdAxhAdZzBnEvl2IGFwu12M9xWDmgmj_67Ai038BH0Z',cITimeS: '1795835921',cN: 'RSRA4yKS11Ayz4tiPTbpG8',cRay: 'a6163a0beeab4377',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=e0PLbnyQf1V6J4zdDWpB4wYoCH7P0TLQR_87Nv3UijE-1795835921-1.0.1.1-64aCyUak2D8D6sbikoReMgdZ58R4kWM5zb9BtukEjKg\",cvId: '3',cZone: 'pcpartpicker.com',fa:\"/llms-full.txt?__cf_chl_f_tk=e0PLbnyQf1V6J4zdDWpB4wYoCH7P0TLQR_87Nv3UijE-1795835921-1.0.1.1-64aCyUak2D8D6sbikoReMgdZ58R4kWM5zb9BtukEjKg\",md: 'ENpErB4JsufFepU0_Q3OTWQuQVCIYThHyFZX2oe3iXE-1795835921-1.2.1.1-zSzLSg.0LGlAW4bugef6G1qBgsBkD9rl02_ZCo9uq.fdIJp1Rnp75u4CbEjrigeuzzn4stsJObJvCGH_Tv6fJlyXIw2vn9Yg8xprJzB4Y6yiWvOR0W0Lr32mR0zR0p6wvM5tzg2ibU.pHTdOomMc6zY5VvWcxlYoRNnUA7DCQ1KICJc_9b6Ybr2n_dGy_AVP_NE49jAaBk.c8FF7WBud0OrqeHzPiMvS7AJJUsvEB3.mlvHdW.Qt64oh8CjPV3WZljgh7bWofN57LU5CI_5DN4yt3OrRTKEowk7buaR30J.Z2z8.iVrdbWb4bbFcos0qWKiDSFRbnUveYgbEkDC7sDUo4gaSjyFdeO5sOeIswMSxj15xMNWsnG9d28glOPze_jic554ZAcc8.OvrJney.ngrnvlTDEhWBGDPkI_gIlZR1amO3Eou9IeL8Xexve3M7GQf37OrZnFUru9Dxl8_VFGGiX38wYtX7upO4v7YprTsVOGvl_D7Ij.pMhu0dbX9Ox0Ddv_vwgke0vBOWm0yg57_U3NDsUuhvWCN_VZ3Jzu7mYR6GtwKwxgSXJN3FRkM.nu9fbjYXR8Z1dlilGpEtWWQgHfuYvK3Pn9QNFu2MBgusCFaiu0eMUglvhNcSbuBaWZCiA9LHaSXAOQ_cOmBjdCJUnXxiQRfh0QwCcZBq4LVvTJ8GTQw35LONzTO_qpOSN8miyvQKlevYCsvzRQjWdWpzy1fqF7dh3Tu052mxUBZwxzBUhm06jn0gCDtPzaMCMjAnTWPy09JGaZgzOC7MeP1EAi4KrmjUesx1KFzbdnzGZBRoS3j4ASbHpqmEjb3YAc.xvdk1IMX6ghHPxzp2qMQ0jHJBEALH3q42FYitcEjmYfYip3RuZGRdmDngaojR7ELD6LjPQsA91NARv4rnMTMUvRlklGoVk75u0YvIxa_e4yzeNV74o_NTCLa7wYpQ4HYtRcbStia5avas03QE7GTjgE6PYEbCVkQfxcEaSsOi3YwFhhFsMHbh_6NIOOX7b2r3bwkP3LqkoSqq2.VLlCuwnF4CKJiKHl3PeHA9hsgtGPs5pHQQRYv5a3C6WG0X9n.hnhaxfKSYk._TDBSqO3xOOCNbuByjtpfCE5U7DP3ppd0eux0QrhgrHiPkM5U',mdrd: 'CCXJdJiLmFcU2CRSNvud_Kp3m8fXRBYfXgGHKn_EBas-1795835921-1.2.1.1-krFqhyfyV5ZrooPBeVFNgucB97RHrqxKm7D3c8owTLsIA.xLHLA6MhJWvLCW2y5Nl4Ie4jElVCWqNzlB1qyZaXEHOaZfliUe9n4pY_g.mjUvgdF3CxTQRGOBdDdBkWh5ifkNKtMiQSWdf_jlsKSC_i_XGNKq67Gt.LtEsbabWQY30G3Rp2U6XBqZ.LMm72b9FDEpSN6A9TSMdBVP4befWDBVrfnF.wEv7OlXBw27ilTRSR3AzncqX6ciaRNVwfFIYDIHghKRXRC9dhWUsejArxDepZdfj.UmTYMWrRxthCXcrANFs1WW8KMbu9V6F9.lcpl9icSrbVFzAEDgdcP8Z5YlcHB96VKQciGRu.OJB2I6MqNgdPiT0tpPqX6g4WEeoDuIs4MQvkYMwx39OSNly3q_PtFu4x2bc6KYt0sDlmw',};var a = document.createElement('script');a.nonce = 'RSRA4yKS11Ayz4tiPTbpG8';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6163a0beeab4377';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=e0PLbnyQf1V6J4zdDWpB4wYoCH7P0TLQR_87Nv3UijE-1795835921-1.0.1.1-64aCyUak2D8D6sbikoReMgdZ58R4kWM5zb9BtukEjKg\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://pcpartpicker.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-uBY87to6INuwQa0bIp0YxH&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"uBY87to6INuwQa0bIp0YxH\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'AosmWzOsUPlDoylRuQLIA5iCk1CiUTWVKVwU51qyAjs-1795835924-1.2.1.1-q3sprdrFDirecdjC65LvVpySKLpUqlKyWyDjxv5.3EufPD701SEjYhKjxsbHme_5',cITimeS: '1795835924',cN: 'uBY87to6INuwQa0bIp0YxH',cRay: 'a6163a1f8fd1d90f',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/?__cf_chl_tk=f_EM9AWBKFp6nYQ4hd6WT71XatNUHHkPrlnLOj_l1l8-1795835924-1.0.1.1-7ud2V3xMJDeapNVZ1at4dwncTS7b6mPMoXn_xy03fCk\",cvId: '3',cZone: 'pcpartpicker.com',fa:\"/?__cf_chl_f_tk=f_EM9AWBKFp6nYQ4hd6WT71XatNUHHkPrlnLOj_l1l8-1795835924-1.0.1.1-7ud2V3xMJDeapNVZ1at4dwncTS7b6mPMoXn_xy03fCk\",md: '_Fc_z1s5XQ2cDPxbSk6U2lkYI5gVgwMV_f4y4riQ0cM-1795835924-1.2.1.1-gBD_BAJRe0OZs8It7U4gU7HDMokTzfAS8JcsJrLszkOOykrgP4ZQDD6w1jVwzdtc3gQgq7DzK1Ojjbixco7XQ9FaEHn2ZW4vQvA8gAv_gOmK0UPjRzYQDNHeu54A7DjbuacVEluf5FNs672ccYR1tWVZjyHkE4w0n6LHbb5n2RKQ2.yMmwuKZqgysSNoDxDwVo.21rS8VFmpDp7pcJJHBPuVubIyulavgUENmMQ7FH_OGbI_UKe2cVNQjZ5acwFALvw_caR4rJWNj4O8DuLeIFRPxnHZYXfjWkFh9cSh3p7hONz6pYhDL8dMUGT7jNS5xxzHITDTGeNrIdpSxijirHokOmVTHwnNYnUfMKDtJIs.ux_fS91aszvs9vUrhJHH_Tib9NwpMP5mN4KFDTHCQorrXi13OUd_HWV7Whvw49wU0Hzz0V4SVSEbXS812RablgkTG9SOFkxTJ74rkmT7FHNSLZpiOQYCOlmAkwgN.PQ3hK18mM0_4jx23FImFsyUfBEn45v1Xi7go7rt0nGWyjSJMByQwJhS9gKvjCtL0tRekmk9ScdtOGdoGdECPV72xCCShpFSA0fYhCzxz9PhOSiDTNQ9Ep.UQ8Zfw_X_K8iyqi3EpKohH12kA.6GFHkiZyqgpxmF4rEaDoAZFxyvtJXWyzXI0DSu6BYmoA2Wa8DuYb57SzVUbuvpk0yazJxGNAbknd397LOADCTXW48yYDOZdyX_G2T8EAPpxRDHGQV6mHPSPEiWuHVfjR_TE36EZT.csC3TnOFARCOt70gEiXWtFAm09opEzN181y_PaHISmpW3ADuyNNWDhN791xJvHPsWhnbw.nkMBMwP3gyWfKleFI31DpvsqD83Y9qVwzKszOby5h3P3dIY6lD7Phx0QURHrfBCWiKqgYJCEnqxo0Pe4atYhLAz3_HoVnToFciqlZBfSQ..ERz4tX3ptXe9v3BR234yLK38yFPIz_PHo2ubFhaZxa_2WSrxvApk3kyeRcimqL779g1jrWDCMrxwFUn4tQEQb10V4s3bWNUad47YvDw1xu8MJPc0gTJZWwob9qiEiR_hIS3eDuDAn5ZApR8__60O9Nr1tayHYcY2Kprv2npcDitHot4A4AAjx0xo8YPzbMmjSqxFfpDs7Jt8',mdrd: 'Gbcq99a_Okrgz3BrgBq0tL8wGeR9X_aB8wqW5tqB1Jo-1795835924-1.2.1.1-v_J3htwLH0GWcztShrPaLRjIRNNDMW33EAWdwNoAsXl7SqonqD1SlkZAc33jzPwxW3CPwslcIvEipGtwHW9Mg7DFIzAszTYuRRh2mx3daFY6.sdzAY7dggGqle0C_wYQ1a5lsADFqjWcc7KJPIZmmlgBM4qjovGEkrg65SKgduj0b3mEwTYJrDEEaYv7i2QhT0tcNyKwIXQXMBmHdnwvk2nGtGnzna9Pg0QpK9exW9AQ2Ub9oZun9C6QM1JeQqsEFm_rz3UKBFXAaaQMwZLfrMnygDM8GQOPqK3foxwjM4UvBWlvQZ1k9eLq1NBcyv0VHnZuSkDIgP3Hgo7MDE4JjRRLsT3UgNZ5tL96D9L6e5n3785PO4l6lD2SJ5J_YAGZtOyy_jqoV1SCoznVQN3mRPaTlnJmd5nekImr2N3r1to',};var a = document.createElement('script');a.nonce = 'uBY87to6INuwQa0bIp0YxH';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6163a1f8fd1d90f';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=f_EM9AWBKFp6nYQ4hd6WT71XatNUHHkPrlnLOj_l1l8-1795835924-1.0.1.1-7ud2V3xMJDeapNVZ1at4dwncTS7b6mPMoXn_xy03fCk\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://pcpartpicker.com/",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/cf.errors.css\" />\n<!--[if lt IE 9]><link rel=\"stylesheet\" id='cf_styles-ie-css' href=\"/cdn-cgi/styles/cf.errors.ie.css\" /><![endif]-->\n<style>body{margin:0;padding:0}</style>\n\n\n<!--[if gte IE 10]><!-->\n<script>\n  if (!navigator.cookieEnabled) {\n    window.addEventListener('DOMContentLoaded', function () {\n      var cookieEl = document.getElementById('cookie-alert');\n      cookieEl.style.display = 'block';\n    })\n  }\n</script>\n<!--<![endif]-->\n\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"cf-error-details-wrapper\">\n      <div class=\"cf-wrapper cf-header cf-error-overview\">\n        <h1 data-translate=\"block_headline\">Sorry, you have been blocked</h1>\n        <h2 class=\"cf-subheadline\"><span data-translate=\"unable_to_access\">You are unable to access</span> pcpartpicker.com</h2>\n      </div><!-- /.header -->\n\n      <div class=\"cf-section cf-highlight\">\n        <div class=\"cf-wrapper\">\n          <div class=\"cf-screenshot-container cf-screenshot-full\">\n            \n              <span class=\"cf-no-screenshot error\"></span>\n            \n          </div>\n        </div>\n      </div><!-- /.captcha-container -->\n\n      <div class=\"cf-section cf-wrapper\">\n        <div class=\"cf-columns two\">\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_why_headline\">Why have I been blocked?</h2>\n\n            <p data-translate=\"blocked_why_detail\">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\n          </div>\n\n          <div class=\"cf-column\">\n            <h2 data-translate=\"blocked_resolve_headline\">What can I do to resolve this?</h2>\n\n            <p data-translate=\"blocked_resolve_detail\">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\n          </div>\n        </div>\n      </div><!-- /.section -->\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">a6163a32dbd6495b</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n        Your IP:\n        <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">52.156.142.120</span>\n        <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n    window._cf_translation = {};\n    \n    \n  </script>\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a6163a32dbd6495b',t:'MTc5NTgzNTkyNw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a6163a32dbd6495b',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>",
+      "url": "https://pcpartpicker.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-0J7JfOfmEliGREqmmqqBoG&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"0J7JfOfmEliGREqmmqqBoG\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'trfH_BuN4jR8RvQsAOtHENUyikBkUV.9yP8lwA96lnY-1795835930-1.2.1.1-vxs556CSpZ07YY6RAi3yD_jbSeRcjkjlHDCQUdi..nmsariLVR2Tmv1vtqc_TqZL',cITimeS: '1795835930',cN: '0J7JfOfmEliGREqmmqqBoG',cRay: 'a6163a45baaf495b',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/agents.md?__cf_chl_tk=F.2x7I5lwoGN_R96kMkaG7XvtXEbw2iEYNl_bvrxzWM-1795835930-1.0.1.1-EaiPCX1w7ovG_SvVmRtbWtlra_mttYuOEM2oiktrCEc\",cvId: '3',cZone: 'pcpartpicker.com',fa:\"/agents.md?__cf_chl_f_tk=F.2x7I5lwoGN_R96kMkaG7XvtXEbw2iEYNl_bvrxzWM-1795835930-1.0.1.1-EaiPCX1w7ovG_SvVmRtbWtlra_mttYuOEM2oiktrCEc\",md: 'NBPZpQZ9wO1sjjPtRsgfFViNwXRFnZb7uLUrYjEtPqM-1795835930-1.2.1.1-zepRGXhmN9vb7TS6_MDIo2_KNpiXm2XHueY7NCGB3meVTzhQGrcD.V3XHsiqI9qRBXZjeNAxLeRNFVVn_U3vCuA95iXa8fDGexUW1i7SySRDEIQCcSNHl7wZogIBlKxxa.hYTuUoou2xFyBbC.44e1v.jZwr7iA2BeVmXLpIFSyZ.mFV1V_dI1izWtZhZ0VCVmGIWM6677q5fPPyHYZc8oCTNnaeTVQyjQEDydFm1f5Q1.pm8QmtmiF3cNzEbOe52FBZbFlCnEOd_PsEiIYtNU5SBiwfJzVO_a_UL4lpKTUJkYmbM2GOg5r7IX2qavrSGgTylxwZZ6Rt1WPjYtAZKCmrBoxLVnupGeGotOmV4yAp0H9.wOmL_PAASIbho2JfuUmbNqNJvzxrIO77KGdD52GJCnlQLxd3tcOAkJtthhSoQ2WH1frrvW2n5rzbykZWjF0nPx8QTN7PxJ6xvlQEMCg83bjBrmpkTPm48to11aY9Q7EhbVrFGREBo5j.ks0wx2ilwT3LJZZC9hj_aDsKG1qPSitDohSlxU9AowFK6v2NKlsWynjYjU6yrI1SP5yPIt4vlI6yIAkdGIYRr1gQ7vLHRHuzNLDx_wg09qGWPf6HuD5AHy6hyLoCQsXdMeIQJLt7aM6y81YNDcdw7EdUFwHjb7mvTw7hKBd5ao9h884JgwMPCGaHyh7D_fpJ.rP6Y3soMpCiHzwwTb9yxXeC8JkhmS4SUCf3YRKMx4Mg2L3I9paV5gLHKEWIgXyzYwQHy9LYjgoXfqYtZ0s2ptq_q__ZUM3dwIMhqoE7cmRhIRylJ9GeFKFEq24wpY.jb0h2n12RahXQFzDHZLFWZQNtoUUmNDDOHRZCKVGHqZsJn8Kqglj7ORW18GDbJV6Hw2nSKpcfsX3CDp94D7jbdMVicbirOjjBkCgiTQJk6fQnGA0FYB7DqgKbq38lvKP0wCmi86vJPy1d73UcnsBJT7jEWukGY57kmI_UFNikiq9NOfPz9_hw1.xN0ESUkTeuJQ9VsL9f0Yb_t3MXZxYL2igzIdkq1.h.HQrmCerMHsj3ja.oAmlDPFA4DuURNfPoNue51HrKLbvGUW7PdGdM9CLg5P6kGbTB1F3QdJAwTur0h1mY6cn37Ffai5bHqUOnFGiV',mdrd: '0rQU7lhDD_UZXCxjnjpGK2YFgN7pkPktMI_UhKyfvU4-1795835930-1.2.1.1-OYT.eMNA9v.qUhZRV5vwCnqjXhiO.tMPYaNfCE0V4ymnU7qsdPDRDWmb7OfX2gzMrTT5IYsQ4bV9dhjsIKRMVOfR2pRwWDmrytbOtKesYh.TxYwuCTFS5lrc5_NcwIZGUB0kPF8n.2qqBLbegMShXxpqmHk9Oy4CZQoVQGd7N0LCN7hfqpCrSI_9Hb0i6RIVFG9ZFRjVyMDQ61A5xYhOSpuMlpioguQ2veg1EjWwrzJnFgO7cobmAF17bto44sx9OYfooHOVBsp5P.2odnGikTRjxInGHXJc3vRnGpkCQF2eWQ7TXEG9HTcthNw0fmen21ruJtMfTDp0GISRORUfUMxJNnXh.ls5deH1GvQLNzA5rw4d6zR5nroCxnXOwtHRA9etWi3fK1pUdwFVuyIgynbFUxiWvA6X6ZmWzURQ05I',};var a = document.createElement('script');a.nonce = '0J7JfOfmEliGREqmmqqBoG';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6163a45baaf495b';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=F.2x7I5lwoGN_R96kMkaG7XvtXEbw2iEYNl_bvrxzWM-1795835930-1.0.1.1-EaiPCX1w7ovG_SvVmRtbWtlra_mttYuOEM2oiktrCEc\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://pcpartpicker.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-p5xsMC33GZ7mCzUM3rgLDC&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"p5xsMC33GZ7mCzUM3rgLDC\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'z.8n3l.6d.ZUKMwF94oILmfMbQG7oHTACdIF8KnIK9Q-1795835943-1.2.1.1-Llw36Mb9wyVHjDqKzn6bNFugGLKOXU_i1dJk8CfD4DiCYCD615EusvFX_YqKeWAj',cITimeS: '1795835943',cN: 'p5xsMC33GZ7mCzUM3rgLDC',cRay: 'a6163a93ed879b54',cTplC:0,cTplO:0,cTplV:5,cType: 'interactive',cUPMDTk:\"/ai.txt?__cf_chl_tk=GY48GQG5Y0vIliBljJVZ0oUV1Xz4wRFhyO9H8PC99bs-1795835943-1.0.1.1-WX2UEpk76cloTywyDi7txzjv4cDS7bVPHrVbi0VvI5k\",cvId: '3',cZone: 'pcpartpicker.com',fa:\"/ai.txt?__cf_chl_f_tk=GY48GQG5Y0vIliBljJVZ0oUV1Xz4wRFhyO9H8PC99bs-1795835943-1.0.1.1-WX2UEpk76cloTywyDi7txzjv4cDS7bVPHrVbi0VvI5k\",md: 'tYCN_saglsmBvacYYcBAjgfp0hO7ekLhP01wIzeQa5Q-1795835943-1.2.1.1-9n8uKqRUYGqS47mC5CBhksXZJ8vysud1rgt4FpcM5dPo.KZi.cHyoTJKarKdOpa3THbr85Hzn0BpNxzyCenhP2EiQXIl93kpN4Bs1cczFamz0HxnbxNrO3m8IHMI3KlwnSXr2uE7Y5S.TVzdb7nxmx3MPnvpf.UhiQF5eArFq9htbg5XMVe5WkSFsXekcIq00hHRP9DOuTaIHh2sedynorDYMymLtNXBf4vG_pWrv0CsgNBK7xzSalKM2X.j.xFBOcYcLr0cIpEMg.klze1BH8j6Yp2yiKn7xPBJ61vTYMGXIafxqwi9Qhc7y.3iTDS385psN6MTVrUO7z8xvYLHegC5O7dNmCmLqc5wud3ktcARenLo4qynTBhW42imUokUBDG0Ea5jTV4cg.UYlLqOT_2xqsrjRKp__mWQqxwH2nqngcY_s1BEBeshTjBSdJAHoLeLJ77PUzZVwgJAFwMkRbkhzE0mvqZVm9ssVnefI_w_4yhOHTEfI.asd3rndB.IIg4G3DKxN035euEqf8xIx2FLiYK3E48v8rtdPch9gPWOuBFX2YVbdXzOvvBLYP2nwQFBnYOKbLPwFEDTzSprScYM.BecqtI2AtUvoJNBK3c8QwdtVmGwVelVVD9b7LK9l6SYsED_YUAu30.7AT2BYN.6QIPfRrRJ78VwAfz_OfE_dDVQ0yV3qteRD3d5N1FuaePZy4XWvj3r7JRyGhK8jk6NeWExyVuHj8ob7QgmoNr77dQHcX37KJ43TmxoFzTWy4Vy2lLyqfC6EnwTAniyOStj56FUbmHuL_Ryh8Q9WJolctYFV_Aqv25AB25r5RwxscJx40N5.ssb7pyEuGV5TvRcl3Pi.BfDDG19yhqFkVrGqtslpqzFod2Lt4zhud_A1rF3J_or82u66Dvf76b.3xBKzkLQHB09lDlI6x9EbTAyTO2yK6EHVjTFk_p5SVxQ6jvMKAYf2COQ.BdZF7BTpj6_d1S4bF6zXamy56YdN5t4iw5_nSJ8_xNPXrPXmRmn5LEPI3fIaH4VZg3bnBBkIQtwJzPA9yvHoh98MpPGcUOWnz6qFJyb0ji5aAQY0UfOxpc3OnQyP.iDSm.oygLGYkYGw.a4KUKhE1ApiNjEnIZs6bJEtvZErur2r2okzNXA',mdrd: 'xVVOOmykIrC1Fr194lJz6g.KIG3v2sHYkCmAv3ucDA8-1795835943-1.2.1.1-kgEi82314Vg3zWh5rNqGjrfxVrEa7K_tfzvunag0dfme0_Z2vFzf3scp8.OVwfLAPyYen3gev7ksaBl6jZPopA5s56YjG.Pmct5PdNlEsarjxuyi1d69cpDd8HlCT.KrXDwz.XDLwSDnkUDQkSyRaSfSEdOjZBenFj3G2S_dSxMS42lhA1UAEHSqrwQT_XGSSL0nogNKjyWjybYCo4eQ.DQizyQcYTa_KX_JysbVSuW9K3NgnFUoX_ermOqOGYcrjPXhp_c5tkWxDWgYxCMNAgqQCDSB.UBvgSXAyaxQw7jjXkJIV9RJ6u1gdG88ABhWGfGhXEi2AsBBnYhnEtriOjyeKwpebWwPCmXERQlwX4h0kdU.VhGjkxZiPQyCxTnvFJmpTbDvq0GZIciMT_oGjSZ_yVubWurkYej4Q9qUJQs',};var a = document.createElement('script');a.nonce = 'p5xsMC33GZ7mCzUM3rgLDC';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6163a93ed879b54';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=GY48GQG5Y0vIliBljJVZ0oUV1Xz4wRFhyO9H8PC99bs-1795835943-1.0.1.1-WX2UEpk76cloTywyDi7txzjv4cDS7bVPHrVbi0VvI5k\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://pcpartpicker.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "pcpartpicker.com",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:19:03.056Z",
+    "score": 6,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "AI-Closed",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 4.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 4.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 0.00/6 · training 0.00/10; strategy tag AI-Closed. Blocked examples: ChatGPT-User, Claude-User, Perplexity-User. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 4.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

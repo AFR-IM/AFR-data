@@ -1,0 +1,259 @@
+{
+  "signals": {
+    "domain": "ah.nl",
+    "fetchedAt": "2026-11-28T03:09:22.674Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "# Albert Heijn Robots.txt\r\n# Laatste update: 05-12-2025\r\n\r\n# SITEMAPS - Uitgebreide sitemap structuur voor optimale indexering\r\nSitemap: https://www.ah.nl/sitemaps/entities/allerhande/recipes.xml\r\nSitemap: https://www.ah.nl/sitemaps/entities/allerhande/videos.xml\r\nSitemap: https://www.ah.nl/sitemaps/entities/stores/stores.xml\r\nSitemap: https://www.ah.nl/sitemaps/entities/products/categories.xml\r\nSitemap: https://www.ah.nl/sitemaps/entities/products/detail.xml\r\nSitemap: https://www.ah.nl/sitemaps/entities/products/brands.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-allerhande.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-core.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-content.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-klantenservice.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-zakelijk.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-over-ah.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-acties.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-abonnementen.xml\r\nSitemap: https://www.ah.nl/sitemaps/content/sitemap-media-services.xml\r\nSitemap: https://www.ah.nl/bonus/assets/sitemap_nl.xml\r\n\r\n## Blokkeer technische/admin gebieden\r\nUser-agent: *\r\nDisallow: /fdp\r\nDisallow: /koahg\r\nDisallow: /data/\r\nDisallow: /fallback/\r\nDisallow: /rev05/\r\nDisallow: /ui/\r\nDisallow: /website/\r\nDisallow: /module/cookbook-summary\r\nDisallow: /shl\r\n\r\n## Allow belangrijke data endpoints\r\nAllow: /data/winkelinformatie/winkels*\r\n\r\n# GEBRUIKERSGEBIEDEN - Privé en persoonlijke content\r\nDisallow: /bewaarde-recepten/\r\nDisallow: /mijn/\r\nDisallow: /login\r\nDisallow: /login?*\r\nDisallow: /productvoorstel/\r\nDisallow: /bezorgen\r\nDisallow: /bestellen/bestelling-controleren\r\nDisallow: /bestellen/overzicht\r\nDisallow: /ophalen/moment\r\nDisallow: /producten/eerder-gekocht\r\n\r\n# ALLERHANDE OPTIMALISATIE - Minder restrictief voor SEO\r\nDisallow: /allerhande/recepten/raterecept\r\nDisallow: /allerhande/recepten/verstuur\r\nDisallow: /kookschrift/recepten/verstuur\r\nDisallow: /kookschrift2\r\nDisallow: /allerhande2/\r\nDisallow: /allerhande/nl/data/\r\nDisallow: /allerhande*/__/*\r\nDisallow: /recepten/\r\n\r\n## Allow assets\r\nAllow: /allerhande2/assets/\r\n\r\n## Allow belangrijke gefilterde content\r\nAllow: /allerhande/recepten/*?kooktechniek=*\r\nAllow: /allerhande/recepten/*?menugang=*\r\nAllow: /allerhande/recepten/*?soort-gerecht=*\r\nAllow  /allerhande/recepten-zoeken?veel-gebruikt=nu-in-het-magazine\r\n\r\n## Blokkeer alleen multi-parameter queries (duplicate content)\r\nDisallow: /allerhande/*?*&*\r\nDisallow: /allerhande/*soort-gerecht=*\r\nDisallow: /allerhande/*seizoen=*\r\nDisallow: /allerhande/*momenten=*\r\nDisallow: /allerhande/*menugang=*\r\nDisallow: /allerhande/*kooktechniek=*\r\nDisallow: /allerhande/*veel-gebruikt=*\r\nDisallow: /allerhande/*recepten-met=*\r\nDisallow: /allerhande/*speciale-wensen=*\r\nDisallow: /allerhande/*keuken=*\r\nDisallow: /allerhande/*allerhande-magazine=*\r\n\r\n# PRODUCT PAGINA'S - Geoptimaliseerd voor categorieën\r\n## Allow belangrijke product categorieën\r\nAllow: /producten/merk?letter=*\r\nAllow: /producten*?Uitgelicht=voor-de-feestdagen\r\nAllow: /producten*?Bonus=true\r\nAllow: /producten*?Dieet=biologisch\r\n\r\n## Allow schone paginering\r\nAllow: /producten/*?page=*$\r\nAllow: /producten/*?page=*&withOffset=true\r\n\r\n## Blokkeer multi-parameter queries en problematische URLs\r\nDisallow: /producten?*\r\nDisallow: /producten/*?*\r\nDisallow: /producten/*undefined\r\nDisallow: /producten*?Uitgelicht=voor-de-feestdagen&*\r\nDisallow: /producten*?Bonus=true&*\r\nDisallow: /producten*?Dieet=biologisch&*\r\n\r\n#BONUS - geoptimaliseerd voor segmentgroepen\r\nDisallow: /bonus/groep/*?*\r\n\r\n# ZOEK & WINKELS - Toegankelijkheid behouden\r\nDisallow: /zoeken?*\r\nAllow: /zoeken/assets/\r\nAllow: /zoeken/api/\r\nDisallow: /winkel/*?*\r\nDisallow: /winkels*?*\r\nAllow: /winkels*?page=*\r\nAllow: /winkels*?letter=*\r\nDisallow: /winkels*letter=*&*\r\n\r\n# OVERIGE RESTRICTIES\r\nDisallow: /fotoservice/client_redirect.jsp\r\nDisallow: /product/foodlabel/\r\nDisallow: /klantenservice/zoeken?query=*\r\nDisallow: /bonus/groep/*?week=*dclid=*\r\n\r\n# Allow REST API\r\nAllow: /service/rest\r\n\r\n# ADBOTS - Volledige toegang voor ad performance\r\nUser-agent: adsbot-google\r\nUser-agent: Mediapartners-Google\r\nUser-agent: AdIdxBot\r\nDisallow:",
+      "url": "https://www.ah.nl/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 204,
+      "body": "",
+      "url": "https://www.ah.nl/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 204,
+      "body": "",
+      "url": "https://www.ah.nl/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n<P>Reference #0.6915d617.1795835361.e081d6aa</P>\n</BODY>\n</HTML>",
+      "url": "https://ah.nl/",
+      "title": "Access Denied"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n<P>Reference #0.a737cb17.1795835361.304db05b</P>\n</BODY>\n</HTML>",
+      "url": "https://www.ah.nl/sitemaps/entities/allerhande/recipes.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n<P>Reference #0.6915d617.1795835361.e081db78</P>\n</BODY>\n</HTML>",
+      "url": "https://ah.nl/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 204,
+      "body": "",
+      "url": "https://www.ah.nl/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    }
+  },
+  "afr": {
+    "domain": "ah.nl",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:09:22.674Z",
+    "score": 17,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 3,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 but empty; llms-full.txt 200; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 3,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

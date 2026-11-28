@@ -1,0 +1,258 @@
+{
+  "signals": {
+    "domain": "nwsource.com",
+    "fetchedAt": "2026-11-28T03:22:16.628Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542lgBHDQAAD0CW\",\n          \"context\":\"PMym6+rqFL0kd00XkYsvMSsqWqYpGJ454ZO6iWRYSfCMsNuSkhiv6cS2Oqu+5hHDS5XFaHTA9QPU+tUvNaWFEp4QG7MNhZQXTbPf+iCUl2sXMSMeh2QMSWpKqEnWlDwKb4q8pX0ugcRbuFoWwjkeOgIR4NAjW1XV7FOuUl9CyuvUSsH4Kuqx2OLwL5QU3m/22vq6oG+GYzfp6S3Cj6W3pWx3KfVN2QPrrD84ajpHWY2hQkNwnmctwvBa2PZhyeYFM7Dcn0m8+mr+LE+HdUTeCdkcsQR38l1QzQ/3y77g/j6XLMQNpApv8dFBiP7UsaBeXL9nHGWtmLTyyqQ4pQCQhFcMgkZfy7FAvEv+GzvqsexADn4hc1BtIpjX8GfyujQlzl+gh7EWNZMf9aqCcPoPQAMCfuqG1skZUc/7+ubM8lzHra/phfnCzYg3FchWhUUyWfVPzXsmORE4W7lxjFXfLrqMlctO9quLapqeVjA+04OxQ5pTR53REyPXJoyfDAOl+uSKHlyLI90q3A3VqEi8zQnhPrsJ1bjbp581VUl6bFMO/dYEMYUVUr5x4WEbc7ijZZGQqUtk8v3h3mn7TO+9T/ZAW9uTAeoF4pXXRwfcub0VeKEIhsgCNvsEO4up5HW64dVzRkMhs6BGHnW3nKWsrx7hSnskN4khNlkDAgrKJdGeZn7pM1bPGxM3FJso+ub+3p/tn/4l1F/3esyqJSCWqkIz58Qm61ZEJdaX27kiNcSDHIznml3SIzjHDmN8DahTtAlR2PZ41QU=\"\n};\n    </script>\n    <script src=\"https://d97cdb3de0b0.96689bd6.us-west-2.token.awswaf.com/d97cdb3de0b0/e7e948eaa823/7b5e1d1d3320/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.seattletimes.com/"
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542tgBIFAAADt1V\",\n          \"context\":\"kKnS2ej0vT5Im49wxjRyZL+3KCmfxyrd/nO7w4WuOKMKq3KQq2sk2tyuZAdEYKuHzv0i6mpcK5HRpYDoHjcqgfllPJGzWvZSKGR/puUlXjn6314n+hZ3IDPPBbEUUVCxFGmWFmhAgWEmspzLLLaApr/72R/IQmEjNfW18g1O4l2+YnctuuW7xORVMetJFmN9076uuGARO6HY8uLH/k2sDBkjSQnVPXpLinSjl069J0THSaVnoZ7IbYne67gxEMjJ38IFIyLN6jbeFBq8hre4adQtrO33WDJ/LKT77QpSrtmwrsQSYlOGIqVzSQ5K35n9Rz4uDCUyQkjfKa9swXO0fZJ/EwfPFkKTQbGaEFcLFETg4GuaTZehzMeKibgkm0eHG8bp5NSthdngjOua7HCwR5GT59zKt3Xps7knpSdu34O0CuZ5yuAgbJqbkMnXbHgBkvreo3HxcCKQVfYp0Ej4dzoaTesFfF3xT3ZkWA+waWDIcs/wZHmkEy0UzI22Sb/v/cGVb0jAqVffBJ053W7YC71Ev7a2Gh34lAdWWS/p8Iq/6wAwHf8BX6YgohsXsHSz+Kxu7ECdHfPaUqns9AW7QmxSc3Xw/70xFvQ7td2a0XjY0PXrGxpMXt1FdETWmHodytlxvfm2xJVepC0Ic1ntPzWxb5gkw12fi7RxXowPoEfpxguawg//RYFxe4Gi3AsaeZV6pwzCla5OHf5d2b6SMhS9o7OyJJXTQ9JWJwX5LvHW5wQhmYJrktqPvcBAHqSCAV7tQQAdQ9g=\"\n};\n    </script>\n    <script src=\"https://d97cdb3de0b0.96689bd6.us-west-2.token.awswaf.com/d97cdb3de0b0/e7e948eaa823/7b5e1d1d3320/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.seattletimes.com/"
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542rgENZAAADr02\",\n          \"context\":\"tf+HIsWAPilYd9d+/PGHO7/6ySprs0KkEsIlRXVyrGuC6BGyt6UZbj1AKd30LxjHSjvQ017io9bjiFf3esm5Kt7ZiJBW48+Qv+Wo69/LL2tSEYUgHnHx3E8luIODWiCTMq+MdP8+ThsBGs96b8Cp1wXX1kBhhP1ExjQxHon0+DV931985x7iG6CfQA82W0Jc4B/AZFukSXfRzw6x2q/DNJX3J8A2DrQ2z5fvQWjw5pj9UlUf6S38xhCLaUoX+mVkB6zmiyojyjfsQQj1Dvx9hN85btWwH1P7QwAmImsJxjv2Dyr2cs1z5PJ+VCCFuFh2TQggLBCH3Ip3T8+zdppSnghHPuM+RlxKLtAhswMm53rZpoq0RgVJkfKIWI4TdSaxF2deV0kqUM4v7BrPFfwWXIuAFvVUWOS8Wucpw/M5PNRw51OS4j1N+VvbPUWqRI0LOoyLVjyYEZppGgU0QkJCx+zRLZBDh5c+2ldD98Ca77bN8REiTjWBhB6Ydn/IBHj8pIWcxygMmjbhB8w7dg+r7KT7FHrtu/50o5h+4PEIyuTcuP/00ugEq8gyW1qUjcmB4wh9P4yvpe2vlCUBFAdj23BA9neS7ZhpxTTKJH1ERbrA29IFOztL7cj5nVXnLkp+RxaHSy3sYsaIFI2nj2a9na4RuFO6eo3oiHsiE+U3mQwby3BuVysCcHNuKqTWgRJRUY6RVf29AOAX/HaDxfxEjhJcO6ratUM4tcfuwCdwFf3n3Cnk5AAizp5kC3o8risKjsVqa18O7xw=\"\n};\n    </script>\n    <script src=\"https://d97cdb3de0b0.96689bd6.us-west-2.token.awswaf.com/d97cdb3de0b0/e7e948eaa823/7b5e1d1d3320/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.seattletimes.com/"
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542tQBGrQAADolL\",\n          \"context\":\"e+Yyc5SM+4+njSUmW8U9/z6ijHEER9/M3NgnTsnS6bPYyJ1jf/uSVxEjXPeWffWgnIjdU0eynYT5o2U+MHAAjr2XxFzcbeIx5uuxdvO/An9KwqJURCOzFtyZbymuRpoyuR1obbchJeHJ+oD2RRoeUCZnBJJWxe7txU0M9CTX2as9+Y0Qg3omlpU4n0pHjtYX7w0ZRrIuOfOFOVQbykEWMD6LDSa9a2jYGCE2Y7jBn+vORAuo09BVi291OV2IvYP8qsFRh4zBkPKUUUfrmrSBXv2Sa8HC2AqGk5cUTmH1iLCw5iQNu9K7OLDBK44I5LlK0BvP3/kvWiy6uE0x2Fk6aTGwMMzUqNyMTl6RiZThTSafFEKChSpKqCekmExbuX1hFUt3c3ItXDx/9Gfi3XN/Poxi6+VvSTSKJ1LNJNTqy3avejnEBxRN74GV4kcOfiOJOcElNSM/0NcMu27Y1BDF++5tJ9/ZoZcm42XglIOjK2M05ulXn1SixW+vS275kFgnOvPAIlj/E6bZUpax0z3lj5cEUKk1+snWadPttH22ICilOAfG5knFbWT7vfa2Cvu5v4kAW0SCkfLucKxTxC2kTenSC+/Ai8nhN393w08d45Hfe2IgCrJ4hn6sj+trDbvXELMtaYnj6fpIpTzWluO3YsQi4jCy1a3xZLKaqIbnRTmg5EBRyTjmlK4rpxZbIA/QYxtTIQRcs/woeJ5IGf1M4sEn7tWd3FyNEAgoKDbQXOwlT/LluNcwYEoxVqSVbUBvwMJFoTnGLJU=\"\n};\n    </script>\n    <script src=\"https://d97cdb3de0b0.96689bd6.us-west-2.token.awswaf.com/d97cdb3de0b0/e7e948eaa823/7b5e1d1d3320/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.seattletimes.com/",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542rQEOwwAADyXA\",\n          \"context\":\"/uOQoQom/M3LWYlyuGaIiIv7nfJCZUlwtmZh1wBEI4Gs38vxA54wUYNVPW/Yqk0lqYnb2GhwLJpARxLWqPQszqpD5n4/AW140+LhLfe1QlFlEREAMNn0XHM1eNxFYHx5vAsXsetxYWqRXFj4TxcJeTOnvsuUH+uYbyqlJNH+QBHGuoQgg9VYLwofeUofSuKVS7ZG68BEJgVjQcan5mthCD8o9+rrZTfmGa+DwL4OAkCLAT/NLX4IcXmQ6jlVBuq7+XTuqQYcFUfnKzQ6mk4GypHyHt47Y0kyhgIyctnerajVv7WxB2Nbxdug+ud/btb4kZGszin3yTMrMrT177cPt08YhIPVdyEYd0ODDuJm7yGxJczSxX9mV+MEc3catV1JPc/hfyPD9yKw/rpL73Tu7tpUhhKGpvognjvYUSfieiGhzU9PtasgO/E/VvuVghNd2SVqygjrn/vcj9GMIVgeMEgRL3WsxgNWmpSd56vMsv/lLWSgE94SCvLXSb/uBqxGVqrssSGowyqiTvH/TyceuK/qvZobJhIuzlrKF58GfxFv3rism9uSdDTxPSI/xhBJFj48MlxFVBJse3uFZeENEklpWQQPdKjDSE5hvw3utCnw5drkgpdop2OXPrIbjseZpmgVFLsb2iK3RAVe4EI5s0qJm3xctlt/0pM8t/zbIvPclyJu+jFLyKIgzZu7AM162Nfh6Xaz4YI+PU4rLLJxtMlDFrC2FI9UVyIsqg3+StUjotzd5bP7CMYw8zN/sbn9zzk3AJP3esI=\"\n};\n    </script>\n    <script src=\"https://d97cdb3de0b0.96689bd6.us-west-2.token.awswaf.com/d97cdb3de0b0/e7e948eaa823/7b5e1d1d3320/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.seattletimes.com/"
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542tQBGrQAADolM\",\n          \"context\":\"vZwK+xQC7pTg16TgBBSuC3aaZ1XM0Fm7mu/TyW6M+gfqxlcKqFx44q1/kx45e2iV3GHVUarjZa6j2flBg0vHQd8eVB52YKR38zg1qqxnSrQkFi9PTz01aucHcRQSHqAN2EONthO9fSN6UD1RL/7BnOIOGyf6cxKcIIeGjAAuZECBakr2QGPXtGceH9fcYlwbOdh9B99s9apOxjG01VsfUd+rGWZ/V5G0aXLLwzRKZMiDTNTqf9BVWo/22ga9KUwcL/XKHTmueiaJFi2eK+cqErG/g5lFIF7J1UiRBKXJnDkEUY4DXIE//HF4db0UXRgRGjL8B8hkVIeeTDuqEM0qM/ICU8RbD8dgS+ihASAsDKg5RO3849LRKqLo+4w4CC6WDvDAvFUr1Vt4ls1MOD7HZd17w8XFUA4OAmIpuu3TOU/WMKSuTcRjBB2MJae4B95UD0pw/X09U3lYec66PzJw6e6YrSQBlb3d+PCxqfrSxj367ov1RrixNESTE61hKeKCmDoS1Wg9g5XL6vGYoPgtXAJ/RyQg80u1G9U2Jspzf2W+saMhb8Sdm5czebc4YKA+3CuLRDa76vog6U5IEOVDmH8+pLNDr9prTSmfsyr0+IzYhYjveke4acngJDBmMOExStGHzOurfFeUNzywpMvwfv1MiHUBoqBubZypBu+srzxVZwOVL+Ixg8Sq9x2EHKCEq9NJQ5gnoHyjLVmRlFx836YsvUIAmdlmvmDoD6juWCWFnYjfIMJTAkt+CpDrm5yEt9f2oHItvSI=\"\n};\n    </script>\n    <script src=\"https://d97cdb3de0b0.96689bd6.us-west-2.token.awswaf.com/d97cdb3de0b0/e7e948eaa823/7b5e1d1d3320/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.seattletimes.com/"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": true,
+      "urls": [
+        "https://nwsource.com/.well-known/mcp"
+      ]
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542iwEOuwAAD3Ia\",\n          \"context\":\"Z0HoeKyG7D5D/pZuCK9T0ETTTue2nlsSubfc3HKdEp8mb1SQYEGcGwUOIzYObYbuXBgAyG9DlxuGTpCoF7dU4MRmG2q7fPcUByNBinWeTsLoHbtKAOTttVkvpovkLROK5d9WZTD0RJSXsF/UyIFOD8KliH9MzOjSQlXXrl21IOodNatOkRIFmMThYuvyG5raf22mCPf/7BDaU2QWWAS2uIFVRAmEMmj9WNw2yQEM2jFHkqXD/VYqex5xKMCk71oL2rKKxN38uH5CyKvMdfu48bb8YSY+qSnSeyn73a36ciLghveiWE2ScEFqD3IV3FzkjyvrLBD9VzJOWoTUPP50yN/ipnifwKC2cDlcPo269qdZIKVBarONHi5ehooYqN7suUUCKR4L5WnNC7ZPnCiU863/OvjFRpWdc1osSd/GN6heVDF2JejQgypd+pYUZvQd8oJ0YcfnAAKdcdie09/mUynQptWWuQ93XWfeJm7N443nqZr7amsuj1r8LWIJrjMT7ym/jAujKTapdeJvg/40FjdoRQCgjloKLITci8wzAvRlgfIqA8VQcpJcWx5uuw5T4xYWUV0vpLg1TyDgxCY/D7Rff8Uhx8JT8dHCub0/9cxDpepo1JNoEIoPbxiHFaqTIxXEaeFnxrDIiV1MIn1YsvEZbCAWPx7KW0/84F1WpP1HLMvu3mqierCSKA3R3tWc/QPEbbzwVcW5A9bm5Gq8e3CSlqISjib0WoG6aHXr5ry1XzB1SOJ2BjDqUCTPmaI637T5ytFS5rI=\"\n};\n    </script>\n    <script src=\"https://d97cdb3de0b0.96689bd6.us-west-2.token.awswaf.com/d97cdb3de0b0/e7e948eaa823/7b5e1d1d3320/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.seattletimes.com/"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "nwsource.com",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:22:16.628Z",
+    "score": 42,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 202"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 17,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt does not reference a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 2,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP endpoint discovered: https://nwsource.com/.well-known/mcp — no verified tools/list handshake"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 2,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

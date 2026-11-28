@@ -1,0 +1,262 @@
+{
+  "signals": {
+    "domain": "onlyfy.jobs",
+    "fetchedAt": "2026-11-28T02:51:11.777Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "# Allow crawling of all content\nUser-agent: *\nDisallow: /recruiter/\nDisallow: /change_language\nCrawl-delay: 1\n",
+      "url": "https://onlyfy.jobs/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "",
+      "url": "https://onlyfy.jobs/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "",
+      "url": "https://onlyfy.jobs/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n\n<html lang=\"en\"  prefix=\"og: http://ogp.me/ns#\">\n\n<!--\n               ___               ___\n              /\\_ \\            /'___\\\n  ___     ___ \\//\\ \\    __  __/\\ \\__/  __  __\n / __`\\ /' _ `\\ \\ \\ \\  /\\ \\/\\ \\ \\ ,__\\/\\ \\/\\ \\\n/\\ \\L\\ \\/\\ \\/\\ \\ \\_\\ \\_\\ \\ \\_\\ \\ \\ \\_/\\ \\ \\_\\ \\\n\\ \\____/\\ \\_\\ \\_\\/\\____\\\\/`____ \\ \\_\\  \\/`____ \\\n \\/___/  \\/_/\\/_/\\/____/ `/___/> \\/_/   `/___/> \\\n                            /\\___/         /\\___/\n                            \\/__/          \\/__/\n\n-->\n\n<head id=\"www-prescreen-io\">\n\n    <title>onlyfy</title>\n\n    <!-- METADATA -->\n    <meta charset=\"utf-8\">\n    <meta name=\"title\" content=\"onlyfy\">\n    <meta name=\"description\"\n          content=\"onlyfy is the future of recruiting software. Post to 200+ boards with a single click and let your candidates apply online. It is simple, yet sophisticated.\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">\n    <meta name=\"csrf-token\" content=\"f6efe51b3efac9a0c0a6.swwv5tw1gXsdAg13xWc9n4qhidvOtw60fsfit-hM7T4.3zxF3pRn9x90SW4e9Dd658bGy5ys4kXyCJiq9a0-ug3SXU3SllvGAklxYg\">\n\n    <meta name=\"robots\" content=\"noindex, follow\">\n\n    <!-- THE OPEN GRAPH PROTOCOL -->\n    <meta property=\"og:site_name\" content=\"onlyfy.io\">\n    <meta property=\"og:title\" content=\"onlyfy\">\n    <meta property=\"og:description\" content=\"onlyfy is the future of recruiting software. Post to 200+ boards with a single click and let your candidates apply online. It is simple, yet sophisticated.\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:url\" content=\"https://www.prescreen.io/\">\n    <meta property=\"og:image\" content=\"https://d25fc7v4bafg86.cloudfront.net/img/webapp/open-graph.jpg\">\n    <meta property=\"og:image:type\" content=\"image/jpeg\">\n    \n<!-- GOOGLE SITE VERIFICATION -->\n<meta name=\"google-site-verification\" content=\"google71aad798cc619366\">\n<meta name=\"wot-verification\" content=\"6c3ea4d9524615c0ae0b\">\n<meta name=\"author\" content=\"onlyfy\">\n<meta name=\"Copyright\"\n      content=\"Copyright onlyfy 2020. All Rights Reserved.\">\n<meta name=\"DC.creator\" content=\"onlyfy\">\n\n<!-- WEB APP CAPABILITY -->\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"white\">\n<meta name=\"application-name\" content=\"onlyfy\">\n<meta name=\"apple-mobile-web-app-title\" content=\"onlyfy\">\n\n<!-- FAV AND APPLE TOUCH ICON -->\n            <link rel=\"mask-icon\" href=\"https://d25fc7v4bafg86.cloudfront.net/img/webapp/safari-pinned-tab.svg?v=p1i2uh3563&quot; color=&quot;#4c4cc3\">\n        <meta name=\"msapplication-TileColor\" content=\"#2e4f8b\">\n    \n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://d25fc7v4bafg86.cloudfront.net/img/webapp/apple-touch-icon.png?v=p1i2uh3563\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://d25fc7v4bafg86.cloudfront.net/img/webapp/favicon-32x32.png?v=p1i2uh3563\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://d25fc7v4bafg86.cloudfront.net/img/webapp/favicon-16x16.png?v=p1i2uh3563\">\n    <link rel=\"manifest\" href=\"https://d25fc7v4bafg86.cloudfront.net/img/webapp/site.webmanifest?v=p1i2uh3563\">\n    <link rel=\"shortcut icon\" href=\"https://d25fc7v4bafg86.cloudfront.net/img/webapp/favicon.ico?v=p1i2uh3563\">\n    <meta name=\"msapplication-TileColor\" content=\"#2e4f8b\">\n    <meta name=\"msapplication-config\" content=\"https://d25fc7v4bafg86.cloudfront.net/img/webapp/browserconfig.xml?v=p1i2uh3563\">\n    <meta name=\"theme-color\" content=\"#ffffff\">\n    <meta name=\"apple-mobile-web-app-title\" content=\"onlyfy\">\n    <meta name=\"application-name\" content=\"onlyfy\">\n    <script src=\"https://d25fc7v4bafg86.cloudfront.net/build/isBrowser.f96d19742fde41984e7d.js\"></script>\n<script>\n    const isUnsupportedVersion = isChrome('<67');\n    const isDeprecated = isIe();\n    const isPrescreenApp = window.location.host.indexOf('prescreenapp') !== -1;\n\n    if (isDeprecated || isUnsupportedVersion) {\n        function isUnsupportedBrowserAccessConfirmed (){\n            return !!getCookie('unsupported-browser-access-confirmed');\n        }\n\n        function getCookie(cname) {\n            var name = cname + \"=\";\n            var decodedCookie = decodeURIComponent(document.cookie);\n            var ca = decodedCookie.split(';');\n            for(var i = 0; i <ca.length; i++) {\n                var c = ca[i];\n                while (c.charAt(0) == ' ') {\n                    c = c.substring(1);\n                }\n                if (c.indexOf(name) == 0) {\n                    return c.substring(name.length, c.length);\n                }\n            }\n            return \"\";\n        }\n\n        function navigateToUnsupportedBrowserPage(){\n            var location = window.location.href;\n            window.location.href = '/unsupported-browser' + '#' + location;\n        }\n\n        /**\n         * in case of using a deprecated browser, only display the \"Unsupported browser\" page\n         * when using Prescreenapp (so not to Jobbase or Widget users).\n         *\n         * in case of using outdated browser, display the \"Unsupported browser\" page in widget,\n         * Prescreenapp, and Jobbase. Don't display when the user has already confirmed to proceed\n         * with the outdated browser.\n         */\n        if ((isDeprecated && isPrescreenApp) || (isUnsupportedVersion && !isUnsupportedBrowserAccessConfirmed())) {\n            navigateToUnsupportedBrowserPage();\n        }\n    }\n</script>\n\n    <!-- CSS FRAMEWORK -->\n    <link href=\"https://d25fc7v4bafg86.cloudfront.net/build/commons.fc2dda70c6afdd77f0cf.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://d25fc7v4bafg86.cloudfront.net/build/login.e664f8499c1428ddc80f.css\" rel=\"stylesheet\" type=\"text/css\">\n</head>\n\n<body class=\"initializing-vue\">\n\n<!-- CONTENT -->\n\n<login sub-page=\"login\" action=\"/login_check\" csrf-token=\"aa5493147e41899d9609875527.-dj-flAWFIfFhmfOmy-IkK5JxXAH_CpiM6e9dqk-gPY.nLKdNDxYcdOx5RCF1gLOwu8C9DxFikAHcc_SDP51yMWzqsgVGiBR6K3xUw\">\n    </login>\n\n\n<!-- JS FRAMEWORK -->\n<script src=\"https://d25fc7v4bafg86.cloudfront.net/build/commons.4cb234a3959fc5f55990.js\"></script>\n<script src=\"https://d25fc7v4bafg86.cloudfront.net/build/login.f4f074b5bb43707a68e9.js\"></script>\n\n<!-- Matomo Tag Manager -->\n<script>\n    var _mtm = window._mtm = window._mtm || [];\n    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});\n\n\n    (function() {\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src='https://recruiting.xing.com/wp-content/plugins/matomo/app/../../../uploads/matomo/container_KclFfkei.js'; s.parentNode.insertBefore(g,s);\n    })();\n</script>\n<!-- End Matomo Tag Manager -->\n\n<script>\n    window.SHOULD_SHOW_XING_THEME = \"\"\n</script>\n\n</body>\n</html>\n",
+      "url": "https://onlyfy.io/",
+      "title": "onlyfy",
+      "lang": "en",
+      "meta": {
+        "ogSiteName": "onlyfy.io",
+        "appName": "onlyfy",
+        "description": "onlyfy is the future of recruiting software. Post to 200+ boards with a single click and let your candidates apply online. It is simple, yet sophisticated."
+      }
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "",
+      "url": "https://onlyfy.jobs/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "",
+      "url": "https://onlyfy.jobs/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "",
+      "url": "https://onlyfy.jobs/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "onlyfy.jobs",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T02:51:11.777Z",
+    "score": 27,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 4,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 1 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 3,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"onlyfy\"; meta description 155 chars; no date signal; body text 1 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 0,
+      "l2.content-signals": 3,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

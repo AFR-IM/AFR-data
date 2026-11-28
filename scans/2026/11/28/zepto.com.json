@@ -1,0 +1,256 @@
+{
+  "signals": {
+    "domain": "zepto.com",
+    "fetchedAt": "2026-11-28T03:20:09.828Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "User-Agent: *\nAllow: /\nDisallow: /account*\nDisallow: /Deeplink*\nDisallow: /api/\nDisallow: /cart/\nDisallow: /location/\nDisallow: /location-information/\nDisallow: /order/\nDisallow: /ProcessOrder/\nDisallow: /search\nDisallow: /*?z_*\nDisallow: /*&z_*\nDisallow: /buy/*\n\nSitemap: https://www.zepto.com/sitemap.xml",
+      "url": "https://www.zepto.com/robots.txt"
+    },
+    "llms": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['zepto.com','zepto.co.in','zeptonow.com','zeptonow.dev'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542bgEkLQAABV2i\",\n          \"context\":\"ZYNCsDFlBVzeAKHDfPPu9hM/vMRscKvfsqWjKvarOS4EPHZguUmjVMs2UfWkyDA+NofjrndgwC417pR+vSD6WI7KTPC0moI8x40SEve2vDVMmKq6YlfScztTd442TtVQimwMNCEYYfL+pRDixfJHyKroLxa05tq7tOCejLMHL1xPkiYCZCSmEGKxXTEJVldfNciNnwryjRyk4rX2jhX+tNagq4d9To+jcW5ULjUC9AIimpfSoes0PnfybYOFn0hgQGqkCp1XlzY5bjR3HA82HHwsNQpnAb2q0mc/mjSUaoh4IIKt7JCmlmsABsP/E4cdY39L1Kb+mtht+8neJfJ7QEj1b0NYzTKb1rnXFSH7dcCV2FXbJhTQ/A==\"\n};\n    </script>\n    <script src=\"https://277df17f54ea.efc2fbec.us-west-2.token.awswaf.com/277df17f54ea/76db29b85d0f/e49a918627c1/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.zepto.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['zepto.com','zepto.co.in','zeptonow.com','zeptonow.dev'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542VgElUAAABOmb\",\n          \"context\":\"d/eSakT5XpSmEsoy0rAzKo7RHSIYpp9uJ9am54cLn7yB6S7SyvlcVrApubW9kPdscGHzpVYk+2TxZiCDkgNF7j/HY8BmmAob0KkxMvDy3MOq9AOzonVD8HhlmILS9qtQAp1YAvsP/CWXwPniUjxRu3Kcp9YQbXCEbqeEVKkIW+/UL7ShPicV4xc+VIQMlTR4UYTDHgE1B1CDli7tebN1n2Gynq/78F9nd7SDHxoy0GU1GcwEoDgYtnEQxSXBS0h3ZLcKkJjeaBNBxSWywI5eBpaMxAy7U310i9NCX3Iroz5LW7QOnY+jlVUtAOZrN43aboh2rvl4+gi6PEsGTiCSo18IaTt1TcQXQzMtFIq3jLWMii1kFD+DMg==\"\n};\n    </script>\n    <script src=\"https://277df17f54ea.efc2fbec.us-west-2.token.awswaf.com/277df17f54ea/76db29b85d0f/e49a918627c1/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.zepto.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['zepto.com','zepto.co.in','zeptonow.com','zeptonow.dev'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542RgEgVwAABNCk\",\n          \"context\":\"nCW1uiANcQQrd4vrU6R40RcBzpATfa8QMpCLb+SSSbl7mdOkAoT1aflkLSyog1QY2YrfWuC79b+mjudNln7KvMnkynYJUgOrkwmjJR3CbmVPlwtceDtABR7P7kK5BXXYqQ1pUJ7I4ZYIK1mB+Jm5k6sns6wfSGee6P/Ycjy9ufWbaZwZHvhIV9Izq3db7uA4+x8o7kNiFdvdwnlL6mAYYah6BceH2bpp8BkbwZICdvVEekwt/TgkPhm5edS7XinjUZfkjm9pMPvMF2cmGKMPctJ7revqPYo3gcephUsBj/E7Ma4swiTYyQVndr+Y+b3a/snzL2CoGrzIRWu3E/XT6GSDKAz7AzKH8ZnGScIvh/vfP3TqW4wOeQ==\"\n};\n    </script>\n    <script src=\"https://277df17f54ea.efc2fbec.us-west-2.token.awswaf.com/277df17f54ea/76db29b85d0f/e49a918627c1/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.zepto.com/",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['zepto.com','zepto.co.in','zeptonow.com','zeptonow.dev'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542UAEjewAABNPZ\",\n          \"context\":\"jnLoFOWdpCCdkjM3bKz0x75Mfey7S62otapy2z6MMnAFYAbT4HGBjjjeRAzx3bXyxha8XaAByqDeoIiI7g5CrHtyXI6yFu0pOdotoJubBI/I6E35XEBVAzXOBtHXDlev42e0ae+GbopgG7huj3EZJhAHiUtNj0bySN57H5Ejv6ENLu3SNTnVHTG35F1+3+ukzYNqqjxG/GMgBP2PHeSriSEo+EjlPZYoph2aqMDU+8mgH0VFfp1RAUA8YlMosfXzoxmv5dHMrkCHFGfgMhIUpX+RM0R8Q2jYUKGjwwsITdP+z2qv8BjxflZqHB/13OTia1ukdL1DpJaNFRL5F+oIJ0c/e1/aZVAHl/Er9rEqNhHSRGVwcv86FQ==\"\n};\n    </script>\n    <script src=\"https://277df17f54ea.efc2fbec.us-west-2.token.awswaf.com/277df17f54ea/76db29b85d0f/e49a918627c1/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.zepto.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['zepto.com','zepto.co.in','zeptonow.com','zeptonow.dev'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542dAEgnAAABMfn\",\n          \"context\":\"IjhU4/fFsTqhZwEFoCTgzuWzAwerKPJRcD2pkZFKEVunvrMhGA0fIBu3WdOF/EM1YrxLvHwp0p8Q6u7FrvHftMsevgc5ghmYQUwaR4QxuRnq3MqV71caa3X1PTfKN9C5mmFArUfOwHLig9yOvRE0dImnUhIlqyI32uE8KbAhXjH66D2rgCYXNPxwZKHXPpmz9nYrwpFpGJlaSwAxRUPtjbBpE4VrBY75fRpsz+msD1IVFIycD+GlvIpYTNaA6VvvFZyxSZtUicRabM3NJEnQVYmmf9XR1DuxCtw9a2kb8MIf3kIONlnEHjx4ZIsFLJOe7mI2r6+TL65+AZDH1WhgbfM5JEH3xp8aUvapSE5GtBgSdG4d26MdeQ==\"\n};\n    </script>\n    <script src=\"https://277df17f54ea.efc2fbec.us-west-2.token.awswaf.com/277df17f54ea/76db29b85d0f/e49a918627c1/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.zepto.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 202,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = ['zepto.com','zepto.co.in','zeptonow.com','zeptonow.dev'];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEkYnF6CASnB75+6h0MQ/bmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMnVkL35VZWOR66+2EAgEQgDtRG20YVLklenJcFXIWFSidjK0vB/OUQMGu88ZNmBRFKz3L8+sWsqe0a19IwbRSajePVz8IkPP5jzqPWw==\",\n          \"iv\":\"D542VgElUAAABOme\",\n          \"context\":\"JSYb9JTEYcIz+bE1y3cjX8S8Y+nTAcahiTHRl0yjnJTGBtqCIYpR1pGupk9eGQN685dLokW1dsMK3FPTVYzYDJ7ersAqSjhmF+rb+lcXQ8e6FPDv0NBbr90Y6fu3yZ3UkGyfhMhUcZJGliVo2f2pG3Tjw/JFNtCChkua/Bg6zYILejHOt9z2ioYvR17GFA+qRNxMvUVa94F5i2pCJY4SNaashIYHecM5lTymay5J7aZlNEOennml7LEx0MpNr3oQZTLLuL1c+6MBa7ySb+N2+calyKg1s/240zl1ANg6BOjx+MMcqKjkIQHpdr0XABx3LAeXbkM7lPVIPdvdkZuNJ3QNQjUKpz4pJYfAoxhJrk9PmeOBVdmFcg==\"\n};\n    </script>\n    <script src=\"https://277df17f54ea.efc2fbec.us-west-2.token.awswaf.com/277df17f54ea/76db29b85d0f/e49a918627c1/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>",
+      "url": "https://www.zepto.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "zepto.com",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:20:09.828Z",
+    "score": 44,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 202"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 202, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 19,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 12,
+            "max": 14,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "llms.txt 200 and non-empty; llms-full.txt 200; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 3,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 26 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 202; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 26 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 2,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 2,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md reachable (2xx); llms.txt has no agent policy section"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 12,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 3,
+      "l2.sitemap": 4,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 2,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

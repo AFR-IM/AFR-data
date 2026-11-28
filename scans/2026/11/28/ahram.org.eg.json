@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "ahram.org.eg",
+    "fetchedAt": "2026-11-28T03:41:24.125Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\n",
+      "url": "https://ahram.org.eg/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-o7dS70MXRAJhKRQDN4nXg9&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"o7dS70MXRAJhKRQDN4nXg9\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'bYcE24ShLokbaiIXPG1OgX.wwvnd_i5uyNy4nfAydc8-1795837282-1.2.1.1-e8Wzjrvzxeg71GiD5AH.ipk3yP5A2DW19OU_hJJBS8PBJC.STCdeUbe71gFbtYWs',cITimeS: '1795837282',cN: 'o7dS70MXRAJhKRQDN4nXg9',cRay: 'a6165b47acc9101c',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms.txt?__cf_chl_tk=nKusqR9F5DdAhEzxEvxceVU1tMk8C2tlGqvYDE2BIk0-1795837282-1.0.1.1-y.0IDADUX0605D_v2SzKeHR6pGG1zhWJaV0yJW8C_C4\",cvId: '3',cZone: 'ahram.org.eg',fa:\"/llms.txt?__cf_chl_f_tk=nKusqR9F5DdAhEzxEvxceVU1tMk8C2tlGqvYDE2BIk0-1795837282-1.0.1.1-y.0IDADUX0605D_v2SzKeHR6pGG1zhWJaV0yJW8C_C4\",md: 'hq28R.weNif1jSxzjjgwjq1DFshIe39cYYzHJ_OVjNI-1795837282-1.2.1.1-NDNigRKoEr47RM.yqXszY_qr.IcBNoN2IX06FplX8oUzVuzkcfLwloSwCXp08OYh7qoh4ycKNQDgx2DLMnYwNBwFXHcEdxzGEZ3EWZWdI3z0POOAG6gb_4UkOhRV1LlhZB4cCgR2wn1PTNvixms9oVOxsEFkp9oJ8pygmYADa1bXmql.WTrSxYRASTiJEVXqnzEQqL0y0UpZ9jzIUIZaLyaQFdU4_hvoRXhAjYNFdCp0nLeZnk9B3WJ1HEzE7qyCk3ZI5xBpuRmdjrl0dMO08E5xc6k6K3aphG_oCsOhknq_EW_.A16l8uvuXRCkrgu3izkKGu.eocS2bC8t0p_oN0LZnAOnawRbkbw.hF0IFv0hMk6gtT6j5QDoZ42Gg_PT6u.lxL8t7aYEZFTuaqbt_Gw2mb7tVqCfrlA2AUu.98jfyOkehB7h3U4JkPQvOwWiHk5vDc.ZGofZiOnobPZx9GGu6O8F.H6cqo8mn6bp_lfqhIj9v_ICVDcdlMsl3uPP1rBEq1rYKgZCdw3avCaOnoU8LwxomBOPPDwQ5QQzLZihRhouJSBxEajEE2vz00DsIvuOpuWVIeNT._4ZtKkGKUNxPubIuLNz1_daFi9HMjfPfHAD9xnOV9RITPqJNvY08idlrRYU9P8h9wn8SltCygKih_0TwzPkxdzW0NOBcdV3SzLgQdLYjipentjWS_KsL.lLfyWOsWyYXtLrP1dbLVdDqE_HzI2dBnvd5AutyktFKMjC6ATUGBJl3OqGDAvHMVPrxLBikOF2jm3DE6AuQhanw50nqJh0pjN4V7cc_n0yoNcXoDqVkYChIZ8YpMKTWxgrs7pcLxQn2w0H.Y0MOi608SYTx7ZMUEifrkeoAXb3CdJr.wQi.9eNrVGOSP1HP3vktfxc1XgDnPKon5GPhNyo5AkSmg9sV6V9mBdXf2_3q.TjpLhT_4lSSFhpyLmh8qw271j7nrDAtBHq__wliYPHVdVxe_KRPltMHZivkj1jNyKMfL2C8C_ZLR4wpNQCnYljyPp83NotDQZPqTH6a.wE_OB8r8vRt37eOtN5r2anXebpNwhvT0x3Kim8HFVFKMMyO96HwSbX8pf4Qf6ouAoFNs_5MunbSCkqhQNAtPw',mdrd: 'jO6Uw83IkpWAenBi6c_sLoZYpJfOg8Y9LA3OHHjw93A-1795837282-1.2.1.1-LZfXAPTAJw75OATZNHWdg1C7eulD_Nk_DSfRATQwxSBO2begGgxpvhLh3QGnEsBQAPYBkcqBo31SdA_vBnO_3Q3iTKiqyUSclVnQJPi4CsEFnuGhf8zfl3sj7IQSqSCyD.Y5EKtRwKWiGzYOvLYAZxU5NskSXfUwLf6dbvh49mLV3Bzzmu4zd4Ad0D5xUyExMRWlA1zputReQiW3nOf8.cB2af5GPhyzsagrWuYNW0T0GIAXV7KsNQ9okfFj4MtqgcQv.dEU18HBaPWLfforhGdtBtvi6m1M0J45lYhiv.CK.pDm8AKeOwp4zsh00CzPOihRlypBCfCDx6jRdvvUogfUJEW_Lnqh9rc_B7322v7575iCF_w9OjNk7eHVnPcc6Ze9xoGWMQ3vlnXSaalTSg',};var a = document.createElement('script');a.nonce = 'o7dS70MXRAJhKRQDN4nXg9';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6165b47acc9101c';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms.txt?__cf_chl_rt_tk=nKusqR9F5DdAhEzxEvxceVU1tMk8C2tlGqvYDE2BIk0-1795837282-1.0.1.1-y.0IDADUX0605D_v2SzKeHR6pGG1zhWJaV0yJW8C_C4\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://ahram.org.eg/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-YRkgDmdfuOvV47G95A0vPo&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"YRkgDmdfuOvV47G95A0vPo\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'mBvy4ztZR1WNYsa0U7dzcgO4N5xDdbvbhdhi9KAjg64-1795837282-1.2.1.1-KF.I00xZpVldqdADWhXdv0EaV5OCcFBAHzwNBCWv8.lEeHYdDIM6nIyPWoT40GBT',cITimeS: '1795837282',cN: 'YRkgDmdfuOvV47G95A0vPo',cRay: 'a6165b48fe01100a',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/llms-full.txt?__cf_chl_tk=3lRlb3P1jTNBbnmYAjgkTIMuEW6oSCKovnyAFEnDAJw-1795837282-1.0.1.1-kSU.s3tnA8A60EThBisC2pEgHpVdtfIm1G7zVP4eNbw\",cvId: '3',cZone: 'ahram.org.eg',fa:\"/llms-full.txt?__cf_chl_f_tk=3lRlb3P1jTNBbnmYAjgkTIMuEW6oSCKovnyAFEnDAJw-1795837282-1.0.1.1-kSU.s3tnA8A60EThBisC2pEgHpVdtfIm1G7zVP4eNbw\",md: 'vQOEmn27y_K0tN9WWbD7JeaaU6PUA_VjKUOPxxaY8Wc-1795837282-1.2.1.1-a5btIzDE4oLKkYJI9MJyRReM3D5rzMM1EnOQY96gFcF6.fw.LPORbAhNdrYC7mQrpP85eMs.6xnko_VZC4dPwWSmABaCpLtqlpVOfv26OWlCJ4uy8ZngPISzcFxl0BtF.TiqvcipA4MwX22niB7W0f5M8b4tCUGNxPlY0kUV8Vc.45.u.4sUmcMBqLPB6kJ_P0LLndJ2KElWwS.kU79ID9aBRTEGrPWC4NWeII8lrboAJqxyLstq1v1gKfVaDotrgbqRRs50E4cve3XjwyTWApvs2zQxfhfDVZhJOfvehm9wGx5Y7Ws620fMYOxhy_D4l7cdcYG059.qC42qb.e9UuA6L8ABISAi5NtQ2QDnJTeZcWYC485sc53ohsmb28W2ApsrVJjRjMU.djeQePS5EHa4sTMTzuyTepSOsrSaLAGnV06i_MiL5DjNwbFSljSZ7BCDAqbYQKLM2M_ahzKhr_0D7VCqLHDwGifS8spgB83O29nEslM89uWLSogB_tMZzrb2NfyfssGnx.E0OseeCykqUFzvSEjrj1lpfkUfkYPSj.p.yAWN8_rq.GxjghpHvoqJNs.4E3Ylx0AtlF6S8w9d.lGTW5A91KRqCuoBrm9BwlchYSVAn6N70EGvMdIgyFO_biLGHO0E9PMIxffqfF2VcxcnPV95b4CxjxNDvrlk0Xrsoq0y0hAbYbGnxNMTepco9XqNAHkSNGAObP89z6onsIbvPOwPxDHTWLgVdXCJcPj1rQUQ1VTqjT.7gTzbKnuYEnX8KA0wd2cSpqTictZD2vArLenaebJpvOpht.zuoO6NuiONVNvTYF8FFs9PGGPNnnCuM1svUSeYjU0dOU0DOTDgKcqfRr4DiMWvzocwJ0CFsl.TzmcPkems3lqcGIe0n_wW74pGgZN7zSeVnBc6rdFTiNdJnX.MxxmEda_P8JH11dS_cZJRxQA8WAh2uLlCn8oauCKUUnlNK7miwXvMJWX8QYnXPfAoppfmE2myTsKqvSo9fRjZmxhi.rIhDESyGZ.oZ2CcoPaT1.jgxa5NGyVVOT2Erp2xX1jckEPALMGQSkLjA9KuaG4obG3DF45ycVUSZlBGKb2XRP1BcV4PzDMBsi3zFE5_E6wERF0',mdrd: 'LD9ZnfFBaZobA31C9hFBCFd0UnQzs2nd1A3w3V0A32k-1795837282-1.2.1.1-If1wUgBemQW6xL9dAW_Y2hGiHQ3wivkPFGdA0xkCtENyT9jRo4tbv89WfLTN7oBuwocuUCD70f_jNBDxb2H0bxlgNTWcRmY0INeNIfQYzLw.rlIjcMifYryI6BETaagQ.MScYY4v_DLg4ztzYyd5TwrtYioe6lI984tmKTkijXwkYy10VxZWw0goGmorH9fhwt0OK_Ca7ShHoEa7vcSywjm.m3gdN8.q3oF30ZoQ1XHo4b24yT_towGQ0TScDCCrH4QZ0tksxwCMGtrpnbOvZ4yCv_6fIArW45ZejTrowNUp3xnjOe2eXEtGxvVyU2COaIxuas2xr.7z2GilDdO90QUcVf8qKJGu8g.upURI3J0rQ3gqIs9LY7gryKPDjz2Z0tyOA7fo1agU9.opyUb2Rg',};var a = document.createElement('script');a.nonce = 'YRkgDmdfuOvV47G95A0vPo';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6165b48fe01100a';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/llms-full.txt?__cf_chl_rt_tk=3lRlb3P1jTNBbnmYAjgkTIMuEW6oSCKovnyAFEnDAJw-1795837282-1.0.1.1-kSU.s3tnA8A60EThBisC2pEgHpVdtfIm1G7zVP4eNbw\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://ahram.org.eg/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-BArMJIy5gFQyX175C8aea7&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"BArMJIy5gFQyX175C8aea7\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'HKvzCvobsHYI_UGSqKJwz2qXDrhw0h2Hm9OCCYkXmv4-1795837282-1.2.1.1-buMwf7AkXPOihuxk11oBnVxWD06Eg3MPh_T08WDfSzqCRDE1u5u3PwizZMTa8tdc',cITimeS: '1795837282',cN: 'BArMJIy5gFQyX175C8aea7',cRay: 'a6165b4a4a02495b',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/?__cf_chl_tk=mcJp2Oh0MvYv2WPaXosm9.HxmezMqv9.tkVz_s04YgM-1795837282-1.0.1.1-l7WM5Fgvx7p8Z010rd.s7H0xkU5p6KJX3RJ5Q2Qe2UU\",cvId: '3',cZone: 'ahram.org.eg',fa:\"/?__cf_chl_f_tk=mcJp2Oh0MvYv2WPaXosm9.HxmezMqv9.tkVz_s04YgM-1795837282-1.0.1.1-l7WM5Fgvx7p8Z010rd.s7H0xkU5p6KJX3RJ5Q2Qe2UU\",md: 'kQzr3PJBa096xGOaDg5p5CeD2ez4V4P2WDHvjzfKIXk-1795837282-1.2.1.1-UW9_mRayOYlQT1ZECHQsD_N89Za8Bvl1bXFfu_psiecPkSUuJ.Ya3U0l6ngLdohahyA5EJep39mrz6Z.8T7DgmrvbSuFRkSdflP68MDicT9LMJ5K00pRXWwJ3JiuDDEhkLXlkhQOT7JRpNbxTRLwYg8rlP_hQO5y9H9Wol7zBSStYqTUmRQQsWmfIG.V9sQKE0rjkBpKxdLYP6FoqCk5jCkKw1qvR9dkBTbrWYBOWKdgHpfqjV5Rpp9zPwokp._ABteJLCQGzKgxH1_oTFyGsgxxrUeYnhMPQ45IiLApxnQUcUpeaXw2BKD.UYjdBjprGi0.Gn.H9ZaPmjzBkj2lQ5HOJSNUo84pAuBzVJZh2qXFt_0EKQFsXCPVgkoVL6GvKdDdkUPNG.KHJyTZHGvyR7K1wGiK8pKx2gkdVlC4Tk.ReM7yFAU4tMVcx5Ptcp_hHd6esAV5cMlCS5pSKyY0b5B0KwYbfYU499lGCNozuEHgdprgtZOLLVAOskTXZLR8uSsCqY0VpB0Is0guMfOe9aakGxMJGv6h83WYKguOG8zPq2AlnRF6WajThlrWUvnVUOLCrc5DiXResJAmd7CY1LSMgqJHrVNnuMU.PMlDCiFdC325iyk5zOoZpnjUYPWcno_4LYG45VnBnIGaS_MaoSzdeV9YBWFpQCx4kYYOVRg3_C0yrOkEcWh3jC8u8fvCZq03eO.M5Aubl_3NdutYBDzfU2IbmODszAF7AhRRbr0.umQnZGf5s8YW9eyQnRgP1P_VDpdrR9qUfet6_zGMc1PQR3h4WDQNHZJgcrmgWTQlmeu8qOH1wLPUC_H84e3xLtuD4cDC_gJPl5197aM0qyJZ3H7pHxANWBeB17Hv5Sw_2KoXFQ3K6eMYBSeuW4_eRtKx1LAhAxMzGLr9darraxEUu_sQUXA9jj4isGo9VD67cuFbKJgWYl8NHGw5yWOO1w5ArVAa52gSZfa40BH2ggbIokTDxektiiwx7TRhyyLKyvQZPZlA26xd1yitjF7_lRE.jGSOrcR.lF0ULxeFbsLpPQ0oXrww8d0P7mdzZo2w1Ds8IUJ6gGlmva03_db4P1U.C4.NXYy8WoGI3IkHJg',mdrd: 'OE3uE534g9JB.muSa0u_PFdIuOk5ZzYk3FwaioL.NYA-1795837282-1.2.1.1-s9KCU4CkTWI1c.kfU_1PggXZkZDoK0tPiS0bB7jshe2lgkrBThVYoaaieRL2X5SIPe1cTFrii476J8_hTEt2Zq3f8CyL769nckMWrqNBSRVMgCzPuPG03U_iUszgtS2Fnl3tBTrcTNdKyFAg3PYiuDDH2LThpaHqjARnSThYeZew_HiVhW0qVk5vr8sThAq7BRvnGEPrZESLaiKuNJ.tNs.LiiD1_7DsPwmWoCxVk46Rhn5N4gy_JNmWUwDeRg2bd3kRgqEXs9eYTTmfAG2vjvtEb6tSofaV7Fk5RZ5eYp219EJgMKw8nMsi_Q.oymMcONVa5hAq2jt0qxmFfUVajDhuuDuNwzDm7EFmEhN6VxRpuk_e4v7p66TSt1DIvYrRjTPFjo6gpJvklKtUElaiRw',};var a = document.createElement('script');a.nonce = 'BArMJIy5gFQyX175C8aea7';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6165b4a4a02495b';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/?__cf_chl_rt_tk=mcJp2Oh0MvYv2WPaXosm9.HxmezMqv9.tkVz_s04YgM-1795837282-1.0.1.1-l7WM5Fgvx7p8Z010rd.s7H0xkU5p6KJX3RJ5Q2Qe2UU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://ahram.org.eg/",
+      "title": "Just a moment...",
+      "lang": "en-US"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-x9BR2xPFf50FKc3Bp6iXJ9&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"x9BR2xPFf50FKc3Bp6iXJ9\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'okunyRE5RHRR1Ao7JG3TvVPIv7.Oe.04DZkTOZKivBQ-1795837283-1.2.1.1-8frOPYagSccp6IizJlaMUzUuItSapwQzYqWsub0Bpz13IZZoOHZ0uSw3XhM47fi_',cITimeS: '1795837283',cN: 'x9BR2xPFf50FKc3Bp6iXJ9',cRay: 'a6165b4b8b8978f5',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/sitemap.xml?__cf_chl_tk=wOjKXWBFIkBxgdfi6.eh2eGyjqJu91j2O1yU79qSxWY-1795837283-1.0.1.1-Rnh8KWrefGgLqZny1RDH1CJ7jaFUqmjbcTrOScQRAo4\",cvId: '3',cZone: 'ahram.org.eg',fa:\"/sitemap.xml?__cf_chl_f_tk=wOjKXWBFIkBxgdfi6.eh2eGyjqJu91j2O1yU79qSxWY-1795837283-1.0.1.1-Rnh8KWrefGgLqZny1RDH1CJ7jaFUqmjbcTrOScQRAo4\",md: 'NSEfehQLd36xqlXmB31Vlq_HW3MQ0DPWZse_3.LxldM-1795837283-1.2.1.1-MLwqoMiq7WOnQ4GjZ6nifcYd2bNGFr4_dqAZsj76g.ZD577ehSCC0ie2EpGQteZpN.ScVXC_Ldku8DetrMndeBJKgIeIPfgcI.DEHdsTN5iSC0iRh16tSq_vPPAToWHiPgfMA_uUBz6ixmNMvJKzjZ1yVg5tvkc1cEfSZBrEk9UI9abmmVG3LuC_9PQTv_LKW.B0wLMosD.jACe_H2rNMVDz9mMD8i.VdBvCCjRtdJ_oVp2ftjx.Y4aKM4ZfAbqlsk0eYMm2Pf4JA8d341w5IKUacIRuhWwXfjqB_CNTcqIpu0JV3QDbPE6zChU5msoss3blMPKqPhdKUd74WvJDiwm2BHCvGzhW.cxSYXmqM1OLkWaYNaKy4cnWRpWar4g0akLjniXjUq0KmSELAO7LibFjsAaQXX8TP1VNWLWGAlfCWrhrs9JCDg16vDBPDNUu9KQET4b8d50q8cxZkXladJe8aj5napq_EbZJYPdCkeJ8EGP2fl6n5zBLa73LKmKVUX4TepXq6yvUyS76x9NdKboiNaPk2D2QxOlM0Io.SDWIp5imSroMQu2G8Qz6UENsYsrfol1vMSnBiOoOWDxa.m2JBdvdfJ9Vz_DFwMpH32RW382NC.H9B5WHxM9Ad_zfSCzTlkSHMWaYdaNZtymEwb8y7ic7fGdXOhzfk4Fv2dckGzhc11w9An2ub2dTc055m8cyAqDIjTRm9kY6PU5vYzoIMLoh3yCDhr8TlIvSINbsN3.yCZ19yTHbiFyJAPIByEs1tHDDjHSyO9sONy0iE_djibHCMmS9GVlJe2phoEF3mW6wHeWzI6EN2kaDGnEboUyOx2LdTBm7S4DySzvnyrFgjX.xeWB2R5Cbn4FDL8ewwR5Fisgre6c25LWIUulpsLnWbGIrX_R3qMwNvmMsuU80IlG.f2OGfC94UTU3wd2QlTNjv_j9Nhi2brUWXuTYbDW5RdA.cZ.iw3OOwHKRIfQM9Gapgw9a.eCD3.sgcvH6EbGWrAEOWGounfyYGMDgiCmFXY3_BCEjNTjVyOOPJjwVtGNS71olAQqIT34JE7Sig_fGBIml0xnLyPPGACHXAJh.vm5PDlzRVeCQJQVyfoP4fTEp.h36Dg04AEjavLg',mdrd: 'AaIJMwfqQIKOUfP4RQnTHkr6U3pPf5OA69OAKKklr34-1795837283-1.2.1.1-CpdP0HoAPTOROAX4f19IC5cNaKNi6gXU0QWZQb0Z3YWJOxVNOggHxmRvzKKkGUgOZj.XyRKznsN9pY5BWvTPzAxAVYEzn0PqCmri1vz22ny91fKfkbNcnAEwteqmHK07fmoDTC63GzGe0hdx1RL56Y1RMhwEAPirMuZmKYlBNhAuNIVxya5OtVDMGqIRprAz65Tvu4XUJeBb5lZXruOorNRP0y6wMvrwxzIOenzrhWmveX.9rdjOZNOGddua0MrV5LtVG37ibFO22buIztZqQkEhe3LC1uzrYXQ0cAFoK5a3X2WE9CUfE30gLIEmdJAM8S8Kk_p_qRWDqwrdyFoNb2FeXRqcyzCFxF0cd4iPkboK60g_WIYyVpchHEpYzsDpa02t6R7cN7Fw8_Su4C2bgw',};var a = document.createElement('script');a.nonce = 'x9BR2xPFf50FKc3Bp6iXJ9';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6165b4b8b8978f5';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/sitemap.xml?__cf_chl_rt_tk=wOjKXWBFIkBxgdfi6.eh2eGyjqJu91j2O1yU79qSxWY-1795837283-1.0.1.1-Rnh8KWrefGgLqZny1RDH1CJ7jaFUqmjbcTrOScQRAo4\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://ahram.org.eg/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-42yeVpBuQIFSWi8hzw3Jki&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"42yeVpBuQIFSWi8hzw3Jki\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: '8c2.6dzVhWDOQGldLaDhpgd9nv6ZYUZm5HlNvU53GsM-1795837283-1.2.1.1-ENN1fbAMt1yIcHbro6EYHZnDxYbO.O2fVGgC5._e2LXO1WVgyIpvUT4oQm8gCT45',cITimeS: '1795837283',cN: '42yeVpBuQIFSWi8hzw3Jki',cRay: 'a6165b4ccda9642c',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/agents.md?__cf_chl_tk=SHoSUnHeMthucUnmeBXVZBBI3K_5IzjqjA9KUGIvybs-1795837283-1.0.1.1-ftyog_P8PVmaeRS6Fr2EqXfSHGOGCW7ON25DtCxR48s\",cvId: '3',cZone: 'ahram.org.eg',fa:\"/agents.md?__cf_chl_f_tk=SHoSUnHeMthucUnmeBXVZBBI3K_5IzjqjA9KUGIvybs-1795837283-1.0.1.1-ftyog_P8PVmaeRS6Fr2EqXfSHGOGCW7ON25DtCxR48s\",md: 'ZnhE20eIlK41XvHluU4WTuTUtXzQCTLOZ9dYWQauQTY-1795837283-1.2.1.1-qpKgO2fZ1iRQhNbnV9VJ.jSMHJimt8IkBX3A5EzmK4gWsEXsqZImHqqxw6lUgJKwcuIW9S9tvZWTw35Bv6kN._dINmVcDTLC3OsACzlomJC4X1PHwylZJLZfyU_xo2duzaJQ..hGTHo0nUdfe65nKjwI3.sCwWh06ksSp.Qm.z6ZoqBytLtSFtxaalZEtlsed624WGmq0MWWrgUdqaVHeSPpmOgYPAKgkC9lRA1ehNJKmH7kbk3p6KEiN8yh4yMi7ZkGCFbYuGx.w.nO7_bReoiGSeCjFRlyDXi2byxfnz8x582wlkbKRgAg1I46Ml8ZHG1OR4Tig0eFBs3dpXL8MhdhL9HmFAe_HI68gfAI9Gc.WCPUI4RbekVgX0LoWbaFRTnMMwT8PytBXooHqnLEevuyzA15Fgnee235IGflrWtdiw9_GsRjm0pWVh4z4dPYlWDFcp2hf3GoKDM9I7TWUhJkCkDFLgoiXd1v61IbP9yERHmEN9rdaQcO9zoRVSp2N7tYhUMkHYuWwUYkx07fmoE_bwZQ184rS4B9NFzfGsNiqo4dVYvSQRPs6P8jnXvVeyaQFxA4fAarXLtztmzPREOZgobGQDVyg3jmW5kkB4uEMvQrA2sRhzj9e__hZIBcKuGcvK0F.eIyqG6AtunhO_GiTa1T9KbFgtygfFwhQGyIOOsroQ15_dcDi.ZvDJ1vurVZaFdrl_FDIufxc2VxBwHiCDHfZKnfWDMlbn7HbVL0O4trzGEhpRsUAAnmXSS1XMgqq2soN9HZ7OgjHcQVx9WAzSF5VamCNzVxl76_eBrFaG5r3AJ.iGfejK3E2DDexT06N89Oo0yBAix10.x8uq4s4T.v5yHI6uBzBrIns.xrU3FnVueVsLMVCl6DA.UetyucmyQmRrCsdwMbP7g8Rha9wglRlIqztlWTl.m3TzEW5Mx0MuMpNanQ4QBLPgvlBDLmsxtQoZM5bd1CzbOncdq3OBGpDlL9nVctx7y9_RQosMOdILQTwGeBLvYmw5KEdTPAk4ZylgseqDgz9w2sgZ2SwFFfcah3aoRQE9VhyaLpYwcLPFFBd0Tk0DnD25Z4sIjGLAb1AI40cwdqOh6ZAPspxLbLotw0DTibt0TapZM',mdrd: 'iWl9J_1l7b5sa1UqcNbhSJQGmWdKGJcGrRkkug6YM_0-1795837283-1.2.1.1-5q524rToD5vXB6qhPjP0diFT47OxUF.hQ8uzjySlxgMIhDBElrjRW.EhCU1mQBYxaH3jvVKHUxL8Idl5NXUMlwjC.DdFkLJR0ALGTV91_5IzwDUi3iw2QEDhH.lt34C2xhxaze6R9SjNwUH0hQG.0CcGb_PUj6HVw44aiwU6NVyIW4GL0mrosUvFCMrKGRRjcNQkf0kHPYuZP2g5V0tt6OnNd0uKc0ej9IDnkegox7wQ8TKqxIHFC14j1lozDysw.4AT5w.fLrgw4cLiVvDbvGFNb0xhNrjBguBcUjCrFAO5iQvRWVbT0RdqRZ0dqYXdr0SOHnbFqWwJ7WwaerhfBIJcQXG0dPgbOxg4CMS36mdUuX77DowSd1._.dBLJeiY5jur5Twz62REg_tqzdDWeg',};var a = document.createElement('script');a.nonce = '42yeVpBuQIFSWi8hzw3Jki';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6165b4ccda9642c';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/agents.md?__cf_chl_rt_tk=SHoSUnHeMthucUnmeBXVZBBI3K_5IzjqjA9KUGIvybs-1795837283-1.0.1.1-ftyog_P8PVmaeRS6Fr2EqXfSHGOGCW7ON25DtCxR48s\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://ahram.org.eg/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-wXf6BEYltzIY4RQz51Xxvo&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce=\"wXf6BEYltzIY4RQz51Xxvo\">(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'swfu8x0t0vyfhbktv2n0GdBTBSs.JKYb37ZUTNBTGYE-1795837284-1.2.1.1-Dmt8vhYEbfHWiwFSwq7dU1fFMl7D3Z2j6g1fIAj_TbCujmtsIQVpV0ae_5XzJtUs',cITimeS: '1795837284',cN: 'wXf6BEYltzIY4RQz51Xxvo',cRay: 'a6165b518c80fabd',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:\"/ai.txt?__cf_chl_tk=erKdb6rTOICguYtK_ddqRh4pKtRZndW39tsl6wjWzkM-1795837284-1.0.1.1-U9F9hUZs2VCWGwzz5LdBuwRhlGRih5ruymSeYB_K1j8\",cvId: '3',cZone: 'ahram.org.eg',fa:\"/ai.txt?__cf_chl_f_tk=erKdb6rTOICguYtK_ddqRh4pKtRZndW39tsl6wjWzkM-1795837284-1.0.1.1-U9F9hUZs2VCWGwzz5LdBuwRhlGRih5ruymSeYB_K1j8\",md: '5gDPvde2e2AxJ93jEJsHkoDFOwPk9tGslmbBNhGboN8-1795837284-1.2.1.1-tB8DpD7Qrkphzg79J.uC0cjOeBlc5DgQUFGcCaQ7VRN_bX.fj5rBV2XGs6tJ8Ym.4kj6rjkAZs0qoFgU94v6LZr9XqWIuzq2V7UBb4TyW4sQ17WZwrh0AZFAyZ3hlnYuBul58B4hRXPCt65wp.XuNF38jIBgJWTuKhNgMgkPmq50821DIQzedfEpi_uEraJyKOwWLSUALQLICov1.24e53KhmcnVS2OjqSvAFO7ta7HRA1_REvfPS1mS8kVYRlmhOe.9ZKR5bp1nyGzHBQ1aa1NuLHbLNCDw5OIOgnYiirA1aOrKkyhKHvCo52wPrbfaDXMeXAbtfOyKFKsw18RsyQK7lZthv7L4DD4XW9R_btYo1pUMOVPK5.Y7ReHuFnR5aUs0dPdKRKL3XXkY11XgUJzZKlwzabvVlMa9leJUUgE0k9wXh892gcWOCT2_konJeW6AmHsGHBx5POVSTA6Qd3.T1kytdrgPWWijT7gxvDhMyOTuAp8bTNR8IKB0YThAHtOgPg_VkJ6Sai1yfEx8_AFKUlK84RUyEsICYZ6YR.H6rkbU63.QVccZK6Uvrz0HE7ikFEJOM22zm5PbdsRgT7prATpxR5x9VQUQqVONPIqxfNmrrfdjr.f_BgzJQ8Z4_3rMaSU.KYU6XyTEC1eIX44R8pcXmHv8Nz_2Oh6Ajp6cXB1JmdD5mN5ATFP8oaL2YHlTnVkv75vuFH6qLUFmtfQoNtWnctTGzXbihTsUPidBFSvBzDUKb2h5LFYQREuFqbzz19O32_ZL24KdGEOjIR55Yg6RkqEsVHUufjSgasatxiRH4HfGUh3vNn.fpfm9mC5XUQlx4UxgkQdyf40SHtQ7PXfdJBihJPmRgI891zBHaYXRPFLQi8vI853DRRcKPKE9Uq.7POPsOVcn7vQu2YzLZAhofVcYqGgvcEbbJudvsjPKuD1ZmDY8oFbfsmriwYPm.eGDfh8FqMytz4lKFd3lxL1F5OSnnscN_GvaOEqWtkLYw2xnl4cjRYUlTJ3Pv5LqEqXS0HT7wOlpOQxeqCWKLEJaaJYyIfipCfqg0QAV6wDz5xDbSWXh1TgaW25kdsyu8FsEnBJtvKc00LmLEEpVSD5PpsTIOW7MKzpyRrU',mdrd: 'G1_bcvD2sgr6PqZ1HYzcPDDvT4CcrG7hblgtrp2zsjI-1795837284-1.2.1.1-bU2L9Z49_qQl.WdcX2kC4PbIJ722w_Ij87F0B3__V4ogSBv8cOTnBHzMVQC5lRGTeYd5mjpwoef1tyoO2I0hoiVobQDLWt95t05mvEryGsiK4j3h.TvsOB8vDMBjQgZo.zgvekvmXksfsdJENzi6_YTbmtdUp9vHLlhBn6hUE18fz75b3f96L9XDBCK8uhFwdxwI9TX6FFxyvSCAI4dSDAh6fylSwilz95YdBz5ixgRhzWc53zHK1BO8azKpADYTfGG3dD9_sd9GHVXCh.n1MY7l6OOtgktqfBnVBTvK7H33kBTs5wg_RsbXfgWeT7p3xEyinYExxkMhaxDfD4m4sz.StAcaDIsPrLQFfuAdLl0IIxKeF0lTPisi7zFsu3LxB62soJUMHs7xxr5Ri_TdvA',};var a = document.createElement('script');a.nonce = 'wXf6BEYltzIY4RQz51Xxvo';a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a6165b518c80fabd';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"/ai.txt?__cf_chl_rt_tk=erKdb6rTOICguYtK_ddqRh4pKtRZndW39tsl6wjWzkM-1795837284-1.0.1.1-U9F9hUZs2VCWGwzz5LdBuwRhlGRih5ruymSeYB_K1j8\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+      "url": "https://ahram.org.eg/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "ahram.org.eg",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:41:24.125Z",
+    "score": 7,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 6.75,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 6.75,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 2.25/6 · training 0.00/10; strategy tag Middle-Path. Blocked examples: Google-Extended, GPTBot, ClaudeBot. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt does not reference a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 6.75,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

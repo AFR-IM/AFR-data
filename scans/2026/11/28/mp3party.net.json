@@ -1,0 +1,250 @@
+{
+  "signals": {
+    "domain": "mp3party.net",
+    "fetchedAt": "2026-11-28T03:44:40.908Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nDisallow: /download/*\nDisallow: /search?*\nDisallow: /yabanner?*\nDisallow: /users/*\n\nUser-agent: Yandex\nDisallow: /download/*\nDisallow: /search?*\nDisallow: /yabanner?*\nDisallow: /users/*\n\nSitemap: https://mp3party.net/sitemap/sitemap.xml.gz\n",
+      "url": "https://mp3party.net/robots.txt"
+    },
+    "llms": {
+      "status": 451,
+      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\" />\n    <title>451 — Доступ ограничен</title><meta name=\"csrf-param\" content=\"authenticity_token\" />\n    <meta name=\"csrf-token\" content=\"MGz00StisC7Tril-dFl03nXisfIfDOmKi2lNTToUCJRjjtradR_n0s9oT7rc4ozqny-yEDFlJ3bI_TGM_JWF4Q\" />\n    <script>\n      new Image().src = \"https://counter.yadro.ru/hit;mp3party?r\" +\n        escape(document.referrer) + ((typeof(screen) == \"undefined\") ? \"\" :\n        \";s\" + screen.width + \"*\" + screen.height + \"*\" + (screen.colorDepth ?\n        screen.colorDepth : screen.pixelDepth)) + \";u\" + escape(document.URL) +\n        \";h\" + escape(document.title.substring(0, 150)) +\n        \";\" + Math.random();\n    </script>\n    <script>\n      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");   ym(53320615, \"init\", {        clickmap:true,        trackLinks:true,        accurateTrackBounce:true,        webvisor:true   });\n    </script>\n    <noscript>\n      <div>\n        <img alt=\"\" src=\"https://mc.yandex.ru/watch/53320615\" style=\"position:absolute; left:-9999px;\" />\n      </div>\n    </noscript>\n    <script>\n      ym(53320615,'reachGoal','451')\n    </script>\n  </head>\n  <body style=\"margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#e5e7eb;font-family:-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,sans-serif;text-align:center;padding:1.5rem;\">\n    <div class=\"error-page-451\">\n      <div class=\"error-page-451__content\">\n        <div id=\"geo-prompt\">\n          <h1 style=\"font-size:1.75rem;margin-bottom:1rem;\">\n            Разрешите сайту доступ к геолокации\n          </h1>\n          <p style=\"opacity:0.8;margin-bottom:1.5rem;line-height:1.5;\">\n            Для доступа к сайту необходимо подтвердить ваше местоположение.\n          </p>\n          <div id=\"geo-status\" style=\"margin-bottom:1.5rem;font-size:0.9rem;opacity:0.7;\">\n            Запрашиваем доступ к геолокации…\n          </div>\n          <button id=\"geo-retry\" onclick=\"requestGeo()\" style=\"display:none;padding:0.6rem 1.5rem;border:1px solid #38bdf8;background:transparent;color:#38bdf8;border-radius:6px;cursor:pointer;font-size:0.95rem;\">Разрешить геолокацию</button>\n        </div>\n        <div id=\"geo-blocked\" style=\"display:none;\">\n          <h1 style=\"font-size:2.25rem;margin-bottom:0.75rem;\">\n            451<span style=\"opacity:0.7;margin-left:0.5rem;\">Unavailable For Legal Reasons</span>\n          </h1>\n        </div>\n      </div>\n      <script>\n        var csrfToken = document.querySelector('meta[name=\"csrf-token\"]')?.content;\n        \n        function requestGeo() {\n          var statusEl = document.getElementById('geo-status');\n          var retryBtn = document.getElementById('geo-retry');\n          retryBtn.style.display = 'none';\n          statusEl.textContent = 'Запрашиваем доступ к геолокации…';\n          statusEl.style.opacity = '0.7';\n        \n          if (!navigator.geolocation) {\n            showBlocked();\n            return;\n          }\n        \n          navigator.geolocation.getCurrentPosition(\n            function(pos) {\n              console.log('[geo] координаты:', pos.coords.latitude, pos.coords.longitude);\n              statusEl.textContent = 'Проверяем местоположение…';\n              verifyLocation(pos.coords.latitude, pos.coords.longitude);\n            },\n            function(err) {\n              statusEl.textContent = 'Геолокация не предоставлена. Нажмите кнопку и разрешите доступ в браузере.';\n              statusEl.style.opacity = '1';\n              retryBtn.style.display = 'inline-block';\n            },\n            { enableHighAccuracy: false, timeout: 15000, maximumAge: 300000 }\n          );\n        }\n        \n        function verifyLocation(lat, lng) {\n          var statusEl = document.getElementById('geo-status');\n          console.log('[geo] отправляем POST /geo_verify', { lat: lat, lng: lng });\n          fetch('/geo_verify', {\n            method: 'POST',\n            headers: {\n              'Content-Type': 'application/json',\n              'X-CSRF-Token': csrfToken\n            },\n            body: JSON.stringify({ lat: lat, lng: lng })\n          }).then(function(resp) {\n            console.log('[geo] HTTP статус:', resp.status, 'content-type:', resp.headers.get('content-type'));\n            var ct = resp.headers.get('content-type') || '';\n            if (ct.indexOf('application/json') === -1) {\n              console.error('[geo] ответ не JSON, а:', ct, '— вероятно check_bpi перехватил запрос');\n              showBlocked();\n              return;\n            }\n            return resp.json().then(function(data) {\n              console.log('[geo] ответ сервера:', data);\n              console.log('[geo] страна:', data.country, resp.ok ? '✓ разрешена' : '✗ заблокирована');\n              console.log('[geo] город:', data.city || 'не определен');\n              if (resp.ok) {\n                statusEl.textContent = 'Местоположение подтверждено. Перенаправляем…';\n                window.location.reload();\n              } else {\n                showBlocked();\n              }\n            });\n          }).catch(function(err) {\n            console.error('[geo] ошибка:', err);\n            showBlocked();\n          });\n        }\n        \n        function showBlocked() {\n          document.getElementById('geo-prompt').style.display = 'none';\n          document.getElementById('geo-blocked').style.display = 'block';\n        }\n        \n        requestGeo();\n      </script>\n    </div>\n  </body>\n</html>",
+      "url": "https://mp3party.net/llms.txt"
+    },
+    "llmsFull": {
+      "status": 451,
+      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\" />\n    <title>451 — Доступ ограничен</title><meta name=\"csrf-param\" content=\"authenticity_token\" />\n    <meta name=\"csrf-token\" content=\"0dTcFNT8L2i0ecOJLUY-uXPh0KH01rgUAciUeM5jiEdktDhln-J9LCQk9FpcNr5k0w1Y3oGBTLueHKjMaZZesg\" />\n    <script>\n      new Image().src = \"https://counter.yadro.ru/hit;mp3party?r\" +\n        escape(document.referrer) + ((typeof(screen) == \"undefined\") ? \"\" :\n        \";s\" + screen.width + \"*\" + screen.height + \"*\" + (screen.colorDepth ?\n        screen.colorDepth : screen.pixelDepth)) + \";u\" + escape(document.URL) +\n        \";h\" + escape(document.title.substring(0, 150)) +\n        \";\" + Math.random();\n    </script>\n    <script>\n      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");   ym(53320615, \"init\", {        clickmap:true,        trackLinks:true,        accurateTrackBounce:true,        webvisor:true   });\n    </script>\n    <noscript>\n      <div>\n        <img alt=\"\" src=\"https://mc.yandex.ru/watch/53320615\" style=\"position:absolute; left:-9999px;\" />\n      </div>\n    </noscript>\n    <script>\n      ym(53320615,'reachGoal','451')\n    </script>\n  </head>\n  <body style=\"margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#e5e7eb;font-family:-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,sans-serif;text-align:center;padding:1.5rem;\">\n    <div class=\"error-page-451\">\n      <div class=\"error-page-451__content\">\n        <div id=\"geo-prompt\">\n          <h1 style=\"font-size:1.75rem;margin-bottom:1rem;\">\n            Разрешите сайту доступ к геолокации\n          </h1>\n          <p style=\"opacity:0.8;margin-bottom:1.5rem;line-height:1.5;\">\n            Для доступа к сайту необходимо подтвердить ваше местоположение.\n          </p>\n          <div id=\"geo-status\" style=\"margin-bottom:1.5rem;font-size:0.9rem;opacity:0.7;\">\n            Запрашиваем доступ к геолокации…\n          </div>\n          <button id=\"geo-retry\" onclick=\"requestGeo()\" style=\"display:none;padding:0.6rem 1.5rem;border:1px solid #38bdf8;background:transparent;color:#38bdf8;border-radius:6px;cursor:pointer;font-size:0.95rem;\">Разрешить геолокацию</button>\n        </div>\n        <div id=\"geo-blocked\" style=\"display:none;\">\n          <h1 style=\"font-size:2.25rem;margin-bottom:0.75rem;\">\n            451<span style=\"opacity:0.7;margin-left:0.5rem;\">Unavailable For Legal Reasons</span>\n          </h1>\n        </div>\n      </div>\n      <script>\n        var csrfToken = document.querySelector('meta[name=\"csrf-token\"]')?.content;\n        \n        function requestGeo() {\n          var statusEl = document.getElementById('geo-status');\n          var retryBtn = document.getElementById('geo-retry');\n          retryBtn.style.display = 'none';\n          statusEl.textContent = 'Запрашиваем доступ к геолокации…';\n          statusEl.style.opacity = '0.7';\n        \n          if (!navigator.geolocation) {\n            showBlocked();\n            return;\n          }\n        \n          navigator.geolocation.getCurrentPosition(\n            function(pos) {\n              console.log('[geo] координаты:', pos.coords.latitude, pos.coords.longitude);\n              statusEl.textContent = 'Проверяем местоположение…';\n              verifyLocation(pos.coords.latitude, pos.coords.longitude);\n            },\n            function(err) {\n              statusEl.textContent = 'Геолокация не предоставлена. Нажмите кнопку и разрешите доступ в браузере.';\n              statusEl.style.opacity = '1';\n              retryBtn.style.display = 'inline-block';\n            },\n            { enableHighAccuracy: false, timeout: 15000, maximumAge: 300000 }\n          );\n        }\n        \n        function verifyLocation(lat, lng) {\n          var statusEl = document.getElementById('geo-status');\n          console.log('[geo] отправляем POST /geo_verify', { lat: lat, lng: lng });\n          fetch('/geo_verify', {\n            method: 'POST',\n            headers: {\n              'Content-Type': 'application/json',\n              'X-CSRF-Token': csrfToken\n            },\n            body: JSON.stringify({ lat: lat, lng: lng })\n          }).then(function(resp) {\n            console.log('[geo] HTTP статус:', resp.status, 'content-type:', resp.headers.get('content-type'));\n            var ct = resp.headers.get('content-type') || '';\n            if (ct.indexOf('application/json') === -1) {\n              console.error('[geo] ответ не JSON, а:', ct, '— вероятно check_bpi перехватил запрос');\n              showBlocked();\n              return;\n            }\n            return resp.json().then(function(data) {\n              console.log('[geo] ответ сервера:', data);\n              console.log('[geo] страна:', data.country, resp.ok ? '✓ разрешена' : '✗ заблокирована');\n              console.log('[geo] город:', data.city || 'не определен');\n              if (resp.ok) {\n                statusEl.textContent = 'Местоположение подтверждено. Перенаправляем…';\n                window.location.reload();\n              } else {\n                showBlocked();\n              }\n            });\n          }).catch(function(err) {\n            console.error('[geo] ошибка:', err);\n            showBlocked();\n          });\n        }\n        \n        function showBlocked() {\n          document.getElementById('geo-prompt').style.display = 'none';\n          document.getElementById('geo-blocked').style.display = 'block';\n        }\n        \n        requestGeo();\n      </script>\n    </div>\n  </body>\n</html>",
+      "url": "https://mp3party.net/llms-full.txt"
+    },
+    "homepage": {
+      "status": 451,
+      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\" />\n    <title>451 — Доступ ограничен</title><meta name=\"csrf-param\" content=\"authenticity_token\" />\n    <meta name=\"csrf-token\" content=\"VPibktUGeXVAGDxHJAsWel_Dn04eqjzm1VsK9lWaNfP754ytvckEJbqi2a_I5xo6iV3mUrlBLa_ULnmx72ueZw\" />\n    <script>\n      new Image().src = \"https://counter.yadro.ru/hit;mp3party?r\" +\n        escape(document.referrer) + ((typeof(screen) == \"undefined\") ? \"\" :\n        \";s\" + screen.width + \"*\" + screen.height + \"*\" + (screen.colorDepth ?\n        screen.colorDepth : screen.pixelDepth)) + \";u\" + escape(document.URL) +\n        \";h\" + escape(document.title.substring(0, 150)) +\n        \";\" + Math.random();\n    </script>\n    <script>\n      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");   ym(53320615, \"init\", {        clickmap:true,        trackLinks:true,        accurateTrackBounce:true,        webvisor:true   });\n    </script>\n    <noscript>\n      <div>\n        <img alt=\"\" src=\"https://mc.yandex.ru/watch/53320615\" style=\"position:absolute; left:-9999px;\" />\n      </div>\n    </noscript>\n    <script>\n      ym(53320615,'reachGoal','451')\n    </script>\n  </head>\n  <body style=\"margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#e5e7eb;font-family:-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,sans-serif;text-align:center;padding:1.5rem;\">\n    <div class=\"error-page-451\">\n      <div class=\"error-page-451__content\">\n        <div id=\"geo-prompt\">\n          <h1 style=\"font-size:1.75rem;margin-bottom:1rem;\">\n            Разрешите сайту доступ к геолокации\n          </h1>\n          <p style=\"opacity:0.8;margin-bottom:1.5rem;line-height:1.5;\">\n            Для доступа к сайту необходимо подтвердить ваше местоположение.\n          </p>\n          <div id=\"geo-status\" style=\"margin-bottom:1.5rem;font-size:0.9rem;opacity:0.7;\">\n            Запрашиваем доступ к геолокации…\n          </div>\n          <button id=\"geo-retry\" onclick=\"requestGeo()\" style=\"display:none;padding:0.6rem 1.5rem;border:1px solid #38bdf8;background:transparent;color:#38bdf8;border-radius:6px;cursor:pointer;font-size:0.95rem;\">Разрешить геолокацию</button>\n        </div>\n        <div id=\"geo-blocked\" style=\"display:none;\">\n          <h1 style=\"font-size:2.25rem;margin-bottom:0.75rem;\">\n            451<span style=\"opacity:0.7;margin-left:0.5rem;\">Unavailable For Legal Reasons</span>\n          </h1>\n        </div>\n      </div>\n      <script>\n        var csrfToken = document.querySelector('meta[name=\"csrf-token\"]')?.content;\n        \n        function requestGeo() {\n          var statusEl = document.getElementById('geo-status');\n          var retryBtn = document.getElementById('geo-retry');\n          retryBtn.style.display = 'none';\n          statusEl.textContent = 'Запрашиваем доступ к геолокации…';\n          statusEl.style.opacity = '0.7';\n        \n          if (!navigator.geolocation) {\n            showBlocked();\n            return;\n          }\n        \n          navigator.geolocation.getCurrentPosition(\n            function(pos) {\n              console.log('[geo] координаты:', pos.coords.latitude, pos.coords.longitude);\n              statusEl.textContent = 'Проверяем местоположение…';\n              verifyLocation(pos.coords.latitude, pos.coords.longitude);\n            },\n            function(err) {\n              statusEl.textContent = 'Геолокация не предоставлена. Нажмите кнопку и разрешите доступ в браузере.';\n              statusEl.style.opacity = '1';\n              retryBtn.style.display = 'inline-block';\n            },\n            { enableHighAccuracy: false, timeout: 15000, maximumAge: 300000 }\n          );\n        }\n        \n        function verifyLocation(lat, lng) {\n          var statusEl = document.getElementById('geo-status');\n          console.log('[geo] отправляем POST /geo_verify', { lat: lat, lng: lng });\n          fetch('/geo_verify', {\n            method: 'POST',\n            headers: {\n              'Content-Type': 'application/json',\n              'X-CSRF-Token': csrfToken\n            },\n            body: JSON.stringify({ lat: lat, lng: lng })\n          }).then(function(resp) {\n            console.log('[geo] HTTP статус:', resp.status, 'content-type:', resp.headers.get('content-type'));\n            var ct = resp.headers.get('content-type') || '';\n            if (ct.indexOf('application/json') === -1) {\n              console.error('[geo] ответ не JSON, а:', ct, '— вероятно check_bpi перехватил запрос');\n              showBlocked();\n              return;\n            }\n            return resp.json().then(function(data) {\n              console.log('[geo] ответ сервера:', data);\n              console.log('[geo] страна:', data.country, resp.ok ? '✓ разрешена' : '✗ заблокирована');\n              console.log('[geo] город:', data.city || 'не определен');\n              if (resp.ok) {\n                statusEl.textContent = 'Местоположение подтверждено. Перенаправляем…';\n                window.location.reload();\n              } else {\n                showBlocked();\n              }\n            });\n          }).catch(function(err) {\n            console.error('[geo] ошибка:', err);\n            showBlocked();\n          });\n        }\n        \n        function showBlocked() {\n          document.getElementById('geo-prompt').style.display = 'none';\n          document.getElementById('geo-blocked').style.display = 'block';\n        }\n        \n        requestGeo();\n      </script>\n    </div>\n  </body>\n</html>",
+      "url": "https://mp3party.net/",
+      "title": "451 — Доступ ограничен",
+      "lang": "ru"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "\u001f�\b\u0000fI�_\u0000\u0003ŗKo�0\f��\n�:\u0001���(��ԝ�I�\"�Z��P�\u0006ۯ_JY���J�v\"�l��J�@��۳�Q_l�w\u001b_�����\u000fMw��o�� ��En��nˡ�\u000e�칌��l��\u001a�\u0001�h��pRa9F ���_v���e\u0004Mgǲ�j�s�h��]_�����\u0012��[����H���@�2^�\u001a����\u0016�\u0010Ϳ�\\��*���嶃\u001a���\u0019v�x�_�2t����G׌�\\ڱ�\u000f\u0005\b\u0010��\u0001�^j�\u0012e�$\u0014\n��֐<��\u001e�¿P\u0015������T�Z�!Q��9�1�\n\u0019'5!R\rk�)��x��fD*o�� by7���I������\u0011\u0012V,�O\u001a�a��\u0004ePhV,�P\u0006A�bi�2�Ye!i��\u001d�\u0015K�T��W\u00174KŨx�*h��Ѱ�[�Y*q��\u0015K�T��\u0017K�T����\u0002�R���Y�4K��Xu\u00014K��Y�-�,�1߷@�T��d��24�MV$K�@\u0011���\u0019-?��7\u000b\u001f}�\u0011\u000f\u0000\u0000",
+      "url": "https://mp3party.net/sitemap/sitemap.xml.gz"
+    },
+    "agentsMd": {
+      "error": "TypeError: fetch failed (UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: mp3party.net:443, timeout: 10000ms))"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 451,
+      "body": "<!DOCTYPE html>\n<html lang=\"ru\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\" />\n    <title>451 — Доступ ограничен</title><meta name=\"csrf-param\" content=\"authenticity_token\" />\n    <meta name=\"csrf-token\" content=\"LCfAh-V4csUNM9-dxxhDMrJ1BB90uG_0qu2xnwkR0-iA_Itc1J1rkjC67VvrEsi6hFlv5R4_GuXPzhE7acl1Fw\" />\n    <script>\n      new Image().src = \"https://counter.yadro.ru/hit;mp3party?r\" +\n        escape(document.referrer) + ((typeof(screen) == \"undefined\") ? \"\" :\n        \";s\" + screen.width + \"*\" + screen.height + \"*\" + (screen.colorDepth ?\n        screen.colorDepth : screen.pixelDepth)) + \";u\" + escape(document.URL) +\n        \";h\" + escape(document.title.substring(0, 150)) +\n        \";\" + Math.random();\n    </script>\n    <script>\n      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");   ym(53320615, \"init\", {        clickmap:true,        trackLinks:true,        accurateTrackBounce:true,        webvisor:true   });\n    </script>\n    <noscript>\n      <div>\n        <img alt=\"\" src=\"https://mc.yandex.ru/watch/53320615\" style=\"position:absolute; left:-9999px;\" />\n      </div>\n    </noscript>\n    <script>\n      ym(53320615,'reachGoal','451')\n    </script>\n  </head>\n  <body style=\"margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#e5e7eb;font-family:-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,sans-serif;text-align:center;padding:1.5rem;\">\n    <div class=\"error-page-451\">\n      <div class=\"error-page-451__content\">\n        <div id=\"geo-prompt\">\n          <h1 style=\"font-size:1.75rem;margin-bottom:1rem;\">\n            Разрешите сайту доступ к геолокации\n          </h1>\n          <p style=\"opacity:0.8;margin-bottom:1.5rem;line-height:1.5;\">\n            Для доступа к сайту необходимо подтвердить ваше местоположение.\n          </p>\n          <div id=\"geo-status\" style=\"margin-bottom:1.5rem;font-size:0.9rem;opacity:0.7;\">\n            Запрашиваем доступ к геолокации…\n          </div>\n          <button id=\"geo-retry\" onclick=\"requestGeo()\" style=\"display:none;padding:0.6rem 1.5rem;border:1px solid #38bdf8;background:transparent;color:#38bdf8;border-radius:6px;cursor:pointer;font-size:0.95rem;\">Разрешить геолокацию</button>\n        </div>\n        <div id=\"geo-blocked\" style=\"display:none;\">\n          <h1 style=\"font-size:2.25rem;margin-bottom:0.75rem;\">\n            451<span style=\"opacity:0.7;margin-left:0.5rem;\">Unavailable For Legal Reasons</span>\n          </h1>\n        </div>\n      </div>\n      <script>\n        var csrfToken = document.querySelector('meta[name=\"csrf-token\"]')?.content;\n        \n        function requestGeo() {\n          var statusEl = document.getElementById('geo-status');\n          var retryBtn = document.getElementById('geo-retry');\n          retryBtn.style.display = 'none';\n          statusEl.textContent = 'Запрашиваем доступ к геолокации…';\n          statusEl.style.opacity = '0.7';\n        \n          if (!navigator.geolocation) {\n            showBlocked();\n            return;\n          }\n        \n          navigator.geolocation.getCurrentPosition(\n            function(pos) {\n              console.log('[geo] координаты:', pos.coords.latitude, pos.coords.longitude);\n              statusEl.textContent = 'Проверяем местоположение…';\n              verifyLocation(pos.coords.latitude, pos.coords.longitude);\n            },\n            function(err) {\n              statusEl.textContent = 'Геолокация не предоставлена. Нажмите кнопку и разрешите доступ в браузере.';\n              statusEl.style.opacity = '1';\n              retryBtn.style.display = 'inline-block';\n            },\n            { enableHighAccuracy: false, timeout: 15000, maximumAge: 300000 }\n          );\n        }\n        \n        function verifyLocation(lat, lng) {\n          var statusEl = document.getElementById('geo-status');\n          console.log('[geo] отправляем POST /geo_verify', { lat: lat, lng: lng });\n          fetch('/geo_verify', {\n            method: 'POST',\n            headers: {\n              'Content-Type': 'application/json',\n              'X-CSRF-Token': csrfToken\n            },\n            body: JSON.stringify({ lat: lat, lng: lng })\n          }).then(function(resp) {\n            console.log('[geo] HTTP статус:', resp.status, 'content-type:', resp.headers.get('content-type'));\n            var ct = resp.headers.get('content-type') || '';\n            if (ct.indexOf('application/json') === -1) {\n              console.error('[geo] ответ не JSON, а:', ct, '— вероятно check_bpi перехватил запрос');\n              showBlocked();\n              return;\n            }\n            return resp.json().then(function(data) {\n              console.log('[geo] ответ сервера:', data);\n              console.log('[geo] страна:', data.country, resp.ok ? '✓ разрешена' : '✗ заблокирована');\n              console.log('[geo] город:', data.city || 'не определен');\n              if (resp.ok) {\n                statusEl.textContent = 'Местоположение подтверждено. Перенаправляем…';\n                window.location.reload();\n              } else {\n                showBlocked();\n              }\n            });\n          }).catch(function(err) {\n            console.error('[geo] ошибка:', err);\n            showBlocked();\n          });\n        }\n        \n        function showBlocked() {\n          document.getElementById('geo-prompt').style.display = 'none';\n          document.getElementById('geo-blocked').style.display = 'block';\n        }\n        \n        requestGeo();\n      </script>\n    </div>\n  </body>\n</html>",
+      "url": "https://mp3party.net/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "mp3party.net",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:44:40.908Z",
+    "score": 16,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 12.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 451 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 451, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 3,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 451; GET /llms-full.txt → HTTP 451; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 3,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap does not contain this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md not probed; llms.txt HTTP 451"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 3,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "signals": {
+    "domain": "parimatchs1.com",
+    "fetchedAt": "2026-11-28T02:50:01.040Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Access Deny - 403 Forbidden</title>\n\n  <style>\n    @import url(\"https://fonts.googleapis.com/css?family=Lato\");\n\n    * {\n      position: relative;\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: \"Lato\", sans-serif;\n    }\n\n    body {\n      height: 100vh;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      background: linear-gradient(to bottom right, #EEE, #AAA);\n    }\n\n    button {\n      padding: 10px 15px;\n      font-size: 16px;\n      cursor: pointer;\n      border: none;\n      border-radius: 5px;\n      background: #007bff;\n      color: white;\n    }\n\n    button:hover {\n      background: #0056b3;\n    }\n\n    #output {\n      white-space: pre-wrap;\n      background: #f4f4f4;\n      padding: 10px;\n      border: 1px solid #ddd;\n      margin-bottom: 10px;\n      border-radius: 5px;\n      width: 0;\n      height: 0;\n      overflow: hidden;\n      visibility: hidden;\n    }\n\n    h1 {\n      margin: 40px 0 20px;\n    }\n\n    .lock {\n      border-radius: 5px;\n      width: 55px;\n      height: 45px;\n      background-color: #333;\n      animation: dip 1s;\n      animation-delay: 1.5s;\n      animation-iteration-count: infinite;\n    }\n\n    .lock::before,\n    .lock::after {\n      content: \"\";\n      position: absolute;\n      border-left: 5px solid #333;\n      height: 20px;\n      width: 15px;\n      left: calc(50% - 12.5px);\n    }\n\n    .lock::before {\n      top: -30px;\n      border: 5px solid #333;\n      border-bottom-color: transparent;\n      border-radius: 15px 15px 0 0;\n      height: 30px;\n      animation: lock 2s, spin 2s;\n    }\n\n    .lock::after {\n      top: -10px;\n      border-right: 5px solid transparent;\n      animation: spin 2s;\n    }\n\n    @keyframes lock {\n      0% {\n        top: -45px;\n      }\n\n      65% {\n        top: -45px;\n      }\n\n      100% {\n        top: -30px;\n      }\n    }\n\n    @keyframes spin {\n      0% {\n        transform: scaleX(-1);\n        left: calc(50% - 30px);\n      }\n\n      65% {\n        transform: scaleX(1);\n        left: calc(50% - 12.5px);\n      }\n    }\n\n    @keyframes dip {\n      0% {\n        transform: translateY(0px);\n      }\n\n      50% {\n        transform: translateY(10px);\n      }\n\n      100% {\n        transform: translateY(0px);\n      }\n    }\n\n  </style>\n</head>\n\n<body>\n  <div class=\"lock\"></div>\n  <h1>Access to this page is restricted</h1>\n  <p>Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d</p>\n  <p>RAY ID: 01a2200f-26b4-7f68-b5b6-44c818adf096</p>\n  <div id=\"output\">Loading...</div>\n  <div class=\"message\">\n    <button id=\"copyButton\">Copy to Clipboard</button>\n    <script>\n      const outputElement = document.getElementById('output');\n      const copyButton = document.getElementById('copyButton');\n\n      // Fetch trace data from Cloudflare\n      fetch('https://cloudflare.com/cdn-cgi/trace')\n        .then(response => {\n          if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n          }\n          return response.text();\n        })\n        .then(data => {\n          outputElement.textContent = `Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d\\nRAY ID: 01a2200f-26b4-7f68-b5b6-44c818adf096\\n\\n${data}`;\n        })\n        .catch(error => {\n          outputElement.textContent = `Error: ${error.message}`;\n        });\n\n      // Copy to clipboard functionality\n      copyButton.addEventListener('click', () => {\n        const textToCopy = outputElement.textContent;\n        navigator.clipboard.writeText(textToCopy).then(() => {\n        //  alert('Copied to clipboard!');\n        }).catch(err => {\n        //  alert('Failed to copy: ' + err);\n        });\n      });\n    </script>\n  </div>\n</body>\n\n</html>\n",
+      "url": "https://parimatchs1.com/robots.txt"
+    },
+    "llms": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Access Deny - 403 Forbidden</title>\n\n  <style>\n    @import url(\"https://fonts.googleapis.com/css?family=Lato\");\n\n    * {\n      position: relative;\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: \"Lato\", sans-serif;\n    }\n\n    body {\n      height: 100vh;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      background: linear-gradient(to bottom right, #EEE, #AAA);\n    }\n\n    button {\n      padding: 10px 15px;\n      font-size: 16px;\n      cursor: pointer;\n      border: none;\n      border-radius: 5px;\n      background: #007bff;\n      color: white;\n    }\n\n    button:hover {\n      background: #0056b3;\n    }\n\n    #output {\n      white-space: pre-wrap;\n      background: #f4f4f4;\n      padding: 10px;\n      border: 1px solid #ddd;\n      margin-bottom: 10px;\n      border-radius: 5px;\n      width: 0;\n      height: 0;\n      overflow: hidden;\n      visibility: hidden;\n    }\n\n    h1 {\n      margin: 40px 0 20px;\n    }\n\n    .lock {\n      border-radius: 5px;\n      width: 55px;\n      height: 45px;\n      background-color: #333;\n      animation: dip 1s;\n      animation-delay: 1.5s;\n      animation-iteration-count: infinite;\n    }\n\n    .lock::before,\n    .lock::after {\n      content: \"\";\n      position: absolute;\n      border-left: 5px solid #333;\n      height: 20px;\n      width: 15px;\n      left: calc(50% - 12.5px);\n    }\n\n    .lock::before {\n      top: -30px;\n      border: 5px solid #333;\n      border-bottom-color: transparent;\n      border-radius: 15px 15px 0 0;\n      height: 30px;\n      animation: lock 2s, spin 2s;\n    }\n\n    .lock::after {\n      top: -10px;\n      border-right: 5px solid transparent;\n      animation: spin 2s;\n    }\n\n    @keyframes lock {\n      0% {\n        top: -45px;\n      }\n\n      65% {\n        top: -45px;\n      }\n\n      100% {\n        top: -30px;\n      }\n    }\n\n    @keyframes spin {\n      0% {\n        transform: scaleX(-1);\n        left: calc(50% - 30px);\n      }\n\n      65% {\n        transform: scaleX(1);\n        left: calc(50% - 12.5px);\n      }\n    }\n\n    @keyframes dip {\n      0% {\n        transform: translateY(0px);\n      }\n\n      50% {\n        transform: translateY(10px);\n      }\n\n      100% {\n        transform: translateY(0px);\n      }\n    }\n\n  </style>\n</head>\n\n<body>\n  <div class=\"lock\"></div>\n  <h1>Access to this page is restricted</h1>\n  <p>Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d</p>\n  <p>RAY ID: 01a2200f-2a0e-70a1-a55f-6ccb21ceb03f</p>\n  <div id=\"output\">Loading...</div>\n  <div class=\"message\">\n    <button id=\"copyButton\">Copy to Clipboard</button>\n    <script>\n      const outputElement = document.getElementById('output');\n      const copyButton = document.getElementById('copyButton');\n\n      // Fetch trace data from Cloudflare\n      fetch('https://cloudflare.com/cdn-cgi/trace')\n        .then(response => {\n          if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n          }\n          return response.text();\n        })\n        .then(data => {\n          outputElement.textContent = `Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d\\nRAY ID: 01a2200f-2a0e-70a1-a55f-6ccb21ceb03f\\n\\n${data}`;\n        })\n        .catch(error => {\n          outputElement.textContent = `Error: ${error.message}`;\n        });\n\n      // Copy to clipboard functionality\n      copyButton.addEventListener('click', () => {\n        const textToCopy = outputElement.textContent;\n        navigator.clipboard.writeText(textToCopy).then(() => {\n        //  alert('Copied to clipboard!');\n        }).catch(err => {\n        //  alert('Failed to copy: ' + err);\n        });\n      });\n    </script>\n  </div>\n</body>\n\n</html>\n",
+      "url": "https://parimatchs1.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Access Deny - 403 Forbidden</title>\n\n  <style>\n    @import url(\"https://fonts.googleapis.com/css?family=Lato\");\n\n    * {\n      position: relative;\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: \"Lato\", sans-serif;\n    }\n\n    body {\n      height: 100vh;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      background: linear-gradient(to bottom right, #EEE, #AAA);\n    }\n\n    button {\n      padding: 10px 15px;\n      font-size: 16px;\n      cursor: pointer;\n      border: none;\n      border-radius: 5px;\n      background: #007bff;\n      color: white;\n    }\n\n    button:hover {\n      background: #0056b3;\n    }\n\n    #output {\n      white-space: pre-wrap;\n      background: #f4f4f4;\n      padding: 10px;\n      border: 1px solid #ddd;\n      margin-bottom: 10px;\n      border-radius: 5px;\n      width: 0;\n      height: 0;\n      overflow: hidden;\n      visibility: hidden;\n    }\n\n    h1 {\n      margin: 40px 0 20px;\n    }\n\n    .lock {\n      border-radius: 5px;\n      width: 55px;\n      height: 45px;\n      background-color: #333;\n      animation: dip 1s;\n      animation-delay: 1.5s;\n      animation-iteration-count: infinite;\n    }\n\n    .lock::before,\n    .lock::after {\n      content: \"\";\n      position: absolute;\n      border-left: 5px solid #333;\n      height: 20px;\n      width: 15px;\n      left: calc(50% - 12.5px);\n    }\n\n    .lock::before {\n      top: -30px;\n      border: 5px solid #333;\n      border-bottom-color: transparent;\n      border-radius: 15px 15px 0 0;\n      height: 30px;\n      animation: lock 2s, spin 2s;\n    }\n\n    .lock::after {\n      top: -10px;\n      border-right: 5px solid transparent;\n      animation: spin 2s;\n    }\n\n    @keyframes lock {\n      0% {\n        top: -45px;\n      }\n\n      65% {\n        top: -45px;\n      }\n\n      100% {\n        top: -30px;\n      }\n    }\n\n    @keyframes spin {\n      0% {\n        transform: scaleX(-1);\n        left: calc(50% - 30px);\n      }\n\n      65% {\n        transform: scaleX(1);\n        left: calc(50% - 12.5px);\n      }\n    }\n\n    @keyframes dip {\n      0% {\n        transform: translateY(0px);\n      }\n\n      50% {\n        transform: translateY(10px);\n      }\n\n      100% {\n        transform: translateY(0px);\n      }\n    }\n\n  </style>\n</head>\n\n<body>\n  <div class=\"lock\"></div>\n  <h1>Access to this page is restricted</h1>\n  <p>Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d</p>\n  <p>RAY ID: 01a2200f-2d5a-7f0a-9927-dd1a6d2ebd9c</p>\n  <div id=\"output\">Loading...</div>\n  <div class=\"message\">\n    <button id=\"copyButton\">Copy to Clipboard</button>\n    <script>\n      const outputElement = document.getElementById('output');\n      const copyButton = document.getElementById('copyButton');\n\n      // Fetch trace data from Cloudflare\n      fetch('https://cloudflare.com/cdn-cgi/trace')\n        .then(response => {\n          if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n          }\n          return response.text();\n        })\n        .then(data => {\n          outputElement.textContent = `Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d\\nRAY ID: 01a2200f-2d5a-7f0a-9927-dd1a6d2ebd9c\\n\\n${data}`;\n        })\n        .catch(error => {\n          outputElement.textContent = `Error: ${error.message}`;\n        });\n\n      // Copy to clipboard functionality\n      copyButton.addEventListener('click', () => {\n        const textToCopy = outputElement.textContent;\n        navigator.clipboard.writeText(textToCopy).then(() => {\n        //  alert('Copied to clipboard!');\n        }).catch(err => {\n        //  alert('Failed to copy: ' + err);\n        });\n      });\n    </script>\n  </div>\n</body>\n\n</html>\n",
+      "url": "https://parimatchs1.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Access Deny - 403 Forbidden</title>\n\n  <style>\n    @import url(\"https://fonts.googleapis.com/css?family=Lato\");\n\n    * {\n      position: relative;\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: \"Lato\", sans-serif;\n    }\n\n    body {\n      height: 100vh;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      background: linear-gradient(to bottom right, #EEE, #AAA);\n    }\n\n    button {\n      padding: 10px 15px;\n      font-size: 16px;\n      cursor: pointer;\n      border: none;\n      border-radius: 5px;\n      background: #007bff;\n      color: white;\n    }\n\n    button:hover {\n      background: #0056b3;\n    }\n\n    #output {\n      white-space: pre-wrap;\n      background: #f4f4f4;\n      padding: 10px;\n      border: 1px solid #ddd;\n      margin-bottom: 10px;\n      border-radius: 5px;\n      width: 0;\n      height: 0;\n      overflow: hidden;\n      visibility: hidden;\n    }\n\n    h1 {\n      margin: 40px 0 20px;\n    }\n\n    .lock {\n      border-radius: 5px;\n      width: 55px;\n      height: 45px;\n      background-color: #333;\n      animation: dip 1s;\n      animation-delay: 1.5s;\n      animation-iteration-count: infinite;\n    }\n\n    .lock::before,\n    .lock::after {\n      content: \"\";\n      position: absolute;\n      border-left: 5px solid #333;\n      height: 20px;\n      width: 15px;\n      left: calc(50% - 12.5px);\n    }\n\n    .lock::before {\n      top: -30px;\n      border: 5px solid #333;\n      border-bottom-color: transparent;\n      border-radius: 15px 15px 0 0;\n      height: 30px;\n      animation: lock 2s, spin 2s;\n    }\n\n    .lock::after {\n      top: -10px;\n      border-right: 5px solid transparent;\n      animation: spin 2s;\n    }\n\n    @keyframes lock {\n      0% {\n        top: -45px;\n      }\n\n      65% {\n        top: -45px;\n      }\n\n      100% {\n        top: -30px;\n      }\n    }\n\n    @keyframes spin {\n      0% {\n        transform: scaleX(-1);\n        left: calc(50% - 30px);\n      }\n\n      65% {\n        transform: scaleX(1);\n        left: calc(50% - 12.5px);\n      }\n    }\n\n    @keyframes dip {\n      0% {\n        transform: translateY(0px);\n      }\n\n      50% {\n        transform: translateY(10px);\n      }\n\n      100% {\n        transform: translateY(0px);\n      }\n    }\n\n  </style>\n</head>\n\n<body>\n  <div class=\"lock\"></div>\n  <h1>Access to this page is restricted</h1>\n  <p>Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d</p>\n  <p>RAY ID: 01a2200f-30a8-77da-b246-59bb03db8572</p>\n  <div id=\"output\">Loading...</div>\n  <div class=\"message\">\n    <button id=\"copyButton\">Copy to Clipboard</button>\n    <script>\n      const outputElement = document.getElementById('output');\n      const copyButton = document.getElementById('copyButton');\n\n      // Fetch trace data from Cloudflare\n      fetch('https://cloudflare.com/cdn-cgi/trace')\n        .then(response => {\n          if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n          }\n          return response.text();\n        })\n        .then(data => {\n          outputElement.textContent = `Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d\\nRAY ID: 01a2200f-30a8-77da-b246-59bb03db8572\\n\\n${data}`;\n        })\n        .catch(error => {\n          outputElement.textContent = `Error: ${error.message}`;\n        });\n\n      // Copy to clipboard functionality\n      copyButton.addEventListener('click', () => {\n        const textToCopy = outputElement.textContent;\n        navigator.clipboard.writeText(textToCopy).then(() => {\n        //  alert('Copied to clipboard!');\n        }).catch(err => {\n        //  alert('Failed to copy: ' + err);\n        });\n      });\n    </script>\n  </div>\n</body>\n\n</html>\n",
+      "url": "https://parimatchs1.com/",
+      "title": "Access Deny - 403 Forbidden",
+      "lang": "en"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Access Deny - 403 Forbidden</title>\n\n  <style>\n    @import url(\"https://fonts.googleapis.com/css?family=Lato\");\n\n    * {\n      position: relative;\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: \"Lato\", sans-serif;\n    }\n\n    body {\n      height: 100vh;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      background: linear-gradient(to bottom right, #EEE, #AAA);\n    }\n\n    button {\n      padding: 10px 15px;\n      font-size: 16px;\n      cursor: pointer;\n      border: none;\n      border-radius: 5px;\n      background: #007bff;\n      color: white;\n    }\n\n    button:hover {\n      background: #0056b3;\n    }\n\n    #output {\n      white-space: pre-wrap;\n      background: #f4f4f4;\n      padding: 10px;\n      border: 1px solid #ddd;\n      margin-bottom: 10px;\n      border-radius: 5px;\n      width: 0;\n      height: 0;\n      overflow: hidden;\n      visibility: hidden;\n    }\n\n    h1 {\n      margin: 40px 0 20px;\n    }\n\n    .lock {\n      border-radius: 5px;\n      width: 55px;\n      height: 45px;\n      background-color: #333;\n      animation: dip 1s;\n      animation-delay: 1.5s;\n      animation-iteration-count: infinite;\n    }\n\n    .lock::before,\n    .lock::after {\n      content: \"\";\n      position: absolute;\n      border-left: 5px solid #333;\n      height: 20px;\n      width: 15px;\n      left: calc(50% - 12.5px);\n    }\n\n    .lock::before {\n      top: -30px;\n      border: 5px solid #333;\n      border-bottom-color: transparent;\n      border-radius: 15px 15px 0 0;\n      height: 30px;\n      animation: lock 2s, spin 2s;\n    }\n\n    .lock::after {\n      top: -10px;\n      border-right: 5px solid transparent;\n      animation: spin 2s;\n    }\n\n    @keyframes lock {\n      0% {\n        top: -45px;\n      }\n\n      65% {\n        top: -45px;\n      }\n\n      100% {\n        top: -30px;\n      }\n    }\n\n    @keyframes spin {\n      0% {\n        transform: scaleX(-1);\n        left: calc(50% - 30px);\n      }\n\n      65% {\n        transform: scaleX(1);\n        left: calc(50% - 12.5px);\n      }\n    }\n\n    @keyframes dip {\n      0% {\n        transform: translateY(0px);\n      }\n\n      50% {\n        transform: translateY(10px);\n      }\n\n      100% {\n        transform: translateY(0px);\n      }\n    }\n\n  </style>\n</head>\n\n<body>\n  <div class=\"lock\"></div>\n  <h1>Access to this page is restricted</h1>\n  <p>Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d</p>\n  <p>RAY ID: 01a2200f-33ec-7156-93b9-717aa9b1c7c2</p>\n  <div id=\"output\">Loading...</div>\n  <div class=\"message\">\n    <button id=\"copyButton\">Copy to Clipboard</button>\n    <script>\n      const outputElement = document.getElementById('output');\n      const copyButton = document.getElementById('copyButton');\n\n      // Fetch trace data from Cloudflare\n      fetch('https://cloudflare.com/cdn-cgi/trace')\n        .then(response => {\n          if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n          }\n          return response.text();\n        })\n        .then(data => {\n          outputElement.textContent = `Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d\\nRAY ID: 01a2200f-33ec-7156-93b9-717aa9b1c7c2\\n\\n${data}`;\n        })\n        .catch(error => {\n          outputElement.textContent = `Error: ${error.message}`;\n        });\n\n      // Copy to clipboard functionality\n      copyButton.addEventListener('click', () => {\n        const textToCopy = outputElement.textContent;\n        navigator.clipboard.writeText(textToCopy).then(() => {\n        //  alert('Copied to clipboard!');\n        }).catch(err => {\n        //  alert('Failed to copy: ' + err);\n        });\n      });\n    </script>\n  </div>\n</body>\n\n</html>\n",
+      "url": "https://parimatchs1.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Access Deny - 403 Forbidden</title>\n\n  <style>\n    @import url(\"https://fonts.googleapis.com/css?family=Lato\");\n\n    * {\n      position: relative;\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: \"Lato\", sans-serif;\n    }\n\n    body {\n      height: 100vh;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      background: linear-gradient(to bottom right, #EEE, #AAA);\n    }\n\n    button {\n      padding: 10px 15px;\n      font-size: 16px;\n      cursor: pointer;\n      border: none;\n      border-radius: 5px;\n      background: #007bff;\n      color: white;\n    }\n\n    button:hover {\n      background: #0056b3;\n    }\n\n    #output {\n      white-space: pre-wrap;\n      background: #f4f4f4;\n      padding: 10px;\n      border: 1px solid #ddd;\n      margin-bottom: 10px;\n      border-radius: 5px;\n      width: 0;\n      height: 0;\n      overflow: hidden;\n      visibility: hidden;\n    }\n\n    h1 {\n      margin: 40px 0 20px;\n    }\n\n    .lock {\n      border-radius: 5px;\n      width: 55px;\n      height: 45px;\n      background-color: #333;\n      animation: dip 1s;\n      animation-delay: 1.5s;\n      animation-iteration-count: infinite;\n    }\n\n    .lock::before,\n    .lock::after {\n      content: \"\";\n      position: absolute;\n      border-left: 5px solid #333;\n      height: 20px;\n      width: 15px;\n      left: calc(50% - 12.5px);\n    }\n\n    .lock::before {\n      top: -30px;\n      border: 5px solid #333;\n      border-bottom-color: transparent;\n      border-radius: 15px 15px 0 0;\n      height: 30px;\n      animation: lock 2s, spin 2s;\n    }\n\n    .lock::after {\n      top: -10px;\n      border-right: 5px solid transparent;\n      animation: spin 2s;\n    }\n\n    @keyframes lock {\n      0% {\n        top: -45px;\n      }\n\n      65% {\n        top: -45px;\n      }\n\n      100% {\n        top: -30px;\n      }\n    }\n\n    @keyframes spin {\n      0% {\n        transform: scaleX(-1);\n        left: calc(50% - 30px);\n      }\n\n      65% {\n        transform: scaleX(1);\n        left: calc(50% - 12.5px);\n      }\n    }\n\n    @keyframes dip {\n      0% {\n        transform: translateY(0px);\n      }\n\n      50% {\n        transform: translateY(10px);\n      }\n\n      100% {\n        transform: translateY(0px);\n      }\n    }\n\n  </style>\n</head>\n\n<body>\n  <div class=\"lock\"></div>\n  <h1>Access to this page is restricted</h1>\n  <p>Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d</p>\n  <p>RAY ID: 01a2200f-3746-7898-b5a7-c2f3aa7393c2</p>\n  <div id=\"output\">Loading...</div>\n  <div class=\"message\">\n    <button id=\"copyButton\">Copy to Clipboard</button>\n    <script>\n      const outputElement = document.getElementById('output');\n      const copyButton = document.getElementById('copyButton');\n\n      // Fetch trace data from Cloudflare\n      fetch('https://cloudflare.com/cdn-cgi/trace')\n        .then(response => {\n          if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n          }\n          return response.text();\n        })\n        .then(data => {\n          outputElement.textContent = `Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d\\nRAY ID: 01a2200f-3746-7898-b5a7-c2f3aa7393c2\\n\\n${data}`;\n        })\n        .catch(error => {\n          outputElement.textContent = `Error: ${error.message}`;\n        });\n\n      // Copy to clipboard functionality\n      copyButton.addEventListener('click', () => {\n        const textToCopy = outputElement.textContent;\n        navigator.clipboard.writeText(textToCopy).then(() => {\n        //  alert('Copied to clipboard!');\n        }).catch(err => {\n        //  alert('Failed to copy: ' + err);\n        });\n      });\n    </script>\n  </div>\n</body>\n\n</html>\n",
+      "url": "https://parimatchs1.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 403,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Access Deny - 403 Forbidden</title>\n\n  <style>\n    @import url(\"https://fonts.googleapis.com/css?family=Lato\");\n\n    * {\n      position: relative;\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: \"Lato\", sans-serif;\n    }\n\n    body {\n      height: 100vh;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      background: linear-gradient(to bottom right, #EEE, #AAA);\n    }\n\n    button {\n      padding: 10px 15px;\n      font-size: 16px;\n      cursor: pointer;\n      border: none;\n      border-radius: 5px;\n      background: #007bff;\n      color: white;\n    }\n\n    button:hover {\n      background: #0056b3;\n    }\n\n    #output {\n      white-space: pre-wrap;\n      background: #f4f4f4;\n      padding: 10px;\n      border: 1px solid #ddd;\n      margin-bottom: 10px;\n      border-radius: 5px;\n      width: 0;\n      height: 0;\n      overflow: hidden;\n      visibility: hidden;\n    }\n\n    h1 {\n      margin: 40px 0 20px;\n    }\n\n    .lock {\n      border-radius: 5px;\n      width: 55px;\n      height: 45px;\n      background-color: #333;\n      animation: dip 1s;\n      animation-delay: 1.5s;\n      animation-iteration-count: infinite;\n    }\n\n    .lock::before,\n    .lock::after {\n      content: \"\";\n      position: absolute;\n      border-left: 5px solid #333;\n      height: 20px;\n      width: 15px;\n      left: calc(50% - 12.5px);\n    }\n\n    .lock::before {\n      top: -30px;\n      border: 5px solid #333;\n      border-bottom-color: transparent;\n      border-radius: 15px 15px 0 0;\n      height: 30px;\n      animation: lock 2s, spin 2s;\n    }\n\n    .lock::after {\n      top: -10px;\n      border-right: 5px solid transparent;\n      animation: spin 2s;\n    }\n\n    @keyframes lock {\n      0% {\n        top: -45px;\n      }\n\n      65% {\n        top: -45px;\n      }\n\n      100% {\n        top: -30px;\n      }\n    }\n\n    @keyframes spin {\n      0% {\n        transform: scaleX(-1);\n        left: calc(50% - 30px);\n      }\n\n      65% {\n        transform: scaleX(1);\n        left: calc(50% - 12.5px);\n      }\n    }\n\n    @keyframes dip {\n      0% {\n        transform: translateY(0px);\n      }\n\n      50% {\n        transform: translateY(10px);\n      }\n\n      100% {\n        transform: translateY(0px);\n      }\n    }\n\n  </style>\n</head>\n\n<body>\n  <div class=\"lock\"></div>\n  <h1>Access to this page is restricted</h1>\n  <p>Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d</p>\n  <p>RAY ID: 01a2200f-41c1-7a3e-bd25-32e3a687d0fc</p>\n  <div id=\"output\">Loading...</div>\n  <div class=\"message\">\n    <button id=\"copyButton\">Copy to Clipboard</button>\n    <script>\n      const outputElement = document.getElementById('output');\n      const copyButton = document.getElementById('copyButton');\n\n      // Fetch trace data from Cloudflare\n      fetch('https://cloudflare.com/cdn-cgi/trace')\n        .then(response => {\n          if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n          }\n          return response.text();\n        })\n        .then(data => {\n          outputElement.textContent = `Rule ID: 4dc548806b28ca96976b26de0a1b2d49b6d5255d\\nRAY ID: 01a2200f-41c1-7a3e-bd25-32e3a687d0fc\\n\\n${data}`;\n        })\n        .catch(error => {\n          outputElement.textContent = `Error: ${error.message}`;\n        });\n\n      // Copy to clipboard functionality\n      copyButton.addEventListener('click', () => {\n        const textToCopy = outputElement.textContent;\n        navigator.clipboard.writeText(textToCopy).then(() => {\n        //  alert('Copied to clipboard!');\n        }).catch(err => {\n        //  alert('Failed to copy: ' + err);\n        });\n      });\n    </script>\n  </div>\n</body>\n\n</html>\n",
+      "url": "https://parimatchs1.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "parimatchs1.com",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T02:50:01.040Z",
+    "score": 0,
+    "grade": "Pending",
+    "state": "pending",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 0,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 0,
+            "max": 25,
+            "status": "unknown",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "Failed to fetch robots.txt: HTTP 403"
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 0,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 403; GET /llms-full.txt → HTTP 403; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt unavailable or non-2xx; cannot check Sitemap reference"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 403"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 0,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 0,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

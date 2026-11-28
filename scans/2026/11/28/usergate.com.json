@@ -1,0 +1,256 @@
+{
+  "signals": {
+    "domain": "usergate.com",
+    "fetchedAt": "2026-11-28T03:42:28.992Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *               # правила для всех роботов\r\nDisallow: /cgi-bin          # папка на хостинге\r\nDisallow: /bitrix/          # папка с системными файлами битрикса\r\nDisallow: *bitrix_*=        # GET-запросы битрикса\r\nDisallow: /local/           # папка с системными файлами битрикса\r\nDisallow: /*index.php$      # дубли страниц index.php\r\nDisallow: /auth/            # авторизация\r\nDisallow: *auth=            # авторизация\r\nDisallow: /personal/        # личный кабинет\r\nDisallow: *register=        # регистрация\r\nDisallow: *forgot_password= # забыли пароль\r\nDisallow: *change_password= # изменить пароль\r\nDisallow: *login=           # логин\r\nDisallow: *logout=          # выход\r\nDisallow: */search/         # поиск\r\nDisallow: *action=          # действия\r\nDisallow: *print=           # печать\r\nDisallow: *?new=Y           # новая страница\r\nDisallow: *?edit=           # редактирование\r\nDisallow: *?preview=        # предпросмотр\r\nDisallow: *backurl=         # трекбеки\r\nDisallow: *back_url=        # трекбеки\r\nDisallow: *back_url_admin=  # трекбеки\r\nDisallow: *captcha          # каптча\r\nDisallow: */feed            # все фиды\r\nDisallow: */rss             # rss фид\r\nDisallow: *?FILTER*=        # здесь и ниже различные популярные параметры фильтров\r\nDisallow: *?ei=\r\nDisallow: *?p=\r\nDisallow: *?q=\r\nDisallow: *?tags=\r\nDisallow: *B_ORDER=\r\nDisallow: *BRAND=\r\nDisallow: *CLEAR_CACHE=\r\nDisallow: *ELEMENT_ID=\r\nDisallow: *price_from=\r\nDisallow: *price_to=         \r\nDisallow: *PROPERTY_TYPE=\r\nDisallow: *PROPERTY_WIDTH=\r\nDisallow: *PROPERTY_HEIGHT=\r\nDisallow: *PROPERTY_DIA=\r\nDisallow: *PROPERTY_OPENING_COUNT=\r\nDisallow: *PROPERTY_SELL_TYPE=\r\nDisallow: *PROPERTY_MAIN_TYPE=    \r\nDisallow: *PROPERTY_PRICE[*]=\r\nDisallow: *S_LAST=  \r\nDisallow: *SECTION_ID=\r\nDisallow: *SECTION[*]=\r\nDisallow: *SHOWALL= \r\nDisallow: *SHOW_ALL=\r\nDisallow: *SHOWBY=\r\nDisallow: *SORT=\r\nDisallow: *SPHRASE_ID=        \r\nDisallow: *TYPE=\r\nDisallow: *utm*=            # ссылки с utm-метками\r\nDisallow: *openstat=        # ссылки с метками openstat\r\nDisallow: *from=            # ссылки с метками from\r\nDisallow: *?y_ref= \r\nDisallow: *?format=\r\nDisallow: *?__proto_\r\nDisallow: */videos/\r\n\r\n# Укажите один или несколько файлов Sitemap\r\nSitemap: https://usergate.com/sitemap.xml",
+      "url": "https://usergate.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n<head>\n    <meta name=\"fragment\" content=\"!\">\n    <title></title>\n    <base href=\"/\"><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><link rel=\"icon\" type=\"image/png\" href=\"/f/dist/media/favicons/favicon-96x96.png\" sizes=\"96x96\"/><link rel=\"icon\" type=\"image/svg+xml\" href=\"/f/dist/media/favicons/favicon.svg\"/><link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/f/dist/media/favicons/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/f/dist/media/favicons/apple-touch-icon.png\"/><meta name=\"apple-mobile-web-app-title\" content=\"UserGate\"/><link rel=\"manifest\" href=\"/f/dist/media/favicons/site.webmanifest\"/><script>window.onYandexSmartCaptchaLoad = function () {};</script><script id=\"yandex-smart-captcha-script\" src=\"https://smartcaptcha.cloud.yandex.ru/captcha.js?render=onload&onload=onYandexSmartCaptchaLoad\" defer=\"defer\"></script><script defer=\"defer\" src=\"/f/dist/app.22fe9d6778cefe036301.bundle.js\"></script><link href=\"/f/dist/app.06e30aaf9470fae2ad91.bundle.css\" rel=\"stylesheet\">    <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\"gtm.start\":\nnew Date().getTime(),event:\"gtm.js\"});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!=\"dataLayer\"?\"&l=\"+l:\"\";j.async=true;j.src=\n\"https://www.googletagmanager.com/gtm.js?id=\"+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,\"script\",\"dataLayer\",\"GTM-P6FSGKJ4\");</script>\n<!-- End Google Tag Manager -->    <script>\n        window.alsHost = 'usergate.com';\n    </script>\n</head>\n<body>\n<div id=\"root\"></div><!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P6FSGKJ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) --><script>document.addEventListener(\"click\",(function(t){var e=t.target.closest(\"a[href]\");if(e){var r=e.getAttribute(\"href\")||\"\",a=e.href||\"\";(/^\\/ru\\/.*/i.test(r)||/^https?:\\/\\/[^\\/]*usergate\\.com\\/ru\\/.*/i.test(a))&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(a))}}),!0);</script><script>/^\\/bitrix\\/|^\\/local\\/|^\\/api\\//i.test(location.pathname)||document.addEventListener(\"click\",(function(t){if(!t.defaultPrevented&&!(0!==t.button||t.metaKey||t.ctrlKey||t.shiftKey||t.altKey)){var e=t.target&&t.target.closest&&t.target.closest(\"a[href]\");if(e){var a=e.getAttribute(\"href\")||\"\";if(\"#\"!==a[0]&&!/^(?:mailto|tel|javascript):/i.test(a)){var i;try{i=new URL(a,location.href)}catch(t){return}var r=i.hostname,o=i.pathname,n=i.origin===location.origin,s=/\\.usergate\\.com$/i.test(r),c=/^\\/ru\\/.*/i.test(o),l=/^\\/old(?:\\/|$).*/i.test(o),f=/^support\\.old\\.usergate\\.com$/i.test(r)&&/^\\/ru\\/.*/i.test(o);(n&&(c||l)||s&&(c||l)||f)&&i.href!==location.href&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(i.href))}}}}),!0);</script></body>\n</html>\n",
+      "url": "https://usergate.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n<head>\n    <meta name=\"fragment\" content=\"!\">\n    <title></title>\n    <base href=\"/\"><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><link rel=\"icon\" type=\"image/png\" href=\"/f/dist/media/favicons/favicon-96x96.png\" sizes=\"96x96\"/><link rel=\"icon\" type=\"image/svg+xml\" href=\"/f/dist/media/favicons/favicon.svg\"/><link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/f/dist/media/favicons/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/f/dist/media/favicons/apple-touch-icon.png\"/><meta name=\"apple-mobile-web-app-title\" content=\"UserGate\"/><link rel=\"manifest\" href=\"/f/dist/media/favicons/site.webmanifest\"/><script>window.onYandexSmartCaptchaLoad = function () {};</script><script id=\"yandex-smart-captcha-script\" src=\"https://smartcaptcha.cloud.yandex.ru/captcha.js?render=onload&onload=onYandexSmartCaptchaLoad\" defer=\"defer\"></script><script defer=\"defer\" src=\"/f/dist/app.22fe9d6778cefe036301.bundle.js\"></script><link href=\"/f/dist/app.06e30aaf9470fae2ad91.bundle.css\" rel=\"stylesheet\">    <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\"gtm.start\":\nnew Date().getTime(),event:\"gtm.js\"});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!=\"dataLayer\"?\"&l=\"+l:\"\";j.async=true;j.src=\n\"https://www.googletagmanager.com/gtm.js?id=\"+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,\"script\",\"dataLayer\",\"GTM-P6FSGKJ4\");</script>\n<!-- End Google Tag Manager -->    <script>\n        window.alsHost = 'usergate.com';\n    </script>\n</head>\n<body>\n<div id=\"root\"></div><!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P6FSGKJ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) --><script>document.addEventListener(\"click\",(function(t){var e=t.target.closest(\"a[href]\");if(e){var r=e.getAttribute(\"href\")||\"\",a=e.href||\"\";(/^\\/ru\\/.*/i.test(r)||/^https?:\\/\\/[^\\/]*usergate\\.com\\/ru\\/.*/i.test(a))&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(a))}}),!0);</script><script>/^\\/bitrix\\/|^\\/local\\/|^\\/api\\//i.test(location.pathname)||document.addEventListener(\"click\",(function(t){if(!t.defaultPrevented&&!(0!==t.button||t.metaKey||t.ctrlKey||t.shiftKey||t.altKey)){var e=t.target&&t.target.closest&&t.target.closest(\"a[href]\");if(e){var a=e.getAttribute(\"href\")||\"\";if(\"#\"!==a[0]&&!/^(?:mailto|tel|javascript):/i.test(a)){var i;try{i=new URL(a,location.href)}catch(t){return}var r=i.hostname,o=i.pathname,n=i.origin===location.origin,s=/\\.usergate\\.com$/i.test(r),c=/^\\/ru\\/.*/i.test(o),l=/^\\/old(?:\\/|$).*/i.test(o),f=/^support\\.old\\.usergate\\.com$/i.test(r)&&/^\\/ru\\/.*/i.test(o);(n&&(c||l)||s&&(c||l)||f)&&i.href!==location.href&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(i.href))}}}}),!0);</script></body>\n</html>\n",
+      "url": "https://usergate.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n<head>\n    <meta name=\"fragment\" content=\"!\">\n    <title></title>\n    <base href=\"/\"><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><link rel=\"icon\" type=\"image/png\" href=\"/f/dist/media/favicons/favicon-96x96.png\" sizes=\"96x96\"/><link rel=\"icon\" type=\"image/svg+xml\" href=\"/f/dist/media/favicons/favicon.svg\"/><link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/f/dist/media/favicons/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/f/dist/media/favicons/apple-touch-icon.png\"/><meta name=\"apple-mobile-web-app-title\" content=\"UserGate\"/><link rel=\"manifest\" href=\"/f/dist/media/favicons/site.webmanifest\"/><script>window.onYandexSmartCaptchaLoad = function () {};</script><script id=\"yandex-smart-captcha-script\" src=\"https://smartcaptcha.cloud.yandex.ru/captcha.js?render=onload&onload=onYandexSmartCaptchaLoad\" defer=\"defer\"></script><script defer=\"defer\" src=\"/f/dist/app.22fe9d6778cefe036301.bundle.js\"></script><link href=\"/f/dist/app.06e30aaf9470fae2ad91.bundle.css\" rel=\"stylesheet\">    <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\"gtm.start\":\nnew Date().getTime(),event:\"gtm.js\"});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!=\"dataLayer\"?\"&l=\"+l:\"\";j.async=true;j.src=\n\"https://www.googletagmanager.com/gtm.js?id=\"+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,\"script\",\"dataLayer\",\"GTM-P6FSGKJ4\");</script>\n<!-- End Google Tag Manager -->    <script>\n        window.alsHost = 'usergate.com';\n    </script>\n</head>\n<body>\n<div id=\"root\"></div><!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P6FSGKJ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) --><script>document.addEventListener(\"click\",(function(t){var e=t.target.closest(\"a[href]\");if(e){var r=e.getAttribute(\"href\")||\"\",a=e.href||\"\";(/^\\/ru\\/.*/i.test(r)||/^https?:\\/\\/[^\\/]*usergate\\.com\\/ru\\/.*/i.test(a))&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(a))}}),!0);</script><script>/^\\/bitrix\\/|^\\/local\\/|^\\/api\\//i.test(location.pathname)||document.addEventListener(\"click\",(function(t){if(!t.defaultPrevented&&!(0!==t.button||t.metaKey||t.ctrlKey||t.shiftKey||t.altKey)){var e=t.target&&t.target.closest&&t.target.closest(\"a[href]\");if(e){var a=e.getAttribute(\"href\")||\"\";if(\"#\"!==a[0]&&!/^(?:mailto|tel|javascript):/i.test(a)){var i;try{i=new URL(a,location.href)}catch(t){return}var r=i.hostname,o=i.pathname,n=i.origin===location.origin,s=/\\.usergate\\.com$/i.test(r),c=/^\\/ru\\/.*/i.test(o),l=/^\\/old(?:\\/|$).*/i.test(o),f=/^support\\.old\\.usergate\\.com$/i.test(r)&&/^\\/ru\\/.*/i.test(o);(n&&(c||l)||s&&(c||l)||f)&&i.href!==location.href&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(i.href))}}}}),!0);</script></body>\n</html>\n",
+      "url": "https://usergate.com/",
+      "lang": "ru"
+    },
+    "sitemap": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><sitemap><loc>https://usergate.com/sitemap-iblock-4.xml</loc><lastmod>2025-06-24T13:35:15+00:00</lastmod></sitemap><sitemap><loc>https://usergate.com/sitemap-iblock-8.xml</loc><lastmod>2026-04-23T09:29:21+03:00</lastmod></sitemap><sitemap><loc>https://usergate.com/sitemap-iblock-10.xml</loc><lastmod>2025-06-24T13:35:15+00:00</lastmod></sitemap><sitemap><loc>https://usergate.com/sitemap-iblock-11.xml</loc><lastmod>2025-06-24T13:35:15+00:00</lastmod></sitemap></sitemapindex>",
+      "url": "https://usergate.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n<head>\n    <meta name=\"fragment\" content=\"!\">\n    <title></title>\n    <base href=\"/\"><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><link rel=\"icon\" type=\"image/png\" href=\"/f/dist/media/favicons/favicon-96x96.png\" sizes=\"96x96\"/><link rel=\"icon\" type=\"image/svg+xml\" href=\"/f/dist/media/favicons/favicon.svg\"/><link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/f/dist/media/favicons/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/f/dist/media/favicons/apple-touch-icon.png\"/><meta name=\"apple-mobile-web-app-title\" content=\"UserGate\"/><link rel=\"manifest\" href=\"/f/dist/media/favicons/site.webmanifest\"/><script>window.onYandexSmartCaptchaLoad = function () {};</script><script id=\"yandex-smart-captcha-script\" src=\"https://smartcaptcha.cloud.yandex.ru/captcha.js?render=onload&onload=onYandexSmartCaptchaLoad\" defer=\"defer\"></script><script defer=\"defer\" src=\"/f/dist/app.22fe9d6778cefe036301.bundle.js\"></script><link href=\"/f/dist/app.06e30aaf9470fae2ad91.bundle.css\" rel=\"stylesheet\">    <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\"gtm.start\":\nnew Date().getTime(),event:\"gtm.js\"});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!=\"dataLayer\"?\"&l=\"+l:\"\";j.async=true;j.src=\n\"https://www.googletagmanager.com/gtm.js?id=\"+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,\"script\",\"dataLayer\",\"GTM-P6FSGKJ4\");</script>\n<!-- End Google Tag Manager -->    <script>\n        window.alsHost = 'usergate.com';\n    </script>\n</head>\n<body>\n<div id=\"root\"></div><!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P6FSGKJ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) --><script>document.addEventListener(\"click\",(function(t){var e=t.target.closest(\"a[href]\");if(e){var r=e.getAttribute(\"href\")||\"\",a=e.href||\"\";(/^\\/ru\\/.*/i.test(r)||/^https?:\\/\\/[^\\/]*usergate\\.com\\/ru\\/.*/i.test(a))&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(a))}}),!0);</script><script>/^\\/bitrix\\/|^\\/local\\/|^\\/api\\//i.test(location.pathname)||document.addEventListener(\"click\",(function(t){if(!t.defaultPrevented&&!(0!==t.button||t.metaKey||t.ctrlKey||t.shiftKey||t.altKey)){var e=t.target&&t.target.closest&&t.target.closest(\"a[href]\");if(e){var a=e.getAttribute(\"href\")||\"\";if(\"#\"!==a[0]&&!/^(?:mailto|tel|javascript):/i.test(a)){var i;try{i=new URL(a,location.href)}catch(t){return}var r=i.hostname,o=i.pathname,n=i.origin===location.origin,s=/\\.usergate\\.com$/i.test(r),c=/^\\/ru\\/.*/i.test(o),l=/^\\/old(?:\\/|$).*/i.test(o),f=/^support\\.old\\.usergate\\.com$/i.test(r)&&/^\\/ru\\/.*/i.test(o);(n&&(c||l)||s&&(c||l)||f)&&i.href!==location.href&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(i.href))}}}}),!0);</script></body>\n</html>\n",
+      "url": "https://usergate.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!doctype html>\n<html lang=\"ru\">\n<head>\n    <meta name=\"fragment\" content=\"!\">\n    <title></title>\n    <base href=\"/\"><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><link rel=\"icon\" type=\"image/png\" href=\"/f/dist/media/favicons/favicon-96x96.png\" sizes=\"96x96\"/><link rel=\"icon\" type=\"image/svg+xml\" href=\"/f/dist/media/favicons/favicon.svg\"/><link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/f/dist/media/favicons/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/f/dist/media/favicons/apple-touch-icon.png\"/><meta name=\"apple-mobile-web-app-title\" content=\"UserGate\"/><link rel=\"manifest\" href=\"/f/dist/media/favicons/site.webmanifest\"/><script>window.onYandexSmartCaptchaLoad = function () {};</script><script id=\"yandex-smart-captcha-script\" src=\"https://smartcaptcha.cloud.yandex.ru/captcha.js?render=onload&onload=onYandexSmartCaptchaLoad\" defer=\"defer\"></script><script defer=\"defer\" src=\"/f/dist/app.22fe9d6778cefe036301.bundle.js\"></script><link href=\"/f/dist/app.06e30aaf9470fae2ad91.bundle.css\" rel=\"stylesheet\">    <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\"gtm.start\":\nnew Date().getTime(),event:\"gtm.js\"});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!=\"dataLayer\"?\"&l=\"+l:\"\";j.async=true;j.src=\n\"https://www.googletagmanager.com/gtm.js?id=\"+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,\"script\",\"dataLayer\",\"GTM-P6FSGKJ4\");</script>\n<!-- End Google Tag Manager -->    <script>\n        window.alsHost = 'usergate.com';\n    </script>\n</head>\n<body>\n<div id=\"root\"></div><!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P6FSGKJ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) --><script>document.addEventListener(\"click\",(function(t){var e=t.target.closest(\"a[href]\");if(e){var r=e.getAttribute(\"href\")||\"\",a=e.href||\"\";(/^\\/ru\\/.*/i.test(r)||/^https?:\\/\\/[^\\/]*usergate\\.com\\/ru\\/.*/i.test(a))&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(a))}}),!0);</script><script>/^\\/bitrix\\/|^\\/local\\/|^\\/api\\//i.test(location.pathname)||document.addEventListener(\"click\",(function(t){if(!t.defaultPrevented&&!(0!==t.button||t.metaKey||t.ctrlKey||t.shiftKey||t.altKey)){var e=t.target&&t.target.closest&&t.target.closest(\"a[href]\");if(e){var a=e.getAttribute(\"href\")||\"\";if(\"#\"!==a[0]&&!/^(?:mailto|tel|javascript):/i.test(a)){var i;try{i=new URL(a,location.href)}catch(t){return}var r=i.hostname,o=i.pathname,n=i.origin===location.origin,s=/\\.usergate\\.com$/i.test(r),c=/^\\/ru\\/.*/i.test(o),l=/^\\/old(?:\\/|$).*/i.test(o),f=/^support\\.old\\.usergate\\.com$/i.test(r)&&/^\\/ru\\/.*/i.test(o);(n&&(c||l)||s&&(c||l)||f)&&i.href!==location.href&&(t.preventDefault(),t.stopImmediatePropagation(),window.location.assign(i.href))}}}}),!0);</script></body>\n</html>\n",
+      "url": "https://usergate.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "usergate.com",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:42:28.992Z",
+    "score": 28,
+    "grade": "D",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 22.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 5,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 1,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; no h1; html[lang] present; body text 0 words (too low)"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 4,
+            "max": 4,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 200; robots.txt references a Sitemap; sitemap contains this site's URL"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "missing title; missing/too-short meta description; no date signal; body text 0 words (low)"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 1,
+      "l2.sitemap": 4,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

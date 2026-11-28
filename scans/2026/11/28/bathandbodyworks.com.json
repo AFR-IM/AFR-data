@@ -1,0 +1,255 @@
+{
+  "signals": {
+    "domain": "bathandbodyworks.com",
+    "fetchedAt": "2026-11-28T03:06:10.406Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\r\nAllow: *Sites-BathAndBodyWorks-Library*/experiences/*\r\nAllow: *Sites-BathAndBodyWorks-Library*/images/*\r\nDisallow: *Sites-BathAndBodyWorks-Library*\r\nDisallow: *Sites-BathAndBodyWorks-Site*\r\nDisallow: /s?q*\r\nDisallow: /my-account*\r\nDisallow: /my-account/wishlist*\r\nDisallow: /cart*\r\nDisallow: /checkout/shipping*\r\nDisallow: /checkout/billing*\r\nDisallow: /checkout/order*\r\nDisallow: /my-account/registration*\r\nDisallow: /*prefv*%7C*\r\nDisallow: /noname/*\r\n\r\nUser-agent: Robozilla\r\nDisallow: /\r\nUser-agent: yahoo-mmcrawler\r\nDisallow: /\r\nUser-agent: psbot\r\nDisallow: /\r\nUser-agent: asterias\r\nDisallow: /\r\nUser-agent: yahoo-blogs/v3.9\r\nDisallow: /\r\nSitemap: https://www.bathandbodyworks.com/sitemap_index.xml",
+      "url": "https://www.bathandbodyworks.com/robots.txt"
+    },
+    "llms": {
+      "status": 307,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"px-captcha\">\n    <title>Access to this page has been denied</title>\n    \n</head>\n<body>\n    <script>\n        /* PerimeterX assignments */\n        window._pxVid = '';\n        window._pxUuid = 'a6d44e5a-ead8-11f1-bb85-b8f231e57b31';\n        window._pxAppId = 'PXlsXlyYa5';\n        window._pxHostUrl = '/lsXlyYa5/xhr';\n        window._pxCustomLogo = 'https://www.bathandbodyworks.ca/on/demandware.static/-/Sites/default/dwafa3700f/images/logo/logo.svg';\n        window._pxJsClientSrc = '/lsXlyYa5/init.js';\n        window._pxMobile = false;\n        window._pxFirstPartyEnabled = true;\n\n        var pxCaptchaSrc = '/lsXlyYa5/captcha/captcha.js?a=c&u=a6d44e5a-ead8-11f1-bb85-b8f231e57b31&v=&m=0&h=R0VU';\n        var script = document.createElement('script');\n        script.src = pxCaptchaSrc;\n        script.onload = onScriptLoad;\n        script.onerror = onScriptError;\n        var onScriptErrorCalled;\n        document.head.appendChild(script);\n        var timeoutID = setTimeout(onScriptError, 5000);\n        function onScriptLoad() {\n            clearTimeout(timeoutID);\n            setTimeout(function() {\n                if (!isContentLoaded()) {\n                    onScriptError();\n                }\n            }, 2500);\n        }\n        function onScriptError() {\n            if (onScriptErrorCalled) {\n                return;\n            }\n            onScriptErrorCalled = true;\n            script = document.createElement('script');\n            script.src = 'https://captcha.px-cloud.net/PXlsXlyYa5/captcha.js?a=c&u=a6d44e5a-ead8-11f1-bb85-b8f231e57b31&v=&m=0&h=R0VU';\n            script.onload = function() {\n                clearTimeout(timeoutID);\n            };\n            script.onerror = window._pxOnError;\n            document.head.appendChild(script);\n            timeoutID = setTimeout(function() {\n                if (!isContentLoaded()) {\n                    window._pxOnError();\n                }\n            }, 5000);\n        }\n        function isContentLoaded() {\n            return !!document.querySelector('div,span');\n        }\n        window._pxOnError = function () {\n            var style = document.createElement('style');\n            style.innerText = '@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);body{background-color:#fafbfc}.px-captcha-error-container{position:fixed;height:340px;background-color:#fff;font-family:Roboto,sans-serif}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:67px 0 33px;font-weight:500;line-height:.83;text-align:center}.px-captcha-error-message{color:#f0f1f2;font-size:18px;margin:0 0 29px;line-height:1.33;text-align:center}.px-captcha-error-button{text-align:center;line-height:48px;width:253px;margin:auto;border-radius:50px;border:solid 1px #f0f1f2;font-size:20px;color:#f0f1f2}.px-captcha-error-wrapper{margin:18px 0 0}div.px-captcha-error{margin:auto;text-align:center;width:400px;height:30px;font-size:12px;background-color:#fcf0f2;color:#ce0e2d}img.px-captcha-error{margin:6px 8px -2px 0}.px-captcha-error-refid{border-top:solid 1px #f0eeee;height:27px;margin:13px 0 0;border-radius:0 0 3px 3px;background-color:#fafbfc;font-size:10px;line-height:2.5;text-align:center;color:#b1b5b8}@media (min-width:620px){.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (min-width:481px) and (max-width:620px){.px-captcha-error-container{width:85%;top:50%;left:50%;margin-top:-170px;margin-left:-42.5%;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (max-width:480px){body{background-color:#fff}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:55px 0 33px}.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px}.px-captcha-error-refid{position:fixed;width:100%;left:0;bottom:0;border-radius:0;font-size:14px;line-height:2}}@media (max-width:390px){div.px-captcha-error{font-size:10px}.px-captcha-error-refid{font-size:11px;line-height:2.5}}';\n            document.head.appendChild(style);\n            var div = document.createElement('div');\n            div.className = 'px-captcha-error-container';\n            div.innerHTML = '<div class=\"px-captcha-error-header\">Before we continue...</div><div class=\"px-captcha-error-message\">Press & Hold to confirm you are<br>a human (and not a bot).</div><div class=\"px-captcha-error-button\">Press & Hold</div><div class=\"px-captcha-error-wrapper\"><div class=\"px-captcha-error\"><img class=\"px-captcha-error\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAMAAADDGrRQAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABFUExURUdwTNYELOEGONQILd0AONwALtwEL+AAL9MFLfkJSNQGLdMJLdQJLdQGLdQKLtYFLNcELdUGLdcBL9gFL88OLdUFLNEOLglBhT4AAAAXdFJOUwC8CqgNIRgRoAS1dWWuR4RTjzgryZpYblfkcAAAAI9JREFUGNNdj+sWhCAIhAdvqGVa1r7/oy6RZ7eaH3D4ZACBIed9wlOOMtUnSrEmZ6cHa9YAIfsbCkWrdpi/c50Bk2CO9mNLdMAu03wJA3HpEnfpxbyOg6ruyx8JJi6KNstnslp1dbPd9GnqmuYq7mmcv1zjnbQw8cV0xzkqo+fX1zkjUOO7wnrInUTxJiruC3vtBNRoQQn2AAAAAElFTkSuQmCC\">Please check your internet connection' + (window._pxMobile ? '' : ' or disable your ad-blocker') + '.</div></div><div class=\"px-captcha-error-refid\">Reference ID ' + window._pxUuid + '</div>';\n            document.body.appendChild(div);\n            if (window._pxMobile) {\n                setTimeout(function() {\n                    location.href = '/px/captcha_close?status=-1';\n                }, 5000);\n            }\n        };\n    </script>\n    \n</body>\n</html>\n",
+      "url": "https://bathandbodyworks.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 307,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"px-captcha\">\n    <title>Access to this page has been denied</title>\n    \n</head>\n<body>\n    <script>\n        /* PerimeterX assignments */\n        window._pxVid = '';\n        window._pxUuid = 'a6fba5d1-ead8-11f1-be3f-6857b1ed80d0';\n        window._pxAppId = 'PXlsXlyYa5';\n        window._pxHostUrl = '/lsXlyYa5/xhr';\n        window._pxCustomLogo = 'https://www.bathandbodyworks.ca/on/demandware.static/-/Sites/default/dwafa3700f/images/logo/logo.svg';\n        window._pxJsClientSrc = '/lsXlyYa5/init.js';\n        window._pxMobile = false;\n        window._pxFirstPartyEnabled = true;\n\n        var pxCaptchaSrc = '/lsXlyYa5/captcha/captcha.js?a=c&u=a6fba5d1-ead8-11f1-be3f-6857b1ed80d0&v=&m=0&h=R0VU';\n        var script = document.createElement('script');\n        script.src = pxCaptchaSrc;\n        script.onload = onScriptLoad;\n        script.onerror = onScriptError;\n        var onScriptErrorCalled;\n        document.head.appendChild(script);\n        var timeoutID = setTimeout(onScriptError, 5000);\n        function onScriptLoad() {\n            clearTimeout(timeoutID);\n            setTimeout(function() {\n                if (!isContentLoaded()) {\n                    onScriptError();\n                }\n            }, 2500);\n        }\n        function onScriptError() {\n            if (onScriptErrorCalled) {\n                return;\n            }\n            onScriptErrorCalled = true;\n            script = document.createElement('script');\n            script.src = 'https://captcha.px-cloud.net/PXlsXlyYa5/captcha.js?a=c&u=a6fba5d1-ead8-11f1-be3f-6857b1ed80d0&v=&m=0&h=R0VU';\n            script.onload = function() {\n                clearTimeout(timeoutID);\n            };\n            script.onerror = window._pxOnError;\n            document.head.appendChild(script);\n            timeoutID = setTimeout(function() {\n                if (!isContentLoaded()) {\n                    window._pxOnError();\n                }\n            }, 5000);\n        }\n        function isContentLoaded() {\n            return !!document.querySelector('div,span');\n        }\n        window._pxOnError = function () {\n            var style = document.createElement('style');\n            style.innerText = '@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);body{background-color:#fafbfc}.px-captcha-error-container{position:fixed;height:340px;background-color:#fff;font-family:Roboto,sans-serif}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:67px 0 33px;font-weight:500;line-height:.83;text-align:center}.px-captcha-error-message{color:#f0f1f2;font-size:18px;margin:0 0 29px;line-height:1.33;text-align:center}.px-captcha-error-button{text-align:center;line-height:48px;width:253px;margin:auto;border-radius:50px;border:solid 1px #f0f1f2;font-size:20px;color:#f0f1f2}.px-captcha-error-wrapper{margin:18px 0 0}div.px-captcha-error{margin:auto;text-align:center;width:400px;height:30px;font-size:12px;background-color:#fcf0f2;color:#ce0e2d}img.px-captcha-error{margin:6px 8px -2px 0}.px-captcha-error-refid{border-top:solid 1px #f0eeee;height:27px;margin:13px 0 0;border-radius:0 0 3px 3px;background-color:#fafbfc;font-size:10px;line-height:2.5;text-align:center;color:#b1b5b8}@media (min-width:620px){.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (min-width:481px) and (max-width:620px){.px-captcha-error-container{width:85%;top:50%;left:50%;margin-top:-170px;margin-left:-42.5%;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (max-width:480px){body{background-color:#fff}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:55px 0 33px}.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px}.px-captcha-error-refid{position:fixed;width:100%;left:0;bottom:0;border-radius:0;font-size:14px;line-height:2}}@media (max-width:390px){div.px-captcha-error{font-size:10px}.px-captcha-error-refid{font-size:11px;line-height:2.5}}';\n            document.head.appendChild(style);\n            var div = document.createElement('div');\n            div.className = 'px-captcha-error-container';\n            div.innerHTML = '<div class=\"px-captcha-error-header\">Before we continue...</div><div class=\"px-captcha-error-message\">Press & Hold to confirm you are<br>a human (and not a bot).</div><div class=\"px-captcha-error-button\">Press & Hold</div><div class=\"px-captcha-error-wrapper\"><div class=\"px-captcha-error\"><img class=\"px-captcha-error\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAMAAADDGrRQAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABFUExURUdwTNYELOEGONQILd0AONwALtwEL+AAL9MFLfkJSNQGLdMJLdQJLdQGLdQKLtYFLNcELdUGLdcBL9gFL88OLdUFLNEOLglBhT4AAAAXdFJOUwC8CqgNIRgRoAS1dWWuR4RTjzgryZpYblfkcAAAAI9JREFUGNNdj+sWhCAIhAdvqGVa1r7/oy6RZ7eaH3D4ZACBIed9wlOOMtUnSrEmZ6cHa9YAIfsbCkWrdpi/c50Bk2CO9mNLdMAu03wJA3HpEnfpxbyOg6ruyx8JJi6KNstnslp1dbPd9GnqmuYq7mmcv1zjnbQw8cV0xzkqo+fX1zkjUOO7wnrInUTxJiruC3vtBNRoQQn2AAAAAElFTkSuQmCC\">Please check your internet connection' + (window._pxMobile ? '' : ' or disable your ad-blocker') + '.</div></div><div class=\"px-captcha-error-refid\">Reference ID ' + window._pxUuid + '</div>';\n            document.body.appendChild(div);\n            if (window._pxMobile) {\n                setTimeout(function() {\n                    location.href = '/px/captcha_close?status=-1';\n                }, 5000);\n            }\n        };\n    </script>\n    \n</body>\n</html>\n",
+      "url": "https://bathandbodyworks.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 307,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"px-captcha\">\n    <title>Access to this page has been denied</title>\n    \n</head>\n<body>\n    <script>\n        /* PerimeterX assignments */\n        window._pxVid = '';\n        window._pxUuid = 'a71ac5cd-ead8-11f1-a4bf-0aae7893075b';\n        window._pxAppId = 'PXlsXlyYa5';\n        window._pxHostUrl = '/lsXlyYa5/xhr';\n        window._pxCustomLogo = 'https://www.bathandbodyworks.ca/on/demandware.static/-/Sites/default/dwafa3700f/images/logo/logo.svg';\n        window._pxJsClientSrc = '/lsXlyYa5/init.js';\n        window._pxMobile = false;\n        window._pxFirstPartyEnabled = true;\n\n        var pxCaptchaSrc = '/lsXlyYa5/captcha/captcha.js?a=c&u=a71ac5cd-ead8-11f1-a4bf-0aae7893075b&v=&m=0&h=R0VU';\n        var script = document.createElement('script');\n        script.src = pxCaptchaSrc;\n        script.onload = onScriptLoad;\n        script.onerror = onScriptError;\n        var onScriptErrorCalled;\n        document.head.appendChild(script);\n        var timeoutID = setTimeout(onScriptError, 5000);\n        function onScriptLoad() {\n            clearTimeout(timeoutID);\n            setTimeout(function() {\n                if (!isContentLoaded()) {\n                    onScriptError();\n                }\n            }, 2500);\n        }\n        function onScriptError() {\n            if (onScriptErrorCalled) {\n                return;\n            }\n            onScriptErrorCalled = true;\n            script = document.createElement('script');\n            script.src = 'https://captcha.px-cloud.net/PXlsXlyYa5/captcha.js?a=c&u=a71ac5cd-ead8-11f1-a4bf-0aae7893075b&v=&m=0&h=R0VU';\n            script.onload = function() {\n                clearTimeout(timeoutID);\n            };\n            script.onerror = window._pxOnError;\n            document.head.appendChild(script);\n            timeoutID = setTimeout(function() {\n                if (!isContentLoaded()) {\n                    window._pxOnError();\n                }\n            }, 5000);\n        }\n        function isContentLoaded() {\n            return !!document.querySelector('div,span');\n        }\n        window._pxOnError = function () {\n            var style = document.createElement('style');\n            style.innerText = '@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);body{background-color:#fafbfc}.px-captcha-error-container{position:fixed;height:340px;background-color:#fff;font-family:Roboto,sans-serif}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:67px 0 33px;font-weight:500;line-height:.83;text-align:center}.px-captcha-error-message{color:#f0f1f2;font-size:18px;margin:0 0 29px;line-height:1.33;text-align:center}.px-captcha-error-button{text-align:center;line-height:48px;width:253px;margin:auto;border-radius:50px;border:solid 1px #f0f1f2;font-size:20px;color:#f0f1f2}.px-captcha-error-wrapper{margin:18px 0 0}div.px-captcha-error{margin:auto;text-align:center;width:400px;height:30px;font-size:12px;background-color:#fcf0f2;color:#ce0e2d}img.px-captcha-error{margin:6px 8px -2px 0}.px-captcha-error-refid{border-top:solid 1px #f0eeee;height:27px;margin:13px 0 0;border-radius:0 0 3px 3px;background-color:#fafbfc;font-size:10px;line-height:2.5;text-align:center;color:#b1b5b8}@media (min-width:620px){.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (min-width:481px) and (max-width:620px){.px-captcha-error-container{width:85%;top:50%;left:50%;margin-top:-170px;margin-left:-42.5%;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (max-width:480px){body{background-color:#fff}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:55px 0 33px}.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px}.px-captcha-error-refid{position:fixed;width:100%;left:0;bottom:0;border-radius:0;font-size:14px;line-height:2}}@media (max-width:390px){div.px-captcha-error{font-size:10px}.px-captcha-error-refid{font-size:11px;line-height:2.5}}';\n            document.head.appendChild(style);\n            var div = document.createElement('div');\n            div.className = 'px-captcha-error-container';\n            div.innerHTML = '<div class=\"px-captcha-error-header\">Before we continue...</div><div class=\"px-captcha-error-message\">Press & Hold to confirm you are<br>a human (and not a bot).</div><div class=\"px-captcha-error-button\">Press & Hold</div><div class=\"px-captcha-error-wrapper\"><div class=\"px-captcha-error\"><img class=\"px-captcha-error\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAMAAADDGrRQAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABFUExURUdwTNYELOEGONQILd0AONwALtwEL+AAL9MFLfkJSNQGLdMJLdQJLdQGLdQKLtYFLNcELdUGLdcBL9gFL88OLdUFLNEOLglBhT4AAAAXdFJOUwC8CqgNIRgRoAS1dWWuR4RTjzgryZpYblfkcAAAAI9JREFUGNNdj+sWhCAIhAdvqGVa1r7/oy6RZ7eaH3D4ZACBIed9wlOOMtUnSrEmZ6cHa9YAIfsbCkWrdpi/c50Bk2CO9mNLdMAu03wJA3HpEnfpxbyOg6ruyx8JJi6KNstnslp1dbPd9GnqmuYq7mmcv1zjnbQw8cV0xzkqo+fX1zkjUOO7wnrInUTxJiruC3vtBNRoQQn2AAAAAElFTkSuQmCC\">Please check your internet connection' + (window._pxMobile ? '' : ' or disable your ad-blocker') + '.</div></div><div class=\"px-captcha-error-refid\">Reference ID ' + window._pxUuid + '</div>';\n            document.body.appendChild(div);\n            if (window._pxMobile) {\n                setTimeout(function() {\n                    location.href = '/px/captcha_close?status=-1';\n                }, 5000);\n            }\n        };\n    </script>\n    \n</body>\n</html>\n",
+      "url": "https://bathandbodyworks.com/",
+      "title": "Access to this page has been denied",
+      "lang": "en",
+      "meta": {
+        "description": "px-captcha"
+      }
+    },
+    "sitemap": {
+      "status": 307,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"px-captcha\">\n    <title>Access to this page has been denied</title>\n    \n</head>\n<body>\n    <script>\n        /* PerimeterX assignments */\n        window._pxVid = '';\n        window._pxUuid = 'a7372e6b-ead8-11f1-a587-0aae7893075b';\n        window._pxAppId = 'PXlsXlyYa5';\n        window._pxHostUrl = '/lsXlyYa5/xhr';\n        window._pxCustomLogo = 'https://www.bathandbodyworks.ca/on/demandware.static/-/Sites/default/dwafa3700f/images/logo/logo.svg';\n        window._pxJsClientSrc = '/lsXlyYa5/init.js';\n        window._pxMobile = false;\n        window._pxFirstPartyEnabled = true;\n\n        var pxCaptchaSrc = '/lsXlyYa5/captcha/captcha.js?a=c&u=a7372e6b-ead8-11f1-a587-0aae7893075b&v=&m=0&h=R0VU';\n        var script = document.createElement('script');\n        script.src = pxCaptchaSrc;\n        script.onload = onScriptLoad;\n        script.onerror = onScriptError;\n        var onScriptErrorCalled;\n        document.head.appendChild(script);\n        var timeoutID = setTimeout(onScriptError, 5000);\n        function onScriptLoad() {\n            clearTimeout(timeoutID);\n            setTimeout(function() {\n                if (!isContentLoaded()) {\n                    onScriptError();\n                }\n            }, 2500);\n        }\n        function onScriptError() {\n            if (onScriptErrorCalled) {\n                return;\n            }\n            onScriptErrorCalled = true;\n            script = document.createElement('script');\n            script.src = 'https://captcha.px-cloud.net/PXlsXlyYa5/captcha.js?a=c&u=a7372e6b-ead8-11f1-a587-0aae7893075b&v=&m=0&h=R0VU';\n            script.onload = function() {\n                clearTimeout(timeoutID);\n            };\n            script.onerror = window._pxOnError;\n            document.head.appendChild(script);\n            timeoutID = setTimeout(function() {\n                if (!isContentLoaded()) {\n                    window._pxOnError();\n                }\n            }, 5000);\n        }\n        function isContentLoaded() {\n            return !!document.querySelector('div,span');\n        }\n        window._pxOnError = function () {\n            var style = document.createElement('style');\n            style.innerText = '@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);body{background-color:#fafbfc}.px-captcha-error-container{position:fixed;height:340px;background-color:#fff;font-family:Roboto,sans-serif}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:67px 0 33px;font-weight:500;line-height:.83;text-align:center}.px-captcha-error-message{color:#f0f1f2;font-size:18px;margin:0 0 29px;line-height:1.33;text-align:center}.px-captcha-error-button{text-align:center;line-height:48px;width:253px;margin:auto;border-radius:50px;border:solid 1px #f0f1f2;font-size:20px;color:#f0f1f2}.px-captcha-error-wrapper{margin:18px 0 0}div.px-captcha-error{margin:auto;text-align:center;width:400px;height:30px;font-size:12px;background-color:#fcf0f2;color:#ce0e2d}img.px-captcha-error{margin:6px 8px -2px 0}.px-captcha-error-refid{border-top:solid 1px #f0eeee;height:27px;margin:13px 0 0;border-radius:0 0 3px 3px;background-color:#fafbfc;font-size:10px;line-height:2.5;text-align:center;color:#b1b5b8}@media (min-width:620px){.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (min-width:481px) and (max-width:620px){.px-captcha-error-container{width:85%;top:50%;left:50%;margin-top:-170px;margin-left:-42.5%;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (max-width:480px){body{background-color:#fff}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:55px 0 33px}.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px}.px-captcha-error-refid{position:fixed;width:100%;left:0;bottom:0;border-radius:0;font-size:14px;line-height:2}}@media (max-width:390px){div.px-captcha-error{font-size:10px}.px-captcha-error-refid{font-size:11px;line-height:2.5}}';\n            document.head.appendChild(style);\n            var div = document.createElement('div');\n            div.className = 'px-captcha-error-container';\n            div.innerHTML = '<div class=\"px-captcha-error-header\">Before we continue...</div><div class=\"px-captcha-error-message\">Press & Hold to confirm you are<br>a human (and not a bot).</div><div class=\"px-captcha-error-button\">Press & Hold</div><div class=\"px-captcha-error-wrapper\"><div class=\"px-captcha-error\"><img class=\"px-captcha-error\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAMAAADDGrRQAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABFUExURUdwTNYELOEGONQILd0AONwALtwEL+AAL9MFLfkJSNQGLdMJLdQJLdQGLdQKLtYFLNcELdUGLdcBL9gFL88OLdUFLNEOLglBhT4AAAAXdFJOUwC8CqgNIRgRoAS1dWWuR4RTjzgryZpYblfkcAAAAI9JREFUGNNdj+sWhCAIhAdvqGVa1r7/oy6RZ7eaH3D4ZACBIed9wlOOMtUnSrEmZ6cHa9YAIfsbCkWrdpi/c50Bk2CO9mNLdMAu03wJA3HpEnfpxbyOg6ruyx8JJi6KNstnslp1dbPd9GnqmuYq7mmcv1zjnbQw8cV0xzkqo+fX1zkjUOO7wnrInUTxJiruC3vtBNRoQQn2AAAAAElFTkSuQmCC\">Please check your internet connection' + (window._pxMobile ? '' : ' or disable your ad-blocker') + '.</div></div><div class=\"px-captcha-error-refid\">Reference ID ' + window._pxUuid + '</div>';\n            document.body.appendChild(div);\n            if (window._pxMobile) {\n                setTimeout(function() {\n                    location.href = '/px/captcha_close?status=-1';\n                }, 5000);\n            }\n        };\n    </script>\n    \n</body>\n</html>\n",
+      "url": "https://www.bathandbodyworks.com/sitemap_index.xml"
+    },
+    "agentsMd": {
+      "status": 307,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"px-captcha\">\n    <title>Access to this page has been denied</title>\n    \n</head>\n<body>\n    <script>\n        /* PerimeterX assignments */\n        window._pxVid = '';\n        window._pxUuid = 'a75f6c89-ead8-11f1-bf79-b8f231e57b31';\n        window._pxAppId = 'PXlsXlyYa5';\n        window._pxHostUrl = '/lsXlyYa5/xhr';\n        window._pxCustomLogo = 'https://www.bathandbodyworks.ca/on/demandware.static/-/Sites/default/dwafa3700f/images/logo/logo.svg';\n        window._pxJsClientSrc = '/lsXlyYa5/init.js';\n        window._pxMobile = false;\n        window._pxFirstPartyEnabled = true;\n\n        var pxCaptchaSrc = '/lsXlyYa5/captcha/captcha.js?a=c&u=a75f6c89-ead8-11f1-bf79-b8f231e57b31&v=&m=0&h=R0VU';\n        var script = document.createElement('script');\n        script.src = pxCaptchaSrc;\n        script.onload = onScriptLoad;\n        script.onerror = onScriptError;\n        var onScriptErrorCalled;\n        document.head.appendChild(script);\n        var timeoutID = setTimeout(onScriptError, 5000);\n        function onScriptLoad() {\n            clearTimeout(timeoutID);\n            setTimeout(function() {\n                if (!isContentLoaded()) {\n                    onScriptError();\n                }\n            }, 2500);\n        }\n        function onScriptError() {\n            if (onScriptErrorCalled) {\n                return;\n            }\n            onScriptErrorCalled = true;\n            script = document.createElement('script');\n            script.src = 'https://captcha.px-cloud.net/PXlsXlyYa5/captcha.js?a=c&u=a75f6c89-ead8-11f1-bf79-b8f231e57b31&v=&m=0&h=R0VU';\n            script.onload = function() {\n                clearTimeout(timeoutID);\n            };\n            script.onerror = window._pxOnError;\n            document.head.appendChild(script);\n            timeoutID = setTimeout(function() {\n                if (!isContentLoaded()) {\n                    window._pxOnError();\n                }\n            }, 5000);\n        }\n        function isContentLoaded() {\n            return !!document.querySelector('div,span');\n        }\n        window._pxOnError = function () {\n            var style = document.createElement('style');\n            style.innerText = '@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);body{background-color:#fafbfc}.px-captcha-error-container{position:fixed;height:340px;background-color:#fff;font-family:Roboto,sans-serif}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:67px 0 33px;font-weight:500;line-height:.83;text-align:center}.px-captcha-error-message{color:#f0f1f2;font-size:18px;margin:0 0 29px;line-height:1.33;text-align:center}.px-captcha-error-button{text-align:center;line-height:48px;width:253px;margin:auto;border-radius:50px;border:solid 1px #f0f1f2;font-size:20px;color:#f0f1f2}.px-captcha-error-wrapper{margin:18px 0 0}div.px-captcha-error{margin:auto;text-align:center;width:400px;height:30px;font-size:12px;background-color:#fcf0f2;color:#ce0e2d}img.px-captcha-error{margin:6px 8px -2px 0}.px-captcha-error-refid{border-top:solid 1px #f0eeee;height:27px;margin:13px 0 0;border-radius:0 0 3px 3px;background-color:#fafbfc;font-size:10px;line-height:2.5;text-align:center;color:#b1b5b8}@media (min-width:620px){.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (min-width:481px) and (max-width:620px){.px-captcha-error-container{width:85%;top:50%;left:50%;margin-top:-170px;margin-left:-42.5%;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (max-width:480px){body{background-color:#fff}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:55px 0 33px}.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px}.px-captcha-error-refid{position:fixed;width:100%;left:0;bottom:0;border-radius:0;font-size:14px;line-height:2}}@media (max-width:390px){div.px-captcha-error{font-size:10px}.px-captcha-error-refid{font-size:11px;line-height:2.5}}';\n            document.head.appendChild(style);\n            var div = document.createElement('div');\n            div.className = 'px-captcha-error-container';\n            div.innerHTML = '<div class=\"px-captcha-error-header\">Before we continue...</div><div class=\"px-captcha-error-message\">Press & Hold to confirm you are<br>a human (and not a bot).</div><div class=\"px-captcha-error-button\">Press & Hold</div><div class=\"px-captcha-error-wrapper\"><div class=\"px-captcha-error\"><img class=\"px-captcha-error\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAMAAADDGrRQAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABFUExURUdwTNYELOEGONQILd0AONwALtwEL+AAL9MFLfkJSNQGLdMJLdQJLdQGLdQKLtYFLNcELdUGLdcBL9gFL88OLdUFLNEOLglBhT4AAAAXdFJOUwC8CqgNIRgRoAS1dWWuR4RTjzgryZpYblfkcAAAAI9JREFUGNNdj+sWhCAIhAdvqGVa1r7/oy6RZ7eaH3D4ZACBIed9wlOOMtUnSrEmZ6cHa9YAIfsbCkWrdpi/c50Bk2CO9mNLdMAu03wJA3HpEnfpxbyOg6ruyx8JJi6KNstnslp1dbPd9GnqmuYq7mmcv1zjnbQw8cV0xzkqo+fX1zkjUOO7wnrInUTxJiruC3vtBNRoQQn2AAAAAElFTkSuQmCC\">Please check your internet connection' + (window._pxMobile ? '' : ' or disable your ad-blocker') + '.</div></div><div class=\"px-captcha-error-refid\">Reference ID ' + window._pxUuid + '</div>';\n            document.body.appendChild(div);\n            if (window._pxMobile) {\n                setTimeout(function() {\n                    location.href = '/px/captcha_close?status=-1';\n                }, 5000);\n            }\n        };\n    </script>\n    \n</body>\n</html>\n",
+      "url": "https://bathandbodyworks.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 307,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"px-captcha\">\n    <title>Access to this page has been denied</title>\n    \n</head>\n<body>\n    <script>\n        /* PerimeterX assignments */\n        window._pxVid = '';\n        window._pxUuid = 'a98e8a55-ead8-11f1-b577-30eae62ad407';\n        window._pxAppId = 'PXlsXlyYa5';\n        window._pxHostUrl = '/lsXlyYa5/xhr';\n        window._pxCustomLogo = 'https://www.bathandbodyworks.ca/on/demandware.static/-/Sites/default/dwafa3700f/images/logo/logo.svg';\n        window._pxJsClientSrc = '/lsXlyYa5/init.js';\n        window._pxMobile = false;\n        window._pxFirstPartyEnabled = true;\n\n        var pxCaptchaSrc = '/lsXlyYa5/captcha/captcha.js?a=c&u=a98e8a55-ead8-11f1-b577-30eae62ad407&v=&m=0&h=R0VU';\n        var script = document.createElement('script');\n        script.src = pxCaptchaSrc;\n        script.onload = onScriptLoad;\n        script.onerror = onScriptError;\n        var onScriptErrorCalled;\n        document.head.appendChild(script);\n        var timeoutID = setTimeout(onScriptError, 5000);\n        function onScriptLoad() {\n            clearTimeout(timeoutID);\n            setTimeout(function() {\n                if (!isContentLoaded()) {\n                    onScriptError();\n                }\n            }, 2500);\n        }\n        function onScriptError() {\n            if (onScriptErrorCalled) {\n                return;\n            }\n            onScriptErrorCalled = true;\n            script = document.createElement('script');\n            script.src = 'https://captcha.px-cloud.net/PXlsXlyYa5/captcha.js?a=c&u=a98e8a55-ead8-11f1-b577-30eae62ad407&v=&m=0&h=R0VU';\n            script.onload = function() {\n                clearTimeout(timeoutID);\n            };\n            script.onerror = window._pxOnError;\n            document.head.appendChild(script);\n            timeoutID = setTimeout(function() {\n                if (!isContentLoaded()) {\n                    window._pxOnError();\n                }\n            }, 5000);\n        }\n        function isContentLoaded() {\n            return !!document.querySelector('div,span');\n        }\n        window._pxOnError = function () {\n            var style = document.createElement('style');\n            style.innerText = '@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);body{background-color:#fafbfc}.px-captcha-error-container{position:fixed;height:340px;background-color:#fff;font-family:Roboto,sans-serif}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:67px 0 33px;font-weight:500;line-height:.83;text-align:center}.px-captcha-error-message{color:#f0f1f2;font-size:18px;margin:0 0 29px;line-height:1.33;text-align:center}.px-captcha-error-button{text-align:center;line-height:48px;width:253px;margin:auto;border-radius:50px;border:solid 1px #f0f1f2;font-size:20px;color:#f0f1f2}.px-captcha-error-wrapper{margin:18px 0 0}div.px-captcha-error{margin:auto;text-align:center;width:400px;height:30px;font-size:12px;background-color:#fcf0f2;color:#ce0e2d}img.px-captcha-error{margin:6px 8px -2px 0}.px-captcha-error-refid{border-top:solid 1px #f0eeee;height:27px;margin:13px 0 0;border-radius:0 0 3px 3px;background-color:#fafbfc;font-size:10px;line-height:2.5;text-align:center;color:#b1b5b8}@media (min-width:620px){.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (min-width:481px) and (max-width:620px){.px-captcha-error-container{width:85%;top:50%;left:50%;margin-top:-170px;margin-left:-42.5%;border-radius:3px;box-shadow:0 2px 9px -1px rgba(0,0,0,.13)}}@media (max-width:480px){body{background-color:#fff}.px-captcha-error-header{color:#f0f1f2;font-size:29px;margin:55px 0 33px}.px-captcha-error-container{width:530px;top:50%;left:50%;margin-top:-170px;margin-left:-265px}.px-captcha-error-refid{position:fixed;width:100%;left:0;bottom:0;border-radius:0;font-size:14px;line-height:2}}@media (max-width:390px){div.px-captcha-error{font-size:10px}.px-captcha-error-refid{font-size:11px;line-height:2.5}}';\n            document.head.appendChild(style);\n            var div = document.createElement('div');\n            div.className = 'px-captcha-error-container';\n            div.innerHTML = '<div class=\"px-captcha-error-header\">Before we continue...</div><div class=\"px-captcha-error-message\">Press & Hold to confirm you are<br>a human (and not a bot).</div><div class=\"px-captcha-error-button\">Press & Hold</div><div class=\"px-captcha-error-wrapper\"><div class=\"px-captcha-error\"><img class=\"px-captcha-error\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAMAAADDGrRQAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABFUExURUdwTNYELOEGONQILd0AONwALtwEL+AAL9MFLfkJSNQGLdMJLdQJLdQGLdQKLtYFLNcELdUGLdcBL9gFL88OLdUFLNEOLglBhT4AAAAXdFJOUwC8CqgNIRgRoAS1dWWuR4RTjzgryZpYblfkcAAAAI9JREFUGNNdj+sWhCAIhAdvqGVa1r7/oy6RZ7eaH3D4ZACBIed9wlOOMtUnSrEmZ6cHa9YAIfsbCkWrdpi/c50Bk2CO9mNLdMAu03wJA3HpEnfpxbyOg6ruyx8JJi6KNstnslp1dbPd9GnqmuYq7mmcv1zjnbQw8cV0xzkqo+fX1zkjUOO7wnrInUTxJiruC3vtBNRoQQn2AAAAAElFTkSuQmCC\">Please check your internet connection' + (window._pxMobile ? '' : ' or disable your ad-blocker') + '.</div></div><div class=\"px-captcha-error-refid\">Reference ID ' + window._pxUuid + '</div>';\n            document.body.appendChild(div);\n            if (window._pxMobile) {\n                setTimeout(function() {\n                    location.href = '/px/captcha_close?status=-1';\n                }, 5000);\n            }\n        };\n    </script>\n    \n</body>\n</html>\n",
+      "url": "https://bathandbodyworks.com/ai.txt"
+    }
+  },
+  "afr": {
+    "domain": "bathandbodyworks.com",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:06:10.406Z",
+    "score": 21,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 19.5,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 12.5,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 4.50/9 · hybrid 3.00/6 · training 5.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 4,
+            "max": 5,
+            "status": "partial",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 307"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 3,
+            "max": 5,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 307, not a full HTML document or unconverged redirect"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 307; GET /llms-full.txt → HTTP 307; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 307; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 307; llms.txt HTTP 307"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 12.5,
+      "l1.no-tech-wall": 4,
+      "l1.basic-availability": 3,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

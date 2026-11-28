@@ -1,0 +1,261 @@
+{
+  "signals": {
+    "domain": "test-ipv6.com",
+    "fetchedAt": "2026-11-28T03:18:35.021Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.68 (Debian) Server at test-ipv6.com Port 443</address>\n</body></html>\n",
+      "url": "https://test-ipv6.com/robots.txt"
+    },
+    "llms": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.68 (Debian) Server at test-ipv6.com Port 443</address>\n</body></html>\n",
+      "url": "https://test-ipv6.com/llms.txt"
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.68 (Debian) Server at test-ipv6.com Port 443</address>\n</body></html>\n",
+      "url": "https://test-ipv6.com/llms-full.txt"
+    },
+    "homepage": {
+      "status": 200,
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n  <title>Test your IPv6.</title>\n\n  <meta name=\"description\" content='This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address.' /> \n  <meta name=\"keywords\" content=\"test,ipv4,ipv6,isp\" />\n  <meta name=\"y_key\" content=\"6a3ded130c3ff129\" />\n  <meta name=\"viewport\" content=\"width=device-width\">\n  <link rel=\"stylesheet\" href=\"/index.css?version=1.1.1033\" type=\"text/css\" />\n\n  <!-- generic -->\n  <link rel=\"SHORTCUT ICON\" href=\"/images/favicon.ico\" />\n\n  <!-- apple -->\n  <link rel=\"apple-touch-icon\" href=\"/images/favicon-120.png?version=1.1.1033\"/> \n  <link rel=\"apple-touch-icon\" href=\"/images/favicon-128.png?version=1.1.1033\" sizes=\"128x128\"/> \n  <link rel=\"apple-touch-icon\" href=\"/images/favicon-152.png?version=1.1.1033\" sizes=\"152x152\"/> \n  <link rel=\"apple-touch-icon\" href=\"/images/favicon-167.png?version=1.1.1033\" sizes=\"167x167\"/> \n  <link rel=\"apple-touch-icon\" href=\"/images/favicon-180.png?version=1.1.1033\" sizes=\"180x180\"/> \n  <link rel=\"apple-touch-icon\" href=\"/images/favicon-256.png?version=1.1.1033\" sizes=\"256x256\"/> \n  \n  <!-- android -->\n  <link rel=\"icon\" href=\"/images/favicon-256.png?version=1.1.1033\" sizes=\"256x256\"/> \n  <link rel=\"icon\" href=\"/images/favicon-192.png?version=1.1.1033\" sizes=\"192x192\"/> \n  <link rel=\"icon\" href=\"/images/favicon-128.png?version=1.1.1033\" sizes=\"128x128\"/> \n  \n  <!-- touch bar -->\n  <link rel=\"mask-icon\" href=\"/images/website_icon.svg?version=1.1.1033\" color=\"green\"/>\n\n\n  <meta property=\"og:image\" content=\"https://test-ipv6.com/images/snapshot.png\" />\n\n   <script type=\"text/javascript\"  src=\"/site/config.js?version=1.1.1033\"></script>\n   <script type=\"text/javascript\"  src=\"/index.js.en_US?version=1.1.1033\"></script>\n\n\n\n<!--[if IE 6]>\n<script type=\"text/javascript\">\nBrowserName=\"IE6\";\n</script>\n<![endif]-->\n\n\n<script type=\"text/javascript\">\n//  Load help pages inside mini tabs if possible; else\n//  make same function load entire document with real headers\nfunction help_page (url,text) {\n  console.log(\"help_page\")\n\n  if(document.getElementById(\"is_index_page\") !== null) {\n      console.log(\"help_page using help_popup\");\n      GIGO.help_popup(url,text);\n  } else {\n      console.log(\"help_page changing document url\");\n      document.location = url;\n  }\n  return false;\n};\n</script>\n\n\n</head>\n\n<body>\n\n\n<div id=\"navcontainer\">\n<ul id=\"navlist\">\n\n<li><a href=\"/\"\n id=\"current\" >Test IPv6</a></li>\n\n\n\n<li><a href=\"/faq.html\"\n>FAQ</a></li>\n\n\n\n\n\n\n\n<!-- IF this is a page not normally in the banner, put it up this time anyways. -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</ul>\n\n\n</div>\n\n\n<h1 id=\"title\" style=\"margin-bottom:0;\">\n  Test your IPv6 connectivity.\n<span id=\"replay\" class=\"replay\" style=\"display:none\">\n  (Replay)\n</span>\n</h1>\n\n<div id=\"is_index_page\"><!-- used to identify if we're showing index page--></div>\n\n<!-- Do I ever hate the ways that browsers break things with javascript disabled. Can't even count on noscript tags. !-->\n\n<div id=\"noscript\">\n  <p id=\"score0\">JavaScript Required</p>\n  \n  \n  <p>This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing.</p>\n  <p>If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting.</p>\n\n  <p id=\"score1\">Do you use NoScript?</p>\n  <p>\n   If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site.</p>\n\n  <p>You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information.</p>\n</div>\n\n\n<script type=\"text/javascript\">\n jQuery(\"#noscript\").hide();\n try {\n     if (MirrorConfig) {\n         GIGO.test_ipv6_gui();\n     }\n } catch (e) {\n     // 0;\n }\n</script>\n\n\n\n\n<div class=\"tabbox_outside\">\n\n<div id=\"tabnavcontainer\">\n<ul id=\"tabnavlist\">\n\n<li id=\"tabbutton_helpdesk_link\"><a href=\"#\" class=\"tabbutton_helpdesk\"  onclick='return GIGO.tabnav(\"helpdesk\")'>For the Help Desk</a></li>\n<li><a href=\"#\" class=\"tabbutton_main\" id=\"tabcurrent\" onclick='return GIGO.tabnav(\"main\")'>Summary</a></li>\n<li><a href=\"#\" class=\"tabbutton_tests\"  onclick='return GIGO.tabnav(\"tests\")'>Tests Run</a></li>\n<li style=\"display:none\" id=\"tabbutton_mail_link\"><a href=\"#\" class=\"tabbutton_mail\"  onclick='return GIGO.tabnav(\"mail\")'>Share Results / Contact</a></li>\n\n<li id=\"faqtablink\" style=\"display:none\" class=\"navright\"><a href=\"#\" class=\"tabbutton_faq\"  onclick='return GIGO.tabnav(\"faq\")'>FAQ for You</a></li>\n<li id=\"popuptablink\" style=\"display:none\" class=\"navright\"><a href=\"#\" class=\"tabbutton_popup\"  onclick='return GIGO.tabnav(\"popup\")' id=\"href_popup\">Help Popup</a></li>\n\n<li style=\"display:none\" id=\"debuglink\"><a href=\"#\" class=\"tabbutton_debug\"  onclick='return GIGO.tabnav(\"debug\")'>Debug</a></li>\n\n\n\n</ul>\n</div>\n\n\n\n  <div class=\"tabbox_middle\">\n    <div class=\"tabbox_inside\" id=\"tabbox_inside\">\n      <div id=\"tab_main\" style=\"display:block\">\n        <div id=\"tab_main_inside\">\n        \n\n\n  <div id=\"retire\"></div>\n\n  <div id=\"your_ipv4\"></div>\n\n  <div id=\"your_ipv6\"></div>\n\n  <div id=\"your_isp\"></div>\n\n\n  <div id=\"progress_bar\">\n<table class=\"results_wrapper proress_bar\" summary=\"progress bar\" style=\"display:block\">\n<tr>\n  <td class=\"results_left\"><p style=\"margin: 0;\">\n  <img style=\"height: 2em; width: auto;\" src=\"/images/hires_spinner.gif\" alt=\"spinning image\"/>\n  </p></td>\n  <td class=\"results_right\"><span class=\"pb1_text\"> &nbsp; </span></td>\n</tr>\n</table>\n</div>\n\n\n  <div id=\"results\"></div>\n\n  <div id=\"results_eof\"></div>\n  <div id=\"survey\"></div>\n\n\n        </div>\n      </div>\n      <div id=\"tab_tests\" style=\"display:none\">\n        <div id=\"tab_tests_simple\" style=\"display:block\">\n          <!-- START tests.inc -->\n\n\n<div>\n  <p><b>How this test works:</b> Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6.</p>\n  <p>Click to see\n   <a href=\"#\" class=\"tabbutton_xxx\" onclick='return GIGO.tabnav_tests(\"tech\")'>Technical Info</a>\n  </p>\n<hr/>\n</div>\n\n\n    <table cellpadding=\"3\" border=\"0\" summary=\"tests run, and pass/fail\">\n      <tr>\n        <td nowrap=\"nowrap\">Test with IPv4 DNS record</td>\n\n        <td nowrap=\"nowrap\">&nbsp;</td>\n\n        <td nowrap=\"nowrap\">\n          <div id=\"sum_test_a\">\n            pending\n          </div>\n        </td>\n\n      </tr>\n\n      <tr>\n        <td nowrap=\"nowrap\">Test with IPv6 DNS record</td>\n\n        <td nowrap=\"nowrap\">&nbsp;</td>\n\n        <td nowrap=\"nowrap\">\n          <div id=\"sum_test_aaaa\">\n            pending\n          </div>\n        </td>\n\n      </tr>\n\n      <tr>\n        <td nowrap=\"nowrap\">Test with Dual Stack DNS record</td>\n\n        <td nowrap=\"nowrap\">&nbsp;</td>\n\n        <td nowrap=\"nowrap\">\n          <div id=\"sum_test_ds\">\n            pending\n          </div>\n        </td>\n\n      </tr>\n\n      <tr>\n        <td nowrap=\"nowrap\">Test for Dual Stack DNS and large packet</td>\n\n        <td nowrap=\"nowrap\">&nbsp;</td>\n\n        <td nowrap=\"nowrap\">\n          <div id=\"sum_test_dsmtu\">\n            pending\n          </div>\n        </td>\n\n      </tr>\n\n\n      <tr>\n        <td nowrap=\"nowrap\">Test IPv6 large packet</td>\n\n        <td nowrap=\"nowrap\">&nbsp;</td>\n\n        <td nowrap=\"nowrap\">\n          <div id=\"sum_test_v6mtu\">\n            pending\n          </div>\n        </td>\n\n      </tr>\n\n\n      <tr>\n        <td nowrap=\"nowrap\">Test if your ISP's DNS server uses IPv6</td>\n\n        <td nowrap=\"nowrap\">&nbsp;</td>\n\n        <td nowrap=\"nowrap\">\n          <div id=\"sum_test_v6ns\">\n            pending\n          </div>\n        </td>\n\n      </tr>\n\n\n      <tr>\n        <td nowrap=\"nowrap\">Find IPv4 Service Provider</td>\n\n        <td nowrap=\"nowrap\">&nbsp;</td>\n\n        <td nowrap=\"nowrap\">\n          <div id=\"sum_test_asn4\">\n            pending\n          </div>\n        </td>\n\n      </tr>\n\n      <tr>\n        <td nowrap=\"nowrap\">Find IPv6 Service Provider</td>\n\n        <td nowrap=\"nowrap\">&nbsp;</td>\n\n        <td nowrap=\"nowrap\">\n          <div id=\"sum_test_asn6\">\n            pending\n          </div>\n        </td>\n\n      </tr>\n\n\n\n\n\n\n\n    </table>\n\n<div><p>\n  Click to see\n  <a href=\"#\" class=\"tabbutton_mail\"  onclick='return GIGO.tabnav(\"mail\")'>Share Results / Contact</a></p></div>\n\n\n<!-- STOP tests.inc -->\n\n\n        </div>\n        <div id=\"tab_tests_tech\" style=\"display:none\">\n          <!-- START tech.inc -->\n\n\n<div>\n  <p><b>How this test works:</b> Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6.</p>\n  <p>Click to see\n     <a href=\"#\" class=\"tabbutton_xxx\" onclick='return GIGO.tabnav_tests(\"simple\")'>Tests Run</a>\n  </p>\n<hr/>\n</div>\n\n\n    <table cellpadding=\"3\" border=\"0\" summary=\n    \"technical details showing ipv6 browser test\">\n      <tr>\n        <td nowrap=\"nowrap\">\n\n          <div>\n             Test with IPv4 DNS record\n          </div>\n\n          <div id=\"test_a\">\n            pending\n          </div>\n\n          <div id=\"results_a\">\n            -\n          </div>\n        </td>\n\n        <td>\n          <div id=\"detail_a\">\n            Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution.\n          </div>\n        </td>\n      </tr>\n\n      <tr>\n        <td nowrap=\"nowrap\">\n          <div>\n            Test with IPv6 DNS record\n          </div>\n\n          <div id=\"test_aaaa\">\n            pending\n          </div>\n\n          <div id=\"results_aaaa\">\n            -\n          </div>\n        </td>\n\n        <td>\n          <div id=\"detail_aaaa\">\n            Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now.\n          </div>\n        </td>\n      </tr>\n\n\n      <tr>\n        <td nowrap=\"nowrap\">\n          <div>\n            Test with Dual Stack DNS record\n          </div>\n\n          <div id=\"test_ds\">\n            pending\n          </div>\n\n          <div id=\"results_ds\">\n            -\n          </div>\n        </td>\n\n        <td>\n          <div id=\"detail_ds\">\n            <div>This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4).</div>\n            <p><b>If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6.</b></p>\n          </div>\n        </td>\n      </tr>\n\n\n      <tr>\n        <td nowrap=\"nowrap\">\n          <div>\n             Test for Dual Stack DNS and large packet\n          </div>\n\n          <div id=\"test_dsmtu\">\n            pending\n          </div>\n\n          <div id=\"results_dsmtu\">\n            -\n          </div>\n        </td>\n\n        <td>\n          <div id=\"detail_dsmtu\">\n            Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day.\n          </div>\n        </td>\n      </tr>\n\n\n\n\n\n\n\n      <tr>\n        <td nowrap=\"nowrap\">\n          <div>\n            Test IPv6 large packet\n          </div>\n\n          <div id=\"test_v6mtu\">\n            pending\n          </div>\n\n          <div id=\"results_v6mtu\">\n            -\n          </div>\n        </td>\n\n        <td>\n          <div id=\"detail_v6mtu\">\n            Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels.\n            Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall.\n          </div>\n        </td>\n      </tr>\n\n      <tr>\n        <td nowrap=\"nowrap\">\n          <div>\n             Test if your ISP's DNS server uses IPv6\n          </div>\n\n          <div id=\"test_v6ns\">\n            pending\n          </div>\n\n          <div id=\"results_v6ns\">\n            -\n          </div>\n          <div>\n           (This is bonus credit)\n          </div>\n        </td>\n\n        <td>\n          <div id=\"detail_v6ns\">\n            This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6.\n          </div>\n        </td>\n      </tr>\n\n\n      <tr>\n        <td nowrap=\"nowrap\">\n          <div>\n             Find IPv4 Service Provider\n          </div>\n\n          <div id=\"test_asn4\">\n            pending\n          </div>\n\n          <div id=\"results_asn4\">\n            -\n          </div>\n        </td>\n\n        <td>\n          <div id=\"detail_asn4\">\n            Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community.\n          </div>\n        </td>\n      </tr>\n\n\n      <tr>\n        <td nowrap=\"nowrap\">\n          <div>\n             Find IPv6 Service Provider\n          </div>\n\n          <div id=\"test_asn6\">\n            pending\n          </div>\n\n          <div id=\"results_asn6\">\n            -\n          </div>\n        </td>\n\n        <td>\n          <div id=\"detail_asn6\">\n            Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6.\n          </div>\n        </td>\n      </tr>\n\n\n    </table>\n\n  <div id=\"tech_eof\"></div>\n\n<div>\n\n  <hr/>\n  <p> If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test.</p>\n\n</div>\n\n<div><p>\n  Click to see\n  <a href=\"#\" class=\"tabbutton_mail\"  onclick='return GIGO.tabnav(\"mail\")'>Share Results / Contact</a></p></div>\n\n<!-- STOP tech.inc -->\n\n\n        </div>\n      </div>\n      <div id=\"tab_mail\" style=\"display:none\">\n        <!--START mail.inc -->\n\n  <div id=\"comments\" style=\"display:block\">\n\n    <div id=\"comments_wanted\" style=\"display:none\">\n      <p><b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems.</p>\n    </div>\n\n    <div id=\"comments_unwanted\" style=\"display:block\">\n      <p>This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically.\n      This includes your IP address, which is shared with the site administrator in order to answer your questions.\n      Use of this form implies consent.\n      </p>\n    </div>\n\n    <div id=\"comments_faq\" style=\"display:none\">\n      <p><span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form.</p>\n    </div>\n\n\n\n    <div>\n\n      <p>If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report.</p>\n\n      <p class=\"subtle\">Thanks,<br/><a mailto=site.mailto href=\"-\"><span lookup=site.contact>-</span> &lt;<span lookup=site.mailto>-</span>&gt;</a></p>\n\n    </div>\n\n    <div>\n      <form id=\"commentform\" action=\"/comment.php\" method=\"post\" enctype=\"multipart/form-data\" name=\"commentform\"  onsubmit=\"return GIGO.validate_form(this)\" >\n\n\n\n\n\n        <input type=\"hidden\" name=\"form_tab_main\" value=\"\" />\n        <input type=\"hidden\" name=\"form_config\" value=\"\" />\n        <input type=\"hidden\" name=\"form_results\" value=\"\" />\n        <input type=\"hidden\" name=\"form_replay\" value=\"\" />\n        <input type=\"hidden\" name=\"a\" value=\"\" />\n        <input type=\"hidden\" name=\"aaaa\" value=\"\" />\n        <input type=\"hidden\" name=\"ds4\" value=\"\" />\n        <input type=\"hidden\" name=\"ds6\" value=\"\" />\n        <input type=\"hidden\" name=\"ipv4\" value=\"\" />\n        <input type=\"hidden\" name=\"ipv6\" value=\"\" />\n        <input type=\"hidden\" name=\"v6mtu\" value=\"\" />\n        <input type=\"hidden\" name=\"v6ns\" value=\"\" />\n        <input type=\"hidden\" name=\"ip4\" value=\"\" />\n        <input type=\"hidden\" name=\"ip6\" value=\"\" />\n        <input type=\"hidden\" name=\"dsmtu\" value=\"\" />\n        <input type=\"hidden\" name=\"ip6subtype\" value=\"\" />\n        <input type=\"hidden\" name=\"tokens\" value= \"\" />\n        <input type=\"hidden\" name=\"score_transition\" value=\"\" />\n        <input type=\"hidden\" name=\"score_strict\" value=\"\" />\n        <input type=\"hidden\" name=\"nobots\" value=\"\" />\n\t<input type=\"hidden\" name=\"subdomain\" />\n\n\n<table summary=\"enable comment form\">\n          <tr>\n            <td>\n              <b>Purpose for comment</b>:\n            </td><td>\n\n            <select id=\"purpose\" name=\"purpose\" onchange=\"return GIGO.onchange_purpose(this)\">\n<option value=\"-\">Purpose for comment</option>\n<option value=\"questions\">Questions about test results</option>\n<option value=\"bug\">Report a bug with diagnosis or this web site</option>\n<option value=\"isp\">Report problem about slow internet service with your provider\n<option value=\"hacked\">Hacked phone or computer\n<option value=\"hacked\">Being watched by spouse, hackers, mafia, government\n<option value=\"gfw\">Problems with IPv6 in China\n<option value=\"suggestion\">Suggestion</option>\n<option value=\"cheersjeers\">Cheers or Jeers</option>\n</select>\n</td>\n          </tr>\n\n</table>\n\n\n\n<div id=\"response_isp\" class=\"nomail\"   style=\"display:none\">\n<p>Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support.</p>\n</div>\n\n<div id=\"response_hacked\" class=\"nomail\"  style=\"display:none\">\n<p>This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns.</p>\n</div>\n\n<div id=\"response_gfw\" class=\"nomail\" style=\"display:none\">\n<p>This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China.</p>\n</div>\n\n\n\n\n        <table summary=\"contact form\" id=\"contact_form\" style=\"display:none\">\n\n          <tr>\n            <td>&nbsp;</td>\n          </tr>\n\n          <tr>\n            <td>&nbsp;</td>\n          </tr>\n\n          <tr>\n            <td>Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i></td>\n          </tr>\n\n          <tr>\n            <td><input type=\"text\" name=\"contact\" /></td>\n          </tr>\n\n\n          <tr>\n            <td>Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback.</td>\n          </tr>\n\n          <tr>\n            <td>\n            <textarea name=\"notes\" rows=\"8\" cols=\"80\">\n</textarea></td>\n          </tr>\n\n          <tr>\n            <td>\n              <div id=\"help_plugins\" style=\"display:none\">\n                The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser.\n              </div>\n\n              <div id=\"help_generic\" style=\"display:none\">\n                If you are technically minded please cut/paste the output of the following commands:\n                <br/>\n                <code>nslookup -type=txt debug.test-ipv6.com</code><br/>\n                or \n                <code>dig +short txt debug.test-ipv6.com</code><br/>\n                <code>netstat -nr</code><br/>\n                <code>ifconfig -a</code><br/>\n                Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question.\n              </div>\n\n              <div id=\"help_linux\" style=\"display:none\">\n                If you are technically minded please cut/paste the output of the following commands:\n                <br/>\n                <code>nslookup -type=txt debug.test-ipv6.com</code><br/>\n                or \n                <code>dig +short txt debug.test-ipv6.com</code><br/>\n                <code>ip -f inet6 route show</code> <br/>\n                <code>ip -f inet6 addr</code> <br/>\n                Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question.\n              </div>\n\n              <div id=\"help_windows\" style=\"display:none\">\n                If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:\n\t\t<br/>\n                <code>  nslookup -type=txt debug.test-ipv6.com</code><br/>\n                <code>  ipconfig /all</code><br/>\n                <code>  netsh interface ipv6 show route</code><br/>\n                Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question.\n              </div>\n\n\n\n            </td>\n          </tr>\n\n          <tr>\n            <td>\n            <textarea name=\"comments\" rows=\"10\" cols=\"80\">\n</textarea></td>\n          </tr>\n\n          <tr><td>\n            <table><tr><td valign=top>\n              <input type=\"checkbox\" id=\"consent\" name=\"consent\" value=\"given\">\n            </td><td td valign=top class=\"subtle\">\n               I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate.\n             </td></tr></table>\n          </td></tr>\n\n\n          <tr>\n            <td><input type=\"submit\" value=\"Send results\" /></td>\n          </tr>\n        </table>\n      </form>\n    </div>\n  </div>\n\n<!-- STOP mail.inc -->\n\n\n      </div>\n      \n      <div id=\"tab_helpdesk\" style=\"display:none\">\n        <!--START helpdesk.inc -->\n\n<div id=\"helpdesk\" style=\"display:block\">\n\n    <div id=\"helpdesk_content\">\n\n      <div id=\"progress_bar\">\n<table class=\"results_wrapper proress_bar\" summary=\"progress bar\" style=\"display:block\">\n<tr>\n  <td class=\"results_left\"><p style=\"margin: 0;\">\n  <img style=\"height: 2em; width: auto;\" src=\"/images/hires_spinner.gif\" alt=\"spinning image\"/>\n  </p></td>\n  <td class=\"results_right\"><span class=\"pb1_text\"> &nbsp; </span></td>\n</tr>\n</table>\n</div>\n\n\n      <p>Help desk information will follow once the test completes.</p>\n    </div>\n\n</div>\n\n<p></p>\n<p>\n<span style=\"font-size: x-small\">\nMore information about this page, including how to bookmark it:\n<a href=\"/faq_helpdesk.html\">faq_helpdesk.html</a>.</span>\n</p>\n\n\n\n<div id=replayurldiv  style=\"display:none\">\n<hr/>\n<div>\n<p>\nIf your Internet help desk asks you to mail the 'results url', copy and paste the following URL.\nNote that this will share your current numeric Internet Protocol address(es).\nWe do not recommend posting this link on public web sites such as forums.\n</p>\n<div id=replayurl>-</div>\n<p>\nOn most computers, you can right-click the above URL, and select 'Copy'.\n</p>\n</div>\n</div>\n\n\n\n\n\n<!-- STOP helpdesk.inc -->\n\n\n      </div>\n      <!-- Hide these until needed -->\n      <div id=\"tab_faq\" style=\"display:none\">\n      </div>\n      <div id=\"tab_popup\" style=\"display:none\">\n      </div>\n      \n      \n      <div id=\"tab_debug\" style=\"display:none\">\n        \n  <div id=\"debug\" style=\"display:block\">\n\n  \n\n\n\n  <div>Debug info follows.  If requested, you can  <a href=\"#\" class=\"tabbutton_tests\"  onclick='return GIGO.debuggercomments()'>Send this debug info</a> for analysis. </div>\n\n  <div id=\"debug_dump\"></div>\n\n  <div id=\"debug_eof\"></div>\n\n  </div>\n\n\n      </div>\n\n   \n\n    </div>\n  </div>\n</div>\n\n\n\n\n<div id=\"logo\">\n <div id=\"logo_img\"></div>\n <div id=\"logo_operator\"></div>\n</div>\n\n\n<hr/>\n<div id=\"about\">\n<p>  Copyright (C) 2010, 2024 APNIC Labs. All rights reserved.<p/>\n\n<!-- <a href=\"mission.html\">Mission</a> | -->\n<a href=\"/attributions.html\">Attributions</a>\n\n\n\n<br/>\n<!-- Create disclaimer.inc.site to have your own text.\n     Create disclaimer.inc.en-us.site for language specific versions. -->\n\nThis is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner.\n\n</p>\n</div>\n\n\n <script type=\"text/javascript\">\n  $(document).ready(function() {\n    console.log(\"fixup_html.inc\")\n    try { GIGO.fixup_html_per_site_config();} catch(e) {0};\n    console.log(\"fixup_html.inc part 2 \")\n    try { GIGO.fixup_html_per_locale();} catch(e) {console.log(e)};\n  });\n  </script>\n\n\n\n\n\n</body>\n</html>\n\n",
+      "url": "https://test-ipv6.com/",
+      "title": "Test your IPv6.",
+      "lang": "en",
+      "meta": {
+        "description": "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address.",
+        "keywords": "test,ipv4,ipv6,isp"
+      }
+    },
+    "sitemap": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.68 (Debian) Server at test-ipv6.com Port 443</address>\n</body></html>\n",
+      "url": "https://test-ipv6.com/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.68 (Debian) Server at test-ipv6.com Port 443</address>\n</body></html>\n",
+      "url": "https://test-ipv6.com/AGENTS.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.68 (Debian) Server at test-ipv6.com Port 443</address>\n</body></html>\n",
+      "url": "https://test-ipv6.com/ai.txt"
+    },
+    "aiFeatures": {
+      "chatWidget": false,
+      "aiSearch": false,
+      "developerConsole": false
+    }
+  },
+  "afr": {
+    "domain": "test-ipv6.com",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:18:35.021Z",
+    "score": 45,
+    "grade": "C",
+    "state": "scored",
+    "strategyTag": "Unconfigured",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 35,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 25,
+            "max": 25,
+            "status": "pass",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 9.00/9 · hybrid 6.00/6 · training 10.00/10; strategy tag Unconfigured. Unconfigured examples: OAI-SearchBot, Claude-SearchBot, PerplexityBot."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 200"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 5,
+            "max": 5,
+            "status": "pass",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 200, full HTML document returned"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 10,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage has no llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "no JSON-LD blocks"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 5,
+            "max": 8,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "semantic landmarks 0/4; single h1; html[lang] present; body text 1452 words"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 0,
+            "max": 4,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 404; robots.txt unavailable or non-2xx; cannot check Sitemap reference"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 5,
+            "max": 6,
+            "status": "partial",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "title \"Test your IPv6.\"; meta description 118 chars; no date signal; body text 1452 words"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 404; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "fail",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "no in-site chat/assistant; no AI search; no developer console"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 25,
+      "l1.no-tech-wall": 5,
+      "l1.basic-availability": 5,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 5,
+      "l2.sitemap": 0,
+      "l2.content-signals": 5,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}

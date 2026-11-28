@@ -1,0 +1,259 @@
+{
+  "signals": {
+    "domain": "avianca.com",
+    "fetchedAt": "2026-11-28T03:13:38.067Z",
+    "scannerVersion": "scanner-0.3.0",
+    "robots": {
+      "status": 200,
+      "body": "User-agent: *\nAllow: /\n\n# Bloquear archivos internos del CMS (Sharepoint / ASP.NET)\nDisallow: /*editform*\nDisallow: /*newform*\nDisallow: /*_app_bin*\nDisallow: /*App_Browsers*\nDisallow: /*App_Data*\nDisallow: /App_GlobalResources*\nDisallow: /aspnet_client*\nDisallow: /*_controltemplates*\nDisallow: /*_forms*\nDisallow: /*_Forms*\nDisallow: /*_login*\nDisallow: /*_catalogs*\nDisallow: /*_cts*\nDisallow: /*_private*\nDisallow: /*Lists*\nDisallow: /*ReusableContent*\nDisallow: /*WorkflowTasks/\nDisallow: /*SiteCollectionDocuments*\nDisallow: /*SiteCollectionImages*\nDisallow: /*SiteAssets*\nDisallow: /*AnalyticsReports/Forms*\nDisallow: /*Search*\nDisallow: /*Reports%20List*\nDisallow: /*_vti_bin*\nDisallow: /*_vti_pvt*\nDisallow: /*_windows*\nDisallow: /*_wpresources*\nDisallow: /*Documents/Forms*\nDisallow: /*Pages/Forms*\nDisallow: /*Forms*\nDisallow: /base*\nDisallow: /*-base*\nDisallow: /*/base*\n\n# Componentes y configuraciones internas AEM\nDisallow: */footer\nDisallow: */header\nDisallow: */index\nDisallow: */i18\nDisallow: */languagelist\nDisallow: */iata\nDisallow: */environment\nDisallow: */briefofertas\nDisallow: */global\nDisallow: */countireslist\nDisallow: */fragments\nDisallow: */geo-master\nDisallow: */geo-pos-mapping\nDisallow: */geo-umbrella-pos-subresolution\n\n# Rutas internas, perfiles y utilidades\nDisallow: /*/enums/*\nDisallow: /*/utils/*\nDisallow: /*/strategies/*\nDisallow: /*/ChildVisitor/*\nDisallow: /*/Message/*\nDisallow: /*/test-migrationcv\nDisallow: /es/Descarga/\nDisallow: /es/pruebas/\nDisallow: /es/new-shore/\nDisallow: /codigo-promocional/\nDisallow: /style-guide/\n\n# Bloqueo de Booking y Validaciones\nDisallow: /booking/*\nDisallow: /*Check-In?lang*\nDisallow: /es/verificacion/\nDisallow: /en/verification/\nDisallow: /pt/verificacao/\nDisallow: /fr/verification/\n\n# Archivos y multimedia\nDisallow: /content/dam\nDisallow: /media/*\nDisallow: /*.pdf$\nDisallow: /*.swf$\nDisallow: /*404*\n\n# Regiones y Destinos a no indexar (URLs descontinuadas o conflictivas)\nDisallow: /ar/en/*\nDisallow: /es-*\nDisallow: /en-*\nDisallow: /pt-*\nDisallow: /es-sv/call-center.aspx\nDisallow: /es/routes/*\nDisallow: /en/destination-and-offers/destinations/*\nDisallow: /es/ofertas-y-promociones/destinos/*\nDisallow: /es/destinos/*\nDisallow: /en/destinations/*\nDisallow: /pt/destinos/*\nDisallow: /ofertas-destinos/avianca-magazine/\n\n# Consolidación de Parámetros poscode (Bloquea cualquier URL con este parámetro)\nDisallow: /*?poscode=*\nDisallow: /*&poscode=*\n\n\n# ==========================================\n# AI / Answer Engine Crawlers Governance\n# ==========================================\n\n# OpenAI (ChatGPT)\nUser-agent: GPTBot\nUser-agent: OAI-SearchBot\nDisallow: /booking/\nDisallow: /*?poscode=*\nDisallow: /codigo-promocional/\n\n# Google AI (Gemini / AI Overviews)\nUser-agent: Google-Extended\nDisallow: /booking/\nDisallow: /*?poscode=*\nDisallow: /codigo-promocional/\n\n# Anthropic (Claude)\nUser-agent: ClaudeBot\nDisallow: /booking/\nDisallow: /*?poscode=*\nDisallow: /codigo-promocional/\n\n# Perplexity AI\nUser-agent: PerplexityBot\nDisallow: /booking/\nDisallow: /*?poscode=*\nDisallow: /codigo-promocional/\n\n\n# Sitemaps corregidos con la directiva obligatoria\nSitemap: https://www.avianca.com/co/es/sitemap.xml\nSitemap: https://www.avianca.com/ar/es/sitemap.xml\nSitemap: https://www.avianca.com/bo/es/sitemap.xml\nSitemap: https://www.avianca.com/br/es/sitemap.xml\nSitemap: https://www.avianca.com/ca/es/sitemap.xml\nSitemap: https://www.avianca.com/cl/es/sitemap.xml\nSitemap: https://www.avianca.com/cr/es/sitemap.xml\nSitemap: https://www.avianca.com/ec/es/sitemap.xml\nSitemap: https://www.avianca.com/sv/es/sitemap.xml\nSitemap: https://www.avianca.com/es/es/sitemap.xml\nSitemap: https://www.avianca.com/us/es/sitemap.xml\nSitemap: https://www.avianca.com/gt/es/sitemap.xml\nSitemap: https://www.avianca.com/hn/es/sitemap.xml\nSitemap: https://www.avianca.com/mx/es/sitemap.xml\nSitemap: https://www.avianca.com/ni/es/sitemap.xml\nSitemap: https://www.avianca.com/pa/es/sitemap.xml\nSitemap: https://www.avianca.com/py/es/sitemap.xml\nSitemap: https://www.avianca.com/pe/es/sitemap.xml\nSitemap: https://www.avianca.com/uk/es/sitemap.xml\nSitemap: https://www.avianca.com/do/es/sitemap.xml\nSitemap: https://www.avianca.com/uy/es/sitemap.xml\nSitemap: https://www.avianca.com/br/pt/sitemap.xml\nSitemap: https://www.avianca.com/ar/en/sitemap.xml\nSitemap: https://www.avianca.com/br/en/sitemap.xml\nSitemap: https://www.avianca.com/ca/en/sitemap.xml\nSitemap: https://www.avianca.com/co/en/sitemap.xml\nSitemap: https://www.avianca.com/ec/en/sitemap.xml\nSitemap: https://www.avianca.com/gb/en/sitemap.xml\nSitemap: https://www.avianca.com/us/en/sitemap.xml\nSitemap: https://www.avianca.com/sitemap-index.xml\nSitemap: https://www.avianca.com/sitemap-es.xml\nSitemap: https://www.avianca.com/sitemap-en.xml\nSitemap: https://www.avianca.com/sitemap-pt.xml\nSitemap: https://www.avianca.com/sitemap-fr.xml\n",
+      "url": "https://www.avianca.com/robots.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llms": {
+      "status": 404,
+      "body": "\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html>\n  <head>\n    <title>404 </title>\n  </head>\n  <body>\n    <h1>Error 404 </h1>\n    <p></p>\n    <h3>Error 54113</h3>\n    <p>Details: cache-iad-kiad7000036-IAD 1795115316 2290945786</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n",
+      "url": "https://www.avianca.com/llms.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "llmsFull": {
+      "status": 404,
+      "body": "\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html>\n  <head>\n    <title>404 </title>\n  </head>\n  <body>\n    <h1>Error 404 </h1>\n    <p></p>\n    <h3>Error 54113</h3>\n    <p>Details: cache-iad-kiad7000158-IAD 1795661236 1577058781</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n",
+      "url": "https://www.avianca.com/llms-full.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    },
+    "homepage": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;avianca&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;cf66cd17&#46;1795835615&#46;34cf208b\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;cf66cd17&#46;1795835615&#46;34cf208b</P>\n</BODY>\n</HTML>\n",
+      "url": "https://avianca.com/",
+      "title": "Access Denied"
+    },
+    "sitemap": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;avianca&#46;com&#47;co&#47;es&#47;sitemap&#46;xml\" on this server.<P>\nReference&#32;&#35;18&#46;cf66cd17&#46;1795835615&#46;34cf1fce\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;cf66cd17&#46;1795835615&#46;34cf1fce</P>\n</BODY>\n</HTML>\n",
+      "url": "https://www.avianca.com/co/es/sitemap.xml"
+    },
+    "agentsMd": {
+      "status": 403,
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;avianca&#46;com&#47;agents&#46;md\" on this server.<P>\nReference&#32;&#35;18&#46;cf66cd17&#46;1795835615&#46;34cf220d\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;cf66cd17&#46;1795835615&#46;34cf220d</P>\n</BODY>\n</HTML>\n",
+      "url": "https://avianca.com/agents.md"
+    },
+    "openapi": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "apiDocs": {
+      "found": false,
+      "urls": []
+    },
+    "mcp": {
+      "probed": true,
+      "found": false,
+      "urls": []
+    },
+    "aiTxt": {
+      "status": 404,
+      "body": "\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html>\n  <head>\n    <title>404 </title>\n  </head>\n  <body>\n    <h1>Error 404 </h1>\n    <p></p>\n    <h3>Error 54113</h3>\n    <p>Details: cache-iad-khef600084-IAD 1795835618 932747706</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n",
+      "url": "https://www.avianca.com/ai.txt",
+      "challengedStatus": 403,
+      "uaFallback": true
+    }
+  },
+  "afr": {
+    "domain": "avianca.com",
+    "engineVersion": "afr-1.6.0",
+    "scannerVersion": "scanner-0.3.0",
+    "scannedAt": "2026-11-28T03:13:38.067Z",
+    "score": 18,
+    "grade": "F",
+    "state": "scored",
+    "strategyTag": "Middle-Path",
+    "layers": [
+      {
+        "layer": "L1",
+        "name": "Reachability",
+        "awarded": 17.17,
+        "max": 35,
+        "checks": [
+          {
+            "id": "l1.robots.ai-policy",
+            "layer": "L1",
+            "name": "robots.txt AI crawler policy (14 UA families)",
+            "awarded": 17.17,
+            "max": 25,
+            "status": "partial",
+            "evidence": {
+              "source": "robots.txt",
+              "detail": "search-type 6.75/9 · hybrid 3.75/6 · training 6.67/10; strategy tag Middle-Path. Unconfigured examples: Claude-SearchBot, Googlebot, ChatGPT-User."
+            }
+          },
+          {
+            "id": "l1.no-tech-wall",
+            "layer": "L1",
+            "name": "No technical wall for transparent AI UA",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET / (transparent AI UA)",
+              "detail": "GET / → 403 (blocked/challenge page = technical wall)"
+            }
+          },
+          {
+            "id": "l1.basic-availability",
+            "layer": "L1",
+            "name": "Basic availability",
+            "awarded": 0,
+            "max": 5,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /",
+              "detail": "GET / → 403, homepage unavailable"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L2",
+        "name": "Legibility",
+        "awarded": 1,
+        "max": 40,
+        "checks": [
+          {
+            "id": "l2.llms-family",
+            "layer": "L2",
+            "name": "llms.txt family",
+            "awarded": 0,
+            "max": 14,
+            "status": "unknown",
+            "evidence": {
+              "source": "GET /llms.txt, /llms-full.txt, homepage HTML",
+              "detail": "GET /llms.txt → HTTP 404; GET /llms-full.txt → HTTP 404; homepage unavailable; cannot check llms.txt link"
+            }
+          },
+          {
+            "id": "l2.structured-data",
+            "layer": "L2",
+            "name": "Structured data (JSON-LD)",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check JSON-LD"
+            }
+          },
+          {
+            "id": "l2.semantic-html",
+            "layer": "L2",
+            "name": "Semantic HTML",
+            "awarded": 0,
+            "max": 8,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check semantic HTML"
+            }
+          },
+          {
+            "id": "l2.sitemap",
+            "layer": "L2",
+            "name": "Sitemap",
+            "awarded": 1,
+            "max": 4,
+            "status": "partial",
+            "evidence": {
+              "source": "GET /sitemap.xml + robots.txt",
+              "detail": "GET /sitemap.xml → HTTP 403; robots.txt references a Sitemap"
+            }
+          },
+          {
+            "id": "l2.content-signals",
+            "layer": "L2",
+            "name": "Content signals",
+            "awarded": 0,
+            "max": 6,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML",
+              "detail": "homepage unavailable; cannot check content signals"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "L3",
+        "name": "Actionability",
+        "awarded": 0,
+        "max": 25,
+        "checks": [
+          {
+            "id": "l3.public-api",
+            "layer": "L3",
+            "name": "Public API",
+            "awarded": 0,
+            "max": 8,
+            "status": "fail",
+            "evidence": {
+              "source": "llms.txt + homepage HTML + OpenAPI probe",
+              "detail": "no public-API evidence; no API documentation entry point; OpenAPI not found"
+            }
+          },
+          {
+            "id": "l3.agent-instructions",
+            "layer": "L3",
+            "name": "Agent instructions",
+            "awarded": 0,
+            "max": 4,
+            "status": "fail",
+            "evidence": {
+              "source": "GET /agents.md + /llms.txt",
+              "detail": "agents.md HTTP 403; llms.txt HTTP 404"
+            }
+          },
+          {
+            "id": "l3.mcp",
+            "layer": "L3",
+            "name": "MCP interface",
+            "awarded": 0,
+            "max": 6,
+            "status": "fail",
+            "evidence": {
+              "source": "MCP probe",
+              "detail": "MCP probed; no endpoint found"
+            }
+          },
+          {
+            "id": "l3.site-ai-features",
+            "layer": "L3",
+            "name": "In-site AI features",
+            "awarded": 0,
+            "max": 7,
+            "status": "unknown",
+            "evidence": {
+              "source": "homepage HTML heuristics",
+              "detail": "AI features not probed"
+            }
+          }
+        ]
+      }
+    ],
+    "breakdown": {
+      "l1.robots.ai-policy": 17.17,
+      "l1.no-tech-wall": 0,
+      "l1.basic-availability": 0,
+      "l2.llms-family": 0,
+      "l2.structured-data": 0,
+      "l2.semantic-html": 0,
+      "l2.sitemap": 1,
+      "l2.content-signals": 0,
+      "l3.public-api": 0,
+      "l3.agent-instructions": 0,
+      "l3.mcp": 0,
+      "l3.site-ai-features": 0
+    }
+  }
+}
